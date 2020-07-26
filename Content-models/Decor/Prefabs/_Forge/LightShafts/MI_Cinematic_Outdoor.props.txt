@@ -1,0 +1,78 @@
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 980.121
+        ParameterInfo = { Name=EdgeDepth }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 1665.71
+        ParameterInfo = { Name=EdgeDepth_Opacity }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0.814044
+        ParameterInfo = { Name=EdgeStrength }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 5.04095
+        ParameterInfo = { Name=Emissive_Power }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 3
+        ParameterInfo = { Name=Emissive_SinusMin }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0.05
+        ParameterInfo = { Name=Emissive_SinusTempo }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.342773, G=0.374832, B=0.8125, A=1 }
+        ParameterInfo = { Name=Color }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.058756, G=0.066616, B=0.098958, A=1 }
+        ParameterInfo = { Name=EdgeColor }
+    }
+}
+Parent = Material3'Decor/Prefabs/DoorTravel/M_BacklightWithEdges.M_BacklightWithEdges'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

@@ -1,0 +1,68 @@
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Health }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=ShadowMutliply }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0.3
+        ParameterInfo = { Name=ShadowPowerFunction }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'UI/Materials/HotBar2/P1_heartPWOW.P1_heartPWOW'
+        ParameterInfo = { Name=FilledHeartTexture }
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.971673, G=1, B=0.505208, A=1 }
+        ParameterInfo = { Name=HighlightColor }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.89627, G=0.450786, B=0.048172, A=1 }
+        ParameterInfo = { Name=PlayerColour }
+    }
+}
+Parent = Material3'UI/Materials/HotBar2/Heart/heart.heart'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

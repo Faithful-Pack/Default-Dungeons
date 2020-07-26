@@ -1,0 +1,56 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Materials/Items/T_ArrowVFX.T_ArrowVFX'
+        ParameterInfo = { Name=Texture }
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.123234, B=0, A=0 }
+        ParameterInfo = { Name=Blue }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.040124, B=0, A=0 }
+        ParameterInfo = { Name=Green }
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = { R=25, G=1.75795, B=0, A=0 }
+        ParameterInfo = { Name=Red }
+    }
+}
+Parent = Material3'Materials/Items/M_ItemVFX.M_ItemVFX'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

@@ -1,0 +1,118 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Cinematics/T_OrbCorruption.T_OrbCorruption'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient64.T_PixelCircleGradient64'
+    ReferencedTextures[2] = Texture2D'Actors/Characters/Enemies/Illagers/ArchVessel/T_ArchIllagerAvatarSpace.T_ArchIllagerAvatarSpace'
+}
+Expressions[113] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_0'
+    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionTextureSample_0'
+    Expressions[6] = MaterialExpressionVectorParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionTextureSample'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionTextureSample_1'
+    Expressions[14] = MaterialExpressionVectorParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionVectorParameter_1'
+    Expressions[15] = MaterialExpressionTextureSample'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionTextureSample_2'
+    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_1'
+    Expressions[33] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_2'
+    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_3'
+    Expressions[38] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_4'
+    Expressions[42] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_5'
+    Expressions[44] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_6'
+    Expressions[47] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_7'
+    Expressions[54] = MaterialExpressionVectorParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionVectorParameter_2'
+    Expressions[61] = MaterialExpressionTextureSample'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionTextureSample_3'
+    Expressions[64] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_8'
+    Expressions[65] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_9'
+    Expressions[68] = MaterialExpressionTextureSample'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionTextureSample_4'
+    Expressions[71] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_10'
+    Expressions[72] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_11'
+    Expressions[76] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_12'
+    Expressions[78] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_13'
+    Expressions[80] = MaterialExpressionTextureSample'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionTextureSample_5'
+    Expressions[83] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_14'
+    Expressions[84] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_15'
+    Expressions[87] = MaterialExpressionVectorParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionVectorParameter_3'
+    Expressions[88] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_16'
+    Expressions[94] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_17'
+    Expressions[95] = MaterialExpressionScalarParameter'Decor/Prefabs/Cinematics/M_OrbOfCorruption.MaterialExpressionScalarParameter_18'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=0.731361, Name=Corruption, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=OffsetX, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=OffsetY, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=MultiplyX, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=MultiplyY, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=SineTempo, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=SineVariation, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=SineAdd, Group=None }
+    CollectedScalarParameters[8] = { Value=0.0625, Name=RedSpeedX, Group=None }
+    CollectedScalarParameters[9] = { Value=0.0625, Name=RedSpeedY, Group=None }
+    CollectedScalarParameters[10] = { Value=0.05, Name=GreenSpeedX, Group=None }
+    CollectedScalarParameters[11] = { Value=-0.002, Name=GreenSpeedY, Group=None }
+    CollectedScalarParameters[12] = { Value=7, Name=GreenPower, Group=None }
+    CollectedScalarParameters[13] = { Value=4, Name=RedPower, Group=None }
+    CollectedScalarParameters[14] = { Value=0.04, Name=BlueSpeedX, Group=None }
+    CollectedScalarParameters[15] = { Value=0.004, Name=BlueSpeedY, Group=None }
+    CollectedScalarParameters[16] = { Value=7, Name=BluePower, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=AllPower, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=SpeedMaster, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=20.6, G=0, B=25, A=1 }
+        Name = RedVine
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.276042, G=0.0661153, B=0.254751, A=1 }
+        Name = GreenVine
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.276042, G=0.0661153, B=0.254751, A=1 }
+        Name = CorruptedColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.939106, G=0, B=1, A=1 }
+        Name = AllColors
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

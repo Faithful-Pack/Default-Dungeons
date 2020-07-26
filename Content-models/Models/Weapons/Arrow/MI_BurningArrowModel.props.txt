@@ -1,0 +1,60 @@
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Emissive_SinusMin }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 100
+        ParameterInfo = { Name=Emissive_SinusVariation }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=EmissivePower }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=5, G=0.749105, B=0, A=1 }
+        ParameterInfo = { Name=FullEmissive }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=25, G=2.53866, B=0, A=1 }
+        ParameterInfo = { Name=Emissive }
+    }
+}
+Parent = Material3'Models/Weapons/Arrow/M_Arrow.M_Arrow'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

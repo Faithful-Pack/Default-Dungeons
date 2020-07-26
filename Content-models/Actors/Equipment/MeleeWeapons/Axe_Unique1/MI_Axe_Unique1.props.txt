@@ -1,0 +1,68 @@
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.3
+        ParameterInfo = { Name=NaturalEmissive }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Power }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Axe_Unique1/T_Axe_Unique1.T_Axe_Unique1'
+        ParameterInfo = { Name=Albedo }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Axe_Unique1/T_Axe_Unique1_S.T_Axe_Unique1_S'
+        ParameterInfo = { Name=Specular }
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=50, G=5.33615, B=0, A=1 }
+        ParameterInfo = { Name=Emissive }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.255208, G=0.010301, B=0, A=1 }
+        ParameterInfo = { Name=EnchantmentColor }
+    }
+}
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

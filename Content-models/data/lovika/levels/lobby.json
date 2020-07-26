@@ -1,0 +1,745 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "lobby",
+    "objectives": [],
+    "resource-packs": [
+        "SquidCoast"
+    ],
+    "stretches": [
+        {
+            "id": "start",
+            "tiles": [
+                "lobby001"
+            ],
+            "audio-ambience": "audio_1",
+            "prop-density": 2,
+            "prop-groups": [
+                "shopkeeper",
+                "gambler",
+                "questgiver",
+                "dusttrader",
+                "marketentrance",
+                "lootchest1",
+                "lootchest2",
+                "lootchest3",
+                "lootchest4",
+                "lootchest5",
+                "lootchest6",
+                "lootchest7",
+                "lootchest8",
+                "op_jumppads"
+            ]
+        },
+        {
+            "tiles": [
+                "lobby_extended01"
+            ],
+            "audio-ambience": "audio_2",
+            "prop-density": 2,
+            "prop-groups": [
+                "lootchest9"
+            ]
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "greathall",
+            "ambience": "bravo",
+            "stretches": [
+                {
+                    "tiles": [
+                        "greathall"
+                    ],
+                    "audio-ambience": "audio_4"
+                }
+            ],
+            "##loc": "lobby/lobby.json"
+        },
+        {
+            "id": "greathall_mooroom",
+            "ambience": "bravo",
+            "stretches": [
+                {
+                    "tiles": [
+                        "greathall_mooroom"
+                    ],
+                    "audio-ambience": "audio_5"
+                }
+            ],
+            "##loc": "lobby/lobby.json"
+        },
+        {
+            "id": "home",
+            "ambience": "alpha",
+            "stretches": [
+                {
+                    "tiles": [
+                        "lobby_house_lvl1"
+                    ],
+                    "audio-ambience": "audio_3",
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "house_dog"
+                    ]
+                }
+            ],
+            "##loc": "lobby/lobby.json"
+        },
+        {
+            "id": "upstairs",
+            "ambience": "alpha",
+            "stretches": [
+                {
+                    "tiles": [
+                        "lobby_house_lvl2"
+                    ],
+                    "audio-ambience": "audio_3"
+                }
+            ],
+            "##loc": "lobby/lobby.json"
+        }
+    ],
+    "mob-groups": [],
+    "object-groups": [
+        "lobby/objectgroup",
+        "squidcoast/objectgroup"
+    ],
+    "props": [
+        {
+            "id": "market_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not creeperwoods"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "market_unlocked",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "creeperwoods"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "shopkeeper_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "(not pumpkinpastures) and (not highblockhalls)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "shopkeeper_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "(not highblockhalls) and pumpkinpastures"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "shopkeeper_lvl2",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "highblockhalls"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "gambler_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not mooncorecaverns"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "gambler_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "mooncorecaverns"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "questgiver_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not creeperwoods"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "questgiver_lvl2",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "creeperwoods"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "dusttrader_base",
+            "rotations": [
+                0
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "dusttrader_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "mooncorecaverns"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "house_dog_0",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not carried-TastyBone"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "house_dog_1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "carried-TastyBone"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest1",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "creeperwoods and (not lobbychest-1)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest1_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not creeperwoods or lobbychest-1"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest2",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "pumpkinpastures and (not lobbychest-2)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest2_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not pumpkinpastures or lobbychest-2"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest3",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "soggyswamp and (not lobbychest-3)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest3_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not soggyswamp or lobbychest-3"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest4",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "mooncorecaverns and (not lobbychest-4)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest4_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not mooncorecaverns or lobbychest-4"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest5",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "cacticanyon and (not lobbychest-5)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest5_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not cacticanyon or lobbychest-5"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest6",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "fieryforge and (not lobbychest-6)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest6_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not fieryforge or lobbychest-6"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest7",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "deserttemple and (not lobbychest-7)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest7_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not deserttemple or lobbychest-7"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest8",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "highblockhalls and (not lobbychest-8)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest8_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not highblockhalls or lobbychest-8"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest9",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "obsidianpinnacle and (not lobbychest-9)"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest9_empty",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "not obsidianpinnacle or lobbychest-9"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "jumppads",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "obsidianpinnacle"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "jumppads_empty",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not obsidianpinnacle"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        }
+    ],
+    "tiles": [
+        {
+            "id": "lobby001",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "home",
+                    "exit": "*.*.exit",
+                    "dungeons": [
+                        "home"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
+                },
+                {
+                    "door": "greathall_entrance",
+                    "dungeons": [
+                        "greathall"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
+                    "exit": "*.*.entrance"
+                }
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lobby_extended01",
+            "rotations": 0,
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lobby_home",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "exit"
+                }
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "greathall",
+            "rotations": 0,
+            "entry-door": "entrance",
+            "teleports": [
+                {
+                    "door": "entrance",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_CreeperDoor_Inner"
+                },
+                {
+                    "door": "moogate",
+                    "dungeons": [
+                        "greathall_mooroom"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door4x4"
+                }
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lobby_house_lvl1",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "exit"
+                },
+                {
+                    "door": "upstairs",
+                    "dungeons": [
+                        "upstairs"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_2x3"
+                }
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lobby_house_lvl2",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "exit"
+                }
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "greathall_mooroom",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "entrance",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_CreeperDoor_Inner"
+                }
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "shopkeeper",
+            "on-regions": [
+                "*.*.shopkeeper"
+            ],
+            "props": [
+                "shopkeeper_base",
+                "shopkeeper_lvl1",
+                "shopkeeper_lvl2"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "gambler",
+            "on-regions": [
+                "*.*.gambler"
+            ],
+            "props": [
+                "gambler_base",
+                "gambler_lvl1"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "questgiver",
+            "on-regions": [
+                "*.*.questgiver"
+            ],
+            "props": [
+                "questgiver_base",
+                "questgiver_lvl2"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "dusttrader",
+            "on-regions": [
+                "*.*.dusttrader"
+            ],
+            "props": [
+                "dusttrader_base"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "marketentrance",
+            "on-regions": [
+                "*.*.marketentrance"
+            ],
+            "props": [
+                "market_base",
+                "market_unlocked"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "house_dog",
+            "on-regions": [
+                "*.*.house_dog"
+            ],
+            "props": [
+                "house_dog_0",
+                "house_dog_1"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest1",
+            "on-regions": [
+                "*.*.lootchest1"
+            ],
+            "props": [
+                "lootchest1",
+                "lootchest1_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest2",
+            "on-regions": [
+                "*.*.lootchest2"
+            ],
+            "props": [
+                "lootchest2",
+                "lootchest2_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest3",
+            "on-regions": [
+                "*.*.lootchest3"
+            ],
+            "props": [
+                "lootchest3",
+                "lootchest3_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest4",
+            "on-regions": [
+                "*.*.lootchest4"
+            ],
+            "props": [
+                "lootchest4",
+                "lootchest4_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest5",
+            "on-regions": [
+                "*.*.lootchest5"
+            ],
+            "props": [
+                "lootchest5",
+                "lootchest5_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest6",
+            "on-regions": [
+                "*.*.lootchest6"
+            ],
+            "props": [
+                "lootchest6",
+                "lootchest6_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest7",
+            "on-regions": [
+                "*.*.lootchest7"
+            ],
+            "props": [
+                "lootchest7",
+                "lootchest7_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest8",
+            "on-regions": [
+                "*.*.lootchest8"
+            ],
+            "props": [
+                "lootchest8",
+                "lootchest8_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "lootchest9",
+            "on-regions": [
+                "*.*.lootchest9"
+            ],
+            "props": [
+                "lootchest9",
+                "lootchest9_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "op_jumppads",
+            "on-regions": [
+                "*.*.op_jumppads"
+            ],
+            "props": [
+                "jumppads",
+                "jumppads_empty"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "sc_start",
+            "props": [
+                {
+                    "id": "sc_start",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [],
+    "challenges": []
+}

@@ -1,0 +1,48 @@
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 2
+        ParameterInfo = { Name=Wind }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Plants/Foilage/Material/T_Foilage.T_Foilage'
+        ParameterInfo = { Name=Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Plants/Foilage/Material/T_FoilageHueMask.T_FoilageHueMask'
+        ParameterInfo = { Name=HueMask }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.M_FoilageMaster'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

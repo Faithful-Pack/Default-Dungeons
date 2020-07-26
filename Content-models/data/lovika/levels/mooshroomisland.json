@@ -1,0 +1,234 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "MooshroomIsland",
+    "require-matching-doors": false,
+    "object-groups": [
+        "Mycelia/objectgroup"
+    ],
+    "resource-packs": [
+        "Mycelia"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 1,
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            {
+                "id": "mooshroom-group",
+                "weight": 1
+            }
+        ]
+    },
+    "objectives": [
+        {
+            "name": "name_mooshroom_island",
+            "description": "description_moo?",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.objective"
+            }
+        },
+        {
+            "name": "name_mooshroom_island",
+            "description": "description_moo!",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "boss",
+                "interval": 999999999999,
+                "start-time": 1,
+                "rest-interval": 8,
+                "prespawn-mob": "",
+                "is-boss": true,
+                "waves": [
+                    {
+                        "count": 1,
+                        "groups": [
+                            "mooshroomboss"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "name_mooshroom_island",
+            "description": "description_leave_mooshroom_island",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.end"
+            }
+        }
+    ],
+    "stretches": [
+        {
+            "id": "",
+            "tiles": [
+                "myc_start"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1.5
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "random_mycelia"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1.5
+            }
+        },
+        {
+            "id": "",
+            "tiles": [
+                "myc_large_001"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1.5
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "random_mycelia"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1.5
+            }
+        },
+        {
+            "id": "boss",
+            "tiles": [
+                "myc_boss"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1.5
+            }
+        },
+        {
+            "id": "",
+            "tiles": [
+                "myc_end"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1.5
+            }
+        }
+    ],
+    "side-paths": {
+        "probability": 1,
+        "default": {
+            "max-length": [
+                2,
+                4
+            ],
+            "dead-ends": [
+                "myc_dead_001"
+            ],
+            "tile-groups": [
+                "random_mycelia"
+            ]
+        }
+    },
+    "mob-groups": [
+        {
+            "#": "============== MOOSHROOM GROUP ==============",
+            "id": "mooshroom-group",
+            "types": [
+                {
+                    "type": "mooshroom",
+                    "weight": 1
+                }
+            ],
+            "##loc": "Mycelia/shroom_mobs.json"
+        },
+        {
+            "#": "============== MOOSHROOM SOLO ==============",
+            "id": "mooshroom-solo",
+            "types": [
+                {
+                    "type": "mooshroom",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "##loc": "Mycelia/shroom_mobs.json"
+        },
+        {
+            "#": "============== MOOSHROOM MONSTROUSITY ==============",
+            "id": "mooshroomboss",
+            "types": [
+                {
+                    "type": "mooshroommonstrosity",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "##loc": "Mycelia/shroom_mobs.json"
+        }
+    ],
+    "props": [],
+    "tiles": [
+        {
+            "id": "myc_start",
+            "rotations": 0,
+            "##loc": "Mycelia/shroom_tiles.json"
+        },
+        {
+            "id": "myc_boss",
+            "rotations": 0,
+            "entry-door": "enter",
+            "##loc": "Mycelia/shroom_tiles.json"
+        },
+        {
+            "id": "myc_end",
+            "rotations": 0,
+            "##loc": "Mycelia/shroom_tiles.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "deadend",
+            "props": [
+                {
+                    "id": "myc_dead_001",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [
+        {
+            "#": "Random Mycelia",
+            "id": "random_mycelia",
+            "tiles": [
+                "myc_001",
+                "myc_002",
+                "myc_003",
+                "myc_004",
+                "myc_005",
+                "myc_006"
+            ],
+            "##loc": "Mycelia/shroom_tiles.json"
+        }
+    ],
+    "challenges": [],
+    "dungeons": []
+}

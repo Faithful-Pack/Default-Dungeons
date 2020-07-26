@@ -1,0 +1,72 @@
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=EmissiveStrength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 16
+        ParameterInfo = { Name=TextureSize }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 7
+        ParameterInfo = { Name=NumBlocks }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 150
+        ParameterInfo = { Name=LeadingEdgeStrength }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=TrailingEdge }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay.T_RuneRelay'
+        ParameterInfo = { Name=Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay_Mask.T_RuneRelay_Mask'
+        ParameterInfo = { Name=Mask }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.M_RuneActivator'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

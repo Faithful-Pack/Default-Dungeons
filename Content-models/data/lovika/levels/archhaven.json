@@ -1,0 +1,1150 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "ArchHaven",
+    "play-intro": false,
+    "require-matching-doors": false,
+    "resource-packs": [
+        "Jungle"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 0.5,
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "arch-mix",
+            {
+                "id": "pumpkin-casters",
+                "weight": 0.5
+            }
+        ],
+        "density": 1
+    },
+    "objectives": [
+        {
+            "name": "name_under_the_cover",
+            "description": "description_crash_the_gates",
+            "displayMode": "MainObjective",
+            "killgroup": {
+                "mobs": [
+                    4,
+                    "miniarena-singles"
+                ],
+                "reward": [
+                    4,
+                    "emerald"
+                ],
+                "spawn-regions": [
+                    "*.*.kg_spawn01"
+                ],
+                "gate": {
+                    "regions": [
+                        "*.*.kg_gate01"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description__reach_village",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "coast.*.gauntlet01"
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description_get_codex",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/_Interactables/MagicBook/BP_MagicBook",
+                "count": 3,
+                "locations": [
+                    "objectivevillage.*.click"
+                ],
+                "locked-doors": [
+                    "objectivevillage.*.gate"
+                ],
+                "mobs": [
+                    4,
+                    "miniarena-singles"
+                ],
+                "mob-stretch": "objectivevillage"
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description_reach_cave",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "objectivevillage.*.cave"
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description_explore_cave",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "treasurecave.*.insidecave"
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description_find_exit",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "treasurecaveexit.*.caveexit"
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description_find_exit",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "end.*.arenastart"
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description_defeat_the_guards",
+            "arena": {
+                "stretch": "end",
+                "interval": 2,
+                "rest-interval": 1,
+                "start-time": 0.7,
+                "battle-max-duration": 45,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "vindicator-group"
+                    ],
+                    [
+                        2,
+                        "illagercaster-group"
+                    ],
+                    [
+                        3,
+                        "illagerenchanter-group"
+                    ],
+                    [
+                        5,
+                        "illagercaster-group"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "name_under_the_cover",
+            "description": "description_board_ship",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "end.*.objective"
+            }
+        }
+    ],
+    "stretches": [
+        {
+            "tile-groups": [
+                "cape"
+            ],
+            "push-ambience": "echo",
+            "prop-density": 2,
+            "prop-groups": [
+                "prop_decor",
+                "prop_camp"
+            ]
+        },
+        {
+            "id": "start",
+            "tile-groups": [
+                "start"
+            ],
+            "audio-ambience": "audio_2"
+        },
+        {
+            "id": "coast",
+            "tile-groups": [
+                "coast"
+            ],
+            "dead-ends": [
+                "ah_island_deadend001"
+            ],
+            "prop-density": 2,
+            "prop-groups": [
+                "prop_house_large",
+                "prop_watchtower",
+                "prop_fort",
+                "prop_decor",
+                "prop_camp"
+            ],
+            "side-paths": {
+                "probability": 1.2,
+                "default": {
+                    "max-length": [
+                        1,
+                        2
+                    ],
+                    "tile-groups": [
+                        "islands"
+                    ],
+                    "dead-ends": [
+                        "ah_island_deadend001",
+                        "ah_island_deadend002"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "objectivevillage",
+            "push-ambience": "echo",
+            "tile-groups": [
+                "objectivevillage"
+            ],
+            "prop-density": 2,
+            "prop-groups": [
+                "objectivehouse_a",
+                "objectivehouse_b"
+            ]
+        },
+        {
+            "tile-groups": [
+                "caveentrance"
+            ]
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "treasurecave",
+            "ambience": "foxtrot",
+            "audio-ambience": "audio_1",
+            "stretches": [
+                {
+                    "id": "treasurecave",
+                    "tiles": [
+                        "ah_treasurecave_entrance001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_treasurecave_transition01"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "jeti"
+                    ],
+                    "length": 2
+                },
+                {
+                    "tiles": [
+                        "ah_treasurecave_transition02"
+                    ]
+                },
+                {
+                    "id": "treasurecaveexit",
+                    "tiles": [
+                        "ah_treasurecave_exit001"
+                    ]
+                }
+            ],
+            "##loc": "ArchHaven/ArchHaven.json"
+        },
+        {
+            "id": "exit",
+            "ambience": "echo",
+            "audio-ambience": "audio_2",
+            "stretches": [
+                {
+                    "id": "end",
+                    "tiles": [
+                        "ah_creeper_exit001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_coastextension"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_coastextension"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_coastextension"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_coastextension"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_coastextension"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_coastextension"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ah_coastextension"
+                    ]
+                }
+            ],
+            "##loc": "ArchHaven/ArchHaven.json"
+        }
+    ],
+    "mob-groups": [
+        {
+            "#": "============== PUMPKIN MIX ==============",
+            "id": "pumpkin-mix",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "animal",
+                    "weight": 0.5,
+                    "max%": 0.7
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.5,
+                    "max%": 0.4
+                },
+                {
+                    "type": "geomancer",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== ARCH MIX ==============",
+            "id": "arch-mix",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.5,
+                    "max%": 0.4
+                },
+                {
+                    "type": "geomancer",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== SINGLE jackolantern ==============",
+            "id": "jackolantern",
+            "types": [
+                {
+                    "type": "jackolantern",
+                    "weight": 1,
+                    "max%": 0.6
+                }
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== PUMPKIN MIX ==============",
+            "id": "pumpkin-casters",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.2,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                3
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== RANDOM ARENA ==============",
+            "id": "random-arena",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.2,
+                    "max": 0.2
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== ILLAGER EVOKER ==============",
+            "id": "illagercaster-group",
+            "types": [
+                {
+                    "type": "geomancer",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                }
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== ILLAGER ENCHANTER ==============",
+            "id": "illagerenchanter-group",
+            "types": [
+                {
+                    "type": "enchanter",
+                    "weight": 0.3,
+                    "max%": 0.2
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                }
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== VINDICATOR GROUP ==============",
+            "id": "vindicator-group",
+            "types": [
+                {
+                    "type": "vindicator"
+                }
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== MINIARENA SINGLES ==============",
+            "id": "miniarena-singles",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                3
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== Skeleton Singles ==============",
+            "id": "skeleton-singles",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                }
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        },
+        {
+            "#": "============== Evoker Single ==============",
+            "id": "single-evoker",
+            "types": [
+                {
+                    "type": "evoker",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "##loc": "PumpkinPastures/pp_mobs.json"
+        }
+    ],
+    "object-groups": [
+        "archhaven/objectgroup"
+    ],
+    "props": [
+        {
+            "id": "objective_house_a001",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_a002",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_a003",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_a004",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_a005",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_a006",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_a007",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_b001",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_b002",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_b003",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_b004",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_b005",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_b006",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objective_house_b007",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_house_large001",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_house_large002",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_watchtower001",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_watchtower002",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_watchtower003",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_watchtower004",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_watchtower005",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_watchtower006",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_watchtower007",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_fort001",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_fort002",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_fort003",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_fort004",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_fort005",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_prop_fort006",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        }
+    ],
+    "tiles": [
+        {
+            "id": "ah_start001",
+            "entry-door": "enter",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_island002",
+            "rotations": [
+                90
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_island_deadend002",
+            "challenges": [
+                "miniarena_fort"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_coast001",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_forest_a001",
+            "entry-door": "enter",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_forest_a002",
+            "entry-door": "enter",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_forest_a003",
+            "entry-door": "enter",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_villageobjective001",
+            "entry-door": "enter",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_caveentrance001",
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "treasurecave"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_entrance001",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door_Inner"
+                }
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_exit001",
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "exit"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BP_AH_DoorLarge_Inner"
+                }
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_transition01",
+            "entry-door": "enter",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_transition02",
+            "entry-door": "enter",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_jeti01",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_jeti02",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_jeti03",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_treasurecave_jeti04",
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_creeper_exit001",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_AH_DoorLarge"
+                }
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "ah_coastextension",
+            "entry-door": "enter",
+            "##loc": "ArchHaven/ah_tiles.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "objectivehouse_a",
+            "on-regions": [
+                "*.*.prop_house_a"
+            ],
+            "props": [
+                "objective_house_a001",
+                "objective_house_a002",
+                "objective_house_a003",
+                "objective_house_a004",
+                "objective_house_a005",
+                "objective_house_a006",
+                "objective_house_a007"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objectivehouse_b",
+            "on-regions": [
+                "*.*.prop_house_b"
+            ],
+            "props": [
+                "objective_house_b001",
+                "objective_house_b002",
+                "objective_house_b003",
+                "objective_house_b004",
+                "objective_house_b005",
+                "objective_house_b006",
+                "objective_house_b007"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "prop_house_large",
+            "on-regions": [
+                "*.*.prop_house_large"
+            ],
+            "props": [
+                "ah_prop_house_large001",
+                "ah_prop_house_large002"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "prop_watchtower",
+            "on-regions": [
+                "*.*.prop_watchtower"
+            ],
+            "props": [
+                "ah_prop_watchtower001",
+                "ah_prop_watchtower002",
+                "ah_prop_watchtower003",
+                "ah_prop_watchtower004",
+                "ah_prop_watchtower005",
+                "ah_prop_watchtower006",
+                "ah_prop_watchtower007"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "prop_fort",
+            "on-regions": [
+                "*.*.prop_fort"
+            ],
+            "props": [
+                "ah_prop_fort001",
+                "ah_prop_fort002",
+                "ah_prop_fort003",
+                "ah_prop_fort004",
+                "ah_prop_fort005",
+                "ah_prop_fort006"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "prop_decor",
+            "on-regions": [
+                "*.*.prop_decor"
+            ],
+            "props": [
+                "ah_prop_decor001",
+                "ah_prop_decor002",
+                "ah_prop_decor003",
+                "ah_prop_decor004",
+                "ah_prop_decor005",
+                "ah_prop_decor006",
+                "ah_prop_decor007",
+                "ah_prop_decor008",
+                "ah_prop_decor009",
+                "ah_prop_decor010"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "prop_camp",
+            "on-regions": [
+                "*.*.prop_camp"
+            ],
+            "props": [
+                "ah_prop_camp001",
+                "ah_prop_camp002",
+                "ah_prop_camp003",
+                "ah_prop_camp004",
+                "ah_prop_camp005",
+                "ah_prop_camp006"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        }
+    ],
+    "tile-groups": [
+        {
+            "id": "start",
+            "tiles": [
+                "ah_start001"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "cape",
+            "tiles": [
+                "ah_cape001"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "coast",
+            "tiles": [
+                "ah_coast001"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "caveentrance",
+            "tiles": [
+                "ah_caveentrance001"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "forest_a",
+            "tiles": [
+                "ah_forest_a001",
+                "ah_forest_a002",
+                "ah_forest_a003"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "objectivevillage",
+            "tiles": [
+                "ah_villageobjective001"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "islands",
+            "tiles": [
+                "ah_island001",
+                "ah_island002"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        },
+        {
+            "id": "jeti",
+            "tiles": [
+                "ah_treasurecave_jeti01",
+                "ah_treasurecave_jeti02",
+                "ah_treasurecave_jeti03",
+                "ah_treasurecave_jeti04"
+            ],
+            "##loc": "ArchHaven/ah_tiles.json"
+        }
+    ],
+    "challenges": [
+        {
+            "id": "miniarena_fort",
+            "trigger": "*.*.challenge",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "miniarena-singles"
+                    ],
+                    [
+                        1,
+                        "miniarena-singles"
+                    ],
+                    [
+                        1,
+                        "miniarena-singles"
+                    ],
+                    [
+                        1,
+                        "miniarena-singles"
+                    ],
+                    [
+                        1,
+                        "miniarena-singles"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/ArenaEye/BP_ArenaEye",
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "ArchHaven/ah_tiles.json"
+        }
+    ]
+}

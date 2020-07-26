@@ -1,0 +1,68 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/GlowingMushrooms/New/T_MushroomGroundDecal.T_MushroomGroundDecal'
+}
+Expressions[20] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/GlowingMushrooms/New/M_MushroomDecal.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionVectorParameter'Decor/Prefabs/GlowingMushrooms/New/M_MushroomDecal.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/GlowingMushrooms/New/M_MushroomDecal.MaterialExpressionScalarParameter_5'
+    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/GlowingMushrooms/New/M_MushroomDecal.MaterialExpressionScalarParameter_6'
+    Expressions[15] = MaterialExpressionScalarParameter'Decor/Prefabs/GlowingMushrooms/New/M_MushroomDecal.MaterialExpressionScalarParameter_0'
+    Expressions[19] = MaterialExpressionScalarParameter'Decor/Prefabs/GlowingMushrooms/New/M_MushroomDecal.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/GlowingMushrooms/New/T_MushroomGroundDecal.T_MushroomGroundDecal'
+        Name = Base Texture
+        Group = 01 Texture
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=NumTiles, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Glow, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.039216, G=0.035294, B=0.082353, A=0 }
+        Name = ColorOverlay
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

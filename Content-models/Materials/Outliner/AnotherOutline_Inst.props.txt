@@ -1,0 +1,60 @@
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 2
+        ParameterInfo = { Name=Width }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0.12
+        ParameterInfo = { Name=Fill }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterInfo = { Name=Color_2 }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.815256, G=0.83, B=0.767057, A=1 }
+        ParameterInfo = { Name=Color_3 }
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0, G=0.73, B=0.092085, A=0 }
+        ParameterInfo = { Name=Color_4 }
+    }
+}
+Parent = Material3'Materials/Outliner/AnotherOutline.AnotherOutline'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

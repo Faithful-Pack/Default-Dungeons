@@ -1,0 +1,1669 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "SoggySwamp",
+    "play-intro": false,
+    "require-matching-doors": true,
+    "object-groups": [
+        "SoggySwamp/objectgroup",
+        "SoggyCave/objectgroup",
+        "RuneRoom/objectgroup"
+    ],
+    "resource-packs": [
+        "SoggySwamp"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 0.8,
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "skeletons-zombies",
+            "vindicators",
+            "zombies",
+            "witches-vindicators-zombies",
+            "annoying-witches",
+            {
+                "id": "swamp-mobs",
+                "weight": 4
+            }
+        ]
+    },
+    "stretches": [
+        {
+            "id": "startstretch",
+            "tiles": [
+                "ss_side_start"
+            ],
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "skeletons-zombies"
+                ]
+            }
+        },
+        {
+            "id": "outdoor",
+            "tiles": [
+                "ss_001_alt",
+                "ss_002_alt",
+                "ss_003_alt",
+                "ss_004",
+                "ss_005_alt",
+                "ss_007_alt",
+                "ss_008",
+                "ss_010_alt"
+            ],
+            "length": 2
+        },
+        {
+            "id": "entercave",
+            "tiles": [
+                "ss_side_transition"
+            ],
+            "length": 1
+        },
+        {
+            "id": "fillstretch",
+            "tiles": [
+                "ss_side_buffer"
+            ],
+            "length": 6
+        },
+        {
+            "id": "endstretch",
+            "tiles": [
+                "ss_side_falsestart"
+            ],
+            "length": 1
+        },
+        {
+            "id": "outdoorcopy",
+            "tiles": [
+                "ss_001_alt",
+                "ss_002_alt",
+                "ss_003_alt",
+                "ss_004",
+                "ss_005_alt",
+                "ss_007_alt",
+                "ss_008",
+                "ss_010_alt"
+            ],
+            "length": 2
+        },
+        {
+            "id": "entercavecopy",
+            "tiles": [
+                "ss_side_falsetrans"
+            ],
+            "length": 1
+        }
+    ],
+    "objectives": [
+        {
+            "name": "name_the_lost_ruins",
+            "description": "description_find_the_lost_ruins",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.objective1"
+            }
+        },
+        {
+            "name": "name_the_lost_ruins",
+            "description": "description_explore_the_lost_ruins",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "gauntlet": {
+                "end-region": "*.*.ruinobj"
+            }
+        },
+        {
+            "name": "name_the_lost_ruins",
+            "description": "description_explore_the_lost_ruins",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "gauntlet": {
+                "end-region": "*.*.treasury"
+            }
+        },
+        {
+            "name": "name_the_lost_ruins",
+            "description": "description_explore_the_lost_ruins",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "endstretch.*.objective2"
+            }
+        },
+        {
+            "name": "name_the_lost_ruins",
+            "description": "description_return_to_the_rowboat",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_SS_Rowboat",
+                "count": 1,
+                "locations": [
+                    "endstretch.*.endboat"
+                ]
+            }
+        }
+    ],
+    "challenges": [
+        {
+            "id": "sub1_arena",
+            "trigger": "*.*.sub001_arena",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        },
+        {
+            "id": "sub2_arena",
+            "trigger": "*.*.sub002_arena",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        },
+        {
+            "id": "sub3_arena",
+            "trigger": "*.*.sub003_arena",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ],
+                    [
+                        6,
+                        "swamp-mobs"
+                    ],
+                    [
+                        6,
+                        "swamp-mobs"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        },
+        {
+            "id": "sub4_arena",
+            "trigger": "*.*.sub004_arena",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ],
+                    [
+                        6,
+                        "swamp-mobs"
+                    ],
+                    [
+                        6,
+                        "swamp-mobs"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        },
+        {
+            "id": "secret_arena",
+            "trigger": "*.ss_cave_secret2.arenastart",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        1,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        2,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        3,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ],
+                    [
+                        4,
+                        "swamp-mobs"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        },
+        {
+            "id": "secret_clicky",
+            "trigger": "*.ss_cave_secret2.challenge",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_WaterfallGate_SS",
+                "count": 1,
+                "locations": [
+                    "*.ss_cave_secret2.beacon"
+                ],
+                "locked-doors": [
+                    "*.ss_cave_secret2.waterfall"
+                ]
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        },
+        {
+            "id": "gauntlet1",
+            "trigger": "*.*.g1_start",
+            "consider-tiles": "all",
+            "gauntlet": {
+                "end-region": "*.*.g1_end",
+                "gate": {
+                    "object": "Decor/Prefabs/Door/BP_Cave_Multidoor",
+                    "regions": [
+                        "*.*.g1_gate"
+                    ]
+                }
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        },
+        {
+            "id": "gauntlet2",
+            "trigger": "*.*.g2_start",
+            "consider-tiles": "all",
+            "gauntlet": {
+                "end-region": "*.*.g2_end",
+                "gate": {
+                    "object": "Decor/Prefabs/Door/BP_Cave_Multidoor2",
+                    "regions": [
+                        "*.*.g2_gate"
+                    ]
+                }
+            },
+            "##loc": "soggyswamp/soggycave.json"
+        }
+    ],
+    "mob-groups": [
+        {
+            "#": "============== VINDICATORS ==============",
+            "id": "vindicators",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1.5
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== SOLO WITCHES ==============",
+            "id": "solo-witches",
+            "types": [
+                {
+                    "type": "witch",
+                    "min": 2,
+                    "max": 2
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== ZOMBIES ==============",
+            "id": "zombies",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.4
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== SKELETONS, ZOMBIES ==============",
+            "id": "skeletons-zombies",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.5
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== WITCHES, VINDICATORS, ZOMBIES ==============",
+            "id": "witches-vindicators-zombies",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "witch",
+                    "weight": 0.2
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== ANNOYING WITCHES ==============",
+            "id": "annoying-witches",
+            "types": [
+                {
+                    "type": "spider",
+                    "weight": 0.5
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 1.5
+                },
+                {
+                    "type": "witch",
+                    "weight": 0.3,
+                    "max%": 0.3
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== SWAMP MOBS ==============",
+            "id": "swamp-mobs",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "weight": 0.5
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 0.5
+                },
+                {
+                    "type": "slimelarge",
+                    "weight": 0.2,
+                    "max%": 0.5
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.1,
+                    "max%": 0.5
+                },
+                {
+                    "type": "witch",
+                    "weight": 0.4,
+                    "max%": 0.4
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== SPECIAL WITCHES ==============",
+            "id": "witch-special",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "slimelarge",
+                    "weight": 0.4
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.2,
+                    "max%": 0.5
+                },
+                {
+                    "type": "witch",
+                    "weight": 0.2,
+                    "min": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        },
+        {
+            "#": "============== CAULDRON BOSS ==============",
+            "id": "cauldron-boss",
+            "types": [
+                {
+                    "type": "cauldronboss",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_mobs.json"
+        }
+    ],
+    "props": [],
+    "tiles": [
+        {
+            "id": "ss_001",
+            "rotations": 0,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_start_alt",
+            "rotations": 0,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_bosstile_large",
+            "entry-door": "enter",
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_bosstransition",
+            "entry-door": "enter",
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_special001_alt",
+            "entry-door": "enter",
+            "rotations": 0,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_special001_new1",
+            "entry-door": "enter",
+            "rotations": 0,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_special001_new2",
+            "entry-door": "enter",
+            "rotations": 0,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_inventory001",
+            "rotations": 270,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_inventory002",
+            "rotations": 0,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_special002",
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "secret@ss_end",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "runedoor",
+                    "dungeons": [
+                        "runeroom01"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor4x4"
+                }
+            ],
+            "unlock-keys": [
+                "RuneGateDiscovered"
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_end",
+            "rotations": 0,
+            "unlock-keys": [
+                "not RuneGateDiscovered"
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_transition_in",
+            "entry-door": "enter",
+            "rotations": 180,
+            "teleports": [
+                {
+                    "door": "cave_enter",
+                    "exit": "cave_entrance",
+                    "dungeons": [
+                        "swamp_cave"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave_texit",
+            "entry-door": "enter",
+            "rotations": 180,
+            "teleports": [
+                {
+                    "door": "cave_leave",
+                    "exit": "caveend.*.cave_exit",
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_transition_out",
+            "entry-door": "enter",
+            "rotations": 0,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave_enter",
+            "rotations": 180,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave001",
+            "rotations": 180,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave002",
+            "entry-door": "enter",
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave008",
+            "entry-door": "enter",
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_fillstart",
+            "entry-door": "enter",
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave_secret1",
+            "rotations": 90,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave_secret2",
+            "rotations": 90,
+            "entry-door": "enter",
+            "challenges": [
+                "secret_arena",
+                "secret_clicky"
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_cave_secret3",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "leavesecret",
+                    "exit": "*.*.leftsecret",
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_large001_secret",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "entersecret",
+                    "exit": "enteredsecret",
+                    "dungeons": [
+                        "swamp_secret"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/SoggySwamp/BP_SS_Secret_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_transition",
+            "entry-door": "enter",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "enter_transition",
+                    "exit": "entered_transition",
+                    "dungeons": [
+                        "swamp_bonus_hub"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_falsetrans",
+            "rotations": 90,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_hub",
+            "rotations": 90,
+            "challenges": [
+                "gauntlet1",
+                "gauntlet2"
+            ],
+            "teleports": [
+                {
+                    "door": "leavehub",
+                    "exit": "*.*.lefthub",
+                    "dungeons": [
+                        "swamp_bonus_treasury"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                },
+                {
+                    "door": "enter_sub1",
+                    "exit": "entered_sub1",
+                    "dungeons": [
+                        "swamp_bonus_challenge1",
+                        "swamp_bonus_challenge3"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                },
+                {
+                    "door": "enter_sub2",
+                    "exit": "entered_sub2",
+                    "dungeons": [
+                        "swamp_bonus_challenge2",
+                        "swamp_bonus_challenge4"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_sub001",
+            "rotations": 90,
+            "challenges": [
+                "sub1_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "exit_sub1",
+                    "exit": "*.*.exited_sub1",
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_sub002",
+            "rotations": 90,
+            "challenges": [
+                "sub2_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "exit_sub2",
+                    "exit": "*.*.exited_sub2",
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_sub003",
+            "rotations": 180,
+            "challenges": [
+                "sub3_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "exit_sub3",
+                    "exit": "*.*.exited_sub1",
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_sub004",
+            "rotations": 90,
+            "challenges": [
+                "sub4_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "exit_sub4",
+                    "exit": "*.*.exited_sub2",
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_start",
+            "rotations": 90,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_falsestart",
+            "entry-door": "enter",
+            "rotations": 90,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_treasury",
+            "rotations": 270,
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "ss_side_end",
+            "teleports": [
+                {
+                    "door": "end_exit",
+                    "exit": "*.*.exited_new",
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+                }
+            ],
+            "##loc": "soggyswamp/swamp_tiles.json"
+        },
+        {
+            "id": "rr_entrance001",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
+                }
+            ],
+            "##loc": "RuneRoom/rr_tiles.json"
+        },
+        {
+            "id": "rr_runeroom001",
+            "rotations": 90,
+            "##loc": "RuneRoom/rr_tiles.json"
+        },
+        {
+            "id": "rralt_entrance001",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
+                }
+            ],
+            "##loc": "RuneRoom/rr_tiles.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "rr_rockprops",
+            "on-regions": [
+                "*.*.rr_rockprops"
+            ],
+            "props": [
+                "rr_rockprop01",
+                "rr_rockprop02",
+                "rr_rockprop03",
+                "rr_rockprop04",
+                "rr_rockprop05",
+                "rr_rockprop06",
+                "rr_rockprop07",
+                "rr_rockprop08"
+            ],
+            "##loc": "RuneRoom/rr_tiles.json"
+        },
+        {
+            "id": "ss_004",
+            "props": [
+                {
+                    "id": "ss_004",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ss_008",
+            "props": [
+                {
+                    "id": "ss_008",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "deadend",
+            "props": [
+                {
+                    "id": "ss_dead_001",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_dead_002",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_dead_003",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_dead004",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_cave_dead001",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_cave_dead002",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_cave_dead003",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_cave_dead005",
+                    "weight": 1
+                },
+                {
+                    "id": "ss_cave_dead004",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [],
+    "dungeons": [
+        {
+            "id": "runeroom01",
+            "ambience": "delta",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "rralt_entrance001"
+                    ],
+                    "audio-ambience": "audio_1"
+                }
+            ],
+            "##loc": "runeroom/rr_dungeons.json"
+        },
+        {
+            "id": "runeroom02",
+            "ambience": "delta",
+            "stretches": [
+                {
+                    "tiles": [
+                        "rr_entrance001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "rr_tile001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "rr_runeroom001"
+                    ]
+                }
+            ],
+            "##loc": "runeroom/rr_dungeons.json"
+        },
+        {
+            "id": "swamp_bonus_hub",
+            "ambience": "alpha",
+            "audio-ambience": "audio_3",
+            "stretches": [
+                {
+                    "id": "hubtransition",
+                    "tiles": [
+                        "ss_side_hubtransition"
+                    ],
+                    "length": 1
+                },
+                {
+                    "id": "hub",
+                    "tiles": [
+                        "ss_side_hub"
+                    ],
+                    "length": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_bonus_hub.json"
+        },
+        {
+            "id": "swamp_bonus_challenge1",
+            "ambience": "alpha",
+            "audio-ambience": "audio_9",
+            "stretches": [
+                {
+                    "id": "subdungeon1",
+                    "tiles": [
+                        "ss_side_sub001"
+                    ],
+                    "length": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_bonus_challenge1.json"
+        },
+        {
+            "id": "swamp_bonus_challenge2",
+            "ambience": "alpha",
+            "audio-ambience": "audio_9",
+            "stretches": [
+                {
+                    "id": "subdungeon1",
+                    "tiles": [
+                        "ss_side_sub002"
+                    ],
+                    "length": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_bonus_challenge2.json"
+        },
+        {
+            "id": "swamp_bonus_challenge3",
+            "ambience": "alpha",
+            "audio-ambience": "audio_9",
+            "stretches": [
+                {
+                    "id": "subdungeon1",
+                    "tiles": [
+                        "ss_side_sub003"
+                    ],
+                    "length": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_bonus_challenge3.json"
+        },
+        {
+            "id": "swamp_bonus_challenge4",
+            "ambience": "alpha",
+            "audio-ambience": "audio_9",
+            "stretches": [
+                {
+                    "id": "subdungeon1",
+                    "tiles": [
+                        "ss_side_sub004"
+                    ],
+                    "length": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_bonus_challenge4.json"
+        },
+        {
+            "id": "swamp_bonus_treasury",
+            "ambience": "alpha",
+            "audio-ambience": "audio_9",
+            "stretches": [
+                {
+                    "id": "reward",
+                    "tiles": [
+                        "ss_side_treasury"
+                    ],
+                    "length": 1
+                },
+                {
+                    "id": "end",
+                    "tiles": [
+                        "ss_side_end"
+                    ],
+                    "length": 1
+                }
+            ],
+            "##loc": "soggyswamp/swamp_bonus_treasury.json"
+        },
+        {
+            "id": "swamp_cave",
+            "ambience": "alpha",
+            "audio-ambience": "audio_3",
+            "stretches": [
+                {
+                    "id": "cave_start",
+                    "tiles": [
+                        "ss_cave_enter"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "hh_cave_dead001"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    },
+                    "side-paths": {
+                        "probability": 0.6,
+                        "default": {
+                            "max-length": [
+                                2,
+                                3
+                            ],
+                            "dead-ends": [
+                                "ss_cave_dead001",
+                                "ss_cave_dead002",
+                                "ss_cave_dead003",
+                                "ss_cave_dead004",
+                                "ss_cave_dead005"
+                            ],
+                            "tiles": [
+                                "ss_cave_small007",
+                                "ss_cave_small008",
+                                "ss_cave_small009",
+                                "ss_cave_small010",
+                                "ss_cave_small011",
+                                "ss_cave_small012",
+                                "ss_cave_small013",
+                                "ss_cave_small014"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cave_small01",
+                    "tiles": [
+                        "ss_cave_small007",
+                        "ss_cave_small008",
+                        "ss_cave_small009",
+                        "ss_cave_small010",
+                        "ss_cave_small011",
+                        "ss_cave_small012",
+                        "ss_cave_small013",
+                        "ss_cave_small014"
+                    ],
+                    "length": 3,
+                    "dead-ends": [
+                        "ss_cave_dead001"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    },
+                    "side-paths": {
+                        "probability": 0.6,
+                        "default": {
+                            "max-length": [
+                                2,
+                                3
+                            ],
+                            "dead-ends": [
+                                "ss_cave_dead001",
+                                "ss_cave_dead002",
+                                "ss_cave_dead003",
+                                "ss_cave_dead004",
+                                "ss_cave_dead005"
+                            ],
+                            "tiles": [
+                                "ss_cave_small007",
+                                "ss_cave_small008",
+                                "ss_cave_small009",
+                                "ss_cave_small010",
+                                "ss_cave_small011",
+                                "ss_cave_small012",
+                                "ss_cave_small013",
+                                "ss_cave_small014"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cave_transition01",
+                    "tiles": [
+                        "ss_cave_fromsmall"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                },
+                {
+                    "id": "cave_medium01",
+                    "tiles": [
+                        "ss_cave_m001",
+                        "ss_cave_m002",
+                        "ss_cave_m003"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    },
+                    "side-paths": {
+                        "probability": 0.6,
+                        "default": {
+                            "max-length": [
+                                2,
+                                3
+                            ],
+                            "dead-ends": [
+                                "hh_cave_dead001",
+                                "ss_cave_dead002",
+                                "ss_cave_dead003",
+                                "ss_cave_dead004",
+                                "ss_cave_dead005"
+                            ],
+                            "tiles": [
+                                "ss_cave_small007",
+                                "ss_cave_small008",
+                                "ss_cave_small009",
+                                "ss_cave_small010",
+                                "ss_cave_small011",
+                                "ss_cave_small012",
+                                "ss_cave_small013",
+                                "ss_cave_small014"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cave_large_lower01",
+                    "tiles": [
+                        "ss_cave001"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                },
+                {
+                    "id": "cave_large_transition01",
+                    "tiles": [
+                        "ss_cave002"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                },
+                {
+                    "id": "cave_large_upper01",
+                    "tiles": [
+                        "ss_cave003",
+                        "ss_cave004",
+                        "ss_cave005",
+                        "ss_cave006",
+                        "ss_cave007"
+                    ],
+                    "length": 2,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    },
+                    "side-paths": {
+                        "probability": 0.6,
+                        "default": {
+                            "max-length": [
+                                2,
+                                3
+                            ],
+                            "dead-ends": [
+                                "hh_cave_dead001",
+                                "ss_cave_dead002",
+                                "ss_cave_dead003",
+                                "ss_cave_dead004",
+                                "ss_cave_dead005"
+                            ],
+                            "tiles": [
+                                "ss_cave003",
+                                "ss_cave004",
+                                "ss_cave005",
+                                "ss_cave006",
+                                "ss_cave007"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cave_large_transition02",
+                    "tiles": [
+                        "ss_cave008"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                },
+                {
+                    "id": "cave_small02",
+                    "tiles": [
+                        "ss_cave_small007",
+                        "ss_cave_small008",
+                        "ss_cave_small009",
+                        "ss_cave_small010",
+                        "ss_cave_small011",
+                        "ss_cave_small012",
+                        "ss_cave_small013",
+                        "ss_cave_small014"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    },
+                    "side-paths": {
+                        "probability": 0.6,
+                        "default": {
+                            "max-length": [
+                                2,
+                                3
+                            ],
+                            "dead-ends": [
+                                "hh_cave_dead001",
+                                "ss_cave_dead002",
+                                "ss_cave_dead003",
+                                "ss_cave_dead004",
+                                "ss_cave_dead005"
+                            ],
+                            "tiles": [
+                                "ss_cave_small007",
+                                "ss_cave_small008",
+                                "ss_cave_small009",
+                                "ss_cave_small010",
+                                "ss_cave_small011",
+                                "ss_cave_small012",
+                                "ss_cave_small013",
+                                "ss_cave_small014"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cave_exit",
+                    "tiles": [
+                        "ss_cave_texit"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                }
+            ],
+            "##loc": "soggyswamp/swamp_cave.json"
+        },
+        {
+            "id": "swamp_secret",
+            "ambience": "alpha",
+            "stretches": [
+                {
+                    "id": "secret_start",
+                    "tiles": [
+                        "ss_cave_secret1"
+                    ],
+                    "length": 1,
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                },
+                {
+                    "id": "secret_arena",
+                    "tiles": [
+                        "ss_cave_secret2"
+                    ],
+                    "length": 1,
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                },
+                {
+                    "id": "secret_end",
+                    "tiles": [
+                        "ss_cave_secret3"
+                    ],
+                    "length": 1,
+                    "dead-ends": [
+                        "ss_cave_dead001",
+                        "ss_cave_dead002",
+                        "ss_cave_dead003",
+                        "ss_cave_dead004",
+                        "ss_cave_dead005"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "swamp-mobs"
+                        ],
+                        "density": 0.5
+                    }
+                }
+            ],
+            "##loc": "soggyswamp/swamp_secret.json"
+        }
+    ]
+}

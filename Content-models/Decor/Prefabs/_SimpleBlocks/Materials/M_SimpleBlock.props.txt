@@ -1,0 +1,109 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_HayBlock.T_HayBlock'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+}
+Expressions[42] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[2] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_3'
+    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_4'
+    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_1'
+    Expressions[14] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_2'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_7'
+    Expressions[22] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_8'
+    Expressions[25] = MaterialExpressionVectorParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionVectorParameter_4'
+    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_5'
+    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[34] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[36] = MaterialExpressionVectorParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionVectorParameter_0'
+    Expressions[38] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[40] = MaterialExpressionScalarParameter'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.MaterialExpressionScalarParameter_9'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_HayBlock.T_HayBlock'
+        Name = Texture
+        Group = Texture
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_HayBlock.T_HayBlock'
+        Name = Spec
+        Group = Texture
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+        Name = ShineTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_HayBlock.T_HayBlock'
+        Name = ShineMask
+        Group = Texture
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Spec, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=OffsetX, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=OffsetY, Group=None }
+    CollectedScalarParameters[4] = { Value=64, Name=Size, Group=None }
+    CollectedScalarParameters[5] = { Value=-0.5, Name=SpeedX, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=SpeedY, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Shine, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=SpecMapMultiply, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1.93056, B=1.77854, A=1 }
+        Name = ShineColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = NaturalEmissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

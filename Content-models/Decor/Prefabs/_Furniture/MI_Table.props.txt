@@ -1,0 +1,56 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table.T_Table'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table_Colormask.T_Table_Colormask'
+        ParameterInfo = { Name=08 Mask }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table_Spec.T_Table_Spec'
+        ParameterInfo = { Name=03 Specular Alpha }
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.371238, G=0.024158, B=0.033105, A=1 }
+        ParameterInfo = { Name=07 Color }
+    }
+}
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

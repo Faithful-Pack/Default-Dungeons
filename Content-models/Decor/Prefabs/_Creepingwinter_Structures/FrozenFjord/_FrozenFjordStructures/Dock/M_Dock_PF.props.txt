@@ -1,0 +1,60 @@
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.5
+        ParameterInfo = { Name=04 Specular Strength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0.7
+        ParameterInfo = { Name=05 Roughness Strength }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 15
+        ParameterInfo = { Name=06 Specular ScreenStr }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/Dock/T_FFJDock.T_FFJDock'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/Dock/T_FFJDock_SAlpha.T_FFJDock_SAlpha'
+        ParameterInfo = { Name=03 Specular Alpha }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_Pulley_PF.M_Pulley_PF'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

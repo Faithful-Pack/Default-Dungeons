@@ -1,0 +1,48 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern06.T_Urn_Loot_New_Pattern06'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern06_Spec.T_Urn_Loot_New_Pattern06_Spec'
+        ParameterInfo = { Name=03 Specular Alpha }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_EM.T_Urn_Loot_New_EM'
+        ParameterInfo = { Name=03 Emissive }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = MaterialInstanceConstant'Decor/Prefabs/_Urns/LootUrnsTests/MI_Urn_Loot_New_Pattern03.MI_Urn_Loot_New_Pattern03'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

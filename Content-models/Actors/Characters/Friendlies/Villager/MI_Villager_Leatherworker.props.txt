@@ -1,0 +1,48 @@
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 2500
+        ParameterInfo = { Name=EnchantedEye }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Characters/Friendlies/Villager/T_Villager_S.T_Villager_S'
+        ParameterInfo = { Name=Specular }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Characters/Friendlies/Villager/T_Villager_Leatherworker.T_Villager_Leatherworker'
+        ParameterInfo = { Name=Texture }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.1
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

@@ -1,0 +1,92 @@
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.1
+        ParameterInfo = { Name=EmissiveB_SinusTempo }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 3
+        ParameterInfo = { Name=EmissiveB_SinusVariation }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 10
+        ParameterInfo = { Name=EmissiveBPower }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = -100
+        ParameterInfo = { Name=Flash Timestamp }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Wicked_Wraith/T_Wicked_Wraith_E_01.T_Wicked_Wraith_E_01'
+        ParameterInfo = { Name=Specular }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Wicked_Wraith/T_Wicked_Wraith_01.T_Wicked_Wraith_01'
+        ParameterInfo = { Name=Texture }
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterInfo = { Name=ConstantEmissiveColor }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.136, B=0.98612, A=1 }
+        ParameterInfo = { Name=EmissiveBColor }
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.016807, G=0, B=0.020289, A=1 }
+        ParameterInfo = { Name=EnchantmentColor }
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.061246, B=0.991102, A=1 }
+        ParameterInfo = { Name=ExtraEmissiveColor }
+    }
+}
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.1
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

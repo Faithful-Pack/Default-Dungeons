@@ -1,0 +1,111 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Maps/sub_lava/T_LavaMaskTiled.T_LavaMaskTiled'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_MonoChromeGradient.T_MonoChromeGradient'
+    ReferencedTextures[3] = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+}
+Expressions[130] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_6'
+    Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_1'
+    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_0'
+    Expressions[14] = MaterialExpressionVectorParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionVectorParameter_0'
+    Expressions[18] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionTextureSample_3'
+    Expressions[44] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_21'
+    Expressions[46] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionTextureSample_4'
+    Expressions[48] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_22'
+    Expressions[50] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_23'
+    Expressions[54] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_24'
+    Expressions[59] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_25'
+    Expressions[68] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionTextureSample_9'
+    Expressions[70] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionTextureSample_11'
+    Expressions[71] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_33'
+    Expressions[75] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_34'
+    Expressions[77] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_3'
+    Expressions[79] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_5'
+    Expressions[80] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_7'
+    Expressions[87] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_8'
+    Expressions[88] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_9'
+    Expressions[90] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_14'
+    Expressions[92] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_15'
+    Expressions[96] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_17'
+    Expressions[99] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_4'
+    Expressions[103] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_12'
+    Expressions[107] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_2'
+    Expressions[112] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_11'
+    Expressions[117] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_16'
+    Expressions[119] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_18'
+    Expressions[123] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_20'
+    Expressions[127] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaPlaneDecal.MaterialExpressionScalarParameter_27'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DecalX, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DecalY, Group=None }
+    CollectedScalarParameters[2] = { Value=64, Name=TextureSize, Group=None }
+    CollectedScalarParameters[3] = { Value=1.2, Name=Length, Group=None }
+    CollectedScalarParameters[4] = { Value=0.760862, Name=FadeAmount, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[6] = { Value=0.452381, Name=Power, Group=None }
+    CollectedScalarParameters[7] = { Value=1.5, Name=NoiseScale, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[9] = { Value=4, Name=EmissivePower, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=DecalX, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=DecalY, Group=None }
+    CollectedScalarParameters[12] = { Value=64, Name=TextureSize, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=DecalX, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=DecalY, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=DecalX, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=DecalY, Group=None }
+    CollectedScalarParameters[17] = { Value=0.057143, Name=LavaMin, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=DecalX, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=YOffset, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=YOffset, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=DecalX, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=DecalY, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=YOffset, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=YOffset, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Direction
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

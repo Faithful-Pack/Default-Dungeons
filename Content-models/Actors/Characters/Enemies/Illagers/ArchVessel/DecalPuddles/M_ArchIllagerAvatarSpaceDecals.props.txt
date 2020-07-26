@@ -1,0 +1,85 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Illagers/ArchVessel/T_ArchIllagerAvatarSpace.T_ArchIllagerAvatarSpace'
+}
+Expressions[45] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_1'
+    Expressions[6] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_2'
+    Expressions[9] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionTextureSample_1'
+    Expressions[12] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_3'
+    Expressions[13] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_4'
+    Expressions[17] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_5'
+    Expressions[19] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_7'
+    Expressions[21] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionTextureSample_2'
+    Expressions[24] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_12'
+    Expressions[25] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_13'
+    Expressions[28] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionVectorParameter_3'
+    Expressions[29] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_14'
+    Expressions[35] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_0'
+    Expressions[36] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionScalarParameter_8'
+    Expressions[43] = MaterialExpressionTextureSampleParameter2D'Actors/Characters/Enemies/Illagers/ArchVessel/DecalPuddles/M_ArchIllagerAvatarSpaceDecals.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/Puddles/T_Puddle09_Huge.T_Puddle09_Huge'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0.0625, Name=RedSpeedX, Group=None }
+    CollectedScalarParameters[1] = { Value=0.0625, Name=RedSpeedY, Group=None }
+    CollectedScalarParameters[2] = { Value=0.05, Name=GreenSpeedX, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.002, Name=GreenSpeedY, Group=None }
+    CollectedScalarParameters[4] = { Value=7, Name=GreenPower, Group=None }
+    CollectedScalarParameters[5] = { Value=4, Name=RedPower, Group=None }
+    CollectedScalarParameters[6] = { Value=0.04, Name=BlueSpeedX, Group=None }
+    CollectedScalarParameters[7] = { Value=0.004, Name=BlueSpeedY, Group=None }
+    CollectedScalarParameters[8] = { Value=7, Name=BluePower, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=AllPower, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=SpeedMaster, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.939106, G=0, B=1, A=1 }
+        Name = AllColors
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

@@ -1,0 +1,100 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'UI/Materials/HotBar2/Heart/heart_top.heart_top'
+}
+Expressions[97] =
+{
+    Expressions[5] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_1'
+    Expressions[29] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_2'
+    Expressions[55] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[57] = MaterialExpressionTextureSample'UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSample_0'
+    Expressions[58] = MaterialExpressionVectorParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionVectorParameter_0'
+    Expressions[62] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_0'
+    Expressions[69] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_4'
+    Expressions[70] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_5'
+    Expressions[73] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_6'
+    Expressions[74] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_7'
+    Expressions[80] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_8'
+    Expressions[83] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_9'
+    Expressions[87] = MaterialExpressionVectorParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionVectorParameter_1'
+    Expressions[88] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UI/Materials/HotBar2/P1_heartPWOW.P1_heartPWOW'
+        Name = FilledHeartTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'UI/Materials/HotBar2/Heart/heart_top.heart_top'
+        Name = TopTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0.6, Name=Health, Group=None }
+    CollectedScalarParameters[1] = { Value=0.133334, Name=HealthLast, Group=None }
+    CollectedScalarParameters[2] = { Value=0.8, Name=AddStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=HighlightPower, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=HighlightMultiplier, Group=None }
+    CollectedScalarParameters[5] = { Value=0.3, Name=ShadowPowerFunction, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=ShadowMutliply, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=HighlightPowerClamp, Group=None }
+    CollectedScalarParameters[8] = { Value=0.8, Name=ShadowClamp, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.2
+        Name = HighlightMultiplyClamp
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.590619, G=0.0221739, B=0.0451862, A=1 }
+        Name = PlayerColour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.412489, B=0, A=1 }
+        Name = HighlightColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

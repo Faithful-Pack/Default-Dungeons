@@ -1,0 +1,98 @@
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Dissolve }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 2
+        ParameterInfo = { Name=EmissiveB_SinusMin }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0.4
+        ParameterInfo = { Name=EmissiveB_SinusTempo }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0.5
+        ParameterInfo = { Name=EmissiveB_SinusVariation }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 5
+        ParameterInfo = { Name=EmissiveBPower }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=ExtraEmissiveScalar }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=NaturalEmissive }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration_S.T_TotemOfRegeneration_S'
+        ParameterInfo = { Name=Specular }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration.T_TotemOfRegeneration'
+        ParameterInfo = { Name=Texture }
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.02448, B=0, A=1 }
+        ParameterInfo = { Name=EmissiveBColor }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.052352, B=0, A=1 }
+        ParameterInfo = { Name=ExtraEmissiveColor }
+    }
+}
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.1
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

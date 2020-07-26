@@ -1,0 +1,76 @@
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.01
+        ParameterInfo = { Name=BlueSpeedX }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0.125
+        ParameterInfo = { Name=CloudSpeedX }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0.125
+        ParameterInfo = { Name=CloudSpeedY }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0.542857
+        ParameterInfo = { Name=GradientOffsetX }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 0.025
+        ParameterInfo = { Name=GreenSpeedX }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 4
+        ParameterInfo = { Name=RedPower }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 0.0625
+        ParameterInfo = { Name=RedSpeedX }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Wind }
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+Parent = Material3'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.M_ArchIllagerAvatarSpace'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

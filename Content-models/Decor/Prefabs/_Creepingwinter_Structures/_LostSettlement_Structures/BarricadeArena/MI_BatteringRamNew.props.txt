@@ -1,0 +1,66 @@
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.4
+        ParameterInfo = { Name=05 Roughness Strength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 5
+        ParameterInfo = { Name=01 Emissive Strength }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 5
+        ParameterInfo = { Name=06 Speed }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_d.T_BatteringRamNew_d'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_s.T_BatteringRamNew_s'
+        ParameterInfo = { Name=03 Specular Alpha }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_E.T_BatteringRamNew_E'
+        ParameterInfo = { Name=03 Emissive }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
