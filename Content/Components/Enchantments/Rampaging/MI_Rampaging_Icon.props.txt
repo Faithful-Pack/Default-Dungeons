@@ -1,0 +1,134 @@
+ScalarParameterValues[13] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 1.6
+        ParameterInfo = { Name=Blue_Offset }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Blue_SinusMin }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0.5
+        ParameterInfo = { Name=Blue_SinusTempo }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Blue_SinusVariation }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = -0.3
+        ParameterInfo = { Name=Green_Offset }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Green_SinusMin }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 0.5
+        ParameterInfo = { Name=Green_SinusTempo }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Green_SinusVariation }
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterName = None
+        ParameterValue = -0
+        ParameterInfo = { Name=Red_Offset }
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Red_SinusMin }
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterName = None
+        ParameterValue = 0.5
+        ParameterInfo = { Name=Red_SinusTempo }
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Red_SinusVariation }
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Components/Enchantments/Rampaging/T_RampagingShine_Icon.T_RampagingShine_Icon'
+        ParameterInfo = { Name=AdditiveTexture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Components/Enchantments/Rampaging/T_Rampaging_Icon.T_Rampaging_Icon'
+        ParameterInfo = { Name=Texture }
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.264821, B=0.234375, A=1 }
+        ParameterInfo = { Name=B_Color }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.268152, B=0.197917, A=1 }
+        ParameterInfo = { Name=G_Color }
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.620409, B=0.348958, A=1 }
+        ParameterInfo = { Name=R_Color }
+    }
+}
+Parent = Material3'Components/Enchantments/M_Master_Enchantment.M_Master_Enchantment'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

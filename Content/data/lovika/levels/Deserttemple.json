@@ -1,0 +1,2161 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "DesertTemple",
+    "resource-packs": [
+        "DesertTemple"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 0.5,
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "zombie-husk",
+            "zombie-skeleton-spider",
+            {
+                "id": "undead-guard",
+                "weight": 0.5
+            },
+            "spider-skeleton-trap",
+            {
+                "id": "dt-default-mix",
+                "weight": 3
+            }
+        ],
+        "density": 0.8
+    },
+    "objectives": [
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_find_the_necromancers_tomb",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "objective.*.objective"
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_find_the_gold_key",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "objective.*.silverdoor"
+                ],
+                "key-locations": [
+                    "objective.*.silverkey"
+                ],
+                "key-type": "gold",
+                "mobs": [
+                    1,
+                    "nameless-guards"
+                ],
+                "mob-stretch": "objective"
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_find_the_necromancers_tomb",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "arena.*.objective"
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_survive_the_incoming_horde",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "arena",
+                "interval": 20,
+                "rest-interval": 3,
+                "waves": [
+                    [
+                        15,
+                        "zombie-horde"
+                    ],
+                    [
+                        15,
+                        "zombie-skeleton-spider"
+                    ],
+                    [
+                        15,
+                        "undead-assault"
+                    ],
+                    [
+                        10,
+                        "undead-guard"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_reach_the_tomb_of_the_necromancer",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "end.*.objective"
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_fetch_the_staff_of_the_slumbering_necromancer",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/NamelessKingInteractable/BP_NamelessKingInteractable",
+                "count": 1,
+                "locations": [
+                    "end.*.king"
+                ]
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_defeat_the_nameless_one",
+            "arena": {
+                "stretch": "end",
+                "gate": {
+                    "start-unlocked": false
+                },
+                "interval": 0.1,
+                "rest-interval": 0.1,
+                "start-time": 7,
+                "prespawn-mob": "",
+                "spawn-effects-pack": "nameless",
+                "is-boss": true,
+                "waves": [
+                    [
+                        1,
+                        "nameless-guards"
+                    ],
+                    [
+                        1,
+                        "namelessking-solo"
+                    ]
+                ]
+            },
+            "sound": {
+                "track": {
+                    "object": "Decor/Prefabs/04_bgm_mob_boss/bgm_mob_deteBossNamelessKing"
+                },
+                "completed-track": {
+                    "object": "Decor/Prefabs/04_bgm_env_arena/bgm_env_arenaEnd"
+                }
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_escape_the_nameless_kingdom",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_DT",
+                "count": 1,
+                "locations": [
+                    "exit02.*.doorexit"
+                ]
+            }
+        }
+    ],
+    "stretches": [
+        {
+            "id": "start",
+            "tile-groups": [
+                "start"
+            ],
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 0
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "common"
+            ],
+            "length": 2,
+            "mobs": {
+                "not": [
+                    "necromancer-group",
+                    "dt-default-mix"
+                ]
+            }
+        },
+        {
+            "tile-groups": [
+                "trial_tiled_b"
+            ],
+            "dead-ends": [
+                "trial_b_deadend001",
+                "trial_b_deadend002",
+                "trial_b_deadend003",
+                "trial_b_deadend004",
+                "trial_b_deadend005"
+            ],
+            "length": 1,
+            "side-paths": {
+                "probability": 2,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "trial_b_deadend001",
+                        "trial_b_deadend002",
+                        "trial_b_deadend003",
+                        "trial_b_deadend004",
+                        "trial_b_deadend005"
+                    ],
+                    "tile-groups": [
+                        "trial_tiled_b"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.6,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "dt_detour_deadend001",
+                            "dt_detour_deadend002",
+                            "dt_detour_deadend003",
+                            "dt_detour_deadend004"
+                        ],
+                        "tile-groups": [
+                            "commonsidepaths"
+                        ]
+                    },
+                    {
+                        "weight": 0.2,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "tile-groups": [
+                "common"
+            ],
+            "length": 3
+        },
+        {
+            "id": "trapintro",
+            "tile-groups": [
+                "traptiles1"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "inventory01"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "objective",
+            "tile-groups": [
+                "GDC_Objective001"
+            ]
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "bathtrans"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "bath"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "only": [
+                    "necromancer-group"
+                ]
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "bath"
+            ],
+            "length": 4,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "deadlytraps"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "passage2",
+            "tiles": [
+                "dt_passage_002"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "arena",
+            "tile-groups": [
+                "arena"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "inventory01"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "deadlytraps"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "common"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "pool",
+            "tile-groups": [
+                "pool"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "end",
+            "tile-groups": [
+                "end"
+            ],
+            "audio-ambience": "audio_3",
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "exit01",
+            "tile-groups": [
+                "exit01"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "exit02",
+            "tile-groups": [
+                "exit02"
+            ],
+            "visual-theme": "cave_dark"
+        }
+    ],
+    "side-paths": {
+        "probability": 0.35,
+        "default": {
+            "max-length": [
+                1,
+                3
+            ],
+            "dead-ends": [
+                "dt_detour_deadend001",
+                "dt_detour_deadend002",
+                "dt_detour_deadend003",
+                "dt_detour_deadend004"
+            ],
+            "tile-groups": [
+                "commonsidepaths"
+            ]
+        },
+        "variants": [
+            {
+                "max-length": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "weight": 0.1,
+                "max-length": [
+                    1,
+                    4
+                ],
+                "dead-ends": [
+                    "trial_b_deadend001",
+                    "trial_b_deadend002",
+                    "trial_b_deadend003",
+                    "trial_b_deadend004",
+                    "trial_b_deadend005"
+                ],
+                "tile-groups": [
+                    "trial_tiled_b"
+                ]
+            },
+            {
+                "weight": 0.4,
+                "max-length": [
+                    2,
+                    4
+                ],
+                "dead-ends": [
+                    "trial_b_deadend001",
+                    "trial_b_deadend002",
+                    "trial_b_deadend003",
+                    "trial_b_deadend004",
+                    "trial_b_deadend005"
+                ],
+                "tile-groups": [
+                    "trial_tiled_b"
+                ]
+            },
+            {
+                "weight": 0.1,
+                "max-length": [
+                    1,
+                    3
+                ],
+                "dead-ends": [
+                    "trial_bath_deadend001",
+                    "trial_bath_deadend002",
+                    "trial_bath_deadend003",
+                    "trial_bath_deadend004",
+                    "trial_bath_deadend005"
+                ],
+                "tile-groups": [
+                    "trial_bath"
+                ]
+            }
+        ]
+    },
+    "mob-groups": [
+        {
+            "#": "============== SPIDER SKELETON TRAP ==============",
+            "id": "spider-skeleton-trap",
+            "types": [
+                {
+                    "type": "spider",
+                    "weight": 0.5
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                }
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        },
+        {
+            "#": "============== ZOMBIE, HUSK ==============",
+            "id": "zombie-husk",
+            "types": [
+                {
+                    "type": "husk",
+                    "weight": 0.5
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                }
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        },
+        {
+            "#": "============== SKELETON, ZOMBIES, SPIDERS ==============",
+            "id": "zombie-skeleton-spider",
+            "types": [
+                {
+                    "type": "spider",
+                    "weight": 0.4,
+                    "max%": 0.3
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.3,
+                    "max%": 0.5
+                }
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        },
+        {
+            "#": "============== UNDEAD ASSAULT ==============",
+            "id": "undead-assault",
+            "types": [
+                {
+                    "type": "spider",
+                    "weight": 0.4,
+                    "max%": 0.3
+                },
+                {
+                    "type": "wraith",
+                    "weight": 0.5,
+                    "max%": 0.2
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.6
+                },
+                {
+                    "type": "necromancer",
+                    "weight": 0.05,
+                    "max%": 0.07
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1,
+                    "max%": 0.4
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        },
+        {
+            "#": "============== UNDEAD GUARD ==============",
+            "id": "undead-guard",
+            "types": [
+                {
+                    "type": "necromancer",
+                    "max%": 0.1
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "max%": 0.5
+                }
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        },
+        {
+            "#": "============== DESERT TEMPLE DEFAULT ==============",
+            "id": "dt-default-mix",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.4,
+                    "max%": 0.5
+                },
+                {
+                    "type": "wraith",
+                    "weight": 0.15,
+                    "max%": 0.2
+                },
+                {
+                    "type": "necromancer",
+                    "weight": 0.2,
+                    "max%": 0.15
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        },
+        {
+            "#": "============== NAMELESS KING SOLO ==============",
+            "id": "namelessking-solo",
+            "types": [
+                {
+                    "type": "namelessking",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        },
+        {
+            "#": "============== NAMELESS GUARDS ==============",
+            "id": "nameless-guards",
+            "types": [
+                {
+                    "type": "skeletonvanguard",
+                    "min": 5,
+                    "max": 5
+                }
+            ],
+            "##loc": "DesertTemple/mobs.json"
+        }
+    ],
+    "object-groups": [
+        "DesertTemple/objectgroup",
+        "lowertemple/objectgroup",
+        "RuneRoom/objectgroup"
+    ],
+    "props": [],
+    "tiles": [
+        {
+            "id": "dt_start",
+            "rotations": 0,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_arena",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_arena_new",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_arena_optimized",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_end",
+            "entry-door": "enter",
+            "rotations": 0,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_pool",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_obj001",
+            "entry-door": "enter",
+            "rotations": 0,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_obj001_alt",
+            "entry-door": "enter",
+            "rotations": 0,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_obj001_alt_challenge",
+            "entry-door": "enter",
+            "rotations": 0,
+            "challenges": [
+                "platform_clicky"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "secret@dt_key_reworked",
+            "entry-door": "enter",
+            "rotations": 0,
+            "challenges": [
+                "key_lever"
+            ],
+            "teleports": [
+                {
+                    "door": "runedoor",
+                    "dungeons": [
+                        "runeroom01"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor4x4_flipped"
+                },
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "lowerlevel_access"
+                    ],
+                    "exit": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "unlock-keys": [
+                "RuneGateDiscovered"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_key_reworked",
+            "entry-door": "enter",
+            "rotations": 0,
+            "challenges": [
+                "key_lever"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "lowerlevel_access"
+                    ],
+                    "exit": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "unlock-keys": [
+                "not RuneGateDiscovered"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_exit01",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_dead001",
+            "rotations": 180,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_dead002",
+            "rotations": 180,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_dead003",
+            "rotations": 180,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_inventory001",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_detour003",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_detour_deadend003",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "branch_return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_detour_deadend001",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "branch_return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_trap_intro",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "trial_underground_access001",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "branch_return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                    "dungeons": [
+                        "cave001"
+                    ]
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_traveltile001",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "branch_return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_traveltile002",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_traveltile003",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "underground_entrance001",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "underground_large001",
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "trial_branch_exit001",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                    "dungeons": [
+                        "cave001"
+                    ]
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "trial_branch_exit002",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                    "exit": "*.*.branch_return"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "trial_b_deadend006",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "branch_return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "trial_start002",
+            "rotations": [
+                270
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "lt_lowerentrance001",
+            "rotations": [
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                    "dungeons": [
+                        "cave001"
+                    ]
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "lt_key001",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "key_clicky_arena"
+            ],
+            "entry-door": "enter",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dungeons@trial_start002",
+            "rotations": [
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "trial_gauntlet001",
+                        "trial_gauntlet002"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_lowerlevels_entrance001",
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_lowerlevels_entrance002",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "lowerlevel_access_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                },
+                {
+                    "door": "secretdoor",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                    "dungeons": [
+                        "secret_chestroom"
+                    ]
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "nosecret@dt_lowerlevels_entrance002",
+            "rotations": [
+                180
+            ],
+            "challenges": [
+                "lowerlevel_access_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "dt_secret_chestroom01",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "ft_large01",
+            "rotations": 270,
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "ft_doorway01",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "branch_return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "ft_doorway02",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "branch_return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "rr_entrance001",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
+                }
+            ],
+            "##loc": "RuneRoom/rr_tiles.json"
+        },
+        {
+            "id": "rr_runeroom001",
+            "rotations": 90,
+            "##loc": "RuneRoom/rr_tiles.json"
+        },
+        {
+            "id": "rralt_entrance001",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
+                }
+            ],
+            "##loc": "RuneRoom/rr_tiles.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "rr_rockprops",
+            "on-regions": [
+                "*.*.rr_rockprops"
+            ],
+            "props": [
+                "rr_rockprop01",
+                "rr_rockprop02",
+                "rr_rockprop03",
+                "rr_rockprop04",
+                "rr_rockprop05",
+                "rr_rockprop06",
+                "rr_rockprop07",
+                "rr_rockprop08"
+            ],
+            "##loc": "RuneRoom/rr_tiles.json"
+        },
+        {
+            "id": "deadend",
+            "props": [
+                {
+                    "id": "dt_dead001",
+                    "weight": 1
+                },
+                {
+                    "id": "dt_dead002",
+                    "weight": 1
+                },
+                {
+                    "id": "dt_deadend_tiny",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [
+        {
+            "id": "start",
+            "tiles": [
+                "dt_start"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "traptiles1",
+            "tiles": [
+                "dt_trap_intro"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "arena",
+            "tiles": [
+                "dt_arena_optimized"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "end",
+            "tiles": [
+                "dt_end"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "pool",
+            "tiles": [
+                "dt_pool"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "GDC_Objective001",
+            "tiles": [
+                "dt_key_reworked",
+                "secret@dt_key_reworked"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "bathtrans",
+            "tiles": [
+                "dt_bathtransition"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "bath",
+            "tiles": [
+                "dt_bath001",
+                "dt_bath002",
+                "dt_bath003",
+                "dt_bath004",
+                "dt_bath005",
+                "dt_bath006",
+                "dt_bathtransition",
+                "dt_bath_berg001",
+                "dt_dead001",
+                "dt_dead002"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "common",
+            "tiles": [
+                "dt_002",
+                "dt_004",
+                "dt_005",
+                "dt_006",
+                "dt_008",
+                "dt_009",
+                "dt_009_2",
+                "dt_010",
+                "dt_011",
+                "dt_012",
+                "dt_013",
+                "dt_014",
+                "dt_015",
+                "dt_016",
+                "dt_berg001",
+                "dt_berg002",
+                "dt_berg003",
+                "dt_dead001",
+                "dt_dead002",
+                "dt_017",
+                "dt_018"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "exit01",
+            "tiles": [
+                "dt_exit01"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "exit02",
+            "tiles": [
+                "dt_exit02"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "inventory01",
+            "tiles": [
+                "dt_inventory001"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "commonsidepaths",
+            "tiles": [
+                "dt_detour001",
+                "dt_detour002",
+                "dt_detour003",
+                "dt_detour004",
+                "dt_detour005",
+                "dt_detour006",
+                "dt_detour007"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "deadlytraps",
+            "tiles": [
+                "dt_trap001",
+                "dt_trap002",
+                "dt_trap003",
+                "dt_trap004",
+                "dt_trap005",
+                "dt_trap006"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "mixed_common_traps",
+            "tiles": [
+                "dt_002",
+                "dt_004",
+                "dt_005",
+                "dt_006",
+                "dt_008",
+                "dt_009",
+                "dt_009_2",
+                "dt_010",
+                "dt_011",
+                "dt_012",
+                "dt_013",
+                "dt_014",
+                "dt_015",
+                "dt_016",
+                "dt_berg001",
+                "dt_berg002",
+                "dt_berg003",
+                "dt_dead001",
+                "dt_dead002",
+                "dt_017",
+                "dt_018",
+                "dt_trap001",
+                "dt_trap002",
+                "dt_trap003",
+                "dt_trap004",
+                "dt_trap005",
+                "dt_trap006"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "traveltiles_main",
+            "tiles": [
+                "dt_traveltile001"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "traveltile_dungeon",
+            "tiles": [
+                "dt_traveltile002"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "trial_bath",
+            "tiles": [
+                "trial_bath_med001",
+                "trial_bath_med002",
+                "trial_bath_med003",
+                "trial_bath_med004",
+                "trial_bath_med005",
+                "trial_bath_med006",
+                "trial_bath001",
+                "trial_bath_small001",
+                "trial_bath_small002"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "trial_tiled_b",
+            "tiles": [
+                "trial_b_med_cross_a001",
+                "trial_b_med_cross_a002",
+                "trial_b_med_cross_b001",
+                "trial_b_med_cross_b002",
+                {
+                    "id": "trial_cross001",
+                    "weight": 0.3
+                },
+                "trial_b_med_stairs001",
+                "trial_b_med_stairs002",
+                "trial_b_med_special001",
+                "trial_b_med_special002",
+                "trial_b_med_special003",
+                "trial_b_med_special004",
+                "trial_b_small_cross001",
+                {
+                    "id": "trial_b_corridor001",
+                    "weight": 0.5
+                },
+                "trial_b_special001",
+                {
+                    "id": "trial_b_special002",
+                    "weight": 0.4
+                },
+                "trial_b_special003"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "cross",
+            "tiles": [
+                "trial_b_small_cross001"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "underground_small",
+            "tiles": [
+                "underground_small_tile001",
+                "underground_small_tile002",
+                "underground_small_tile003"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "ft_corridor",
+            "tiles": [
+                "ft_corridor_tile001",
+                "ft_corridor_tile002",
+                "ft_corridor_tile003",
+                "ft_corridor_tile004",
+                "ft_corridor_tile005",
+                "ft_corridor_tile006",
+                "ft_corridor_tile007"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "tiny_procedural",
+            "tiles": [
+                "dt_tiny001",
+                "dt_tiny002",
+                "dt_tiny003",
+                "dt_tiny004",
+                "dt_tiny005",
+                "dt_tiny006",
+                "dt_tiny007",
+                "dt_tiny008"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "ft_small",
+            "tiles": [
+                "ft_small01",
+                "ft_small02",
+                "ft_small03",
+                "ft_small04",
+                "ft_small05"
+            ],
+            "##loc": "DesertTemple/tiles.json"
+        }
+    ],
+    "challenges": [
+        {
+            "id": "platform_clicky",
+            "trigger": "objective.*.objective",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_Platform",
+                "count": 1,
+                "locations": [
+                    "objective.*.click1"
+                ],
+                "locked-doors": [
+                    "objective.*.gate"
+                ]
+            },
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "key_lever",
+            "trigger": "objective.*.challenge",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_MultiGate_DT",
+                "count": 1,
+                "locations": [
+                    "objective.*.beacon"
+                ],
+                "locked-doors": [
+                    "objective.*.challengegate"
+                ]
+            },
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "lowerlevel_access_clicky",
+            "trigger": "*.*.ll_clicky_start",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_Platform",
+                "mobs": [
+                    1,
+                    "nameless-guards"
+                ],
+                "mob-stretch": "*.*.*",
+                "count": 3,
+                "locations": [
+                    "*.*.ll_clicky"
+                ],
+                "locked-doors": [
+                    "*.*.ll_clicky_platform"
+                ]
+            },
+            "##loc": "DesertTemple/tiles.json"
+        },
+        {
+            "id": "key_clicky_arena",
+            "trigger-object": "Decor/Prefabs/Lever/BP_Lever_Correct",
+            "reward": {
+                "region": "*.*.keychallengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "nameless-guards"
+                    ],
+                    [
+                        1,
+                        "nameless-guards"
+                    ]
+                ],
+                "gate": null
+            },
+            "##loc": "DesertTemple/tiles.json"
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "lowerlevel_access",
+            "ambience": "alpha",
+            "audio-ambience": "audio_2",
+            "stretches": [
+                {
+                    "id": " dt_lowerlevels_entrance",
+                    "tiles": [
+                        "dt_lowerlevels_entrance002",
+                        "nosecret@dt_lowerlevels_entrance002"
+                    ],
+                    "dead-ends": [
+                        "dt_challenge_deadend001",
+                        "dt_challenge_deadend002",
+                        "dt_challenge_deadend003"
+                    ],
+                    "side-paths": {
+                        "probability": 2,
+                        "default": {
+                            "max-length": [
+                                1,
+                                1
+                            ],
+                            "dead-ends": [
+                                "dt_challenge_deadend001",
+                                "dt_challenge_deadend002",
+                                "dt_challenge_deadend003"
+                            ],
+                            "tiles": [
+                                "dt_challenge_sidepath001"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "##loc": "deserttemple/deserttemple.json"
+        },
+        {
+            "id": "secret_chestroom",
+            "ambience": "alpha",
+            "stretches": [
+                {
+                    "tiles": [
+                        "dt_secret_chestroom01"
+                    ]
+                }
+            ],
+            "##loc": "deserttemple/deserttemple.json"
+        },
+        {
+            "id": "cave001",
+            "ambience": "alpha",
+            "audio-ambience": "audio_2",
+            "stretches": [
+                {
+                    "id": "underground_entrance",
+                    "tiles": [
+                        "underground_entrance001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "underground_large001"
+                    ],
+                    "dead-ends": [
+                        "underground_deadend001"
+                    ],
+                    "side-paths": {
+                        "probability": 0.8,
+                        "default": {
+                            "max-length": [
+                                1,
+                                2
+                            ],
+                            "dead-ends": [
+                                "underground_deadend001"
+                            ],
+                            "tile-groups": [
+                                "underground_small"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.1,
+                                "max-length": [
+                                    1,
+                                    4
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "##loc": "deserttemple/dungeon1.json"
+        },
+        {
+            "id": "trial_gauntlet001",
+            "stretches": [
+                {
+                    "tiles": [
+                        "dt_traveltile002"
+                    ],
+                    "dead-ends": [
+                        "trial_b_deadend001",
+                        "trial_b_deadend002",
+                        "trial_b_deadend003",
+                        "trial_b_deadend004",
+                        "trial_b_deadend005"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "mixed_common_traps"
+                    ],
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "dead-ends": [
+                                "trial_b_deadend001",
+                                "trial_b_deadend002",
+                                "trial_b_deadend003",
+                                "trial_b_deadend004",
+                                "trial_b_deadend005"
+                            ],
+                            "tile-groups": [
+                                "trial_tiled_b"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.4,
+                                "max-length": [
+                                    5,
+                                    7
+                                ]
+                            },
+                            {
+                                "weight": 0.1,
+                                "max-length": [
+                                    2,
+                                    8
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.6,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "trial_bath_deadend001",
+                                    "trial_bath_deadend002",
+                                    "trial_bath_deadend003",
+                                    "trial_bath_deadend004",
+                                    "trial_bath_deadend005"
+                                ],
+                                "tile-groups": [
+                                    "trial_bath"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "trial_tiled_b"
+                    ],
+                    "length": 3,
+                    "dead-ends": [
+                        "trial_b_deadend001",
+                        "trial_b_deadend002",
+                        "trial_b_deadend003",
+                        "trial_b_deadend004",
+                        "trial_b_deadend005"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "dead-ends": [
+                                "trial_b_deadend001",
+                                "trial_b_deadend002",
+                                "trial_b_deadend003",
+                                "trial_b_deadend004",
+                                "trial_b_deadend005"
+                            ],
+                            "tile-groups": [
+                                "trial_tiled_b"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.4,
+                                "max-length": [
+                                    5,
+                                    7
+                                ]
+                            },
+                            {
+                                "weight": 0.1,
+                                "max-length": [
+                                    2,
+                                    8
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.6,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "trial_bath_deadend001",
+                                    "trial_bath_deadend002",
+                                    "trial_bath_deadend003",
+                                    "trial_bath_deadend004",
+                                    "trial_bath_deadend005"
+                                ],
+                                "tile-groups": [
+                                    "trial_bath"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "trial_branch_exit001"
+                    ],
+                    "dead-ends": [
+                        "trial_b_deadend001",
+                        "trial_b_deadend002",
+                        "trial_b_deadend003",
+                        "trial_b_deadend004",
+                        "trial_b_deadend005"
+                    ]
+                }
+            ],
+            "##loc": "deserttemple/dungeons_gauntlet.json"
+        },
+        {
+            "id": "trial_gauntlet002",
+            "stretches": [
+                {
+                    "tiles": [
+                        "dt_traveltile003"
+                    ],
+                    "dead-ends": [
+                        "trial_b_deadend001",
+                        "trial_b_deadend002",
+                        "trial_b_deadend003",
+                        "trial_b_deadend004",
+                        "trial_b_deadend005"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "trial_tiled_b"
+                    ],
+                    "dead-ends": [
+                        "trial_b_deadend001",
+                        "trial_b_deadend002",
+                        "trial_b_deadend003",
+                        "trial_b_deadend004",
+                        "trial_b_deadend005"
+                    ],
+                    "length": 3,
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "dead-ends": [
+                                "trial_b_deadend001",
+                                "trial_b_deadend002",
+                                "trial_b_deadend003",
+                                "trial_b_deadend004",
+                                "trial_b_deadend005"
+                            ],
+                            "tile-groups": [
+                                "trial_tiled_b"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.4,
+                                "max-length": [
+                                    5,
+                                    7
+                                ]
+                            },
+                            {
+                                "weight": 0.1,
+                                "max-length": [
+                                    2,
+                                    8
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.6,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "trial_bath_deadend001",
+                                    "trial_bath_deadend002",
+                                    "trial_bath_deadend003",
+                                    "trial_bath_deadend004",
+                                    "trial_bath_deadend005"
+                                ],
+                                "tile-groups": [
+                                    "trial_bath"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "common"
+                    ],
+                    "length": 3
+                },
+                {
+                    "id": "trapintro",
+                    "tile-groups": [
+                        "traptiles1"
+                    ],
+                    "length": 1
+                },
+                {
+                    "id": "objective",
+                    "tiles": [
+                        "dt_obj001_alt_challenge"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "bathtrans"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "bath"
+                    ],
+                    "dead-ends": [
+                        "trial_bath_deadend001",
+                        "trial_bath_deadend002",
+                        "trial_bath_deadend003",
+                        "trial_bath_deadend004",
+                        "trial_bath_deadend005"
+                    ],
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 0.8,
+                        "default": {
+                            "max-length": [
+                                1,
+                                2
+                            ],
+                            "dead-ends": [
+                                "trial_bath_deadend001",
+                                "trial_bath_deadend002",
+                                "trial_bath_deadend003",
+                                "trial_bath_deadend004",
+                                "trial_bath_deadend005"
+                            ],
+                            "tile-groups": [
+                                "trial_bath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arena",
+                    "tile-groups": [
+                        "arena"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "trial_tiled_b"
+                    ],
+                    "length": 1,
+                    "side-paths": {
+                        "probability": 0.6,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "dead-ends": [
+                                "trial_b_deadend001",
+                                "trial_b_deadend002",
+                                "trial_b_deadend003",
+                                "trial_b_deadend004",
+                                "trial_b_deadend005"
+                            ],
+                            "tile-groups": [
+                                "trial_tiled_b"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.4,
+                                "max-length": [
+                                    5,
+                                    7
+                                ]
+                            },
+                            {
+                                "weight": 0.1,
+                                "max-length": [
+                                    2,
+                                    8
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.5,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "dt_detour_deadend001",
+                                    "dt_detour_deadend002",
+                                    "dt_detour_deadend003",
+                                    "dt_detour_deadend004"
+                                ],
+                                "tile-groups": [
+                                    "commonsidepaths"
+                                ]
+                            },
+                            {
+                                "weight": 0.6,
+                                "max-length": [
+                                    1,
+                                    3
+                                ],
+                                "dead-ends": [
+                                    "trial_bath_deadend001",
+                                    "trial_bath_deadend002",
+                                    "trial_bath_deadend003",
+                                    "trial_bath_deadend004",
+                                    "trial_bath_deadend005"
+                                ],
+                                "tile-groups": [
+                                    "trial_bath"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "trial_branch_exit002"
+                    ],
+                    "dead-ends": [
+                        "trial_b_deadend001",
+                        "trial_b_deadend002",
+                        "trial_b_deadend003",
+                        "trial_b_deadend004",
+                        "trial_b_deadend005"
+                    ]
+                }
+            ],
+            "##loc": "deserttemple/dungeons_gauntlet.json"
+        },
+        {
+            "id": "trial_gauntlet003",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ft_large01"
+                    ],
+                    "dead-ends": [
+                        "ft_deadend01"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "ft_small"
+                    ],
+                    "dead-ends": [
+                        "ft_deadend01"
+                    ],
+                    "length": 5
+                },
+                {
+                    "tiles": [
+                        "ft_doorway01",
+                        "ft_doorway02"
+                    ],
+                    "dead-ends": [
+                        "ft_deadend01"
+                    ]
+                }
+            ],
+            "##loc": "deserttemple/dungeons_gauntlet.json"
+        },
+        {
+            "id": "runeroom01",
+            "ambience": "delta",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "rralt_entrance001"
+                    ],
+                    "audio-ambience": "audio_1"
+                }
+            ],
+            "##loc": "runeroom/rr_dungeons.json"
+        },
+        {
+            "id": "runeroom02",
+            "ambience": "delta",
+            "stretches": [
+                {
+                    "tiles": [
+                        "rr_entrance001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "rr_tile001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "rr_runeroom001"
+                    ]
+                }
+            ],
+            "##loc": "runeroom/rr_dungeons.json"
+        }
+    ]
+}

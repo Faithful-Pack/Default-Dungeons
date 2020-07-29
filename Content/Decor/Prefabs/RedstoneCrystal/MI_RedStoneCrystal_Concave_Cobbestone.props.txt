@@ -1,0 +1,68 @@
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.8
+        ParameterInfo = { Name=01 Emissive Strength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 15
+        ParameterInfo = { Name=06 Speed }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/RedstoneCrystal/T_RedstoneMine_Concave_Cobblestone.T_RedstoneMine_Concave_Cobblestone'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/RedstoneCrystal/T_RedstoneMine_Concave_SPEC.T_RedstoneMine_Concave_SPEC'
+        ParameterInfo = { Name=03 Specular Alpha }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/RedstoneCrystal/T_RedstoneMine_Concave_SPEC.T_RedstoneMine_Concave_SPEC'
+        ParameterInfo = { Name=03 Emissive }
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.068094, B=0, A=1 }
+        ParameterInfo = { Name=04 Color Multiply }
+    }
+}
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

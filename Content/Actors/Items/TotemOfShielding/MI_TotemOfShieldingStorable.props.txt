@@ -1,0 +1,56 @@
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.8
+        ParameterInfo = { Name=NaturalEmissive }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Items/TotemOfShielding/T_ShieldingTotem.T_ShieldingTotem'
+        ParameterInfo = { Name=Albedo }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Items/TotemOfShielding/T_ShieldingTotem_S.T_ShieldingTotem_S'
+        ParameterInfo = { Name=Specular }
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=90, G=4.45235, B=0, A=1 }
+        ParameterInfo = { Name=Emissive }
+    }
+}
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

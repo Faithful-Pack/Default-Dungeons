@@ -1,0 +1,60 @@
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=01 Roughness }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 200
+        ParameterInfo = { Name=World Texture Size }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0.7
+        ParameterInfo = { Name=Emissive Strength }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Red_SemiTransparent.T_StainedGlass_Mansonry_Red_SemiTransparent'
+        ParameterInfo = { Name=01 Base Color }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Normal.T_StainedGlass_Mansonry_Normal'
+        ParameterInfo = { Name=02 Normal Texture }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.M_Master_StainedGlass'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

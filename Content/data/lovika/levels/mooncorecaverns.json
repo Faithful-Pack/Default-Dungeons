@@ -1,0 +1,1713 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "RedstoneMines",
+    "loctable-id": "mooncorecaverns",
+    "object-groups": [
+        "genericcaves/objectgroup",
+        "redstonemines/objectgroup",
+        "RuneRoom/objectgroup"
+    ],
+    "resource-packs": [
+        "MooncoreCaverns"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 0.5,
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            {
+                "id": "zombie-horde",
+                "weight": 1
+            },
+            {
+                "id": "mc-raiders",
+                "weight": 0.2
+            },
+            {
+                "id": "mc-mix",
+                "weight": 3
+            }
+        ]
+    },
+    "objectives": [
+        {
+            "name": "name_left_behind",
+            "description": "description_find_the_villager_labourers",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "slave.*.objective"
+            }
+        },
+        {
+            "name": "name_left_behind",
+            "description": "description_free_the_villagers",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/MinerVillager/BP_MinerVillager",
+                "count": 3,
+                "locations": [
+                    "slave.*.villager1",
+                    "slave.*.villager2",
+                    "slave.*.villager3"
+                ],
+                "locked-doors": [
+                    "slave.*.gate"
+                ]
+            }
+        },
+        {
+            "name": "name_left_behind",
+            "description": "description_find_the_other_villager_labourers",
+            "gauntlet": {
+                "end-region": "slave2.*.objective"
+            }
+        },
+        {
+            "name": "name_left_behind",
+            "description": "description_free_the_villagers",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/MinerVillager/BP_MinerVillager",
+                "count": 6,
+                "locations": [
+                    "slave2.*.villager1",
+                    "slave2.*.villager2",
+                    "slave2.*.villager3",
+                    "slave2.*.villager4",
+                    "slave2.*.villager5",
+                    "slave2.*.villager6"
+                ],
+                "locked-doors": [
+                    "slave2.*.gate"
+                ]
+            }
+        },
+        {
+            "name": "name_left_behind",
+            "description": "description_reach_the_mines_exit",
+            "gauntlet": {
+                "end-region": "boss.*.objective"
+            }
+        },
+        {
+            "name": "name_left_behind",
+            "description": "description_defeat_the_redstone_golem",
+            "arena": {
+                "stretch": "boss",
+                "interval": 20,
+                "rest-interval": 3,
+                "waves": [
+                    [
+                        1,
+                        "redstonegolem-solo"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "name_left_behind",
+            "description": "description_exit_through_the_gate",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_RM",
+                "count": 1,
+                "locations": [
+                    "end.*.doorexit"
+                ]
+            }
+        }
+    ],
+    "stretches": [
+        {
+            "id": "start",
+            "tile-groups": [
+                "start_new"
+            ],
+            "audio-ambience": "audio_2",
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 0.07
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "common"
+            ],
+            "audio-ambience": "audio_2",
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "stairs"
+            ],
+            "audio-ambience": "audio_2",
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "mine"
+            ],
+            "audio-ambience": "audio_2",
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "uncommon"
+            ],
+            "audio-ambience": "audio_2",
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "rails"
+            ],
+            "audio-ambience": "audio_2",
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "InventoryStretch",
+            "tile-groups": [
+                "inventory"
+            ],
+            "audio-ambience": "audio_2",
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "slave",
+            "tile-groups": [
+                "slave1"
+            ],
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "only": [
+                    "mc-obj"
+                ]
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "stairs"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "stairs",
+            "tile-groups": [
+                "rails"
+            ],
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "uncommon"
+            ],
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "mine"
+            ],
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "InventoryStretch",
+            "tile-groups": [
+                "inventory"
+            ],
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "common"
+            ],
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "slave2",
+            "tile-groups": [
+                "slave2"
+            ],
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "only": [
+                    "mc-obj"
+                ]
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "rails"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": [
+                "mine"
+            ],
+            "prop-groups": [
+                "generic_cave_decor",
+                "manmade",
+                "water"
+            ],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "boss",
+            "tile-groups": [
+                "boss"
+            ],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "end",
+            "tile-groups": [
+                "end"
+            ],
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "only": [
+                    "mc-end"
+                ]
+            }
+        }
+    ],
+    "side-paths": {
+        "probability": 0.25,
+        "default": {
+            "max-length": [
+                1,
+                4
+            ],
+            "dead-ends": [
+                "common"
+            ],
+            "tile-groups": [
+                "common"
+            ]
+        }
+    },
+    "mob-groups": [
+        {
+            "#": "============== ZOMBIE HORDE==============",
+            "id": "zombie-horde",
+            "types": [
+                {
+                    "type": "zombie",
+                    "min": 15
+                }
+            ],
+            "##loc": "mooncorecaverns/moonmobs.json"
+        },
+        {
+            "#": "============== MOONCORE RAIDERS ==============",
+            "id": "mc-raiders",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "weight": 1,
+                    "max%": 0.5
+                },
+                {
+                    "type": "pillager",
+                    "weight": 0.5,
+                    "max%": 0.5
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.1
+                }
+            ],
+            "##loc": "mooncorecaverns/moonmobs.json"
+        },
+        {
+            "#": "============== MOONCORE END GROUP ==============",
+            "id": "mc-end",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "min": 3,
+                    "max": 5,
+                    "weight": 2
+                }
+            ],
+            "##loc": "mooncorecaverns/moonmobs.json"
+        },
+        {
+            "#": "============== MOONCORE OBJECTIVE GROUP ==============",
+            "id": "mc-obj",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "pillager",
+                    "weight": 0.5,
+                    "max%": 0.5
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.1
+                }
+            ],
+            "##loc": "mooncorecaverns/moonmobs.json"
+        },
+        {
+            "#": "============== SINGLE REDSTONEGOLEM ==============",
+            "id": "redstonegolem-solo",
+            "types": [
+                {
+                    "type": "redstonegolem",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "##loc": "mooncorecaverns/moonmobs.json"
+        },
+        {
+            "#": "============== MOONCORE CAVERNS MIX ==============",
+            "id": "mc-mix",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "cave_spider",
+                    "weight": 1,
+                    "max%": 0.75
+                },
+                {
+                    "type": "creeper",
+                    "weight": 1,
+                    "max%": 0.5
+                },
+                {
+                    "type": "slimelarge",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "mobspawner",
+                    "weight": 0.25,
+                    "max%": 0.25
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ],
+            "##loc": "mooncorecaverns/moonmobs.json"
+        }
+    ],
+    "props": [],
+    "tiles": [
+        {
+            "id": "redstone_boss",
+            "entry-door": "enter",
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "slave001",
+            "entry-door": "enter",
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "secret@slave002",
+            "entry-door": "enter",
+            "rotations": 270,
+            "teleports": [
+                {
+                    "door": "runedoor",
+                    "dungeons": [
+                        "runeroom01"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance_NoShaft"
+                }
+            ],
+            "unlock-keys": [
+                "RuneGateDiscovered"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "slave002",
+            "entry-door": "enter",
+            "rotations": 270,
+            "unlock-keys": [
+                "not RuneGateDiscovered"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "redstone_end",
+            "rotations": 180,
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "ccp_core001",
+            "rotations": 0,
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "cs_inventory",
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "cstart",
+            "rotations": [
+                0
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "cstart_alt",
+            "rotations": [
+                0
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "cstart_mod",
+            "rotations": [
+                0
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "id": "rr_entrance001",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
+                }
+            ],
+            "##loc": "runeroom/rr_tiles.json"
+        },
+        {
+            "id": "rr_runeroom001",
+            "rotations": 90,
+            "##loc": "runeroom/rr_tiles.json"
+        },
+        {
+            "id": "rralt_entrance001",
+            "rotations": 90,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
+                }
+            ],
+            "##loc": "runeroom/rr_tiles.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "rr_rockprops",
+            "on-regions": [
+                "*.*.rr_rockprops"
+            ],
+            "props": [
+                "rr_rockprop01",
+                "rr_rockprop02",
+                "rr_rockprop03",
+                "rr_rockprop04",
+                "rr_rockprop05",
+                "rr_rockprop06",
+                "rr_rockprop07",
+                "rr_rockprop08"
+            ],
+            "##loc": "runeroom/rr_tiles.json"
+        },
+        {
+            "id": "generic_cave_decor",
+            "props": [
+                {
+                    "id": "cd001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd008",
+                    "weight": 1
+                },
+                {
+                    "id": "cd009",
+                    "weight": 1
+                },
+                {
+                    "id": "cd010",
+                    "weight": 1
+                },
+                {
+                    "id": "cd011",
+                    "weight": 1
+                },
+                {
+                    "id": "cd012",
+                    "weight": 1
+                },
+                {
+                    "id": "cd013",
+                    "weight": 1
+                },
+                {
+                    "id": "cd014",
+                    "weight": 1
+                },
+                {
+                    "id": "cd021",
+                    "weight": 1
+                },
+                {
+                    "id": "cd022",
+                    "weight": 1
+                },
+                {
+                    "id": "cd024",
+                    "weight": 1
+                },
+                {
+                    "id": "cd025",
+                    "weight": 1
+                },
+                {
+                    "id": "cd026",
+                    "weight": 1
+                },
+                {
+                    "id": "cd027",
+                    "weight": 1
+                },
+                {
+                    "id": "cd028",
+                    "weight": 1
+                },
+                {
+                    "id": "cd029",
+                    "weight": 1
+                },
+                {
+                    "id": "cd030",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "manmade",
+            "props": [
+                {
+                    "id": "cdr002",
+                    "weight": 1
+                },
+                {
+                    "id": "cdr004",
+                    "weight": 1
+                },
+                {
+                    "id": "cdr005",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "checkpoint",
+            "props": [
+                {
+                    "id": "c_checkpoint",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "water",
+            "props": [
+                {
+                    "id": "cd018",
+                    "weight": 1
+                },
+                {
+                    "id": "cd019",
+                    "weight": 1
+                },
+                {
+                    "id": "cd031",
+                    "weight": 1
+                },
+                {
+                    "id": "cd032",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "rail",
+            "props": [
+                {
+                    "id": "cd_rail001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_rail002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_rail003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_rail004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_rail005",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "lava",
+            "props": [
+                {
+                    "id": "cd_lava001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava008",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava009",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava010",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava011",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava012",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_lava014",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "groundpatch",
+            "props": [
+                {
+                    "id": "cd_cobble001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_cobble002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_cobble003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_stone001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_stone002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_stone003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diorite001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diorite002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diorite003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gravel001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gravel002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gravel003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_granite001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_granite002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_granite003",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "cobble",
+            "props": [
+                {
+                    "id": "cd_cobble001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_cobble002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_cobble003",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "stone",
+            "props": [
+                {
+                    "id": "cd_stone001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_stone002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_stone003",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "diorite",
+            "props": [
+                {
+                    "id": "cd_diorite001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diorite002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diorite003",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "gravel",
+            "props": [
+                {
+                    "id": "cd_gravel001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gravel002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gravel003",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "granite",
+            "props": [
+                {
+                    "id": "cd_granite001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_granite002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_granite003",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ores",
+            "props": [
+                {
+                    "id": "cd_coal001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "coalore",
+            "props": [
+                {
+                    "id": "cd_coal001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_coal007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ironore",
+            "props": [
+                {
+                    "id": "cd_iron001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_iron007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "goldore",
+            "props": [
+                {
+                    "id": "cd_gold001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_gold007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ores_rare",
+            "props": [
+                {
+                    "id": "cd_diamond001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_restone007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "diamondore",
+            "props": [
+                {
+                    "id": "cd_diamond001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_diamond007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "lapislazuliore",
+            "props": [
+                {
+                    "id": "cd_la001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_la007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "redstoneore",
+            "props": [
+                {
+                    "id": "cd_redstone001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_redstone006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_restone007",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "nature",
+            "props": [
+                {
+                    "id": "cd_nature001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature008",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature010",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature011",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature012",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature013",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature014",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature015",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature016",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature017",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature018",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature019",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "nature_trees",
+            "props": [
+                {
+                    "id": "cd_nature002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_nature009",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "architectural",
+            "props": [
+                {
+                    "id": "cd31",
+                    "weight": 1
+                },
+                {
+                    "id": "cd32",
+                    "weight": 1
+                },
+                {
+                    "id": "cd33",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "core",
+            "props": [
+                {
+                    "id": "cd_core001",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_core002",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_core003",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_core004",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_core005",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_core006",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_core007",
+                    "weight": 1
+                },
+                {
+                    "id": "cd_core008",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "arena",
+            "props": [
+                {
+                    "id": "arena_001",
+                    "weight": 1
+                },
+                {
+                    "id": "arena_002",
+                    "weight": 1
+                },
+                {
+                    "id": "arena_003",
+                    "weight": 1
+                },
+                {
+                    "id": "arena_004",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "slave002",
+            "props": [
+                {
+                    "id": "slave002",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "redstone_boss",
+            "props": [
+                {
+                    "id": "redstone_boss",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [
+        {
+            "#": "Start tile New",
+            "id": "start_new",
+            "tiles": [
+                "cstart_mod"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Start tile",
+            "id": "start",
+            "tiles": [
+                "cstart"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "End tile",
+            "id": "end",
+            "tiles": [
+                "redstone_end"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "BossTile",
+            "id": "boss",
+            "tiles": [
+                "redstone_boss"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Manual progression tile",
+            "id": "manual progression",
+            "tiles": [
+                "ccp_core007"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Uncommon tiles",
+            "id": "uncommon",
+            "tiles": [
+                "cu003",
+                "cu011",
+                "cs017",
+                "cs018",
+                "ccp001"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Stairs",
+            "id": "stairs",
+            "tiles": [
+                "cc004",
+                "cc006",
+                "cs001"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Inventory",
+            "id": "inventory",
+            "tiles": [
+                "cs_inventory"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "First Miner Tile",
+            "id": "slave1",
+            "tiles": [
+                "slave001"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Second Miner Tile",
+            "id": "slave2",
+            "tiles": [
+                "slave002",
+                "secret@slave002"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Rail tiles",
+            "id": "rails",
+            "tiles": [
+                "rails_001",
+                "rails_002",
+                "rails_003",
+                "rails_004",
+                "rails_005"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "Mine Tiles",
+            "id": "mine",
+            "tiles": [
+                "cr011",
+                "cr003",
+                "cr001",
+                "cr002",
+                "cr004",
+                "cr002",
+                "ccp_core001",
+                "cu004",
+                "cc029",
+                "cc028",
+                "cc030",
+                "cc009"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        },
+        {
+            "#": "common tiles",
+            "id": "common",
+            "tiles": [
+                "cc025",
+                "cu002",
+                "cc011",
+                "cc012",
+                "cc014",
+                "cc013",
+                "cc003",
+                "cc007",
+                "cc002",
+                "cu001",
+                "cc034",
+                "cr009"
+            ],
+            "##loc": "mooncorecaverns/moontiles.json"
+        }
+    ],
+    "challenges": [],
+    "dungeons": [
+        {
+            "id": "runeroom01",
+            "ambience": "delta",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "rralt_entrance001"
+                    ],
+                    "audio-ambience": "audio_1"
+                }
+            ],
+            "##loc": "runeroom/rr_dungeons.json"
+        },
+        {
+            "id": "runeroom02",
+            "ambience": "delta",
+            "stretches": [
+                {
+                    "tiles": [
+                        "rr_entrance001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "rr_tile001"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "rr_runeroom001"
+                    ]
+                }
+            ],
+            "##loc": "runeroom/rr_dungeons.json"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
+}
+Expressions[20] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[3] = MaterialExpressionScalarParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_1'
+    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_2'
+    Expressions[6] = MaterialExpressionTextureSample'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionVectorParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionVectorParameter_3'
+    Expressions[17] = MaterialExpressionScalarParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_6'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[1] = { Value=4, Name=DissolveDuration, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=AlphaOverride, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = DissolveTextureSize
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

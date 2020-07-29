@@ -1,0 +1,72 @@
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.9
+        ParameterInfo = { Name=02 Roughness strength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0.5
+        ParameterInfo = { Name=03 Specular strength }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 5
+        ParameterInfo = { Name=04 Specular ScreenStr }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity.T_ObsidianMonstrosity'
+        ParameterInfo = { Name=Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_GoldAlpha.T_ObsidianMonstrosity_GoldAlpha'
+        ParameterInfo = { Name=01 Specular Alpha }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_NetherAlpha.T_ObsidianMonstrosity_NetherAlpha'
+        ParameterInfo = { Name=NetherAlpha }
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_ObsidianAlpha.T_ObsidianMonstrosity_ObsidianAlpha'
+        ParameterInfo = { Name=Obsidian Alpha }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.M_ObsidianMonstrosity_Master'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

@@ -1,0 +1,92 @@
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 2
+        ParameterInfo = { Name=DecalWidth }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = -0.2
+        ParameterInfo = { Name=UTangent0 }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 6.0455
+        ParameterInfo = { Name=UTangent1 }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=VTangent0 }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 19.6005
+        ParameterInfo = { Name=VTangent1 }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 3.88523
+        ParameterInfo = { Name=CloseVTangent0 }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 8.44254
+        ParameterInfo = { Name=CloseVTangent1 }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = 2.37418
+        ParameterInfo = { Name=EmissiveStrength }
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_Window_Glass.T_Window_Glass'
+        ParameterInfo = { Name=Base Texture }
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.590619, B=0.450786, A=0 }
+        ParameterInfo = { Name=ColorOverlay }
+    }
+}
+Parent = Material3'Decor/Prefabs/Window/Material/M_Window_decal.M_Window_Decal'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

@@ -1,0 +1,75 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'UI/Materials/MissionSelectMap/background/overlaps/castle_flash.castle_flash'
+}
+Expressions[17] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'UI/Materials/MissionSelectMap/background/overlaps/castle_flash_Mat.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionVectorParameter'UI/Materials/MissionSelectMap/background/overlaps/castle_flash_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[3] = MaterialExpressionVectorParameter'UI/Materials/MissionSelectMap/background/overlaps/castle_flash_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[4] = MaterialExpressionVectorParameter'UI/Materials/MissionSelectMap/background/overlaps/castle_flash_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[5] = MaterialExpressionVectorParameter'UI/Materials/MissionSelectMap/background/overlaps/castle_flash_Mat.MaterialExpressionVectorParameter_3'
+    Expressions[16] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/overlaps/castle_flash_Mat.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=time, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = flash0
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = flash1
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = flash2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = flash3
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

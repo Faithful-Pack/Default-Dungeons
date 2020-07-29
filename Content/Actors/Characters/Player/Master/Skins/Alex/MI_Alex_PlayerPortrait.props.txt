@@ -1,0 +1,20 @@
+ScalarParameterValues[0] = {}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+Parent = Material3'Actors/Characters/Player/Master/M_PlayerPortrait.M_PlayerPortrait'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

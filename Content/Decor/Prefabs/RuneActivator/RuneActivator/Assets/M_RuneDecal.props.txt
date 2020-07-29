@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/CheckeredMask.CheckeredMask'
+}
+Expressions[39] =
+{
+    Expressions[6] = MaterialExpressionVectorParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionVectorParameter_0'
+    Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_2'
+    Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_6'
+    Expressions[15] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_3'
+    Expressions[16] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionTextureSample_1'
+    Expressions[17] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_7'
+    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_8'
+    Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_9'
+    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_0'
+    Expressions[33] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_1'
+    Expressions[34] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_4'
+    Expressions[38] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.MaterialExpressionScalarParameter_12'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Slot, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=NumTilesY, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=NumTilesX, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=NumTilesY, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=NumTilesX, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=GradientScale, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Tang0, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Tang1, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=EmissiveStrength, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.353697, G=0.193793, B=0.979167, A=0 }
+        Name = Colr
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

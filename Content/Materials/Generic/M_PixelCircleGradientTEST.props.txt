@@ -1,0 +1,54 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
+}
+Expressions[9] =
+{
+    Expressions[5] = MaterialExpressionScalarParameter'Materials/Generic/M_PixelCircleGradientTEST.MaterialExpressionScalarParameter_9'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Materials/Generic/M_PixelCircleGradientTEST.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[8] = MaterialExpressionStaticBoolParameter'Materials/Generic/M_PixelCircleGradientTEST.MaterialExpressionStaticSwitchParameter_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=0Scalar, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

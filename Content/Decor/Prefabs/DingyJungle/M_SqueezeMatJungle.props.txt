@@ -1,0 +1,91 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/DingyJungle/T_Mushroom_Patch1_Diff.T_Mushroom_Patch1_Diff'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/T_Mushroom_Patch_E1.T_Mushroom_Patch_E1'
+}
+Expressions[69] =
+{
+    Expressions[2] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[3] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_0'
+    Expressions[19] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_1'
+    Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_2'
+    Expressions[27] = MaterialExpressionVectorParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionVectorParameter_2'
+    Expressions[28] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[30] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_3'
+    Expressions[35] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_5'
+    Expressions[42] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_4'
+    Expressions[43] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[46] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_6'
+    Expressions[60] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_7'
+    Expressions[67] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_8'
+    Expressions[68] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/M_SqueezeMatJungle.MaterialExpressionScalarParameter_9'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/DingyJungle/T_Mushroom_Patch1_Diff.T_Mushroom_Patch1_Diff'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/DingyJungle/T_Mushroom_Patch_E1.T_Mushroom_Patch_E1'
+        Name = Emissive
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Squeeze, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=10, Name=AnimSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=0.9, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=AnimOffset, Group=None }
+    CollectedScalarParameters[5] = { Value=0.790476, Name=SqueezePanSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.161904, Name=SqueezeMax, Group=None }
+    CollectedScalarParameters[7] = { Value=0.4, Name=BaseEmissive, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=UVScale, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=UVOffset, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.276042, G=0.0603842, B=0.107795, A=0 }
+        Name = EmissiveAnimMin
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

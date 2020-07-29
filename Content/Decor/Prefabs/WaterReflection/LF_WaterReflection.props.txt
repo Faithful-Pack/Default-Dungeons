@@ -1,0 +1,56 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/WaterReflection/T_Caustics.T_Caustics'
+}
+Expressions[18] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/WaterReflection/LF_WaterReflection.MaterialExpressionTextureSample_18'
+    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/WaterReflection/LF_WaterReflection.MaterialExpressionTextureSample_19'
+    Expressions[9] = MaterialExpressionVectorParameter'Decor/Prefabs/WaterReflection/LF_WaterReflection.MaterialExpressionVectorParameter_0'
+    Expressions[10] = MaterialExpressionTextureSample'Decor/Prefabs/WaterReflection/LF_WaterReflection.MaterialExpressionTextureSample_6'
+    Expressions[17] = MaterialExpressionScalarParameter'Decor/Prefabs/WaterReflection/LF_WaterReflection.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.7, Name=Density, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.572917, G=0.496552, B=0.235217, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

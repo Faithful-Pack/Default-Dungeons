@@ -1,0 +1,78 @@
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.9
+        ParameterInfo = { Name=05 Roughness strength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 25
+        ParameterInfo = { Name=06 Specular ScreenStr }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 6
+        ParameterInfo = { Name=01 Emissive Strength }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 5
+        ParameterInfo = { Name=06 Speed }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 0.075
+        ParameterInfo = { Name=07 Emissive Add }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern03.T_Urn_Loot_New_Pattern03'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern03_Spec.T_Urn_Loot_New_Pattern03_Spec'
+        ParameterInfo = { Name=03 Specular Alpha }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_EM.T_Urn_Loot_New_EM'
+        ParameterInfo = { Name=03 Emissive }
+    }
+}
+VectorParameterValues[0] = {}
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

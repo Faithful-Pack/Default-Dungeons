@@ -1,0 +1,76 @@
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 4.0131
+        ParameterInfo = { Name=03 Color Value }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0.02
+        ParameterInfo = { Name=02 Emissive Fakespec }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 200
+        ParameterInfo = { Name=06 Specular ScreenStr }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = -0.048374
+        ParameterInfo = { Name=Density }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = -0.102024
+        ParameterInfo = { Name=Offset }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0.4
+        ParameterInfo = { Name=Metallic }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 0.5
+        ParameterInfo = { Name=Roughness }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = 0.1
+        ParameterInfo = { Name=SpecularEmissiveShine }
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+Parent = Material3'Decor/Prefabs/ChainsnRope/M_Master_Prefabs_Triplanar_Planes.M_Master_Prefabs_Triplanar_Planes'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

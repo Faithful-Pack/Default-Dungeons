@@ -1,0 +1,162 @@
+ScalarParameterValues[20] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.115238
+        ParameterInfo = { Name=Add }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 2.56715
+        ParameterInfo = { Name=CenterGradient }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 1.55964
+        ParameterInfo = { Name=Cloud1_Multiplier_X }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Cloud1_Multiplier_Y }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = -0.35
+        ParameterInfo = { Name=Cloud1_Speed_Y }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 2
+        ParameterInfo = { Name=Cloud2_Multiplier_X }
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterName = None
+        ParameterValue = 4
+        ParameterInfo = { Name=Cloud2_Multiplier_Y }
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterName = None
+        ParameterValue = -0.2
+        ParameterInfo = { Name=Cloud2_Speed_X }
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterName = None
+        ParameterValue = -0.1
+        ParameterInfo = { Name=Cloud2_Speed_Y }
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Cloud3_Multiplier_X }
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterName = None
+        ParameterValue = 2
+        ParameterInfo = { Name=Cloud3_Multiplier_Y }
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterName = None
+        ParameterValue = 0.05
+        ParameterInfo = { Name=Cloud3_Speed_X }
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterName = None
+        ParameterValue = -0.05
+        ParameterInfo = { Name=Cloud3_Speed_Y }
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterName = None
+        ParameterValue = 0.3
+        ParameterInfo = { Name=CloudAdd }
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterName = None
+        ParameterValue = 0.2
+        ParameterInfo = { Name=PowerSuperEmssive }
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterName = None
+        ParameterValue = 1.93254
+        ParameterInfo = { Name=ReverseCenterGradient }
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=SineAdd }
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterName = None
+        ParameterValue = 0.05
+        ParameterInfo = { Name=TexCoordX }
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterName = None
+        ParameterValue = 0.015
+        ParameterInfo = { Name=TexCoordY }
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.085108, B=0, A=1 }
+        ParameterInfo = { Name=BaseColor }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=5, G=0.470688, B=0, A=1 }
+        ParameterInfo = { Name=ColorHighlight }
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.142682, B=0, A=1 }
+        ParameterInfo = { Name=FinalColor }
+    }
+}
+Parent = Material3'Components/Enchantments/Burning/M_Tornado.M_Tornado'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
