@@ -1,10 +1,13 @@
 TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] = { Texture2D'Cues/FrozenSolid/Splash.Splash' }
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content/Cues/FrozenSolid/Splash.Splash'
+}
 Expressions[7] =
 {
-    Expressions[0] = MaterialExpressionTextureSample'Cues/FrozenSolid/M_Splash.MaterialExpressionTextureSample_0'
+    Expressions[0] = MaterialExpressionTextureSample'Content/Cues/FrozenSolid/M_Splash.MaterialExpressionTextureSample_0'
 }
 CachedExpressionData =
 {

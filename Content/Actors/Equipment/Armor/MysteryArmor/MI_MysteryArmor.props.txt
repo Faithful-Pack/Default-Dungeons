@@ -24,13 +24,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor.T_MysteryArmor'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor.T_MysteryArmor'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor_S.T_MysteryArmor_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor_S.T_MysteryArmor_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -49,7 +49,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

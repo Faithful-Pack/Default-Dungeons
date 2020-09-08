@@ -3,16 +3,16 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
 Expressions[18] =
 {
-    Expressions[6] = MaterialExpressionTextureSample'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSample_3'
-    Expressions[7] = MaterialExpressionTextureSample'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSample_4'
-    Expressions[15] = MaterialExpressionVectorParameter'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionVectorParameter_0'
-    Expressions[16] = MaterialExpressionVectorParameter'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionVectorParameter_1'
-    Expressions[17] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionTextureSample'Content/Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSample_3'
+    Expressions[7] = MaterialExpressionTextureSample'Content/Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSample_4'
+    Expressions[15] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionVectorParameter_0'
+    Expressions[16] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionVectorParameter_1'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSampleParameter2D_0'
 }
 CachedExpressionData =
 {
@@ -38,7 +38,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Decor/Prefabs/Gate/T_Gate_Bars.T_Gate_Bars'
+        Texture = Texture2D'Content/Decor/Prefabs/Gate/T_Gate_Bars.T_Gate_Bars'
         Name = Texture
         Group = None
     }

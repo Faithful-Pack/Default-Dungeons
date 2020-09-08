@@ -36,18 +36,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/ArchIllegerStatue/T_VillagerStatue_New.T_VillagerStatue_New'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/ArchIllegerStatue/T_VillagerStatue_New.T_VillagerStatue_New'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/ArchIllegerStatue/T_VillagerStatue_New_Spec.T_VillagerStatue_New_Spec'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/ArchIllegerStatue/T_VillagerStatue_New_Spec.T_VillagerStatue_New_Spec'
         ParameterInfo = { Name=03 Specular Alpha }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

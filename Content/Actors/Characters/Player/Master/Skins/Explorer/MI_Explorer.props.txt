@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Explorer/T_Explorer_S.T_Explorer_S'
+        ParameterValue = Texture2D'Content/Actors/Characters/Player/Master/Skins/Explorer/T_Explorer_S.T_Explorer_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Explorer/T_Explorer.T_Explorer'
+        ParameterValue = Texture2D'Content/Actors/Characters/Player/Master/Skins/Explorer/T_Explorer.T_Explorer'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

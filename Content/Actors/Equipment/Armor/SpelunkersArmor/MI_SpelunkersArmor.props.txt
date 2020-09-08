@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/SpelunkersArmor/T_SpelunkersArmor.T_SpelunkersArmor'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/SpelunkersArmor/T_SpelunkersArmor.T_SpelunkersArmor'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/SpelunkersArmor/T_SpelunkersArmor_S.T_SpelunkersArmor_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/SpelunkersArmor/T_SpelunkersArmor_S.T_SpelunkersArmor_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -37,7 +37,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

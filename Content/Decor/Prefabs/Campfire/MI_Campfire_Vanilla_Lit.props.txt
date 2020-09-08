@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit.T_campfire_log_lit'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Campfire/T_campfire_log_lit.T_campfire_log_lit'
         ParameterInfo = { Name=Diffuse }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
         ParameterInfo = { Name=Emissive }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/Campfire/M_Camfire_Vanilla.M_Camfire_Vanilla'
+Parent = Material3'Content/Decor/Prefabs/Campfire/M_Camfire_Vanilla.M_Camfire_Vanilla'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -12,13 +12,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Patch1/Actors/Equipment/MeleeWeapons/Battlestaff_Unique1/T_Battlestaff_unique1.T_Battlestaff_unique1'
+        ParameterValue = Texture2D'Content/Patch1/Actors/Equipment/MeleeWeapons/Battlestaff_Unique1/T_Battlestaff_unique1.T_Battlestaff_unique1'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Patch1/Actors/Equipment/MeleeWeapons/Battlestaff_Unique1/T_Battlestaff_unique1_S.T_Battlestaff_unique1_S'
+        ParameterValue = Texture2D'Content/Patch1/Actors/Equipment/MeleeWeapons/Battlestaff_Unique1/T_Battlestaff_unique1_S.T_Battlestaff_unique1_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -37,7 +37,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

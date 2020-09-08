@@ -54,13 +54,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration_S.T_TotemOfRegeneration_S'
+        ParameterValue = Texture2D'Content/Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration_S.T_TotemOfRegeneration_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration.T_TotemOfRegeneration'
+        ParameterValue = Texture2D'Content/Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration.T_TotemOfRegeneration'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -79,7 +79,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=ExtraEmissiveColor }
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -1,14 +1,11 @@
 TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
-{
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Cracks/T_Cracks.T_Cracks'
-}
+ReferencedTextures[1] = { Texture2D'Materials/Cracks/T_Cracks.T_Cracks' }
 Expressions[7] =
 {
-    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Generic/M_GenericMaskCascadeMaster_UVAdjustable.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_GenericMaskCascadeMaster_UVAdjustable.MaterialExpressionScalarParameter_0'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Content/Effects/Materials/Generic/M_GenericMaskCascadeMaster_UVAdjustable.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionScalarParameter'Content/Effects/Materials/Generic/M_GenericMaskCascadeMaster_UVAdjustable.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {
@@ -34,7 +31,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Effects/Materials/Cracks/T_Cracks.T_Cracks'
+        Texture = Texture2D'Materials/Cracks/T_Cracks.T_Cracks'
         Name = Texture
         Group = None
     }

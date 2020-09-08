@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Friendlies/IronGolem/T_IronGolem_S.T_IronGolem_S'
+        ParameterValue = Texture2D'Content/Actors/Characters/Friendlies/IronGolem/T_IronGolem_S.T_IronGolem_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Friendlies/IronGolem/T_IronGolem.T_IronGolem'
+        ParameterValue = Texture2D'Content/Actors/Characters/Friendlies/IronGolem/T_IronGolem.T_IronGolem'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EmissiveBColor }
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

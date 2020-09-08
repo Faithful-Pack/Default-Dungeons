@@ -36,19 +36,19 @@ TextureParameterValues[3] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_Window_E.T_Window_E'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Window/Material/T_Window_E.T_Window_E'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_Window.T_Window'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Window/Material/T_Window.T_Window'
         ParameterInfo = { Name=Diffuse }
     }
     TextureParameterValues[2] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_Window_E.T_Window_E'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Window/Material/T_Window_E.T_Window_E'
         ParameterInfo = { Name=Emissive }
     }
 }
@@ -61,7 +61,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=ColorOverlay }
     }
 }
-Parent = Material3'Decor/Prefabs/Window/Material/M_TexturedWindow.M_TexturedWindow'
+Parent = Material3'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.M_TexturedWindow'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

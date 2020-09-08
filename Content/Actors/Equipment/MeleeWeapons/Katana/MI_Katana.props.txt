@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Katana/T_Katana.T_Katana'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Katana/T_Katana.T_Katana'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Katana/T_Katana_S.T_Katana_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Katana/T_Katana_S.T_Katana_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -37,7 +37,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

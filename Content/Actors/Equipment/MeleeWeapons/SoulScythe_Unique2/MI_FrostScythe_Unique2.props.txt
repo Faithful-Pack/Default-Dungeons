@@ -24,13 +24,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/SoulScythe_Unique2/T_FrostScythe_Unique2.T_FrostScythe_Unique2'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/SoulScythe_Unique2/T_FrostScythe_Unique2.T_FrostScythe_Unique2'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/SoulScythe_Unique2/T_FrostScythe_Unique2_S.T_FrostScythe_Unique2_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/SoulScythe_Unique2/T_FrostScythe_Unique2_S.T_FrostScythe_Unique2_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -49,7 +49,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

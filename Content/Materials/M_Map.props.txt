@@ -1,22 +1,25 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] = { Texture2D'Actors/Items/Map/T_Map.T_Map' }
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content/Actors/Items/Map/T_Map.T_Map'
+}
 Expressions[61] =
 {
-    Expressions[2] = MaterialExpressionTextureSample'Materials/M_Map.MaterialExpressionTextureSample_0'
-    Expressions[3] = MaterialExpressionTextureSample'Materials/M_Map.MaterialExpressionTextureSample_1'
-    Expressions[15] = MaterialExpressionTextureSample'Materials/M_Map.MaterialExpressionTextureSample_2'
-    Expressions[17] = MaterialExpressionScalarParameter'Materials/M_Map.MaterialExpressionScalarParameter_0'
-    Expressions[23] = MaterialExpressionTextureSample'Materials/M_Map.MaterialExpressionTextureSample_3'
-    Expressions[24] = MaterialExpressionTextureSample'Materials/M_Map.MaterialExpressionTextureSample_4'
-    Expressions[25] = MaterialExpressionTextureSample'Materials/M_Map.MaterialExpressionTextureSample_5'
-    Expressions[37] = MaterialExpressionScalarParameter'Materials/M_Map.MaterialExpressionScalarParameter_4'
-    Expressions[39] = MaterialExpressionScalarParameter'Materials/M_Map.MaterialExpressionScalarParameter_5'
-    Expressions[52] = MaterialExpressionScalarParameter'Materials/M_Map.MaterialExpressionScalarParameter_13'
-    Expressions[53] = MaterialExpressionScalarParameter'Materials/M_Map.MaterialExpressionScalarParameter_14'
-    Expressions[54] = MaterialExpressionScalarParameter'Materials/M_Map.MaterialExpressionScalarParameter_15'
-    Expressions[55] = MaterialExpressionScalarParameter'Materials/M_Map.MaterialExpressionScalarParameter_16'
+    Expressions[2] = MaterialExpressionTextureSample'Content/Materials/M_Map.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionTextureSample'Content/Materials/M_Map.MaterialExpressionTextureSample_1'
+    Expressions[15] = MaterialExpressionTextureSample'Content/Materials/M_Map.MaterialExpressionTextureSample_2'
+    Expressions[17] = MaterialExpressionScalarParameter'Content/Materials/M_Map.MaterialExpressionScalarParameter_0'
+    Expressions[23] = MaterialExpressionTextureSample'Content/Materials/M_Map.MaterialExpressionTextureSample_3'
+    Expressions[24] = MaterialExpressionTextureSample'Content/Materials/M_Map.MaterialExpressionTextureSample_4'
+    Expressions[25] = MaterialExpressionTextureSample'Content/Materials/M_Map.MaterialExpressionTextureSample_5'
+    Expressions[37] = MaterialExpressionScalarParameter'Content/Materials/M_Map.MaterialExpressionScalarParameter_4'
+    Expressions[39] = MaterialExpressionScalarParameter'Content/Materials/M_Map.MaterialExpressionScalarParameter_5'
+    Expressions[52] = MaterialExpressionScalarParameter'Content/Materials/M_Map.MaterialExpressionScalarParameter_13'
+    Expressions[53] = MaterialExpressionScalarParameter'Content/Materials/M_Map.MaterialExpressionScalarParameter_14'
+    Expressions[54] = MaterialExpressionScalarParameter'Content/Materials/M_Map.MaterialExpressionScalarParameter_15'
+    Expressions[55] = MaterialExpressionScalarParameter'Content/Materials/M_Map.MaterialExpressionScalarParameter_16'
 }
 CachedExpressionData =
 {

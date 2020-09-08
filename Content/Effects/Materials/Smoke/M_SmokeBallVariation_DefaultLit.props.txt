@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Smoke/T_SmokeBallVariation.T_SmokeBallVariation'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Smoke/T_SmokeBallVariation.T_SmokeBallVariation'
 }
 Expressions[31] =
 {
-    Expressions[1] = MaterialExpressionStaticBoolParameter'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[20] = MaterialExpressionTextureSample'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionTextureSample_1'
-    Expressions[26] = MaterialExpressionScalarParameter'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionScalarParameter_0'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[20] = MaterialExpressionTextureSample'Content/Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionTextureSample_1'
+    Expressions[26] = MaterialExpressionScalarParameter'Content/Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {

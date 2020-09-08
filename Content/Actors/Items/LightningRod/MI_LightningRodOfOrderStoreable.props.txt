@@ -12,13 +12,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/LightningRod/T_LightningRod.T_LightningRod'
+        ParameterValue = Texture2D'Content/Actors/Items/LightningRod/T_LightningRod.T_LightningRod'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/LightningRod/T_LightningRod_S.T_LightningRod_S'
+        ParameterValue = Texture2D'Content/Actors/Items/LightningRod/T_LightningRod_S.T_LightningRod_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -37,7 +37,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=ShineColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -42,13 +42,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TormentQuiver/T_TormentArrow.T_TormentArrow'
+        ParameterValue = Texture2D'Content/Actors/Items/TormentQuiver/T_TormentArrow.T_TormentArrow'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TormentQuiver/T_TormentArrow_S.T_TormentArrow_S'
+        ParameterValue = Texture2D'Content/Actors/Items/TormentQuiver/T_TormentArrow_S.T_TormentArrow_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -67,7 +67,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=FullEmissive }
     }
 }
-Parent = Material3'Models/Weapons/Arrow/M_Arrow.M_Arrow'
+Parent = Material3'Content/Models/Weapons/Arrow/M_Arrow.M_Arrow'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

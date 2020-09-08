@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Gauntlets_Unique2/T_Gauntlets_Unique2.T_Gauntlets_Unique2'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Gauntlets_Unique2/T_Gauntlets_Unique2.T_Gauntlets_Unique2'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Gauntlets_Unique2/T_Gauntlets_Unique2_S.T_Gauntlets_Unique2_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Gauntlets_Unique2/T_Gauntlets_Unique2_S.T_Gauntlets_Unique2_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

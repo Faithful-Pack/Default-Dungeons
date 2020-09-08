@@ -12,12 +12,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Armchair.T_Armchair'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/_Furniture/T_Armchair.T_Armchair'
         ParameterInfo = { Name=01 Base Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -3,24 +3,24 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Textures/screenspec_text.screenspec_text'
+    ReferencedTextures[0] = Texture2D'Content/Textures/screenspec_text.screenspec_text'
 }
 Expressions[28] =
 {
     Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[3] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[5] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_2'
     Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionScalarParameter_7'
     Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionScalarParameter_1'
     Expressions[11] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionTextureSampleParameter2D_1'
     Expressions[13] = MaterialExpressionScalarParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionScalarParameter_0'
-    Expressions[17] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[17] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_1'
     Expressions[18] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionTextureSampleParameter2D_2'
     Expressions[20] = MaterialExpressionScalarParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionScalarParameter_9'
     Expressions[22] = MaterialExpressionTextureSample'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionTextureSample_0'
     Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionScalarParameter_11'
-    Expressions[26] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[27] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_FadeMaterial_Master.MaterialExpressionStaticSwitchParameter_4'
 }
 CachedExpressionData =
 {

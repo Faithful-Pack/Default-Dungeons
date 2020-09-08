@@ -3,12 +3,12 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/pixelgradient64.pixelgradient64'
+    ReferencedTextures[0] = Texture2D'Materials/Noise/pixelgradient64.pixelgradient64'
 }
 Expressions[8] =
 {
-    Expressions[5] = MaterialExpressionScalarParameter'Materials/blackgradient.MaterialExpressionScalarParameter_15'
-    Expressions[6] = MaterialExpressionTextureSample'Materials/blackgradient.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Content/Materials/blackgradient.MaterialExpressionScalarParameter_15'
+    Expressions[6] = MaterialExpressionTextureSample'Content/Materials/blackgradient.MaterialExpressionTextureSample_0'
 }
 CachedExpressionData =
 {

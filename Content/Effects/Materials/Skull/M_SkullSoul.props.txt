@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Skull/T_SkullSoul.T_SkullSoul'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Skull/T_SkullSoul.T_SkullSoul'
+    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
 Expressions[8] =
 {
-    Expressions[2] = MaterialExpressionTextureSample'Effects/Materials/Skull/M_SkullSoul.MaterialExpressionTextureSample_0'
-    Expressions[4] = MaterialExpressionTextureSample'Effects/Materials/Skull/M_SkullSoul.MaterialExpressionTextureSample_3'
+    Expressions[2] = MaterialExpressionTextureSample'Content/Effects/Materials/Skull/M_SkullSoul.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'Content/Effects/Materials/Skull/M_SkullSoul.MaterialExpressionTextureSample_3'
 }
 CachedExpressionData =
 {

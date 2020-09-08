@@ -24,13 +24,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Daggers_unique2/T_MoonDaggers.T_MoonDaggers'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Daggers_unique2/T_MoonDaggers.T_MoonDaggers'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Daggers_unique2/T_MoonDaggers_S.T_MoonDaggers_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Daggers_unique2/T_MoonDaggers_S.T_MoonDaggers_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -49,7 +49,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

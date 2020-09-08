@@ -3,11 +3,11 @@ bDisableDepthTest = true
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_mysteriousShapedCircle.T_MysteriousShapedCircle'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_mysteriousShapedCircle.T_MysteriousShapedCircle'
 }
 Expressions[7] =
 {
-    Expressions[1] = MaterialExpressionStaticBoolParameter'Materials/Generic/M_MysteriousShapedCircleDepthDisabled.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Materials/Generic/M_MysteriousShapedCircleDepthDisabled.MaterialExpressionStaticSwitchParameter_0'
     Expressions[4] = MaterialExpressionTextureSampleParameter2D'Materials/Generic/M_MysteriousShapedCircleDepthDisabled.MaterialExpressionTextureSampleParameter2D_0'
     Expressions[6] = MaterialExpressionScalarParameter'Materials/Generic/M_MysteriousShapedCircleDepthDisabled.MaterialExpressionScalarParameter_0'
 }
@@ -35,7 +35,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Effects/Materials/Generic/T_mysteriousShapedCircle.T_MysteriousShapedCircle'
+        Texture = Texture2D'Content/Effects/Materials/Generic/T_mysteriousShapedCircle.T_MysteriousShapedCircle'
         Name = Texture
         Group = None
     }

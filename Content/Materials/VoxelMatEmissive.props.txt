@@ -3,16 +3,16 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
 Expressions[47] =
 {
-    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatEmissive.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[27] = MaterialExpressionTextureSample'Materials/VoxelMatEmissive.MaterialExpressionTextureSample_1'
-    Expressions[34] = MaterialExpressionScalarParameter'Materials/VoxelMatEmissive.MaterialExpressionScalarParameter_0'
-    Expressions[38] = MaterialExpressionScalarParameter'Materials/VoxelMatEmissive.MaterialExpressionScalarParameter_1'
-    Expressions[39] = MaterialExpressionStaticBoolParameter'Materials/VoxelMatEmissive.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[46] = MaterialExpressionScalarParameter'Materials/VoxelMatEmissive.MaterialExpressionScalarParameter_4'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Content/Materials/VoxelMatEmissive.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[27] = MaterialExpressionTextureSample'Content/Materials/VoxelMatEmissive.MaterialExpressionTextureSample_1'
+    Expressions[34] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatEmissive.MaterialExpressionScalarParameter_0'
+    Expressions[38] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatEmissive.MaterialExpressionScalarParameter_1'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'Content/Materials/VoxelMatEmissive.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[46] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatEmissive.MaterialExpressionScalarParameter_4'
 }
 CachedExpressionData =
 {
@@ -38,7 +38,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+        Texture = Texture2D'Content/Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
         Name = Texture
         Group = None
     }

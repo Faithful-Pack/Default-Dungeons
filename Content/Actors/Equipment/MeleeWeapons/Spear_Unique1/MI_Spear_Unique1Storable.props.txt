@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Spear_Unique1/T_Spear_Unique1.T_Spear_Unique1'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Spear_Unique1/T_Spear_Unique1.T_Spear_Unique1'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Spear_Unique1/T_Spear_Unique1.T_Spear_Unique1'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Spear_Unique1/T_Spear_Unique1.T_Spear_Unique1'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Spear/MI_SpearStorable.MI_SpearStorable'
+Parent = MaterialInstanceConstant'Content/Actors/Equipment/MeleeWeapons/Spear/MI_SpearStorable.MI_SpearStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

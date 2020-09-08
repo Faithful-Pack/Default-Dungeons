@@ -36,18 +36,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Containers/Sacks/T_Sack.T_Sack'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/_Containers/Sacks/T_Sack.T_Sack'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Containers/Sacks/T_Sack_Small_SPEC.T_Sack_Small_SPEC'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/_Containers/Sacks/T_Sack_Small_SPEC.T_Sack_Small_SPEC'
         ParameterInfo = { Name=03 Specular Alpha }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

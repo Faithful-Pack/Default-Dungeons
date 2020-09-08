@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/SoulKnife_Unique1/T_SoulKnife_Unique1.T_SoulKnife_Unique1'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/SoulKnife_Unique1/T_SoulKnife_Unique1.T_SoulKnife_Unique1'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/SoulKnife_Unique1/T_SpiritKnife_S_Unique1.T_SpiritKnife_S_Unique1'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/SoulKnife_Unique1/T_SpiritKnife_S_Unique1.T_SpiritKnife_S_Unique1'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

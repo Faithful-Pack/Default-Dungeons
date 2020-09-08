@@ -3,11 +3,11 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Actors/Characters/Player/Master/Skins/Alex/T_Alex_Skin.T_Alex_Skin'
+    ReferencedTextures[0] = Texture2D'Content/Actors/Characters/Player/Master/Skins/Alex/T_Alex_Skin.T_Alex_Skin'
 }
 Expressions[13] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Actors/Characters/Player/Master/M_PlayerPortrait.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/Actors/Characters/Player/Master/M_PlayerPortrait.MaterialExpressionTextureSampleParameter2D_0'
 }
 CachedExpressionData =
 {
@@ -33,7 +33,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Actors/Characters/Player/Master/Skins/Alex/T_Alex_Skin.T_Alex_Skin'
+        Texture = Texture2D'Content/Actors/Characters/Player/Master/Skins/Alex/T_Alex_Skin.T_Alex_Skin'
         Name = Texture
         Group = None
     }

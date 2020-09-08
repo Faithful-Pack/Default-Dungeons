@@ -3,14 +3,14 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'UI/Materials/StatusEffect/GameplayEffect/strength_icon.strength_icon'
-    ReferencedTextures[1] = Texture2D'UI/Materials/StatusEffect/GameplayEffect/strength_icon_effect.strength_icon_effect'
+    ReferencedTextures[0] = Texture2D'Content/UI/Materials/StatusEffect/GameplayEffect/strength_icon.strength_icon'
+    ReferencedTextures[1] = Texture2D'Content/UI/Materials/StatusEffect/GameplayEffect/strength_icon_effect.strength_icon_effect'
 }
 Expressions[31] =
 {
-    Expressions[3] = MaterialExpressionTextureSample'UI/Materials/StatusEffect/GameplayEffect/IconShine.MaterialExpressionTextureSample_1'
-    Expressions[4] = MaterialExpressionVectorParameter'UI/Materials/StatusEffect/GameplayEffect/IconShine.MaterialExpressionVectorParameter_0'
-    Expressions[5] = MaterialExpressionTextureSample'UI/Materials/StatusEffect/GameplayEffect/IconShine.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionTextureSample'Content/UI/Materials/StatusEffect/GameplayEffect/IconShine.MaterialExpressionTextureSample_1'
+    Expressions[4] = MaterialExpressionVectorParameter'Content/UI/Materials/StatusEffect/GameplayEffect/IconShine.MaterialExpressionVectorParameter_0'
+    Expressions[5] = MaterialExpressionTextureSample'Content/UI/Materials/StatusEffect/GameplayEffect/IconShine.MaterialExpressionTextureSample_0'
 }
 CachedExpressionData =
 {

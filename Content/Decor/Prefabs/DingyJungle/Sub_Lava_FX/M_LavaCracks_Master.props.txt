@@ -5,18 +5,18 @@ ReferencedTextures[3] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/T_CreeperPillar.T_CreeperPillar'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/T_CreeperPillarLava.T_CreeperPillarLava'
-    ReferencedTextures[2] = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+    ReferencedTextures[2] = Texture2D'Content/Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
 }
 Expressions[42] =
 {
-    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[28] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_4'
-    Expressions[31] = MaterialExpressionVectorParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionVectorParameter_0'
-    Expressions[34] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_6'
-    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_7'
-    Expressions[39] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_8'
-    Expressions[41] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_9'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[28] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[31] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionVectorParameter_0'
+    Expressions[34] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_6'
+    Expressions[37] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_7'
+    Expressions[39] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_8'
+    Expressions[41] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_9'
 }
 CachedExpressionData =
 {
@@ -54,7 +54,7 @@ CollectedTextureParameters[3] =
     }
     CollectedTextureParameters[2] =
     {
-        Texture = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+        Texture = Texture2D'Content/Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
         Name = Texture
         Group = None
     }

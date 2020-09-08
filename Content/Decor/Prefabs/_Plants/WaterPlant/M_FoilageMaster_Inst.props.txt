@@ -24,12 +24,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Plants/WaterPlant/T_Water_Plant.T_Water_Plant'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/_Plants/WaterPlant/T_Water_Plant.T_Water_Plant'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.M_FoilageMaster'
+Parent = Material3'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.M_FoilageMaster'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

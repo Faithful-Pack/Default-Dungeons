@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/ShortBow_Unique1/T_PurpleRain.T_PurpleRain'
+        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/ShortBow_Unique1/T_PurpleRain.T_PurpleRain'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/ShortBow_Unique1/T_PurpleRain_S.T_PurpleRain_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/ShortBow_Unique1/T_PurpleRain_S.T_PurpleRain_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

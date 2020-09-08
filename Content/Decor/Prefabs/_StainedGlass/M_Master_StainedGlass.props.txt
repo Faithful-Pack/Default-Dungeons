@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Texture/cobblestone.cobblestone'
+    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Texture/cobblestone.cobblestone'
 }
 Expressions[75] =
 {
-    Expressions[1] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[2] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[7] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_3'
     Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_0'
     Expressions[9] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_1'
     Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_2'

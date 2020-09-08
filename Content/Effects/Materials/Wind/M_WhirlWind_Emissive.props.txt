@@ -3,12 +3,12 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Wind/T_WhirlWind.T_WhirlWind'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Wind/T_WhirlWind.T_WhirlWind'
 }
 Expressions[10] =
 {
-    Expressions[2] = MaterialExpressionTextureSample'Effects/Materials/Wind/M_WhirlWind_Emissive.MaterialExpressionTextureSample_0'
-    Expressions[8] = MaterialExpressionStaticBoolParameter'Effects/Materials/Wind/M_WhirlWind_Emissive.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[2] = MaterialExpressionTextureSample'Content/Effects/Materials/Wind/M_WhirlWind_Emissive.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Wind/M_WhirlWind_Emissive.MaterialExpressionStaticSwitchParameter_0'
 }
 CachedExpressionData =
 {

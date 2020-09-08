@@ -12,13 +12,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Whip_Unique1/T_Poison_Whip.T_Poison_Whip'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Whip_Unique1/T_Poison_Whip.T_Poison_Whip'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Materials/black1x1.black1x1'
+        ParameterValue = Texture2D'Content/Materials/black1x1.black1x1'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -31,7 +31,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

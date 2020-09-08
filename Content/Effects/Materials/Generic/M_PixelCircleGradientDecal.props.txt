@@ -3,24 +3,24 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
 }
 Expressions[43] =
 {
-    Expressions[0] = MaterialExpressionStaticBoolParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[6] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_9'
-    Expressions[10] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_10'
-    Expressions[18] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_11'
-    Expressions[26] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_12'
-    Expressions[30] = MaterialExpressionVectorParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionVectorParameter_1'
-    Expressions[31] = MaterialExpressionStaticBoolParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[32] = MaterialExpressionStaticBoolParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[33] = MaterialExpressionStaticBoolParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[35] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[36] = MaterialExpressionStaticBoolParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[37] = MaterialExpressionStaticBoolParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_6'
-    Expressions[39] = MaterialExpressionStaticBoolParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[41] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_0'
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[6] = MaterialExpressionScalarParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_9'
+    Expressions[10] = MaterialExpressionScalarParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_10'
+    Expressions[18] = MaterialExpressionScalarParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_11'
+    Expressions[26] = MaterialExpressionScalarParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_12'
+    Expressions[30] = MaterialExpressionVectorParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionVectorParameter_1'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[32] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[33] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[35] = MaterialExpressionTextureSampleParameter2D'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[36] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[41] = MaterialExpressionScalarParameter'Content/Effects/Materials/Generic/M_PixelCircleGradientDecal.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {
@@ -46,7 +46,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
+        Texture = Texture2D'Content/Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
         Name = Texture
         Group = None
     }

@@ -1,22 +1,25 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] = { Texture2D'Materials/Runes/runes.runes' }
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content/Materials/Runes/runes.runes'
+}
 Expressions[50] =
 {
-    Expressions[3] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_0'
-    Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_1'
-    Expressions[8] = MaterialExpressionVectorParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionVectorParameter_0'
-    Expressions[9] = MaterialExpressionVectorParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionVectorParameter_1'
-    Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_2'
-    Expressions[15] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_3'
-    Expressions[18] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_4'
-    Expressions[34] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_8'
-    Expressions[36] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_7'
-    Expressions[45] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_10'
-    Expressions[46] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_11'
-    Expressions[47] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_12'
-    Expressions[49] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_17'
+    Expressions[3] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_0'
+    Expressions[7] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_1'
+    Expressions[8] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionVectorParameter_0'
+    Expressions[9] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionVectorParameter_1'
+    Expressions[12] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_2'
+    Expressions[15] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_3'
+    Expressions[18] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_4'
+    Expressions[34] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_8'
+    Expressions[36] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_7'
+    Expressions[45] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_10'
+    Expressions[46] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_11'
+    Expressions[47] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_12'
+    Expressions[49] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube.MaterialExpressionScalarParameter_17'
 }
 CachedExpressionData =
 {

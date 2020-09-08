@@ -24,18 +24,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/BannersWall/T_RewardRoomBanner.T_RewardRoomBanner'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/BannersWall/T_RewardRoomBanner.T_RewardRoomBanner'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/BannersWall/T_RewardRoomBanner_Spec.T_RewardRoomBanner_Spec'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/BannersWall/T_RewardRoomBanner_Spec.T_RewardRoomBanner_Spec'
         ParameterInfo = { Name=03 Specular Alpha }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.M_Master_Prefab_Meshes_Twosided'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.M_Master_Prefab_Meshes_Twosided'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

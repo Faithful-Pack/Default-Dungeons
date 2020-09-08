@@ -36,18 +36,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay.T_RuneRelay'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay.T_RuneRelay'
         ParameterInfo = { Name=Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay_Mask.T_RuneRelay_Mask'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay_Mask.T_RuneRelay_Mask'
         ParameterInfo = { Name=Mask }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.M_RuneActivator'
+Parent = Material3'Content/Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.M_RuneActivator'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

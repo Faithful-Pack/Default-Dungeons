@@ -4,12 +4,12 @@ bIsMasked = false
 ReferencedTextures[2] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/T_FFJ_CloudPanner.T_FFJ_CloudPanner'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Generic/T_Radial_Gradient.T_Radial_Gradient'
+    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Generic/T_Radial_Gradient.T_Radial_Gradient'
 }
 Expressions[22] =
 {
     Expressions[0] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_Forest.MaterialExpressionVectorParameter_0'
-    Expressions[2] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_Forest.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_Forest.MaterialExpressionStaticSwitchParameter_0'
     Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_Forest.MaterialExpressionScalarParameter_0'
     Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_Forest.MaterialExpressionScalarParameter_1'
     Expressions[10] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_Forest.MaterialExpressionTextureSample_0'

@@ -24,13 +24,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor.T_StalwartArmor'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor.T_StalwartArmor'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor_S.T_StalwartArmor_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor_S.T_StalwartArmor_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

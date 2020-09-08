@@ -3,7 +3,7 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
 }
 Expressions[32] =
 {
@@ -42,13 +42,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = Texture
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = Specular
         Group = None
     }

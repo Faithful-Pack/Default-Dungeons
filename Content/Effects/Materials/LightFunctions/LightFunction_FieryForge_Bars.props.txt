@@ -3,19 +3,19 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Window/Material/T_WindowRayRays.T_WindowRayRays'
+    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Window/Material/T_WindowRayRays.T_WindowRayRays'
 }
 Expressions[43] =
 {
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[2] = MaterialExpressionTextureSample'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSample_0'
-    Expressions[17] = MaterialExpressionScalarParameter'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_0'
-    Expressions[18] = MaterialExpressionScalarParameter'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_1'
-    Expressions[28] = MaterialExpressionScalarParameter'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_2'
-    Expressions[31] = MaterialExpressionTextureSample'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSample_1'
-    Expressions[32] = MaterialExpressionTextureSample'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSample_2'
-    Expressions[39] = MaterialExpressionScalarParameter'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_4'
-    Expressions[42] = MaterialExpressionScalarParameter'Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_5'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSample'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSample_0'
+    Expressions[17] = MaterialExpressionScalarParameter'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_0'
+    Expressions[18] = MaterialExpressionScalarParameter'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_1'
+    Expressions[28] = MaterialExpressionScalarParameter'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_2'
+    Expressions[31] = MaterialExpressionTextureSample'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSample_1'
+    Expressions[32] = MaterialExpressionTextureSample'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionTextureSample_2'
+    Expressions[39] = MaterialExpressionScalarParameter'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_4'
+    Expressions[42] = MaterialExpressionScalarParameter'Content/Effects/Materials/LightFunctions/LightFunction_FieryForge_Bars.MaterialExpressionScalarParameter_5'
 }
 CachedExpressionData =
 {
@@ -41,7 +41,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Effects/Materials/LightFunctions/FireyForge_Bars_Lightcookie.FireyForge_Bars_Lightcookie'
+        Texture = Texture2D'Materials/LightFunctions/FireyForge_Bars_Lightcookie.FireyForge_Bars_Lightcookie'
         Name = Cookie
         Group = None
     }

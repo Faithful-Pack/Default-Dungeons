@@ -54,7 +54,7 @@ TextureParameterValues[4] =
     TextureParameterValues[3] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Effects/Materials/Generic/T_DiagonalLine_512.T_DiagonalLine_512'
+        ParameterValue = Texture2D'Materials/Generic/T_DiagonalLine_512.T_DiagonalLine_512'
         ParameterInfo = { Name=08 ShineTexture }
     }
 }
@@ -73,7 +73,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=09 ShineColor }
     }
 }
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

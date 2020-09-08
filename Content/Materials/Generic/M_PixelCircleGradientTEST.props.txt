@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
 }
 Expressions[9] =
 {
     Expressions[5] = MaterialExpressionScalarParameter'Materials/Generic/M_PixelCircleGradientTEST.MaterialExpressionScalarParameter_9'
     Expressions[7] = MaterialExpressionTextureSampleParameter2D'Materials/Generic/M_PixelCircleGradientTEST.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[8] = MaterialExpressionStaticBoolParameter'Materials/Generic/M_PixelCircleGradientTEST.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'Materials/Generic/M_PixelCircleGradientTEST.MaterialExpressionStaticSwitchParameter_5'
 }
 CachedExpressionData =
 {
@@ -35,7 +35,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
+        Texture = Texture2D'Content/Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
         Name = Texture
         Group = None
     }

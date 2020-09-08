@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/SoulRobe_Unique1/T_SoulDancerRobe.T_SoulDancerRobe'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/SoulRobe_Unique1/T_SoulDancerRobe.T_SoulDancerRobe'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/SoulRobe_Unique1/T_SoulDancerRobe_S.T_SoulDancerRobe_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/SoulRobe_Unique1/T_SoulDancerRobe_S.T_SoulDancerRobe_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -3,12 +3,12 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
+    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
 }
 Expressions[13] =
 {
-    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/MapTable/New/M_Map.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/MapTable/New/M_Map.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/MapTable/New/M_Map.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/MapTable/New/M_Map.MaterialExpressionTextureSampleParameter2D_1'
 }
 CachedExpressionData =
 {
@@ -34,13 +34,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
+        Texture = Texture2D'Content/Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
         Name = Texture_2
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
+        Texture = Texture2D'Content/Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
         Name = Texture_1
         Group = None
     }

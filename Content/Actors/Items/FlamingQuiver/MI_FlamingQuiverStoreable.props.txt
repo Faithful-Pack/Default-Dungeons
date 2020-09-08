@@ -12,12 +12,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/FlamingQuiver/T_FlamingQuiver.T_FlamingQuiver'
+        ParameterValue = Texture2D'Content/Actors/Items/FlamingQuiver/T_FlamingQuiver.T_FlamingQuiver'
         ParameterInfo = { Name=Albedo }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

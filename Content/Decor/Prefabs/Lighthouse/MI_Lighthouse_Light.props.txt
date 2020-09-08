@@ -24,24 +24,24 @@ TextureParameterValues[3] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Lighthouse/T_Lighthouse_Light.T_Lighthouse_Light'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Lighthouse/T_Lighthouse_Light.T_Lighthouse_Light'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Lighthouse/T_Lighthouse_Light_SPEC.T_Lighthouse_Light_SPEC'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Lighthouse/T_Lighthouse_Light_SPEC.T_Lighthouse_Light_SPEC'
         ParameterInfo = { Name=03 Specular Alpha }
     }
     TextureParameterValues[2] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Lighthouse/T_Lighthouse_Light_EM.T_Lighthouse_Light_EM'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/Lighthouse/T_Lighthouse_Light_EM.T_Lighthouse_Light_EM'
         ParameterInfo = { Name=03 Emissive }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

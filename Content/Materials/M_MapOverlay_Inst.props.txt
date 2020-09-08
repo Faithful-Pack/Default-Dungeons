@@ -30,12 +30,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'data/resourcepacks/pumpkinpastures/images/blocks/_grass_side._grass_side'
+        ParameterValue = Texture2D'Content/data/resourcepacks/pumpkinpastures/images/blocks/_grass_side._grass_side'
         ParameterInfo = { Name=Tex }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Materials/M_Map.M_Map'
+Parent = Material3'Content/Materials/M_Map.M_Map'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

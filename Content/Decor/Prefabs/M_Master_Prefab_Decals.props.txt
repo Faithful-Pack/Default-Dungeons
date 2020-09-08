@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Apple/T_Apple.T_Apple'
+    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Apple/T_Apple.T_Apple'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/Apple/T_Apple_SPEC.T_Apple_SPEC'
 }
 Expressions[18] =
 {
-    Expressions[1] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Decals.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[2] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Decals.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Decals.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Decals.MaterialExpressionStaticSwitchParameter_2'
     Expressions[4] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Decals.MaterialExpressionTextureSampleParameter2D_1'
     Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Decals.MaterialExpressionScalarParameter_0'
     Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Decals.MaterialExpressionScalarParameter_1'
@@ -45,7 +45,7 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Decor/Prefabs/Apple/T_Apple.T_Apple'
+        Texture = Texture2D'Content/Decor/Prefabs/Apple/T_Apple.T_Apple'
         Name = 01 Base Color
         Group = 01 BC
     }

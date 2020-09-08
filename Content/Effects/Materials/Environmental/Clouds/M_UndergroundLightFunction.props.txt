@@ -3,9 +3,9 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/LightFunctions/T_Dungeon_Roof_LightCookie.T_Dungeon_Roof_LightCookie'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[2] = Texture2D'Materials/LightFunctions/T_Dungeon_Roof_LightCookie.T_Dungeon_Roof_LightCookie'
 }
 Expressions[65] =
 {
@@ -22,7 +22,7 @@ Expressions[65] =
     Expressions[58] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionScalarParameter_5'
     Expressions[61] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionTextureSample_4'
     Expressions[62] = MaterialExpressionVectorParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionVectorParameter_0'
-    Expressions[63] = MaterialExpressionStaticBoolParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[63] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionStaticSwitchParameter_0'
 }
 CachedExpressionData =
 {

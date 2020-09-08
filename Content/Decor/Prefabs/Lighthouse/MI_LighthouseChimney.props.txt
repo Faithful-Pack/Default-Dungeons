@@ -12,12 +12,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'data/resourcepacks/andesitehills/images/blocks/stonebrick.stonebrick'
+        ParameterValue = Texture2D'Content/data/resourcepacks/andesitehills/images/blocks/stonebrick.stonebrick'
         ParameterInfo = { Name=01 Base Color }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefabs_Triplanar.M_Master_Prefabs_Triplanar'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefabs_Triplanar.M_Master_Prefabs_Triplanar'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -3,11 +3,11 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_BulgeNormalMap_Circle.T_BulgeNormalMap_Circle'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_BulgeNormalMap_Circle.T_BulgeNormalMap_Circle'
 }
 Expressions[4] =
 {
-    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Generic/M_BulgeNormalMap.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Content/Effects/Materials/Generic/M_BulgeNormalMap.MaterialExpressionTextureSampleParameter2D_0'
 }
 CachedExpressionData =
 {
@@ -33,7 +33,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Effects/Materials/Generic/T_BulgeNormalMap_Circle.T_BulgeNormalMap_Circle'
+        Texture = Texture2D'Content/Effects/Materials/Generic/T_BulgeNormalMap_Circle.T_BulgeNormalMap_Circle'
         Name = Texture
         Group = None
     }

@@ -3,11 +3,11 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Arrow/T_Arrow.T_Arrow'
+    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Arrow/T_Arrow.T_Arrow'
 }
 Expressions[2] =
 {
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Arrow/M_Arrow.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Arrow/M_Arrow.MaterialExpressionTextureSampleParameter2D_0'
 }
 CachedExpressionData =
 {
@@ -33,7 +33,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Decor/Prefabs/Arrow/T_Arrow.T_Arrow'
+        Texture = Texture2D'Content/Decor/Prefabs/Arrow/T_Arrow.T_Arrow'
         Name = Texture
         Group = None
     }

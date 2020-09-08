@@ -3,42 +3,42 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
-    ReferencedTextures[1] = Texture2D'Textures/screenspec_text.screenspec_text'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[1] = Texture2D'Content/Textures/screenspec_text.screenspec_text'
 }
 Expressions[120] =
 {
-    Expressions[8] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[15] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_4'
-    Expressions[19] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_13'
-    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_14'
-    Expressions[23] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_15'
-    Expressions[24] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_8'
-    Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_9'
-    Expressions[26] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_5'
-    Expressions[28] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[34] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[35] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[39] = MaterialExpressionVectorParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionVectorParameter_0'
-    Expressions[44] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_0'
-    Expressions[45] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[53] = MaterialExpressionTextureSample'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSample_1'
-    Expressions[60] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_3'
-    Expressions[62] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[63] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_6'
-    Expressions[65] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_7'
-    Expressions[78] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_10'
-    Expressions[79] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_12'
-    Expressions[81] = MaterialExpressionTextureSample'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSample_0'
-    Expressions[86] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_11'
-    Expressions[87] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_8'
-    Expressions[88] = MaterialExpressionVectorParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionVectorParameter_1'
-    Expressions[89] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[103] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_4'
-    Expressions[109] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_7'
-    Expressions[111] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_10'
-    Expressions[116] = MaterialExpressionVectorParameter'Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionVectorParameter_2'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[19] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_13'
+    Expressions[21] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_14'
+    Expressions[23] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_15'
+    Expressions[24] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_8'
+    Expressions[25] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_9'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[28] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[34] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[35] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[39] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionVectorParameter_0'
+    Expressions[44] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_0'
+    Expressions[45] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[53] = MaterialExpressionTextureSample'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSample_1'
+    Expressions[60] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_3'
+    Expressions[62] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[63] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[65] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[78] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_10'
+    Expressions[79] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_12'
+    Expressions[81] = MaterialExpressionTextureSample'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSample_0'
+    Expressions[86] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_11'
+    Expressions[87] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[88] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionVectorParameter_1'
+    Expressions[89] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[103] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_4'
+    Expressions[109] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionScalarParameter_7'
+    Expressions[111] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[116] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes.MaterialExpressionVectorParameter_2'
 }
 CachedExpressionData =
 {
@@ -64,25 +64,25 @@ CollectedTextureParameters[4] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = 01 Base Texture
         Group = 01 BC
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = 03 Specular Alpha
         Group = 02 Specular
     }
     CollectedTextureParameters[2] =
     {
-        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = 03 Emissive
         Group = 03 Emissive
     }
     CollectedTextureParameters[3] =
     {
-        Texture = Texture2D'UI/Materials/Inventory2/Filter/filter_armour.filter_armour'
+        Texture = Texture2D'Content/UI/Materials/Inventory2/Filter/filter_armour.filter_armour'
         Name = 08 Mask
         Group = 01 BC
     }

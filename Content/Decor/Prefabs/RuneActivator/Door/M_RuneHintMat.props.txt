@@ -3,29 +3,29 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/RuneActivator/Door/T_RuneHints.T_RuneHints'
-    ReferencedTextures[2] = Texture2D'Decor/Prefabs/RuneActivator/Door/T_RuneHints_spec.T_RuneHints_spec'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[1] = Texture2D'Content/Decor/Prefabs/RuneActivator/Door/T_RuneHints.T_RuneHints'
+    ReferencedTextures[2] = Texture2D'Content/Decor/Prefabs/RuneActivator/Door/T_RuneHints_spec.T_RuneHints_spec'
 }
 Expressions[75] =
 {
-    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_0'
-    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_4'
-    Expressions[7] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_4'
-    Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_7'
-    Expressions[19] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_10'
-    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_11'
-    Expressions[29] = MaterialExpressionVectorParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionVectorParameter_4'
-    Expressions[35] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_5'
-    Expressions[36] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[38] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[43] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_17'
-    Expressions[44] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_3'
-    Expressions[52] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_5'
-    Expressions[59] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_6'
-    Expressions[67] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_8'
-    Expressions[73] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_18'
-    Expressions[74] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_19'
+    Expressions[4] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_4'
+    Expressions[7] = MaterialExpressionTextureSample'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_4'
+    Expressions[10] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_7'
+    Expressions[19] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_10'
+    Expressions[21] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_11'
+    Expressions[29] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionVectorParameter_4'
+    Expressions[35] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_5'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[38] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[43] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_17'
+    Expressions[44] = MaterialExpressionTextureSample'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_3'
+    Expressions[52] = MaterialExpressionTextureSample'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_5'
+    Expressions[59] = MaterialExpressionTextureSample'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_6'
+    Expressions[67] = MaterialExpressionTextureSample'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_8'
+    Expressions[73] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_18'
+    Expressions[74] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_19'
 }
 CachedExpressionData =
 {
@@ -51,7 +51,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+        Texture = Texture2D'Content/Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
         Name = ShineTexture
         Group = Shine
     }

@@ -3,17 +3,17 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Materials/T_WaterTile.T_WaterTile'
-    ReferencedTextures[1] = Texture2D'Textures/screenspec_text.screenspec_text'
+    ReferencedTextures[0] = Texture2D'Content/Materials/T_WaterTile.T_WaterTile'
+    ReferencedTextures[1] = Texture2D'Content/Textures/screenspec_text.screenspec_text'
 }
 Expressions[67] =
 {
-    Expressions[7] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionStaticSwitchParameter_3'
     Expressions[9] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionTextureSample_2'
     Expressions[17] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionTextureSample_3'
     Expressions[27] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionTextureSample_4'
     Expressions[47] = MaterialExpressionVectorParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionVectorParameter_1'
-    Expressions[48] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[48] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionStaticSwitchParameter_2'
     Expressions[49] = MaterialExpressionVectorParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionVectorParameter_2'
     Expressions[51] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionScalarParameter_2'
     Expressions[52] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Jungle_Misc/M_DJ_Puddles_Master.MaterialExpressionScalarParameter_0'

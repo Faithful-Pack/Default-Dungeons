@@ -1,15 +1,18 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] = { Texture2D'Materials/T_WaterTile.T_WaterTile' }
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content/Materials/T_WaterTile.T_WaterTile'
+}
 Expressions[70] =
 {
-    Expressions[4] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_3'
     Expressions[6] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionTextureSample_2'
     Expressions[14] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionTextureSample_3'
     Expressions[24] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionTextureSample_4'
     Expressions[43] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionVectorParameter_1'
-    Expressions[44] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[44] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_2'
     Expressions[45] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionVectorParameter_2'
     Expressions[47] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionScalarParameter_2'
     Expressions[48] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionScalarParameter_0'
@@ -19,8 +22,8 @@ Expressions[70] =
     Expressions[52] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionScalarParameter_5'
     Expressions[56] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionVectorParameter_0'
     Expressions[57] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionScalarParameter_6'
-    Expressions[58] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[64] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[58] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_6'
 }
 CachedExpressionData =
 {

@@ -30,13 +30,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/GlowingMushrooms/New/T_Mushroom_Patch.T_Mushroom_Patch'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/GlowingMushrooms/New/T_Mushroom_Patch.T_Mushroom_Patch'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/GlowingMushrooms/New/T_Mushroom_Patch_E.T_Mushroom_Patch_E'
+        ParameterValue = Texture2D'Content/Decor/Prefabs/GlowingMushrooms/New/T_Mushroom_Patch_E.T_Mushroom_Patch_E'
         ParameterInfo = { Name=03 Emissive }
     }
 }
@@ -55,7 +55,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EmissiveMin }
     }
 }
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

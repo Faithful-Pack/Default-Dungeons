@@ -3,14 +3,14 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
+    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
 Expressions[116] =
 {
-    Expressions[1] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[2] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[3] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_2'
     Expressions[9] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionTextureSampleParameter2D_1'
     Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_4'
     Expressions[13] = MaterialExpressionVectorParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionVectorParameter_0'
@@ -26,21 +26,21 @@ Expressions[116] =
     Expressions[30] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_9'
     Expressions[34] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_10'
     Expressions[36] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_11'
-    Expressions[37] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_0'
     Expressions[45] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_12'
     Expressions[46] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_13'
     Expressions[47] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_14'
     Expressions[48] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionTextureSampleParameter2D_3'
     Expressions[49] = MaterialExpressionTextureSample'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionTextureSample_1'
     Expressions[61] = MaterialExpressionVectorParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionVectorParameter_3'
-    Expressions[65] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[65] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_1'
     Expressions[66] = MaterialExpressionVectorParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionVectorParameter_4'
     Expressions[72] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_15'
     Expressions[73] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_16'
     Expressions[81] = MaterialExpressionTextureSample'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionTextureSample_18'
     Expressions[84] = MaterialExpressionTextureSample'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionTextureSample_2'
     Expressions[95] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_5'
-    Expressions[96] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[96] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionStaticSwitchParameter_5'
     Expressions[97] = MaterialExpressionVectorParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionVectorParameter_6'
     Expressions[111] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_17'
     Expressions[112] = MaterialExpressionScalarParameter'Decor/Prefabs/Skeleton/M_DissolvableMaterial.MaterialExpressionScalarParameter_18'
@@ -70,13 +70,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_Skin.T_Valorie_Skin'
+        Texture = Texture2D'Content/Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_Skin.T_Valorie_Skin'
         Name = Texture
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_S.T_Valorie_S'
+        Texture = Texture2D'Content/Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_S.T_Valorie_S'
         Name = Specular
         Group = None
     }

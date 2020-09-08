@@ -90,7 +90,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Components/ArmorProperties/MoveSpeedAura/T_SpeedAuraTarget.T_SpeedAuraTarget'
+        ParameterValue = Texture2D'Content/Components/ArmorProperties/MoveSpeedAura/T_SpeedAuraTarget.T_SpeedAuraTarget'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -103,7 +103,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=Color }
     }
 }
-Parent = Material3'Components/ArmorProperties/M_AuraSprite_Master.M_AuraSprite_Master'
+Parent = Material3'Content/Components/ArmorProperties/M_AuraSprite_Master.M_AuraSprite_Master'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

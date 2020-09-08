@@ -12,7 +12,7 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/Zombie/T_Zombie_S.T_Zombie_S'
+        ParameterValue = Texture2D'Content/Actors/Characters/Enemies/Zombie/T_Zombie_S.T_Zombie_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
@@ -23,7 +23,7 @@ TextureParameterValues[2] =
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

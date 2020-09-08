@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/Crossbow_Unique1/T_Slicer.T_Slicer'
+        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/Crossbow_Unique1/T_Slicer.T_Slicer'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/Crossbow_Unique1/T_Slicer_S.T_Slicer_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/Crossbow_Unique1/T_Slicer_S.T_Slicer_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -3,12 +3,12 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Materials/T_Moon.T_Moon'
+    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Materials/T_Moon.T_Moon'
 }
 Expressions[6] =
 {
-    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/Materials/M_Moon.MaterialExpressionTextureSample_0'
-    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/Materials/M_Moon.MaterialExpressionScalarParameter_0'
+    Expressions[1] = MaterialExpressionTextureSample'Content/Decor/Prefabs/Materials/M_Moon.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Materials/M_Moon.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {

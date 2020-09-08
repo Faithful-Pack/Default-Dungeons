@@ -1,7 +1,10 @@
 TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] = { Texture2D'Materials/Runes/runes.runes' }
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content/Materials/Runes/runes.runes'
+}
 Expressions[5] = {  }
 CachedExpressionData =
 {

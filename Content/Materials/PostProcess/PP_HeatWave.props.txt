@@ -3,15 +3,15 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Fire/T_HeatTile3_N.T_HeatTile3_N'
+    ReferencedTextures[0] = Texture2D'Materials/Fire/T_HeatTile3_N.T_HeatTile3_N'
 }
 Expressions[14] =
 {
-    Expressions[1] = MaterialExpressionTextureSample'Materials/PostProcess/PP_HeatWave.MaterialExpressionTextureSample_0'
-    Expressions[5] = MaterialExpressionScalarParameter'Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_0'
-    Expressions[7] = MaterialExpressionScalarParameter'Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_1'
-    Expressions[10] = MaterialExpressionScalarParameter'Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_2'
-    Expressions[12] = MaterialExpressionScalarParameter'Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_3'
+    Expressions[1] = MaterialExpressionTextureSample'Content/Materials/PostProcess/PP_HeatWave.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Content/Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_0'
+    Expressions[7] = MaterialExpressionScalarParameter'Content/Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_1'
+    Expressions[10] = MaterialExpressionScalarParameter'Content/Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_2'
+    Expressions[12] = MaterialExpressionScalarParameter'Content/Materials/PostProcess/PP_HeatWave.MaterialExpressionScalarParameter_3'
 }
 CachedExpressionData =
 {

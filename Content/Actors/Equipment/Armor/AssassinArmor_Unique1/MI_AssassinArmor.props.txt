@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/AssassinArmor_Unique1/T_SpiderArmor.T_SpiderArmor'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/AssassinArmor_Unique1/T_SpiderArmor.T_SpiderArmor'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/AssassinArmor_Unique1/T_SpiderArmor_S.T_SpiderArmor_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/AssassinArmor_Unique1/T_SpiderArmor_S.T_SpiderArmor_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

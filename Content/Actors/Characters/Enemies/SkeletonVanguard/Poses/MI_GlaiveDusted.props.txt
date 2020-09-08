@@ -18,7 +18,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Glaive/T_Glaive.T_Glaive'
+        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Glaive/T_Glaive.T_Glaive'
         ParameterInfo = { Name=Albedo }
     }
 }
@@ -31,7 +31,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=Color }
     }
 }
-Parent = Material3'Decor/Prefabs/M_Master_Prefab.M_Master_Prefab'
+Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab.M_Master_Prefab'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -3,14 +3,14 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Materials/black1x1.black1x1'
-    ReferencedTextures[1] = Texture2D'Materials/tallgrass.tallgrass'
+    ReferencedTextures[0] = Texture2D'Content/Materials/black1x1.black1x1'
+    ReferencedTextures[1] = Texture2D'Content/Materials/tallgrass.tallgrass'
 }
 Expressions[10] =
 {
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_8'
-    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Content/Materials/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Content/Materials/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Content/Materials/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_5'
 }
 CachedExpressionData =
 {
@@ -36,19 +36,19 @@ CollectedTextureParameters[3] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Materials/black1x1.black1x1'
+        Texture = Texture2D'Content/Materials/black1x1.black1x1'
         Name = T2DParamReflective
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Materials/tallgrass.tallgrass'
+        Texture = Texture2D'Content/Materials/tallgrass.tallgrass'
         Name = T2DParam
         Group = None
     }
     CollectedTextureParameters[2] =
     {
-        Texture = Texture2D'Materials/black1x1.black1x1'
+        Texture = Texture2D'Content/Materials/black1x1.black1x1'
         Name = T2DParamEmissive
         Group = None
     }

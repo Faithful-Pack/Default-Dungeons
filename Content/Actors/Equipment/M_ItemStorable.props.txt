@@ -3,26 +3,26 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
 }
 Expressions[34] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/M_ItemStorable.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[5] = MaterialExpressionStaticBoolParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[6] = MaterialExpressionScalarParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_1'
-    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/M_ItemStorable.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[13] = MaterialExpressionTextureSample'Actors/Equipment/M_ItemStorable.MaterialExpressionTextureSample_2'
-    Expressions[16] = MaterialExpressionScalarParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_7'
-    Expressions[17] = MaterialExpressionScalarParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_8'
-    Expressions[20] = MaterialExpressionVectorParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionVectorParameter_4'
-    Expressions[25] = MaterialExpressionVectorParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionVectorParameter_0'
-    Expressions[26] = MaterialExpressionStaticBoolParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[27] = MaterialExpressionScalarParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_0'
-    Expressions[29] = MaterialExpressionScalarParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_2'
-    Expressions[30] = MaterialExpressionStaticBoolParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_14'
-    Expressions[31] = MaterialExpressionScalarParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_26'
-    Expressions[32] = MaterialExpressionStaticBoolParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[33] = MaterialExpressionScalarParameter'Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_3'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[6] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[13] = MaterialExpressionTextureSample'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionTextureSample_2'
+    Expressions[16] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_7'
+    Expressions[17] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_8'
+    Expressions[20] = MaterialExpressionVectorParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionVectorParameter_4'
+    Expressions[25] = MaterialExpressionVectorParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionVectorParameter_0'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[27] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_2'
+    Expressions[30] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[31] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_26'
+    Expressions[32] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[33] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_ItemStorable.MaterialExpressionScalarParameter_3'
 }
 CachedExpressionData =
 {
@@ -48,13 +48,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
+        Texture = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
         Name = Albedo
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
+        Texture = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
         Name = Specular
         Group = None
     }

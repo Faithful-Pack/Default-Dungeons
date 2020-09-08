@@ -3,12 +3,12 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/T_FFJ_CloudShadow.T_FFJ_CloudShadow'
+    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/T_FFJ_CloudShadow.T_FFJ_CloudShadow'
 }
 Expressions[29] =
 {
     Expressions[0] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_L.MaterialExpressionVectorParameter_0'
-    Expressions[2] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_L.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_L.MaterialExpressionStaticSwitchParameter_0'
     Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_L.MaterialExpressionScalarParameter_0'
     Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_L.MaterialExpressionScalarParameter_1'
     Expressions[10] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_L.MaterialExpressionTextureSample_0'

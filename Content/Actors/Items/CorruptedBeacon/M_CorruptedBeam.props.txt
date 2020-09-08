@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_GenericTrail_25.T_GenericTrail_25'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Generic/T_GenericTrail_25_Intense.T_GenericTrail_25_Intense'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_GenericTrail_25.T_GenericTrail_25'
+    ReferencedTextures[1] = Texture2D'Materials/Generic/T_GenericTrail_25_Intense.T_GenericTrail_25_Intense'
 }
 Expressions[12] =
 {
-    Expressions[5] = MaterialExpressionTextureSample'Actors/Items/CorruptedBeacon/M_CorruptedBeam.MaterialExpressionTextureSample_0'
-    Expressions[8] = MaterialExpressionTextureSample'Actors/Items/CorruptedBeacon/M_CorruptedBeam.MaterialExpressionTextureSample_1'
+    Expressions[5] = MaterialExpressionTextureSample'Content/Actors/Items/CorruptedBeacon/M_CorruptedBeam.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionTextureSample'Content/Actors/Items/CorruptedBeacon/M_CorruptedBeam.MaterialExpressionTextureSample_1'
 }
 CachedExpressionData =
 {

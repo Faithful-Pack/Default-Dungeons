@@ -12,12 +12,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Effects/Materials/Generic/T_HollowSquareEdgeless16.T_HollowSquareEdgeless16'
+        ParameterValue = Texture2D'Content/Effects/Materials/Generic/T_HollowSquareEdgeless16.T_HollowSquareEdgeless16'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Effects/Materials/Generic/M_GenericCascadeMaster.M_GenericCascadeMaster'
+Parent = Material3'Content/Effects/Materials/Generic/M_GenericCascadeMaster.M_GenericCascadeMaster'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

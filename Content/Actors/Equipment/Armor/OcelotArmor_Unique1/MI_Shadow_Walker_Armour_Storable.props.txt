@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/OcelotArmor_Unique1/T_Shadow_Walker_Armour.T_Shadow_Walker_Armour'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/OcelotArmor_Unique1/T_Shadow_Walker_Armour.T_Shadow_Walker_Armour'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/OcelotArmor_Unique1/T_Shadow_Walker_Armour_S.T_Shadow_Walker_Armour_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/OcelotArmor_Unique1/T_Shadow_Walker_Armour_S.T_Shadow_Walker_Armour_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

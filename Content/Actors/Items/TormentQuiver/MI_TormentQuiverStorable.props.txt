@@ -18,7 +18,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TormentQuiver/T_TormentQuiver.T_TormentQuiver'
+        ParameterValue = Texture2D'Content/Actors/Items/TormentQuiver/T_TormentQuiver.T_TormentQuiver'
         ParameterInfo = { Name=Albedo }
     }
 }
@@ -31,7 +31,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=Emissive }
     }
 }
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

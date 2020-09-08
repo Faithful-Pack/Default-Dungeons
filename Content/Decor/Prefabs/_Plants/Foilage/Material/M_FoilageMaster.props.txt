@@ -3,28 +3,28 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
 Expressions[86] =
 {
-    Expressions[1] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_0'
-    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[24] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_2'
-    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_3'
-    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[36] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_4'
-    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_5'
-    Expressions[49] = MaterialExpressionTextureSample'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionTextureSample_1'
-    Expressions[56] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_8'
-    Expressions[61] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_9'
-    Expressions[66] = MaterialExpressionVectorParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_0'
-    Expressions[73] = MaterialExpressionVectorParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_2'
-    Expressions[74] = MaterialExpressionVectorParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_3'
-    Expressions[75] = MaterialExpressionVectorParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_4'
-    Expressions[79] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_1'
-    Expressions[81] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_6'
-    Expressions[83] = MaterialExpressionStaticBoolParameter'Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[1] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[24] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_2'
+    Expressions[31] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_3'
+    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[36] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_4'
+    Expressions[37] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_5'
+    Expressions[49] = MaterialExpressionTextureSample'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionTextureSample_1'
+    Expressions[56] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_8'
+    Expressions[61] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_9'
+    Expressions[66] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_0'
+    Expressions[73] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_2'
+    Expressions[74] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_3'
+    Expressions[75] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionVectorParameter_4'
+    Expressions[79] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_1'
+    Expressions[81] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionScalarParameter_6'
+    Expressions[83] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/_Plants/Foilage/Material/M_FoilageMaster.MaterialExpressionStaticSwitchParameter_0'
 }
 CachedExpressionData =
 {
@@ -50,13 +50,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Decor/Prefabs/_Plants/Foilage/Material/T_Grass.T_Grass'
+        Texture = Texture2D'Content/Decor/Prefabs/_Plants/Foilage/Material/T_Grass.T_Grass'
         Name = Texture
         Group = Images
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Decor/Prefabs/_Plants/Foilage/Material/T_GrassHueMask.T_GrassHueMask'
+        Texture = Texture2D'Content/Decor/Prefabs/_Plants/Foilage/Material/T_GrassHueMask.T_GrassHueMask'
         Name = HueMask
         Group = Images
     }

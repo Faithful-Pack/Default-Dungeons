@@ -12,13 +12,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/SoulBow/T_SpiritBow.T_SpiritBow'
+        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/SoulBow/T_SpiritBow.T_SpiritBow'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/SoulBow/T_SpiritBow_S.T_SpiritBow_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/SoulBow/T_SpiritBow_S.T_SpiritBow_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -31,7 +31,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=Emissive }
     }
 }
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

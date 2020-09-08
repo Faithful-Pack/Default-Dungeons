@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/EvocationRobe/T_EvocationRobe.T_EvocationRobe'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/EvocationRobe/T_EvocationRobe.T_EvocationRobe'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/EvocationRobe/T_EvocationRobe_S.T_EvocationRobe_S'
+        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/EvocationRobe/T_EvocationRobe_S.T_EvocationRobe_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
