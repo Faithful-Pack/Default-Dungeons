@@ -59,6 +59,9 @@ modelsFiles = GetFileList(modelsPath)
 patch1Path  = 'Content\\Patch1\\'
 patch1Files = GetFileList(patch1Path)
 
+patch2Path  = 'Content\\Patch2\\'
+patch2Files = GetFileList(patch2Path)
+
 saveiconsPath  = 'Content\\SaveIcons\\'
 saveiconsFiles = GetFileList(saveiconsPath)
 
@@ -82,6 +85,7 @@ materialsFilesFiltered = [ materialsFile for materialsFile in materialsFiles if 
 meshesFilesFiltered = [ meshesFile for meshesFile in meshesFiles if meshesFile.endswith(".png") ] + [ meshesFile for meshesFile in meshesFiles if meshesFile.endswith(".tga") ]
 modelsFilesFiltered = [ modelsFile for modelsFile in modelsFiles if modelsFile.endswith(".png") ] + [ modelsFile for modelsFile in modelsFiles if modelsFile.endswith(".tga") ]
 patch1FilesFiltered = [ patch1File for patch1File in patch1Files if patch1File.endswith(".png") ] + [ patch1File for patch1File in patch1Files if patch1File.endswith(".tga") ]
+patch2FilesFiltered = [ patch2File for patch2File in patch2Files if patch2File.endswith(".png") ] + [ patch2File for patch2File in patch2Files if patch2File.endswith(".tga") ]
 saveiconsFilesFiltered = [ saveiconsFile for saveiconsFile in saveiconsFiles if saveiconsFile.endswith(".png") ] + [ saveiconsFile for saveiconsFile in saveiconsFiles if saveiconsFile.endswith(".tga") ]
 texturesFilesFiltered = [ texturesFile for texturesFile in texturesFiles if texturesFile.endswith(".png") ] + [ texturesFile for texturesFile in texturesFiles if texturesFile.endswith(".tga") ]
 uiFilesFiltered = [ uiFile for uiFile in uiFiles if uiFile.endswith(".png") ] + [ uiFile for uiFile in uiFiles if uiFile.endswith(".tga") ]
@@ -101,6 +105,7 @@ materialsData  = []
 meshesData     = []
 modelsData     = []
 patch1Data     = []
+patch2Data     = []
 saveiconsData  = []
 texturesData   = []
 uiData         = []
@@ -172,6 +177,13 @@ for patch1File in patch1FilesFiltered:
 	patch1Data.append(patch1File)
 with open('json\\Patch1.json', 'w') as patch1JSON:
 	json.dump(patch1Data, patch1JSON, indent=4)
+
+for patch2File in patch2FilesFiltered:
+	print("\x1b[1m \x1b[32m Found : \x1b[0m",patch2File)
+	count += 1
+	patch2Data.append(patch2File)
+with open('json\\Patch2.json', 'w') as patch2JSON:
+	json.dump(patch2Data, patch2JSON, indent=4)
 
 for saveiconsFile in saveiconsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",saveiconsFile)
