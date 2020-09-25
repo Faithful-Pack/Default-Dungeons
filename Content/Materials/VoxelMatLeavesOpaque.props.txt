@@ -3,21 +3,21 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
 Expressions[69] =
 {
-    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[17] = MaterialExpressionTextureSample'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionTextureSample_1'
-    Expressions[24] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_0'
-    Expressions[29] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_1'
-    Expressions[34] = MaterialExpressionVectorParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionVectorParameter_0'
-    Expressions[40] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_3'
-    Expressions[46] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_7'
-    Expressions[47] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_8'
-    Expressions[48] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_9'
-    Expressions[49] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_10'
-    Expressions[50] = MaterialExpressionStaticSwitchParameter'Content/Materials/VoxelMatLeavesOpaque.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatLeavesOpaque.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[17] = MaterialExpressionTextureSample'Materials/VoxelMatLeavesOpaque.MaterialExpressionTextureSample_1'
+    Expressions[24] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_1'
+    Expressions[34] = MaterialExpressionVectorParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionVectorParameter_0'
+    Expressions[40] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_3'
+    Expressions[46] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_7'
+    Expressions[47] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_8'
+    Expressions[48] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_9'
+    Expressions[49] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_10'
+    Expressions[50] = MaterialExpressionStaticSwitchParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionStaticSwitchParameter_0'
 }
 CachedExpressionData =
 {
@@ -43,7 +43,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Materials/tallgrass.tallgrass'
+        Texture = Texture2D'Materials/tallgrass.tallgrass'
         Name = T2DParam
         Group = None
     }

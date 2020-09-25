@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/_Plants/FlowerVase/T_FlowerVase.T_FlowerVase'
+        ParameterValue = Texture2D'Decor/Prefabs/_Plants/FlowerVase/T_FlowerVase.T_FlowerVase'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/_Plants/FlowerVase/T_FlowerVase_SPEC.T_FlowerVase_SPEC'
+        ParameterValue = Texture2D'Decor/Prefabs/_Plants/FlowerVase/T_FlowerVase_SPEC.T_FlowerVase_SPEC'
         ParameterInfo = { Name=03 Specular Alpha }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

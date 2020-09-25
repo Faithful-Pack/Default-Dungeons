@@ -24,18 +24,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/_SimpleBlocks/Materials/T_Furnace_E.T_Furnace_E'
+        ParameterValue = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_Furnace_E.T_Furnace_E'
         ParameterInfo = { Name=Emissive }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/_SimpleBlocks/Materials/T_Furnace.T_Furnace'
+        ParameterValue = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_Furnace.T_Furnace'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.M_SimpleBlock'
+Parent = Material3'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.M_SimpleBlock'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

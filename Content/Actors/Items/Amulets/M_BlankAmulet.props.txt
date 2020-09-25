@@ -3,19 +3,19 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
 }
 Expressions[27] =
 {
-    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionVectorParameter'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_4'
-    Expressions[8] = MaterialExpressionVectorParameter'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_10'
-    Expressions[9] = MaterialExpressionVectorParameter'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_13'
-    Expressions[13] = MaterialExpressionTextureSample'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionTextureSample_2'
-    Expressions[16] = MaterialExpressionScalarParameter'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionScalarParameter_7'
-    Expressions[17] = MaterialExpressionScalarParameter'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionScalarParameter_8'
-    Expressions[20] = MaterialExpressionVectorParameter'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_0'
-    Expressions[25] = MaterialExpressionStaticSwitchParameter'Content/Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionVectorParameter'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_4'
+    Expressions[8] = MaterialExpressionVectorParameter'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_10'
+    Expressions[9] = MaterialExpressionVectorParameter'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_13'
+    Expressions[13] = MaterialExpressionTextureSample'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionTextureSample_2'
+    Expressions[16] = MaterialExpressionScalarParameter'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionScalarParameter_7'
+    Expressions[17] = MaterialExpressionScalarParameter'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionScalarParameter_8'
+    Expressions[20] = MaterialExpressionVectorParameter'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionVectorParameter_0'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'Actors/Items/Amulets/M_BlankAmulet.MaterialExpressionStaticSwitchParameter_0'
 }
 CachedExpressionData =
 {
@@ -41,7 +41,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Actors/Items/Amulets/T_BlankAmulet_Rectangle.T_BlankAmulet_Rectangle'
+        Texture = Texture2D'Actors/Items/Amulets/T_BlankAmulet_Rectangle.T_BlankAmulet_Rectangle'
         Name = Texture
         Group = None
     }

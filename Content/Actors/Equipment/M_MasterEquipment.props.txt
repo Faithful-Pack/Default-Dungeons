@@ -3,44 +3,44 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
-    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
 }
 Expressions[103] =
 {
-    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[9] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[11] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[13] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_1'
-    Expressions[14] = MaterialExpressionTextureSampleParameter2D'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[15] = MaterialExpressionTextureSample'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_18'
-    Expressions[18] = MaterialExpressionTextureSample'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_2'
-    Expressions[26] = MaterialExpressionVectorParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_0'
-    Expressions[31] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_2'
-    Expressions[41] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[45] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_7'
-    Expressions[46] = MaterialExpressionVectorParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_3'
-    Expressions[49] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_9'
-    Expressions[52] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_10'
-    Expressions[53] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_11'
-    Expressions[54] = MaterialExpressionTextureSample'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_1'
-    Expressions[63] = MaterialExpressionVectorParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_4'
-    Expressions[68] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_15'
-    Expressions[69] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_16'
-    Expressions[77] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_12'
-    Expressions[83] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[86] = MaterialExpressionVectorParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_1'
-    Expressions[88] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[89] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_0'
-    Expressions[91] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_3'
-    Expressions[93] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_4'
-    Expressions[94] = MaterialExpressionVectorParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_2'
-    Expressions[97] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_14'
-    Expressions[98] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_26'
-    Expressions[99] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[100] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_5'
-    Expressions[101] = MaterialExpressionStaticSwitchParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_6'
-    Expressions[102] = MaterialExpressionScalarParameter'Content/Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_6'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[9] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[11] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[13] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_1'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[15] = MaterialExpressionTextureSample'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_18'
+    Expressions[18] = MaterialExpressionTextureSample'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_2'
+    Expressions[26] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_0'
+    Expressions[31] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_2'
+    Expressions[41] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[45] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_7'
+    Expressions[46] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_3'
+    Expressions[49] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_9'
+    Expressions[52] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_10'
+    Expressions[53] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_11'
+    Expressions[54] = MaterialExpressionTextureSample'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_1'
+    Expressions[63] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_4'
+    Expressions[68] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_15'
+    Expressions[69] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_16'
+    Expressions[77] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_12'
+    Expressions[83] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[86] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_1'
+    Expressions[88] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[89] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_0'
+    Expressions[91] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_3'
+    Expressions[93] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_4'
+    Expressions[94] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_2'
+    Expressions[97] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[98] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_26'
+    Expressions[99] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[100] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_5'
+    Expressions[101] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[102] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_6'
 }
 CachedExpressionData =
 {
@@ -66,13 +66,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
+        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
         Name = Albedo
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
+        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
         Name = Specular
         Group = None
     }

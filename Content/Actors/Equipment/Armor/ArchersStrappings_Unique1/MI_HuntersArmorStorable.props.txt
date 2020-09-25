@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/ArchersStrappings_Unique1/T_HuntersArmor.T_HuntersArmor'
+        ParameterValue = Texture2D'Actors/Equipment/Armor/ArchersStrappings_Unique1/T_HuntersArmor.T_HuntersArmor'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/ArchersStrappings_Unique1/T_HuntersArmor_S.T_HuntersArmor_S'
+        ParameterValue = Texture2D'Actors/Equipment/Armor/ArchersStrappings_Unique1/T_HuntersArmor_S.T_HuntersArmor_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

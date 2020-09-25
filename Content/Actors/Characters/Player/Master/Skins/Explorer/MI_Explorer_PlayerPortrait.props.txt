@@ -12,12 +12,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Player/Master/Skins/Explorer/T_Explorer.T_Explorer'
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Explorer/T_Explorer.T_Explorer'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Characters/Player/Master/M_PlayerPortrait.M_PlayerPortrait'
+Parent = Material3'Actors/Characters/Player/Master/M_PlayerPortrait.M_PlayerPortrait'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -24,18 +24,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Items/SoulLantern/T_Soullantern.T_Soullantern'
+        ParameterValue = Texture2D'Patch2/Actors/Items/SoulLantern/T_Soullantern.T_Soullantern'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Items/SoulLantern/T_Soullantern_S.T_Soullantern_S'
+        ParameterValue = Texture2D'Patch2/Actors/Items/SoulLantern/T_Soullantern_S.T_Soullantern_S'
         ParameterInfo = { Name=03 Emissive }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

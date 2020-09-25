@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Cutlass/T_Cutlass.T_Cutlass'
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Cutlass/T_Cutlass.T_Cutlass'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Cutlass/T_Cutlass_S.T_Cutlass_S'
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Cutlass/T_Cutlass_S.T_Cutlass_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

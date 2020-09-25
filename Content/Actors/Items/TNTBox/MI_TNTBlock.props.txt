@@ -36,13 +36,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Effects/Materials/Generic/T_OnePixel.T_OnePixel'
+        ParameterValue = Texture2D'Effects/Materials/Generic/T_OnePixel.T_OnePixel'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Items/TNTBox/T_TNTBox.T_TNTBox'
+        ParameterValue = Texture2D'Actors/Items/TNTBox/T_TNTBox.T_TNTBox'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -55,7 +55,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EmissiveBColor }
     }
 }
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

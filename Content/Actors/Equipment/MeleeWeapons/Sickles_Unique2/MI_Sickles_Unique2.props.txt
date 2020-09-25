@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sickles_Unique2/T_Sickles_Unique2_JesterFingers.T_Sickles_Unique2_JesterFingers'
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Sickles_Unique2/T_Sickles_Unique2_JesterFingers.T_Sickles_Unique2_JesterFingers'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sickles_Unique2/T_Sickles_Unique2_JesterFingers_S.T_Sickles_Unique2_JesterFingers_S'
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Sickles_Unique2/T_Sickles_Unique2_JesterFingers_S.T_Sickles_Unique2_JesterFingers_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

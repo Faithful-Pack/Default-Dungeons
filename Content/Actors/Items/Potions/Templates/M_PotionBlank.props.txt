@@ -3,19 +3,19 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
 }
 Expressions[27] =
 {
-    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionVectorParameter'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_4'
-    Expressions[8] = MaterialExpressionVectorParameter'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_10'
-    Expressions[9] = MaterialExpressionVectorParameter'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_13'
-    Expressions[12] = MaterialExpressionTextureSample'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionTextureSample_2'
-    Expressions[15] = MaterialExpressionScalarParameter'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionScalarParameter_7'
-    Expressions[16] = MaterialExpressionScalarParameter'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionScalarParameter_8'
-    Expressions[19] = MaterialExpressionVectorParameter'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_0'
-    Expressions[24] = MaterialExpressionStaticSwitchParameter'Content/Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionVectorParameter'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_4'
+    Expressions[8] = MaterialExpressionVectorParameter'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_10'
+    Expressions[9] = MaterialExpressionVectorParameter'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_13'
+    Expressions[12] = MaterialExpressionTextureSample'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionTextureSample_2'
+    Expressions[15] = MaterialExpressionScalarParameter'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionScalarParameter_7'
+    Expressions[16] = MaterialExpressionScalarParameter'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionScalarParameter_8'
+    Expressions[19] = MaterialExpressionVectorParameter'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionVectorParameter_0'
+    Expressions[24] = MaterialExpressionStaticSwitchParameter'Actors/Items/Potions/Templates/M_PotionBlank.MaterialExpressionStaticSwitchParameter_0'
 }
 CachedExpressionData =
 {
@@ -41,7 +41,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Actors/Items/Potions/Templates/Potion_Square/T_Potion_Square.T_Potion_Square'
+        Texture = Texture2D'Actors/Items/Potions/Templates/Potion_Square/T_Potion_Square.T_Potion_Square'
         Name = Texture
         Group = None
     }

@@ -3,8 +3,8 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
-    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
 Expressions[116] =
 {
@@ -70,13 +70,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_Skin.T_Valorie_Skin'
+        Texture = Texture2D'Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_Skin.T_Valorie_Skin'
         Name = Texture
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_S.T_Valorie_S'
+        Texture = Texture2D'Actors/Characters/Player/Master/Skins/Valorie/T_Valorie_S.T_Valorie_S'
         Name = Specular
         Group = None
     }

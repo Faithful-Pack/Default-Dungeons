@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Items/Beenest/T_Beenest.T_Beenest'
+        ParameterValue = Texture2D'Patch2/Actors/Items/Beenest/T_Beenest.T_Beenest'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

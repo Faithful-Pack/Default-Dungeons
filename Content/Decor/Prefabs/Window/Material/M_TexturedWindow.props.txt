@@ -3,24 +3,24 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Red_Shaded.T_StainedGlass_Mansonry_Red_Shaded'
-    ReferencedTextures[1] = Texture2D'Content/Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Red_Shaded.T_StainedGlass_Mansonry_Red_Shaded'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
 }
 Expressions[32] =
 {
-    Expressions[4] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_0'
-    Expressions[5] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_1'
-    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[12] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_2'
-    Expressions[13] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionVectorParameter_0'
-    Expressions[14] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[20] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_3'
-    Expressions[21] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_4'
-    Expressions[24] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_5'
-    Expressions[25] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_6'
-    Expressions[29] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[30] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_0'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_2'
+    Expressions[13] = MaterialExpressionVectorParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionVectorParameter_0'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[20] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_3'
+    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_4'
+    Expressions[24] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_5'
+    Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionScalarParameter_6'
+    Expressions[29] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Window/Material/M_TexturedWindow.MaterialExpressionTextureSampleParameter2D_3'
 }
 CachedExpressionData =
 {
@@ -46,25 +46,25 @@ CollectedTextureParameters[4] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
+        Texture = Texture2D'Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
         Name = Diffuse
         Group = Texture
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Red_Shaded.T_StainedGlass_Mansonry_Red_Shaded'
+        Texture = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Red_Shaded.T_StainedGlass_Mansonry_Red_Shaded'
         Name = Specular
         Group = Texture
     }
     CollectedTextureParameters[2] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Red_Shaded.T_StainedGlass_Mansonry_Red_Shaded'
+        Texture = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Red_Shaded.T_StainedGlass_Mansonry_Red_Shaded'
         Name = Emissive
         Group = Texture
     }
     CollectedTextureParameters[3] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
+        Texture = Texture2D'Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
         Name = StainedOverlay
         Group = StainedGlass
     }

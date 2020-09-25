@@ -24,13 +24,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Friendlies/Villager/T_Villager_S.T_Villager_S'
+        ParameterValue = Texture2D'Actors/Characters/Friendlies/Villager/T_Villager_S.T_Villager_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Friendlies/Villager/T_Villager_Blacksmith.T_Villager_Blacksmith'
+        ParameterValue = Texture2D'Actors/Characters/Friendlies/Villager/T_Villager_Blacksmith.T_Villager_Blacksmith'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EmissiveBColor }
     }
 }
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Fire/T_FireDroplet.T_FireDroplet'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Fire/T_FireDroplet.T_FireDroplet'
 }
 Expressions[17] =
 {
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Content/Effects/Materials/Fire/M_FireBase_Spritesheet.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[5] = MaterialExpressionVectorParameter'Content/Effects/Materials/Fire/M_FireBase_Spritesheet.MaterialExpressionVectorParameter_5'
-    Expressions[6] = MaterialExpressionVectorParameter'Content/Effects/Materials/Fire/M_FireBase_Spritesheet.MaterialExpressionVectorParameter_6'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Fire/M_FireBase_Spritesheet.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionVectorParameter'Effects/Materials/Fire/M_FireBase_Spritesheet.MaterialExpressionVectorParameter_5'
+    Expressions[6] = MaterialExpressionVectorParameter'Effects/Materials/Fire/M_FireBase_Spritesheet.MaterialExpressionVectorParameter_6'
 }
 CachedExpressionData =
 {
@@ -35,7 +35,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Effects/Materials/Fire/T_FireDroplet.T_FireDroplet'
+        Texture = Texture2D'Effects/Materials/Fire/T_FireDroplet.T_FireDroplet'
         Name = Fire
         Group = None
     }

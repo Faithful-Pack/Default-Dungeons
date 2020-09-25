@@ -30,13 +30,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Unique2/T_Hawkbrand.T_Hawkbrand'
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Unique2/T_Hawkbrand.T_Hawkbrand'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Unique2/T_Hawkbrand_S.T_Hawkbrand_S'
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Unique2/T_Hawkbrand_S.T_Hawkbrand_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -49,7 +49,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

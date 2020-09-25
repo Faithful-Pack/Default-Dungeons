@@ -3029,6 +3029,19 @@
             "##loc": "pumpkinpastures/pumpkinpastures.json"
         },
         {
+            "id": "mysteryship",
+            "ambience": "alpha",
+            "audio-ambience": "audio_4",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ppe_mysteryship01"
+                    ]
+                }
+            ],
+            "##loc": "pumpkinpastures/pumpkinpastures.json"
+        },
+        {
             "id": "duskpit",
             "ambience": "bravo",
             "audio-ambience": "audio_6",
@@ -3538,6 +3551,14 @@
             "rotations": [
                 270
             ],
+            "teleports": [
+                {
+                    "door": "shipentrance",
+                    "dungeons": [
+                        "mysteryship"
+                    ]
+                }
+            ],
             "##loc": "PumpkinPastures/ppextended_tiles.json"
         },
         {
@@ -3545,6 +3566,14 @@
             "exit-door": "exit",
             "rotations": [
                 270
+            ],
+            "teleports": [
+                {
+                    "door": "shipentrance",
+                    "dungeons": [
+                        "mysteryship"
+                    ]
+                }
             ],
             "##loc": "PumpkinPastures/ppextended_tiles.json"
         },
@@ -3619,6 +3648,19 @@
             ],
             "challenges": [
                 "miniarena"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "PumpkinPastures/ppextended_tiles.json"
+        },
+        {
+            "id": "ppe_mysteryship01",
+            "rotations": [
+                180
             ],
             "teleports": [
                 {

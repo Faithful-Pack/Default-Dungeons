@@ -3,15 +3,15 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Campfire/T_campfire_log.T_campfire_log'
-    ReferencedTextures[1] = Texture2D'Content/Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Campfire/T_campfire_log.T_campfire_log'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
 }
 Expressions[12] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[3] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[11] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionScalarParameter_0'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {
@@ -37,13 +37,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/Campfire/T_campfire_log.T_campfire_log'
+        Texture = Texture2D'Decor/Prefabs/Campfire/T_campfire_log.T_campfire_log'
         Name = Diffuse
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
+        Texture = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
         Name = Emissive
         Group = None
     }

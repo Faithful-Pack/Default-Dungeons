@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Equipment/Armor/BeenestArmor/T_BeenestArmor.T_BeenestArmor'
+        ParameterValue = Texture2D'Patch2/Actors/Equipment/Armor/BeenestArmor/T_BeenestArmor.T_BeenestArmor'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Materials/black1x1.black1x1'
+        ParameterValue = Texture2D'Materials/black1x1.black1x1'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

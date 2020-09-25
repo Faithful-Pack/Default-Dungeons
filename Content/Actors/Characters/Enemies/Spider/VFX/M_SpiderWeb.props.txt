@@ -4,15 +4,15 @@ bIsMasked = false
 ReferencedTextures[2] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Spider/VFX/T_Web.T_Web'
-    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
 Expressions[22] =
 {
-    Expressions[0] = MaterialExpressionTextureSample'Content/Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionTextureSample_0'
-    Expressions[5] = MaterialExpressionScalarParameter'Content/Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionScalarParameter_9'
-    Expressions[9] = MaterialExpressionVectorParameter'Content/Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionVectorParameter_4'
-    Expressions[12] = MaterialExpressionScalarParameter'Content/Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionScalarParameter_10'
-    Expressions[18] = MaterialExpressionTextureSample'Content/Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionTextureSample_2'
+    Expressions[0] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionScalarParameter_9'
+    Expressions[9] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionVectorParameter_4'
+    Expressions[12] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionScalarParameter_10'
+    Expressions[18] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionTextureSample_2'
 }
 CachedExpressionData =
 {

@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Equipment/Armor/GhostArmor/T_GhostArmor.T_GhostArmor'
+        ParameterValue = Texture2D'Patch2/Actors/Equipment/Armor/GhostArmor/T_GhostArmor.T_GhostArmor'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Equipment/Armor/GhostArmor/T_GhostArmor_S.T_GhostArmor_S'
+        ParameterValue = Texture2D'Patch2/Actors/Equipment/Armor/GhostArmor/T_GhostArmor_S.T_GhostArmor_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

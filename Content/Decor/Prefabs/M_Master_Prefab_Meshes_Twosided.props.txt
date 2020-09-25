@@ -3,46 +3,46 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
-    ReferencedTextures[1] = Texture2D'Content/Textures/screenspec_text.screenspec_text'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[1] = Texture2D'Textures/screenspec_text.screenspec_text'
 }
 Expressions[115] =
 {
-    Expressions[5] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[13] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_4'
-    Expressions[17] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_13'
-    Expressions[19] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_14'
-    Expressions[21] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_15'
-    Expressions[22] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_8'
-    Expressions[23] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_9'
-    Expressions[24] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[25] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_5'
-    Expressions[26] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[33] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[37] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionVectorParameter_0'
-    Expressions[42] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_0'
-    Expressions[43] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[47] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_1'
-    Expressions[49] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_2'
-    Expressions[55] = MaterialExpressionTextureSample'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSample_1'
-    Expressions[62] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_3'
-    Expressions[64] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_4'
-    Expressions[66] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[67] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_6'
-    Expressions[70] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_7'
-    Expressions[71] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_5'
-    Expressions[72] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_6'
-    Expressions[73] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_7'
-    Expressions[86] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_10'
-    Expressions[87] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_12'
-    Expressions[89] = MaterialExpressionTextureSample'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSample_0'
-    Expressions[94] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_11'
-    Expressions[95] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_8'
-    Expressions[96] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionVectorParameter_1'
-    Expressions[97] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[108] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_16'
-    Expressions[109] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_17'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[17] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_13'
+    Expressions[19] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_14'
+    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_15'
+    Expressions[22] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_8'
+    Expressions[23] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_9'
+    Expressions[24] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[25] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[33] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[37] = MaterialExpressionVectorParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionVectorParameter_0'
+    Expressions[42] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_0'
+    Expressions[43] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[47] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_1'
+    Expressions[49] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_2'
+    Expressions[55] = MaterialExpressionTextureSample'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSample_1'
+    Expressions[62] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_3'
+    Expressions[64] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_4'
+    Expressions[66] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[67] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[70] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[71] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_5'
+    Expressions[72] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_6'
+    Expressions[73] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_7'
+    Expressions[86] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_10'
+    Expressions[87] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_12'
+    Expressions[89] = MaterialExpressionTextureSample'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSample_0'
+    Expressions[94] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_11'
+    Expressions[95] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[96] = MaterialExpressionVectorParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionVectorParameter_1'
+    Expressions[97] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[108] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_16'
+    Expressions[109] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.MaterialExpressionScalarParameter_17'
 }
 CachedExpressionData =
 {
@@ -68,25 +68,25 @@ CollectedTextureParameters[4] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = 01 Base Texture
         Group = 01 BC
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = 03 Specular Alpha
         Group = 02 Specular
     }
     CollectedTextureParameters[2] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = 03 Emissive
         Group = 03 Emissive
     }
     CollectedTextureParameters[3] =
     {
-        Texture = Texture2D'Content/UI/Materials/Inventory2/Filter/filter_armour.filter_armour'
+        Texture = Texture2D'UI/Materials/Inventory2/Filter/filter_armour.filter_armour'
         Name = 08 Mask
         Group = 01 BC
     }

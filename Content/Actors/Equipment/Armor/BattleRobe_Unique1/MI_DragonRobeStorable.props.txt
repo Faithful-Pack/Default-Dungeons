@@ -12,13 +12,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/BattleRobe_Unique1/T_DraognRobe.T_DraognRobe'
+        ParameterValue = Texture2D'Actors/Equipment/Armor/BattleRobe_Unique1/T_DraognRobe.T_DraognRobe'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/Armor/BattleRobe_Unique1/T_DragonRobe_S.T_DragonRobe_S'
+        ParameterValue = Texture2D'Actors/Equipment/Armor/BattleRobe_Unique1/T_DragonRobe_S.T_DragonRobe_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -31,7 +31,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=Emissive }
     }
 }
-Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

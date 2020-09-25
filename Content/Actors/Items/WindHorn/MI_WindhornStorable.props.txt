@@ -18,7 +18,7 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Items/WindHorn/T_Windhorn.T_Windhorn'
+        ParameterValue = Texture2D'Actors/Items/WindHorn/T_Windhorn.T_Windhorn'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
@@ -29,7 +29,7 @@ TextureParameterValues[2] =
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

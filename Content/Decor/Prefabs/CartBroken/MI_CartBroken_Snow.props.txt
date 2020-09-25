@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/CartBroken/T_CartBroken_Snow.T_CartBroken_Snow'
+        ParameterValue = Texture2D'Decor/Prefabs/CartBroken/T_CartBroken_Snow.T_CartBroken_Snow'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/CartBroken/T_CartBroken_Spec.T_CartBroken_Spec'
+        ParameterValue = Texture2D'Decor/Prefabs/CartBroken/T_CartBroken_Spec.T_CartBroken_Spec'
         ParameterInfo = { Name=03 Specular Alpha }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

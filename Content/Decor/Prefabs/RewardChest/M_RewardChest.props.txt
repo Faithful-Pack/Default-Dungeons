@@ -3,21 +3,21 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
-    ReferencedTextures[1] = Texture2D'Content/Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
 }
 Expressions[33] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[9] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_6'
-    Expressions[12] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_7'
-    Expressions[13] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_8'
-    Expressions[21] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_0'
-    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[24] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionVectorParameter_0'
-    Expressions[26] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionVectorParameter_1'
-    Expressions[30] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[32] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionVectorParameter_2'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[9] = MaterialExpressionScalarParameter'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_6'
+    Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_7'
+    Expressions[13] = MaterialExpressionScalarParameter'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_8'
+    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionScalarParameter_0'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[24] = MaterialExpressionVectorParameter'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionVectorParameter_0'
+    Expressions[26] = MaterialExpressionVectorParameter'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionVectorParameter_1'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[32] = MaterialExpressionVectorParameter'Decor/Prefabs/RewardChest/M_RewardChest.MaterialExpressionVectorParameter_2'
 }
 CachedExpressionData =
 {
@@ -43,19 +43,19 @@ CollectedTextureParameters[3] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = Texture
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
         Name = Specular
         Group = None
     }
     CollectedTextureParameters[2] =
     {
-        Texture = Texture2D'Content/Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+        Texture = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
         Name = ShineTexture
         Group = None
     }

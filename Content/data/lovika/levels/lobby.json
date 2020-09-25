@@ -14,16 +14,18 @@
         {
             "id": "start",
             "tiles": [
-                "lobby001"
+                "base@lobby001",
+                "questgiver@lobby001"
             ],
             "audio-ambience": "audio_1",
             "prop-density": 2,
             "prop-groups": [
-                "shopkeeper",
-                "gambler",
                 "questgiver",
-                "dusttrader",
-                "marketentrance",
+                "shopkeeper",
+                "luxurymerchant",
+                "mysterymerchant",
+                "blacksmith",
+                "giftwrapper",
                 "lootchest1",
                 "lootchest2",
                 "lootchest3",
@@ -102,6 +104,35 @@
                 }
             ],
             "##loc": "lobby/lobby.json"
+        },
+        {
+            "id": "questgiver",
+            "ambience": "alpha",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        2,
+                        1,
+                        1,
+                        4,
+                        1,
+                        1,
+                        2,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        "questgiver_room"
+                    ],
+                    "audio-ambience": "audio_3"
+                }
+            ],
+            "##loc": "lobby/lobby.json"
         }
     ],
     "mob-groups": [],
@@ -111,32 +142,12 @@
     ],
     "props": [
         {
-            "id": "market_base",
-            "rotations": [
-                0
-            ],
-            "unlock-keys": [
-                "not creeperwoods"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
-        },
-        {
-            "id": "market_unlocked",
-            "rotations": [
-                0
-            ],
-            "unlock-keys": [
-                "creeperwoods"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
-        },
-        {
             "id": "shopkeeper_base",
             "rotations": [
                 0
             ],
             "unlock-keys": [
-                "(not pumpkinpastures) and (not highblockhalls)"
+                "not shopkeeper_unlocked"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
@@ -146,7 +157,7 @@
                 0
             ],
             "unlock-keys": [
-                "(not highblockhalls) and pumpkinpastures"
+                "shopkeeper_lvl1"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
@@ -156,27 +167,237 @@
                 0
             ],
             "unlock-keys": [
-                "highblockhalls"
+                "shopkeeper_lvl2"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
         {
-            "id": "gambler_base",
+            "id": "shopkeeper_lvl3",
             "rotations": [
                 0
             ],
             "unlock-keys": [
-                "not mooncorecaverns"
+                "shopkeeper_lvl3"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
         {
-            "id": "gambler_lvl1",
+            "id": "shopkeeper_lvl4",
             "rotations": [
                 0
             ],
             "unlock-keys": [
-                "mooncorecaverns"
+                "shopkeeper_lvl4"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "shopkeeper_lvl5",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "shopkeeper_lvl5"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "luxurymerchant_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not luxurymerchant_unlocked"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "luxurymerchant_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "luxurymerchant_lvl1"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "luxurymerchant_lvl2",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "luxurymerchant_lvl2"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "luxurymerchant_lvl3",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "luxurymerchant_lvl3"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "luxurymerchant_lvl4",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "luxurymerchant_lvl4"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "luxurymerchant_lvl5",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "luxurymerchant_lvl5"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "mysterymerchant_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not mysterymerchant_unlocked"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "mysterymerchant_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "mysterymerchant_lvl1"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "mysterymerchant_lvl2",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "mysterymerchant_lvl2"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "mysterymerchant_lvl3",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "mysterymerchant_lvl3"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "mysterymerchant_lvl4",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "mysterymerchant_lvl4"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "mysterymerchant_lvl5",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "mysterymerchant_lvl5"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "blacksmith_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not blacksmith_unlocked"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "blacksmith_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "blacksmith_lvl1"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "blacksmith_lvl2",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "blacksmith_lvl2"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "blacksmith_lvl3",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "blacksmith_lvl3"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "giftwrapper_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not giftwrapper_unlocked"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "giftwrapper_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "giftwrapper_lvl1"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "giftwrapper_lvl2",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "giftwrapper_lvl2"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "giftwrapper_lvl3",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "giftwrapper_lvl3"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
@@ -186,34 +407,17 @@
                 0
             ],
             "unlock-keys": [
-                "not creeperwoods"
+                "not questgiver_unlocked"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
         {
-            "id": "questgiver_lvl2",
+            "id": "questgiver_open",
             "rotations": [
                 0
             ],
             "unlock-keys": [
-                "creeperwoods"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
-        },
-        {
-            "id": "dusttrader_base",
-            "rotations": [
-                0
-            ],
-            "##loc": "lobby/lobby_tiles.json"
-        },
-        {
-            "id": "dusttrader_lvl1",
-            "rotations": [
-                0
-            ],
-            "unlock-keys": [
-                "mooncorecaverns"
+                "questgiver_unlocked"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
@@ -458,7 +662,7 @@
     ],
     "tiles": [
         {
-            "id": "lobby001",
+            "id": "base@lobby001",
             "rotations": 0,
             "teleports": [
                 {
@@ -477,6 +681,42 @@
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
                     "exit": "*.*.entrance"
                 }
+            ],
+            "unlock-keys": [
+                "not questgiver_unlocked"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "questgiver@lobby001",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "home",
+                    "exit": "*.*.exit",
+                    "dungeons": [
+                        "home"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
+                },
+                {
+                    "door": "greathall_entrance",
+                    "dungeons": [
+                        "greathall"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
+                    "exit": "*.*.entrance"
+                },
+                {
+                    "door": "questgiver",
+                    "dungeons": [
+                        "questgiver"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
+                }
+            ],
+            "unlock-keys": [
+                "questgiver_unlocked"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
@@ -551,6 +791,11 @@
                 }
             ],
             "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "questgiver_room",
+            "rotations": 0,
+            "##loc": "lobby/lobby_tiles.json"
         }
     ],
     "prop-groups": [
@@ -562,18 +807,66 @@
             "props": [
                 "shopkeeper_base",
                 "shopkeeper_lvl1",
-                "shopkeeper_lvl2"
+                "shopkeeper_lvl2",
+                "shopkeeper_lvl3",
+                "shopkeeper_lvl4",
+                "shopkeeper_lvl5"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
         {
-            "id": "gambler",
+            "id": "luxurymerchant",
             "on-regions": [
-                "*.*.gambler"
+                "*.*.luxurymerchant"
             ],
             "props": [
-                "gambler_base",
-                "gambler_lvl1"
+                "luxurymerchant_base",
+                "luxurymerchant_lvl1",
+                "luxurymerchant_lvl2",
+                "luxurymerchant_lvl3",
+                "luxurymerchant_lvl4",
+                "luxurymerchant_lvl5"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "mysterymerchant",
+            "on-regions": [
+                "*.*.mysterymerchant"
+            ],
+            "props": [
+                "mysterymerchant_base",
+                "mysterymerchant_lvl1",
+                "mysterymerchant_lvl2",
+                "mysterymerchant_lvl3",
+                "mysterymerchant_lvl4",
+                "mysterymerchant_lvl5"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "blacksmith",
+            "on-regions": [
+                "*.*.blacksmith"
+            ],
+            "props": [
+                "blacksmith_base",
+                "blacksmith_lvl1",
+                "blacksmith_lvl2",
+                "blacksmith_lvl3"
+            ],
+            "##loc": "lobby/lobby_tiles.json"
+        },
+        {
+            "id": "giftwrapper",
+            "on-regions": [
+                "*.*.giftwrapper"
+            ],
+            "props": [
+                "giftwrapper_base",
+                "giftwrapper_lvl1",
+                "giftwrapper_lvl2",
+                "giftwrapper_lvl3"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },
@@ -584,28 +877,7 @@
             ],
             "props": [
                 "questgiver_base",
-                "questgiver_lvl2"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
-        },
-        {
-            "id": "dusttrader",
-            "on-regions": [
-                "*.*.dusttrader"
-            ],
-            "props": [
-                "dusttrader_base"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
-        },
-        {
-            "id": "marketentrance",
-            "on-regions": [
-                "*.*.marketentrance"
-            ],
-            "props": [
-                "market_base",
-                "market_unlocked"
+                "questgiver_open"
             ],
             "##loc": "lobby/lobby_tiles.json"
         },

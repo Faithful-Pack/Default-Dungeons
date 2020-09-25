@@ -559,6 +559,39 @@
                 "gate": null
             },
             "##loc": "creeperwoods/creeperwoods.json"
+        },
+        {
+            "id": "creeperarena",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        2,
+                        "creeper"
+                    ],
+                    [
+                        3,
+                        "creeper"
+                    ],
+                    [
+                        5,
+                        "creeper"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "creeperwoods/creeperwoods.json"
         }
     ],
     "stretches": [
@@ -1268,6 +1301,20 @@
     "props": [],
     "tiles": [
         {
+            "id": "cw_creeperroom_01",
+            "rotations": 0,
+            "challenges": [
+                "creeperarena"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "CreeperWoods/cw_tiles.json"
+        },
+        {
             "id": "cp_firstcreeper",
             "rotations": 180,
             "##loc": "CreeperWoods/cw_tiles.json"
@@ -1477,6 +1524,15 @@
         {
             "id": "cw_firstcreeper_alt",
             "rotations": 180,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "creeperroom"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door_alt2x3"
+                }
+            ],
             "##loc": "CreeperWoods/cw_tiles.json"
         },
         {
@@ -5907,6 +5963,18 @@
                         "cw_indoor_inn002"
                     ],
                     "audio-ambience": "audio_5"
+                }
+            ],
+            "##loc": "houses/house_dungeons.json"
+        },
+        {
+            "id": "creeperroom",
+            "ambience": "echo",
+            "stretches": [
+                {
+                    "tiles": [
+                        "cw_creeperroom_01"
+                    ]
                 }
             ],
             "##loc": "houses/house_dungeons.json"

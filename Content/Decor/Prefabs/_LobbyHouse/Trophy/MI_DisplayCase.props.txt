@@ -18,19 +18,19 @@ TextureParameterValues[3] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/_LobbyHouse/Trophy/T_DisplayCase_Shine.T_DisplayCase_Shine'
+        ParameterValue = Texture2D'Decor/Prefabs/_LobbyHouse/Trophy/T_DisplayCase_Shine.T_DisplayCase_Shine'
         ParameterInfo = { Name=ShineMask }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/_LobbyHouse/Trophy/T_DisplayCase.T_DisplayCase'
+        ParameterValue = Texture2D'Decor/Prefabs/_LobbyHouse/Trophy/T_DisplayCase.T_DisplayCase'
         ParameterInfo = { Name=Texture }
     }
     TextureParameterValues[2] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/_LobbyHouse/Trophy/T_DisplayCase_S.T_DisplayCase_S'
+        ParameterValue = Texture2D'Decor/Prefabs/_LobbyHouse/Trophy/T_DisplayCase_S.T_DisplayCase_S'
         ParameterInfo = { Name=Spec }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=NaturalEmissive }
     }
 }
-Parent = Material3'Content/Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.M_SimpleBlock'
+Parent = Material3'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.M_SimpleBlock'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

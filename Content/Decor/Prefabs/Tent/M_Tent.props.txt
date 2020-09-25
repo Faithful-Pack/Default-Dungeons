@@ -1,10 +1,7 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
-{
-    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Tent/T_Tent.T_Tent'
-}
+ReferencedTextures[1] = { Texture2D'Decor/Prefabs/Tent/T_Tent.T_Tent' }
 Expressions[4] =
 {
     Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/Tent/M_Tent.MaterialExpressionTextureSample_0'

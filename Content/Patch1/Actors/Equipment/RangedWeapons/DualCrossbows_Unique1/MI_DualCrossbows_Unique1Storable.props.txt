@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch1/Actors/Equipment/RangedWeapons/DualCrossbows_Unique1/T_DualCrossbows_Unique1.T_DualCrossbows_Unique1'
+        ParameterValue = Texture2D'Patch1/Actors/Equipment/RangedWeapons/DualCrossbows_Unique1/T_DualCrossbows_Unique1.T_DualCrossbows_Unique1'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch1/Actors/Equipment/RangedWeapons/DualCrossbows_Unique1/T_DualCrossbows_Unique1_S.T_DualCrossbows_Unique1_S'
+        ParameterValue = Texture2D'Patch1/Actors/Equipment/RangedWeapons/DualCrossbows_Unique1/T_DualCrossbows_Unique1_S.T_DualCrossbows_Unique1_S'
         ParameterInfo = { Name=Specular }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_ItemStorable.M_ItemStorable'
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

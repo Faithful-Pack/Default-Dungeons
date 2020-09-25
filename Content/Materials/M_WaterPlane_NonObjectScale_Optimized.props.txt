@@ -1,10 +1,7 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
-{
-    ReferencedTextures[0] = Texture2D'Content/Materials/T_WaterTile.T_WaterTile'
-}
+ReferencedTextures[1] = { Texture2D'Materials/T_WaterTile.T_WaterTile' }
 Expressions[33] =
 {
     Expressions[2] = MaterialExpressionTextureSample'Materials/M_WaterPlane_NonObjectScale_Optimized.MaterialExpressionTextureSample_2'

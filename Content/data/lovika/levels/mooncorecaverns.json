@@ -41,7 +41,7 @@
             "description": "description_find_the_villager_labourers",
             "displayMode": "MainObjective",
             "gauntlet": {
-                "end-region": "slave.*.objective"
+                "end-region": "miner.*.objective"
             }
         },
         {
@@ -52,12 +52,12 @@
                 "object": "Decor/Prefabs/MinerVillager/BP_MinerVillager",
                 "count": 3,
                 "locations": [
-                    "slave.*.villager1",
-                    "slave.*.villager2",
-                    "slave.*.villager3"
+                    "miner.*.villager1",
+                    "miner.*.villager2",
+                    "miner.*.villager3"
                 ],
                 "locked-doors": [
-                    "slave.*.gate"
+                    "miner.*.gate"
                 ]
             }
         },
@@ -65,7 +65,7 @@
             "name": "name_left_behind",
             "description": "description_find_the_other_villager_labourers",
             "gauntlet": {
-                "end-region": "slave2.*.objective"
+                "end-region": "miner2.*.objective"
             }
         },
         {
@@ -76,15 +76,15 @@
                 "object": "Decor/Prefabs/MinerVillager/BP_MinerVillager",
                 "count": 6,
                 "locations": [
-                    "slave2.*.villager1",
-                    "slave2.*.villager2",
-                    "slave2.*.villager3",
-                    "slave2.*.villager4",
-                    "slave2.*.villager5",
-                    "slave2.*.villager6"
+                    "miner2.*.villager1",
+                    "miner2.*.villager2",
+                    "miner2.*.villager3",
+                    "miner2.*.villager4",
+                    "miner2.*.villager5",
+                    "miner2.*.villager6"
                 ],
                 "locked-doors": [
-                    "slave2.*.gate"
+                    "miner2.*.gate"
                 ]
             }
         },
@@ -209,9 +209,9 @@
             "visual-theme": "cave_dark"
         },
         {
-            "id": "slave",
+            "id": "miner",
             "tile-groups": [
-                "slave1"
+                "miner1"
             ],
             "prop-groups": [
                 "generic_cave_decor",
@@ -285,9 +285,9 @@
             "visual-theme": "cave_dark"
         },
         {
-            "id": "slave2",
+            "id": "miner2",
             "tile-groups": [
-                "slave2"
+                "miner2"
             ],
             "prop-groups": [
                 "generic_cave_decor",
@@ -488,12 +488,12 @@
             "##loc": "mooncorecaverns/moontiles.json"
         },
         {
-            "id": "slave001",
+            "id": "miner001",
             "entry-door": "enter",
             "##loc": "mooncorecaverns/moontiles.json"
         },
         {
-            "id": "secret@slave002",
+            "id": "secret@miner002",
             "entry-door": "enter",
             "rotations": 270,
             "teleports": [
@@ -511,7 +511,7 @@
             "##loc": "mooncorecaverns/moontiles.json"
         },
         {
-            "id": "slave002",
+            "id": "miner002",
             "entry-door": "enter",
             "rotations": 270,
             "unlock-keys": [
@@ -1514,10 +1514,10 @@
             ]
         },
         {
-            "id": "slave002",
+            "id": "miner002",
             "props": [
                 {
-                    "id": "slave002",
+                    "id": "miner002",
                     "weight": 1
                 }
             ]
@@ -1605,18 +1605,18 @@
         },
         {
             "#": "First Miner Tile",
-            "id": "slave1",
+            "id": "miner1",
             "tiles": [
-                "slave001"
+                "miner001"
             ],
             "##loc": "mooncorecaverns/moontiles.json"
         },
         {
             "#": "Second Miner Tile",
-            "id": "slave2",
+            "id": "miner2",
             "tiles": [
-                "slave002",
-                "secret@slave002"
+                "miner002",
+                "secret@miner002"
             ],
             "##loc": "mooncorecaverns/moontiles.json"
         },

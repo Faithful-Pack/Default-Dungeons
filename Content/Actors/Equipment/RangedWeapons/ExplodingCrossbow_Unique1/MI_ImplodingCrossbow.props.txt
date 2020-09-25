@@ -12,13 +12,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/ExplodingCrossbow_Unique1/T_ImplodingCrossbow.T_ImplodingCrossbow'
+        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/ExplodingCrossbow_Unique1/T_ImplodingCrossbow.T_ImplodingCrossbow'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/ExplodingCrossbow_Unique1/T_ImplodingCrossbow_S.T_ImplodingCrossbow_S'
+        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/ExplodingCrossbow_Unique1/T_ImplodingCrossbow_S.T_ImplodingCrossbow_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -31,7 +31,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

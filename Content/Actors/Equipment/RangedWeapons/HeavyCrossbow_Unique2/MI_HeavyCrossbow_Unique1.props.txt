@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/HeavyCrossbow_Unique2/T_SlayerCrossbow.T_SlayerCrossbow'
+        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/HeavyCrossbow_Unique2/T_SlayerCrossbow.T_SlayerCrossbow'
         ParameterInfo = { Name=Albedo }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/HeavyCrossbow_Unique2/T_SlayerCrossbow_S.T_SlayerCrossbow_S'
+        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/HeavyCrossbow_Unique2/T_SlayerCrossbow_S.T_SlayerCrossbow_S'
         ParameterInfo = { Name=Specular }
     }
 }
@@ -37,7 +37,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=EnchantmentColor }
     }
 }
-Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

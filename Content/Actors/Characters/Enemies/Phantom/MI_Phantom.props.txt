@@ -30,13 +30,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Enemies/Phantom/T_Phantom_S.T_Phantom_S'
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Phantom/T_Phantom_S.T_Phantom_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Enemies/Phantom/T_Phantom.T_Phantom'
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Phantom/T_Phantom.T_Phantom'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -55,7 +55,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EmissiveBColor }
     }
 }
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

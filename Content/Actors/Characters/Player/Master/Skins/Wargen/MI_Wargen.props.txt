@@ -18,13 +18,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Player/Master/Skins/Wargen/T_Wargen_S.T_Wargen_S'
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Wargen/T_Wargen_S.T_Wargen_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Player/Master/Skins/Wargen/T_Wargen_Skin.T_Wargen_Skin'
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Wargen/T_Wargen_Skin.T_Wargen_Skin'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -43,7 +43,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EmissiveBColor }
     }
 }
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

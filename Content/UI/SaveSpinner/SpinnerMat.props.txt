@@ -3,11 +3,11 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/UI/SaveSpinner/SaveSpinner.SaveSpinner'
+    ReferencedTextures[0] = Texture2D'UI/SaveSpinner/SaveSpinner.SaveSpinner'
 }
 Expressions[7] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/UI/SaveSpinner/SpinnerMat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'UI/SaveSpinner/SpinnerMat.MaterialExpressionTextureSampleParameter2D_0'
 }
 CachedExpressionData =
 {
@@ -33,7 +33,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/UI/SaveSpinner/SaveSpinner.SaveSpinner'
+        Texture = Texture2D'UI/SaveSpinner/SaveSpinner.SaveSpinner'
         Name = Param
         Group = None
     }

@@ -12,12 +12,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Items/TotemOfShielding/T_6Side.T_6Side'
+        ParameterValue = Texture2D'Actors/Items/TotemOfShielding/T_6Side.T_6Side'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Effects/Materials/Generic/M_GenericCascadeMaster.M_GenericCascadeMaster'
+Parent = Material3'Effects/Materials/Generic/M_GenericCascadeMaster.M_GenericCascadeMaster'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

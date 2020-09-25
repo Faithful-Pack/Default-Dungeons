@@ -3,15 +3,15 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Textures/InventoryNew/master_inventory_backdrop_switch.master_inventory_backdrop_switch'
+    ReferencedTextures[0] = Texture2D'Textures/InventoryNew/master_inventory_backdrop_switch.master_inventory_backdrop_switch'
 }
 Expressions[24] =
 {
-    Expressions[0] = MaterialExpressionTextureSample'Content/UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionTextureSample_0'
-    Expressions[5] = MaterialExpressionScalarParameter'Content/UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionScalarParameter_0'
-    Expressions[7] = MaterialExpressionScalarParameter'Content/UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionScalarParameter_2'
-    Expressions[14] = MaterialExpressionScalarParameter'Content/UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionScalarParameter_3'
-    Expressions[21] = MaterialExpressionVectorParameter'Content/UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionVectorParameter_0'
+    Expressions[0] = MaterialExpressionTextureSample'UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionScalarParameter_0'
+    Expressions[7] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionScalarParameter_2'
+    Expressions[14] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionScalarParameter_3'
+    Expressions[21] = MaterialExpressionVectorParameter'UI/Materials/Inventory2/InventoryGradientMaterialMask.MaterialExpressionVectorParameter_0'
 }
 CachedExpressionData =
 {

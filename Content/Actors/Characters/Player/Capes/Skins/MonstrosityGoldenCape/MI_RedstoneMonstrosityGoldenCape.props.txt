@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Player/Capes/Skins/MonstrosityGoldenCape/T_RedstoneMonstrosityGoldenCape_S.T_RedstoneMonstrosityGoldenCape_S'
+        ParameterValue = Texture2D'Actors/Characters/Player/Capes/Skins/MonstrosityGoldenCape/T_RedstoneMonstrosityGoldenCape_S.T_RedstoneMonstrosityGoldenCape_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Player/Capes/Skins/MonstrosityGoldenCape/T_RedstoneMonstrosityGoldenCape.T_RedstoneMonstrosityGoldenCape'
+        ParameterValue = Texture2D'Actors/Characters/Player/Capes/Skins/MonstrosityGoldenCape/T_RedstoneMonstrosityGoldenCape.T_RedstoneMonstrosityGoldenCape'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

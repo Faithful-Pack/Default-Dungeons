@@ -3,25 +3,25 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/UI/Materials/HotBar2/Heart/heart_top.heart_top'
+    ReferencedTextures[0] = Texture2D'UI/Materials/HotBar2/Heart/heart_top.heart_top'
 }
 Expressions[97] =
 {
-    Expressions[5] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_1'
-    Expressions[29] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_2'
-    Expressions[55] = MaterialExpressionTextureSampleParameter2D'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[56] = MaterialExpressionTextureSampleParameter2D'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSampleParameter2D_3'
-    Expressions[57] = MaterialExpressionTextureSample'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSample_0'
-    Expressions[58] = MaterialExpressionVectorParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionVectorParameter_0'
-    Expressions[62] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_0'
-    Expressions[69] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_4'
-    Expressions[70] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_5'
-    Expressions[73] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_6'
-    Expressions[74] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_7'
-    Expressions[80] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_8'
-    Expressions[83] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_9'
-    Expressions[87] = MaterialExpressionVectorParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionVectorParameter_1'
-    Expressions[88] = MaterialExpressionScalarParameter'Content/UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_3'
+    Expressions[5] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_1'
+    Expressions[29] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_2'
+    Expressions[55] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[57] = MaterialExpressionTextureSample'UI/Materials/HotBar2/Heart/heart.MaterialExpressionTextureSample_0'
+    Expressions[58] = MaterialExpressionVectorParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionVectorParameter_0'
+    Expressions[62] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_0'
+    Expressions[69] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_4'
+    Expressions[70] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_5'
+    Expressions[73] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_6'
+    Expressions[74] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_7'
+    Expressions[80] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_8'
+    Expressions[83] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_9'
+    Expressions[87] = MaterialExpressionVectorParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionVectorParameter_1'
+    Expressions[88] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_3'
 }
 CachedExpressionData =
 {
@@ -47,13 +47,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/UI/Materials/HotBar2/P1_heartPWOW.P1_heartPWOW'
+        Texture = Texture2D'UI/Materials/HotBar2/P1_heartPWOW.P1_heartPWOW'
         Name = FilledHeartTexture
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/UI/Materials/HotBar2/Heart/heart_top.heart_top'
+        Texture = Texture2D'UI/Materials/HotBar2/Heart/heart_top.heart_top'
         Name = TopTexture
         Group = None
     }

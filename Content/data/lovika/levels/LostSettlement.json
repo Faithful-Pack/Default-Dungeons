@@ -1,0 +1,2960 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "LostSettlement",
+    "require-matching-doors": true,
+    "resource-packs": [
+        "LostSettlement"
+    ],
+    "object-groups": [
+        "LostSettlement/objectgroup",
+        "sub_shrine/objectgroup",
+        "sub_icecabin/objectgroup",
+        "sub_gloomycave/objectgroup",
+        "sub_lightcave/objectgroup",
+        "sub_lookout/objectgroup",
+        "sub_shelter/objectgroup"
+    ],
+    "loctable-id": "LostSettlementLoctable",
+    "default-mobs": {
+        "only": [
+            "settlement-mix-easy"
+        ],
+        "density": 1
+    },
+    "tiles": [
+        {
+            "id": "shrine_1",
+            "challenges": [
+                "shrine_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "shrine_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "rotations": [
+                90
+            ],
+            "##loc": "sub_shrine/sub_shrine_tiles.json"
+        },
+        {
+            "id": "shrine_2",
+            "entry-door": "enter_001",
+            "##loc": "sub_shrine/sub_shrine_tiles.json"
+        },
+        {
+            "id": "shrine_3",
+            "entry-door": "enter_002",
+            "challenges": [
+                "shrine_arena"
+            ],
+            "##loc": "sub_shrine/sub_shrine_tiles.json"
+        },
+        {
+            "id": "ice_cabin",
+            "rotations": [
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "cabin_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_icecabin/sub_icecabin_tiles.json"
+        },
+        {
+            "id": "gloomy",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "gloomy_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "gloomy_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_gloomycave/sub_gloomycave_tiles.json"
+        },
+        {
+            "id": "light_1",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "light_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "lightcave_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "sub_lightcave/sub_lightcave_tiles.json"
+        },
+        {
+            "id": "lookout_1",
+            "challenges": [
+                "lookout_arena",
+                "lookout_clicky"
+            ],
+            "rotations": [
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "lookout_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_lookout/sub_lookout_tiles.json"
+        },
+        {
+            "id": "shelter_1",
+            "challenges": [
+                "shelter_arena"
+            ],
+            "rotations": [
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "shelter_door",
+                    "exit": "travel_shelter",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_shelter/sub_shelter_tiles.json"
+        },
+        {
+            "id": "ls_start",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_spikes_01",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_spikes_02",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_spikes_03",
+            "rotations": [
+                180,
+                270
+            ],
+            "entry-door": "enter_003",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_spikes_04",
+            "rotations": [
+                180,
+                270
+            ],
+            "entry-door": "enter_004",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_spikes_05",
+            "exit-door": "exit_006",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_wall_01",
+            "rotations": [
+                180,
+                270
+            ],
+            "entry-door": "enter_006",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_wall_01_alt",
+            "rotations": [
+                180,
+                270
+            ],
+            "entry-door": "enter_006_2",
+            "teleports": [
+                {
+                    "door": "travel_shelter",
+                    "exit": "shelter_door",
+                    "dungeons": [
+                        "sub_shelter"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_wall_02",
+            "rotations": 180,
+            "entry-door": "enter_007",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_ice_wall_03",
+            "rotations": 180,
+            "entry-door": "enter_009",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_forest_01",
+            "rotations": 180,
+            "entry-door": "enter_011",
+            "exit-door": "exit_forest",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_forest_02",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_forest_03",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_barricade",
+            "rotations": 180,
+            "entry-door": "enter_018",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_settlement_01",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel_shrine",
+                    "exit": "shrine_door",
+                    "dungeons": [
+                        "sub_shrine"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_settlement_01_alt",
+            "rotations": [
+                270,
+                180
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_settlement_02",
+            "entry-door": "enter_022",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_settlement_03",
+            "entry-door": "enter_023",
+            "rotations": [
+                180,
+                270
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_sidepath_10",
+            "entry-door": "enter",
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_18",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel_gloomycave",
+                    "exit": "gloomy_door",
+                    "dungeons": [
+                        "sub_gloomycave"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_18_alt",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel_gloomycave",
+                    "exit": "gloomy_door",
+                    "dungeons": [
+                        "sub_gloomycave"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_18_alt_2",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel_gloomycave",
+                    "exit": "gloomy_door",
+                    "dungeons": [
+                        "sub_gloomycave"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_19",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel_icecabin",
+                    "exit": "icecabin_door",
+                    "dungeons": [
+                        "sub_icecabin"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_20",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel_lightcave",
+                    "exit": "lightcave_door",
+                    "dungeons": [
+                        "sub_lightcave"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_21",
+            "rotations": [
+                0,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel_lookout",
+                    "exit": "lookout_door",
+                    "dungeons": [
+                        "sub_lookout"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_10",
+            "challenges": [
+                "deadend_10_trap"
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_15",
+            "challenges": [
+                "deadend_15_trap"
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_16",
+            "challenges": [
+                "deadend_16_trap"
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_deadend_22",
+            "challenges": [
+                "deadend_22_trap"
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "ls_start"
+            ]
+        },
+        {
+            "tiles": [
+                "ls_ice_spikes_01",
+                "ls_ice_spikes_02",
+                "ls_ice_spikes_03"
+            ],
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "spike-mix-easy"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_01",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_02",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_17",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_23",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_25",
+                    "weight": 0.1
+                }
+            ],
+            "side-paths": {
+                "probability": 0.5,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        "ls_deadend_18",
+                        "ls_deadend_18_alt",
+                        "ls_deadend_18_alt_2"
+                    ],
+                    "tile-groups": [
+                        "spike_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ls_ice_spikes_05"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "spike-mix-medium"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_16",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_19",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ls_deadend_02",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_17",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_23",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_25",
+                    "weight": 0.05
+                }
+            ],
+            "side-paths": {
+                "probability": 0.3,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "tile-groups": [
+                        "spike_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ls_ice_spikes_01",
+                "ls_ice_spikes_02",
+                "ls_ice_spikes_03",
+                "ls_ice_spikes_04"
+            ],
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "spike-mix-medium"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_15",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_02",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_17",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_23",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_25",
+                    "weight": 0.05
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ls_ice_wall_01",
+                    "weight": 0.7
+                },
+                {
+                    "id": "ls_ice_wall_01_alt",
+                    "weight": 0.3
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "spike-mix-hard"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ls_ice_wall_02"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "spike-mix-hard"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_01",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_15",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_16",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_22",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_02",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_17",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_23",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_25",
+                    "weight": 0.05
+                }
+            ],
+            "side-paths": {
+                "probability": 0.7,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "tile-groups": [
+                        "spike_sidepath_2"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ls_ice_wall_03"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "spike-mix-hard"
+                ]
+            }
+        },
+        {
+            "id": "forest",
+            "tiles": [
+                "ls_forest_01"
+            ],
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "forest-mix-medium"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_03",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_06",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_07",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_08",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_24",
+                    "weight": 0.1
+                }
+            ],
+            "side-paths": {
+                "probability": 0.4,
+                "default": {
+                    "max-length": [
+                        1,
+                        2
+                    ],
+                    "dead-ends": [
+                        "ls_deadend_20"
+                    ],
+                    "tile-groups": [
+                        "forest_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ls_forest_02"
+            ],
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "forest-mix-medium"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_03",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_06",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_07",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_24",
+                    "weight": 0.05
+                }
+            ],
+            "side-paths": {
+                "probability": 0.5,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        "ls_deadend_21"
+                    ],
+                    "tile-groups": [
+                        "forest_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ls_forest_03"
+            ],
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "forest-mix-medium"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_03",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_06",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_07",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_deadend_08",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_24",
+                    "weight": 0.05
+                }
+            ],
+            "side-paths": {
+                "probability": 0.6,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ls_deadend_05",
+                            "weight": 0.4
+                        },
+                        {
+                            "id": "ls_deadend_09",
+                            "weight": 0.4
+                        },
+                        {
+                            "id": "ls_deadend_03",
+                            "weight": 0.05
+                        },
+                        {
+                            "id": "ls_deadend_06",
+                            "weight": 0.05
+                        },
+                        {
+                            "id": "ls_deadend_07",
+                            "weight": 0.05
+                        },
+                        {
+                            "id": "ls_deadend_08",
+                            "weight": 0.05
+                        }
+                    ],
+                    "tile-groups": [
+                        "forest_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "arena",
+            "tiles": [
+                "ls_barricade"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "forest-mix-hard"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ls_settlement_01",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ls_settlement_01_alt",
+                    "weight": 0.7
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "settlement-mix-easy"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ls_deadend_04",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_10",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_deadend_06",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_deadend_24",
+                    "weight": 0.05
+                }
+            ],
+            "side-paths": {
+                "probability": 0.7,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ls_deadend_11",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "ls_deadend_12",
+                            "weight": 0.5
+                        }
+                    ],
+                    "tile-groups": [
+                        "settlement_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ls_settlement_02"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "settlement-mix-medium"
+                ]
+            }
+        },
+        {
+            "id": "arena_02",
+            "tiles": [
+                "ls_settlement_03"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "settlement-mix-hard"
+                ]
+            }
+        }
+    ],
+    "objectives": [
+        {
+            "name": "name_ls_g_01",
+            "description": "description_ls_g_01",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ls_ice_spikes_05.obj_activate_bridges"
+            }
+        },
+        {
+            "name": "name_ls_g_01",
+            "description": "description_ls_g_02",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ls_ice_spikes_05.obj_bridge_crossed"
+            }
+        },
+        {
+            "name": "name_ls_g_01",
+            "description": "description_ls_g_03",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.obj_cross_ice_wall_start"
+            }
+        },
+        {
+            "name": "name_ls_g_01",
+            "description": "description_ls_g_04",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "forest.*.obj_find_settlement"
+            }
+        },
+        {
+            "name": "name_ls_g_01",
+            "description": "description_ls_g_05",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ls_barricade.obj_barricade_reached"
+            }
+        },
+        {
+            "name": "name_ls_g_01",
+            "description": "description_ls_g_05_a",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ls_barricade.obj_enter_settlement"
+            }
+        },
+        {
+            "name": "name_ls_a_06",
+            "description": "description_ls_a_06",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "arena",
+                "start-time": 0,
+                "interval": 13,
+                "rest-interval": 0.5,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        6,
+                        "barricade-arena-mix"
+                    ],
+                    [
+                        5,
+                        "barricade-arena-mix"
+                    ],
+                    [
+                        3,
+                        "barricade-arena-mix-special"
+                    ],
+                    [
+                        8,
+                        "barricade-arena-mix"
+                    ],
+                    [
+                        6,
+                        "barricade-arena-mix"
+                    ],
+                    [
+                        4,
+                        "barricade-arena-mix-special"
+                    ],
+                    [
+                        6,
+                        "barricade-arena-mix"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "name_ls_g_07",
+            "description": "description_ls_g_07",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ls_settlement_03.obj_beacon_found"
+            }
+        },
+        {
+            "name": "name_ls_g_08",
+            "description": "description_ls_g_08",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS_Rune_Beacon",
+                "count": 1,
+                "locations": [
+                    "*.ls_settlement_03.click_01"
+                ]
+            }
+        },
+        {
+            "name": "name_ls_g_08",
+            "description": "description_ls_g_09",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "arena_02",
+                "start-time": 0,
+                "interval": 10,
+                "rest-interval": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ]
+                ],
+                "battle-max-duration": 35
+            }
+        },
+        {
+            "name": "name_ls_g_08",
+            "description": "description_ls_g_10",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS_Rune_Beacon",
+                "count": 1,
+                "locations": [
+                    "*.ls_settlement_03.click_02"
+                ]
+            }
+        },
+        {
+            "name": "name_ls_g_08",
+            "description": "description_ls_g_09",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "arena_02",
+                "start-time": 0,
+                "interval": 10,
+                "rest-interval": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-melee"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ]
+                ],
+                "battle-max-duration": 35
+            }
+        },
+        {
+            "name": "name_ls_g_08",
+            "description": "description_ls_g_11",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS_Rune_Beacon",
+                "count": 1,
+                "locations": [
+                    "*.ls_settlement_03.click_03"
+                ]
+            }
+        },
+        {
+            "name": "name_ls_g_08",
+            "description": "description_ls_g_09",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "arena_02",
+                "start-time": 0,
+                "interval": 30,
+                "rest-interval": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "signal-arena-mix-illusioner"
+                    ],
+                    [
+                        8,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        4,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        5,
+                        "signal-arena-mix-melee-special"
+                    ],
+                    [
+                        3,
+                        "signal-arena-mix-ranged-special"
+                    ],
+                    [
+                        6,
+                        "signal-arena-mix-ranged-special"
+                    ]
+                ],
+                "battle-max-duration": 35,
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssetsBP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "name": "name_ls_g_08",
+            "description": "description_ls_g_12",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor_LF",
+                "count": 1,
+                "locations": [
+                    "*.ls_settlement_03.obj_exit"
+                ]
+            }
+        }
+    ],
+    "challenges": [
+        {
+            "id": "shrine_clicky",
+            "trigger": "*.shrine_1.click_trigger",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS",
+                "door-path": "Decor/Prefabs/Door/BP_StoneDoor_7",
+                "count": 1,
+                "locations": [
+                    "*.shrine_1.challenge"
+                ],
+                "locked-doors": [
+                    "*.shrine_1.gate"
+                ]
+            },
+            "##loc": "sub_shrine/sub_shrine_tiles.json"
+        },
+        {
+            "id": "shrine_arena",
+            "trigger": "*.*.arena_trigger",
+            "reward": {
+                "region": "*.shrine_3.challengereward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 6,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        3,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        3,
+                        "arena-mix"
+                    ],
+                    [
+                        5,
+                        "barricade-arena-mix-special"
+                    ],
+                    [
+                        7,
+                        "arena-mix"
+                    ],
+                    [
+                        6,
+                        "barricade-arena-mix-special"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "sub_shrine/sub_shrine_tiles.json"
+        },
+        {
+            "id": "gloomy_arena",
+            "trigger": "*.gloomy.arena_trigger",
+            "reward": {
+                "region": "*.gloomy.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_Fancychest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 10,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        7,
+                        "spike-mix-hard"
+                    ],
+                    [
+                        9,
+                        "spike-mix-hard"
+                    ],
+                    [
+                        6,
+                        "spike-mix-hard"
+                    ],
+                    [
+                        4,
+                        "spike-mix-hard"
+                    ],
+                    [
+                        6,
+                        "spike-mix-hard"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "sub_gloomycave/sub_gloomycave_tiles.json"
+        },
+        {
+            "id": "light_arena",
+            "trigger-object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/BP_Sapphire",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 20,
+                "rest-interval": 0,
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        10,
+                        "settlement-creeper-zombie"
+                    ],
+                    [
+                        9,
+                        "settlement-creeper-zombie"
+                    ],
+                    [
+                        8,
+                        "barricade-arena-mix-special"
+                    ],
+                    [
+                        12,
+                        "settlement-creeper-zombie"
+                    ],
+                    [
+                        8,
+                        "barricade-arena-mix-special"
+                    ],
+                    [
+                        15,
+                        "settlement-creeper-zombie"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x9",
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "sub_lightcave/sub_lightcave_tiles.json"
+        },
+        {
+            "id": "lookout_clicky",
+            "trigger": "*.lookout_1.click_trigger",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS",
+                "door-path": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x9",
+                "count": 1,
+                "locations": [
+                    "*.lookout_1.beacon"
+                ],
+                "locked-doors": [
+                    "*.lookout_1.gate1"
+                ]
+            },
+            "##loc": "sub_lookout/sub_lookout_tiles.json"
+        },
+        {
+            "id": "lookout_arena",
+            "trigger": "*.*.lookout_trigger",
+            "reward": {
+                "region": "*.lookout_1.challengeloot1",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        3,
+                        "forest-mix-med"
+                    ],
+                    [
+                        5,
+                        "forest-mix-med"
+                    ],
+                    [
+                        7,
+                        "forest-mix-med"
+                    ],
+                    [
+                        5,
+                        "forest-mix-med"
+                    ],
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "sub_lookout/sub_lookout_tiles.json"
+        },
+        {
+            "id": "shelter_arena",
+            "trigger": "*.*.shelter_trigger",
+            "reward": {
+                "region": "*.shelter_1.challengeloot1",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        7,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        7,
+                        "barricade-arena-mix-special"
+                    ],
+                    [
+                        10,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": null
+            },
+            "##loc": "sub_shelter/sub_shelter_tiles.json"
+        },
+        {
+            "id": "deadend_10_trap",
+            "trigger": "*.ls_deadend_10.arena_trigger",
+            "reward": {
+                "region": "*.ls_deadend_10.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 6,
+                "rest-interval": 0.25,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ],
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "deadend_15_trap",
+            "trigger": "*.ls_deadend_15.arena_trigger",
+            "reward": {
+                "region": "*.ls_deadend_15.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0.25,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "deadend_16_trap",
+            "trigger": "*.ls_deadend_16.arena_trigger",
+            "reward": {
+                "region": "*.ls_deadend_16.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 6,
+                "rest-interval": 0.25,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ],
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "deadend_22_trap",
+            "trigger": "*.ls_deadend_22.arena_trigger",
+            "reward": {
+                "region": "*.ls_deadend_22.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0.25,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "LostSettlement/LostSettlement.json"
+        }
+    ],
+    "tile-groups": [
+        {
+            "#": "spike_sidepath",
+            "id": "spike_sidepath",
+            "tiles": [
+                {
+                    "id": "ls_sidepath_02",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_sidepath_03",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_sidepath_09",
+                    "weight": 0.4
+                },
+                {
+                    "id": "ls_sidepath_10",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_sidepath_12",
+                    "weight": 0.1
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "#": "spike_sidepath_2",
+            "id": "spike_sidepath_2",
+            "tiles": [
+                {
+                    "id": "ls_sidepath_09",
+                    "weight": 0.7
+                },
+                {
+                    "id": "ls_sidepath_10",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ls_sidepath_17",
+                    "weight": 0.2
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "#": "forest_sidepath",
+            "id": "forest_sidepath",
+            "tiles": [
+                {
+                    "id": "ls_sidepath_05",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_sidepath_06",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_sidepath_09",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_sidepath_10",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ls_sidepath_16",
+                    "weight": 0.2
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "#": "settlement_sidepath",
+            "id": "settlement_sidepath",
+            "tiles": [
+                {
+                    "id": "ls_sidepath_07",
+                    "weight": 0.4
+                },
+                {
+                    "id": "ls_sidepath_08",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ls_sidepath_13",
+                    "weight": 0.05
+                },
+                {
+                    "id": "ls_sidepath_14",
+                    "weight": 0.15
+                },
+                {
+                    "id": "ls_sidepath_15",
+                    "weight": 0.1
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "pillar",
+            "props": [
+                {
+                    "id": "pillar1",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar2",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar3",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar1",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar2",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar3",
+                    "weight": 1
+                }
+            ],
+            "##loc": "LostSettlement/LostSettlement.json"
+        },
+        {
+            "id": "ls_start",
+            "props": [
+                {
+                    "id": "ls_start",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_spikes_01",
+            "props": [
+                {
+                    "id": "ls_ice_spikes_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_spikes_02",
+            "props": [
+                {
+                    "id": "ls_ice_spikes_02",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_spikes_03",
+            "props": [
+                {
+                    "id": "ls_ice_spikes_03",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_spikes_04",
+            "props": [
+                {
+                    "id": "ls_ice_spikes_04",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_spikes_05",
+            "props": [
+                {
+                    "id": "ls_ice_spikes_05",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_wall_01",
+            "props": [
+                {
+                    "id": "ls_ice_wall_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_wall_02",
+            "props": [
+                {
+                    "id": "ls_ice_wall_02",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_ice_wall_03",
+            "props": [
+                {
+                    "id": "ls_ice_wall_03",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_forest_01",
+            "props": [
+                {
+                    "id": "ls_forest_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_forest_02",
+            "props": [
+                {
+                    "id": "ls_forest_02",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_forest_03",
+            "props": [
+                {
+                    "id": "ls_forest_03",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_barricade",
+            "props": [
+                {
+                    "id": "ls_barricade",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_settlement_01",
+            "props": [
+                {
+                    "id": "ls_settlement_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_settlement_02",
+            "props": [
+                {
+                    "id": "ls_settlement_02",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ls_settlement_03",
+            "props": [
+                {
+                    "id": "ls_settlement_03",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "post",
+            "props": [
+                {
+                    "id": "post1",
+                    "weight": 1
+                },
+                {
+                    "id": "post2",
+                    "weight": 1
+                },
+                {
+                    "id": "post3",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "mob-groups": [
+        {
+            "#": "============== ICY BOIS ==============",
+            "id": "icy-bois",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Rabbit",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "polarbear",
+                    "weight": 0.1,
+                    "max%": 0.05
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== PILLAGER POSSE ==============",
+            "id": "pillager-posse",
+            "types": [
+                {
+                    "type": "Vindicator",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Geomancer",
+                    "weight": 0.2,
+                    "max%": 0.1
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.2,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SPIKE MIX EASY ==============",
+            "id": "spike-mix-easy",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.3
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.3
+                },
+                {
+                    "type": "polarbear",
+                    "weight": 0.1,
+                    "max%": 0.05
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SPIKE MIX MEDIUM ==============",
+            "id": "spike-mix-medium",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "polarbear",
+                    "weight": 0.1,
+                    "max%": 0.05
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Geomancer",
+                    "weight": 0.1,
+                    "max%": 0.05
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SPIKE MIX HARD ==============",
+            "id": "spike-mix-hard",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.15
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.15
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.25,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.25,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.05
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Geomancer",
+                    "weight": 0.05,
+                    "max%": 0.05
+                }
+            ],
+            "pick-types": [
+                4,
+                6
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== FOREST MIX EASY ==============",
+            "id": "forest-mix-easy",
+            "types": [
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.5
+                },
+                {
+                    "type": "Rabbit",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.4,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== FOREST MIX MEDIUM ==============",
+            "id": "forest-mix-med",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.3
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Rabbit",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.3,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== FOREST MIX HARD ==============",
+            "id": "forest-mix-hard",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.3,
+                    "max%": 0.5
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.3,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SETTLEMENT MIX EASY ==============",
+            "id": "settlement-mix-easy",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.15
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.15
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.4
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SETTLEMENT MIX MEDIUM ==============",
+            "id": "settlement-mix-medium",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SETTLEMENT MIX HARD ==============",
+            "id": "settlement-mix-hard",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.2,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SETTLEMENT MIX HARD SMALL ==============",
+            "id": "settlement-mix-hard-small",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SETTLEMENT CREEPER ZOMBIE ==============",
+            "id": "settlement-creeper-zombie",
+            "types": [
+                {
+                    "type": "icycreeper",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Zombie",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                1,
+                3
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== ARENA MIX ==============",
+            "id": "arena-mix",
+            "types": [
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                }
+            ],
+            "pick-types": [
+                4,
+                6
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== BARRICADE ARENA MIX ==============",
+            "id": "barricade-arena-mix",
+            "types": [
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1,
+                    "max%": 0.4
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== BARRICADE ARENA MIX SPECIAL ==============",
+            "id": "barricade-arena-mix-special",
+            "types": [
+                {
+                    "type": "Enchanter",
+                    "weight": 0.2,
+                    "max": 2
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.8
+                }
+            ],
+            "pick-types": [
+                2,
+                2
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== HORSE CHALLENGE MIX ==============",
+            "id": "horse-mix1",
+            "types": [
+                {
+                    "type": "SkeletonHorseman",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SIGNAL ARENA MIX - RANGED ==============",
+            "id": "signal-arena-mix-ranged",
+            "types": [
+                {
+                    "type": "Skeleton",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.4
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.4
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SIGNAL ARENA MIX - RANGED SPECIAL==============",
+            "id": "signal-arena-mix-ranged-special",
+            "types": [
+                {
+                    "type": "Skeleton",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.5
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Chillager",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Enchanter",
+                    "min": 2,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                5,
+                5
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SIGNAL ARENA MIX - MELEE ==============",
+            "id": "signal-arena-mix-melee",
+            "types": [
+                {
+                    "type": "Vindicator",
+                    "weight": 0.3
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.5
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SIGNAL ARENA MIX - MELEE SPECIAL ==============",
+            "id": "signal-arena-mix-melee-special",
+            "types": [
+                {
+                    "type": "Vindicator",
+                    "weight": 0.8
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Enchanter",
+                    "min": 2,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                4,
+                4
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        },
+        {
+            "#": "============== SIGNAL ARENA MIX - ILLUSIONER ==============",
+            "id": "signal-arena-mix-illusioner",
+            "types": [
+                {
+                    "type": "Illusioner",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "Stray",
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                2,
+                2
+            ],
+            "##loc": "LostSettlement/ls_mobs.json"
+        }
+    ],
+    "props": [],
+    "dungeons": [
+        {
+            "id": "sub_shrine",
+            "ambience": "delta",
+            "audio-ambience": "audio_1",
+            "stretches": [
+                {
+                    "tiles": [
+                        "shrine_1"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "settlement-creeper-zombie"
+                        ]
+                    },
+                    "prop-groups": [
+                        "pillar"
+                    ],
+                    "prop-density": 1
+                },
+                {
+                    "tiles": [
+                        "shrine_2"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "settlement-creeper-zombie"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "shrine_3"
+                    ],
+                    "prop-groups": [
+                        "post"
+                    ],
+                    "prop-density": 1
+                }
+            ],
+            "##loc": "sub_shrine/sub_shrine.json"
+        },
+        {
+            "id": "sub_icecabin",
+            "ambience": "Bravo",
+            "audio-ambience": "audio_2",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ice_cabin"
+                    ],
+                    "mobs": {
+                        "density": 1.6,
+                        "only": [
+                            "spike-mix-medium"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_icecabin/sub_icecabin.json"
+        },
+        {
+            "id": "sub_gloomycave",
+            "ambience": "delta",
+            "audio-ambience": "audio_3",
+            "stretches": [
+                {
+                    "tiles": [
+                        "gloomy"
+                    ],
+                    "mobs": {
+                        "density": 1.8,
+                        "only": [
+                            "spike-mix-med"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_gloomycave/sub_gloomycave.json"
+        },
+        {
+            "id": "sub_lightcave",
+            "ambience": "Foxtrot",
+            "audio-ambience": "audio_4",
+            "stretches": [
+                {
+                    "tiles": [
+                        "light_1"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "settlement-creeper-zombie"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_lightcave/sub_lightcave.json"
+        },
+        {
+            "id": "sub_lookout",
+            "ambience": "default",
+            "audio-ambience": "audio_5",
+            "stretches": [
+                {
+                    "tiles": [
+                        "lookout_1"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "forest-mix-med"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_lookout/sub_lookout.json"
+        },
+        {
+            "id": "sub_shelter",
+            "ambience": "Echo",
+            "audio-ambience": "audio_6",
+            "stretches": [
+                {
+                    "tiles": [
+                        "shelter_1"
+                    ],
+                    "mobs": {
+                        "density": 2,
+                        "only": [
+                            "settlement-mix-easy",
+                            "barricade-arena-mix"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_shelter/sub_shelter.json"
+        }
+    ]
+}

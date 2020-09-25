@@ -18,18 +18,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/UI/Materials/Inventory2/Level/xp_progress_mask.xp_progress_mask'
+        ParameterValue = Texture2D'UI/Materials/Inventory2/Level/xp_progress_mask.xp_progress_mask'
         ParameterInfo = { Name=Mask }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/UI/Materials/Inventory2/Level/xp_progress_color.xp_progress_color'
+        ParameterValue = Texture2D'UI/Materials/Inventory2/Level/xp_progress_color.xp_progress_color'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/UI/Materials/HotBar/xp_progress_bar.xp_progress_bar'
+Parent = Material3'UI/Materials/HotBar/xp_progress_bar.xp_progress_bar'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

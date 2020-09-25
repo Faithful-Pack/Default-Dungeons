@@ -1,0 +1,2973 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "FrozenFjord",
+    "resource-packs": [
+        "FrozenFjord"
+    ],
+    "object-groups": [
+        "FrozenFjord/objectgroup",
+        "frozenfjord_cave/objectgroup",
+        "sub_frozen_ship/objectgroup",
+        "sub_frozencave/objectgroup",
+        "sub_riverlock/objectgroup",
+        "sub_outpost/objectgroup",
+        "sub_igloo/objectgroup",
+        "sub_iron_mine/objectgroup"
+    ],
+    "loctable-id": "FrozenFjordLoctable",
+    "default-mobs": {
+        "only": [
+            "fjord-mix-easy"
+        ],
+        "density": 1
+    },
+    "tiles": [
+        {
+            "id": "ff_cave_01",
+            "rotations": [
+                0,
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "cave_entrance",
+                    "exit": "*.ff_river_cave_transition.fjord_entrance",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "frozenfjord/frozenfjord_cave_tiles.json"
+        },
+        {
+            "id": "ff_cave_sidepath_03",
+            "entry-door": "enter",
+            "##loc": "frozenfjord/frozenfjord_cave_tiles.json"
+        },
+        {
+            "id": "ff_cave_03",
+            "rotations": [
+                0,
+                270
+            ],
+            "challenges": [
+                "ff_fake_chest"
+            ],
+            "teleports": [
+                {
+                    "door": "cave_exit",
+                    "exit": "*.*.fjord_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "frozenfjord/frozenfjord_cave_tiles.json"
+        },
+        {
+            "id": "ship_1",
+            "challenges": [
+                "ship_clicky_arena"
+            ],
+            "rotations": [
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "ship_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "sub_frozen_ship/sub_frozen_ship_tiles.json"
+        },
+        {
+            "id": "ice_1",
+            "rotations": [
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "frozen_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                },
+                {
+                    "door": "frozen_door_in",
+                    "exit": "*.ice_end.frozen_door_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "challenges": [
+                "fc_arena1"
+            ],
+            "##loc": "sub_frozencave/sub_frozencave_tiles.json"
+        },
+        {
+            "id": "ice_2",
+            "entry-door": "enter",
+            "##loc": "sub_frozencave/sub_frozencave_tiles.json"
+        },
+        {
+            "id": "ice_3",
+            "challenges": [
+                "fc_arena2"
+            ],
+            "##loc": "sub_frozencave/sub_frozencave_tiles.json"
+        },
+        {
+            "id": "ice_end",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "fc_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "frozen_door_out",
+                    "exit": "*.ice_1.frozen_door_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+            ],
+            "##loc": "sub_frozencave/sub_frozencave_tiles.json"
+        },
+        {
+            "id": "lock",
+            "challenges": [
+                "lockarena"
+            ],
+            "teleports": [
+                {
+                    "door": "riverlock_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                },
+                {
+                    "door": "lock_in",
+                    "exit": "*.lock_2.lock_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_riverlock/sub_riverlock_tiles.json"
+        },
+        {
+            "id": "lock_2",
+            "challenges": [
+                "lockarena1"
+            ],
+            "rotations": [
+                270
+            ],
+            "entry-door": "enter",
+            "teleports": [
+                {
+                    "door": "lock_out",
+                    "exit": "*.lock.lock_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_bamboo"
+                }
+            ],
+            "##loc": "sub_riverlock/sub_riverlock_tiles.json"
+        },
+        {
+            "id": "outpost_out",
+            "teleports": [
+                {
+                    "door": "outpost_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                },
+                {
+                    "door": "room_low_in",
+                    "exit": "*.outpost_rooms.room_low_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                },
+                {
+                    "door": "room_high_in",
+                    "exit": "*.outpost_rooms.room_high_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+            ],
+            "challenges": [
+                "outpost_clicky",
+                "outpost_silvergate",
+                "treasure_clicky_arena"
+            ],
+            "rotations": [
+                90
+            ],
+            "##loc": "sub_outpost/sub_outpost_tiles.json"
+        },
+        {
+            "id": "outpost_rooms",
+            "teleports": [
+                {
+                    "door": "room_low_out",
+                    "exit": "*.outpost_out.room_low_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                },
+                {
+                    "door": "room_high_out",
+                    "exit": "*.outpost_out.room_high_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+            ],
+            "##loc": "sub_outpost/sub_outpost_tiles.json"
+        },
+        {
+            "id": "igloo_1",
+            "teleports": [
+                {
+                    "door": "igloo_door",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
+                }
+            ],
+            "challenges": [
+                "iglooarena"
+            ],
+            "rotations": [
+                180
+            ],
+            "##loc": "sub_igloo/sub_igloo_tiles.json"
+        },
+        {
+            "id": "iron_2",
+            "rotations": [
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "mine_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "first_door",
+                    "exit": "*.iron_1.return_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_iron_mine/sub_iron_mine_tiles.json"
+        },
+        {
+            "id": "iron_3",
+            "entry-door": "enter_001",
+            "##loc": "sub_iron_mine/sub_iron_mine_tiles.json"
+        },
+        {
+            "id": "iron_4",
+            "entry-door": "enter_002",
+            "##loc": "sub_iron_mine/sub_iron_mine_tiles.json"
+        },
+        {
+            "id": "iron_1",
+            "challenges": [
+                "mine_clicky_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "return_door",
+                    "exit": "*.iron_2.first_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "sub_iron_mine/sub_iron_mine_tiles.json"
+        },
+        {
+            "id": "ff_start",
+            "rotations": [
+                0
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_01",
+            "entry-door": "enter_001",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_01_alt",
+            "entry-door": "enter_001",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_in",
+            "entry-door": "enter_random",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_01",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_02",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_03",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_04",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_05",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_06",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_07",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_chunk_08",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_random_seg_out",
+            "exit-door": "exit_random",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_02",
+            "entry-door": "enter_002",
+            "exit-door": "door_003",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_02_alt",
+            "entry-door": "enter_002_alt",
+            "exit-door": "door_003_alt",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_03",
+            "entry-door": "enter_003",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_03_alt",
+            "entry-door": "enter_003",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_sidepath_03",
+            "entry-door": "ff_tri_path_entrance",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_arena_01",
+            "entry-door": "enter_004",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_04",
+            "entry-door": "enter_005",
+            "exit-door": "door_006",
+            "rotations": [
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "travel_frozen_cave",
+                    "exit": "frozen_door",
+                    "dungeons": [
+                        "sub_frozencave"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_04_alt",
+            "entry-door": "enter_005_alt",
+            "exit-door": "door_006_alt",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_cave_lock_entrance",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel_riverlock",
+                    "exit": "riverlock_door",
+                    "dungeons": [
+                        "sub_riverlock"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_cave_lock_entrance_alt",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel_riverlock",
+                    "exit": "riverlock_door",
+                    "dungeons": [
+                        "sub_riverlock"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_cave_transition",
+            "entry-door": "enter_006",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "ff_creeper_arena_1",
+                "ff_creeper_arena_2"
+            ],
+            "teleports": [
+                {
+                    "door": "fjord_entrance",
+                    "exit": "*.ff_cave_01.cave_entrance",
+                    "dungeons": [
+                        "frozenfjord_cave_01"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FFjord/BP_TravelDoor_FF_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_cave_transition_alt",
+            "entry-door": "enter_006",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "ff_creeper_arena_1",
+                "ff_creeper_arena_2"
+            ],
+            "teleports": [
+                {
+                    "door": "fjord_entrance",
+                    "exit": "*.ff_cave_01.cave_entrance",
+                    "dungeons": [
+                        "frozenfjord_cave_01"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FFjord/BP_TravelDoor_FF_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_cave_transition_alt_2",
+            "entry-door": "enter_006",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "ff_creeper_arena_1",
+                "ff_creeper_arena_2"
+            ],
+            "teleports": [
+                {
+                    "door": "fjord_entrance",
+                    "exit": "*.ff_cave_01.cave_entrance",
+                    "dungeons": [
+                        "frozenfjord_cave_01"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FFjord/BP_TravelDoor_FF_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_cave_transition_alt_3",
+            "entry-door": "enter_006",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "ff_creeper_arena_1",
+                "ff_creeper_arena_2"
+            ],
+            "teleports": [
+                {
+                    "door": "fjord_entrance",
+                    "exit": "*.ff_cave_01.cave_entrance",
+                    "dungeons": [
+                        "frozenfjord_cave_01"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/FFjord/BP_TravelDoor_FF_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "spacer",
+            "exit-door": "spacer_connect",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_cave_forest_transition",
+            "rotations": [
+                0,
+                270
+            ],
+            "exit-door": "exit_transition",
+            "teleports": [
+                {
+                    "door": "travel_outpost",
+                    "exit": "outpost_door",
+                    "dungeons": [
+                        "sub_outpost"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "fjord_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_cave_forest_transition_alt",
+            "rotations": [
+                0,
+                270
+            ],
+            "exit-door": "exit_transition_alt",
+            "teleports": [
+                {
+                    "door": "fjord_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_forest_01",
+            "exit-door": "door_010",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_cliffside_01",
+            "entry-door": "enter_010",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_cliffside_02",
+            "entry-door": "enter_011",
+            "rotations": [
+                180,
+                270
+            ],
+            "challenges": [
+                "ff_gate_arena"
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "right_angle",
+            "entry-door": "right_angle_enter",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "right_angle_alt",
+            "entry-door": "right_angle_enter_alt",
+            "teleports": [
+                {
+                    "door": "travel_mine",
+                    "exit": "mine_door",
+                    "dungeons": [
+                        "sub_iron_mine"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_forest_vista",
+            "rotations": [
+                0,
+                270
+            ],
+            "entry-door": "enter_vista",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_forest_vista_alt",
+            "rotations": [
+                180,
+                270
+            ],
+            "entry-door": "enter_vista_alt",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_deadend_05",
+            "rotations": [
+                180,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel_igloo",
+                    "exit": "igloo_door",
+                    "dungeons": [
+                        "sub_igloo"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_deadend_03",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel_igloo",
+                    "exit": "igloo_door",
+                    "dungeons": [
+                        "sub_igloo"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_river_deadend_01",
+            "teleports": [
+                {
+                    "door": "travel_ship",
+                    "exit": "ship_door",
+                    "dungeons": [
+                        "sub_frozen_ship"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "ff_start"
+            ],
+            "prop-groups": [
+                "ship"
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ff_river_01",
+                    "weight": 0.6
+                },
+                {
+                    "id": "ff_river_01_alt",
+                    "weight": 0.4
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "fjord-mix-easy"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ff_river_02",
+                    "weight": 0.5
+                },
+                {
+                    "id": "ff_river_02_alt",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 1.1,
+                "only": [
+                    "fjord-mix-easy"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ff_river_deadend_01",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ff_river_deadend_05",
+                    "weight": 0.25
+                },
+                {
+                    "id": "ff_river_deadend_06",
+                    "weight": 0.25
+                },
+                {
+                    "id": "ff_river_deadend_07",
+                    "weight": 0.25
+                }
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ff_river_deadend_01",
+                            "weight": 0.3
+                        },
+                        {
+                            "id": "ff_river_deadend_05",
+                            "weight": 0.25
+                        },
+                        {
+                            "id": "ff_river_deadend_06",
+                            "weight": 0.25
+                        },
+                        {
+                            "id": "ff_river_deadend_07",
+                            "weight": 0.25
+                        }
+                    ],
+                    "tile-groups": [
+                        "river_sidepath_a"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ff_river_03",
+                    "weight": 0.5
+                },
+                {
+                    "id": "ff_river_03_alt",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 1.1,
+                "only": [
+                    "fjord-mix-easy"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ff_random_seg_in"
+            ],
+            "mobs": {
+                "density": 1.2,
+                "only": [
+                    "fjord-mix-easy"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ff_random_seg_chunk_01",
+                "ff_random_seg_chunk_02",
+                "ff_random_seg_chunk_03",
+                "ff_random_seg_chunk_04",
+                "ff_random_seg_chunk_05",
+                "ff_random_seg_chunk_06",
+                "ff_random_seg_chunk_07",
+                "ff_random_seg_chunk_08"
+            ],
+            "length": 2,
+            "mobs": {
+                "density": 1.2,
+                "only": [
+                    "fjord-mix-med"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ff_random_seg_out"
+            ],
+            "mobs": {
+                "density": 1.1,
+                "only": [
+                    "fjord-mix-easy"
+                ]
+            }
+        },
+        {
+            "id": "arena",
+            "tiles": [
+                "ff_river_arena_01"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "fjord-mix-easy"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ff_river_04",
+                "ff_river_04_alt"
+            ],
+            "mobs": {
+                "density": 1.2,
+                "only": [
+                    "fjord-mix-easy"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ff_river_deadend_02",
+                    "weight": 0.25
+                },
+                {
+                    "id": "ff_river_deadend_03",
+                    "weight": 0.25
+                },
+                {
+                    "id": "ff_river_deadend_05",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_deadend_06",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_deadend_07",
+                    "weight": 0.1
+                }
+            ],
+            "prop-groups": [
+                "Ice_Spikes"
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ff_river_deadend_02",
+                            "weight": 0.25
+                        },
+                        {
+                            "id": "ff_river_deadend_03",
+                            "weight": 0.25
+                        },
+                        {
+                            "id": "ff_river_deadend_04",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "ff_river_deadend_05",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "ff_river_deadend_06",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "ff_river_deadend_07",
+                            "weight": 0.1
+                        }
+                    ],
+                    "tile-groups": [
+                        "river_sidepath_b"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ff_river_cave_transition",
+                    "weight": 0.25
+                },
+                {
+                    "id": "ff_river_cave_transition_alt",
+                    "weight": 0.25
+                },
+                {
+                    "id": "ff_river_cave_transition_alt_2",
+                    "weight": 0.25
+                },
+                {
+                    "id": "ff_river_cave_transition_alt_3",
+                    "weight": 0.25
+                }
+            ]
+        },
+        {
+            "tiles": [
+                "spacer"
+            ]
+        },
+        {
+            "id": "forest_transition",
+            "tiles": [
+                {
+                    "id": "ff_cave_forest_transition",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ff_cave_forest_transition_alt",
+                    "weight": 0.8
+                }
+            ]
+        },
+        {
+            "tiles": [
+                "ff_forest_01"
+            ],
+            "dead-ends": [
+                "forest_deadend"
+            ],
+            "mobs": {
+                "density": 1.1,
+                "only": [
+                    "fjord-mix-hard"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ff_forest_vista",
+                    "weight": 0.5
+                },
+                {
+                    "id": "ff_forest_vista_alt",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 0.75,
+                "only": [
+                    "fjord-mix-hard"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ff_cliffside_01"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "fjord-mix-hard"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "right_angle",
+                    "weight": 0.7
+                },
+                {
+                    "id": "right_angle_alt",
+                    "weight": 0.3
+                }
+            ]
+        },
+        {
+            "tiles": [
+                "ff_cliffside_02"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "fjord-mix-hard"
+                ]
+            }
+        }
+    ],
+    "tile-groups": [
+        {
+            "#": "river_sidepath_a",
+            "id": "river_sidepath_a",
+            "tiles": [
+                {
+                    "id": "ff_small_straight",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_01",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_02",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_03",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_04",
+                    "weight": 0.1
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "#": "river_sidepath_b",
+            "id": "river_sidepath_b",
+            "tiles": [
+                {
+                    "id": "ff_small_straight",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_small_angle",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_small_quad",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_01",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_02",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_03",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_04",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ff_river_sidepath_05",
+                    "weight": 0.1
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "#": "cave_sidepath",
+            "id": "cave_sidepath",
+            "tiles": [
+                {
+                    "id": "ff_cave_sidepath_01",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ff_cave_sidepath_03",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ff_cave_sidepath_04",
+                    "weight": 0.4
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        }
+    ],
+    "props": [
+        {
+            "id": "Ice_Spikes_01",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "Ice_Spikes_02",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "Ice_Spikes_03",
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "Rock_01",
+            "rotations": [
+                0
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ship_01",
+            "rotations": [
+                0
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ship_02",
+            "rotations": [
+                0
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ship_03",
+            "rotations": [
+                0
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "house",
+            "props": [
+                {
+                    "id": "housea",
+                    "weight": 5
+                },
+                {
+                    "id": "houseb",
+                    "weight": 5
+                },
+                {
+                    "id": "housec",
+                    "weight": 5
+                }
+            ],
+            "##loc": "sub_riverlock/sub_riverlock_tiles.json"
+        },
+        {
+            "id": "igloo",
+            "props": [
+                {
+                    "id": "iglooprop1",
+                    "weight": 1
+                },
+                {
+                    "id": "iglooprop2",
+                    "weight": 1
+                },
+                {
+                    "id": "iglooprop3",
+                    "weight": 1
+                },
+                {
+                    "id": "iglooprop4",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_igloo/sub_igloo_tiles.json"
+        },
+        {
+            "id": "Ice_Spikes",
+            "props": [
+                {
+                    "id": "Ice_Spikes_01",
+                    "weight": 1
+                },
+                {
+                    "id": "Ice_Spikes_02",
+                    "weight": 1
+                },
+                {
+                    "id": "Ice_Spikes_03",
+                    "weight": 1
+                },
+                {
+                    "id": "Ice_Spike_03",
+                    "weight": 1
+                },
+                {
+                    "id": "Ice_Spike_02",
+                    "weight": 1
+                },
+                {
+                    "id": "Ice_Spike_01",
+                    "weight": 1
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ship",
+            "props": [
+                {
+                    "id": "ship_01",
+                    "weight": 1
+                },
+                {
+                    "id": "ship_02",
+                    "weight": 1
+                },
+                {
+                    "id": "ship_03",
+                    "weight": 1
+                },
+                {
+                    "id": "ship_01",
+                    "weight": 1
+                },
+                {
+                    "id": "ship_02",
+                    "weight": 1
+                },
+                {
+                    "id": "ship_03",
+                    "weight": 1
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "Rocks",
+            "props": [
+                {
+                    "id": "Rock_01",
+                    "weight": 1
+                },
+                {
+                    "id": "Rock_01",
+                    "weight": 1
+                }
+            ],
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_start",
+            "props": [
+                {
+                    "id": "ff_start",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_river_01",
+            "props": [
+                {
+                    "id": "ff_river_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_river_02",
+            "props": [
+                {
+                    "id": "ff_river_02",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_river_03",
+            "props": [
+                {
+                    "id": "ff_river_03",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_river_arena_01",
+            "props": [
+                {
+                    "id": "ff_river_arena_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_river_04",
+            "props": [
+                {
+                    "id": "ff_river_04",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_forest_01",
+            "props": [
+                {
+                    "id": "ff_forest_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_cliffside_01",
+            "props": [
+                {
+                    "id": "ff_cliffside_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_cliffside_02",
+            "props": [
+                {
+                    "id": "ff_cliffside_02",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "right_angle",
+            "props": [
+                {
+                    "id": "right_angle",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_forest_vista",
+            "props": [
+                {
+                    "id": "ff_forest_vista",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "hole1",
+            "props": [
+                {
+                    "id": "hole1",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "hole2",
+            "props": [
+                {
+                    "id": "hole2",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "hole3",
+            "props": [
+                {
+                    "id": "hole3",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "spacer",
+            "props": [
+                {
+                    "id": "spacer",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_cave_01",
+            "props": [
+                {
+                    "id": "ff_cave_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_cave_02",
+            "props": [
+                {
+                    "id": "ff_cave_02",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ff_cave_03",
+            "props": [
+                {
+                    "id": "ff_cave_03",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "House",
+            "props": [
+                {
+                    "id": "Houseb",
+                    "weight": 1
+                },
+                {
+                    "id": "Housea",
+                    "weight": 1
+                },
+                {
+                    "id": "Housec",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "boat",
+            "props": [
+                {
+                    "id": "boat3",
+                    "weight": 1
+                },
+                {
+                    "id": "boat2",
+                    "weight": 1
+                },
+                {
+                    "id": "boat1",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "iglooprop1",
+            "props": [
+                {
+                    "id": "iglooprop1",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "iglooprop2",
+            "props": [
+                {
+                    "id": "iglooprop2",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "iglooprop3",
+            "props": [
+                {
+                    "id": "iglooprop3",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "iglooprop4",
+            "props": [
+                {
+                    "id": "iglooprop4",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "objectives": [
+        {
+            "name": "name_ff_g_01",
+            "description": "description_ff_g_01",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ff_river_arena_01.obj_follow_river"
+            }
+        },
+        {
+            "name": "name_ff_g_01",
+            "description": "description_ff_a_01",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "arena",
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "interval": 12,
+                "rest-interval": 0.5,
+                "waves": [
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ],
+                    [
+                        5,
+                        "arena-mix"
+                    ],
+                    [
+                        7,
+                        "arena-mix"
+                    ],
+                    [
+                        12,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_9",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "name": "name_ff_g_01",
+            "description": "description_ff_g_02",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "forest_transition.*.obj_rejoin_river"
+            }
+        },
+        {
+            "name": "name_ff_g_01",
+            "description": "description_ff_g_03",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ff_cliffside_02.obj_river_north"
+            }
+        },
+        {
+            "name": "name_ff_c_01",
+            "description": "description_ff_c_01",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DrawBridge_Switch/BP_Switch_Drawbridge",
+                "count": 2,
+                "locations": [
+                    "*.ff_cliffside_02.obj_bridge_button_01",
+                    "*.ff_cliffside_02.obj_bridge_button_02"
+                ],
+                "locked-doors": [
+                    "*.ff_cliffside_02.obj_bridge_gate"
+                ]
+            }
+        },
+        {
+            "name": "name_ff_c_01",
+            "description": "description_ff_c_02",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_Master_DoorExit_CorrectsTileRotation",
+                "count": 1,
+                "locations": [
+                    "*.ff_cliffside_02.obj_exit"
+                ]
+            }
+        }
+    ],
+    "challenges": [
+        {
+            "id": "ship_clicky_arena",
+            "trigger": "*.*.shiptrigger",
+            "reward": {
+                "region": "*.ship_1.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        5,
+                        "cave-mix-med"
+                    ],
+                    [
+                        4,
+                        "cave-mix-med"
+                    ],
+                    [
+                        7,
+                        "cave-mix-med"
+                    ],
+                    [
+                        6,
+                        "fjord-mix-hard"
+                    ],
+                    [
+                        9,
+                        "fjord-mine-mix"
+                    ],
+                    [
+                        12,
+                        "fjord-mine-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "sub_frozen_ship/sub_frozen_ship_tiles.json"
+        },
+        {
+            "id": "fc_arena1",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.ice_1.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 0,
+                "rest-interval": 0,
+                "start-time": 120,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        22,
+                        "cave-mix-med"
+                    ]
+                ],
+                "gate": null
+            },
+            "##loc": "sub_frozencave/sub_frozencave_tiles.json"
+        },
+        {
+            "id": "fc_arena2",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.ice_3.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 0,
+                "rest-interval": 0,
+                "start-time": 120,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        18,
+                        "cave-mix-med"
+                    ]
+                ],
+                "gate": null
+            },
+            "##loc": "sub_frozencave/sub_frozencave_tiles.json"
+        },
+        {
+            "id": "fc_arena",
+            "trigger": "*.*.fc_trigger",
+            "reward": {
+                "region": "*.ice_end.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        6,
+                        "cave-mix-med"
+                    ],
+                    [
+                        9,
+                        "cave-mix-med"
+                    ],
+                    [
+                        12,
+                        "cave-mix-med"
+                    ],
+                    [
+                        8,
+                        "cave-mix-hard"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "sub_frozencave/sub_frozencave_tiles.json"
+        },
+        {
+            "id": "lockarena",
+            "trigger": "*.lock.locktrigger",
+            "arena": {
+                "stretch": "",
+                "interval": 10,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        3,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "fjord-mix-hard"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "fjord-mix-hard"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": true,
+                    "regions": [
+                        "*.lock.gate"
+                    ]
+                }
+            },
+            "##loc": "sub_riverlock/sub_riverlock_tiles.json"
+        },
+        {
+            "id": "lockarena1",
+            "trigger": "*.lock_2.ice_trigger",
+            "arena": {
+                "stretch": "",
+                "interval": 10,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        3,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "fjord-mix-hard"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ],
+                    [
+                        4,
+                        "fjord-mix-hard"
+                    ],
+                    [
+                        6,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": true,
+                    "regions": [
+                        "*.lock_2.gate",
+                        "*.lock_2.gate2"
+                    ]
+                }
+            },
+            "##loc": "sub_riverlock/sub_riverlock_tiles.json"
+        },
+        {
+            "id": "outpost_clicky",
+            "trigger": "*.outpost_out.challenge",
+            "reward": {
+                "region": "*.outpost_out.clickloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "Decor/Prefabs/CapturedVillager/BP_CapturedVillager",
+                "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5",
+                "count": 2,
+                "locations": [
+                    "*.outpost_out.beacon"
+                ],
+                "locked-doors": [
+                    "*.outpost_out.gate1"
+                ]
+            },
+            "##loc": "sub_outpost/sub_outpost_tiles.json"
+        },
+        {
+            "id": "outpost_silvergate",
+            "trigger": "*.*.silvergatechallenge",
+            "reward": {
+                "region": "*.outpost_out.gateloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_IceEntranceDoor",
+                "count": 1,
+                "locations": [
+                    "*.outpost_out.silvergate"
+                ],
+                "key-locations": [
+                    "*.outpost_out.pickupkey"
+                ],
+                "key-type": "Silver"
+            },
+            "##loc": "sub_outpost/sub_outpost_tiles.json"
+        },
+        {
+            "id": "treasure_clicky_arena",
+            "trigger": "*.*.outpostarena",
+            "reward": {
+                "region": "*.outpost_out.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 18,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        6,
+                        "arena-mix"
+                    ],
+                    [
+                        10,
+                        "arena-mix"
+                    ],
+                    [
+                        8,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "fjord-mine-mix-special"
+                    ],
+                    [
+                        1,
+                        "fjord-mine-mix-special"
+                    ],
+                    [
+                        1,
+                        "fjord-mine-mix-special"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "sub_outpost/sub_outpost_tiles.json"
+        },
+        {
+            "id": "iglooarena",
+            "trigger": "*.*.iglootrigger",
+            "reward": {
+                "region": "*.igloo_1.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        2,
+                        "arena-mix"
+                    ],
+                    [
+                        1,
+                        "arena-mix"
+                    ],
+                    [
+                        3,
+                        "fjord-mine-mix"
+                    ]
+                ],
+                "gate": null
+            },
+            "##loc": "sub_igloo/sub_igloo_tiles.json"
+        },
+        {
+            "id": "mine_clicky_arena",
+            "trigger": "*.*.minetrigger",
+            "reward": {
+                "region": "*.iron_1.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 16,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        6,
+                        "fjord-mine-mix"
+                    ],
+                    [
+                        10,
+                        "fjord-mine-mix"
+                    ],
+                    [
+                        8,
+                        "fjord-mine-mix"
+                    ],
+                    [
+                        5,
+                        "fjord-mine-mix-special"
+                    ],
+                    [
+                        12,
+                        "fjord-mine-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/Door/BP_StoneDoorDown_Frosty",
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "sub_iron_mine/sub_iron_mine_tiles.json"
+        },
+        {
+            "id": "ff_creeper_arena_1",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight_FF_version",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        1,
+                        "creeper-mix"
+                    ],
+                    [
+                        2,
+                        "creeper-mix"
+                    ],
+                    [
+                        3,
+                        "creeper-mix"
+                    ],
+                    [
+                        3,
+                        "creeper-mix"
+                    ],
+                    [
+                        3,
+                        "creeper-mix"
+                    ],
+                    [
+                        5,
+                        "creeper-mix"
+                    ]
+                ],
+                "gate": null
+            },
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_creeper_arena_2",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight_FF_version1",
+            "reward": {
+                "region": "*.*.challengeloot2",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        1,
+                        "creeper-mix"
+                    ],
+                    [
+                        2,
+                        "creeper-mix"
+                    ],
+                    [
+                        3,
+                        "creeper-mix"
+                    ],
+                    [
+                        3,
+                        "creeper-mix"
+                    ],
+                    [
+                        2,
+                        "creeper-mix"
+                    ],
+                    [
+                        5,
+                        "creeper-mix"
+                    ]
+                ],
+                "gate": null
+            },
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_fake_chest",
+            "trigger-object": "Decor/Prefabs/DrawBridge_Switch/BP_Switch_SwingingChest",
+            "arena": {
+                "stretch": "*",
+                "interval": 0,
+                "rest-interval": 0,
+                "start-time": 5,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        6,
+                        "arena-mix"
+                    ]
+                ],
+                "gate": null
+            },
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        },
+        {
+            "id": "ff_gate_arena",
+            "trigger": "*.ff_cliffside_02.chal_gate_arena",
+            "reward": {
+                "region": "*.*.gate_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 0,
+                "rest-interval": 1,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [
+                        5,
+                        "fortress-gate-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssetsBP_DoorWinter_9",
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "FrozenFjord/FrozenFjord.json"
+        }
+    ],
+    "mob-groups": [
+        {
+            "#": "============== ICY BOIS ==============",
+            "id": "icy-bois",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Rabbit",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "polarbear",
+                    "weight": 0.1,
+                    "max%": 0.05
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== PILLAGER POSSE ==============",
+            "id": "pillager-posse",
+            "types": [
+                {
+                    "type": "Vindicator",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Geomancer",
+                    "weight": 0.2,
+                    "max%": 0.05
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.2,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== FJORD MIX EASY ==============",
+            "id": "fjord-mix-easy",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Rabbit",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "polarbear",
+                    "weight": 0.1,
+                    "max%": 0.05
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.15
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.15
+                },
+                {
+                    "type": "Geomancer",
+                    "weight": 0.1,
+                    "max%": 0.05
+                }
+            ],
+            "pick-types": [
+                4,
+                7
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== FJORD MIX HARD ==============",
+            "id": "fjord-mix-hard",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Geomancer",
+                    "weight": 0.1,
+                    "max%": 0.05
+                }
+            ],
+            "pick-types": [
+                4,
+                6
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== CAVE MIX EASY ==============",
+            "id": "cave-mix-easy",
+            "types": [
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "polarbear",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                4,
+                6
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== CAVE MIX MEDIUM ==============",
+            "id": "cave-mix-med",
+            "types": [
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.15
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 0.05
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.15,
+                    "max%": 0.4
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.15,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                5,
+                6
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== CAVE MIX HARD ==============",
+            "id": "cave-mix-hard",
+            "types": [
+                {
+                    "type": "Illusioner",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 0.1
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.1,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                5,
+                7
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== ARENA MIX ==============",
+            "id": "arena-mix",
+            "types": [
+                {
+                    "type": "Stray",
+                    "weight": 0.2
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.1,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.15
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.15
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.1,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                4,
+                6
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== FORTRESS GATE MIX ==============",
+            "id": "fortress-gate-mix",
+            "types": [
+                {
+                    "type": "Illusioner",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.3
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.3,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Stray",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "Wraith",
+                    "weight": 0.1,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                4,
+                5
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== CREEPER CHALLENGE MIX ==============",
+            "id": "creeper-mix",
+            "types": [
+                {
+                    "type": "icycreeper",
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== REDSTONE GOLEM CHALLENGE MIX ==============",
+            "id": "gol-mix",
+            "types": [
+                {
+                    "type": "redstonegolem",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== SKELETON HORSEMAN CHALLENGE MIX ==============",
+            "id": "horse-mix",
+            "types": [
+                {
+                    "type": "SkeletonHorseman",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== IRON MINE SPECIAL MIX ==============",
+            "id": "fjord-mine-mix-special",
+            "types": [
+                {
+                    "type": "Wraith",
+                    "weight": 1,
+                    "min": 5
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        },
+        {
+            "#": "============== IRON MINE SPECIAL MIX ==============",
+            "id": "fjord-mine-mix",
+            "types": [
+                {
+                    "type": "Vindicator",
+                    "weight": 0.4
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.3,
+                    "max%": 0.3
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.3,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "frozenfjord/ff_mobs.json"
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "frozenfjord_cave_01",
+            "ambience": "alpha",
+            "audio-ambience": "audio_8",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2,
+                        1,
+                        1,
+                        2,
+                        3,
+                        2,
+                        1,
+                        3
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        "ff_cave_01"
+                    ],
+                    "mobs": {
+                        "density": 1.6,
+                        "only": [
+                            "cave-mix-easy"
+                        ]
+                    },
+                    "dead-ends": [
+                        "ff_cave_deadend_01",
+                        "ff_cave_deadend_02",
+                        "ff_cave_deadend_03"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                1
+                            ],
+                            "dead-ends": [
+                                "ff_cave_deadend_01",
+                                "ff_cave_deadend_02",
+                                "ff_cave_deadend_03"
+                            ],
+                            "tile-groups": [
+                                "cave_sidepath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        "ff_cave_02"
+                    ],
+                    "mobs": {
+                        "density": 1.6,
+                        "only": [
+                            "cave-mix-med"
+                        ]
+                    },
+                    "dead-ends": [
+                        "ff_cave_deadend_01",
+                        "ff_cave_deadend_02",
+                        "ff_cave_deadend_03"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                1
+                            ],
+                            "dead-ends": [
+                                {
+                                    "id": "ff_cave_lock_entrance",
+                                    "weight": 0.5
+                                },
+                                {
+                                    "id": "ff_cave_lock_entrance_alt",
+                                    "weight": 0.5
+                                }
+                            ],
+                            "tile-groups": [
+                                "cave_sidepath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        "ff_cave_03"
+                    ],
+                    "mobs": {
+                        "density": 1.6,
+                        "only": [
+                            "cave-mix-hard"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "frozenfjord/frozenfjord_cave.json"
+        },
+        {
+            "id": "sub_frozen_ship",
+            "ambience": "alpha",
+            "audio-ambience": "audio_1",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ship_1"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mix-easy"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_frozen_ship/sub_frozen_ship.json"
+        },
+        {
+            "id": "sub_frozencave",
+            "ambience": "bravo",
+            "audio-ambience": "audio_2",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ice_1"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cave-mix-easy"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "ice_2"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cave-mix-easy"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "ice_3"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cave-mix-easy"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "ice_4"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cave-mix-med"
+                        ]
+                    },
+                    "dead-ends": [
+                        "ice_deadend",
+                        "ice_deadend_2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ice_end"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cave-mix-med"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_frozencave/sub_frozencave.json"
+        },
+        {
+            "id": "sub_riverlock",
+            "ambience": "default",
+            "audio-ambience": "audio_5",
+            "stretches": [
+                {
+                    "tiles": [
+                        "lock"
+                    ],
+                    "prop-groups": [
+                        "house"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mix-hard"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "lock_2"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mix-hard"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_riverlock/sub_riverlock.json"
+        },
+        {
+            "id": "sub_outpost",
+            "ambience": "default",
+            "audio-ambience": "audio_3",
+            "stretches": [
+                {
+                    "tiles": [
+                        "outpost_out"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mix-hard"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "outpost_rooms"
+                    ],
+                    "audio-ambience": "audio_7",
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mix-hard"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_outpost/sub_outpost.json"
+        },
+        {
+            "id": "sub_igloo",
+            "ambience": "echo",
+            "audio-ambience": "audio_6",
+            "stretches": [
+                {
+                    "tiles": [
+                        "igloo_1"
+                    ],
+                    "prop-groups": [
+                        "igloo"
+                    ],
+                    "prop-density": 2
+                }
+            ],
+            "##loc": "sub_igloo/sub_igloo.json"
+        },
+        {
+            "id": "sub_iron_mine",
+            "ambience": "delta",
+            "audio-ambience": "audio_4",
+            "stretches": [
+                {
+                    "tiles": [
+                        "iron_2"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mine-mix"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "iron_3"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mine-mix"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "iron_4"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mine-mix"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "iron_5"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mine-mix"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "iron_1"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "fjord-mine-mix"
+                        ]
+                    }
+                }
+            ],
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        }
+    ]
+}

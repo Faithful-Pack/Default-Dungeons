@@ -3,15 +3,15 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
 Expressions[46] =
 {
-    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Content/Materials/VoxelMatAlphaWithWind.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[13] = MaterialExpressionTextureSample'Content/Materials/VoxelMatAlphaWithWind.MaterialExpressionTextureSample_1'
-    Expressions[20] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatAlphaWithWind.MaterialExpressionScalarParameter_0'
-    Expressions[25] = MaterialExpressionScalarParameter'Content/Materials/VoxelMatAlphaWithWind.MaterialExpressionScalarParameter_1'
-    Expressions[30] = MaterialExpressionVectorParameter'Content/Materials/VoxelMatAlphaWithWind.MaterialExpressionVectorParameter_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatAlphaWithWind.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[13] = MaterialExpressionTextureSample'Materials/VoxelMatAlphaWithWind.MaterialExpressionTextureSample_1'
+    Expressions[20] = MaterialExpressionScalarParameter'Materials/VoxelMatAlphaWithWind.MaterialExpressionScalarParameter_0'
+    Expressions[25] = MaterialExpressionScalarParameter'Materials/VoxelMatAlphaWithWind.MaterialExpressionScalarParameter_1'
+    Expressions[30] = MaterialExpressionVectorParameter'Materials/VoxelMatAlphaWithWind.MaterialExpressionVectorParameter_0'
 }
 CachedExpressionData =
 {
@@ -37,7 +37,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Materials/tallgrass.tallgrass'
+        Texture = Texture2D'Materials/tallgrass.tallgrass'
         Name = T2DParam
         Group = None
     }

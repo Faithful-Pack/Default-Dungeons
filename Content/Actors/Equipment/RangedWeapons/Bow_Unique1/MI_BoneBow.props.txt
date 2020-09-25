@@ -18,12 +18,12 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Equipment/RangedWeapons/Bow_Unique1/T_BoneBow.T_BoneBow'
+        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/Bow_Unique1/T_BoneBow.T_BoneBow'
         ParameterInfo = { Name=Albedo }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

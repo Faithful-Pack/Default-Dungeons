@@ -3,11 +3,11 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/_LobbyHouse/T_Curtains.T_Curtains'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_LobbyHouse/T_Curtains.T_Curtains'
 }
 Expressions[2] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/_LobbyHouse/M_Curtains.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_LobbyHouse/M_Curtains.MaterialExpressionTextureSampleParameter2D_0'
 }
 CachedExpressionData =
 {
@@ -33,7 +33,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/_LobbyHouse/T_Curtains.T_Curtains'
+        Texture = Texture2D'Decor/Prefabs/_LobbyHouse/T_Curtains.T_Curtains'
         Name = Diffuse
         Group = None
     }

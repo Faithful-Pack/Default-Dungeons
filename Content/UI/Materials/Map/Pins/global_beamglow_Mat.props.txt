@@ -3,17 +3,17 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/UI/Materials/Map/Pins/drop_beam.drop_beam'
+    ReferencedTextures[0] = Texture2D'UI/Materials/Map/Pins/drop_beam.drop_beam'
 }
 Expressions[14] =
 {
-    Expressions[2] = MaterialExpressionTextureSample'Content/UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSample_2'
-    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Content/UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_3'
-    Expressions[4] = MaterialExpressionVectorParameter'Content/UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionVectorParameter_0'
-    Expressions[5] = MaterialExpressionVectorParameter'Content/UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionVectorParameter_1'
-    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Content/UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_4'
-    Expressions[10] = MaterialExpressionTextureSampleParameter2D'Content/UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[11] = MaterialExpressionScalarParameter'Content/UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[2] = MaterialExpressionTextureSample'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSample_2'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[4] = MaterialExpressionVectorParameter'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[5] = MaterialExpressionVectorParameter'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[10] = MaterialExpressionTextureSampleParameter2D'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[11] = MaterialExpressionScalarParameter'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {
@@ -39,19 +39,19 @@ CollectedTextureParameters[3] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/UI/Materials/Map/Pins/drop_beam.drop_beam'
+        Texture = Texture2D'UI/Materials/Map/Pins/drop_beam.drop_beam'
         Name = MainTex
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/data/resourcepacks/pumpkinpastures/images/blocks/custom_1.custom_1'
+        Texture = Texture2D'data/resourcepacks/pumpkinpastures/images/blocks/custom_1.custom_1'
         Name = Pattern
         Group = None
     }
     CollectedTextureParameters[2] =
     {
-        Texture = Texture2D'Content/data/resourcepacks/pumpkinpastures/images/blocks/custom_1.custom_1'
+        Texture = Texture2D'data/resourcepacks/pumpkinpastures/images/blocks/custom_1.custom_1'
         Name = Pattern_1
         Group = None
     }

@@ -3,25 +3,25 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
-    ReferencedTextures[1] = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
+    ReferencedTextures[0] = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
+    ReferencedTextures[1] = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
 }
 Expressions[20] =
 {
-    Expressions[1] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[2] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[3] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[5] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[7] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_2'
-    Expressions[9] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionTextureSampleParameter2D_3'
-    Expressions[11] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_3'
-    Expressions[12] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_4'
-    Expressions[13] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_5'
-    Expressions[14] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionVectorParameter_0'
-    Expressions[16] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_14'
-    Expressions[17] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_26'
-    Expressions[18] = MaterialExpressionStaticSwitchParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[19] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_0'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_2'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_Master_Prefab.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_3'
+    Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_4'
+    Expressions[13] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_5'
+    Expressions[14] = MaterialExpressionVectorParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionVectorParameter_0'
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[17] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_26'
+    Expressions[18] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[19] = MaterialExpressionScalarParameter'Decor/Prefabs/M_Master_Prefab.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {
@@ -47,13 +47,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
+        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
         Name = Albedo
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
+        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
         Name = Specular
         Group = None
     }

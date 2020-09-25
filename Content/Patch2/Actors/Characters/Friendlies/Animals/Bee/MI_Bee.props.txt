@@ -12,18 +12,18 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Characters/Friendlies/Animals/Bee/T_Bee_S.T_Bee_S'
+        ParameterValue = Texture2D'Patch2/Actors/Characters/Friendlies/Animals/Bee/T_Bee_S.T_Bee_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Characters/Friendlies/Animals/Bee/T_Bee.T_Bee'
+        ParameterValue = Texture2D'Patch2/Actors/Characters/Friendlies/Animals/Bee/T_Bee.T_Bee'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

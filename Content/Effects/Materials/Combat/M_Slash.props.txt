@@ -3,17 +3,17 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Ghost/T_GhostTile.T_GhostTile'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Ghost/T_GhostTile.T_GhostTile'
 }
 Expressions[20] =
 {
-    Expressions[8] = MaterialExpressionVectorParameter'Content/Effects/Materials/Combat/M_Slash.MaterialExpressionVectorParameter_0'
-    Expressions[9] = MaterialExpressionVectorParameter'Content/Effects/Materials/Combat/M_Slash.MaterialExpressionVectorParameter_1'
-    Expressions[10] = MaterialExpressionScalarParameter'Content/Effects/Materials/Combat/M_Slash.MaterialExpressionScalarParameter_0'
-    Expressions[11] = MaterialExpressionScalarParameter'Content/Effects/Materials/Combat/M_Slash.MaterialExpressionScalarParameter_1'
-    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Content/Effects/Materials/Combat/M_Slash.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[13] = MaterialExpressionStaticSwitchParameter'Content/Effects/Materials/Combat/M_Slash.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[14] = MaterialExpressionTextureSample'Content/Effects/Materials/Combat/M_Slash.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionVectorParameter'Effects/Materials/Combat/M_Slash.MaterialExpressionVectorParameter_0'
+    Expressions[9] = MaterialExpressionVectorParameter'Effects/Materials/Combat/M_Slash.MaterialExpressionVectorParameter_1'
+    Expressions[10] = MaterialExpressionScalarParameter'Effects/Materials/Combat/M_Slash.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Effects/Materials/Combat/M_Slash.MaterialExpressionScalarParameter_1'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Combat/M_Slash.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[13] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Combat/M_Slash.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[14] = MaterialExpressionTextureSample'Effects/Materials/Combat/M_Slash.MaterialExpressionTextureSample_0'
 }
 CachedExpressionData =
 {
@@ -39,7 +39,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Effects/Materials/Combat/T_Slash_Grayscale.T_Slash_Grayscale'
+        Texture = Texture2D'Effects/Materials/Combat/T_Slash_Grayscale.T_Slash_Grayscale'
         Name = Texture
         Group = None
     }

@@ -1,21 +1,18 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
-{
-    ReferencedTextures[0] = Texture2D'Content/Materials/T_WaterTile.T_WaterTile'
-}
+ReferencedTextures[1] = { Texture2D'Materials/T_WaterTile.T_WaterTile' }
 Expressions[34] =
 {
-    Expressions[3] = MaterialExpressionTextureSample'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionTextureSample_2'
-    Expressions[17] = MaterialExpressionVectorParameter'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionVectorParameter_1'
-    Expressions[19] = MaterialExpressionScalarParameter'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_2'
-    Expressions[20] = MaterialExpressionScalarParameter'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_0'
-    Expressions[21] = MaterialExpressionScalarParameter'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_1'
-    Expressions[22] = MaterialExpressionScalarParameter'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_3'
-    Expressions[24] = MaterialExpressionScalarParameter'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_4'
-    Expressions[26] = MaterialExpressionTextureSample'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionTextureSample_1'
-    Expressions[33] = MaterialExpressionScalarParameter'Content/Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_5'
+    Expressions[3] = MaterialExpressionTextureSample'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionTextureSample_2'
+    Expressions[17] = MaterialExpressionVectorParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionVectorParameter_1'
+    Expressions[19] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_2'
+    Expressions[20] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_0'
+    Expressions[21] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_1'
+    Expressions[22] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_3'
+    Expressions[24] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_4'
+    Expressions[26] = MaterialExpressionTextureSample'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionTextureSample_1'
+    Expressions[33] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_5'
 }
 CachedExpressionData =
 {

@@ -3,16 +3,16 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
 }
 Expressions[20] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[3] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_1'
-    Expressions[5] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_2'
-    Expressions[6] = MaterialExpressionTextureSample'Content/Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionTextureSample_1'
-    Expressions[11] = MaterialExpressionVectorParameter'Content/Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionVectorParameter_3'
-    Expressions[17] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_6'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[3] = MaterialExpressionScalarParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_1'
+    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_2'
+    Expressions[6] = MaterialExpressionTextureSample'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionVectorParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionVectorParameter_3'
+    Expressions[17] = MaterialExpressionScalarParameter'Decor/Prefabs/MapTable/New/M_DissolvableMat.MaterialExpressionScalarParameter_6'
 }
 CachedExpressionData =
 {
@@ -38,7 +38,7 @@ CollectedTextureParameters[1] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
+        Texture = Texture2D'Decor/Prefabs/MapTable/New/T_MapTable_Map.T_MapTable_Map'
         Name = Diffuse
         Group = None
     }

@@ -3,14 +3,14 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/_LightningFixtures/T_Torch.T_Torch'
-    ReferencedTextures[1] = Texture2D'Content/Decor/Prefabs/_LightningFixtures/T_Torch_E.T_Torch_E'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_LightningFixtures/T_Torch.T_Torch'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/_LightningFixtures/T_Torch_E.T_Torch_E'
 }
 Expressions[5] =
 {
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/_LightningFixtures/M_SimpleEmissive.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/_LightningFixtures/M_SimpleEmissive.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[3] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/_LightningFixtures/M_SimpleEmissive.MaterialExpressionScalarParameter_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_LightningFixtures/M_SimpleEmissive.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_LightningFixtures/M_SimpleEmissive.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[3] = MaterialExpressionScalarParameter'Decor/Prefabs/_LightningFixtures/M_SimpleEmissive.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {
@@ -36,13 +36,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/_LightningFixtures/T_Torch.T_Torch'
+        Texture = Texture2D'Decor/Prefabs/_LightningFixtures/T_Torch.T_Torch'
         Name = Texture
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/_LightningFixtures/T_Torch_E.T_Torch_E'
+        Texture = Texture2D'Decor/Prefabs/_LightningFixtures/T_Torch_E.T_Torch_E'
         Name = Emissive
         Group = None
     }

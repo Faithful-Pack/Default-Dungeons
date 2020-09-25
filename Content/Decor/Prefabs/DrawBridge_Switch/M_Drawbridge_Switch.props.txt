@@ -42,19 +42,19 @@ TextureParameterValues[3] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/DrawBridge_Switch/T_DrawBridge_Switch.T_Drawbridge_Switch'
+        ParameterValue = Texture2D'Decor/Prefabs/DrawBridge_Switch/T_DrawBridge_Switch.T_Drawbridge_Switch'
         ParameterInfo = { Name=01 Base Texture }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/DrawBridge_Switch/T_DrawBridge_Switch_S.T_DrawBridge_Switch_S'
+        ParameterValue = Texture2D'Decor/Prefabs/DrawBridge_Switch/T_DrawBridge_Switch_S.T_DrawBridge_Switch_S'
         ParameterInfo = { Name=03 Specular Alpha }
     }
     TextureParameterValues[2] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Decor/Prefabs/DrawBridge_Switch/T_Drawbridge_Switch_e.T_Drawbridge_Switch_e'
+        ParameterValue = Texture2D'Decor/Prefabs/DrawBridge_Switch/T_Drawbridge_Switch_e.T_Drawbridge_Switch_e'
         ParameterInfo = { Name=03 Emissive }
     }
 }
@@ -67,7 +67,7 @@ VectorParameterValues[1] =
         ParameterInfo = { Name=04 Color Multiply }
     }
 }
-Parent = MaterialInstanceConstant'Content/Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_Pulley_PF.M_Pulley_PF'
+Parent = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_Pulley_PF.M_Pulley_PF'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

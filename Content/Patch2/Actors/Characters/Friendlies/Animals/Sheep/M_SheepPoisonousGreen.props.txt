@@ -24,13 +24,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Actors/Characters/Friendlies/Animals/Sheep/T_Sheep_S.T_Sheep_S'
+        ParameterValue = Texture2D'Actors/Characters/Friendlies/Animals/Sheep/T_Sheep_S.T_Sheep_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Characters/Friendlies/Animals/Sheep/T_Sheep_Green.T_Sheep_Green'
+        ParameterValue = Texture2D'Patch2/Actors/Characters/Friendlies/Animals/Sheep/T_Sheep_Green.T_Sheep_Green'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -49,7 +49,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EmissiveBColor }
     }
 }
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

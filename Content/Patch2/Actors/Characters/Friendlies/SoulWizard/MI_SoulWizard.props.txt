@@ -60,13 +60,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Characters/Friendlies/SoulWizard/T_SoulWizard_S.T_SoulWizard_S'
+        ParameterValue = Texture2D'Patch2/Actors/Characters/Friendlies/SoulWizard/T_SoulWizard_S.T_SoulWizard_S'
         ParameterInfo = { Name=Specular }
     }
     TextureParameterValues[1] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Content/Patch2/Actors/Characters/Friendlies/SoulWizard/T_SoulWizard.T_SoulWizard'
+        ParameterValue = Texture2D'Patch2/Actors/Characters/Friendlies/SoulWizard/T_SoulWizard.T_SoulWizard'
         ParameterInfo = { Name=Texture }
     }
 }
@@ -85,7 +85,7 @@ VectorParameterValues[2] =
         ParameterInfo = { Name=EmissiveBColor }
     }
 }
-Parent = Material3'Content/Models/Master_ModelMaterial.Master_ModelMaterial'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

@@ -1,10 +1,7 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
-{
-    ReferencedTextures[0] = Texture2D'Content/Materials/T_WaterTile.T_WaterTile'
-}
+ReferencedTextures[1] = { Texture2D'Materials/T_WaterTile.T_WaterTile' }
 Expressions[70] =
 {
     Expressions[4] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade.MaterialExpressionStaticSwitchParameter_3'

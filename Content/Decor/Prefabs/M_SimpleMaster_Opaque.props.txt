@@ -3,13 +3,13 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Decor/Prefabs/Lumbermill/New/T_SawMill.T_SawMill'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Lumbermill/New/T_SawMill.T_SawMill'
 }
 Expressions[5] =
 {
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Content/Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionTextureSampleParameter2D_3'
-    Expressions[3] = MaterialExpressionScalarParameter'Content/Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionScalarParameter_18'
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[3] = MaterialExpressionScalarParameter'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionScalarParameter_18'
 }
 CachedExpressionData =
 {
@@ -35,7 +35,7 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Decor/Prefabs/Lumbermill/New/T_SawMill.T_SawMill'
+        Texture = Texture2D'Decor/Prefabs/Lumbermill/New/T_SawMill.T_SawMill'
         Name = BaseColor
         Group = None
     }
