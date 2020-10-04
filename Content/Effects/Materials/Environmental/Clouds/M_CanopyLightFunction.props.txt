@@ -1,0 +1,84 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+}
+Expressions[35] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionTextureSample_5'
+    Expressions[4] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionTextureSample_7'
+    Expressions[7] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionScalarParameter_9'
+    Expressions[14] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionScalarParameter_11'
+    Expressions[17] = MaterialExpressionVectorParameter'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionVectorParameter_0'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[19] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[20] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[22] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionScalarParameter_15'
+    Expressions[31] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.MaterialExpressionScalarParameter_16'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+        Name = Param
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+        Name = Param
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+        Name = Param
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=HoleSize, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=LeafMin, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=CloudSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=CloudContrast, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightMin
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
