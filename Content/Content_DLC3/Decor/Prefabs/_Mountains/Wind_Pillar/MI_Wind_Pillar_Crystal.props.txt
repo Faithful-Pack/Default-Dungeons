@@ -1,0 +1,68 @@
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 6.09659
+        ParameterInfo = { Name=01 Emissive Strength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 6
+        ParameterInfo = { Name=06 Speed }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pillar/T_Wind_Pillar.T_Wind_Pillar'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pillar/T_Wind_Pillar_E.T_Wind_Pillar_E'
+        ParameterInfo = { Name=03 Emissive }
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0, G=1, B=0.603882, A=0 }
+        ParameterInfo = { Name=04 Color Multiply }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.104167, G=0.104167, B=0.104167, A=0 }
+        ParameterInfo = { Name=EmissiveMin }
+    }
+}
+Parent = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/MinePlanks/M_MinePlanks_PF.M_MinePlanks_PF'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

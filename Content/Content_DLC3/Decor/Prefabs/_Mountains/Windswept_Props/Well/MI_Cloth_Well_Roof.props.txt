@@ -1,0 +1,80 @@
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0.466667
+        ParameterInfo = { Name=Pattern_Fade }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=Pattern_Tile }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 20
+        ParameterInfo = { Name=Displace Wind Strength }
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterName = None
+        ParameterValue = 0.25
+        ParameterInfo = { Name=Large Ripple Speed }
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=Rip_Amount }
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/T_Cloth_Roof.T_Cloth_Roof'
+        ParameterInfo = { Name=Diffuse }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Cloth_Pattern_004.Cloth_Pattern_004'
+        ParameterInfo = { Name=Pattern }
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.875, G=0.454169, B=0.054688, A=0 }
+        ParameterInfo = { Name=Diffuse Colour }
+    }
+}
+Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.M_Cloth_A'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

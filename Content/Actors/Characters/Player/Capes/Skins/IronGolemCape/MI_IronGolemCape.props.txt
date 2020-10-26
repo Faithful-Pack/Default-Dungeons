@@ -1,6 +1,12 @@
-ScalarParameterValues[1] =
+ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 1
+        ParameterInfo = { Name=EmissiveBPower }
+    }
+    ScalarParameterValues[1] =
     {
         ParameterName = None
         ParameterValue = 0
@@ -22,7 +28,15 @@ TextureParameterValues[2] =
         ParameterInfo = { Name=Texture }
     }
 }
-VectorParameterValues[0] = {}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=12, G=0.360232, B=0, A=1 }
+        ParameterInfo = { Name=EmissiveBColor }
+    }
+}
 Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {

@@ -38,6 +38,9 @@ actorsFiles = GetFileList(actorsPath)
 componentsPath  = 'Content\\Components\\'
 componentsFiles = GetFileList(componentsPath)
 
+content_dlc3Path  = 'Content\\Content_DLC3\\'
+content_dlc3Files = GetFileList(content_dlc3Path)
+
 cuesPath  = 'Content\\Cues\\'
 cuesFiles = GetFileList(cuesPath)
 
@@ -49,9 +52,6 @@ effectsFiles = GetFileList(effectsPath)
 
 materialsPath  = 'Content\\Materials\\'
 materialsFiles = GetFileList(materialsPath)
-
-meshesPath  = 'Content\\Meshes\\'
-meshesFiles = GetFileList(meshesPath)
 
 modelsPath  = 'Content\\Models\\'
 modelsFiles = GetFileList(modelsPath)
@@ -78,11 +78,11 @@ contentFilesFiltered = [ contentFile for contentFile in contentFiles if contentF
 
 actorsFilesFiltered = [ actorsFile for actorsFile in actorsFiles if actorsFile.endswith(".png") ] + [ actorsFile for actorsFile in actorsFiles if actorsFile.endswith(".tga") ]
 componentsFilesFiltered = [ componentsFile for componentsFile in componentsFiles if componentsFile.endswith(".png") ] + [ componentsFile for componentsFile in componentsFiles if componentsFile.endswith(".tga") ]
+content_dlc3FilesFiltered = [ content_dlc3File for content_dlc3File in content_dlc3Files if content_dlc3File.endswith(".png") ] + [ content_dlc3File for content_dlc3File in content_dlc3Files if content_dlc3File.endswith(".tga") ]
 cuesFilesFiltered = [ cuesFile for cuesFile in cuesFiles if cuesFile.endswith(".png") ] + [ cuesFile for cuesFile in cuesFiles if cuesFile.endswith(".tga") ]
 decorFilesFiltered = [ decorFile for decorFile in decorFiles if decorFile.endswith(".png") ] + [ decorFile for decorFile in decorFiles if decorFile.endswith(".tga") ]
 effectsFilesFiltered = [ effectsFile for effectsFile in effectsFiles if effectsFile.endswith(".png") ] + [ effectsFile for effectsFile in effectsFiles if effectsFile.endswith(".tga") ]
 materialsFilesFiltered = [ materialsFile for materialsFile in materialsFiles if materialsFile.endswith(".png") ] + [ materialsFile for materialsFile in materialsFiles if materialsFile.endswith(".tga") ]
-meshesFilesFiltered = [ meshesFile for meshesFile in meshesFiles if meshesFile.endswith(".png") ] + [ meshesFile for meshesFile in meshesFiles if meshesFile.endswith(".tga") ]
 modelsFilesFiltered = [ modelsFile for modelsFile in modelsFiles if modelsFile.endswith(".png") ] + [ modelsFile for modelsFile in modelsFiles if modelsFile.endswith(".tga") ]
 patch1FilesFiltered = [ patch1File for patch1File in patch1Files if patch1File.endswith(".png") ] + [ patch1File for patch1File in patch1Files if patch1File.endswith(".tga") ]
 patch2FilesFiltered = [ patch2File for patch2File in patch2Files if patch2File.endswith(".png") ] + [ patch2File for patch2File in patch2Files if patch2File.endswith(".tga") ]
@@ -98,11 +98,11 @@ contentData    = []
 
 actorsData     = []
 componentsData = []
+content_dlc3Data = []
 cuesData       = []
 decorData      = []
 effectsData    = []
 materialsData  = []
-meshesData     = []
 modelsData     = []
 patch1Data     = []
 patch2Data     = []
@@ -128,6 +128,13 @@ for componentsFile in componentsFilesFiltered:
 	componentsData.append(componentsFile)
 with open('json\\Components.json', 'w') as componentsJSON:
 	json.dump(componentsData, componentsJSON, indent=4)
+
+for content_dlc3File in content_dlc3FilesFiltered:
+	print("\x1b[1m \x1b[32m Found : \x1b[0m",content_dlc3File)
+	count += 1
+	content_dlc3Data.append(content_dlc3File)
+with open('json\\Content_DLC3.json', 'w') as content_dlc3JSON:
+	json.dump(content_dlc3Data, content_dlc3JSON, indent=4)
 
 for cuesFile in cuesFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",cuesFile)
@@ -156,13 +163,6 @@ for materialsFile in materialsFilesFiltered:
 	materialsData.append(materialsFile)
 with open('json\\Materials.json', 'w') as materialsJSON:
 	json.dump(materialsData, materialsJSON, indent=4)
-
-for meshesFile in meshesFilesFiltered:
-	print("\x1b[1m \x1b[32m Found : \x1b[0m",meshesFile)
-	count += 1
-	meshesData.append(meshesFile)
-with open('json\\Meshes.json', 'w') as meshesJSON:
-	json.dump(meshesData, meshesJSON, indent=4)
 
 for modelsFile in modelsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",modelsFile)

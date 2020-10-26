@@ -1,0 +1,54 @@
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 400
+        ParameterInfo = { Name=Cutoff }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 12309.1
+        ParameterInfo = { Name=FadeDistance }
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=2.1109, G=20, B=10.962, A=1 }
+        ParameterInfo = { Name=Color1 }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.048172, G=0.456411, B=0.250158, A=1 }
+        ParameterInfo = { Name=Color2 }
+    }
+}
+Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/LLinks03/M_MeshDepthBlend_GS_e.M_MeshDepthBlend_GS_e'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
