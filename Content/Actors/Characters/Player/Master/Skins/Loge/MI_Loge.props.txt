@@ -7,25 +7,31 @@ ScalarParameterValues[1] =
         ParameterInfo = { Name=RefractionDepthBias }
     }
 }
-TextureParameterValues[1] =
+TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
         ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Llama/T_Llama_skin.T_Llama_skin'
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Loge/T_Loge_S.T_Loge_S'
+        ParameterInfo = { Name=Specular }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Loge/T_Loge_Skin.T_Loge_Skin'
         ParameterInfo = { Name=Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Characters/Player/Master/M_PlayerPortrait.M_PlayerPortrait'
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
-    BlendMode = BLEND_Translucent (2)
+    BlendMode = BLEND_Masked (1)
     bOverride_TwoSided = false
-    TwoSided = false
+    TwoSided = true
     bOverride_OpacityMaskClipValue = false
-    OpacityMaskClipValue = 0.3333
+    OpacityMaskClipValue = 0.1
 }
 FlattenedTexture = None
 MobileBaseTexture = None
