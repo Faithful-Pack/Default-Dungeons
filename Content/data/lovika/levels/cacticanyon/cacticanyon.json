@@ -1,0 +1,401 @@
+
+{
+    "id": "CactiCanyon",
+    "object-groups": [
+		"cacticanyon/objectgroup"
+    ],
+	
+	    "resource-packs": [
+        "CactiCanyon"
+    ],
+	
+	"visual-theme": "cave",
+	"sound-theme": "cave",
+	"prop-density": 0.8,
+    "mob-files": [
+		"cacticanyon/cc_mobs.json"
+    ],
+		
+	"#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+        	{"id": "canyon-mix", "weight": 1}
+        ],
+        "density": 0.8
+    },
+	
+    "tile-files": [
+		"cacticanyon/cc_tiles.json",
+        "RuneRoom/rr_tiles.json"
+	],
+
+    "stretches": [
+	
+		{
+            "id": "start",
+            "tile-groups": ["start"],
+			"audio-ambience":"audio_3",
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "sound-theme": "silent",
+            "visual-theme": "cave_green"
+        },
+        {
+            "id": "upperpath_flat_stretch_1",
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "tile-groups": ["upperpath_small"],
+            "prop-groups": ["height"],
+            "length": 3
+        },
+        {
+            "id": "upperpath_vista_stretch_1",
+            "tile-groups": ["upperpath_vista"],
+			"audio-ambience":"audio_3",
+            "prop-groups": ["height"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 2
+        },   
+        /*{
+            "id": "upperpath_flat_stretch_2",
+            "tile-groups": ["upperpath_flat"],
+            "prop-groups": ["height"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1,
+            "side-paths": {
+                "probability": 0.6,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["cc_upper_sidepath_deadend001","cc_upper_sidepath_deadend002"],
+                    "tile-groups": ["upperpath_small"]
+                }
+            }
+        },*/
+        {
+            "id": "upperpath_vista_stretch_2",
+            "tile-groups": ["upperpath_vista"],
+            "prop-groups": ["height"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1,
+            "side-paths": {
+                "probability": 0.3,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["cc_upper_sidepath_deadend001","cc_upper_sidepath_deadend002"],
+                    "tile-groups": ["upperpath_small"]
+                }
+            }
+        },
+        {
+            "id": "upper_arena",
+            "tiles": ["cc_upper_arena"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+			"mobs": {
+                "density": 1.8,
+				"only": ["canyon-arena-mix"]
+			},
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["cc_upper_sidepath_deadend001","cc_upper_sidepath_deadend002"],
+                    "tile-groups": ["upperpath_small"]
+                }
+            }
+        },  
+        {
+            "id": "upper_inventory_1",
+            "tile-groups": ["upper_inventory"],
+            "prop-groups": ["height"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1,
+            "visual-theme": "cave_green"
+        },  
+        {
+            "id": "upper_traverse",
+            "tile-groups": ["upper_traverse"],
+			"audio-ambience":"audio_3",
+            "prop-groups": ["height"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1
+        },      
+        /*{
+            "id": "upperpath_flat_stretch_3",
+            "tile-groups": ["upperpath_flat"],
+            "prop-groups": ["height"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1
+        },    
+        {
+            "id": "UtoMtrans_stretch",
+            "tile-groups": ["UtoMtrans"],
+			"audio-ambience":"audio_3",
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1
+        },
+        {
+            "id": "Mid",
+            "tile-groups": ["midpath"],
+			"audio-ambience":"audio_3",
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1
+        },*/
+        {
+            "id": "MtoLtrans_stretch",
+            "tile-groups": ["MtoLtrans"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1,
+            
+            "mobs": {
+                "density": 0.7,
+                "only": ["desert-mix"]
+            }
+        },
+        /*{
+            "id": "Lower",
+            "tile-groups": ["lowerpath"],
+            "prop-groups": ["height_block"],
+            "dead-ends": ["cc_upper_deadend002", "cc_upper_deadend003", "cc_upper_deadend004"],
+            "length": 1,          
+            "mobs": {
+                "density": 0.5,
+                "only": ["desert-mix"]
+            }
+        },*/
+        {
+            "id": "CtoStrans_stretch",
+            "tile-groups": ["CtoStrans"],
+			"audio-ambience":"audio_5",
+            "dead-ends": ["cc_desert_deadend"],
+            "length": 1,
+            
+            "mobs": {
+                "density": 0.8,
+                "only": ["desert-mix"]
+            }
+        },
+        {
+            "id": "oasis_stretch",
+            "tile-groups": ["oasis"],
+			"audio-ambience":"audio_2",
+            "prop-groups": ["desert_oasis"],
+            "length": 1,
+            "dead-ends": ["cc_desert_deadend"],
+            
+            "mobs": {
+                "density": 0.5,
+                "only": ["desert-mix"]
+            }
+        },
+        {
+            "id": "desert_inventory",
+            "tile-groups": ["desert_inventory"],
+			"audio-ambience":"audio_2",
+            "dead-ends": ["cc_desert_deadend"]
+        },
+        {
+            "id": "templegate",
+            "tile-groups": ["templegate"],
+			"audio-ambience":"audio_2",
+            "sound-theme": "silent",
+            "dead-ends": ["cc_desert_deadend"],
+            
+            "mobs": {
+                "density": 1,
+                "only": ["desert-mix"]
+            }
+        },
+        {
+            "id": "desert_stretch",
+            "tile-groups": ["desert"],
+			"audio-ambience":"audio_2",
+            "prop-groups": ["desert"],
+            "length": 1,
+            "dead-ends": ["cc_desert_deadend"],
+            "mobs": {
+                "density": 1,
+                "only": ["desert-mix"]
+            },
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1, 2],
+                    "dead-ends": ["cc_desert_sidepath_deadend001","cc_desert_sidepath_deadend002","cc_desert_sidepath_deadend003"],
+                    "tile-groups": ["desertsidepath"]
+                }
+            }
+        },
+        {
+            "id": "end",
+            "tile-groups": ["end"],
+			"audio-ambience":"audio_2",
+            "sound-theme": "silent",
+            "dead-ends": ["cc_desert_deadend"],
+            
+            "mobs": {
+                "density": 0.7,
+                "only": ["desert-mix"]
+            }
+        }
+    ],
+    
+	
+    "objectives": [ 
+       {
+            "name": "name_roads_go_ever_on",
+            "description": "description_activate_the_guiding_beacon",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_Platform",
+                "count": 1,
+                "locations": [
+                    "start.*.click1"
+                ],
+                "locked-doors": [
+                    "start.*.gate"
+                ]
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_find_the_desert_temple",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "upper_traverse.*.objective"
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_activate_the_guiding_beacons",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_Platform",
+                /*"mobs": [
+                    1,
+                    "canyon-mix"
+                ],
+                "mob-stretch": "*.*.*",*/
+                "count": 5,
+                "locations": [
+                    "upper_traverse.*.click1",
+                    "upper_traverse.*.click2",
+                    "upper_traverse.*.click3",
+                    "upper_traverse.*.click4",
+                    "upper_traverse.*.click5"
+                ],
+                "locked-doors": [
+                    "upper_traverse.*.gate"
+                ]
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_find_the_desert_temple",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "templegate.*.arenastart"
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_survive_the_ambush!",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "templegate",
+                "interval": 20,
+                "rest-interval": 4,
+                "waves": [
+                    [10, "desert-mix"],
+                ]
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_find_the_gold_key",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_CactiCanyon",
+                "count": 1,
+                "locations": [
+                    "templegate.*.silvergate"
+                ],
+                "key-locations": [
+                    "templegate.*.silverkey"
+                ],
+                "key-type": "silver",
+                "mobs": [10, "desert-mix"],
+                "mob-stretch": "templegate"
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_find_the_golden_key!",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_Platform",
+                "count": 2,
+                "locations": [
+                    "templegate.*.click1",
+                    "templegate.*.click2"
+                ],
+                "locked-doors": [
+                    "templegate.*.clickygate"
+                ]
+            }
+        },
+        {
+            "name": "name_road_go_ever_on",
+            "description": "description_open_the_gold_gate",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_CactiCanyon",
+                "count": 1,
+                "locations": [
+                    "templegate.*.goldengate"
+                ],
+                "key-locations": [
+                    "templegate.*.goldenkey"
+                ],
+                "key-type": "gold",
+                "mobs": [10, "desert-mix"],
+                "mob-stretch": "templegate"
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_find_the_desert_temple",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "end.*.arenaentrance"
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_survive_the_ambush!",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "end",
+                "interval": 20,
+                "rest-interval": 2,
+                "waves": [
+                    [10, "desert-mix"],
+                    [12, "desert-mix"],
+                    [15, "desert-mix"],
+                    [15, "desert-mix"]
+                ]
+            }
+        },
+        {
+            "name": "name_roads_go_ever_on",
+            "description": "description_enter_the_desert_temple",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_CC",
+                "count": 1,
+                "locations": [
+                    "end.*.doorexit"
+                ]
+            }
+        }
+	]
+}

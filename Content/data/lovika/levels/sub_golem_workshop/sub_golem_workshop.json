@@ -1,0 +1,34 @@
+{
+    "id": "sub_golem_workshop",
+    "audio-ambience": "audio_3",
+    "ambience":"bravo",	
+    "fill": "only-doors",
+
+    "stretches": [
+
+        {
+            "tiles": ["gs_sub_golems_entrance"],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-medium"
+                ]
+            }
+        },
+
+        {
+            "tiles": ["gs_sub_golems_workshop"],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-medium"
+                ]
+            }
+        }
+    ]
+
+
+    
+
+  
+}

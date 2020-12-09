@@ -1,0 +1,233 @@
+{
+    "object-groups": [
+        "squidcoast/objectgroup"
+    ],
+    "tiles": [
+            {
+                "id": "scn_prestart",
+                "rotations": 0
+            },
+            {
+                "id": "scn_start001",
+                "entry-door":"enter",
+                "rotations": 0
+            },
+            {
+                "id": "scn_tile001",
+                "entry-door": "enter"
+            },
+            {
+                "id": "secret@scn_tile002",
+                "entry-door": "enter",
+                "challenges":["kg_zombies003","kg_zombies004","kg_skeleton"],
+				"teleports": [
+				{
+					"door": "runedoor",
+					"dungeons":["lighthouse"],
+					"object": "Decor/Prefabs/DoorTravel/BP_Door1x2"
+				}
+			],
+                "unlock-keys": ["RuneGateDiscovered"]
+            },
+            {
+                "id": "scn_tile002",
+                "entry-door": "enter",
+                "challenges":["kg_zombies003","kg_zombies004","kg_skeleton"],
+                "unlock-keys": ["not RuneGateDiscovered"]
+            },
+            {
+                "id": "scn_tile003",
+                "entry-door": "enter"
+            },
+            {
+                "id": "scn_tile004",
+                "entry-door": "enter"
+            },
+            {
+                "id": "scn_tile005",
+                "entry-door": "enter"
+            },
+            {
+                "id": "scn_lever01",
+                //"challenges":["lever"],
+                "entry-door": "enter"
+            },
+            {
+                "id": "lighthouse_indoor",
+                "rotations": 0,
+                "teleports": [
+                    {
+                        "door": "travel",
+                        "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3",
+                    }
+                ]
+            },
+        /*
+        {
+            "id": "crypt_tomboftheone",
+            "rotations": [0,270],
+            "entry-door": "enter",
+            "challenges": ["trigger_arena","magicbook_arena"]
+        }*/
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+       {
+            "id": "scn_tile002",
+            "tiles": ["scn_tile002","secret@scn_tile002"]
+        },
+
+    ],
+/*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+
+*/
+ "challenges": [
+    {
+        "id": "kg_zombies001",
+        "trigger": "*.*.kg_challenge001",
+        "killgroup": {
+                "mobs": [1, "single-zombie"],
+                "reward": [1, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_spawn002"
+                ],
+                "gate": {
+                    "regions": ["*.*.kg_gate002"],
+                    "object" : "Decor/Prefabs/Door/BP_BarricadeDoor_Flipped",
+                }
+        }
+    },
+    {
+        "id": "kg_zombies002",
+        "trigger": "*.*.kg_challenge002",
+        "killgroup": {
+                "mobs": [3, "single-zombie"],
+                "reward": [2, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_spawn003"
+                ],
+                "gate": {
+                    "regions": ["*.*.kg_gate003"],
+                    "object" : "Decor/Prefabs/Door/BP_BarricadeDoor_Flipped",
+                }
+        }
+    },
+    {
+        "id": "kg_zombies003",
+        "trigger": "*.*.kg_challenge003",
+        "killgroup": {
+                "mobs": [3, "skeletons-zombies"],
+                "reward": [2, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_spawn004"
+                ],
+                "gate": null,
+        }
+    },
+    {
+        "id": "kg_zombies004",
+        "trigger": "*.*.kg_challenge004",
+        "killgroup": {
+                "mobs": [4, "skeletons-zombies"],
+                "reward": [3, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_spawn005"
+                ],
+                "gate": null,
+        }
+    },
+    {
+        "id": "kg_skeleton",
+        "trigger": "*.*.kg_skeleton_trigger02",
+        "killgroup": {
+                "mobs": [1, "single-skeleton"],
+                "reward": [1, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_skeleton_spawn02"
+                ],
+                "gate": null,
+        }
+    },
+    {
+            "id": "lever",
+            "trigger": "*.*.lever_challenge",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_DoorLever",
+                //"door-path": "Decor/Prefabs/Platforms/BP_MultiGate_DT",
+                "count": 1,
+                "locations": [
+                    "*.*.lever"
+                ],
+                "locked-doors": [
+                    "*.*.lever_gate"/*,
+                    "objective.*.challengegate2"*/
+                ]
+            }
+        },
+    /*
+        {
+            "id": "crypt_clicky_arena",
+            "trigger-object": "Decor/Prefabs/ArenaEye/BP_ArenaEye_Clicky001",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object" : "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [2, "miniarena-singles"],
+                    [2, "miniarena-singles"]
+                ],
+                 "gate": {
+                    "object" : "Decor/Prefabs/Door/BP_StoneDoor",
+                    "start-unlocked": false
+                }
+                //"gate": null
+            }
+        },
+      */  
+    ],
+ "dungeons": [
+        {
+            "id": "lighthouse",
+            "ambience": "bravo",
+			"audio-ambience":"audio_4",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "lighthouse_indoor"
+                    ],
+                }
+            ],
+        }
+    ]
+}

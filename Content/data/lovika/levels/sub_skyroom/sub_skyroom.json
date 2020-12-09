@@ -1,0 +1,31 @@
+{
+    "id": "sub_skyroom",
+    "audio-ambience": "audio_8",  
+    "fill": "only-doors",    
+   
+
+    "stretches": [
+
+        {
+            "tiles": ["gs_sub_thesky_main"]/*,
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1,2],
+                    "dead-ends": ["gs_sub_thesky_sideroom_02"],
+                    "tile-groups":[ "gssr_sidepath"]
+                    }
+                }*/
+        }/*,
+
+        {
+            "tiles": ["gs_sub_thesky_sideroom_01"]
+        }*/
+    ]
+
+    
+
+   
+
+    
+}

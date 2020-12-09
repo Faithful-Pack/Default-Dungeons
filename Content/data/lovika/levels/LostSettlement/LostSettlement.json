@@ -1,0 +1,798 @@
+{
+	"id" : "LostSettlement",
+	"require-matching-doors": true,
+	"resource-packs": ["LostSettlement"],
+	"object-groups": ["LostSettlement/objectgroup"],
+	"loctable-id": "LostSettlementLoctable",
+
+	"dungeon-files": [
+		"sub_shrine/sub_shrine.json",
+		"sub_icecabin/sub_icecabin.json",
+		"sub_gloomycave/sub_gloomycave.json",
+		"sub_lightcave/sub_lightcave.json",
+		"sub_lookout/sub_lookout.json",
+		"sub_shelter/sub_shelter.json"
+	],
+
+	"tile-files": [
+		"sub_shrine/sub_shrine_tiles.json",
+		"sub_icecabin/sub_icecabin_tiles.json",
+		"sub_gloomycave/sub_gloomycave_tiles.json",
+		"sub_lightcave/sub_lightcave_tiles.json",
+		"sub_lookout/sub_lookout_tiles.json",
+		"sub_shelter/sub_shelter_tiles.json"
+	],
+
+	"mob-files": ["LostSettlement/ls_mobs.json"],
+
+	"default-mobs": {
+		"only": ["settlement-mix-easy"],
+		"density": 1.0
+	},
+
+	"tiles": [
+		{
+			"id": "ls_start"
+		},
+		{
+			"id": "ls_ice_spikes_01"
+		},
+		{
+			"id": "ls_ice_spikes_02"
+		},
+		{
+			"id": "ls_ice_spikes_03",
+			"rotations": [180,270],
+			"entry-door": "enter_003"
+		},
+		{
+			"id": "ls_ice_spikes_04",
+			"rotations": [180,270],
+			"entry-door": "enter_004"
+		},
+		{
+			"id": "ls_ice_spikes_05",
+			"exit-door": "exit_006"
+		},
+		{
+			"id": "ls_ice_wall_01",
+			"rotations": [180,270],
+			"entry-door": "enter_006"
+		},
+		{
+			"id": "ls_ice_wall_01_alt",
+			"rotations": [180,270],
+			"entry-door": "enter_006_2",
+			"teleports" : [
+				{
+					"door":"travel_shelter",
+					"exit":"shelter_door",
+					"dungeons":["sub_shelter"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		},
+		{
+			"id": "ls_ice_wall_02",
+			"rotations": 180,
+			"entry-door": "enter_007"
+		},
+		{
+			"id": "ls_ice_wall_03",
+			"rotations": 180,
+			"entry-door": "enter_009"
+		},
+		{
+			"id": "ls_forest_01",
+			"rotations": 180,
+			"entry-door": "enter_011",
+			"exit-door": "exit_forest"
+		},
+		{
+			"id": "ls_forest_02"
+		},
+		{
+			"id": "ls_forest_03"
+		},
+		{
+			"id": "ls_barricade",
+			"rotations": 180,
+			"entry-door": "enter_018"
+		},
+		{
+			"id": "ls_settlement_01",
+			"rotations": [0, 90],
+			"teleports" : [
+				{		
+					"door":"travel_shrine",
+					"exit":"shrine_door",
+					"dungeons":["sub_shrine"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		},
+		{
+			"id": "ls_settlement_01_alt",
+			"rotations": [270, 180]
+		},
+		{
+			"id": "ls_settlement_02",
+			"entry-door": "enter_022"
+		},
+		{
+			"id": "ls_settlement_03",
+			"entry-door": "enter_023",
+			"rotations": [180, 270]
+		},
+		{
+			"id": "ls_sidepath_10",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ls_deadend_18",
+			"rotations": [0,90],
+			"teleports" : [
+				{
+					"door":"travel_gloomycave",
+					"exit":"gloomy_door",
+					"dungeons":["sub_gloomycave"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		},
+		{
+			"id": "ls_deadend_18_alt",
+			"rotations": [0,90],
+			"teleports" : [
+				{
+					"door":"travel_gloomycave",
+					"exit":"gloomy_door",
+					"dungeons":["sub_gloomycave"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		},
+		{
+			"id": "ls_deadend_18_alt_2",
+			"rotations": [180,270],
+			"teleports" : [
+				{
+					"door":"travel_gloomycave",
+					"exit":"gloomy_door",
+					"dungeons":["sub_gloomycave"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		},
+		{
+			"id": "ls_deadend_19",
+			"rotations": [180,270],
+			"teleports" : [
+				{
+					"door":"travel_icecabin",
+					"exit":"icecabin_door",
+					"dungeons":["sub_icecabin"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		},
+		{
+			"id": "ls_deadend_20",
+			"rotations": [90,180],
+			"teleports" : [
+				{
+					"door":"travel_lightcave",
+					"exit":"lightcave_door",
+					"dungeons":["sub_lightcave"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		},
+		{
+			"id": "ls_deadend_21",
+			"rotations": [0,270],
+			"teleports" : [
+				{
+					"door":"travel_lookout",
+					"exit":"lookout_door",
+					"dungeons":["sub_lookout"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		},
+		{
+			"id": "ls_deadend_10",
+			"challenges": ["deadend_10_trap"]
+		},
+		{
+			"id": "ls_deadend_15",
+			"challenges": ["deadend_15_trap"]
+		},
+		{
+			"id": "ls_deadend_16",
+			"challenges": ["deadend_16_trap"]
+		},
+		{
+			"id": "ls_deadend_22",
+			"challenges": ["deadend_22_trap"]
+		}
+	],
+
+	"stretches": [
+		{
+			"tiles":["ls_start"]
+		},
+		{
+			"tiles":["ls_ice_spikes_01", "ls_ice_spikes_02", "ls_ice_spikes_03"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["spike-mix-easy"]
+			},
+			"dead-ends": [{"id": "ls_deadend_01", "weight": 0.1}, {"id": "ls_deadend_02", "weight": 0.1}, {"id": "ls_deadend_17", "weight": 0.1}, {"id": "ls_deadend_23", "weight": 0.1}, {"id": "ls_deadend_25", "weight": 0.1}],
+			"side-paths": {
+				"probability": 0.5,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends":  ["ls_deadend_18", "ls_deadend_18_alt", "ls_deadend_18_alt_2"],
+					"tile-groups": ["spike_sidepath"]
+				}
+			}
+		},
+		{
+			"tiles":["ls_ice_spikes_05"],	//Puzzle Tile
+			"mobs": {
+				"density": 1,
+				"only": ["spike-mix-medium"]
+			},
+			"dead-ends": [{"id": "ls_deadend_16","weight": 0.2}, {"id": "ls_deadend_19", "weight": 0.3}, {"id": "ls_deadend_02", "weight": 0.05}, {"id": "ls_deadend_17", "weight": 0.05}, {"id": "ls_deadend_23", "weight": 0.05}, {"id": "ls_deadend_25", "weight": 0.05}],
+			"side-paths": {
+				"probability": 0.3,
+				"default": {
+					"max-length": [1, 1],
+					"tile-groups": ["spike_sidepath"]
+				}
+			}
+		},
+		{
+			"tiles":["ls_ice_spikes_01", "ls_ice_spikes_02", "ls_ice_spikes_03", "ls_ice_spikes_04"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["spike-mix-medium"]
+			},
+			"dead-ends": [{"id": "ls_deadend_15", "weight": 0.2}, {"id": "ls_deadend_02", "weight": 0.05}, {"id": "ls_deadend_17", "weight": 0.05}, {"id": "ls_deadend_23", "weight": 0.05}, {"id": "ls_deadend_25", "weight": 0.05}]
+		},
+		{
+			"tiles":[{"id": "ls_ice_wall_01","weight": 0.7}, {"id": "ls_ice_wall_01_alt","weight": 0.3}],
+			"mobs": {
+				"density": 1,
+				"only": ["spike-mix-hard"]
+			}
+		},
+		{
+			"tiles":["ls_ice_wall_02"],
+			"mobs": {
+				"density": 1,
+				"only": ["spike-mix-hard"]
+			},
+			"dead-ends": [{"id": "ls_deadend_01", "weight": 0.2}, {"id": "ls_deadend_15", "weight": 0.2}, {"id": "ls_deadend_16","weight": 0.2}, {"id": "ls_deadend_22", "weight": 0.2}, {"id": "ls_deadend_02", "weight": 0.05}, {"id": "ls_deadend_17", "weight": 0.05}, {"id": "ls_deadend_23", "weight": 0.05}, {"id": "ls_deadend_25", "weight": 0.05}],
+			"side-paths": {
+				"probability": 0.7,
+				"default": {
+					"max-length": [1, 1],
+					"tile-groups": ["spike_sidepath_2"]
+				}
+			}
+
+		},
+		{
+			"tiles":["ls_ice_wall_03"],
+			"mobs": {
+				"density": 1,
+				"only": ["spike-mix-hard"]
+			}
+		},
+		{
+			"id": "forest",
+			"tiles":["ls_forest_01"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["forest-mix-medium"]
+			},
+			"dead-ends": [{"id":"ls_deadend_03","weight": 0.1}, {"id":"ls_deadend_06","weight": 0.1}, {"id": "ls_deadend_07","weight": 0.1}, {"id":"ls_deadend_08","weight": 0.2}, {"id":"ls_deadend_24","weight": 0.1}],
+			"side-paths": {
+				"probability": 0.4,
+				"default": {
+					"max-length": [1, 2],
+					"dead-ends": ["ls_deadend_20"],
+					"tile-groups": ["forest_sidepath"]
+				}
+			}
+		},
+		{
+			"tiles":["ls_forest_02"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["forest-mix-medium"]
+			},
+			"dead-ends": [{"id":"ls_deadend_03","weight": 0.2}, {"id":"ls_deadend_06","weight": 0.05}, {"id": "ls_deadend_07","weight": 0.2}, {"id":"ls_deadend_24","weight": 0.05}],
+			"side-paths": {
+				"probability": 0.5,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": ["ls_deadend_21"],
+					"tile-groups": ["forest_sidepath"]
+				}
+			}
+		},
+		{
+			"tiles":["ls_forest_03"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["forest-mix-medium"]
+			},
+			"dead-ends": [{"id":"ls_deadend_03","weight": 0.05}, {"id":"ls_deadend_06","weight": 0.05}, {"id": "ls_deadend_07","weight": 0.2}, {"id":"ls_deadend_08","weight": 0.05}, {"id":"ls_deadend_24","weight": 0.05}],
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": [{"id":"ls_deadend_05","weight": 0.4}, {"id":"ls_deadend_09","weight": 0.4 }, {"id":"ls_deadend_03","weight": 0.05}, {"id":"ls_deadend_06","weight": 0.05}, {"id": "ls_deadend_07","weight": 0.05}, {"id":"ls_deadend_08","weight": 0.05}],
+					"tile-groups": ["forest_sidepath"]
+				}
+			}
+		},
+		{
+			"id":"arena",
+			"tiles":["ls_barricade"],
+			"mobs": {
+				"density": 1,
+				"only": ["forest-mix-hard"]
+			}
+		},
+		{
+			"tiles":[{"id": "ls_settlement_01","weight": 0.3},{"id": "ls_settlement_01_alt","weight": 0.7}],
+			"mobs": {
+				"density": 1,
+				"only": ["settlement-mix-easy"]
+			},
+			"dead-ends": [{"id": "ls_deadend_04","weight": 0.1}, {"id": "ls_deadend_10","weight": 0.1}, {"id": "ls_deadend_06","weight": 0.05}, {"id": "ls_deadend_24","weight": 0.05}],
+			"side-paths": {
+				"probability": 0.7,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": [{"id": "ls_deadend_11","weight": 0.5}, {"id": "ls_deadend_12","weight": 0.5}],
+					"tile-groups": ["settlement_sidepath"]
+				}
+			}
+		},
+		{
+			"tiles":["ls_settlement_02"],
+			"mobs": {
+				"density": 1,
+				"only": ["settlement-mix-medium"]
+			}
+		},
+		{
+			"id":"arena_02",
+			"tiles":["ls_settlement_03"],
+			"mobs": {
+				"density": 1,
+				"only": ["settlement-mix-hard"]
+			}
+		}
+	],
+
+	"objectives": [
+		{
+			"name": "name_ls_g_01",
+			"description": "description_ls_g_01",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ls_ice_spikes_05.obj_activate_bridges"
+			}
+		},
+		{
+			"name": "name_ls_g_01",
+			"description": "description_ls_g_02",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ls_ice_spikes_05.obj_bridge_crossed"
+			}
+		},
+		{
+			"name": "name_ls_g_01",
+			"description": "description_ls_g_03",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.*.obj_cross_ice_wall_start"
+			}
+		},
+		{
+			"name": "name_ls_g_01",
+			"description": "description_ls_g_04",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "forest.*.obj_find_settlement"
+			}
+		},
+		{
+			"name": "name_ls_g_01",
+			"description": "description_ls_g_05",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ls_barricade.obj_barricade_reached"
+			}
+		},
+		{
+			"name": "name_ls_g_01",
+			"description": "description_ls_g_05_a",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ls_barricade.obj_enter_settlement"
+			}
+		},
+		{
+			"name": "name_ls_a_06",
+			"description": "description_ls_a_06",
+			"displayMode": "MainObjective",
+			"arena": {
+				"stretch": "arena",
+				"start-time": 0.0,
+				"interval": 13.0,
+				"rest-interval": 0.5,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[6, "barricade-arena-mix"],
+					[5, "barricade-arena-mix"],
+					[3, "barricade-arena-mix-special"],
+					[8, "barricade-arena-mix"],
+					[6, "barricade-arena-mix"],
+					[4, "barricade-arena-mix-special"],
+					[6, "barricade-arena-mix"],
+				]
+			}
+		},
+		{
+			"name": "name_ls_g_07",
+			"description": "description_ls_g_07",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ls_settlement_03.obj_beacon_found"
+			}
+		},
+		{
+			"name": "name_ls_g_08",
+			"description": "description_ls_g_08",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS_Rune_Beacon",
+				"count": 1,
+				"locations": [
+					"*.ls_settlement_03.click_01"
+				]
+			}
+		},
+		{
+			"name": "name_ls_g_08",
+			"description": "description_ls_g_09",
+			"displayMode": "MainObjective",
+			"arena": {
+				"stretch": "arena_02",
+				"start-time": 0.0,
+				"interval": 10.0,
+				"rest-interval": 0.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "signal-arena-mix-ranged"],
+					[4, "signal-arena-mix-ranged"],
+					[3, "signal-arena-mix-ranged-special"],
+					[5, "signal-arena-mix-ranged"],
+					[4, "signal-arena-mix-ranged"],
+					[3, "signal-arena-mix-ranged-special"],
+					[4, "signal-arena-mix-ranged"],
+					[5, "signal-arena-mix-ranged"],
+					[4, "signal-arena-mix-ranged-special"],
+					[6, "signal-arena-mix-ranged"],
+					[4, "signal-arena-mix-ranged"],
+					[3, "signal-arena-mix-ranged-special"],
+					[6, "signal-arena-mix-ranged"],
+					[4, "signal-arena-mix-ranged"],
+					[3, "signal-arena-mix-ranged-special"],
+					[4, "signal-arena-mix-ranged"],
+					[5, "signal-arena-mix-ranged"],
+					[3, "signal-arena-mix-ranged-special"],
+					[5, "signal-arena-mix-ranged"],
+					[5, "signal-arena-mix-ranged"],
+					[4, "signal-arena-mix-ranged-special"],
+					[6, "signal-arena-mix-ranged"],
+					[4, "signal-arena-mix-ranged"],
+					[3, "signal-arena-mix-ranged-special"]
+				],
+				"battle-max-duration": 35
+			}
+		},
+		{
+			"name": "name_ls_g_08",
+			"description": "description_ls_g_10",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS_Rune_Beacon",
+				"count": 1,
+				"locations": [
+					"*.ls_settlement_03.click_02"
+				]
+			}
+		},
+		{
+			"name": "name_ls_g_08",
+			"description": "description_ls_g_09",
+			"displayMode": "MainObjective",
+			"arena": {
+				"stretch": "arena_02",
+				"start-time": 0.0,
+				"interval": 10.0,
+				"rest-interval": 0.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee"],
+					[3, "signal-arena-mix-melee-special"],
+					[5, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee"],
+					[3, "signal-arena-mix-melee-special"],
+					[4, "signal-arena-mix-melee"],
+					[5, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee-special"],
+					[6, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee"],
+					[3, "signal-arena-mix-melee-special"],
+					[6, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee"],
+					[3, "signal-arena-mix-melee-special"],
+					[4, "signal-arena-mix-melee"],
+					[5, "signal-arena-mix-melee"],
+					[3, "signal-arena-mix-melee-special"],
+					[5, "signal-arena-mix-melee"],
+					[5, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee-special"],
+					[6, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee"],
+					[3, "signal-arena-mix-melee-special"],
+					[4, "signal-arena-mix-melee"],
+					[5, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee-special"],
+					[6, "signal-arena-mix-melee"],
+					[4, "signal-arena-mix-melee"],
+					[3, "signal-arena-mix-melee-special"]
+				],
+				"battle-max-duration": 35
+			}
+		},
+		{
+			"name": "name_ls_g_08",
+			"description": "description_ls_g_11",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS_Rune_Beacon",
+				"count": 1,
+				"locations": [
+					"*.ls_settlement_03.click_03"
+				]
+			}
+		},
+		{
+			"name": "name_ls_g_08",
+			"description": "description_ls_g_09",
+			"displayMode": "MainObjective",
+			"arena": {
+				"stretch": "arena_02",
+				"start-time": 0.0,
+				"interval": 30.0,
+				"rest-interval": 0.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "signal-arena-mix-illusioner"],
+					[8, "signal-arena-mix-melee-special"],
+					[6, "signal-arena-mix-melee-special"],
+					[5, "signal-arena-mix-ranged-special"],
+					[4, "signal-arena-mix-ranged-special"],
+					[3, "signal-arena-mix-melee-special"],
+					[5, "signal-arena-mix-melee-special"],
+					[5, "signal-arena-mix-ranged-special"],
+					[4, "signal-arena-mix-ranged-special"],
+					[3, "signal-arena-mix-melee-special"],
+					[6, "signal-arena-mix-melee-special"],
+					[3, "signal-arena-mix-ranged-special"],
+					[4, "signal-arena-mix-ranged-special"],
+					[3, "signal-arena-mix-melee-special"],
+					[5, "signal-arena-mix-melee-special"],
+					[3, "signal-arena-mix-ranged-special"],
+					[6, "signal-arena-mix-ranged-special"],
+				],
+				"battle-max-duration": 35,
+				"gate": {
+					"object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssetsBP_DoorWinter_5",
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"name": "name_ls_g_08",
+			"description": "description_ls_g_12",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor_LF",
+				"count": 1,
+				"locations": [
+					"*.ls_settlement_03.obj_exit"
+				]
+			}
+		}
+	],
+
+	"challenges": [
+		{
+			"id": "deadend_10_trap",
+			"trigger": "*.ls_deadend_10.arena_trigger",
+			"reward": {
+				"region": "*.ls_deadend_10.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+					[6, "arena-mix"],
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"id": "deadend_15_trap",
+			"trigger": "*.ls_deadend_15.arena_trigger",
+			"reward": {
+				"region": "*.ls_deadend_15.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 2.5,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[4, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"id": "deadend_16_trap",
+			"trigger": "*.ls_deadend_16.arena_trigger",
+			"reward": {
+				"region": "*.ls_deadend_16.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+					[6, "arena-mix"],
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"id": "deadend_22_trap",
+			"trigger": "*.ls_deadend_22.arena_trigger",
+			"reward": {
+				"region": "*.ls_deadend_22.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 2.5,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[4, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		}
+	],
+
+	"tile-groups": [
+		{
+			"#": "spike_sidepath",
+			"id": "spike_sidepath",
+			"tiles": [{"id": "ls_sidepath_02", "weight": 0.1}, {"id": "ls_sidepath_03", "weight": 0.2}, {"id": "ls_sidepath_09", "weight": 0.4}, {"id": "ls_sidepath_10", "weight": 0.1}, {"id": "ls_sidepath_12", "weight": 0.1}]
+		},
+		{
+			"#": "spike_sidepath_2",
+			"id": "spike_sidepath_2",
+			"tiles": [{"id": "ls_sidepath_09", "weight": 0.7}, {"id": "ls_sidepath_10", "weight": 0.1}, {"id": "ls_sidepath_17", "weight": 0.2}]
+		},
+		{
+			"#": "forest_sidepath",
+			"id": "forest_sidepath",
+			"tiles": [{"id": "ls_sidepath_05", "weight": 0.2}, {"id": "ls_sidepath_06", "weight": 0.2}, {"id": "ls_sidepath_09", "weight": 0.2}, {"id": "ls_sidepath_10", "weight": 0.2}, {"id": "ls_sidepath_16", "weight": 0.2}]
+		},
+		{
+			"#": "settlement_sidepath",
+			"id": "settlement_sidepath",
+			"tiles": [{"id": "ls_sidepath_07", "weight": 0.4}, {"id": "ls_sidepath_08", "weight": 0.3}, {"id": "ls_sidepath_13", "weight": 0.05}, {"id": "ls_sidepath_14", "weight": 0.15}, {"id": "ls_sidepath_15", "weight": 0.1}]
+		}
+	],
+
+	"prop-groups": [
+		{
+			"id": "pillar",
+			"props": [
+				{
+					"id": "pillar1",
+					"weight": 1
+				},
+				{
+					"id": "pillar2",
+					"weight": 1
+				},
+				{
+					"id": "pillar3",
+					"weight": 1
+				}
+			]
+		}
+	]
+
+}
+

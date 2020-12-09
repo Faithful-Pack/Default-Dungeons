@@ -1,0 +1,525 @@
+{
+	"id" : "bamboobluff",
+	"resource-packs":["BambooBluff"],
+	"object-groups": [
+		"bamboobluff/objectgroup",
+	],
+
+	"loctable-id": "bamboobluffLoctable",
+	"require-matching-doors": true,
+
+	"mob-files": [
+		"bamboobluff/bb_mobs.json"
+	],
+
+	"default-mobs": {
+		"only": ["bamboo-mix-easy"],
+		"density": 0.8
+	},
+
+	"dungeon-files": [
+		"bamboobluff/bamboobluff_cave.json",
+		"sub_rockpool/sub_rockpool.json",
+		"sub_bamboo_cab/sub_bamboo_cab.json",
+		"sub_panda_temp/sub_panda_temp.json",
+		"sub_pandanest/sub_pandanest.json",
+		"sub_dankcave/sub_dankcave.json",
+		"sub_creeperpit/sub_creeperpit.json",
+	],
+
+	"tile-files": [
+		"bamboobluff/bamboobluff_cave_tiles.json",
+		"sub_rockpool/sub_rockpool_tiles.json",
+		"sub_bamboo_cab/sub_bamboo_cab_tiles.json",
+		"sub_panda_temp/sub_panda_temp_tiles.json",
+		"sub_pandanest/sub_pandanest_tiles.json",
+		"sub_dankcave/sub_dankcave_tiles.json",
+		"sub_creeperpit/sub_creeperpit_tiles.json",
+	],
+
+	"tiles": [
+
+		{
+			"id": "bb_new_start",
+			"rotations": 0,
+		},
+
+		{
+			"id": "bb_start",
+			"rotations": 0,
+		},
+
+		{
+			"id": "bb_jungle_edge_01",
+			"entry-door": "enter",
+			"exit-door": "exit",
+			"challenges": ["bamboo_cog_fight"]
+		},
+
+		{
+			"id": "bb_jungle_edge_02",
+			"entry-door": "enter_001",
+		},
+
+		{
+			"id": "bb_jungle_01",
+			"rotations": 0,
+		},
+
+		{
+			"id": "bb_jungle_02",
+			"rotations": 0,
+			"entry-door": "enter_002",
+		},
+
+		{
+			"id": "bb_jungle_clearing",
+			"rotations": 0,
+		},
+
+		{
+			"id": "bb_cave_entrance",
+			"teleports" : [
+				{
+					"door":"bamboo",
+					"exit":"cave",
+					"dungeons":["bamboobluff_cave_01"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				},
+			],
+		},
+
+		{
+			"id": "bb_cave_exit",
+			"rotations": 180,
+			"exit-door": "cave_exit_exit_door",
+			"teleports" : [
+				{
+					"door":"bamboo_exit",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "bb_panda_party",
+			"entry-door": "enter_003",
+			"rotations": 90,
+			"teleports" : [
+				{
+					"door":"travel_pandatemple",
+					"exit":"temple_door",
+					"dungeons":["sub_panda_temp"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "bb_panda_party_alt",
+			"entry-door": "enter_003_2",
+			"rotations": 90,
+		},
+
+		{
+			"id": "bb_treetop_wonderland",
+			"rotations": 90,
+		},
+
+		{
+			"id": "bb_sidepath_rockpool",
+			"entry-door": "enter_004",
+			"teleports" : [
+				{
+					"door":"travel_rockpool",
+					"exit":"pool_door",
+					"dungeons":["sub_rockpool"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				},
+			],
+		},
+
+		{
+			"id": "bb_deadend_bamboohut",
+			"rotations": [90, 180],
+			"teleports" : [
+				{
+					"door":"travel_bamboohut",
+					"exit":"bamboohut_door",
+					"dungeons":["sub_bamboo_cab"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "bb_deadend_bamboohut_alt",
+			"rotations": [0, 270],
+			"teleports" : [
+				{
+					"door":"travel_bamboohut",
+					"exit":"bamboohut_door",
+					"dungeons":["sub_bamboo_cab"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "bb_deadend_nest",
+			"rotations": [0, 90],
+			"teleports" : [
+				{
+					"door":"travel_panda",
+					"exit":"panda_door",
+					"dungeons":["sub_pandanest"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				},
+			],
+		},
+
+	],
+
+	"stretches": [
+		{
+			"tiles":["bb_new_start"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-pass"]
+			},
+		},
+
+		{
+			"tiles":[{"id": "bb_start", "weight": 0.3}, {"id": "bb_jungle_01", "weight": 0.4}, {"id": "bb_jungle_02", "weight": 0.3}],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-easy"]
+			},
+			"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.8}, {"id": "bb_deadend_01", "weight": 0.5}, {"id": "bb_deadend_02", "weight": 0.2}, {"id": "bb_deadend_03", "weight": 1}, {"id": "bb_deadend_04", "weight": 0.5}, {"id": "bb_deadend_cap_01", "weight": 0.1}, {"id": "bb_deadend_cap_02", "weight": 0.05}],
+			"side-paths": {
+				"probability": 0.85,
+				"default": {
+					"max-length": [1, 2],
+					"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.3}, {"id": "bb_deadend_bamboohut", "weight": 0.3}, {"id": "bb_deadend_bamboohut_alt", "weight": 0.3}, {"id": "bb_deadend_01", "weight": 0.1}, {"id": "bb_deadend_02", "weight": 0.1}, {"id": "bb_deadend_03", "weight": 0.1}, {"id": "bb_deadend_04", "weight": 0.1}, {"id": "bb_deadend_cap_01", "weight": 0.05}, {"id": "bb_deadend_cap_02", "weight": 0.01}],
+					"tile-groups": ["bamboo_sidepath"]
+				}
+			}
+		},
+
+		{
+			"tiles":["bb_jungle_edge_01"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-easy"]
+			},
+			"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.5}, {"id": "bb_deadend_01", "weight": 0.5}, {"id": "bb_deadend_02", "weight": 0.2}, {"id": "bb_deadend_03", "weight": 1}, {"id": "bb_deadend_04", "weight": 0.5}, {"id": "bb_deadend_cap_01", "weight": 0.1}, {"id": "bb_deadend_cap_02", "weight": 0.05}],
+			"side-paths": {
+				"probability": 1.0,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.4}, {"id": "bb_deadend_01", "weight": 0.2}, {"id": "bb_deadend_02", "weight": 0.2}, {"id": "bb_deadend_03", "weight": 0.1}, {"id": "bb_deadend_04", "weight": 0.1}, {"id": "bb_deadend_cap_01", "weight": 0.05}, {"id": "bb_deadend_cap_02", "weight": 0.01}],
+					"tile-groups": ["rockpool_sidepath"]
+				}
+			}
+		},
+
+		{
+			"tiles":["bb_jungle_edge_02"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-easy"]
+			},
+		},
+
+		{
+			"tiles":["bb_jungle_clearing"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-med-whisperer"]
+			},
+		},
+
+		{
+			"tiles":["bb_cave_entrance"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-med"]
+			},
+		},
+
+		{
+			"id": "fillstretch_01",
+			"tiles": ["bb_cave_fill_right_angle"],
+			"length": 1
+		},
+
+		{
+			"id": "fillstretch_02",
+			"tiles": ["bb_cave_fill"],
+			"length": 4
+		},
+
+		{
+			"id": "fillstretch_03",
+			"tiles": ["bb_cave_fill_right_angle"],
+			"length": 1
+		},
+
+		{
+			"tiles":["bb_cave_exit"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-hard"]
+			},
+		},
+
+		{
+			"tiles":["bb_jungle_03", "bb_jungle_03_alt"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-hard"]
+			},
+		},
+
+		{
+			"tiles":["bb_jungle_03", "bb_jungle_03_alt", "bb_jungle_04", "bb_jungle_05", "bb_jungle_06"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-hard"]
+			},
+			"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.6}, {"id": "bb_deadend_01", "weight": 0.5}, {"id": "bb_deadend_02", "weight": 0.2}, {"id": "bb_deadend_03", "weight": 1}, {"id": "bb_deadend_04", "weight": 0.5}, {"id": "bb_deadend_cap_01", "weight": 0.05}, {"id": "bb_deadend_cap_02", "weight": 0.01}],
+			"side-paths": {
+				"probability": 0.8,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.3}, {"id": "bb_deadend_bamboohut", "weight": 0.3}, {"id": "bb_deadend_bamboohut_alt", "weight": 0.3}, {"id": "bb_deadend_01", "weight": 0.1}, {"id": "bb_deadend_02", "weight": 0.1}, {"id": "bb_deadend_03", "weight": 0.1}, {"id": "bb_deadend_04", "weight": 0.1}, {"id": "bb_deadend_cap_01", "weight": 0.05}, {"id": "bb_deadend_cap_02", "weight": 0.01}],
+					"tile-groups": ["bamboo_sidepath"]
+				}
+			}
+		},
+
+		{
+			"tiles":["bb_treetop_wonderland"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-hard"]
+			},
+		},
+
+		{
+			"tiles":["bb_jungle_03", "bb_jungle_03_alt", "bb_jungle_04", "bb_jungle_05"],
+			"length": 2,
+			"mobs": {
+				"density": 1.0,
+				"only": ["bamboo-mix-hard"]
+			},
+			"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.6}, {"id": "bb_deadend_01", "weight": 0.5}, {"id": "bb_deadend_02", "weight": 0.2}, {"id": "bb_deadend_03", "weight": 1}, {"id": "bb_deadend_04", "weight": 0.5}, {"id": "bb_deadend_cap_01", "weight": 0.05}, {"id": "bb_deadend_cap_02", "weight": 0.01}],
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": [{"id": "bb_deadend_nest", "weight": 0.3}, {"id": "bb_deadend_bamboohut", "weight": 0.3}, {"id": "bb_deadend_bamboohut_alt", "weight": 0.3}, {"id": "bb_deadend_01", "weight": 0.1}, {"id": "bb_deadend_02", "weight": 0.1}, {"id": "bb_deadend_03", "weight": 0.1}, {"id": "bb_deadend_04", "weight": 0.1}, {"id": "bb_deadend_cap_01", "weight": 0.05}, {"id": "bb_deadend_cap_02", "weight": 0.01}],
+					"tile-groups": ["bamboo_sidepath"]
+				}
+			}
+		},
+
+		{
+			"id": "panda_party",
+			"tiles":[{"id": "bb_panda_party", "weight": 0.4}, {"id": "bb_panda_party_alt", "weight": 0.6}],
+			"mobs": {
+				"density": 0.0,
+				"only": ["panda-mix"]
+			},
+		},
+
+		{
+			"tiles":["bb_river"],
+			"mobs": {
+				"density": 0.0,
+				"only": ["panda-mix"]
+			},
+		},
+	],
+
+	"tile-groups": [
+		{
+			"#": "bamboo_sidepath",
+			"id": "bamboo_sidepath",
+			"tiles": ["bb_sidepath_01", "bb_sidepath_02", "bb_sidepath_04", {"id": "bb_jungle_03", "weight": 0.2}, {"id": "bb_jungle_04", "weight": 0.2}, {"id": "bb_jungle_05", "weight": 0.2}, {"id": "bb_jungle_06", "weight": 0.2}]
+		},
+		{
+			"#": "bamboo_sidepath_straighter",
+			"id": "bamboo_sidepath_straighter",
+			"tiles": ["bb_sidepath_01", "bb_sidepath_02", {"id": "bb_sidepath_04", "weight": 0.1}, "bb_jungle_03", {"id": "bb_jungle_04", "weight": 0.1}, {"id": "bb_jungle_05", "weight": 0.1}, {"id": "bb_jungle_06", "weight": 0.1}]
+		},
+		{
+			"#": "rockpool_sidepath",
+			"id": "rockpool_sidepath",
+			"tiles": [{"id": "bb_sidepath_rockpool", "weight": 0.4}, {"id": "bb_deadend_rockpool", "weight": 0.6}]
+		},
+	],
+
+	"objectives": [
+		{
+			"name": "name_bb_01",
+			"description": "description_bb_g_00",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.*.obj_reach_vista"
+			}
+		},
+
+		{
+			"name": "name_bb_01",
+			"description": "description_bb_c_00",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Bamboo_Cog",
+				"count": 1,
+				"locations": [
+					"*.bb_jungle_edge_01.obj_statue_gate_switch"
+				],
+				"locked-doors": [
+					"*.bb_jungle_edge_01.obj_statue_gate"
+				],
+				"door-path": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5"
+			}
+		},
+
+		{
+			"name": "name_bb_01",
+			"description": "description_bb_g_01",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.bb_jungle_clearing.obj_reach_clearing"
+			}
+		},
+
+		{
+			"name": "name_bb_01",
+			"description": "description_bb_c_01",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/_BambooBluffDecor/BP_CapturedPanda",
+				"count": 5,
+				"locations": [
+					"*.bb_jungle_clearing.obj_panda"
+				],
+				"locked-doors": [
+					"*.bb_jungle_clearing.obj_clearing_gate"
+				],
+				"door-path": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5"
+			}
+		},
+
+		{
+			"name": "name_bb_01",
+			"description": "description_bb_g_02",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.bb_cave_entrance.obj_search_cave"
+			}
+		},
+
+		{
+			"name": "name_bb_02",
+			"description": "description_bb_g_03",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.bbc_cave_entrance.obj_free_pandas"
+			}
+		},
+
+		{
+			"name": "name_bb_02",
+			"description": "description_bb_c_02",
+			"displayMode": "MainObjective",
+			"consider-tiles": "all",
+			"click": {
+				"object": "Decor/Prefabs/_BambooBluffDecor/BP_CapturedPanda",
+				"count": 6,
+				"locations": [
+					"*.*.obj_cave_panda"
+				],
+				"locked-doors": [
+					"*.bbc_cave_exit.obj_panda_cave_gate"
+				],
+				"door-path": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
+			}
+
+		},
+
+		{
+			"name": "name_bb_02",
+			"description": "description_bb_g_03_2",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.bb_cave_exit.obj_where_pandas_gone"
+			}
+		},
+
+		{
+			"name": "name_bb_01",
+			"description": "description_bb_g_04",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "panda_party.*.obj_panda_party"
+			}
+		},
+
+		{
+			"name": "name_bb_03",
+			"description": "description_bb_g_05",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.bb_river.obj_get_in_boat"
+			}
+		},
+
+		{
+			"name": "name_bb_03",
+			"description": "description_bb_c_03",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/DoorExit/BP_DoorExit_SS_Rowboat",
+				"count": 1,
+				"locations": [
+					"*.bb_river.obj_boat"
+				],
+			}
+		},
+
+	],
+
+	"challenges": [
+		{
+			"id": "bamboo_cog_fight",
+			"trigger": "*.bb_jungle_edge_01.bamboo_cog_fight",
+			"reward": {
+				"region": "*.bb_jungle_edge_01.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 25.0,
+				"rest-interval": 1.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[4, "arena-mix-easy"],
+					[6, "arena-mix-easy"],
+					[5, "arena-mix-med"],
+					[10, "arena-mix-hard"],
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
+					"start-unlocked": true
+				}
+			}
+		},
+	]
+
+}

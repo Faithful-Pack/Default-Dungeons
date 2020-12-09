@@ -1,0 +1,50 @@
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_M.GoldButtonCR_M'
+        ParameterInfo = { Name=08 Mask }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_E.GoldButtonCR_E'
+        ParameterInfo = { Name=03 Emissive }
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.120972, G=0.429991, B=1, A=1 }
+        ParameterInfo = { Name=07 Color }
+    }
+}
+Parent = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/MI_MountainButton_CR.MI_MountainButton_CR'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

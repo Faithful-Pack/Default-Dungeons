@@ -1,0 +1,126 @@
+{
+	"object-groups": [
+		"sub_troom/objectgroup"
+	],
+	"challenges": [
+		{
+            "id": "troom_clicky",
+			"trigger": "*.troom_middle_1.click_trigger",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_TempleDoorDown_5",
+                "count": 4,
+                "locations": [
+                    "*.troom_middle_1.beacon"
+                ],
+                "locked-doors": [
+                    "*.troom_middle_1.gate1"
+                ]
+            }
+		},
+		{
+			"id": "troom_mid_arena1",
+			"trigger": "*.*.troom_arena_trigger",
+			"reward": {
+				"region": "*.troom_middle.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 10,
+				"rest-interval": 0,
+				"start-time": 0.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[5, "arena-mix-hard"],
+					[10, "arena-mix-hard"]
+					
+				],
+				"gate": null
+				}
+			},
+		
+		{
+			"id": "troom_mid_arena",
+			"trigger-object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Bamboo_Cog",
+			"reward": {
+				"region": "*.troom_middle_1.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 10,
+				"rest-interval": 0,
+				"start-time": 0.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[20, "arena-mix-med"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_gate_bb_bamboo_x5",
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"id": "troom_end_arena",
+			"trigger": "*.*.troom_trigger",
+			"reward": {
+				"region": "*.troom_end.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 20,
+				"rest-interval": 0.5,
+				"start-time": 0.5,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[5, "main-arena-hard"],
+					[10, "main-arena-hard"],
+					[3, "arena-leaper"],
+					[8, "main-arena-hard"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_TempleDoorDown_5",
+					"start-unlocked": false
+				}
+			}
+		}
+	],
+	"tiles": [
+		{
+			"id": "troom_stretch",
+			"rotations": 270,
+			"teleports" : [
+				{
+					"door":"troom_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+				{
+					"door": "troom_exit_1",
+					"exit":"*.troom_end.troom_exit_2",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+				}
+			]
+		},
+		{
+			"id": "troom_middle",
+			"challenges": ["troom_mid_arena1"]
+		},
+		{
+			"id": "troom_middle_1",
+			"challenges": ["troom_clicky","troom_mid_arena"]
+		},
+		{
+			"id": "troom_end",
+			"challenges": ["troom_end_arena"],
+			"teleports": [{
+				"door": "troom_exit_2",
+				"exit":"*.troom_stretch.troom_end_1",
+				"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+			}]
+		}
+	]
+
+}

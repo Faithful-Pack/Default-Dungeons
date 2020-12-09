@@ -1,0 +1,761 @@
+[
+    /*
+
+ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗  ██████╗  ██╗
+██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═████╗██╔═████╗███║
+██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║██╔██║██║██╔██║╚██║
+██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ████╔╝██║████╔╝██║ ██║
+╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝╚██████╔╝ ██║
+ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═╝
+                                                                
+    */
+    {
+        "id":"crypt001",
+        "ambience":"foxtrot", 
+        "fill": {
+            "world": {
+                "gradient": [2, 1, 1, 4, 1, 1, 2, 1, 1, 1]
+            }
+        },
+        "stretches":[
+           {
+                "tiles": ["crypt_entry001"],
+               // "push-ambience": "foxtrot",
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0 
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 4],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_bridge"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.5
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [1, 2],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.1,
+                            "max-length": [2, 3]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 2,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.25
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 3],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_special"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.8,
+                    "default": {
+                        "max-length": [1, 2],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.1,
+                            "max-length": [2, 3]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 2,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.75
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 3],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_challenges"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 3],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_secret"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 1,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.5,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tiles": ["crypt_creeperencounter001"],
+                "mobs": {
+                    "only": ["creeper-special"]             
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 1,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.5,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tiles": ["crypt_exit001"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.8,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 2,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            }
+
+        ]
+
+    },
+    /*
+
+ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗  ██████╗ ██████╗ 
+██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═████╗██╔═████╗╚════██╗
+██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║██╔██║██║██╔██║ █████╔╝
+██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ████╔╝██║████╔╝██║██╔═══╝ 
+╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝╚██████╔╝███████╗
+ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
+                                                                    
+    */
+    {
+        "id":"crypt002",
+        "ambience":"foxtrot", 
+        "fill": {
+            "world": {
+                "gradient": [2, 1, 1, 4, 1, 1, 2, 1, 1, 1]
+            }
+        },
+        "stretches":[
+            {
+                "tiles": ["crypt_entry001"],
+                "push-ambience": "foxtrot",
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0 
+                },
+                "side-paths": {
+                    "probability": 0.8,
+                    "default": {
+                        "max-length": [1, 3],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [2, 4]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 5]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 1,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.25
+                },
+                "side-paths": {
+                    "probability": 0.25,
+                    "default": {
+                        "max-length": [1, 2],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [2, 4]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 6]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_unique_mix"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.5
+                },
+                "side-paths": {
+                    "probability": 0.6,
+                    "default": {
+                        "max-length": [1, 2],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.1,
+                            "max-length": [2, 3]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_secret"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 1,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.4,
+                    "default": {
+                        "max-length": [1, 2],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 3]
+                        },
+                        {
+                            "weight": 0.1,
+                            "max-length": [2, 5]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "cryptexit",
+                "tiles": ["crypt_exit001"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.6 
+                },
+                "side-paths": {
+                    "probability": 0.4,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            }
+        ]
+
+    },
+    /*
+ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗  ██████╗ ██████╗ 
+██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═████╗██╔═████╗╚════██╗
+██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║██╔██║██║██╔██║ █████╔╝
+██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ████╔╝██║████╔╝██║ ╚═══██╗
+╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝╚██████╔╝██████╔╝
+ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝  ╚═════╝ ╚═════╝                                                                                                                
+    */
+    {
+        "id":"crypt003",
+        "ambience":"foxtrot", 
+        "fill": {
+            "world": {
+                "gradient": [2, 1, 1, 4, 1, 1, 2, 1, 1, 1]
+            }
+        },
+        "stretches":[
+           {
+                "tiles": ["crypt_entry001"],
+               // "push-ambience": "foxtrot",
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0 
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 4],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_special"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.8,
+                    "default": {
+                        "max-length": [1, 2],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.1,
+                            "max-length": [2, 3]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_bridge"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.5
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [1, 2],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.1,
+                            "max-length": [2, 3]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 2,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"],
+                    "density": 0.75
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 3],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tiles": ["crypt_tomboftheone"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 3],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypt_secret"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 1,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.5,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tiles": ["crypt_creeperencounter001"],
+                "mobs": {
+                    "only": ["creeper-special"]             
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 1,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.5,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tiles": ["crypt_exit001"],
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 0.8,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            },
+            {
+                "tile-groups": ["crypts"],
+                "length": 2,
+                "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                "mobs": {
+                    "not": ["animal"]
+                },
+                "side-paths": {
+                    "probability": 1,
+                    "default": {
+                        "max-length": [2, 6],
+                        "dead-ends": ["crypt_deadend001","crypt_deadend002","crypt_deadend003","crypt_deadend004","crypt_deadend005","crypt_deadend009","crypt_deadend010","crypt_deadend_arena001","crypt_deadend_arena002"],
+                        "tile-groups": ["crypts"]
+                    },
+                    "variants": [
+                        {
+                            "weight": 0.3,
+                            "max-length": [5, 7]
+                        },
+                        {
+                            "weight": 0.2,
+                            "max-length": [2, 8]
+                        }
+                    ]
+                }
+            }
+
+        ]
+
+    }
+]

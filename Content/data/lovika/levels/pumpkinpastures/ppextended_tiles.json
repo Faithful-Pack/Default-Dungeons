@@ -1,0 +1,479 @@
+{
+    "object-groups": [
+        "ppextended/objectgroup"
+    ],
+    "tiles": [
+      {
+            "id": "keep_entry001",
+            "entry-door":"enter"
+            //"rotations": [270]
+      },
+      {
+            "id": "keep_drawbridge001",
+            "entry-door":"enter",
+            "rotations": [270]
+      },
+      {
+            "id": "keep_drawbridge_rotated",
+            "entry-door":"enter",
+            "rotations": [180]
+      },
+      {
+            "id": "teststart",
+            //"entry-door":"enter",
+            "rotations": [270]
+      },
+      {
+            "id": "ppe_section_b001",
+            "exit-door":"exit",
+            "rotations": [270],
+            "teleports": [
+                {
+                    "door": "shipentrance",
+                    "dungeons":["mysteryship"],
+                    //"object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+      },
+      {
+            "id": "ppe_section_b002",
+            "exit-door":"exit",
+            "rotations": [270],
+            "teleports": [
+                {
+                    "door": "shipentrance",
+                    "dungeons":["mysteryship"],
+                    //"object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+      },
+      {
+            "id": "secret@ppe_section_c001",
+            "exit-door":"exit",
+            "rotations": [270],
+           "teleports": [
+                {
+                    "door": "runedoor",
+                    "dungeons":["runeroom01"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ],
+           "unlock-keys": ["RuneGateDiscovered"]
+      },
+      {
+            "id": "ppe_section_c001",
+            "exit-door":"exit",
+            "rotations": [180,270],
+			     "unlock-keys": ["not RuneGateDiscovered"]
+      },
+      {
+            "id": "ppe_canyonentrance001",
+            "entry-door":"flat"
+      },
+      {
+            "id": "ppe_canyonentrance002",
+            "entry-door":"canyon"
+      },
+      {
+            "id": "ppe_section_d001",
+            "entry-door":"enter"
+      },
+      {
+            "id": "ppe_woods_sp_ship001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["shipsmall"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+
+      },
+      {
+            "id": "ppe_shipsmall_indoor001",
+            "rotations": [180],
+            "challenges":["miniarena"],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+
+      },
+      {
+            "id": "ppe_mysteryship01",
+            "rotations": [180],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+
+      },
+      {
+            "id": "ppe_woods_cryptentrance001",
+            "rotations": [180,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+      },
+	  {
+            "id": "ppe_section_a004",
+			"rotations": [180,270],
+            "teleports": [
+                {
+                    "door": "secretdoor",
+					"exit": "duskdoor",
+                    "dungeons":["duskpit"],
+                    "object": "Decor/Prefabs/DoorTravel/PumpkinPastures/BP_PP_DuskDoor",
+                }
+            ]
+      }
+	  
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+        {
+            "id": "ppe_farm",
+            "tiles": [
+               "ppe_farm_turn001","ppe_farm_turn002","ppe_farm_turn003",
+               "ppe_farm_t001","ppe_farm_t002","ppe_farm_t003",
+               "ppe_farm_straight001","ppe_farm_straight002","ppe_farm_straight003"
+                
+            ]
+        },
+        {
+            "id": "ppe_woods",
+            "tiles": [
+              {"id": "ppe_woods_turn001", "weight":1},{"id": "ppe_woods_turn002", "weight":0.5},
+              "ppe_woods_straight001","ppe_woods_straight002" 
+            ]
+        },
+        {
+            "id": "ppe_section_a",
+            "tiles": [
+               "ppe_section_a001",
+               "ppe_section_a002",
+               "ppe_section_a003",
+               "ppe_section_a004",
+               "ppe_section_a005",
+                
+            ]
+        },
+        {
+            "id": "ppe_section_b",
+            "tiles": [
+              "ppe_section_b001",
+              "ppe_section_b002"
+                
+            ]
+        },
+        {
+            "id": "ppe_section_c",
+            "tiles": [
+              "ppe_section_c001",
+              "secret@ppe_section_c001"
+                
+            ]
+        },
+        {
+            "id": "ppe_section_d",
+            "tiles": [
+              "ppe_section_d001"
+                
+            ]
+        },
+        {
+            "id": "keep_drawbridge",
+            "tiles": [
+              "keep_drawbridge001",
+              "keep_drawbridge_rotated"
+                
+            ]
+        },
+        {
+          "id": "canyon",
+          "tiles": ["ppe_canyon001","ppe_canyon002"]
+        }
+    ],
+/*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+
+*/
+ "challenges": [
+
+    ],
+
+/*
+
+██████╗ ██████╗  ██████╗ ██████╗ ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██╔════╝
+██████╔╝██████╔╝██║   ██║██████╔╝███████╗
+██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ╚════██║
+██║     ██║  ██║╚██████╔╝██║     ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+
+"props": [
+  {
+    "id": "ppe_prop_tower_a",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_tower_b",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_towerhouse_a",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_towerhouse_b",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_house_large_a001",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_house_large_a002",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_house_large_a003",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_house_large_b001",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_house_large_b002",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_house_large_b003",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_house_a001",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_house_a002",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_house_a003",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_house_a004",
+    "rotations": [270]
+  },
+  {
+    "id": "ppe_prop_house_b001",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_house_b002",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_house_b003",
+    "rotations": [180]
+  },
+  {
+    "id": "ppe_prop_house_b004",
+    "rotations": [180]
+  }
+],
+
+
+ /*
+
+██████╗ ██████╗  ██████╗ ██████╗        ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗      ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+██████╔╝██████╔╝██║   ██║██████╔╝█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+██║     ██║  ██║╚██████╔╝██║           ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝            ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+                                                                                          
+
+ */
+ "prop-groups": [
+    {
+      "id": "ppe_fillprop_small",
+      "on-regions": ["*.*.fillprop_small"],
+      "props": [
+          "ppe_fillprop_small001","ppe_fillprop_small002","ppe_fillprop_small003","ppe_fillprop_small004","ppe_fillprop_small005",
+          "ppe_fillprop_small006","ppe_fillprop_small007","ppe_fillprop_small008","ppe_fillprop_small009","ppe_fillprop_small010",
+          "ppe_fillprop_small011","ppe_fillprop_small012","ppe_fillprop_small013","ppe_fillprop_small014","ppe_fillprop_small015"
+        ],
+    },
+    {
+      "id": "ppe_fillprop_large",
+      "on-regions": ["*.*.fillprop_large"],
+      "props": [
+        "ppe_fillprop_large001","ppe_fillprop_large002","ppe_fillprop_large003","ppe_fillprop_large004","ppe_fillprop_large005","ppe_fillprop_large006",
+        "ppe_fillprop_large007","ppe_fillprop_large008","ppe_fillprop_large009","ppe_fillprop_large010","ppe_fillprop_large011","ppe_fillprop_large012"
+      ],
+    },
+    {
+      "id": "ppe_groundprop",
+      "on-regions": ["*.*.ppe_groundprop"],
+      "props": ["ppe_groundprop001","ppe_groundprop002","ppe_groundprop003","ppe_groundprop004","ppe_groundprop005","ppe_groundprop006","ppe_groundprop007","ppe_groundprop008","ppe_groundprop009"],
+    },
+    {
+      "id": "ppe_groundprop_medium",
+      "on-regions": ["*.*.ppe_groundprop_medium"],
+      "props": [
+        "ppe_groundprop_medium001","ppe_groundprop_medium002","ppe_groundprop_medium003","ppe_groundprop_medium004",
+        "ppe_groundprop_medium005","ppe_groundprop_medium006","ppe_groundprop_medium007","ppe_groundprop_medium008"
+      ],
+    },
+    {
+      "id": "ppe_groundprop_tree",
+      "on-regions": ["*.*.ppe_groundprop_tree"],
+      "props": [
+        "ppe_groundprop_tree001","ppe_groundprop_tree002","ppe_groundprop_tree003","ppe_groundprop_tree004"
+      ],
+    },
+    {
+      "id": "ppe_torched_ground",
+      "on-regions": ["*.*.torched_ground_prop"],
+      "props": ["ppe_torched_ground001","ppe_torched_ground002","ppe_torched_ground003","ppe_torched_ground004","ppe_torched_ground005"],
+    },
+    {
+      "id": "ppe_deadend_prop",
+      "on-regions": ["*.*.ppe_deadend_prop"],
+      "props": [
+        "ppe_deadend_prop001","ppe_deadend_prop002","ppe_deadend_prop003","ppe_deadend_prop004"
+      ],
+    },
+    {
+      "id": "ppe_prop_tower",
+      "on-regions": ["*.*.prop_tower"],
+      "props": [
+        "ppe_prop_tower_a","ppe_prop_tower_b"
+      ],
+    },
+    {
+      "id": "ppe_prop_towerhouse",
+      "on-regions": ["*.*.prop_towerhouse"],
+      "props": [
+        "ppe_prop_towerhouse_a","ppe_prop_towerhouse_b"
+      ],
+    },
+    {
+      "id": "ppe_prop_house_large",
+      "on-regions": ["*.*.prop_house_large"],
+      "props": [
+        "ppe_prop_house_large_a001","ppe_prop_house_large_a002","ppe_prop_house_large_a003",
+        "ppe_prop_house_large_b001","ppe_prop_house_large_b002","ppe_prop_house_large_b003"
+      ],
+    },
+    {
+      "id": "ppe_prop_house",
+      "on-regions": ["*.*.prop_house"],
+      "props": [
+        "ppe_prop_house_a001","ppe_prop_house_a002","ppe_prop_house_a003","ppe_prop_house_a004",
+        "ppe_prop_house_b001","ppe_prop_house_b002","ppe_prop_house_b003","ppe_prop_house_b004"
+      ],
+    },
+    {
+      "id": "ppe_prop_plot",
+      "on-regions": ["*.*.prop_house"],
+      "props": [
+        "ppe_prop_plot001","ppe_prop_plot002","ppe_prop_plot003","ppe_prop_plot004"
+      ],
+    },
+    {
+      "id": "ppe_prop_cropfield",
+      "on-regions": ["*.*.prop_cropfield"],
+      "props": [
+        "ppe_prop_cropfield001","ppe_prop_cropfield002","ppe_prop_cropfield003",
+        "ppe_prop_cropfield004","ppe_prop_cropfield005","ppe_prop_cropfield006",
+        "ppe_prop_cropfield007","ppe_prop_cropfield008","ppe_prop_cropfield009"
+      ],
+    }
+ ],
+ /*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+
+*/
+
+"challenges": [
+        {
+            "id": "miniarena",
+            "trigger": "*.*.arenastart",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/Door/BP_Door",
+                    "start-unlocked": true
+                }
+            }
+        },
+ ],
+/*
+
+██████╗ ██╗   ██╗███╗   ██╗ ██████╗ ███████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██║   ██║████╗  ██║██╔════╝ ██╔════╝██╔═══██╗████╗  ██║██╔════╝
+██║  ██║██║   ██║██╔██╗ ██║██║  ███╗█████╗  ██║   ██║██╔██╗ ██║███████╗
+██║  ██║██║   ██║██║╚██╗██║██║   ██║██╔══╝  ██║   ██║██║╚██╗██║╚════██║
+██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝███████╗╚██████╔╝██║ ╚████║███████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+*/
+    "dungeon-files": [
+        "crypt/crypt_dungeon001.json",
+        "crypt/crypt_small.json",
+        "crypt/crypt_dungeons_single.json",
+        "houses/house_dungeons.json"
+    ],
+}

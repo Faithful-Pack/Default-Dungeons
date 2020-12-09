@@ -1,0 +1,17 @@
+{
+	"id": "sub_battlements",
+	"ambience":"default",
+	"audio-ambience":"audio_4",
+
+	"stretches": [
+		{
+			"tiles": ["wall_stretch"],
+			"mobs": {
+				"density": 0.7,
+			},
+			"prop-density": 12,
+			"prop-groups": ["wall_group1","wall_group2"]
+		}
+	]
+
+}

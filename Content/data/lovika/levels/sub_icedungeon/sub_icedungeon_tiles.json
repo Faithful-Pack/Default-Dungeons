@@ -1,0 +1,116 @@
+{
+	"object-groups": ["sub_icedungeon/objectgroup"],
+
+	"challenges": [
+		{
+			"id": "icedungeon_clicky_arena_1",
+			"trigger": "*.dun_end.arena_1",
+			"reward": {
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 15.0,
+				"rest-interval": 0.25,
+				"start-time": 0.25,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[8, "arena-mix"],
+					[5, "arena-mix"],
+				],
+				"gate": null
+			}
+		},
+
+		{
+			"id": "icedungeon_clicky_arena_2",
+			"trigger": "*.dun_end.arena_2",
+			"arena": {
+				"stretch": "*",
+				"interval": 8.0,
+				"rest-interval": 0.0,
+				"start-time": 0.25,
+				"prespawn-mob" : "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[8, "arena-mix"],
+					[5, "arena-mix"],
+					[6, "arena-mix"],
+				],
+				"gate": null
+			}
+		},
+
+		{
+			"id": "icedungeon_clicky_arena_3",
+			"trigger": "*.dun_end.arena_3",
+			"arena": {
+				"stretch": "*",
+				"interval": 5.5,
+				"rest-interval": 0.5,
+				"start-time": 0.25,
+				"prespawn-mob" : "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[5, "arena-mix"],
+					[10, "arena-mix"]
+				],
+				"gate": null
+			}
+		},
+
+		{
+			"id": "icedungeon_clicky_arena_4",
+			"trigger": "*.dun_end.arena_4",
+			"reward": {
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 3.0,
+				"rest-interval": 0.0,
+				"start-time": 0.25,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[2, "arena-mix"],
+					[3, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[1, "arena-mix"],
+					[3, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[3, "arena-mix"],
+					[2, "arena-mix"],
+				],
+				"gate": null
+			}
+		}
+	],
+
+	"tiles": [
+		{
+			"id": "dun_start_v2",
+		"rotations": [0],
+		"teleports": [
+			{
+				"door": "dungeon_door",
+				"exit":"*.lf_staircase_alt.travel_dungeon",
+				"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+			}
+			
+		]
+		},
+		{
+			"id": "dun_corridor2",
+			"entry-door": "enter"
+		},
+		{
+			"id": "dun_stairs",
+			"rotations": [0]
+		},
+		{
+			"id": "dun_end",
+			"challenges": ["icedungeon_clicky_arena_1" , "icedungeon_clicky_arena_2" , "icedungeon_clicky_arena_3" , "icedungeon_clicky_arena_4"]
+		}
+	]
+
+}

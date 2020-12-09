@@ -1,0 +1,144 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_creeperpit",
+    "resource-packs": [
+        "OvergrownTemple"
+    ],
+    "object-groups": [
+        "sub_creeperpit/objectgroup"
+    ],
+    "objectives": [],
+    "default-mobs": {
+        "only": [
+            {
+                "id": "cw-mix2",
+                "weight": 5
+            }
+        ],
+        "density": 1
+    },
+    "mob-groups": [
+        {
+            "#": "============== EASY MIX ==============",
+            "id": "easy-mix",
+            "types": [
+                {
+                    "type": "animal",
+                    "weight": 0.1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 0.4
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1.5
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "sub_creeperpit/sub_creeperpit.json"
+        },
+        {
+            "#": "============ CW-MIX ===========",
+            "id": "cw-mix2",
+            "pick-types": [
+                2,
+                3
+            ],
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 3
+                },
+                {
+                    "type": "zombie",
+                    "weight": 5
+                },
+                {
+                    "type": "creeper",
+                    "weight": 3
+                },
+                {
+                    "type": "spider",
+                    "weight": 2
+                },
+                {
+                    "type": "animal",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_creeperpit/sub_creeperpit.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "creep_enter"
+            ]
+        },
+        {
+            "tiles": [
+                "creep_hole"
+            ],
+            "length": 1
+        },
+        {
+            "tiles": [
+                "creep_long"
+            ],
+            "length": 3
+        },
+        {
+            "tiles": [
+                "creep_end"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "creep_enter",
+            "rotations": [
+                0
+            ],
+            "##loc": "sub_creeperpit/sub_creeperpit.json"
+        },
+        {
+            "id": "creep_hole",
+            "rotations": [
+                0
+            ],
+            "##loc": "sub_creeperpit/sub_creeperpit.json"
+        },
+        {
+            "id": "creep_long",
+            "rotations": [
+                270
+            ],
+            "##loc": "sub_creeperpit/sub_creeperpit.json"
+        },
+        {
+            "id": "creep_end",
+            "rotations": [
+                90
+            ],
+            "##loc": "sub_creeperpit/sub_creeperpit.json"
+        }
+    ],
+    "props": [],
+    "prop-groups": [],
+    "tile-groups": [],
+    "challenges": [],
+    "dungeons": []
+}

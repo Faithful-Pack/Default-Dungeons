@@ -1,0 +1,18 @@
+{
+	"object-groups": [
+		"sub_junglehut/objectgroup"
+	],
+
+	"tiles": [
+		{
+			"id": "jungle_hut",
+			"rotations": [180],
+			"teleports" : [
+				{	
+					"door":"hut_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id":"house_small",
+        "ambience":"alpha", 
+        "stretches":[
+            {
+                "tile-groups": ["pp_house_small"],
+            }
+        ]
+    },
+    {
+        "id":"house_cw_inn",
+        "ambience":"alpha",
+		"fill": "only-doors",
+        "stretches":[
+            {
+                "tiles": ["cw_indoor_inn002"],
+				"audio-ambience": "audio_5"
+            }
+        ]
+    },/*
+    {
+        "id":"ship", 
+        "ambience":"alpha", 
+        "stretches": [
+            {
+                "tiles": ["pp_ship001"],
+            }
+        ]
+    }*/                                                    
+
+]

@@ -1,0 +1,30 @@
+{
+	"id": "sub_floodtemp",
+	"ambience":"foxtrot",
+	"audio-ambience": "audio_1",
+	
+	"stretches": [
+		{
+			"tiles": ["treasure_stairs"],
+			"mobs": {
+				"density": 1,
+				"only": ["arena-mix-med"]
+					}
+		},
+		{
+			"tiles": ["treasure_path"],
+			"mobs": {
+				"density": 1,
+				"only": ["arena-mix-med"]
+					}
+		},
+		{
+			"tiles": ["treasure_room"],
+			"mobs": {
+				"density": 1,
+				"only": ["arena-mix-med"]
+					}
+		}
+	]
+
+}

@@ -1,0 +1,47 @@
+{
+	"object-groups": [
+		"sub_tree/objectgroup"
+	],
+
+	"tiles": [
+		{
+			"id": "tree_1",
+			"rotations": [180],
+			"challenges": ["tree_clicky_arena"],
+			"teleports": [
+				{
+					"door": "tree_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		}
+	],
+
+	"challenges": [
+		{
+			"id": "tree_clicky_arena",
+			"trigger-object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Bamboo",
+			"reward": {
+				"region": "*.tree_1.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_fancychest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 25,
+				"rest-interval": 0.5,
+				"start-time": 0.2,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[2, "tree-mix"],
+					[4, "tree-mix"],
+					[6, "tree-mix"],
+					[5, "tree-mix"],
+					[6, "tree-mix"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
+					"start-unlocked": false
+				}
+		}
+	}]
+}

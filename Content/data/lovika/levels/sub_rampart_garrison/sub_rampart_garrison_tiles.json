@@ -1,0 +1,160 @@
+{
+    "object-groups": ["sub_rampart_garrison/objectgroup"],
+
+    "tiles":[
+
+        {
+        "id": "cr_sub_garisn_hall",
+        "rotations": [90],
+        "exit-door": "exit",
+        "teleports": [
+            {
+            "door": "garrison_door_in_01",
+            "exit": "*.er_garrison_end.garrison_door_in",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            },
+            {
+            "door": "garisn_door_short_out",
+            "exit": "*.cr_sub_garisn_captain.garisn_door_short_in",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+            
+        },
+
+        {
+        "id": "cr_sub_garisn_windy_01"
+        },
+
+        {
+        "id": "cr_sub_garisn_windy_02"
+        },
+
+        {
+        "id": "cr_sub_garisn_windy_03"
+        },
+
+        {
+        "id": "cr_sub_garisn_armoury_01",
+        "rotations": [90]
+        }, 
+
+        {
+        "id": "cr_sub_garisn_armoury_02",
+        "challenges": ["garisn_clicky_02"],
+        "rotations": [90]
+        }, 
+
+        {
+        "id": "cr_sub_garisn_corner_01",
+        "rotations": [90]
+        }, 
+
+        {
+        "id": "cr_sub_garisn_corner_02",
+        "rotations": [90]
+        }, 
+
+        {
+        "id": "cr_sub_garisn_training_1",
+        "entry-door": "enter",
+        "exit-door": "exit",
+        "rotations": [90]
+        },
+        {
+        "id": "cr_sub_garisn_training_2",
+        "entry-door": "enter",
+        "exit-door": "exit",
+        "rotations": [90]
+        },
+        {
+        "id": "cr_sub_garisn_training_3",
+        "entry-door": "enter",
+        "exit-door": "exit",
+        "challenges": [ "garisn_key_01"],
+        "rotations": [90]
+        },
+
+        {
+        "id": "cr_sub_garisn_locked",
+        "entry-door": "enter",
+        "exit-door": "exit",
+        "challenges": [ "garisn_clicky_02"],
+        "rotations": [90]
+        },
+
+        {
+        "id": "cr_sub_garisn_captain",
+        "rotations": [90]
+        }
+    ],
+
+    "tile-groups":[
+        {
+        "#": "sidepath_windy",
+        "id":"sidepath_windy",
+        "tiles":[
+        "cr_sub_garisn_windy_01", 
+        "cr_sub_garisn_windy_02",
+        "cr_sub_garisn_windy_03"
+        ]
+        }
+    ],
+
+    "challenges":[		
+      
+       // {
+       // "id": "garisn_key_02",
+       // "trigger": "*.*.garisn_key_trigger_02",
+        //"consider-tiles": "all",
+       // "click": {
+              //  "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_CactiCanyon",
+               // "count": 1,
+               // "locations": [
+                //    "*.*.garisn_key_gate_02"
+              //  ],
+               // "key-locations": [
+               //     "*.cr_sub_garisn_barracks_02.garisn_key_02"
+               // ],
+               // "key-type": "gold"
+              //  }
+           // },
+
+            {
+                "id": "garisn_key_01",
+               "trigger": "*.*.garisn_clicky_trigger_01",
+                "consider-tiles": "all",
+                "click": {
+                        "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_CactiCanyon",
+                        "count": 1,
+                        "locations": [
+                            "*.*.garisn_gate_01"
+                        ],
+                       "key-locations": [
+                            "*.cr_sub_garisn_locked.garisn_button_01"
+                        ],
+                        "key-type": "Silver"
+                        }
+                    },
+        
+
+            {
+            "id": "garisn_clicky_02",
+            "trigger": "*.*.garisn_clicky_trigger_02",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR",
+                "door-path": "Decor/Prefabs/Door/BP_Door_9",
+                "count": 1,
+                "locations": [
+                    "*.*.garisn_button_02"
+                    ],
+                "locked-doors": [
+                        "*.*.garisn_gate_02"
+                        ]
+                }
+            }
+           
+    ]
+
+}

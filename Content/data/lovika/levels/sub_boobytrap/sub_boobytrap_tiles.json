@@ -1,0 +1,124 @@
+{
+	"object-groups": [
+		"sub_boobytrap/objectgroup"
+	],
+
+	"tiles": [{
+			"id": "trap_1",
+			"rotations": 180,
+			"challenges":["booby_endend_arena"],
+			"teleports": [{
+					"door": "trap_door",
+					"exit":"*.ot_temple_jungle_04.travel_booby",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+				{
+					"door": "end_door2",
+					"exit":"*.trap_6.end_door1",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		},
+		{
+			"id": "trap_2",
+			"entry-door": "enter"
+		},
+		{
+			"id": "trap_3",
+			"entry-door": "enter1"
+		},
+		{
+			"id": "trap_4",
+			"entry-door": "enter2"
+		},
+		{
+			"id": "trap_5",
+			"entry-door": "enter3"
+		},
+		{
+			"id": "trap_6",
+			"challenges":["booby_end_arena"],
+			"teleports": [{
+				"door": "end_door1",
+				"exit":"*.trap_1.end_door2",
+				"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+			}]
+		}
+	],
+
+	"challenges":[
+		{
+            "id": "booby_endend_arena",
+            "trigger": "*.*.arena_trigger",
+            "reward": {
+                "region": "*.trap_1.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time":45,
+                "prespawn-mob": "",
+                "waves": [
+							[15,"arena-mix-hard"]
+                ],
+                "gate": null
+            }
+        },
+		{
+            "id": "booby_end_arena",
+            "trigger": "*.*.arena_trigger",
+            "reward": {
+                "region": "*.trap_6.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [10,"arena-mix-hard"],
+                    [12,"arena-mix-hard"],
+                    [8,"arena-mix-hard"]
+                    
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
+                    "start-unlocked": false
+                }
+            }
+        }
+	],
+
+
+
+	"prop-groups": [{
+			"id": "pillar",
+			"props": [{
+					"id": "pillar1",
+					"weight": 1
+				},
+				{
+					"id": "pillar2",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"id": "pole",
+			"props": [{
+					"id": "pole1",
+					"weight": 1
+				},
+				{
+					"id": "pole2",
+					"weight": 1
+				}
+			]
+		}
+	]
+
+}

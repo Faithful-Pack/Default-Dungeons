@@ -1,0 +1,177 @@
+{
+    "object-groups": ["sub_misty_vista/objectgroup"], 
+    "tile-groups": [],
+    "tiles": [
+        {
+            "id": "wp_sub_mvista_entrance_01",
+            "rotations": [0, 270],
+            "teleports": [
+                {
+                    "door": "misty_vista_entrance",
+                    "exit": "*.wp_mountain_rise_02_vista.vista_enter",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+                        ]
+        },
+        
+        {
+            "id": "wp_sub_mvista_entrance_02",
+            "rotations": [0, 270],
+            "teleports": [
+                {
+                    "door": "misty_vista_entrance",
+                    "exit": "*.wp_mountain_rise_02_vista.vista_enter",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+                        ]
+        },
+
+        
+
+        {
+            "id": "wp_sub_mvista_centre_01",
+            "rotations": [0, 270],
+            "challenges": ["vista_arena_01"]
+        },
+
+        {
+            "id": "wp_sub_mvista_centre_02",
+            "rotations": [0, 270],
+            "challenges": ["vista_arena_01"]
+        }
+    ],
+
+    "challenges": [
+
+        {
+            "id": "vista_arena_01",
+            "trigger": "*.*.vista_ambush_arena_trigger",
+            "reward": {
+                "region": "*.*.vista_challenge_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+                "waves": [
+                    [6,"mountain-arena-illager-mix"],
+                    [8,"mountain-arena-illager-mix"],
+                    [10,"mountain-arena-illager-mix"],  
+                    [8,"mountain-arena-illager-mix"],
+                    [10,"mountain-arena-illager-mix"]             
+                ],
+                "gate": {
+                    "object": "Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/Mountaincave_gate/BP_MountainCaveGate",
+                    "start-unlocked": true
+                }
+            }
+        }
+    
+       /* {
+            "id": "vista_arena_01",
+            "trigger": "*.*.vista_arena_trigger_01",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [6,"mountaineer"]              
+                ],
+                "gate": null
+            }
+        },
+    
+        {
+            "id": "vista_arena_02",
+            "trigger": "*.*.vista_arena_trigger_02",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [8,"mountaineer"]                
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "vista_arena_03",
+            "trigger": "*.*.vista_arena_trigger_03",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [6,"mountaineer"]              
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "vista_arena_04",
+            "trigger": "*.*.vista_arena_trigger_04",
+            "consider-tiles": "all",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [8,"mountaineer"]              
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "vista_arena_05",
+            "trigger": "*.*.vista_arena_trigger_05",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [6,"mountaineer"]                
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "vista_arena_06",
+            "trigger": "*.*.vista_arena_trigger_06",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [8,"mountaineer"]               
+                ],
+                "gate": null
+            }
+        } */
+    
+       ]
+}

@@ -1,0 +1,52 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_mountain_cabin",
+    "resource-packs": [
+        "WindsweptPeaks"
+    ],
+    "object-groups": [
+        "sub_mountain_cabin/objectgroup"
+    ],
+    "objectives": [],
+    "stretches": [
+        {
+            "tiles": [
+                "wp_sub_mcabin_house_01"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "wp_sub_mcabin_house_01",
+            "rotations": [
+                0
+            ],
+            "##loc": "sub_mountain_cabin/sub_mountain_cabin_tiles.json"
+        },
+        {
+            "id": "wp_sub_mcabin_house_02",
+            "rotations": [
+                0
+            ],
+            "##loc": "sub_mountain_cabin/sub_mountain_cabin_tiles.json"
+        },
+        {
+            "id": "wp_sub_mcabin_basement",
+            "rotations": [
+                0
+            ],
+            "##loc": "sub_mountain_cabin/sub_mountain_cabin_tiles.json"
+        }
+    ],
+    "mob-groups": [],
+    "props": [],
+    "prop-groups": [],
+    "tile-groups": [],
+    "challenges": [],
+    "dungeons": []
+}

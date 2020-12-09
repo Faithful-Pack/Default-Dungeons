@@ -1,0 +1,557 @@
+
+{
+ "objects" : 
+ [
+  
+  {
+   "blocks" : "eNrtwQENAAAMAiD7l9Yc/4AEAAAAAAAAuKMAAAD8NAow49M=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "door_000",
+     "pos" : [ 38, 11, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_000"
+    }
+   ],
+   "height-plane" : "eNrtwQENAAAAwqD3T20ON6AAAAAAAACAHwMb4gAB",
+   "id" : "lf_start",
+   "is-leaky" : false,
+   "pos" : [ 154, 32, -197 ],
+   "region-plane" : "eNrtwQENAAAAwqD3T20ON6AAAAAAAACAHwMb4gAB",
+   "region-y-plane" : "eNrtwQENAAAAwqD3T20ON6AAAAAAAACAHwMb4gAB",
+   "regions" : 
+   [
+    
+    {
+     "name" : "playerspawn",
+     "pos" : [ 40, 7, 44 ],
+     "size" : [ 6, 1, 6 ],
+     "tags" : "playerspawn",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 86, 1, 83 ],
+   "tags" : "lf_start",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwQENAAAMAiD7l9Yc/4AEAIBrCvDWAAXA3Vs=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_000",
+     "pos" : [ 20, 11, 49 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_000"
+    },
+    
+    {
+     "name" : "door_001",
+     "pos" : [ 20, 11, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_001"
+    }
+   ],
+   "height-plane" : "eNrtwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==",
+   "id" : "lf_entrance_hall",
+   "is-leaky" : false,
+   "pos" : [ 172, 32, -252 ],
+   "region-plane" : "eNrtwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==",
+   "region-y-plane" : "eNrtwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==",
+   "size" : [ 50, 1, 50 ],
+   "tags" : "lf_entrance_hall",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwQENAAAMAiD7l9Yc/4AEAIBrCvDWAAXA3Vs=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_001",
+     "pos" : [ 20, 11, 49 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_001"
+    },
+    
+    {
+     "name" : "door_004",
+     "pos" : [ 23, 19, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_004"
+    },
+    
+    {
+     "name" : "door_002",
+     "pos" : [ 0, 11, 20 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "door_002"
+    },
+    
+    {
+     "name" : "door_003",
+     "pos" : [ 49, 11, 20 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "door_003"
+    }
+   ],
+   "height-plane" : "eNrtwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==",
+   "id" : "lf_foyer",
+   "is-leaky" : false,
+   "pos" : [ 172, 32, -307 ],
+   "region-plane" : "eNrtwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==",
+   "region-y-plane" : "eNrtwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==",
+   "size" : [ 50, 1, 50 ],
+   "tags" : "lf_foyer",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAMAiD7l9YSO3YACQAAwE8FgEMDaZ1SAw==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_002",
+     "pos" : [ 55, 11, 24 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "enter_002"
+    }
+   ],
+   "height-plane" : "eNrtwTEBAAAAwqD1T20ND6AAAAA+DQywAAE=",
+   "id" : "lf_music",
+   "is-leaky" : false,
+   "pos" : [ 107, 32, -311 ],
+   "region-plane" : "eNrtwTEBAAAAwqD1T20ND6AAAAA+DQywAAE=",
+   "region-y-plane" : "eNrtwTEBAAAAwqD1T20ND6AAAAA+DQywAAE=",
+   "size" : [ 56, 1, 58 ],
+   "tags" : "lf_music",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwQEBAAAIAiD/n9YfBSQAXFB4YKFO5Tc=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_004",
+     "pos" : [ 34, 19, 30 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_004"
+    },
+    
+    {
+     "name" : "door_005",
+     "pos" : [ 28, 42, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_005"
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMBwAAAXQAAE=",
+   "id" : "lf_staircase_01",
+   "is-leaky" : false,
+   "pos" : [ 161, 32, -344 ],
+   "region-plane" : "eNpjYBgFo2AUjIJRMBwAAAXQAAE=",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMBwAAAXQAAE=",
+   "size" : [ 48, 1, 31 ],
+   "tags" : "lf_staircase_01",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNpjYBgFo2AUjIJRMIjA/1EwCoYH+AAABi/JRA==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_003",
+     "pos" : [ 0, 11, 22 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "enter_003"
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMIgAAAWXAAE=",
+   "id" : "lf_drawing_room",
+   "is-leaky" : false,
+   "pos" : [ 231, 32, -307 ],
+   "region-plane" : "eNpjYBgFo2AUjIJRMIgAAAWXAAE=",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMIgAAAWXAAE=",
+   "size" : [ 27, 1, 53 ],
+   "tags" : "lf_drawing_room",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNpjYBgFRIH/gxB8AAB/jZRd",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_temp",
+     "pos" : [ 0, 10, 1 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "enter_temp"
+    },
+    
+    {
+     "name" : "door_temp",
+     "pos" : [ 26, 10, 1 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "door_temp"
+    }
+   ],
+   "height-plane" : "eNpjYBgFRAEAASkAAQ==",
+   "id" : "temp_corridor",
+   "is-leaky" : false,
+   "pos" : [ 231, 32, -250 ],
+   "region-plane" : "eNpjYBgFRAEAASkAAQ==",
+   "region-y-plane" : "eNpjYBgFRAEAASkAAQ==",
+   "size" : [ 27, 1, 11 ],
+   "tags" : "temp_corridor",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAIA6D1T2sDV8LDA0gAAAAAAAAAAAAAAAAAXlkAAAAAAAC4MQVMNWL8",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_006",
+     "pos" : [ 22, 44, 90 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_006"
+    },
+    
+    {
+     "name" : "door_007",
+     "pos" : [ 22, 44, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_007"
+    }
+   ],
+   "height-plane" : "eNrtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAArgw09wAB",
+   "id" : "lf_bridge_01",
+   "is-leaky" : false,
+   "pos" : [ 167, 32, -491 ],
+   "region-plane" : "eNrtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAArgw09wAB",
+   "region-y-plane" : "eNrtwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAArgw09wAB",
+   "size" : [ 149, 1, 91 ],
+   "tags" : "lf_bridge_01",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAIA6D1T2sDF8NDIAEAAAAAAAAAAAB4bwEAAAAArk0B8XaWdA==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_007",
+     "pos" : [ 21, 44, 70 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_007"
+    },
+    
+    {
+     "name" : "door_008",
+     "pos" : [ 66, 34, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_008"
+    }
+   ],
+   "height-plane" : "eNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAAADcGylTAAE=",
+   "id" : "lf_bridge_view_blocker",
+   "is-leaky" : false,
+   "pos" : [ 168, 32, -615 ],
+   "region-plane" : "eNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAAADcGylTAAE=",
+   "region-y-plane" : "eNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAAADcGylTAAE=",
+   "size" : [ 149, 1, 71 ],
+   "tags" : "lf_bridge_view_blocker",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAIA6D1T2sDV8HDE0gAAJ4twNEUjhgs/Q==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_008",
+     "pos" : [ 24, 34, 38 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_008"
+    },
+    
+    {
+     "name" : "door_009",
+     "pos" : [ 24, 34, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_009"
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMApGwSigMgAACGEAAQ==",
+   "id" : "lf_courtyard_02",
+   "is-leaky" : false,
+   "pos" : [ 210, 32, -656 ],
+   "region-plane" : "eNpjYBgFo2AUjIJRMApGwSigMgAACGEAAQ==",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMApGwSigMgAACGEAAQ==",
+   "size" : [ 55, 1, 39 ],
+   "tags" : "lf_courtyard_02",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwUERAAAIA6D1T2sD18KHByQAAADwygIAN6bKh27l",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_009",
+     "pos" : [ 24, 34, 66 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_009"
+    },
+    
+    {
+     "name" : "door_010",
+     "pos" : [ 24, 34, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_010"
+    }
+   ],
+   "height-plane" : "eNrtwQENAAAAwqD3T20PBxQAAABcGQ7rAAE=",
+   "id" : "lf_library",
+   "is-leaky" : false,
+   "pos" : [ 210, 32, -726 ],
+   "region-plane" : "eNrtwQENAAAAwqD3T20PBxQAAABcGQ7rAAE=",
+   "region-y-plane" : "eNrtwQENAAAAwqD3T20PBxQAAABcGQ7rAAE=",
+   "size" : [ 57, 1, 67 ],
+   "tags" : "lf_library",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwUERAAAIA6D1T2sD18KHByQAAADwygIAN6bKh27l",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_010",
+     "pos" : [ 24, 34, 66 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_010"
+    },
+    
+    {
+     "name" : "door_011",
+     "pos" : [ 24, 34, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_011"
+    }
+   ],
+   "height-plane" : "eNrtwQENAAAAwqD3T20PBxQAAABcGQ7rAAE=",
+   "id" : "lf_library_02",
+   "is-leaky" : false,
+   "pos" : [ 210, 32, -815 ],
+   "region-plane" : "eNrtwQENAAAAwqD3T20PBxQAAABcGQ7rAAE=",
+   "region-y-plane" : "eNrtwQENAAAAwqD3T20PBxQAAABcGQ7rAAE=",
+   "size" : [ 57, 1, 67 ],
+   "tags" : "lf_library_02",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAIA6D1T2sDV8HDE0gAAJ4twNEUjhgs/Q==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_011",
+     "pos" : [ 24, 35, 38 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_011"
+    },
+    
+    {
+     "name" : "door_012",
+     "pos" : [ 24, 35, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_012"
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMApGwSigMgAACGEAAQ==",
+   "id" : "lf_courtyard_03",
+   "is-leaky" : false,
+   "pos" : [ 210, 32, -866 ],
+   "region-plane" : "eNpjYBgFo2AUjIJRMApGwSigMgAACGEAAQ==",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMApGwSigMgAACGEAAQ==",
+   "size" : [ 55, 1, 39 ],
+   "tags" : "lf_courtyard_03",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAMAiD7l9YOO3YBCQAAAAAAwJ8CAACcDN+PQmc=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "door_013",
+     "pos" : [ 48, 45, 0 ],
+     "size" : [ 8, 1, 1 ],
+     "tags" : "door_013"
+    },
+    
+    {
+     "name" : "enter_012",
+     "pos" : [ 2, 36, 69 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_012"
+    }
+   ],
+   "height-plane" : "eNrtwTEBAAAAwqD1T20LL6AAAAAAAAB+BhicAAE=",
+   "id" : "lf_courtyard_04",
+   "is-leaky" : false,
+   "pos" : [ 231, 32, -952 ],
+   "region-plane" : "eNrtwTEBAAAAwqD1T20LL6AAAAAAAAB+BhicAAE=",
+   "region-y-plane" : "eNrtwTEBAAAAwqD1T20LL6AAAAAAAAB+BhicAAE=",
+   "size" : [ 90, 1, 70 ],
+   "tags" : "lf_courtyard_04",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAAwqD1T20JT6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4GNzLAAB",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_013",
+     "pos" : [ 89, 53, 90 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_013"
+    },
+    
+    {
+     "name" : "door_014",
+     "pos" : [ 89, 53, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_014"
+    }
+   ],
+   "height-plane" : "eNrtwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAPgNMyAAB",
+   "id" : "lf_bridge_02",
+   "is-leaky" : false,
+   "pos" : [ 189, 24, -1053 ],
+   "region-plane" : "eNrtwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAPgNMyAAB",
+   "region-y-plane" : "eNrtwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAAAAPgNMyAAB",
+   "size" : [ 216, 1, 91 ],
+   "tags" : "lf_bridge_02",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwQENAAAMAiD7l9Yc/4AEAAAAAAAAAAAAAAAAAACACwoAAAAAAAAADw0QDvKz",
+   "doors" : 
+   [
+    
+    {
+     "name" : "door_15",
+     "pos" : [ 67, 52, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_15"
+    },
+    
+    {
+     "name" : "enter_015",
+     "pos" : [ 71, 45, 111 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_015"
+    },
+    
+    {
+     "name" : "enter_016",
+     "pos" : [ 0, 45, 52 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "enter_016"
+    },
+    
+    {
+     "name" : "enter_014",
+     "pos" : [ 141, 45, 52 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "enter_014"
+    }
+   ],
+   "height-plane" : "eNrtwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAB4MD4gAAE=",
+   "id" : "lf_gallery",
+   "is-leaky" : false,
+   "pos" : [ 236, 32, -1167 ],
+   "region-plane" : "eNrtwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAB4MD4gAAE=",
+   "region-y-plane" : "eNrtwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAB4MD4gAAE=",
+   "size" : [ 142, 1, 112 ],
+   "tags" : "lf_gallery",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwQENAAAMAiD7l9Ya3wckAMAVBV4YbgbIYg==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_017",
+     "pos" : [ 9, 52, 71 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_017"
+    },
+    
+    {
+     "name" : "door_016",
+     "pos" : [ 9, 52, 0 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "door_016"
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMApGwWABAAeYAAE=",
+   "id" : "lf_gallery_02",
+   "is-leaky" : false,
+   "pos" : [ 294, 32, -1247 ],
+   "region-plane" : "eNpjYBgFo2AUjIJRMApGwWABAAeYAAE=",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMApGwWABAAeYAAE=",
+   "size" : [ 27, 1, 72 ],
+   "tags" : "lf_gallery_02",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtwTEBAAAIA6D1T2sDF8LDB0gAAN4swMUUJqJB6A==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter_018",
+     "pos" : [ 9, 52, 80 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "enter_018"
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMApGwSgYMAAACIsAAQ==",
+   "id" : "lf_throne_room",
+   "is-leaky" : false,
+   "pos" : [ 294, 32, -1333 ],
+   "region-plane" : "eNpjYBgFo2AUjIJRMApGwSgYMAAACIsAAQ==",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMApGwSgYMAAACIsAAQ==",
+   "size" : [ 27, 1, 81 ],
+   "tags" : "lf_throne_room",
+   "y" : 0
+  }
+ ]
+}

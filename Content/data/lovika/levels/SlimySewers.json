@@ -1,0 +1,698 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "SlimySewers",
+    "require-matching-doors": false,
+    "object-groups": [
+        "SlimySewers/objectgroup"
+    ],
+    "resource-packs": [
+        "SlimySewers"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 1,
+    "mob-groups": [
+        {
+            "#": "============== PUMPKIN MIX ==============",
+            "id": "pumpkin-mix",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.3,
+                    "max": 4
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.5,
+                    "max": 7
+                },
+                {
+                    "type": "evoker",
+                    "weight": 0.2,
+                    "max": 2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.2,
+                    "max": 2
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max": 3
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== PUMPKIN MIX ==============",
+            "id": "pumpkin-casters",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "evoker",
+                    "weight": 0.5,
+                    "max": 2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.5,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== RANDOM ARENA ==============",
+            "id": "random-arena",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "evoker",
+                    "weight": 0.5,
+                    "max": 2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.5,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== ILLAGER EVOKER ==============",
+            "id": "illagerevoker-group",
+            "types": [
+                {
+                    "type": "evoker",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 3,
+                    "min": 1
+                }
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== ILLAGER ENCHANTER ==============",
+            "id": "illagerenchanter-group",
+            "types": [
+                {
+                    "type": "enchanter",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 3,
+                    "min": 1
+                }
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== ILLAGER DUO ENCHANTER ==============",
+            "id": "illagerenchanter-duo-group",
+            "types": [
+                {
+                    "type": "enchanter",
+                    "weight": 1,
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 3,
+                    "min": 2
+                }
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== MINIARENA SINGLES ==============",
+            "id": "miniarena-singles",
+            "types": [
+                {
+                    "type": "pillager",
+                    "weight": 1,
+                    "min": 1
+                },
+                {
+                    "type": "vindicator",
+                    "weight": 1,
+                    "min": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1,
+                    "min": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                3
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== VINDICATOR GROUP ==============",
+            "id": "vindicator-group",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "min": 1
+                }
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "============== SPIDER GROUP ==============",
+            "id": "spiders",
+            "types": [
+                {
+                    "type": "spider",
+                    "min": 1
+                }
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        }
+    ],
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "pumpkin-mix",
+            {
+                "id": "pumpkin-casters",
+                "weight": 0.5
+            }
+        ]
+    },
+    "#tg": "SlimySewers",
+    "tiles": [
+        {
+            "id": "sls_start",
+            "rotations": 0,
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "grandroom001",
+            "rotations": [
+                0,
+                270
+            ],
+            "challenges": [
+                "miniarena_noloot"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "stairs001",
+            "rotations": [
+                0,
+                270
+            ],
+            "entry-door": "enter",
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "sls_inventory001",
+            "rotations": [
+                0,
+                90
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "outdoor_entrance001",
+            "rotations": 0,
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "outdoor_start",
+            "rotations": 0,
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "cinematic1",
+            "rotations": 0,
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "cinematic2",
+            "entry-door": "enter",
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "cinematic_start",
+            "rotations": 0,
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "outdoor_caveentrance001",
+            "rotations": 0,
+            "entry-door": "enter",
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "sls_arena001",
+            "entry-door": "enter",
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "sls_clicky001",
+            "entry-door": "enter",
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "sls_sidepath_clicky001",
+            "challenges": [
+                "sidepath_clicky001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "sls_sidepath_arena001",
+            "challenges": [
+                "sidepath_arena001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "miniarena001",
+            "challenges": [
+                "miniarena_noloot"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        }
+    ],
+    "tile-groups": [
+        {
+            "#": "Start",
+            "id": "start",
+            "tiles": [
+                "sls_start"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "OutdoorStart",
+            "id": "outdoor_start",
+            "tiles": [
+                "outdoor_start"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "CaveEntrance",
+            "id": "outdoor_cave",
+            "tiles": [
+                "outdoor_caveentrance001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "StartHallway",
+            "id": "start_hallway",
+            "tiles": [
+                "tile_start001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "OutdoorEntrance",
+            "id": "outdoor_entrance",
+            "tiles": [
+                "outdoor_entrance001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "GrandRoom",
+            "id": "grandroom",
+            "tiles": [
+                "grandroom001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Stairs",
+            "id": "stairs",
+            "tiles": [
+                "stairs001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "hallway",
+            "id": "hallway",
+            "tiles": [
+                "tile001",
+                "tile002",
+                "tile003"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "hallwaysidepath",
+            "id": "hallwaysidepath",
+            "tiles": [
+                "miniarena001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "hallwaycrossroad",
+            "id": "hallwaycrossroad",
+            "tiles": [
+                "tile003"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "End",
+            "id": "end",
+            "tiles": [
+                "sls_end"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Inventory",
+            "id": "inventory",
+            "tiles": [
+                "sls_inventory001",
+                "tile001",
+                "tile002"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Tiles",
+            "id": "tiles",
+            "tiles": [
+                "sls_tile001",
+                "sls_tile002",
+                "sls_tile003",
+                "sls_tile004",
+                "sls_tile005",
+                "sls_tile006",
+                "sls_tile007",
+                "sls_tile008",
+                "sls_tile009"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Objectives",
+            "id": "objectives",
+            "tiles": [
+                "sls_arena001",
+                "sls_clicky001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Plaza",
+            "id": "plaza1",
+            "tiles": [
+                "sls_plaza001",
+                "sls_plaza002",
+                "sls_plaza003"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Plaza2",
+            "id": "plaza2",
+            "tiles": [
+                "sls_plaza_large001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Sidepath",
+            "id": "sidepath",
+            "tiles": [
+                "sls_tile001",
+                "sls_tile002",
+                "sls_tile003"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Minisidepath",
+            "id": "minisidepath",
+            "tiles": [
+                "sls_minisidepath001",
+                "sls_minisidepath002"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "Sidepath2",
+            "id": "sidepath2",
+            "tiles": [
+                "sls_tile001",
+                "sls_tile002",
+                "sls_tile003",
+                "sls_tile004",
+                "sls_tile005",
+                "sls_tile006",
+                "sls_tile007",
+                "sls_tile008",
+                "sls_tile009",
+                "sls_sidepath_arena001",
+                "sls_sidepath_clicky001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "SidepathChallenge",
+            "id": "sidepathchallenge",
+            "tiles": [
+                "sls_tile005",
+                "sls_tile008",
+                "sls_tile009",
+                "sls_sidepath_arena001",
+                "sls_sidepath_clicky001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "#": "PlazaChallenge",
+            "id": "plazachallenge",
+            "tiles": [
+                "sls_plaza001",
+                "sls_plaza002",
+                "sls_plaza003",
+                "sls_sidepath_arena001",
+                "sls_sidepath_clicky001"
+            ],
+            "##loc": "slimysewers/slimysewers.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "cinematic1"
+            ]
+        },
+        {
+            "tiles": [
+                "cinematic2"
+            ]
+        },
+        {
+            "tiles": [
+                "cinematic3"
+            ]
+        }
+    ],
+    "objectives": [
+        {
+            "name": "name_level_placeholder",
+            "description": "description_find_the_secret_exit",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.goal"
+            }
+        }
+    ],
+    "challenges": [
+        {
+            "id": "sidepath_clicky001",
+            "trigger": "*.*.challenge",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "click": {
+                "object": "Decor/Prefabs/CapturedVillager/BP_CapturedVillager",
+                "count": 2,
+                "locations": [
+                    "*.*.clicky1",
+                    "*.*.clicky2"
+                ]
+            },
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "sidepath_arena001",
+            "trigger": "*.*.challenge",
+            "reward": {
+                "object": "Decor/Prefabs/RewardChest/BP_EmeraldChest_Reward"
+            },
+            "arena": {
+                "prespawn-mob": "",
+                "stretch": "*",
+                "interval": 20,
+                "rest-interval": 4,
+                "start-time": 2,
+                "waves": [
+                    [
+                        1,
+                        "pumpkin-casters"
+                    ]
+                ]
+            },
+            "##loc": "slimysewers/slimysewers.json"
+        },
+        {
+            "id": "miniarena_noloot",
+            "trigger": "*.*.challenge",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_EmeraldChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "miniarena-singles"
+                    ],
+                    [
+                        1,
+                        "miniarena-singles"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/ArenaEye/BP_ArenaEye",
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "slimysewers/slimysewers.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "deadend",
+            "props": [
+                {
+                    "id": "deadend001",
+                    "weight": 1
+                },
+                {
+                    "id": "sls_deadendmini001",
+                    "weight": 1
+                },
+                {
+                    "id": "corridor_deadend001",
+                    "weight": 1
+                },
+                {
+                    "id": "corridor_deadend003",
+                    "weight": 1
+                },
+                {
+                    "id": "corridor_deadend002",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "plaza_prop",
+            "props": [
+                {
+                    "id": "sls_plaza_prop001",
+                    "weight": 1
+                },
+                {
+                    "id": "sls_plaza_prop002",
+                    "weight": 1
+                },
+                {
+                    "id": "sls_plaza_prop004",
+                    "weight": 1
+                },
+                {
+                    "id": "sls_plaza_prop003",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "ambience_default",
+            "props": [
+                {
+                    "id": "outdoor_entrance001",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "dungeons": []
+}

@@ -1,0 +1,377 @@
+
+{
+    "id": "DesertTemple",
+    "resource-packs": [
+        "DesertTemple"
+    ],
+
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 0.5,
+    "mob-files": [
+        "DesertTemple/mobs.json"
+    ],
+    "#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "zombie-husk",
+            "zombie-skeleton-spider",
+            {"id": "undead-guard", "weight": 0.5},
+            "spider-skeleton-trap",
+            {"id": "dt-default-mix", "weight": 3}
+        ],
+        "density": 0.8
+    },
+   "tile-files": [
+        "DesertTemple/tiles.json",
+        "RuneRoom/rr_tiles.json"
+    ],
+    "objectives": [
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_find_the_necromancers_tomb",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "objective.*.objective"
+            }        
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_find_the_gold_key",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "objective.*.silverdoor"
+                ],
+                "key-locations": [
+                    "objective.*.silverkey"
+                ],
+                "key-type": "gold",
+                "mobs": [1, "nameless-guards"],
+                "mob-stretch": "objective"
+            }
+        },
+        /*{
+            "name": "name_the_nameless_kingdom",
+            "description": "description_raise_the_forward_platform",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_Platform",
+                "count": 1,
+                "locations": [
+                    "objective.*.click1"
+                ],
+                "locked-doors": [
+                    "objective.*.gate"
+                ]
+            }
+        },*/
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_find_the_necromancers_tomb",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "arena.*.objective"
+            }        
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_survive_the_incoming_horde",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "arena",
+                "interval": 20,
+                "rest-interval": 3,
+                "waves": [
+                    [15, "zombie-horde"],
+                    [15, "zombie-skeleton-spider"],
+                    [15, "undead-assault"],
+                    [10, "undead-guard"]
+                ]
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_reach_the_tomb_of_the_necromancer",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "end.*.objective"
+            }     
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_fetch_the_staff_of_the_slumbering_necromancer",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/NamelessKingInteractable/BP_NamelessKingInteractable",
+                "count": 1,
+                "locations": [
+                    "end.*.king"
+                ]
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_defeat_the_nameless_one",
+            "arena": {
+                "stretch": "end",
+                "gate":{"start-unlocked": false},
+                "interval": 0.1,
+                "rest-interval": 0.1,
+                "start-time": 7.0,
+                "prespawn-mob": "",
+                "spawn-effects-pack": "nameless",
+				"is-boss": true,
+                "waves": [
+                    [1, "nameless-guards"],
+                    [1, "namelessking-solo"]
+                ]
+            },
+            "sound": {
+                "track": {
+					"object": "Decor/Prefabs/04_bgm_mob_boss/bgm_mob_deteBossNamelessKing"
+                },
+                "completed-track": {
+                    "object": "Decor/Prefabs/04_bgm_env_arena/bgm_env_arenaEnd"
+                }
+            }
+        },
+        {
+            "name": "name_the_nameless_kingdom",
+            "description": "description_escape_the_nameless_kingdom",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_DT",
+                "count": 1,
+                "locations": [
+                    "exit02.*.doorexit"
+                ]
+            }
+        }
+    ],
+    "stretches": [
+        {
+            "id": "start",
+            "tile-groups": ["start"],
+            "visual-theme": "cave_dark",
+            "mobs": { "density": 0 }
+            
+        },
+        {
+            "id": "",
+            "tile-groups": ["common"],
+            "length": 2,
+            "mobs": {
+                "not": ["necromancer-group", "dt-default-mix"]
+            }
+        },
+         {
+            "tile-groups": ["trial_tiled_b"],
+            "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+            "length": 1,
+            "side-paths": {
+                "probability": 2,
+                "default": {
+                        "max-length": [1, 3],
+                        "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                        "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "max-length": [1, 3],
+                    },
+                    {
+                        "weight": 0.6,
+                        "max-length": [1, 3],
+                        "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                        "tile-groups": ["commonsidepaths"]
+                    },
+                    {
+                        "weight": 0.2,
+                        "max-length": [1, 4],
+                        "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                        "tile-groups": ["trial_tiled_b"]
+                    }
+                ]
+                }
+        },
+        {
+            "tile-groups": ["common"],
+            "length": 3
+        },
+        {
+            "id": "trapintro",
+            "tile-groups": ["traptiles1"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["inventory01"],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "objective",
+            //"tile-groups": ["Objective001"],
+			"tile-groups": ["GDC_Objective001"]
+        },
+        {
+            "id": "",
+            "tile-groups": ["bathtrans"],
+            "visual-theme": "cave_dark"
+        },
+		/*{
+            "id": "passage1",
+            "tiles": ["dt_passage_001"],
+            "visual-theme": "cave_dark"
+        },*/
+		/*{
+            "id": "passage1_1",
+            "tile-groups": ["tiny_procedural"],
+			"length": 3,
+            "visual-theme": "cave_dark",
+			"side-paths": {
+				"probability": 0.9,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["dt_deadend_tiny"],
+					"tile-groups": ["tiny_procedural"]
+				}	
+			}
+        },
+		{
+            "id": "passage1_2",
+            "tiles": ["dt_tiny_secret"],
+			"length": 1,
+            "visual-theme": "cave_dark",
+			"side-paths": {
+				"probability": 0.9,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["dt_deadend_tiny"],
+					"tile-groups": ["tiny_procedural"]
+				}	
+			}
+        },
+		{
+            "id": "passage1_3",
+            "tile-groups": ["tiny_procedural"],
+			"length": 3,
+            "visual-theme": "cave_dark",
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["dt_deadend_tiny"],
+					"tile-groups": ["tiny_procedural"]
+				}	
+			}
+        },*/
+        {
+            "id": "",
+            "tile-groups": ["bath"],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "only": ["necromancer-group"]
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": ["bath"],
+            "length": 4,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["deadlytraps"],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "passage2",
+            "tiles": ["dt_passage_002"],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "arena",
+            "tile-groups": ["arena"],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["inventory01"],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["deadlytraps"],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["common"],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "pool",
+            "tile-groups": ["pool"],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "end",
+            "tile-groups": ["end"],
+			"audio-ambience": "audio_3",
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "exit01",
+            "tile-groups": ["exit01"],
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "exit02",
+            "tile-groups": ["exit02"],
+            "visual-theme": "cave_dark"
+        }
+    ],
+
+
+    "side-paths": {
+                "probability": 0.35,
+                "default": {
+
+                    "max-length": [1, 3],
+                    "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                    "tile-groups": ["commonsidepaths"]
+                },
+                "variants": [
+                    {
+                        "max-length": [1, 3],
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [1, 4],
+                        "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                        "tile-groups": ["trial_tiled_b"]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [2, 4],
+                        "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                        "tile-groups": ["trial_tiled_b"]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [1, 3],
+                        "dead-ends": ["trial_bath_deadend001","trial_bath_deadend002","trial_bath_deadend003","trial_bath_deadend004","trial_bath_deadend005"],
+                        "tile-groups": ["trial_bath"]
+                    }
+                ]
+    }
+}

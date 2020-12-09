@@ -1,0 +1,88 @@
+{
+	"object-groups": [
+		"sub_panda_temp/objectgroup"
+	],
+
+	"tiles": [
+		{
+			"id": "panda_1",
+			"rotations": [0],
+			"challenges": ["panda_clicky"],
+			"teleports" : [
+				{
+					"door":"temple_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+				{
+					"door": "inner_gate_entrance",
+					"exit":"*.panda_2.inner_gate_exit",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		},
+
+		{
+			"id": "panda_2",
+			"teleports" : [
+				{
+					"door": "inner_gate_exit",
+					"exit":"*.panda_1.inner_gate_entrance",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		}
+	],
+
+	"challenges": [
+		{
+			"id": "panda_clicky",
+			"trigger": "*.panda_1.panda_click",
+			"click": {
+				"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Bamboo",
+				"door-path": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
+				"count": 2,
+				"locations": [
+					"*.panda_1.button",
+				],
+				"locked-doors": [
+					"*.panda_1.gate"
+				]
+			}
+		},
+
+	],
+	"props": [
+		{
+			"id": "panda1",
+			"rotations": [180]
+		}, 
+		{
+			"id": "panda2",
+			"rotations": [180]
+		}, 
+		{
+			"id": "panda3",
+			"rotations": [180]
+		}, 
+		],
+	"prop-groups": [
+		{
+			"id": "panda",
+			"props": [
+				{
+					"id": "panda1",
+					"weight": 0.4
+				},
+				{
+					"id": "panda2",
+					"weight": 0.3
+
+				},
+				{
+					"id": "panda3",
+					"weight": 0.3
+				}
+			]
+		}
+	]
+}

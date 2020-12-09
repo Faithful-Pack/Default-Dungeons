@@ -1,0 +1,80 @@
+{
+	"object-groups": ["sub_staff/objectgroup"],
+	
+	"tile-groups": [{
+		"id": "staff_sidepath",
+		"tiles": ["staff_end_alt", "staff_end" ]
+	}],
+	"tiles": [
+		{
+			"id": "staff_start",
+			"rotations": [90],
+			"teleports": [
+				{
+					"door": "staff_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		},
+		{
+			"id": "staff_end",
+			"challenges": ["staff_arena"]
+		},
+		{
+			"id": "staff_end_alt",
+			"challenges": ["staff_arena_alt"]
+		}
+	],
+
+	"challenges": [
+		{
+			"id": "staff_arena",
+			"trigger": "*.staff_end.arena_1",
+			"reward": {
+				"region": "*.staff_end.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 10,
+				"rest-interval": 2,
+				"start-time": 0,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[3, "arena-mix"],
+					[6, "staff-mix"],
+					[8, "staff-mix"],
+					[10, "staff-mix"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+					"start-unlocked": true,
+					"regions": ["*.staff_end.gate_1"]
+				}
+			}
+		},
+
+		{
+			"id": "staff_arena_alt",
+			"trigger": "*.staff_end_alt.arena_2",
+			"arena": {
+				"stretch": "",
+				"interval": 10,
+				"rest-interval": 2,
+				"start-time": 0,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[3, "arena-mix"],
+					[6, "staff-mix"],
+					[8, "staff-mix"],
+					[10, "staff-mix"]
+				],
+			"gate": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+					"start-unlocked": true,
+					"regions": ["*.staff_end_alt.gate_1", "*.staff_end_alt.gate_2", "*.staff_end_alt.gate_3"]
+			}
+			}
+		}
+	]
+}

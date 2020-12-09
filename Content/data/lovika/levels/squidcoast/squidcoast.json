@@ -1,0 +1,299 @@
+{
+	"id": "SquidCoast",
+    "play-intro" : true,
+    "require-matching-doors": false,
+	"resource-packs": [
+		"SquidCoast"
+	],
+    "object-groups": [
+        "lobby/objectgroup"
+    ],
+
+	"visual-theme": "cave",
+	"sound-theme": "cave",
+	"prop-density": 0.5,
+    "character-loadout": "TutorialLoadout",
+	"mob-files": [
+        "SquidCoast/sq_mobs.json"
+    ],
+    "#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+        	"pumpkin-mix",
+			{"id": "pumpkin-casters", "weight": 0.5}
+        ],
+		"density": 1.0
+    },
+    "tile-files": [
+        "SquidCoast/sq_tiles.json",
+        "RuneRoom/rr_tiles.json"
+    ],
+	"objectives": [
+        {
+            "id": "squid_coast_playerstart",
+            "name": "name_a_cry_for_heroes",
+            "description": "description_go_to_the_village",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "start.*.objective"
+            }
+        },
+        {
+            "id": "squid_coast_zombie",
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_zombie!",
+            "killgroup": {
+                "mobs": [1, "single-zombie"],
+                "reward": [1, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_spawn001"
+                ],
+                "gate": {
+                    "regions": ["*.*.kg_gate001"],
+                    "object" : "Decor/Prefabs/Door/BP_BarricadeDoor_Flipped",
+                },
+                "marker-region": "*.*.kg_gate001"
+            }
+        },
+        {
+            "id": "squid_coast_zombie_defeated",
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            "displayMode": "SubObjective",
+            "killgroup": {
+                "mobs": [1, "single-zombie"],
+                "reward": [1, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_spawn002"
+                ],
+                "gate": {
+                    "regions": ["*.*.kg_gate002"],
+                    "object" : "Decor/Prefabs/Door/BP_BarricadeDoor_Flipped",
+                },
+                "marker-region": "*.*.kg_gate002"
+            }
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            "displayMode": "SubObjective",
+            "killgroup": {
+                "mobs": [3, "single-zombie"],
+                "reward": [2, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_spawn003"
+                ],
+                "gate": {
+                    "regions": ["*.*.kg_gate003"],
+                    "object" : "Decor/Prefabs/Door/BP_BarricadeDoor_Flipped",
+                },
+                "marker-region": "*.*.kg_gate003"
+            }
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            /*"displayMode": "MainObjective",*/
+            "gauntlet": {
+                "end-region": "*.*.bridge",
+                "marker-region": "*.*.bridge" 
+            },
+        },
+        {
+            "id":"squid_coast_shoot_skeleton",
+            "name": "name_a_cry_for_heroes",
+            "description": "description_shoot_the_skeleton_guard",
+            "meta": ["spawn-arrows *.*.spawn_arrow01"],
+            "killgroup": {
+                "mobs": [1, "single-skeleton"],
+                "spawn-regions": [
+                    "*.*.kg_skeleton_spawn01"
+                ],
+                "reward": [1, "emerald"],
+                "gate": {
+                    "regions": ["*.*.kg_skeleton_gate01"],
+                    "object" : "Decor/Prefabs/Door/BP_BarricadeDoor_Flipped",
+                },
+                "marker-region": "*.*.kg_skeleton_gate01"
+            }
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            "displayMode": "SubObjective",
+            "gauntlet": {
+                "end-region": "*.*.gauntletbridge2",
+                "marker-region": "*.*.gauntletbridge2"
+            }, 
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            /*"displayMode": "MainObjective",*/
+            "gauntlet": {
+                "end-region": "*.*.illagers",
+                "marker-region": "*.*.illagers"
+            },     
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            "killgroup": {
+                "mobs": [2, "vindicators"],
+                "reward": [5, "emerald"],
+                "spawn-regions": [
+                    "*.*.kg_illager_spawn"
+                ],
+                "gate": {
+                    "regions": ["*.*.kg_illager_gate"],
+                    "object" : "Decor/Prefabs/Door/BP_BarricadeDoor",
+                },
+                "marker-region": "*.*.kg_illager_gate"
+            }
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_secure_the_inner_gate",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "arena.*.arenastart"
+            }
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_survive_the_ambush!",
+            "displayMode": "MainObjective",
+            "meta": ["level-up 2"],
+            "arena": {
+                "stretch": "arena",
+                "interval": 20,
+                "rest-interval": 1.5,
+                /*"start-time": 2.0,*/
+                "waves": [
+                    [2, "vindicators"],
+                    [2, "vindicators"]
+                ]
+            }
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            "killgroup": {
+                "mobs": [2, "vindicators"],
+                "reward": [1, "FireworksArrowItem"],
+                "spawn-regions": [
+                    "*.*.kg_illager_spawn02"
+                ],
+                "gate": {
+                    "regions": ["*.*.kg_illager_gate02"],
+                    //"object" : "Decor/Prefabs/Door/BP_BarricadeDoor",
+                }
+            }
+        },
+         {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            "displayMode": "SubObjective",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_DoorLever",
+                "count": 1,
+                "locations": [
+                    "*.*.lever"
+                ],
+                "locked-doors": [
+                    "*.*.lever_gate"
+                ]
+            }
+        },
+        {
+            "id": "squid_coast_fireworks_arrow_found",
+            "name": "name_a_cry_for_heroes",
+            "description": "description_defeat_the_invaders",
+            /*"displayMode": "MainObjective",*/
+            "gauntlet": {
+                "end-region": "*.*.reach_skellie"
+            }
+        },
+        {
+            //"id":"shoot_skeleton",
+            "name": "name_a_cry_for_heroes",
+            "description": "description_shoot_the_skeleton_guard",
+            "meta": ["spawn-arrows *.*.spawn_arrow02"],
+            "killgroup": {
+                "mobs": [1, "single-skeleton"],
+                "spawn-regions": [
+                    "*.*.kg_skelliebellie_spawn"
+                ],
+                "reward": [1, "emerald"],
+                "gate": {
+                    "regions": ["*.*.kg_skelliebellie_gate"],
+                    "object" : "Decor/Prefabs/WoodenDrawBridge/BP_WoodenDrawbridge",
+                }
+            }
+        },
+        {
+            "name": "name_a_cry_for_heroes",
+            "description": "description_set_up_camp_outside_town",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/MapTable/New/BP_MapTable_Empty",
+                "count": 1,
+                "locations": [
+                    "lobby.*.exit"
+                ]
+            }        
+        }
+    ],
+	"stretches": [
+        {
+            "tiles": ["scn_prestart"]
+        },
+		{
+            "id": "start",
+            //"push-ambience": "foxtrot",
+			"tiles": ["scn_start001"],
+			"audio-ambience":"audio_9",
+		},
+        {
+            "tile-groups": ["scn_tile002"]
+        },
+        {
+            "id": "arena",
+            "tiles": ["scn_tile003"]
+        },
+        {
+            "tiles": ["scn_lever01"]
+        },
+        {
+            "tiles": ["scn_tile004"],
+            "mobs": {
+                "density": 0.5,
+                "only": [
+                    "squidmix"
+                ]
+            }
+        },
+        {
+            "tiles": ["scn_tile005"],
+            "mobs": {
+                "density": 0.5,
+                "only": [
+                    "squidmix"
+                ]
+            }
+        },
+        {
+            "id": "lobby",
+            "tiles": [
+                "tutorialend"
+            ],
+            "mobs": {
+                "density": 0.5,
+                "only": [
+                    "squidmix"
+                ]
+            }
+        }
+
+	]
+}

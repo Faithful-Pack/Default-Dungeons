@@ -1,0 +1,57 @@
+{
+    "object-groups": [
+        "houses/objectgroup"
+    ],
+    "tiles": [
+        {
+            "id": "pp_housesmall001",
+            "rotations": 0,
+             "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+         {
+            "id": "cw_indoor_inn001",
+            "rotations": 0,
+             "teleports": [
+                {
+                    "door": "travel",
+                    //"object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_CW_InnDoor"
+                }
+            ]
+        },
+        {
+            "id": "cw_indoor_inn002",
+            "rotations": 0,
+             "teleports": [
+                {
+                    "door": "travel",
+                    //"object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_CW_InnDoor"
+                }
+            ]
+        }
+       
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+        {
+            "id": "pp_house_small",
+            "tiles": ["pp_housesmall001"]
+        },
+    ],
+    "dungeon-files": [
+        "houses/house_dungeons.json"
+    ],
+}

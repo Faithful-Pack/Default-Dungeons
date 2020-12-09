@@ -1,0 +1,193 @@
+{
+	"object-groups": [
+		"sub_templetunnel/objectgroup"
+	],
+	/*"tile-groups": [
+		{
+			"id": "tunnel_sidepath1",
+			"tiles": ["tun_mid_3"]
+		}
+	],*/
+	"challenges": [
+		{
+			"id": "tunnel_clicky_arena",
+			"trigger": "*.*.tun_arena_trigger",
+			"reward": {
+				"region": "*.tun_mid_3.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 30.0,
+				"rest-interval": 0.0,
+				"start-time": 0.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[16,"arena-mix-med"],
+					[22,"arena-mix-med"],
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "tunnel_arena_hall",
+			"trigger": "*.*.tun_hall_trigger",
+			"reward": {
+				"region": "*.tun_hall.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 30.0,
+				"rest-interval": 0.5,
+				"start-time": 2.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[15,"arena-mix-med"],
+					[10,"arena-mix-med"]
+					
+				],
+				"gate": null 
+			}
+		},
+
+		{
+			"id": "skeleton_arena",
+			"trigger-object": "Decor/Prefabs/Skeleton/BP_Crypt_Skeleton_Clicky",
+			"reward": {
+				"region": "*.*.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"interval": 5.0,
+				"rest-interval": 0.0,
+				"start-time": 0.0,
+				"waves": [
+					[5, "skeleton-mix-easy"],
+					[6, "skeleton-mix-easy"],
+					[4, "skeleton-mix-easy"],
+					[10, "skeleton-mix-easy"]
+				],
+				"gate": null
+			}
+		},
+
+		{
+			"id": "tunnel_clicky_arena1",
+			"trigger-object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/BP_Sapphire",
+			"reward": {
+				"region": "*.tun_right_2.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 10.0,
+				"rest-interval": 0.0,
+				"start-time": 0.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[22,"arena-mix-hard"],
+					[8,"arena-mix-hard"],
+					[6,"arena-mix-hard"]
+					
+				],
+				"gate": null
+			}
+		},
+		{
+			"id": "tunnel_end_arena",
+			"trigger": "*.*.end_trigger",
+			"reward": {
+				"region": "*.tun_end.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 0.0,
+				"rest-interval": 0.0,
+				"start-time": 0.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[20,"arena-mix-hard"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
+					"start-unlocked": false
+				}
+			}
+		}
+	],
+	"tiles": [
+		{
+			"id": "tun_start",
+			"rotations": [180],
+			"teleports": [
+				{
+					"door": "tunnel_door",
+					"object": "DoorTravel/BambooBluff/BP_TravelDoor_Cave"}
+			]
+		},
+		{
+			"id": "tun_mid_2",
+			"rotations": [180, 270],
+		},
+		{
+			"id": "tun_mid_3",
+			"challenges": [
+				"tunnel_clicky_arena"
+			]
+		},
+		{
+			"id": "tun_hall",
+			"challenges": [
+				"tunnel_arena_hall"
+			]
+		},
+		{
+			"id": "tun_mid_1",
+			"entry-door": "enter",
+			"exit-door": "exit"
+		},
+		{
+			"id": "tun_mid_4",
+			"entry-door": "enter"
+		},
+		{
+			"id": "tun_mid_5",
+			"challenges": ["skeleton_arena"],
+			"entry-door": "enter"
+		},
+		{
+			"id": "tun_mid_6",
+			"entry-door": "enter"
+		},
+		{
+			"id": "tun_right_1",
+			"rotations": [90],
+			"entry-door": "enter"
+		},
+		{
+			"id": "tun_right_2",
+			"rotations": [90],
+			"entry-door": "enter",
+			"challenges": ["tunnel_clicky_arena1"]
+		},
+		{
+			"id": "tun_end",
+			"challenges": ["tunnel_end_arena"],
+			"teleports": [
+				{
+					"door": "tunnel_exit_door",
+					"exit": "*.ot_temple_09.travel_tunnel_exit",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		}
+	]
+}

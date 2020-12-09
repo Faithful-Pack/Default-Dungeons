@@ -1,0 +1,35 @@
+{
+	"id": "sub_shrine",
+	"ambience":"delta",
+	"audio-ambience":"audio_1",
+
+	"stretches": [
+		{
+			"tiles": ["shrine_1"],
+			"mobs": {
+				"density": 1.0,
+				"only": [
+					"settlement-creeper-zombie"
+				]
+			},
+			"prop-groups": ["pillar"],
+			"prop-density": 1.0
+		},
+
+		{
+			"tiles": ["shrine_2"],
+			"mobs": {
+				"density": 1.0,
+				"only": [
+					"settlement-creeper-zombie"
+				]
+			}
+		},
+
+		{
+			"tiles": ["shrine_3"],
+			"prop-groups": ["post"],
+			"prop-density": 1.0
+		}
+	]
+}

@@ -1,0 +1,113 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_junglehut",
+    "resource-packs": [
+        "vanilla"
+    ],
+    "object-groups": [
+        "sub_junglehut/objectgroup"
+    ],
+    "objectives": [],
+    "default-mobs": {
+        "only": [
+            {
+                "id": "cw-mix2",
+                "weight": 5
+            }
+        ],
+        "density": 1
+    },
+    "mob-groups": [
+        {
+            "#": "============== EASY MIX ==============",
+            "id": "easy-mix",
+            "types": [
+                {
+                    "type": "animal",
+                    "weight": 0.1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 0.4
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1.5
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "sub_junglehut\\sub_junglehut.json"
+        },
+        {
+            "#": "============ CW-MIX ===========",
+            "id": "cw-mix2",
+            "pick-types": [
+                2,
+                3
+            ],
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 3
+                },
+                {
+                    "type": "zombie",
+                    "weight": 5
+                },
+                {
+                    "type": "creeper",
+                    "weight": 3
+                },
+                {
+                    "type": "spider",
+                    "weight": 2
+                },
+                {
+                    "type": "animal",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_junglehut\\sub_junglehut.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "jungle_hut"
+            ],
+            "mobs": {
+                "density": 4,
+                "only": [
+                    "cw-mix2"
+                ]
+            }
+        }
+    ],
+    "tiles": [
+        {
+            "id": "jungle_hut",
+            "entry-door": "enter",
+            "rotations": [
+                180
+            ],
+            "##loc": "sub_junglehut\\sub_junglehut.json"
+        }
+    ],
+    "props": [],
+    "prop-groups": [],
+    "tile-groups": [],
+    "challenges": [],
+    "dungeons": []
+}

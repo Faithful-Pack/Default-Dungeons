@@ -1,0 +1,21 @@
+{
+	"id": "sub_royalquarters",
+	"ambience":"echo",
+	"audio-ambience":"audio_6",
+	"stretches": [
+		{
+			"tiles": ["royal_hallway"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["arena-mix"]
+			}
+		},
+		{
+			"tiles": ["royal_room"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["arena-mix"]
+			}
+		}
+	]
+}  

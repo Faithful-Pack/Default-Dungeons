@@ -1,0 +1,549 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_stables_2",
+    "loctable-id": "EndlessRampartLoctable",
+    "resource-packs": [
+        "EndlessRampart"
+    ],
+    "object-groups": [
+        "sub_stables_2/objectgroup"
+    ],
+    "mob-groups": [
+        {
+            "#": "============== BASECAMP MIX ==============",
+            "id": "basecamp-mix",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== BASECAMP MIX - SMALL ==============",
+            "id": "basecamp-mix-small",
+            "types": [
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 1
+                },
+                {
+                    "type": "pillager",
+                    "weight": 0.1
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== BASECAMP MIX EASY ==============",
+            "id": "basecamp-mix-easy",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "junglezombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.5
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.5
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== BASECAMP MIX MEDIUM ==============",
+            "id": "basecamp-mix-medium",
+            "types": [
+                {
+                    "type": "SlimeMedium",
+                    "weight": 1
+                },
+                {
+                    "type": "witch",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "type": "zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== BASECAMP MIX HARD ==============",
+            "id": "basecamp-mix-hard",
+            "types": [
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 0.1
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                6
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== LIFT BATTLE MIX ==============",
+            "id": "lift-battle-mix",
+            "types": [
+                {
+                    "type": "vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "witch",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "type": "zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.5,
+                    "max%": 0.4
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== MOUNTAIN MIX ==============",
+            "id": "mountain-mix",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.3
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "geomancer",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 0.3,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== MOUNTAIN MIX 2 ==============",
+            "id": "mountain-mix2",
+            "types": [
+                {
+                    "type": "pillager",
+                    "weight": 0.5,
+                    "max%": 0.4
+                },
+                {
+                    "type": "creeper",
+                    "weight": 1,
+                    "max%": 0.2
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 1,
+                    "max%": 0.7
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.5
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== HORDE ==============",
+            "id": "zombie-horde",
+            "types": [
+                {
+                    "type": "zombie",
+                    "min": 7,
+                    "weight": 1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "min": 7,
+                    "weight": 0.3
+                },
+                {
+                    "type": "skeleton",
+                    "min": 4,
+                    "weight": 1
+                }
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== STAMPEDE ==============",
+            "id": "ravager-horde",
+            "types": [
+                {
+                    "type": "Ravager",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== GOAT ==============",
+            "id": "goat",
+            "types": [
+                {
+                    "type": "Goat",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== WOOLY-COW ==============",
+            "id": "woolycow",
+            "types": [
+                {
+                    "type": "WoolyCow",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        },
+        {
+            "#": "============== LLAMA ==============",
+            "id": "llama",
+            "types": [
+                {
+                    "type": "llama",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "WindsweptPeaks/WP_Mobs.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "cr_sub_stable_entrance"
+            ]
+        },
+        {
+            "tiles": [
+                "cr_sub_stable_ravager_01"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "cr_sub_stable_entrance",
+            "rotations": [
+                0
+            ],
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        },
+        {
+            "id": "cr_sub_stable_ravager_01",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "stable_door_clicky_01",
+                "stable_door_clicky_02",
+                "stable_door_clicky_03",
+                "stable_door_clicky_04",
+                "stable_door_clicky_05",
+                "stable_door_clicky_06"
+            ],
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        }
+    ],
+    "objectives": [],
+    "challenges": [
+        {
+            "id": "stable_door_clicky_01",
+            "trigger": "*.cr_sub_stable_ravager_01.stable_click_trigger_01",
+            "reward": {
+                "region": "*.cr_sub_stable_ravager_01.stable_loot_01",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "GuideBeacon/BP_DoorLever",
+                "door-path": "_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.cr_sub_stable_ravager_01.lever_click_01"
+                ],
+                "locked-doors": [
+                    "*.cr_sub_stable_ravager_01.stable_gate_01"
+                ]
+            },
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        },
+        {
+            "id": "stable_door_clicky_02",
+            "trigger": "*.cr_sub_stable_ravager_01.stable_click_trigger_02",
+            "reward": {
+                "region": "*.cr_sub_stable_ravager_01.stable_loot_02",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "GuideBeacon/BP_DoorLever",
+                "door-path": "_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.cr_sub_stable_ravager_01.lever_click_02"
+                ],
+                "locked-doors": [
+                    "*.cr_sub_stable_ravager_01.stable_gate_02"
+                ]
+            },
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        },
+        {
+            "id": "stable_door_clicky_03",
+            "trigger": "*.cr_sub_stable_ravager_01.stable_click_trigger_03",
+            "reward": {
+                "region": "*.cr_sub_stable_ravager_01.stable_loot_03",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "GuideBeacon/BP_DoorLever",
+                "door-path": "_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.cr_sub_stable_ravager_01.lever_click_03"
+                ],
+                "locked-doors": [
+                    "*.cr_sub_stable_ravager_01.stable_gate_03"
+                ]
+            },
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        },
+        {
+            "id": "stable_door_clicky_04",
+            "trigger": "*.cr_sub_stable_ravager_01.stable_click_trigger_04",
+            "reward": {
+                "region": "*.cr_sub_stable_ravager_01.stable_loot_04",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "GuideBeacon/BP_DoorLever",
+                "door-path": "_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.cr_sub_stable_ravager_01.lever_click_04"
+                ],
+                "locked-doors": [
+                    "*.cr_sub_stable_ravager_01.stable_gate_04"
+                ]
+            },
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        },
+        {
+            "id": "stable_door_clicky_05",
+            "trigger": "*.cr_sub_stable_ravager_01.stable_click_trigger_05",
+            "reward": {
+                "region": "*.cr_sub_stable_ravager_01.stable_loot_05",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "GuideBeacon/BP_DoorLever",
+                "door-path": "_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.cr_sub_stable_ravager_01.lever_click_05"
+                ],
+                "locked-doors": [
+                    "*.cr_sub_stable_ravager_01.stable_gate_05"
+                ]
+            },
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        },
+        {
+            "id": "stable_door_clicky_06",
+            "trigger": "*.cr_sub_stable_ravager_01.stable_click_trigger_06",
+            "reward": {
+                "region": "*.cr_sub_stable_ravager_01.stable_loot_06",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "GuideBeacon/BP_DoorLever",
+                "door-path": "_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.cr_sub_stable_ravager_01.lever_click_06"
+                ],
+                "locked-doors": [
+                    "*.cr_sub_stable_ravager_01.stable_gate_06"
+                ]
+            },
+            "##loc": "sub_stables_2/sub_stables_2.json"
+        }
+    ],
+    "tile-groups": [],
+    "props": [],
+    "prop-groups": [],
+    "dungeons": []
+}

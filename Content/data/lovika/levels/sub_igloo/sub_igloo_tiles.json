@@ -1,0 +1,67 @@
+{
+    "object-groups": [
+        "sub_igloo/objectgroup"
+    ],
+    "tiles": [
+        {
+            "id": "igloo_1",
+            "teleports": [
+				{
+					"door": "igloo_door",
+					"object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
+				}],
+            "challenges":["iglooarena"],
+            "rotations": [
+                180
+            ]
+        }
+    ],
+    "challenges": [
+        {
+            "id": "iglooarena",
+            "trigger": "*.*.iglootrigger",
+            "reward": {
+                "region": "*.igloo_1.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30.0,
+                "rest-interval": 0.5,
+                "start-time": 0.0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [1, "arena-mix"],
+                    [2, "arena-mix"],
+                    [1, "arena-mix"],
+                    [3, "fjord-mine-mix"]
+                ],
+                "gate": null
+            }
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "igloo",
+            "props": [
+                {
+                    "id": "iglooprop1",
+                    "weight": 1
+                },
+                {
+                    "id": "iglooprop2",
+                    "weight": 1
+                },
+                {
+                    "id": "iglooprop3",
+                    "weight": 1
+                },
+                {
+                    "id": "iglooprop4",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+    
+}

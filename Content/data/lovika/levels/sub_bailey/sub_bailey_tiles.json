@@ -1,0 +1,42 @@
+{
+    "object-groups": ["sub_bailey/objectgroup"],
+    "tiles": 
+    [
+        {
+            "id": "bailey",
+            "rotations": [0],
+            "challenges": ["bailey-arena"],
+            "teleports": [
+            {
+				"door": "bailey_door",
+				"exit":"*.lf_foyer_alt.travel_bailey",
+				"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+            }
+        ]
+		}
+    ],
+    "challenges": [ 
+        {
+            "id": "bailey-arena",
+            "trigger": "*.bailey.arena-trigger",
+            "arena": {
+                "stretch": "",
+                "interval": 10,
+                "rest-interval": 2.0,
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+                "waves": [
+                    [3, "bailey-mix"],
+                    [5, "bailey-mix"],
+                    [7, "bailey-mix"],
+                    [10, "bailey-mix"]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": true,
+                    "regions": ["*.bailey.lootgate", "*.bailey.gate1", "*.bailey.gate2"]
+                }
+            }
+        }
+    ]
+}

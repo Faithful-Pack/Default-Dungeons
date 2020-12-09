@@ -1,0 +1,65 @@
+{
+	"object-groups": ["sub_royalquarters/objectgroup"],
+	
+	"tiles": [
+		
+		{
+		"id": "royal_hallway",
+		"rotations": [0],
+		"teleports": [
+				{
+			  		"door": "royal_door",
+			  		"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+				{
+					"door": "royal_room_door",
+					"exit":"*.royal_room.royal_rooms",
+					"object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+				}
+			]
+		},
+
+		{
+		"id": "royal_room",
+		"teleports": [
+				{
+					"door": "royal_rooms",
+					"exit":"*.royal_hallway.royal_room_door",
+					"object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+				},
+				{
+					"door": "royal_hallway_door",
+					"exit":"*.royal_hallway.tele_secret",
+					"object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+				}
+			],
+		"challenges": ["royal-arena-2"]
+		}
+	],
+	
+	"challenges": [
+		{
+		"id": "royal-arena-2",
+		"trigger": "*.royal_room.arena_2_trigger",
+		"arena": {
+			"stretch": "",
+			"interval": 11.0,
+			"rest-interval": 0.5,
+			"start-time": 0.0,
+			"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+			"waves": [
+				[3, "arena-mix"],
+				[2, "royal-guards-mix"],
+				[4, "arena-mix"],
+				[3, "royal-guards-mix"],
+				[4, "arena-mix"]
+			],
+			"gate": {
+				"object": "Decor/Prefabs/Door/BP_StoneDoor_lit",
+				"start-unlocked": true,
+				"regions": ["*.royal_room.gate"]
+			}
+		}
+		},
+	]
+}

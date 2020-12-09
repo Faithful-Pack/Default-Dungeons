@@ -1,0 +1,139 @@
+{
+"object-groups": [
+		"pumpkinpastures/objectgroup"
+	],
+"tiles": [
+		{
+			"id": "pp_obj_alt",
+			"rotations": 0
+		},
+		{
+			"id": "pp_transition",
+			"entry-door": "enter"
+		},
+		{
+			"id": "pp_transition002",
+			"entry-door": "enter"
+		},
+		{
+			"id": "pp_obj",
+			"rotations": 180
+		},
+		{
+			"id": "pp_inventory001",
+			"rotations": 90
+		},
+		{
+			"id": "pp_inventory002",
+			"rotations": 0
+		},
+		{
+			"id": "pp_start",
+			"rotations": 0
+		},
+		{
+			"id": "pp_006",
+			"entry-door": "enter"
+		},
+		{
+			"id": "pp_006_p2",
+			"entry-door": "enter"
+		},
+		{
+			"id": "pp_006_p3",
+			"entry-door": "enter"
+		},
+		{
+			"id": "pp_006_p4",
+			"entry-door": "enter"
+		},
+		{
+			"id": "pp_006_p5",
+			"entry-door": "enter",
+			"teleports": [
+                {
+                    "door": "travelA",
+                    "dungeons":["house_small"],
+                    "object": "Decor/Prefabs/DoorTravel/BP_VanillaDoor",
+                }
+            ]
+		},
+		{
+			"id": "pp_arena001",
+			"entry-door": "enter"
+		}
+	],
+	"#tg": "First 'pp' stands for PumpkinPastures!",
+	"tile-groups": [
+		{
+			"#": "Start tile",
+			"id": "start",
+			"tiles": ["pp_start"]
+		},
+		{
+			"#": "Ship tile",
+			"id": "ship",
+			"tiles": ["pp_006"]
+		},
+		{
+			"#": "Ship tile2",
+			"id": "ship2",
+			"tiles": ["pp_006_p2"]
+		},
+		{
+			"#": "Ship tile3",
+			"id": "ship3",
+			"tiles": ["pp_006_p3_alt"]
+		},
+		{
+			"#": "Ship tile4",
+			"id": "ship4",
+			"tiles": ["pp_006_p4"]
+		},
+		{
+			"#": "Ship tile5",
+			"id": "ship5",
+			"tiles": ["pp_006_p5"]
+		},
+		{
+			"#": "Open tiles",
+			"id": "open",
+			"tiles": ["pp_002", "pp_003", "pp_005"]
+		},
+		{
+			"#": "Transition tile",
+			"id": "trans",
+			"tiles": ["pp_transition"]
+		},
+		{
+			"#": "Transition tile",
+			"id": "trans_smalltolarge",
+			"tiles": ["pp_transition002"]
+		},
+		{
+			"#": "Inventory Tiles",
+			"id": "inventory",
+			"tiles": ["pp_inventory001", "pp_inventory002"]
+		},
+		{
+			"#": "Small tiles",
+			"id": "small",
+			"tiles": ["pp_small001", "pp_small002", "pp_small003", "pp_small004", "pp_small005", "pp_small006", "pp_smallish001", "pp_smallish002", "pp_smallish003","pp_cryptentrance_small001","pp_cryptentrance_small002","pp_cryptentrance_small003"]
+		},
+		{
+			"#": "Medium tiles",
+			"id": "medium",
+			"tiles": ["pp_med001", "pp_med002", "pp_med003"]
+		},
+		{
+			"#": "Objective Arena",
+			"id": "arena",
+			"tiles": ["pp_obj_alt"]
+		},
+		{
+			"#": "Drawbridge Arena",
+			"id": "drawbridge",
+			"tiles": ["pp_arena001"]
+		}
+	],
+}

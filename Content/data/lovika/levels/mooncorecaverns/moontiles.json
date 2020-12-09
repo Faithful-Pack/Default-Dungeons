@@ -1,0 +1,127 @@
+{
+    "object-groups": [
+        "genericcaves/objectgroup",
+        "redstonemines/objectgroup"
+    ],
+	"tiles": [
+		{
+			"id": "redstone_boss",
+			"entry-door": "enter"
+		},
+		{
+			"id": "miner001",
+			"entry-door": "enter"
+		},
+		{
+            "id": "secret@miner002",
+            "entry-door": "enter",
+			"rotations": 270,
+			"teleports": [
+				{
+					"door": "runedoor",
+					"dungeons":["runeroom01"],
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance_NoShaft"
+				}
+			],
+            "unlock-keys": ["RuneGateDiscovered"]
+        },
+        {
+            "id": "miner002",
+            "entry-door": "enter",
+            "rotations": 270,
+            "unlock-keys": ["not RuneGateDiscovered"]
+        },
+		{
+			"id": "redstone_end",
+			"rotations": 180
+		},
+		{
+			"id": "ccp_core001",
+			"rotations": 0
+		},
+		{
+			"id": "cs_inventory"
+		},
+		{
+			"id": "cstart",
+			"rotations": [0]
+		},
+		{
+			"id": "cstart_alt",
+			"rotations": [0]
+		},
+		{
+			"id": "cstart_mod",
+			"rotations": [0]
+		}
+	],
+	"#tg": "First 'c' stands for Caves!",
+	"tile-groups": [
+		{
+			"#": "Start tile New",
+			"id": "start_new",
+			"tiles": ["cstart_mod"]
+		},
+		{
+			"#": "Start tile",
+			"id": "start",
+			"tiles": ["cstart"]
+		},
+		{
+			"#": "End tile",
+			"id": "end",
+			"tiles": ["redstone_end"]
+		},
+		{
+			"#": "BossTile",
+			"id": "boss",
+			"tiles": ["redstone_boss"]
+		},
+		{
+			"#": "Manual progression tile",
+			"id": "manual progression",
+			"tiles": ["ccp_core007"]
+		},
+		{
+			"#": "Uncommon tiles",
+			"id": "uncommon",
+			"tiles": ["cu003", "cu011", "cs017", "cs018", "ccp001"]
+		},
+		{
+			"#": "Stairs",
+			"id": "stairs",
+			"tiles": ["cc004", "cc006", "cs001"]
+		},
+		{
+			"#": "Inventory",
+			"id": "inventory",
+			"tiles": ["cs_inventory"]
+		},
+		{
+			"#": "First Miner Tile",
+			"id": "miner1",
+			"tiles": ["miner001"]
+		},
+		{
+			"#": "Second Miner Tile",
+			"id": "miner2",
+			"tiles": ["miner002","secret@miner002"]
+		},
+		{
+			"#": "Rail tiles",
+			"id": "rails",
+			"tiles": ["rails_001", "rails_002", "rails_003", "rails_004", "rails_005"]
+		},
+		{
+			"#": "Mine Tiles",
+			"id": "mine",
+			"tiles": ["cr011", "cr003", "cr001", "cr002", "cr004", "cr002", "ccp_core001", "cu004", "cc029", "cc028", "cc030", "cc009"]
+		},
+		{
+			"#": "common tiles",
+			"id": "common",
+			"tiles": ["cc025", "cu002", "cc011", "cc012", "cc014", "cc013", "cc003", "cc007", "cc002", "cu001", "cc034", "cr009"]
+		}
+		
+	]
+}

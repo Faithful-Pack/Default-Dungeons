@@ -1,0 +1,712 @@
+{
+    "object-groups": [
+        "crypts/objectgroup"
+    ],
+	"tiles": [
+        {
+            "id": "crypt_entry001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor4x4"
+                }
+            ]
+        },
+        {
+            "id": "crypt_pp_entry001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor4x4_flipped_02"
+                }
+            ]
+        },
+         {
+            "id": "crypt_entry_library001",
+            "rotations": [0],
+            "challenges": ["crypt_clicky_arena_small"],         
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor4x4"
+                }
+            ]
+        },
+        {
+            "id": "crypt_exit001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "exit" : "*.*.cryptreturn",
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor5x5",
+                }
+            ]
+        },
+        {
+            "id": "standalone@crypt_exit001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "exit" : "cryptexit.*.cryptreturn",
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor5x5",
+                }
+            ]
+        },
+        {
+            "id": "firstcrypt@crypt_exit001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "exit" : "*.*.cryptreturn",
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor5x5",
+                }
+            ]
+        },
+        {
+            "id": "crypt_challenge001",
+            "rotations": [0,270]
+        },
+        {
+            "id": "crypt_challenge003",
+            "entry-door": "enter",
+            "challenges": [ "crypt_clicky_arena" ],
+             "rotations": [0,270],
+        },
+        {
+            "id": "crypt_straight001",
+            "challenges": [ "crypt_skelly" ]
+        },
+        {
+            "id": "crypt_straight002",
+            "challenges": [ "crypt_skelly" ]
+        },
+        {
+            "id": "crypt_secret002",
+            "rotations": 0
+        },
+        {
+            "id": "crypt_secret003",
+            "rotations": 0
+        },
+        {
+            "id": "crypt_special003",
+            "rotations": [0,270]
+        },
+        {
+            "id": "crypt_special004",
+            "challenges": [ "crypt_skelly" ]
+        },
+        {
+            "id": "crypt_creeperencounter001",
+            "rotations": [0,270]
+        },
+        {
+            "id": "crypt_genericentrance001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "crypt_genericentrance002",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "crypt_pp_stairs001",
+            "rotations": [0,90],
+            "entry-door": "enter"
+        },
+        {
+            "id": "crypt_pp_stairs002",
+            "rotations": [180,270],
+            "entry-door": "enter"
+        },
+        {
+            "id": "crypt_single001",
+            "rotations": [0,270],
+            "challenges": [ "crypt_clicky_arena" ],
+            "teleports": [
+                {
+                    "door": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/OneWayDoors/3x3/crypt_single001",
+                }
+            ]
+        },
+        {
+            "id": "crypt_single002",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ]
+        },
+        {
+            "id": "crypt_single003",
+            "rotations": [0],
+            "teleports": [
+                {
+                    "door": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ]
+        },
+        {
+            "id": "crypt_single004",
+            "rotations": [0,270],
+            "challenges": [ "crypt_clicky_arena_hard" ],
+            "teleports": [
+                {
+                    "door": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                },
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                    "dungeons":["cryptrewardroom"]
+                }
+            ]
+        },
+        {
+            "id": "crypt_single005",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ]
+        },
+        {
+            "id": "crypt_single006",
+            "rotations": [0,270],
+            "challenges": [ "crypt_skelly_arena" ],
+            "teleports": [
+                {
+                    "door": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ]
+        },
+        {
+            "id": "crypt_single007",
+            "rotations": [0,270],
+            "challenges": [ "crypt_clicky_arena_large" ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "crypt_rewardroom001",
+            "rotations": [0],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "crypt_deadend006",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsingle001", {"id": "cryptsingle002", "weight": 0.2}],
+                    "exit": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "crypt_deadend007",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsingle001", {"id": "cryptsingle002", "weight": 0.2}],
+                    "exit": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "crypt_deadend008",
+            "rotations": [0],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsingle001", {"id": "cryptsingle002", "weight": 0.2}],
+                    "exit": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/CreeperWoods/BP_TravelDoor4x4_flipped"
+                }
+            ]
+        },
+        {
+            "id": "crypt_deadend012",
+            "rotations": [0]
+        },
+        {
+            "id": "crypt_deadend013",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsingle001", {"id": "cryptsingle002", "weight": 0.2}],
+                    "exit": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "deadend@crypt_exit_large001",
+            "rotations": [0,270],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsingle001", {"id": "cryptsingle002", "weight": 0.2}],
+                    "exit": "enter",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "crypt_deadend_arena001",
+            "challenges": [ "crypt_clicky_arena_medium" ]
+        },
+        {
+            "id": "crypt_deadend_arena002",
+            "challenges": [ "crypt_clicky_arena_medium" ]
+        },
+        {
+            "id": "crypt_tomboftheone",
+            "rotations": [0,270],
+            "entry-door": "enter",
+            "challenges": ["trigger_arena","magicbook_arena"]
+        },
+		{
+            "id": "crypt_duskpit",
+			"rotations": [270],
+			"challenges": ["trigger_sicklefight"]
+        }
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+        {
+            "id": "crypts",
+            "tiles": [
+                {"id":"crypt_straight001", "weight":0.8},{"id":"crypt_straight002", "weight":0.4},"crypt_straight003",
+                {"id":"crypt_cross001", "weight":0.7},
+                {"id":"crypt_turn001", "weight":1.2},
+                {"id":"crypt_secret001", "weight":0.08},
+                {"id":"crypt_secret002", "weight":0.3},
+                {"id":"crypt_bridge001", "weight":0.1},
+                "crypt_stairs001",
+                {"id":"crypt_special001", "weight":0.2},{"id":"crypt_special002", "weight":0.2},{"id":"crypt_special003", "weight":0.2},
+                "crypt_large001",{"id":"crypt_large002", "weight":1},{"id":"crypt_large003", "weight":1},"crypt_large004",{"id":"crypt_large005", "weight":0.4}
+            ]
+        },
+        {
+            "id": "crypts_extended",
+            "tiles": [
+                {"id":"crypt_straight001", "weight":0.8},{"id":"crypt_straight002", "weight":0.4},"crypt_straight003",
+                {"id":"crypt_cross001", "weight":0.7},
+                {"id":"crypt_turn001", "weight":1.2},
+                {"id":"crypt_secret001", "weight":0.08},
+                {"id":"crypt_secret002", "weight":0.3},
+                {"id":"crypt_bridge001", "weight":0.1},
+                "crypt_stairs001",
+                {"id":"crypt_special001", "weight":0.2},{"id":"crypt_special002", "weight":0.2},{"id":"crypt_special003", "weight":0.2},
+                "crypt_large001",{"id":"crypt_large002", "weight":1},{"id":"crypt_large003", "weight":1},"crypt_large004",{"id":"crypt_large005", "weight":0.4},
+                {"id":"crypt_pp_special001", "weight":0.3},{"id":"crypt_pp_special002", "weight":0.5},
+                "crypt_pp_large001","crypt_pp_large002",
+                "crypt_pp_special001","crypt_pp_special002"
+            ]
+        },
+        {
+            "id": "crypt_small_mix",
+            "tiles": [
+                {"id":"crypt_straight001", "weight":0.8},{"id":"crypt_straight002", "weight":0.4},"crypt_straight003",
+                {"id":"crypt_cross001", "weight":0.7},
+                {"id":"crypt_turn001", "weight":1.2}
+            ]
+
+        },
+        {
+            "id": "crypt_single",
+            "tiles": ["crypt_single001","crypt_single002","crypt_single003","crypt_single004","crypt_single005",/*"crypt_single006",*/"crypt_single007"]
+        },
+        {
+            "id": "crypt_single_ext",
+            "tiles": ["crypt_single_ext001"]
+        },
+        {
+            "id": "crypt_genericentrance",
+            "tiles": ["crypt_genericentrance001","crypt_genericentrance002","crypt_pp_entry001"]
+        },
+        {
+            "id": "crypt_secret",
+            "tiles": ["crypt_secret002",{"id":"crypt_secret003", "weight":0.3},{"id":"crypt_secret001", "weight":0.7}]
+        },
+        {
+            "id": "crypt_challenges",
+            "tiles": ["crypt_challenge003"]
+        },
+        {
+            "id": "crypt_special",
+            "tiles": ["crypt_special001","crypt_special002","crypt_special003","crypt_special004","crypt_challenge001","crypt_challenge002"]
+        },
+        {
+            "id": "crypt_bridge",
+            "tiles": ["crypt_bridge001","crypt_bridge002"]
+        },
+        {
+            "id": "crypt_unique_mix",
+            "tiles": [
+                "crypt_bridge001","crypt_bridge002",
+                "crypt_special001","crypt_special002","crypt_special003","crypt_special004","crypt_challenge001","crypt_challenge002", "crypt_challenge003"
+            ]
+        },
+        {
+            "id": "crypt_pp_straight",
+            "tiles": ["crypt_pp_large001","crypt_pp_large002"]
+        },
+        {
+            "id": "crypt_pp_stairs",
+            "tiles": ["crypt_pp_stairs001","crypt_pp_stairs002"]
+        },
+        {
+            "id": "crypt_pp_special",
+            "tiles": ["crypt_pp_special001","crypt_pp_special002"]
+        },
+        {
+            "id": "crypt_pp_mix",
+            "tiles": [
+                {"id":"crypt_pp_special001", "weight":0.3},{"id":"crypt_pp_special002", "weight":0.5},
+                "crypt_pp_large001","crypt_pp_large002",
+                "crypt_pp_special001","crypt_pp_special002"
+            ]
+        }
+
+    ],
+/*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+
+*/
+ "challenges": [
+        {
+            "id": "crypt_clicky_arena",
+            "trigger-object": "Decor/Prefabs/ArenaEye/BP_ArenaEye_Clicky001",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [2, "miniarena-singles"],
+                    [2, "miniarena-singles"]
+                ],
+                 "gate": {
+                    "object": "Decor/Prefabs/Door/BP_StoneDoor",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "crypt_clicky_arena_small",
+            "trigger-object": "Decor/Prefabs/MapTable/New/BP_MapColumn",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "zombie-horde"],
+                    [1, "zombie-horde"]
+                ],
+                 "gate": {
+                    "object": "Decor/Prefabs/Door/BP_StoneDoor_lit",
+                    "start-unlocked": false
+                }
+            }
+        },
+
+        {
+            "id": "crypt_clicky_arena_large",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [2, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [3, "miniarena-singles"],
+                    [2, "miniarena-singles"]
+                ],
+                 "gate": {
+                    "object": "Decor/Prefabs/Door/BP_Door",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "crypt_clicky_arena_medium",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [2, "miniarena-singles"],
+                    [2, "miniarena-singles"],
+                    [3, "miniarena-singles"],
+                    [3, "miniarena-singles"],
+                    [4, "miniarena-singles"]
+                ],
+                 /*"gate": {
+                    "object": "Decor/Prefabs/Door/BP_Door",
+                    "start-unlocked": false
+                }*/
+                "gate": null
+            }
+        },
+        {
+            "id": "crypt_clicky_arena_hard",
+            "trigger-object": "Decor/Prefabs/ArenaEye/BP_ArenaEye_Clicky001",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [4, "miniarena-singles"],
+                    [4, "miniarena-singles"],
+                    [2, "miniarena-singles"],
+                    [3, "miniarena-singles"]
+                ],
+                 "gate": {
+                    "object": "Decor/Prefabs/Door/BP_StoneDoorDown",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "crypt_clicky_arena_noGate",
+            "trigger-object": "Decor/Prefabs/ArenaEye/BP_ArenaEye_Clicky001",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "crypt_skelly",
+            "trigger-object": "Decor/Prefabs/Skeleton/BP_Crypt_Skeleton_Clicky",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [4, "skeleton-singles"],
+                    [3, "skeleton-singles"],
+                    [5, "skeleton-singles"],
+                    [4, "skeleton-singles"]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "crypt_skelly_arena",
+            "trigger-object": "Decor/Prefabs/ArenaEye/BP_ArenaEye_Clicky001",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1.2,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "skeleton-singles"],
+                    [2, "skeleton-singles"],
+                    [1, "skeleton-singles"],
+                    [3, "skeleton-singles"],
+                    [2, "skeleton-singles"],
+                    [3, "skeleton-singles"],
+                    [2, "skeleton-singles"],
+                    [3, "skeleton-singles"],
+                    [4, "skeleton-singles"]
+                ],
+                 "gate": {
+                    "object": "Decor/Prefabs/Door/BP_StoneDoor",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "trigger_arena",
+            "trigger": "*.*.arena_start",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {              
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [2, "miniarena-singles"],
+                    [3, "miniarena-singles"],
+                    [3, "miniarena-singles"],
+                    [2, "miniarena-singles"],
+                    [3, "miniarena-singles"]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/Door/BP_StoneDoor",
+                    "start-unlocked": false
+                }
+            }
+        },
+		{
+            "id": "trigger_sicklefight",
+            "trigger": "*.*.duskarena",
+            "arena": {              
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [3, "vindicator-group"]
+                ],
+                "gate": null
+				/*{
+                    "object": "Decor/Prefabs/Door/BP_StoneDoor",
+                    "start-unlocked": false
+                }*/
+            }
+        },
+        {
+            "id": "magicbook_arena",
+            "trigger": "*.*.book_arena",
+            "reward": {
+                "region": "*.*.challengeloot2",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 8,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [2, "miniarena-singles"],
+                    [2, "miniarena-singles"]
+                ],
+                "gate": null
+            }
+        },
+    ],
+"dungeon-files": [
+        "crypt/crypt_dungeon001.json",
+        "crypt/crypt_small.json",
+        "crypt/crypt_dungeons_single.json",
+    ],
+}

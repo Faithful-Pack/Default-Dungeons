@@ -1,0 +1,500 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_ramparts_outpost",
+    "loctable-id": "EndlessRampartLoctable",
+    "resource-packs": [
+        "EndlessRampart"
+    ],
+    "object-groups": [
+        "sub_ramparts_outpost/objectgroup"
+    ],
+    "mob-groups": [
+        {
+            "#": "============== STAMPEDE ==============",
+            "id": "ravager-horde",
+            "types": [
+                {
+                    "type": "Ravager",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "EndlessRampart/ER_Mobs.json"
+        },
+        {
+            "#": "============== GOAT ==============",
+            "id": "goat",
+            "types": [
+                {
+                    "type": "Goat",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "EndlessRampart/ER_Mobs.json"
+        },
+        {
+            "#": "============== WOOLY-COW ==============",
+            "id": "woolycow",
+            "types": [
+                {
+                    "type": "WoolyCow",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "EndlessRampart/ER_Mobs.json"
+        },
+        {
+            "#": "============== LLAMA ==============",
+            "id": "llama",
+            "types": [
+                {
+                    "type": "llama",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "EndlessRampart/ER_Mobs.json"
+        },
+        {
+            "#": "============== HORDE ==============",
+            "id": "zombie-horde",
+            "types": [
+                {
+                    "type": "zombie",
+                    "min": 7,
+                    "weight": 1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "min": 7,
+                    "weight": 0.3
+                },
+                {
+                    "type": "skeleton",
+                    "min": 4,
+                    "weight": 1
+                }
+            ],
+            "##loc": "EndlessRampart/ER_Mobs.json"
+        },
+        {
+            "#": "============== FOREST PUZZLE MIX  ==============",
+            "id": "forest_puzzle_mix",
+            "types": [
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                6
+            ],
+            "##loc": "EndlessRampart/ER_Mobs.json"
+        },
+        {
+            "#": "============== FARM ARENAS MIX  ==============",
+            "id": "farm_arenas_mix",
+            "types": [
+                {
+                    "type": "Zombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "pillager",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                6
+            ],
+            "##loc": "EndlessRampart/ER_Mobs.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "cr_sub_outpst_hub"
+            ]
+        },
+        {
+            "tiles": [
+                "cr_sub_outpst_first_floor_01",
+                "cr_sub_outpst_first_floor_02",
+                "cr_sub_outpst_first_floor_03",
+                "cr_sub_outpst_first_floor_04"
+            ],
+            "length": 1
+        },
+        {
+            "tiles": [
+                "cr_sub_outpst_second_floor"
+            ]
+        },
+        {
+            "tiles": [
+                "cr_sub_outpst_third_floor_01",
+                "cr_sub_outpst_third_floor_02",
+                "cr_sub_outpst_third_floor_03",
+                "cr_sub_outpst_third_floor_04"
+            ],
+            "length": 1
+        },
+        {
+            "tiles": [
+                "cr_sub_outpst_fourth_floor"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "cr_sub_outpst_hub",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "outpost_goldgate",
+                "outpost_hub_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_floor_01",
+                    "exit": "*.*.outpost_hub_door_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "outpost_floor_02",
+                    "exit": "*.cr_sub_outpst_second_floor.outpost_hub_door_02",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "outpost_floor_03",
+                    "exit": "*.*.outpost_hub_door_03",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "outpost_floor_04",
+                    "exit": "*.cr_sub_outpst_fourth_floor.outpost_hub_door_04",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_first_floor_01",
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_01",
+                    "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_first_floor_02",
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_01",
+                    "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_first_floor_03",
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_01",
+                    "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_first_floor_04",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_01",
+                    "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_second_floor",
+            "challenges": [
+                "second_floor_arena"
+            ],
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_02",
+                    "exit": "*.*.outpost_stairs_up_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_third_floor_01",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_03",
+                    "exit": "*.cr_sub_outpst_second_floor.outpost_stairs_up_02",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_third_floor_02",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_03",
+                    "exit": "*.cr_sub_outpst_second_floor.outpost_stairs_up_02",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_third_floor_03",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_03",
+                    "exit": "*.cr_sub_outpst_second_floor.outpost_stairs_up_02",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_third_floor_04",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_03",
+                    "exit": "*.cr_sub_outpst_second_floor.outpost_stairs_up_02",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "cr_sub_outpst_fourth_floor",
+            "rotations": [
+                90,
+                180
+            ],
+            "challenges": [
+                "outpost_hub_clicky"
+            ],
+            "teleports": [
+                {
+                    "door": "outpost_stairs_down_04",
+                    "exit": "*.*.outpost_stairs_up_03",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "outpost_spacer",
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        }
+    ],
+    "objectives": [],
+    "challenges": [
+        {
+            "id": "outpost_goldgate",
+            "trigger": "*.cr_sub_outpst_hub.goldgate_challenge_trigger",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "*.cr_sub_outpst_hub.goldgate"
+                ],
+                "key-locations": [
+                    "*.cr_sub_outpst_hub.goldkey"
+                ],
+                "key-type": "gold"
+            },
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "outpost_hub_clicky",
+            "trigger": "*.cr_sub_outpst_hub.outpost_hub_click_trigger",
+            "reward": {
+                "region": "*.cr_sub_outpst_hub.outpost_hub_click_loot",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "GuideBeacon/BP_GuideBeacon",
+                "door-path": "_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5",
+                "count": 4,
+                "locations": [
+                    "*.*.lever_click_01",
+                    "*.*.lever_click_02",
+                    "*.*.lever_click_03",
+                    "*.*.lever_click_04"
+                ],
+                "locked-doors": [
+                    "*.cr_sub_outpst_hub.hub_gate_01",
+                    "*.cr_sub_outpst_hub.hub_gate_02",
+                    "*.cr_sub_outpst_hub.hub_gate_03",
+                    "*.cr_sub_outpst_hub.hub_gate_04"
+                ]
+            },
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        },
+        {
+            "id": "second_floor_arena",
+            "trigger": "*.cr_sub_outpst_second_floor.second_floor_arena_trigger",
+            "reward": {
+                "region": "*.cr_sub_outpst_second_floor.challenge_loot_02",
+                "object": "RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        8,
+                        "basecamp-mix"
+                    ]
+                ],
+                "gate": {
+                    "object": "Game/Decor/Prefabs/GateLobby/BP_GateLobby.BP_GateLobby",
+                    "start-unlocked": true
+                }
+            },
+            "##loc": "sub_ramparts_outpost/sub_ramparts_outpost.json"
+        }
+    ],
+    "tile-groups": [],
+    "props": [],
+    "prop-groups": [],
+    "dungeons": []
+}

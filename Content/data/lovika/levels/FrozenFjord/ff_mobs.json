@@ -1,0 +1,164 @@
+[
+		{
+			"#": "============== ICY BOIS ==============",
+			"id": "icy-bois",
+			"types": [
+				{"type": "Stray", "weight": 0.2},
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "chillager", "weight": 0.2, "max%": 0.2},
+				{"type": "icycreeper", "weight": 0.2, "max%": 0.3},
+				{"type": "Rabbit", "weight": 0.1, "max%": 0.1},
+				{"type": "polarbear", "weight": 0.1, "max%": 0.05},
+			],
+			"pick-types": [3, 5]
+		},
+		{
+			"#": "============== PILLAGER POSSE ==============",
+			"id": "pillager-posse",
+			"types": [
+				{"type": "Vindicator", "weight": 0.3},
+				{"type": "Pillager", "weight": 0.3},
+				{"type": "Geomancer", "weight": 0.2, "max%": 0.05},
+				{"type": "Enchanter", "weight": 0.2, "max%": 0.1},
+			],
+			"pick-types": [2, 4]
+		},
+		{
+			"#": "============== FJORD MIX EASY ==============",
+			"id": "fjord-mix-easy",
+			"types": [
+				{"type": "Stray", "weight": 0.2},
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "Rabbit", "weight": 0.1, "max%": 0.1},
+				{"type": "polarbear", "weight": 0.1, "max%": 0.05},
+				{"type": "Vindicator", "weight": 0.15},
+				{"type": "Pillager", "weight": 0.15},
+				{"type": "Geomancer", "weight": 0.1, "max%": 0.05},
+			],
+			"pick-types": [4, 7]
+		},
+		{
+			"#": "============== FJORD MIX HARD ==============",
+			"id": "fjord-mix-hard",
+			"types": [
+				{"type": "Stray", "weight": 0.1},
+				{"type": "FrozenZombie", "weight": 0.1},
+				{"type": "chillager", "weight": 0.2, "max%": 0.2},
+				{"type": "icycreeper", "weight": 0.1, "max%": 0.3},
+				{"type": "Vindicator", "weight": 0.1},
+				{"type": "Pillager", "weight": 0.1},
+				{"type": "Geomancer", "weight": 0.1, "max%": 0.05},
+			],
+			"pick-types": [4, 6]
+		},
+		{
+			"#": "============== CAVE MIX EASY ==============",
+			"id": "cave-mix-easy",
+			"types": [
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "SlimeMedium", "weight": 0.1},
+				{"type": "cavespider", "weight": 0.2, "max%": 0.4},
+				{"type": "spider", "weight": 0.2, "max%": 0.4},
+				{"type": "polarbear", "weight": 0.1, "max%": 0.1},
+				{"type": "Stray", "weight": 0.2}
+			],
+			"pick-types": [4, 6]
+		},
+		{
+			"#": "============== CAVE MIX MEDIUM ==============",
+			"id": "cave-mix-med",
+			"types": [
+				{"type": "FrozenZombie", "weight": 0.15},
+				{"type": "SlimeMedium", "weight": 0.1},
+				{"type": "SlimeLarge", "weight": 0.05},
+				{"type": "cavespider", "weight": 0.2, "max%": 0.4},
+				{"type": "spider", "weight": 0.15, "max%": 0.4},
+				{"type": "Stray", "weight": 0.2},
+				{"type": "icycreeper", "weight": 0.15, "max%": 0.2},
+			],
+			"pick-types": [5, 6]
+		},
+		{
+			"#": "============== CAVE MIX HARD ==============",
+			"id": "cave-mix-hard",
+			"types": [
+				{"type": "Illusioner", "min": 1, "max": 1},
+				{"type": "FrozenZombie", "weight": 0.1},
+				{"type": "SlimeLarge", "weight": 0.1},
+				{"type": "cavespider", "weight": 0.2, "max%": 0.4},
+				{"type": "spider", "weight": 0.2, "max%": 0.4},
+				{"type": "Stray", "weight": 0.2},
+				{"type": "icycreeper", "weight": 0.1, "max%": 0.3},
+				{"type": "chillager", "weight": 0.1, "max%": 0.2},
+			],
+			"pick-types": [5, 7]
+		},
+		{
+			"#": "============== ARENA MIX ==============",
+			"id": "arena-mix",
+			"types": [
+				{"type": "Stray", "weight": 0.2},
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "chillager", "weight": 0.1, "max%": 0.2},
+				{"type": "icycreeper", "weight": 0.1, "max%": 0.3},
+				{"type": "Vindicator", "weight": 0.15},
+				{"type": "Pillager", "weight": 0.15},
+				{"type": "Enchanter", "weight": 0.1, "max%": 0.1},
+			],
+			"pick-types": [4, 6]
+		},
+		{
+			"#": "============== FORTRESS GATE MIX ==============",
+			"id": "fortress-gate-mix",
+			"types": [
+				{"type": "Illusioner", "min": 1, "max": 1},
+				{"type": "FrozenZombie", "weight": 0.3},
+				{"type": "icycreeper", "weight": 0.3, "max%": 0.3},
+				{"type": "Stray", "weight": 0.3, "max%": 0.4},
+				{"type": "Wraith", "weight": 0.1, "max%": 0.1}
+			],
+			"pick-types": [4, 5]
+		},
+		{
+			"#": "============== CREEPER CHALLENGE MIX ==============",
+			"id": "creeper-mix",
+			"types": [
+				{"type": "icycreeper", "weight": 1}
+			],
+			"pick-types": [1, 1]
+		},
+		{
+			"#": "============== REDSTONE GOLEM CHALLENGE MIX ==============",
+			"id": "gol-mix",
+			"types": [
+				{"type": "redstonegolem", "min": 1, "max": 1}
+			],
+			"pick-types": [1, 1]
+		},
+		{
+			"#": "============== SKELETON HORSEMAN CHALLENGE MIX ==============",
+			"id": "horse-mix",
+			"types": [
+				{"type": "SkeletonHorseman", "min": 1, "max": 1},
+			],
+			"pick-types": [1, 1]
+		},
+		{
+			"#": "============== IRON MINE SPECIAL MIX ==============",
+			"id": "fjord-mine-mix-special",
+			"types": [
+				{"type": "Wraith", "weight": 1.0, "min": 5}
+			],
+			"pick-types": [1, 1]
+		},
+		{
+			"#": "============== IRON MINE SPECIAL MIX ==============",
+			"id": "fjord-mine-mix",
+			"types": [
+				{"type": "Vindicator", "weight": 0.4},
+				{"type": "FrozenZombie", "weight": 0.3, "max%": 0.3},
+				{"type": "icycreeper", "weight": 0.3, "max%": 0.3}
+			],
+			"pick-types": [2, 3]
+		}
+]

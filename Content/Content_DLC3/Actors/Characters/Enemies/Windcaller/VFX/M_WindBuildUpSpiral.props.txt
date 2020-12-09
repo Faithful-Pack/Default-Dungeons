@@ -1,13 +1,15 @@
 TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
+ReferencedTextures[2] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/T_WindBuildUpSpiral.T_WindBuildUpSpiral'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/WindBuildup.WindBuildup'
 }
-Expressions[5] =
+Expressions[7] =
 {
     Expressions[4] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/M_WindBuildUpSpiral.MaterialExpressionTextureSample_0'
+    Expressions[6] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/M_WindBuildUpSpiral.MaterialExpressionTextureSample_1'
 }
 CachedExpressionData =
 {

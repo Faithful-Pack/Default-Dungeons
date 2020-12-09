@@ -1,0 +1,337 @@
+{
+"object-groups": [
+        "sub_mountaincave/objectgroup"
+],
+
+"tile-groups": [
+    {
+        "#": "wpc_sidepath",
+        "id": "wpc_sidepath",
+        "tiles": [
+            "wp_sub_mtncav_sidepath_01",
+            "wp_sub_mtncav_sidepath_02"
+            
+            
+        ]
+    }
+
+],
+
+"tiles": [
+    
+
+    
+
+    {
+        "id": "wp_sub_mtncav_entrance",
+        "rotations": [0, 270],
+        "teleports": [
+            {
+                "door": "cave_door_begin",
+                "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+            }
+        ]
+        
+       
+    },
+
+    {
+        "id": "wp_sub_mtncav_passage_01",
+        "entry-door": "enter",
+        "rotations": [0, 90, 180, 270]  
+    },
+
+    {
+        "id": "wp_sub_mtncav_passage_02",
+        "entry-door": "enter",
+        "rotations": [0, 90, 180, 270]  
+    },
+
+    {
+        "id": "wp_sub_mtncav_camp_small",
+        "entry-door":"enter",
+        "exit-door": "exit",
+        "challenges": ["cave_arena_01"],
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_connection_01",
+        "entry-door":"enter",
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_connection_02",
+        "entry-door":"enter",
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_windhall_01",
+        "entry-door":"enter",
+        "rotations": [0, 90]
+    },
+
+    {
+        "id": "wp_sub_mtncav_windhall_02",
+        "entry-door":"enter",
+        "rotations": [180]
+    },
+
+    {
+        "id": "wp_sub_mtncav_cavern_01",
+        "entry-door":"enter",
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_cavern_02",
+        "entry-door":"enter",
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_cavern_03",
+        "entry-door":"enter",
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_cavern_04",
+        "entry-door":"enter",
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_cavern_05",
+        "entry-door":"enter",
+        "rotations": [0, 90, 180, 270]
+    },
+
+    {
+        "id": "wp_sub_mtncav_camp_ravager",
+        "entry-door":"enter",
+        "challenges": ["cave_arena_02",
+                       "llama_click"],
+        "rotations": [0, 90, 180, 270]
+    },
+
+
+    {
+        "id": "wp_sub_mtncav_exit",
+        "entry-door": "enter",
+        "rotations": [90, 180],
+        "teleports": [
+            {
+                "door": "cave_door_end",
+                "exit": "*.wp_small_cave_exit.sub_cave_exit",
+                "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+            }
+        ]
+        
+    },
+
+
+    //sidepath tiles
+
+    {
+        "id": "wp_sub_mtncav_sidepath_01",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_sidepath_02",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+    
+    //deadend tiles
+
+    {
+        "id": "wp_sub_mtncav_deadend_01",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_deadend_02",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_deadend_03",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_01",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_02",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_03",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_04",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_05",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_06",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_07",
+        "rotations": [0, 90, 180, 270]
+        
+    },
+
+    {
+        "id": "wp_sub_mtncav_endcap_08",
+        "rotations": [0, 90, 180, 270]
+        
+    }
+        
+    ],
+
+    "challenges": [
+
+        // Arena Challenges
+
+        {
+            "id": "cave_arena_01",
+            "trigger": "*.*.camp_ambush_arena_trigger",
+            "reward": {
+                "region": "*.wp_sub_mtncav_camp_small.camp_challenge_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 18.0,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [4,"mountain-arena-illager-mix"],
+                    [5,"mountain-arena-illager-mix"],
+                    [6,"mountain-arena-illager-mix"],
+                    [5,"mountain-arena-illager-mix"],
+                    [4,"mountain-arena-illager-mix"]
+                ],
+                "gate": {
+                    "object": "Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/Mountaincave_gate/BP_MountainCaveGate",
+                    "start-unlocked": false
+                }
+            }
+        },
+
+        {
+            "id": "cave_arena_02",
+            "trigger": "*.*.ravager_ambush_arena_trigger",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 21.0,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [9,"mountain-arena-illager-mix"],
+                    [10,"mountain-arena-illager-mix"],
+                    [12,"mountain-arena-illager-mix"]                    
+                ],
+                "gate": {
+                    "object": "Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/Mountaincave_gate/BP_MountainCaveGate",
+                    "start-unlocked": true
+                }
+            }
+        },
+    
+        // on click challenges
+
+      /*  {
+            "id": "ravager_door_clicky_01",
+            "trigger": "*.wp_sub_mtncav_camp_ravager.ravager_click_trigger_01",
+            "reward": {
+                "region": "*.wp_sub_mtncav_camp_ravager.cave_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+                "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.wp_sub_mtncav_camp_ravager.click_01"
+                ],
+                "locked-doors": [
+                    "*.wp_sub_mtncav_camp_ravager.ravager_door_01"
+                ],
+                "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5"
+            }
+        }, */
+
+        {
+            "id": "llama_click",
+            "trigger": "*.wp_sub_mtncav_camp_ravager.llama_challenge_click_trigger",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC3/Decor/Prefabs/_Mountains/Captured_Llama/BP_Captured_Llama",
+                "count": 5,
+                "locations": [
+                    "*.wp_sub_mtncav_camp_ravager.llama_click"
+                ]
+            },
+            "reward": {
+                "region": "*.wp_sub_mtncav_camp_ravager.challenge_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            }
+		}
+        
+       /* {
+            "id": "ravager_door_clicky_02",
+            "trigger": "*.wp_sub_mtncav_camp_ravager.ravager_click_trigger_02",
+            "reward": {},
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_GS",
+                //"door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                "count": 1,
+                "locations": [
+                    "*.wp_sub_mtncav_camp_ravager.click_02"
+                ],
+                "locked-doors": [
+                    "*.wp_sub_mtncav_camp_ravager.ravager_door_02"
+                ],
+                "door-path": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x5" //"Decor/Prefabs/Door/BP_StoneDoorDown_5"
+            }
+        }*/
+    
+        // key challenges  
+    
+    ]
+
+
+
+}

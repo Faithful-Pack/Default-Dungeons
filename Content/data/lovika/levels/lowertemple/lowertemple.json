@@ -1,0 +1,374 @@
+
+{
+    "id": "lowertemple",
+    "require-matching-doors": false,
+    "play-intro" : false,
+    "resource-packs": [
+        "DesertTemple"
+    ],
+
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 0.5,
+    "mob-files": [
+        "DesertTemple/mobs.json"
+    ],
+    "#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "zombie-husk",
+            "zombie-skeleton-spider",
+            {"id": "undead-guard", "weight": 0.5},
+            "spider-skeleton-trap",
+            {"id": "dt-default-mix", "weight": 3}
+        ]
+    },
+    "tile-files": [
+        "deserttemple/tiles.json",
+        "RuneRoom/rr_tiles.json"
+    ],
+
+/*
+
+ ██████╗ ██████╗      ██╗███████╗ ██████╗████████╗██╗██╗   ██╗███████╗███████╗
+██╔═══██╗██╔══██╗     ██║██╔════╝██╔════╝╚══██╔══╝██║██║   ██║██╔════╝██╔════╝
+██║   ██║██████╔╝     ██║█████╗  ██║        ██║   ██║██║   ██║█████╗  ███████╗
+██║   ██║██╔══██╗██   ██║██╔══╝  ██║        ██║   ██║╚██╗ ██╔╝██╔══╝  ╚════██║
+╚██████╔╝██████╔╝╚█████╔╝███████╗╚██████╗   ██║   ██║ ╚████╔╝ ███████╗███████║
+ ╚═════╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═══╝  ╚══════╝╚══════╝
+                                                                              
+
+*/
+    "objectives": [
+
+        {
+            "name": "name_the_lower_temple",
+            "description": "description_find_the_gold_key",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "keypuzzle.*.gauntletgoal1"
+            }        
+        },
+        {
+            "name": "name_the_lower_temple",
+            "description": "description_find_the_gold_key",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "keypuzzle.*.gauntletgoal2"
+            }        
+        },
+        {
+            "name": "name_the_lower_temple",
+            "description": "description_unlock_the_gate",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "keypuzzle.*.gate"
+                ],
+                "key-locations": [
+                    "keypuzzle.*.key"
+                ],
+                "key-type": "gold",
+                "mobs": [2, "nameless-guards"],
+                "mob-stretch" : "keypuzzle",
+                //"spawn-regions": ["*.*.*"]
+            }
+        },
+        {
+            "name": "name_the_lower_temple",
+            "description": "description_leave_the_lower_temple",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "exit.*.gauntletgoal"
+            }        
+        },
+        {
+            "name": "name_the_lower_temple",
+            "description": "description_leave_the_lower_temple",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_DT_Rot",
+                "count": 1,
+                "locations": [
+                    "exit.*.doorgoal"
+                ]
+            }
+        }
+        
+    ],
+/*
+
+███████╗████████╗██████╗ ███████╗████████╗ ██████╗██╗  ██╗███████╗███████╗
+██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝██╔════╝██║  ██║██╔════╝██╔════╝
+███████╗   ██║   ██████╔╝█████╗     ██║   ██║     ███████║█████╗  ███████╗
+╚════██║   ██║   ██╔══██╗██╔══╝     ██║   ██║     ██╔══██║██╔══╝  ╚════██║
+███████║   ██║   ██║  ██║███████╗   ██║   ╚██████╗██║  ██║███████╗███████║
+╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝
+
+
+*/
+    "stretches": [
+        {
+            "tiles": ["trial_start002"],
+            "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1, 2],
+                    "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                    "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.2,
+                        "max-length": [1, 3]
+                    }
+                ]
+            }
+        },
+        {
+            "tile-groups": ["trial_tiled_b"],
+            "length": 2,
+            "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+            "side-paths": {
+                "probability": 0.2,
+                "default": {
+                    "max-length": [1, 2],
+                    "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                    "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.1,
+                        "max-length": [1, 3]
+                    }
+                ]
+            }
+        },
+         {
+            "tile-groups": ["mixed_common_traps"],
+            "length": 1,
+            "side-paths": {
+                "probability": 0.9,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                    "tile-groups": ["commonsidepaths"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.2,
+                        "max-length": [2, 4],
+                        "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005",{"id":"trial_b_deadend006", "weight":0.2}],
+                        "tile-groups": ["trial_tiled_b"]
+                    }
+                ]
+            }
+        },
+        {
+            "tile-groups": ["trial_tiled_b"],
+            "length": 2,
+            "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005","trial_b_deadend006"],
+            "side-paths": {
+                "probability": 0.9,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005","trial_b_deadend006"],
+                    "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.2,
+                        "max-length": [2, 4]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [2, 6]
+                    },
+                    {
+                        "weight": 0.6,
+                        "max-length": [1, 3],
+                        "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                        "tile-groups": ["commonsidepaths"]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "keypuzzle",
+            "tiles": ["lt_key001"],
+        },
+        {
+            "tile-groups": ["trial_tiled_b"],
+            "length": 1,
+            "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005",{"id":"trial_b_deadend006", "weight":0.2}],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005",{"id":"trial_b_deadend006", "weight":0.2}],
+                    "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.3,
+                        "max-length": [2, 8]
+                    },
+                    {
+                        "weight": 0.8,
+                        "max-length": [1, 3],
+                        "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                        "tile-groups": ["commonsidepaths"]
+                    },
+                    {
+                        "weight": 0.2,
+                        "max-length": [1, 3],
+                        "dead-ends": ["trial_bath_deadend001","trial_bath_deadend002","trial_bath_deadend003","trial_bath_deadend004","trial_bath_deadend005"],
+                        "tile-groups": ["trial_bath"]
+                    }
+                ]
+            }
+        },
+        {
+            "tile-groups": ["deadlytraps"],
+            "length": 1,
+            "side-paths": {
+                "probability": 0.9,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                    "tile-groups": ["commonsidepaths"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.2,
+                        "max-length": [2, 4],
+                        "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005",{"id":"trial_b_deadend006", "weight":0.2}],
+                        "tile-groups": ["trial_tiled_b"]
+                    }
+                ]
+            }
+        },
+        {
+            "tile-groups": ["trial_tiled_b"],
+            "length": 2,
+            "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005",{"id":"trial_b_deadend006", "weight":0.2}],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005",{"id":"trial_b_deadend006", "weight":0.2}],
+                    "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.3,
+                        "max-length": [2, 8]
+                    },
+                    {
+                        "weight": 0.8,
+                        "max-length": [1, 3],
+                        "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                        "tile-groups": ["commonsidepaths"]
+                    },
+                    {
+                        "weight": 0.2,
+                        "max-length": [1, 3],
+                        "dead-ends": ["trial_bath_deadend001","trial_bath_deadend002","trial_bath_deadend003","trial_bath_deadend004","trial_bath_deadend005"],
+                        "tile-groups": ["trial_bath"]
+                    }
+                ]
+            }
+        },
+        {
+            "tiles": ["trial_underground_access001","lt_lowerentrance001"],
+            "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1, 4],
+                    "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                    "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.4,
+                        "max-length": [2, 6]
+                    },
+                    {
+                        "weight": 1,
+                        "max-length": [1, 2],
+                        "dead-ends": ["trial_bath_deadend001","trial_bath_deadend002","trial_bath_deadend003","trial_bath_deadend004","trial_bath_deadend005"],
+                        "tile-groups": ["trial_bath"]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "exit",
+            "tile-groups": ["traveltiles_main"]
+        }
+    ],
+/*
+
+██████╗ ██╗   ██╗███╗   ██╗ ██████╗ ███████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██║   ██║████╗  ██║██╔════╝ ██╔════╝██╔═══██╗████╗  ██║██╔════╝
+██║  ██║██║   ██║██╔██╗ ██║██║  ███╗█████╗  ██║   ██║██╔██╗ ██║███████╗
+██║  ██║██║   ██║██║╚██╗██║██║   ██║██╔══╝  ██║   ██║██║╚██╗██║╚════██║
+██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝███████╗╚██████╔╝██║ ╚████║███████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+    "dungeon-files": [
+        "deserttemple/dungeon1.json",
+        "deserttemple/DesertDungeon.json",
+        "deserttemple/dungeons_gauntlet.json"
+    ],
+/*
+
+███████╗██╗██████╗ ███████╗    ██████╗  █████╗ ████████╗██╗  ██╗███████╗
+██╔════╝██║██╔══██╗██╔════╝    ██╔══██╗██╔══██╗╚══██╔══╝██║  ██║██╔════╝
+███████╗██║██║  ██║█████╗█████╗██████╔╝███████║   ██║   ███████║███████╗
+╚════██║██║██║  ██║██╔══╝╚════╝██╔═══╝ ██╔══██║   ██║   ██╔══██║╚════██║
+███████║██║██████╔╝███████╗    ██║     ██║  ██║   ██║   ██║  ██║███████║
+╚══════╝╚═╝╚═════╝ ╚══════╝    ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
+
+*/
+    "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [1, 3],
+                    "dead-ends": ["trial_b_deadend001","trial_b_deadend002","trial_b_deadend003","trial_b_deadend004","trial_b_deadend005"],
+                    "tile-groups": ["trial_tiled_b"]
+                },
+                "variants": [
+                    {
+                        "weight": 0.1,
+                        "max-length": [5, 7]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [2, 8]
+                    },
+                    {
+                        "weight": 0.5,
+                        "max-length": [1, 3],
+                        "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                        "tile-groups": ["commonsidepaths"]
+                    },
+                    {
+                        "weight": 1,
+                        "max-length": [1, 3],
+                        "dead-ends": ["dt_detour_deadend001","dt_detour_deadend002","dt_detour_deadend003","dt_detour_deadend004"],
+                        "tile-groups": ["commonsidepaths"]
+                    },
+                    {
+                        "weight": 0.6,
+                        "max-length": [1, 3],
+                        "dead-ends": ["trial_bath_deadend001","trial_bath_deadend002","trial_bath_deadend003","trial_bath_deadend004","trial_bath_deadend005"],
+                        "tile-groups": ["trial_bath"]
+                    }
+                ]
+    }
+}

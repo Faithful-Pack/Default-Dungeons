@@ -1,0 +1,356 @@
+{
+
+    "object-groups": ["sub_gauntlet_gales/objectgroup"],
+
+    "tiles":[ 
+
+        {
+            "id": "gs_sub_gntlet_start", 
+            "rotations": [270],
+            "teleports": [
+                {
+                    "door": "gauntlet_in_01",
+                    "exit": "*.gs_start_stairs_01.gauntlet_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+
+               // {
+                  //  "door": "gauntlet_start",
+                  //  "exit": "*.*.gauntlet_end",
+                  //  "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                  //  }  
+                        ]   
+
+      //  "challenges":["gauntlet_end_click"]
+           
+        },
+
+       {
+            "id": "gs_sub_gntlet_end",
+            "teleports":[ 
+                
+                {
+                "door": "gauntlet_end",
+                "exit": "*.*.gauntlet_start",
+                "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            
+            ]
+           
+        },
+
+        {
+            "id": "gs_sub_gntlet_easy_puzzle_01",        
+            "entry-door": "enter"
+            
+        },
+
+        {
+            "id": "gs_sub_gntlet_easy_puzzle_02",
+            "entry-door": "enter",      
+            "challenges":["easy_puzzle_02_arena"]
+        },
+
+        {
+            "id": "gs_sub_gntlet_med_puzzle_01",        
+            "entry-door": "enter", 
+            "challenges":["med_puzzle_01_arena_01",
+                          "med_puzzle_01_arena_02"]
+        },
+
+        {
+            "id": "gs_sub_gntlet_med_puzzle_02",        
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_sub_gntlet_hard_puzzle_01",        
+            "entry-door": "enter",
+            "challenges":["hard_puzzle_01_arena_click_01",
+                          "hard_puzzle_01_arena_click_02",
+                          "hard_puzzle_01_arena_click_03",
+                          "hard_puzzle_01_arena_click_04",
+                          "hard_puzzle_01_gate_click"]
+        },
+
+        {
+            "id": "gs_sub_gntlet_hard_puzzle_02",
+            "entry-door": "enter",
+            "challenges":["hard_puzzle_02_arena_click"]
+
+        },
+
+        {
+            "id": "gs_sub_gntlet_easy_speed_01",
+            "entry-door": "enter",
+            "challenges":["easy_speed_01_arena"]       
+           
+        },
+
+        {
+            "id": "gs_sub_gntlet_easy_speed_02",
+            "entry-door": "enter"       
+           
+        },
+
+        {
+            "id": "gs_sub_gntlet_med_speed_01",
+            "entry-door": "enter"      
+           
+        },
+
+        {
+            "id": "gs_sub_gntlet_med_speed_02",
+            "entry-door": "enter"        
+           
+        },
+
+        {
+            "id": "gs_sub_gntlet_hard_speed_01",
+            "entry-door": "enter"       
+           
+        },
+
+        {
+            "id": "gs_sub_gntlet_hard_speed_02",
+            "entry-door": "enter"         
+           
+        },
+
+        {
+            "id": "gs_sub_gntlet_connection"
+        }
+    ],
+
+    
+    "challenges":[
+
+        {
+            "id": "easy_speed_01_arena",
+            "trigger": "*.*.easy_speed_01_arena_trigger",
+            "reward": {},
+            "arena": {
+                "stretch": "*",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+                "waves": [
+                    [25,"sanctum-mix-medium"]                 
+                ],
+                "gate": {
+                    "object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Gate/BP_Wind_Gate_GSalt",
+                    "start-unlocked": true
+              }
+            }
+        },
+
+        {
+            "id": "easy_puzzle_02_arena",
+            "trigger": "*.gs_sub_gntlet_easy_puzzle_02.easy_puzzle_02_arena_trigger",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [8,"sanctum-mix-medium"],
+                    [10,"sanctum-mix-medium"]                 
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+                    "start-unlocked": true
+              }
+            }
+        },
+
+       /* {
+            "id": "med_puzzle_01_arena_click",
+            "trigger-object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Beacon/bp_Wind_Beacon",
+            
+            "arena": {
+                "stretch": "*",
+                "interval": 20,
+                "rest-interval": 2,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    
+                    [5,"sanctum-mix-medium"],
+                    [8, "sanctum-mix-medium"],
+                    [10, "sanctum-mix-medium"] 
+                    
+                    
+                ],
+                "gate": 
+                {
+                    "object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Gate/BP_Wind_Gate",
+                    "start-unlocked": false
+                }
+            }
+        }, */
+
+        {
+            "id": "med_puzzle_01_arena_01",
+            "trigger": "*.gs_sub_gntlet_med_puzzle_01.med_puzzle_01_arena_trigger_01",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [20,"sanctum-mix-medium"]                 
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "med_puzzle_01_arena_02",
+            "trigger": "*.gs_sub_gntlet_med_puzzle_01.med_puzzle_01_arena_trigger_02",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 30,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [20,"sanctum-mix-medium"]                 
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "hard_puzzle_01_arena_click_01",
+            "trigger-object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Beacon/bp_Wind_Beacon",
+            
+            "arena": {
+                "stretch": "*.gs_sub_gntlet_hard_puzzle_01.hard_puzzle_01_arena_click_01",
+                "interval": 20,
+                "rest-interval": 2,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    
+                    [10,"sanctum-mix-medium"]
+                    
+                    
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "hard_puzzle_01_arena_click_02",
+            "trigger-object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Beacon/bp_Wind_Beacon_3",
+            
+            "arena": {
+                "stretch": "*.gs_sub_gntlet_hard_puzzle_01.hard_puzzle_01_arena_click_02",
+                "interval": 20,
+                "rest-interval": 2,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    
+                    [10,"sanctum-mix-medium"]
+                    
+                    
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "hard_puzzle_01_arena_click_03",
+            "trigger-object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Beacon/bp_Wind_Beacon_1",
+            
+            "arena": {
+                "stretch": "*.gs_sub_gntlet_hard_puzzle_01.hard_puzzle_01_arena_click_03",
+                "interval": 20,
+                "rest-interval": 2,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    
+                    [10,"sanctum-mix-medium"]
+                    
+                    
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "hard_puzzle_01_arena_click_04",
+            "trigger-object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Beacon/bp_Wind_Beacon_4",
+            
+            "arena": {
+                "stretch": "*.gs_sub_gntlet_hard_puzzle_01.hard_puzzle_01_arena_click_04",
+                "interval": 20,
+                "rest-interval": 2,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    
+                    [10,"sanctum-mix-medium"]
+                    
+                    
+                ],
+                "gate": null
+            }
+        },
+
+        {
+            "id": "hard_puzzle_01_gate_click",
+			"trigger-object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LF",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LF",
+                "door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Gate/BP_Wind_Gate_GSalt",
+                "count": 7,
+                "locations": [
+                    "*.gs_sub_gntlet_hard_puzzle_01.hard_puzzle_01_gate_click"
+                ],
+                "locked-doors": [
+                    "*.gs_sub_gntlet_hard_puzzle_01.gate"
+                ]
+            }
+		},
+        
+        {
+            "id": "hard_puzzle_02_arena_click",
+            "trigger-object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Beacon/bp_Wind_Beacon",
+            
+            "arena": {
+                "stretch": "*",
+                "interval": 20,
+                "rest-interval": 2,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    
+                    [8,"sanctum-mix-medium"],
+                    [9, "sanctum-mix-medium"],
+                    [10, "sanctum-mix-medium"] 
+                    
+                    
+                ],
+                "gate": 
+                {
+                    "object": "Content_DLC3/Decor/Prefabs/_Mountains/Wind_Gate/BP_Wind_Gate_GSalt",
+                    "start-unlocked": false
+                }
+            }
+        }
+    ],  
+
+    "prop-groups": [],
+
+     
+    "tile-groups":[]
+}

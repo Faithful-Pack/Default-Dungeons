@@ -1,0 +1,451 @@
+{
+    "object-groups": [
+        "archhaven/objectgroup"
+    ],
+    "tiles": [
+      {
+            "id": "ah_start001",
+            "entry-door":"enter",
+            "rotations":[90]
+      },
+      {
+            "id": "ah_island002",
+            "rotations":[90]
+      },
+      {
+            "id": "ah_island_deadend002",
+            "challenges":["miniarena_fort"]
+      },
+      {
+            "id": "ah_coast001",
+            "entry-door":"enter",
+            "exit-door":"exit"
+      },
+      {
+            "id": "ah_forest_a001",
+            "entry-door":"enter",
+      },
+      {
+            "id": "ah_forest_a002",
+            "entry-door":"enter",
+      },
+      {
+            "id": "ah_forest_a003",
+            "entry-door":"enter",
+      },
+      {
+            "id": "ah_villageobjective001",
+            "entry-door":"enter"
+      },
+      {
+            "id": "ah_caveentrance001",
+            "teleports": [
+              /*{
+                "door": "travel",
+                "exit": "treasurecave.*.travel",
+                "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+              }*/
+              {
+                "door": "travel",
+                "dungeons":["treasurecave"],
+                //"exit": "treasurecave.*.travel",
+                "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+              }
+            ]
+      },
+      {
+            "id": "ah_treasurecave_entrance001",
+            "rotations":[90],
+            "teleports": [
+              {
+                "door": "travel",
+                "object": "Decor/Prefabs/DoorTravel/BP_Door_Inner"
+              }
+            ]
+      },
+      {
+            "id": "ah_treasurecave_exit001",
+            "teleports": [
+              {
+                "door": "travel",
+                "dungeons":["exit"],
+                //"exit": "end.*.travel",
+                "object": "Decor/Prefabs/DoorTravel/BP_AH_DoorLarge_Inner"
+              }
+            ]
+      },
+      {
+            "id": "ah_treasurecave_transition01",
+            "entry-door":"enter"
+      },
+      {
+            "id": "ah_treasurecave_transition02",
+            "entry-door":"enter"
+      },
+      {
+            "id": "ah_treasurecave_jeti01",
+      },
+      {
+            "id": "ah_treasurecave_jeti02",
+      },
+      {
+            "id": "ah_treasurecave_jeti03",
+      },
+      {
+            "id": "ah_treasurecave_jeti04",
+      },
+      {
+            "id": "ah_creeper_exit001",
+            "rotations":[90],
+            "teleports": [
+              {
+                "door": "travel",
+                "object": "Decor/Prefabs/DoorTravel/BP_AH_DoorLarge"
+              }
+            ]
+      },
+      {
+        "id": "ah_coastextension",
+        "entry-door":"enter"
+      },
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+      {
+            "id": "start",
+            "tiles": [
+              "ah_start001"   
+            ]
+        },
+        {
+            "id": "cape",
+            "tiles": [
+              "ah_cape001"   
+            ]
+        },
+        {
+            "id": "coast",
+            "tiles": [
+              "ah_coast001"   
+            ]
+        },
+        {
+            "id": "caveentrance",
+            "tiles": [
+              "ah_caveentrance001"   
+            ]
+        },
+        {
+            "id": "forest_a",
+            "tiles": [
+              "ah_forest_a001",
+              "ah_forest_a002",
+              "ah_forest_a003"
+              //"island_tile003"    
+            ]
+        },
+        {
+            "id": "objectivevillage",
+            "tiles": [
+              "ah_villageobjective001",
+              //"island_tile003"    
+            ]
+        },
+        {
+            "id": "islands",
+            "tiles": [
+              "ah_island001",
+              "ah_island002",
+              //"island_tile003"    
+            ]
+        },
+        {
+            "id": "jeti",
+            "tiles": [
+              "ah_treasurecave_jeti01",
+              "ah_treasurecave_jeti02",
+              "ah_treasurecave_jeti03",
+              "ah_treasurecave_jeti04",
+              //"island_tile003"    
+            ]
+        },
+    ],
+/*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+
+*/
+ "challenges": [
+
+    ],
+
+/*
+
+██████╗ ██████╗  ██████╗ ██████╗ ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██╔════╝
+██████╔╝██████╔╝██║   ██║██████╔╝███████
+╗██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ╚════██║
+██║     ██║  ██║╚██████╔╝██║     ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+
+"props": [
+  {
+    "id": "objective_house_a001",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_a002",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_a003",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_a004",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_a005",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_a006",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_a007",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_b001",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_b002",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_b003",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_b004",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_b005",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_b006",
+    "rotations": [0,90]
+  },
+  {
+    "id": "objective_house_b007",
+    "rotations": [0,90]
+  },
+  {
+    "id": "ah_prop_house_large001",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_house_large002",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_watchtower001",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_watchtower002",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_watchtower003",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_watchtower004",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_watchtower005",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_watchtower006",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_watchtower007",
+    "rotations": [0,90,180]
+  },
+  {
+    "id": "ah_prop_fort001",
+    "rotations": [90]
+  },
+  {
+    "id": "ah_prop_fort002",
+    "rotations": [90]
+  },
+  {
+    "id": "ah_prop_fort003",
+    "rotations": [90]
+  },
+  {
+    "id": "ah_prop_fort004",
+    "rotations": [90]
+  },
+  {
+    "id": "ah_prop_fort005",
+    "rotations": [90]
+  },
+  {
+    "id": "ah_prop_fort006",
+    "rotations": [90]
+  },
+],
+
+
+ /*
+
+██████╗ ██████╗  ██████╗ ██████╗        ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗      ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+██████╔╝██████╔╝██║   ██║██████╔╝█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+██║     ██║  ██║╚██████╔╝██║           ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝            ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+                                                                                          
+
+ */
+ "prop-groups": [
+    {
+      "id": "objectivehouse_a",
+      "on-regions": ["*.*.prop_house_a"],
+      "props": [
+        "objective_house_a001","objective_house_a002","objective_house_a003","objective_house_a004",
+        "objective_house_a005","objective_house_a006","objective_house_a007"
+      ],
+    }, 
+    {
+      "id": "objectivehouse_b",
+      "on-regions": ["*.*.prop_house_b"],
+      "props": [
+        "objective_house_b001","objective_house_b002","objective_house_b003","objective_house_b004",
+        "objective_house_b005","objective_house_b006","objective_house_b007"
+      ],
+    },
+    {
+      "id": "prop_house_large",
+      "on-regions": ["*.*.prop_house_large"],
+      "props": [
+        "ah_prop_house_large001","ah_prop_house_large002"
+      ],
+    },
+    {
+      "id": "prop_watchtower",
+      "on-regions": ["*.*.prop_watchtower"],
+      "props": [
+        "ah_prop_watchtower001","ah_prop_watchtower002","ah_prop_watchtower003","ah_prop_watchtower004",
+        "ah_prop_watchtower005","ah_prop_watchtower006","ah_prop_watchtower007"
+      ],
+    }, 
+    {
+      "id": "prop_fort",
+      "on-regions": ["*.*.prop_fort"],
+      "props": [
+        "ah_prop_fort001","ah_prop_fort002","ah_prop_fort003","ah_prop_fort004",
+        "ah_prop_fort005","ah_prop_fort006"
+      ],
+    },
+    {
+      "id": "prop_decor",
+      "on-regions": ["*.*.prop_decor"],
+      "props": [
+        "ah_prop_decor001","ah_prop_decor002","ah_prop_decor003","ah_prop_decor004",
+        "ah_prop_decor005","ah_prop_decor006","ah_prop_decor007","ah_prop_decor008",
+        "ah_prop_decor009","ah_prop_decor010"
+      ],
+    }, 
+    {
+      "id": "prop_camp",
+      "on-regions": ["*.*.prop_camp"],
+      "props": [
+        "ah_prop_camp001","ah_prop_camp002","ah_prop_camp003","ah_prop_camp004",
+        "ah_prop_camp005","ah_prop_camp006"
+      ],
+    }, 
+ ],
+
+/*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+
+*/
+
+"challenges": [
+        {
+            "id": "miniarena_fort",
+            "trigger": "*.*.challenge",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/ArenaEye/BP_ArenaEye",
+                    "start-unlocked": true
+                }
+            }
+        },
+ ],
+
+
+/*
+
+██████╗ ██╗   ██╗███╗   ██╗ ██████╗ ███████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██║   ██║████╗  ██║██╔════╝ ██╔════╝██╔═══██╗████╗  ██║██╔════╝
+██║  ██║██║   ██║██╔██╗ ██║██║  ███╗█████╗  ██║   ██║██╔██╗ ██║███████╗
+██║  ██║██║   ██║██║╚██╗██║██║   ██║██╔══╝  ██║   ██║██║╚██╗██║╚════██║
+██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝███████╗╚██████╔╝██║ ╚████║███████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+*/
+    "dungeon-files": [
+
+    ],
+}

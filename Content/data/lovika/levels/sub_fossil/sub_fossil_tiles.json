@@ -1,0 +1,45 @@
+{
+	"object-groups": [
+		"sub_fossil/objectgroup"
+	],
+
+	"challenges": [
+		{
+			"id": "fossil_clicky_arena",
+			"trigger": "*.*.fossiltrigger",
+			"reward": {
+				"region": "*.fossil_1.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 10.0,
+				"rest-interval": 0.5,
+				"start-time": 0.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[3, "creeperZombie-mix"],
+					[4, "creeperZombie-mix"],
+					[6, "creeperZombie-mix"],
+					[5, "creeperZombie-mix"],
+					[6, "creeperZombie-mix"]
+				],
+				"gate": null
+			}
+		}
+	],
+
+	"tiles": [
+		{
+			"id": "fossil_1",
+			"challenges": ["fossil_clicky_arena"],
+			"rotations": 270,
+			"teleports" : [
+				{
+					"door":"fossil_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "sub_stables_2",
+    "audio-ambience": "audio_4", 
+	"ambience":"delta",
+    "fill": "only-doors",
+    
+
+    "stretches": [
+           
+        {
+            "tiles": ["cr_sub_stable_entrance"],
+            "mobs": {
+				"density": 1,
+				"only": ["stables_mix"]
+            } 
+        },
+
+        {
+            "tiles": ["cr_sub_stable_ravager_01"],
+            "mobs": {
+				"density": 1,
+				"only": ["stables_mix"]
+            } 
+        }
+            
+    ]
+
+   
+    
+    
+}

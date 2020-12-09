@@ -1,0 +1,201 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_riverlock",
+    "resource-packs": [
+        "FrozenFjord"
+    ],
+    "object-groups": [
+        "sub_riverlock/objectgroup"
+    ],
+    "objectives": [],
+    "default-mobs": {
+        "only": [
+            {
+                "id": "cw-mix2",
+                "weight": 5
+            }
+        ],
+        "density": 1
+    },
+    "mob-groups": [
+        {
+            "#": "============== EASY MIX ==============",
+            "id": "easy-mix",
+            "types": [
+                {
+                    "type": "animal",
+                    "weight": 0.1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 0.4
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1.5
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "sub_riverlock/sub_riverlock.json"
+        },
+        {
+            "#": "============ CW-MIX ===========",
+            "id": "cw-mix2",
+            "pick-types": [
+                2,
+                3
+            ],
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 3
+                },
+                {
+                    "type": "zombie",
+                    "weight": 5
+                },
+                {
+                    "type": "creeper",
+                    "weight": 3
+                },
+                {
+                    "type": "spider",
+                    "weight": 2
+                },
+                {
+                    "type": "animal",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_riverlock/sub_riverlock.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "lock"
+            ],
+            "prop-groups": [
+                "tree"
+            ]
+        },
+        {
+            "tiles": [
+                "lock_1"
+            ],
+            "prop-groups": [
+                "boat"
+            ]
+        },
+        {
+            "tiles": [
+                "lock_1"
+            ],
+            "prop-groups": [
+                "boat"
+            ]
+        },
+        {
+            "tiles": [
+                "lock_2"
+            ]
+        },
+        {
+            "tiles": [
+                "lock_1"
+            ],
+            "prop-groups": [
+                "boat"
+            ]
+        },
+        {
+            "tiles": [
+                "lock_3"
+            ]
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "tree",
+            "props": [
+                {
+                    "id": "tree1",
+                    "weight": 1
+                },
+                {
+                    "id": "tree2",
+                    "weight": 1
+                },
+                {
+                    "id": "tree2",
+                    "weight": 1
+                },
+                {
+                    "id": "tree1",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_riverlock/sub_riverlock.json"
+        },
+        {
+            "id": "boat",
+            "props": [
+                {
+                    "id": "boat1",
+                    "weight": 1
+                },
+                {
+                    "id": "boat2",
+                    "weight": 1
+                },
+                {
+                    "id": "boat3",
+                    "weight": 1
+                },
+                {
+                    "id": "boat3",
+                    "weight": 1
+                },
+                {
+                    "id": "boat2",
+                    "weight": 1
+                },
+                {
+                    "id": "boat1",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_riverlock/sub_riverlock.json"
+        }
+    ],
+    "tiles": [
+        {
+            "id": "lock",
+            "rotations": [
+                180
+            ],
+            "##loc": "sub_riverlock/sub_riverlock.json"
+        },
+        {
+            "id": "lock_1",
+            "entry-door": "enter",
+            "##loc": "sub_riverlock/sub_riverlock.json"
+        }
+    ],
+    "props": [],
+    "tile-groups": [],
+    "challenges": [],
+    "dungeons": []
+}

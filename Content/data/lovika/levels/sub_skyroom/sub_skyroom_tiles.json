@@ -1,0 +1,49 @@
+{
+
+    "object-groups": ["sub_skyroom/objectgroup"],
+
+
+
+    "tiles":[ 
+
+        {
+            "id": "gs_sub_thesky_main",
+            "rotations": [180, 270],
+            "teleports": [
+                {
+                    "door": "sky_in_01",
+                    "exit": "*.gs_large_room_high.sky_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+                        ]
+        },
+
+        {
+            "id": "gs_sub_thesky_sideroom_01"
+            
+        },
+
+        {
+            "id": "gs_sub_thesky_sideroom_02"
+            
+        }
+    ],
+
+
+    "challenges":[],  
+
+    "prop-groups": [],
+
+     
+    "tile-groups":[ 
+        {
+            "#": "gssr_sidepath",
+            "id": "gssr_sidepath",
+            "tiles": [
+                "gs_sub_thesky_sideroom_01",
+                "gs_sub_thesky_sideroom_02"] 
+
+        }
+    ]
+
+}

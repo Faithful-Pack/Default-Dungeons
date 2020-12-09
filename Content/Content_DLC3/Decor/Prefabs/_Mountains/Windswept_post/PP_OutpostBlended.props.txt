@@ -1,0 +1,66 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_WS_Backdrop_sun.T_WS_Backdrop_sun'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_Flowclouds.T_Flowclouds'
+}
+Expressions[24] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.MaterialExpressionScalarParameter_1'
+    Expressions[8] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionVectorParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.MaterialExpressionVectorParameter_0'
+    Expressions[13] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.MaterialExpressionScalarParameter_0'
+    Expressions[14] = MaterialExpressionVectorParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        RuntimeEntries = 
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=2000, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Scale, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WS_projection normal
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WS_projectionTangent
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

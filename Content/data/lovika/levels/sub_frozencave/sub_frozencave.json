@@ -1,0 +1,48 @@
+{
+	"id":"sub_frozencave",
+	"ambience":"bravo",
+	"audio-ambience":"audio_2",
+
+	"stretches": [
+		{
+			"tiles": ["ice_1"],
+			"mobs": {
+				"density": 1,
+				"only": ["cave-mix-easy"]
+			}
+		},
+
+		{
+			"tiles": ["ice_2"],
+			"mobs": {
+				"density": 1,
+				"only": ["cave-mix-easy"]
+			}
+		},
+
+		{
+			"tiles": ["ice_3"],
+			"mobs": {
+				"density": 1,
+				"only": ["cave-mix-easy"]
+			}
+		},
+
+		{
+			"tiles": ["ice_4"],
+			"mobs": {
+				"density": 1,
+				"only": ["cave-mix-med"]
+			},
+			"dead-ends": ["ice_deadend", "ice_deadend_2"],
+		},
+
+		{
+			"tiles": ["ice_end"],
+			"mobs": {
+				"density": 1,
+				"only": ["cave-mix-med"]
+			}
+		}
+	]
+}

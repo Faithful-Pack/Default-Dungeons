@@ -1,0 +1,901 @@
+{
+    "id": "GaleSanctum",
+    "loctable-id": "GaleSanctumLoctable",
+    "require-matching-doors": true,
+    "resource-packs": ["Galesanctum"],
+
+    "object-groups": ["GaleSanctum/objectgroup","GaleSanctum2/objectgroup"],
+
+    "mob-files": ["GaleSanctum/GS_Mobs.json"],
+
+	"default-mobs": {
+		"only": [
+			{"id": "full-sanctum-mix", "weight": 2},
+			{"id": "mountaineer-mix", "weight": 1},
+		],
+		"density": 0.9
+	},
+
+    "dungeon-files": [
+        "GaleSanctum/GS_level_links.json",
+        "sub_golem_workshop/sub_golem_workshop.json",
+        "sub_skyroom/sub_skyroom.json",
+        "sub_gauntlet_gales/sub_gauntlet_gales.json",
+        "sub_llama_lockin/sub_llama_lockin.json"
+	],
+
+    "tile-files": [
+        "GaleSanctum/GS_level_links_tiles.json",
+        "sub_golem_workshop/sub_golem_workshop_tiles.json",
+        "sub_skyroom/sub_skyroom_tiles.json",
+        "sub_gauntlet_gales/sub_gauntlet_gales_tiles.json",
+        "sub_llama_lockin/sub_llama_lockin_tiles.json"
+	],
+
+    "stretches": [
+
+        {
+            "tiles": ["gs_start_stairs_01"],
+            "audio-ambience":"audio_6",
+            "mobs": {
+                "density": 0.6,
+                "only": [
+                    "sanctum-mix-easy"
+                ]
+            }
+        },
+
+        {
+            "tiles": ["spacer"]
+        },
+
+        {
+            "tiles": ["gs_grand_hall_01"],
+            "audio-ambience":"audio_4",
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-easy"
+                ]
+            }
+            
+        },
+
+        {
+            "tiles": ["gs_grand_hall_02","gs_grand_hall_03"],
+            "audio-ambience":"audio_4",
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-easy"
+                ]
+            }
+        },
+
+        {
+            "tiles": ["gs_grand_hallway","gs_grand_hallway_alt"],
+            "audio-ambience":"audio_4",
+            "length": 1,
+        },
+
+        {
+            "tiles": ["gs_puzzle_room_01_alt"],
+            "audio-ambience":"audio_4",
+            "length": 1,
+        },
+
+        {
+            "tiles": ["corridor_turn_01","corridor_turn_01_alt"],
+            "audio-ambience":"audio_4",
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-med"
+                ]
+            }
+        },
+
+        {
+            "tiles": ["spacer_1"]
+        },
+
+        {
+            "tiles": ["gs_garden_01"],
+            "audio-ambience":"audio_6",
+            "mobs": {
+                "density": 0.75,
+                "only": [
+                    "sanctum-mix-med"
+                ]
+            }
+        },
+
+        {
+            "tiles": ["gs_garden_02"],
+            "audio-ambience":"audio_6",
+            "dead-ends": ["gs_garden_side","gs_garden_side_alt"],
+        },
+
+        {
+            "tiles": ["gs_garden_ex_01"],
+            "audio-ambience":"audio_6",
+        },
+
+        {
+            "tiles": ["gs_stairs_up_01"],
+            "audio-ambience":"audio_9",
+            "dead-ends": [
+                {
+                    "id": "gs_stairs_de_01",
+                    "weight": 10
+                }
+                    ],
+        "side-paths":{
+        "probability": 10,
+        "default": {
+            "max-length": [1,1],
+            "dead-ends": [{"id":"gs_stairs_de_01","weight": 10}],
+            "tile-groups": ["gs_stairs_SP"]
+                    }
+                    }
+        },
+
+        {
+            "tiles": ["gs_stairs_up_02","gs_stairs_up_03"],
+            "audio-ambience":"audio_9",
+            "length": 1,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-hard"
+                ]
+            }
+            
+        },
+        {
+            "tiles": ["gs_stairs_up_04_a"],
+            "audio-ambience":"audio_9",
+        },
+        {
+            "tiles": ["gs_stairs_up_04_b"],
+            "audio-ambience":"audio_9",
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-hard"
+                ]
+            }
+        },
+
+        {
+            "tiles": ["gs_stairs_up_04_c"],
+            "audio-ambience":"audio_9",
+        },
+
+        {
+            "tiles": ["gs_stairs_up_04_d"],
+            "audio-ambience":"audio_9",
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "sanctum-mix-hard"
+                ]
+            }
+        },
+
+        {
+            "tiles": ["gs_stairs_up_04"],
+            "audio-ambience":"audio_9",
+        }
+
+
+    ],
+
+    "tiles":[
+
+        {
+            "id": "gs_start_stairs_01",
+            "rotations": [0],
+            "exit-door": "exit",
+            "teleports": [
+               {
+                    "door": "teleport_in",
+                    "dungeons":["GS_level_links"],
+                    "exit": "*.gs_large_room_mid.mid_door_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+                
+                        ] 
+        },
+
+
+		{
+			"id": "gs_grand_hall_01",
+			"challenges": ["gs_hallway_arena_01"],
+			"entry-door": "enter",
+			"exit-door": "exit",
+			"teleports": [
+				{
+					"door": "hall_out",
+					 "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+				},
+
+				{
+					"door": "gauntlet_in",
+					"dungeons":["sub_skyroom"],
+					"exit": "*.gs_sub_thesky_main.sky_in_01",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+
+				
+
+			]
+
+		},
+
+        {
+            "id": "gs_grand_hall_01_alt",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "teleports": [
+                {
+                    "door": "hall_out",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+               }
+             ]
+            
+             
+        },
+
+        {
+            "id": "gs_grand_hall_02",
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_grand_hall_03",
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_grand_hallway",
+            "challenges": ["gs_freebie_arena_1"],
+            "entry-door": "enter",
+            "teleports": [
+                {
+                     "door": "golem_in",
+                     "dungeons":["sub_golem_workshop"],
+                     "exit": "*.gs_sub_golems_entrance.golem_in_01",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                 }
+                         ] 
+        },
+
+        {
+            "id": "gs_grand_hallway_alt",
+            "challenges": ["gs_freebie_arena"],
+            "entry-door": "enter"
+            
+        },
+
+        {
+            "id": "gs_puzzle_room_01",
+            "entry-door": "enter"
+            
+            
+            
+        },
+
+        {
+            "id": "gs_puzzle_room_01_alt",
+            "challenges": ["gs_alt_puzzle_arena"],
+            "entry-door": "enter"
+            
+        },
+
+
+        {
+            "id": "corridor_turn_01",
+            "teleports": [
+                {
+                    "door": "hall_out",
+                    "dungeons":["GS_level_links_02"],
+                    "exit": "*.gs_large_room_low.low_door_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+                        ] 
+           
+            
+        },
+
+        {
+            "id": "corridor_turn_01_alt",
+            "teleports": [
+                {
+                    "door": "hall_out",
+                    "dungeons":["GS_level_links_02"],
+                    "exit": "*.gs_large_room_low.low_door_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+                        ] 
+           
+            
+        },
+
+        {
+            "id": "gs_garden_01",
+            "rotations": [180],
+            "entry-door": "enter",
+            "teleports": [
+                {
+                    "door": "big_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+             }
+                       ] 
+        },
+
+        {
+            "id": "gs_garden_02",
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_garden_side",
+            "teleports": [
+                {
+                    "door": "llama_in",
+                    "dungeons":["sub_llama_lockin"],
+                    "exit": "*.gs_sub_llamas_shrine.llama_in_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+                        ] 
+        },
+
+        {
+            "id": "gs_stairs_up_01",
+            "rotations": [90],
+            "entry-door": "enter"
+            
+        },
+
+        {
+            "id": "gs_stairs_up_02",
+            "challenges": ["gs_stairs_up_02 arena"],
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_stairs_up_03",
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_stairs_de_01",
+            "challenges": ["gs_de_stairs_arena"]
+        },
+
+        {
+            "id": "gs_stairs_up_04_a",
+            "challenges": ["gs_stairs_up_arena_a"],
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_stairs_up_04_b",
+            "challenges": ["gs_stairs_up_arena_b"],
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_stairs_up_04_c",
+            "challenges": ["gs_stairs_up_arena_c"],
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_stairs_up_04_d",
+            "challenges": ["gs_stairs_up_arena_d"],
+            "entry-door": "enter"
+        },
+
+        {
+            "id": "gs_stairs_up_04",
+            "rotations": [90,180],
+            "entry-door": "enter",
+            "challenges": ["gs_de_stairs_final"],
+            "teleports": [
+                {
+                    "door": "end_teleport",
+                    "dungeons":["GS_level_links_03"],
+                    "exit": "high_door_entrance",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+            ]
+        }
+
+    ],
+
+    "objectives":[
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_g_01",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.*.mid_room_gauntlet"
+                        }
+        },
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_g_02",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "gauntlet": {
+            "end-region": "*.*.grand_gauntlet"
+                        }
+        },
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_c_01",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC3/Decor/Prefabs/_mountains/wind_beacon/bp_wind_beacon",
+                "count": 3,
+                "locations": [
+                    "*.*.click"
+                ],
+                "locked-doors": [
+                    "*.*.gate5"
+                ],
+                "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5"
+            }
+        },
+
+        {
+            "name": "name_gs_01",
+            "consider-tiles": "all",
+            "description": "description_gs_g_03",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.*.puzzle_gauntlet"
+                        }
+        },
+
+       
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_g_04",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.gs_large_room_low.low_gauntlet"
+                        }
+        },
+
+        
+
+        
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_g_05",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.gs_garden_01.garden_gauntlet"
+                        }
+        },
+
+        
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_g_07",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.gs_large_room_high.high_gauntlet"
+                        }
+        },
+
+//PRE BOSS FIGHT
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_g_08",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.gs_boss_fight.boss_gauntlet"
+                        }
+        },
+
+//BOSS FIGHT
+
+		{
+            "name": "name_gs_01",
+            "description": "description_gs_c_boss",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/Bp_TempestButton",
+                "count": 1,
+                "locations": [
+                    "*.gs_boss_fight.click_boss"
+                    ],
+            }
+        },
+
+		{
+			"name": "name_gs_01",
+			"description": "description_gs_a_01",
+			"displayMode": "MainObjective",
+			"consider-tiles": "all",
+			"arena": {
+				"stretch": "boss_arena",
+				"start-time": 0.0,
+                "interval": 0.0,
+                "is-boss":true,
+				"rest-interval": 0.0,
+				"prespawn-mob": "",
+				"mob-activations": [
+					"tempestgolem"
+				],
+				"waves": [
+					//[6, "sanctum-arena-mix"],
+					//[6, "sanctum-arena-mix"],
+					//[9, "sanctum-arena-mix"],
+					//[8, "sanctum-arena-mix"],
+					//[5, "sanctum-arena-mix"],
+				],
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_Door_5_GSBoss",
+					"start-unlocked": false,
+				},
+			}
+		},
+
+// POST BOSS FIGHT
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_g_09",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.gs_boss_fight.gauntlet_end"
+                        }
+        },
+
+        {
+            "name": "name_gs_01",
+            "description": "description_gs_c_02",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Door7x4",
+                "count": 1,
+                "locations": [
+                    "*.gs_boss_fight.click_1"
+                    ],
+                    "locked-doors": [
+                        "*.gs_final_room.gate1"
+                    ]
+            }
+        }
+
+
+    ],
+
+    "challenges":[
+
+        {
+            "id": "gs_hallway_arena_01",
+            "trigger-object": "Decor/Prefabs/_creepingwinter_structures/Buttons/BP_Button_GS",
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "has-music": false,
+				"mob-activations":[],
+                "waves": [
+                    [1, "ravager-horde"]
+                    ],
+                    "gate": {
+                        "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5",
+                        "start-unlocked": true
+                    }
+            }
+        },
+
+        {
+            "id": "gs_freebie_arena",
+            "trigger": "*.gs_grand_hallway_alt.arena_trigger",
+            "reward": {
+                "region": "*.gs_grand_hallway_alt.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "has-music": false,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+				"mob-activations":[],
+                "waves": [[1, "ravager-horde"]],
+                    "gate": null
+            }
+        },
+
+        {
+            "id": "gs_freebie_arena_1",
+            "trigger": "*.gs_grand_hallway.arena_trigger",
+            "reward": {
+                "region": "*.gs_grand_hallway.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "has-music": false,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+				"mob-activations":[],
+                "waves": [[1, "ravager-horde"]],
+                    "gate": null
+            }
+        },
+
+        {
+            "id": "gs_alt_puzzle_arena",
+            "trigger": "*.*.arena_trigger",
+            "reward": {
+                "region": "*.gs_puzzle_room_01_alt.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10.0,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+				"mob-activations":[],
+                "waves": [
+                    [7, "sanctum-arena-mix"],
+                    [5, "sanctum-wild-arena-mix"],
+                    [4, "sanctum-arena-mix"],
+                    [4, "sanctum-wild-arena-mix"],
+                    [11, "sanctum-arena-mix"]
+                    ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+
+        
+        
+        {
+            "id": "gs_de_stairs_arena",
+            "trigger": "*.*.arena_trigger",
+            "reward": {
+                "region": "*.gs_stairs_de_01.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10.0,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+				"mob-activations":[],
+                "waves": [
+                    [7, "sanctum-arena-mix"],
+                    [5, "sanctum-wild-arena-mix"],
+                    [4, "sanctum-arena-mix"],
+                    [4, "sanctum-wild-arena-mix"],
+                    [11, "sanctum-arena-mix"]
+                    ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+
+        {
+            "id": "gs_stairs_up_02 arena",
+            "trigger": "*.*.arena_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "start-time": 0.1,
+                "has-music": false,
+                "prespawn-mob": "",
+				"mob-activations":[],
+                "waves": [
+                    [20, "sanctum-arena-mix"]
+                    ],
+                    "gate": null
+            }
+        },
+
+        {
+            "id": "gs_stairs_up_arena_a",
+            "trigger": "*.*.arena_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "has-music": false,
+				"mob-activations":[],
+                "waves": [
+                    [7, "sanctum-arena-mix"]
+                    ],
+                    "gate": null
+            }
+        },
+
+        {
+            "id": "gs_stairs_up_arena_b",
+            "trigger": "*.*.arena_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "has-music": false,
+				"mob-activations":[],
+                "waves": [
+                    [7, "sanctum-arena-mix"]
+                    ],
+                    "gate": null
+            }
+        },
+
+        {
+            "id": "gs_stairs_up_arena_c",
+            "trigger": "*.*.arena_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "has-music": false,
+				"mob-activations":[],
+                "waves": [
+                    [10, "sanctum-arena-mix"]
+                    ],
+                    "gate": null
+            }
+        },
+
+        {
+            "id": "gs_stairs_up_arena_d",
+            "trigger": "*.*.arena_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 0.0,
+                "rest-interval": 0.0,
+                "start-time": 0.1,
+                "has-music": false,
+                "prespawn-mob": "",
+				"mob-activations":[],
+                "waves": [
+                    [7, "sanctum-arena-mix"]
+                    ],
+                    "gate": null
+            }
+        },
+
+
+
+        {
+            "id": "gs_de_stairs_final",
+            "trigger": "*.*.arena_trigger",
+            "reward": {
+                "region": "*.gs_stairs_up_04.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 7,
+                "rest-interval": 0.3,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+				"mob-activations":[],
+                "waves": [
+                    [5, "sanctum-arena-mix"],
+                    [9, "sanctum-arena-mix"],
+                    [4, "sanctum-wild-arena-mix"],
+                    [6, "sanctum-arena-mix"],
+                    [8, "sanctum-arena-mix"]
+                    ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_9",
+                    "start-unlocked": true
+                }
+            }
+        }
+
+        /*{
+            "id": "squall_click",
+            "trigger": "*.gs_grand_hallway.click_trigger",
+            "reward": {
+                "region": "*.gs_grand_hallway.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "click": {
+                "object": "Content_DLC3/Decor/Prefabs/_mountains/wind_beacon/bp_wind_beacon",
+                "count": 2,
+                "locations": [
+                    "*.gs_grand_hallway.click"
+                ],
+                "locked-doors": [
+                    "*.gs_grand_hallway.gate"
+                ],
+                "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5"
+            }
+        }*/
+
+    ],
+
+    "prop-groups": [],
+    
+    
+
+
+
+     
+    "tile-groups":[
+
+
+            {
+                "#": "GS_DE_pipe",
+                "id":"GS_DE_pipe",
+                "tiles":["gs_pipe_straight","gs_pipe_cross","gs_pipe_dead","gs_pipe_cap_01"]
+            },
+
+            {
+                "#": "GS_DE_grand",
+                "id":"GS_DE_grand",
+                "tiles":["gs_grand_cap"]
+            },
+
+            {
+                "#": "gs_garden_SP",
+                "id":"gs_garden_SP",
+                "tiles":["gs_garden_side","gs_garden_side_alt"]
+            },
+
+            {
+                "#": "gs_stairs_SP",
+                "id":"gs_stairs_SP",
+                "tiles":["gs_stairs_de_01"]
+            },
+
+            {
+                "#": "gs_basement_SP",
+                "id":"gs_basement_SP",
+                "tiles":["gs_basement_de_01","gs_basement_de_01","gs_basement_cap"]
+            }
+
+
+
+
+    ]
+}

@@ -1,0 +1,175 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_iron_mine",
+    "resource-packs": [
+        "FrozenFjord"
+    ],
+    "object-groups": [
+        "sub_iron_mine/objectgroup"
+    ],
+    "objectives": [],
+    "default-mobs": {
+        "only": [
+            {
+                "id": "cw-mix2",
+                "weight": 5
+            }
+        ],
+        "density": 1
+    },
+    "mob-groups": [
+        {
+            "#": "============== EASY MIX ==============",
+            "id": "easy-mix",
+            "types": [
+                {
+                    "type": "animal",
+                    "weight": 0.1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 0.4
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1.5
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        },
+        {
+            "#": "============ CW-MIX ===========",
+            "id": "cw-mix2",
+            "pick-types": [
+                2,
+                3
+            ],
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 3
+                },
+                {
+                    "type": "zombie",
+                    "weight": 5
+                },
+                {
+                    "type": "creeper",
+                    "weight": 3
+                },
+                {
+                    "type": "spider",
+                    "weight": 2
+                },
+                {
+                    "type": "animal",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "iron_2"
+            ]
+        },
+        {
+            "tiles": [
+                "iron_3"
+            ]
+        },
+        {
+            "tiles": [
+                "iron_4"
+            ]
+        },
+        {
+            "tiles": [
+                "iron_5"
+            ]
+        },
+        {
+            "tiles": [
+                "iron_1"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "iron_2",
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        },
+        {
+            "id": "iron_3",
+            "entry-door": "enter_001",
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        },
+        {
+            "id": "iron_4",
+            "entry-door": "enter_002",
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        },
+        {
+            "id": "iron_1",
+            "challenges": [
+                "mine_clicky_arena"
+            ],
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        }
+    ],
+    "challenges": [
+        {
+            "id": "mine_clicky_arena",
+            "trigger": "*.*.minetrigger",
+            "reward": {
+                "region": "*.iron_1.challengeloot[2]",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "cw-mix2"
+                    ],
+                    [
+                        5,
+                        "cw-mix2"
+                    ],
+                    [
+                        5,
+                        "cw-mix2"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/Door/BP_StoneDoor_lit",
+                    "start-unlocked": false
+                }
+            },
+            "##loc": "sub_iron_mine/sub_iron_mine.json"
+        }
+    ],
+    "props": [],
+    "prop-groups": [],
+    "tile-groups": [],
+    "dungeons": []
+}

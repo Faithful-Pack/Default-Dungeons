@@ -1,0 +1,39 @@
+{
+    "id": "sub_mountain_cabin",
+    "ambience":"bravo",
+    "audio-ambience": "audio_1",  
+    "fill": {
+        "world": {
+            "gradient": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15 ]
+        }
+    },		
+    "stretches": [
+        {
+            
+            "tiles": ["wp_sub_mcabin_house_01"
+                    ],
+			"mobs": {
+                "density": 2.0,
+                "only": ["cabin-mix"]
+            }
+        },
+
+        {
+            
+            "tiles": ["cabin_spacer"]
+
+        },
+
+        {
+
+            "tiles": ["wp_sub_mcabin_basement"]
+
+        }
+
+
+    ]
+
+   
+
+   
+}

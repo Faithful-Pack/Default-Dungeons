@@ -1,0 +1,192 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_shrine",
+    "resource-packs": [
+        "FrozenFjord"
+    ],
+    "object-groups": [
+        "sub_shrine/objectgroup"
+    ],
+    "objectives": [],
+    "default-mobs": {
+        "only": [
+            {
+                "id": "cw-mix2",
+                "weight": 5
+            }
+        ],
+        "density": 1
+    },
+    "mob-groups": [
+        {
+            "#": "============== EASY MIX ==============",
+            "id": "easy-mix",
+            "types": [
+                {
+                    "type": "animal",
+                    "weight": 0.1
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 0.4
+                },
+                {
+                    "type": "zombie",
+                    "weight": 1.5
+                },
+                {
+                    "type": "babyzombie",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                4
+            ],
+            "##loc": "sub_shrine/sub_shrine.json"
+        },
+        {
+            "#": "============ CW-MIX ===========",
+            "id": "cw-mix2",
+            "pick-types": [
+                2,
+                3
+            ],
+            "types": [
+                {
+                    "type": "skeleton",
+                    "weight": 3
+                },
+                {
+                    "type": "zombie",
+                    "weight": 5
+                },
+                {
+                    "type": "creeper",
+                    "weight": 3
+                },
+                {
+                    "type": "spider",
+                    "weight": 2
+                },
+                {
+                    "type": "animal",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_shrine/sub_shrine.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "shrine_1"
+            ],
+            "prop-groups": [
+                "pillar"
+            ],
+            "prop-density": 2
+        },
+        {
+            "tiles": [
+                "shrine_2"
+            ]
+        },
+        {
+            "tiles": [
+                "shrine_3"
+            ],
+            "prop-groups": [
+                "post"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "shrine_1",
+            "entry-door": "enter",
+            "##loc": "sub_shrine/sub_shrine.json"
+        },
+        {
+            "id": "shrine_2",
+            "entry-door": "enter_001",
+            "##loc": "sub_shrine/sub_shrine.json"
+        },
+        {
+            "id": "shrine_3",
+            "entry-door": "enter_002",
+            "##loc": "sub_shrine/sub_shrine.json"
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "pillar",
+            "props": [
+                {
+                    "id": "pillar1",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar2",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar3",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar1",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar2",
+                    "weight": 1
+                },
+                {
+                    "id": "pillar3",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_shrine/sub_shrine.json"
+        },
+        {
+            "id": "post",
+            "props": [
+                {
+                    "id": "post1",
+                    "weight": 1
+                },
+                {
+                    "id": "post2",
+                    "weight": 1
+                },
+                {
+                    "id": "post3",
+                    "weight": 1
+                },
+                {
+                    "id": "post1",
+                    "weight": 1
+                },
+                {
+                    "id": "post2",
+                    "weight": 1
+                },
+                {
+                    "id": "post3",
+                    "weight": 1
+                }
+            ],
+            "##loc": "sub_shrine/sub_shrine.json"
+        }
+    ],
+    "props": [],
+    "tile-groups": [],
+    "challenges": [],
+    "dungeons": []
+}

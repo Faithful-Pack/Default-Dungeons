@@ -1,0 +1,635 @@
+{
+    "object-groups": [
+        "lobby/objectgroup",
+        "squidcoast/objectgroup"
+    ],
+
+    "tiles": [
+      {
+            "id": "base@lobby001",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "home",
+                    //"dungeons":["greathall"],
+                    "exit": "*.*.exit",
+                    "dungeons":["home"],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3",
+                },
+                {
+                    "door": "greathall_entrance",
+                    "dungeons":["greathall"],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
+                    "exit": "*.*.entrance",
+                },
+            ],
+            "unlock-keys": ["not questgiver_unlocked"]
+        },
+        {
+            "id": "questgiver@lobby001",
+			"rotations": 0,
+            "teleports": [
+                {
+                    "door": "home",
+                    //"dungeons":["greathall"],
+                    "exit": "*.*.exit",
+                    "dungeons":["home"],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3",
+                },
+                {
+                    "door": "greathall_entrance",
+                    "dungeons":["greathall"],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
+                    "exit": "*.*.entrance",
+                },
+                {
+                    "door": "questgiver",
+                    "dungeons":["questgiver"],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped",
+                    //"exit": "*.*.entrance",
+                }
+            ],
+            "unlock-keys": ["questgiver_unlocked"]
+        },
+        {
+            "id": "lobby_extended01",
+            "rotations": 0,
+        },
+        {
+            "id": "lobby_home",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "exit",
+                    //"object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Exit_2x3",
+                }
+            ]
+        },
+        {
+            "id": "greathall",
+            "rotations": 0,
+            "entry-door": "entrance",
+            "teleports": [
+                {
+                    "door": "entrance",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_CreeperDoor_Inner",
+                },
+                {
+                    "door": "moogate",
+                    "dungeons":["greathall_mooroom"],
+                    "object": "Decor/Prefabs/DoorTravel/BP_Door4x4",
+                    //"object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Exit_2x3",
+                }
+            ]
+        },
+        {
+            "id": "lobby_house_lvl1",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "exit",
+                    //"object": "Decor/Prefabs/DoorTravel/Lobby/BP_CreeperDoor_Inner",
+                },
+                {
+                    "door": "upstairs",
+                    "dungeons":["upstairs"],                    
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_2x3",
+                }
+            ]
+        },
+        {
+            "id": "lobby_house_lvl2",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "exit",
+                    //"object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Exit_2x3",
+                }
+            ]
+        },
+        {
+            "id": "greathall_mooroom",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "entrance",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_CreeperDoor_Inner",
+                }
+            ]
+        },
+        {
+            "id": "questgiver_room",
+            "rotations": 0
+        },
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+       
+    ],
+/*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+
+*/
+ "challenges": [
+
+    ],
+
+/*
+
+██████╗ ██████╗  ██████╗ ██████╗ ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██╔════╝
+██████╔╝██████╔╝██║   ██║██████╔╝███████╗
+██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ╚════██║
+██║     ██║  ██║╚██████╔╝██║     ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+
+"props": [
+
+//STORE
+
+  //Shopkeeper
+  
+  {
+    "id": "shopkeeper_base",
+    "rotations": [0],
+    "unlock-keys": ["not shopkeeper_unlocked" ]
+  },
+  {
+    "id": "shopkeeper_lvl1",
+    "rotations": [0],
+    "unlock-keys": ["shopkeeper_lvl1" ]
+  },
+  {
+    "id": "shopkeeper_lvl2",
+    "rotations": [0],
+    "unlock-keys": ["shopkeeper_lvl2" ]
+  },
+  {
+    "id": "shopkeeper_lvl3",
+    "rotations": [0],
+    "unlock-keys": ["shopkeeper_lvl3" ]
+  },
+  {
+    "id": "shopkeeper_lvl4",
+    "rotations": [0],
+    "unlock-keys": ["shopkeeper_lvl4" ]
+  },
+  {
+    "id": "shopkeeper_lvl5",
+    "rotations": [0],
+    "unlock-keys": ["shopkeeper_lvl5" ]
+  },
+
+  //Luxury Merchant
+
+  {
+    "id": "luxurymerchant_base",
+    "rotations": [0],
+    "unlock-keys": ["not luxurymerchant_unlocked"]
+  },
+  {
+    "id": "luxurymerchant_lvl1",
+    "rotations": [0],
+    "unlock-keys": ["luxurymerchant_lvl1"]
+  },
+  {
+    "id": "luxurymerchant_lvl2",
+    "rotations": [0],
+    "unlock-keys": ["luxurymerchant_lvl2"]
+  },
+  {
+    "id": "luxurymerchant_lvl3",
+    "rotations": [0],
+    "unlock-keys": ["luxurymerchant_lvl3"]
+  },
+  {
+    "id": "luxurymerchant_lvl4",
+    "rotations": [0],
+    "unlock-keys": ["luxurymerchant_lvl4"]
+  },
+  {
+    "id": "luxurymerchant_lvl5",
+    "rotations": [0],
+    "unlock-keys": ["luxurymerchant_lvl5"]
+  },
+
+  //Mystery Merchant
+
+  {
+    "id": "mysterymerchant_base",
+    "rotations": [0],
+    "unlock-keys": ["not mysterymerchant_unlocked"]
+  },
+  {
+    "id": "mysterymerchant_lvl1",
+    "rotations": [0],
+    "unlock-keys": ["mysterymerchant_lvl1"]
+  },
+  {
+    "id": "mysterymerchant_lvl2",
+    "rotations": [0],
+    "unlock-keys": ["mysterymerchant_lvl2"]
+  },
+  {
+    "id": "mysterymerchant_lvl3",
+    "rotations": [0],
+    "unlock-keys": ["mysterymerchant_lvl3"]
+  },
+  {
+    "id": "mysterymerchant_lvl4",
+    "rotations": [0],
+    "unlock-keys": ["mysterymerchant_lvl4"]
+  },
+  {
+    "id": "mysterymerchant_lvl5",
+    "rotations": [0],
+    "unlock-keys": ["mysterymerchant_lvl5"]
+  },
+
+  //Blacksmith
+
+  {
+    "id": "blacksmith_base",
+    "rotations": [0],
+    "unlock-keys": ["not blacksmith_unlocked"]
+  },
+  {
+    "id": "blacksmith_lvl1",
+    "rotations": [0],
+    "unlock-keys": ["blacksmith_lvl1"]
+  },
+  {
+    "id": "blacksmith_lvl2",
+    "rotations": [0],
+    "unlock-keys": ["blacksmith_lvl2"]
+  },
+  {
+    "id": "blacksmith_lvl3",
+    "rotations": [0],
+    "unlock-keys": ["blacksmith_lvl3"]
+  },
+
+  //Giftwrapper
+
+  {
+    "id": "giftwrapper_base",
+    "rotations": [0],
+    "unlock-keys": ["not giftwrapper_unlocked"]
+  },
+  {
+    "id": "giftwrapper_lvl1",
+    "rotations": [0],
+    "unlock-keys": ["giftwrapper_lvl1"]
+  },
+  {
+    "id": "giftwrapper_lvl2",
+    "rotations": [0],
+    "unlock-keys": ["giftwrapper_lvl2"]
+  },
+  {
+    "id": "giftwrapper_lvl3",
+    "rotations": [0],
+    "unlock-keys": ["giftwrapper_lvl3"]
+  },
+
+  //Questgiver
+
+{
+  "id": "questgiver_base",
+  "rotations": [0],
+  "unlock-keys": ["not questgiver_unlocked"]
+},
+{
+  "id": "questgiver_open",
+  "rotations": [0],
+  "unlock-keys": ["questgiver_unlocked"]
+},
+
+
+//HOUSE
+
+  {
+    "id": "house_dog_0",
+    "rotations": [0],
+    "unlock-keys": ["not carried-TastyBone"]
+  },
+  {
+    "id": "house_dog_1",
+    "rotations": [0],
+    "unlock-keys": ["carried-TastyBone"]
+  },
+
+  //LOOTCHESTS
+
+  {
+    "id": "lootchest1",
+    "rotations": [0,90],
+    "unlock-keys": ["creeperwoods and (not lobbychest-1)"]
+  },
+
+  {
+    "id": "lootchest1_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not creeperwoods or lobbychest-1"]
+  },
+
+  {
+    "id": "lootchest2",
+    "rotations": [0,90],
+    "unlock-keys": ["pumpkinpastures and (not lobbychest-2)"]
+  },
+
+  {
+    "id": "lootchest2_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not pumpkinpastures or lobbychest-2"]
+  },
+
+  {
+    "id": "lootchest3",
+    "rotations": [0,90],
+    "unlock-keys": ["soggyswamp and (not lobbychest-3)"]
+  },
+
+  {
+    "id": "lootchest3_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not soggyswamp or lobbychest-3"]
+  },
+
+  {
+    "id": "lootchest4",
+    "rotations": [0,90],
+    "unlock-keys": ["mooncorecaverns and (not lobbychest-4)"]
+  },
+
+  {
+    "id": "lootchest4_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not mooncorecaverns or lobbychest-4"]
+  },
+
+  {
+    "id": "lootchest5",
+    "rotations": [0,90],
+    "unlock-keys": ["cacticanyon and (not lobbychest-5)"]
+  },
+
+  {
+    "id": "lootchest5_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not cacticanyon or lobbychest-5"]
+  },
+
+  {
+    "id": "lootchest6",
+    "rotations": [0,90],
+    "unlock-keys": ["fieryforge and (not lobbychest-6)"]
+  },
+
+  {
+    "id": "lootchest6_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not fieryforge or lobbychest-6"]
+  },
+
+  {
+    "id": "lootchest7",
+    "rotations": [0,90],
+    "unlock-keys": ["deserttemple and (not lobbychest-7)"]
+  },
+
+  {
+    "id": "lootchest7_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not deserttemple or lobbychest-7"]
+  },
+
+  {
+    "id": "lootchest8",
+    "rotations": [0,90],
+    "unlock-keys": ["highblockhalls and (not lobbychest-8)"]
+  },
+
+  {
+    "id": "lootchest8_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not highblockhalls or lobbychest-8"]
+  },
+
+  {
+    "id": "lootchest9",
+    "rotations": [0,90],
+    "unlock-keys": ["obsidianpinnacle and (not lobbychest-9)"]
+  },
+
+  {
+    "id": "lootchest9_empty",
+    "rotations": [0,90],
+    "unlock-keys": ["not obsidianpinnacle or lobbychest-9"]
+  },
+
+  //Various
+
+  {
+    "id": "jumppads",
+    "rotations": [0],
+    "unlock-keys": ["obsidianpinnacle"]
+  },
+
+  {
+    "id": "jumppads_empty",
+    "rotations": [0],
+    "unlock-keys": ["not obsidianpinnacle"]
+  },
+  
+],
+
+
+ /*
+
+██████╗ ██████╗  ██████╗ ██████╗        ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗      ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+██████╔╝██████╔╝██║   ██║██████╔╝█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+██║     ██║  ██║╚██████╔╝██║           ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝            ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+                                                                                          
+
+ */
+ "prop-groups": [
+
+    //STORE
+
+    {
+      "id": "shopkeeper",
+      "on-regions": ["*.*.shopkeeper"],
+      "props": [
+          "shopkeeper_base","shopkeeper_lvl1","shopkeeper_lvl2","shopkeeper_lvl3","shopkeeper_lvl4","shopkeeper_lvl5"
+        ],
+    },
+    {
+      "id": "luxurymerchant",
+      "on-regions": ["*.*.luxurymerchant"],
+      "props": [
+          "luxurymerchant_base","luxurymerchant_lvl1","luxurymerchant_lvl2","luxurymerchant_lvl3","luxurymerchant_lvl4","luxurymerchant_lvl5"
+        ],
+    },
+    {
+      "id": "mysterymerchant",
+      "on-regions": ["*.*.mysterymerchant"],
+      "props": [
+          "mysterymerchant_base","mysterymerchant_lvl1","mysterymerchant_lvl2","mysterymerchant_lvl3","mysterymerchant_lvl4","mysterymerchant_lvl5"
+        ],
+    },
+    {
+      "id": "blacksmith",
+      "on-regions": ["*.*.blacksmith"],
+      "props": [
+          "blacksmith_base","blacksmith_lvl1","blacksmith_lvl2","blacksmith_lvl3"
+        ],
+    },
+    {
+      "id": "giftwrapper",
+      "on-regions": ["*.*.giftwrapper"],
+      "props": [
+          "giftwrapper_base","giftwrapper_lvl1","giftwrapper_lvl2","giftwrapper_lvl3"
+        ],
+    },
+
+    {
+      "id": "questgiver",
+      "on-regions": ["*.*.questgiver"],
+      "props": [
+          "questgiver_base","questgiver_open"
+        ],
+    },
+    
+
+    //HOUSE
+
+    {
+      "id": "house_dog",
+      "on-regions": ["*.*.house_dog"],
+      "props": [
+          "house_dog_0","house_dog_1"
+        ],
+    },
+
+    //LOOTCHESTS
+
+    {
+      "id": "lootchest1",
+      "on-regions": ["*.*.lootchest1"],
+      "props": [
+          "lootchest1","lootchest1_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest2",
+      "on-regions": ["*.*.lootchest2"],
+      "props": [
+          "lootchest2","lootchest2_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest3",
+      "on-regions": ["*.*.lootchest3"],
+      "props": [
+          "lootchest3","lootchest3_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest4",
+      "on-regions": ["*.*.lootchest4"],
+      "props": [
+          "lootchest4","lootchest4_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest5",
+      "on-regions": ["*.*.lootchest5"],
+      "props": [
+          "lootchest5","lootchest5_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest6",
+      "on-regions": ["*.*.lootchest6"],
+      "props": [
+          "lootchest6","lootchest6_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest7",
+      "on-regions": ["*.*.lootchest7"],
+      "props": [
+          "lootchest7","lootchest7_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest8",
+      "on-regions": ["*.*.lootchest8"],
+      "props": [
+          "lootchest8","lootchest8_empty"
+        ],
+    },
+
+    {
+      "id": "lootchest9",
+      "on-regions": ["*.*.lootchest9"],
+      "props": [
+          "lootchest9","lootchest9_empty"
+        ],
+    },
+
+    //VARIOUS
+
+    {
+      "id": "op_jumppads",
+      "on-regions": ["*.*.op_jumppads"],
+      "props": [
+          "jumppads","jumppads_empty"
+        ],
+    },
+
+ ],
+
+/*
+
+██████╗ ██╗   ██╗███╗   ██╗ ██████╗ ███████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██║   ██║████╗  ██║██╔════╝ ██╔════╝██╔═══██╗████╗  ██║██╔════╝
+██║  ██║██║   ██║██╔██╗ ██║██║  ███╗█████╗  ██║   ██║██╔██╗ ██║███████╗
+██║  ██║██║   ██║██║╚██╗██║██║   ██║██╔══╝  ██║   ██║██║╚██╗██║╚════██║
+██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝███████╗╚██████╔╝██║ ╚████║███████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+*/
+    "dungeon-files": [
+
+    ],
+}

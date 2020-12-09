@@ -1,0 +1,85 @@
+[
+	{
+		"#": "============== VINDICATORS ==============",
+		"id": "vindicators",
+		"types": [
+			{"type": "vindicator", "weight": 1},
+			{"type": "zombie", "weight": 2},
+			{"type": "skeleton", "weight": 1.5}
+		]
+	},
+	{
+		"#": "============== SOLO WITCHES ==============",
+		"id": "solo-witches",
+		"types": [
+			{"type": "witch", "min": 2, "max": 2}
+		]
+	},
+	{
+		"#": "============== ZOMBIES ==============",
+		"id": "zombies",
+		"types": [
+			{"type": "zombie", "weight": 2},
+			{"type": "babyzombie", "weight": 0.4}
+		]
+	},
+	{
+		"#": "============== SKELETONS, ZOMBIES ==============",
+		"id": "skeletons-zombies",
+		"types": [
+			{"type": "skeleton", "weight": 1},
+			{"type": "zombie", "weight": 2},
+			{"type": "babyzombie", "weight": 0.5}
+		]
+	},
+	{
+		"#": "============== WITCHES, VINDICATORS, ZOMBIES ==============",
+		"id": "witches-vindicators-zombies",
+		"types": [
+			{"type": "vindicator", "weight": 1},
+			{"type": "zombie", "weight": 2},
+			{"type": "witch", "weight": 0.2}
+		]
+	},
+	{
+		"#": "============== ANNOYING WITCHES ==============",
+		"id": "annoying-witches",
+		"types": [
+			{"type": "spider", "weight": 0.5},
+			{"type": "zombie", "weight": 1},
+			{"type": "babyzombie", "weight": 1.5},
+			{"type": "witch", "weight": 0.3, "max%": 0.3}
+		]
+	},
+	{
+		"#": "============== SWAMP MOBS ==============",
+		"id": "swamp-mobs",
+		"types": [
+			{"type": "vindicator", "weight": 0.5},
+			{"type": "zombie", "weight": 1},
+			{"type": "skeleton", "weight": 0.5},
+			{"type": "slimelarge", "weight": 0.2, "max%": 0.5},
+			{"type": "creeper", "weight": 0.1, "max%": 0.5},
+			{"type": "witch", "weight": 0.4, "max%": 0.4}
+		],
+		"pick-types": [3,4]
+	},
+	{
+		"#": "============== SPECIAL WITCHES ==============",
+		"id": "witch-special",
+		"types": [
+			{"type": "vindicator", "weight": 1},
+			{"type": "zombie", "weight": 1},
+			{"type": "slimelarge", "weight": 0.4},
+			{"type": "creeper", "weight": 0.2, "max%": 0.5},
+			{"type": "witch", "weight": 0.2, "min": 1}
+		]
+	},
+	{
+		"#": "============== CAULDRON BOSS ==============",
+		"id": "cauldron-boss",
+		"types": [
+			{"type": "cauldronboss", "weight": 1, "min": 1, "max": 1}
+		]
+	}
+]

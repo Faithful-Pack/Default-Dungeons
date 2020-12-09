@@ -1,0 +1,47 @@
+{
+	"object-groups": ["sub_lightcave/objectgroup"],
+	"tiles": [{
+			"id": "light_1",
+			"rotations": [270],
+			"challenges":["light_arena"],
+			"teleports": [
+				{
+					"door": "lightcave_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+				}
+			]
+	}
+	],
+	"challenges": [
+		{
+			"id": "light_arena",
+			"trigger-object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/BP_Sapphire",
+			"reward": {
+				"region": "*.*.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 20.0,
+				"rest-interval": 0.0,
+				"start-time": 0.0,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+					[10, "settlement-creeper-zombie"],
+					[9, "settlement-creeper-zombie"],
+					[8, "barricade-arena-mix-special"],
+					[12, "settlement-creeper-zombie"],
+					[8, "barricade-arena-mix-special"],
+					[15, "settlement-creeper-zombie"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x9",
+					"start-unlocked": false,
+				}
+			}
+		}
+
+	]
+
+
+}

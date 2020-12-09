@@ -1,0 +1,148 @@
+
+{
+	"id": "swamp_cave",
+	"ambience": "alpha",
+	"audio-ambience": "audio_3",
+	"stretches": [
+		{
+			"id": "cave_start",
+			"tiles": ["ss_cave_enter"],
+			"length": 1,
+			"dead-ends": ["hh_cave_dead001"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			},
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+					"tiles": ["ss_cave_small007", "ss_cave_small008", "ss_cave_small009", "ss_cave_small010", "ss_cave_small011", "ss_cave_small012", "ss_cave_small013", "ss_cave_small014"]
+				}	
+			}
+		},
+		{
+			"id": "cave_small01",
+			"tiles": ["ss_cave_small007", "ss_cave_small008", "ss_cave_small009", "ss_cave_small010", "ss_cave_small011", "ss_cave_small012", "ss_cave_small013", "ss_cave_small014"],
+			"length": 3,
+			"dead-ends": ["ss_cave_dead001"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			},
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+					"tiles": ["ss_cave_small007", "ss_cave_small008", "ss_cave_small009", "ss_cave_small010", "ss_cave_small011", "ss_cave_small012", "ss_cave_small013", "ss_cave_small014"]
+				}	
+			}
+		},
+		{
+			"id": "cave_transition01",
+			"tiles": ["ss_cave_fromsmall"],
+			"length": 1,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			}
+		},
+		{
+			"id": "cave_medium01",
+			"tiles": ["ss_cave_m001", "ss_cave_m002", "ss_cave_m003"],
+			"length": 1,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			},
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["hh_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+					"tiles": ["ss_cave_small007", "ss_cave_small008", "ss_cave_small009", "ss_cave_small010", "ss_cave_small011", "ss_cave_small012", "ss_cave_small013", "ss_cave_small014"]
+				}	
+			}
+		},
+		{
+			"id": "cave_large_lower01",
+			"tiles": ["ss_cave001"],
+			"length": 1,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			}
+		},
+		{
+			"id": "cave_large_transition01",
+			"tiles": ["ss_cave002"],
+			"length": 1,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			}
+		},
+		{
+			"id": "cave_large_upper01",
+			"tiles": ["ss_cave003", "ss_cave004", "ss_cave005", "ss_cave006", "ss_cave007"],
+			"length": 2,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			},
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["hh_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+					"tiles": ["ss_cave003", "ss_cave004", "ss_cave005", "ss_cave006", "ss_cave007"]
+				}	
+			}
+		},
+		{
+			"id": "cave_large_transition02",
+			"tiles": ["ss_cave008"],
+			"length": 1,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			}
+		},
+		{
+			"id": "cave_small02",
+			"tiles": ["ss_cave_small007", "ss_cave_small008", "ss_cave_small009", "ss_cave_small010", "ss_cave_small011", "ss_cave_small012", "ss_cave_small013", "ss_cave_small014"],
+			"length": 1,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			},
+			"side-paths": {
+				"probability": 0.6,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["hh_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+					"tiles": ["ss_cave_small007", "ss_cave_small008", "ss_cave_small009", "ss_cave_small010", "ss_cave_small011", "ss_cave_small012", "ss_cave_small013", "ss_cave_small014"]
+				}	
+			}
+		},
+		{
+			"id": "cave_exit",
+			"tiles": ["ss_cave_texit"],
+			"length": 1,
+			"dead-ends": ["ss_cave_dead001", "ss_cave_dead002", "ss_cave_dead003", "ss_cave_dead004", "ss_cave_dead005"],
+			"mobs": {
+				"only": ["swamp-mobs"],
+				"density": 0.5
+			}
+		}
+	]
+}

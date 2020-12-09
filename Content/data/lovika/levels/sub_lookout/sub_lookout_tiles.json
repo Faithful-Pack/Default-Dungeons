@@ -1,0 +1,60 @@
+{
+    "object-groups": ["sub_lookout/objectgroup"],
+    "tiles": [
+        {
+            "id": "lookout_1",
+            "challenges": ["lookout_arena","lookout_clicky"],
+            "rotations": [270],
+            "teleports": [
+				{
+					"door": "lookout_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+
+        }
+    ],
+    "challenges": [
+		{
+            "id": "lookout_clicky",
+			"trigger": "*.lookout_1.click_trigger",
+            "click": {
+                "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LS",
+                "door-path": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x9",
+                "count": 1,
+                "locations": [
+                    "*.lookout_1.beacon"
+                ],
+                "locked-doors": [
+                    "*.lookout_1.gate1"
+                ]
+            }
+		},
+		{
+		"id": "lookout_arena",         
+        "trigger": "*.*.lookout_trigger",
+		"reward": {
+			"region": "*.lookout_1.challengeloot1",
+			"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+		},
+		"arena": {
+			"stretch": "*",
+			"interval": 10,
+			"rest-interval": 2,
+			"start-time": 2.0,
+			"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+			"waves": [
+				[3, "forest-mix-med"],
+				[5, "forest-mix-med"],
+				[7, "forest-mix-med"],
+				[5, "forest-mix-med"],
+				[5, "arena-mix"],
+				[6, "arena-mix"]
+			],
+			"gate": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+				"start-unlocked": false
+			}
+		}
+	}]
+}

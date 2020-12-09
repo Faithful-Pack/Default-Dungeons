@@ -1,0 +1,53 @@
+{
+	"object-groups": [
+		"sub_pandanest/objectgroup"
+	],
+
+	"tiles": [
+		{
+			"id": "nest_1",
+			"rotations": [0],
+			"teleports" : [
+				{
+					"door":"panda_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		}
+	],
+	"props": [
+		{
+			"id": "prop_nest_2",
+			"rotations": [0]
+		},
+		{
+			"id": "prop_nest_3",
+			"rotations": [0]
+		},
+		{
+			"id": "prop_nest_4",
+			"rotations": [0]
+		}
+	],
+
+	"prop-groups": [
+		{
+			"id": "panda_prop",
+			"props": [
+				
+				{
+					"id": "prop_nest_2",
+					"weight": 0.4,
+				},
+				{
+					"id": "prop_nest_3",
+					"weight": 0.3,
+				},
+				{
+					"id": "prop_nest_4",
+					"weight": 0.3
+				}
+			]
+		}
+	]
+}

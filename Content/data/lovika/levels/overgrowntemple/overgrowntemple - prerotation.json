@@ -1,0 +1,1059 @@
+{
+	"id" : "overgrowntemple",
+	"resource-packs":["OvergrownTemple"],
+	"object-groups": [
+		"overgrowntemple/objectgroup",
+	],
+
+	"loctable-id": "overgrowntempleLoctable",
+	"require-matching-doors": true,
+
+	"mob-files": [
+		"overgrowntemple/ot_mobs.json"
+	],
+
+	"default-mobs": {
+		"only": ["temple-mix-easy"],
+		"density": 1.0
+	},
+
+	"dungeon-files": [
+		"sub_steamchamber/sub_steamchamber.json",
+		"sub_spidernest/sub_spidernest.json",
+		"sub_boobytrap/sub_boobytrap.json",
+		"sub_troom/sub_troom.json",
+		"sub_floodtemp/sub_floodtemp.json",
+		"sub_templetunnel/sub_templetunnel.json",
+	],
+
+	"tile-files": [
+		"sub_steamchamber/sub_steamchamber_tiles.json",
+		"sub_spidernest/sub_spidernest_tiles.json",
+		"sub_boobytrap/sub_boobytrap_tiles.json",
+		"sub_troom/sub_troom_tiles.json",
+		"sub_floodtemp/sub_floodtemp_tiles.json",
+		"sub_templetunnel/sub_templetunnel_tiles.json",
+	],
+
+	"tiles": [
+		{
+			"id": "ot_start",
+			"rotations": 270,
+		},
+
+		{
+			"id": "ot_start_new",
+			"rotations": 270,
+		},
+
+		{
+			"id": "ot_jungle_edge_01",
+			"entry-door": "enter",
+		},
+
+		{
+			"id": "ot_jungle_edge_02",
+			"rotations": 270,
+		},
+
+		{
+			"id": "ot_temple_entrance",
+			"entry-door": "enter_001",
+		},
+
+		{
+			"id": "ot_entrance_hall",
+			"entry-door": "entrance_hall_01",
+			"exit-door": "entrance_hall_02"
+		},
+
+		{
+			"id": "ot_entrance_hall_alt",
+			"entry-door": "entrance_hall_01",
+			"exit-door": "entrance_hall_02"
+		},
+
+		{
+			"id": "ot_temple_01",
+			"rotations": [90, 180],
+		},
+
+		{
+			"id": "ot_temple_arena",
+			"entry-door": "enter_002",
+			"rotations": 90,
+			"teleports" : [
+				{
+					"door":"travel_steam",
+					"exit":"steam_door",
+					"dungeons":["sub_steamchamber"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "ot_temple_arena_alt",
+			"entry-door": "enter_002_alt",
+			"rotations": 90,
+		},
+
+		{
+			"id": "ot_temple_jungle_01",
+			"entry-door": "enter_003",
+			"rotations": 0,
+		},
+
+		{
+			"id": "ot_temple_jungle_02",
+			"entry-door": "enter_004",
+		},
+
+		{
+			"id": "ot_temple_jungle_03",
+			"entry-door": "enter_005",
+		},
+
+		{
+			"id": "ot_temple_jungle_04",
+			"entry-door": "enter_006",
+			"teleports" : [
+				{
+					"door":"travel_booby",
+					"exit":"trap_door",
+					"dungeons":["sub_boobytrap"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "ot_temple_jungle_04_alt",
+			"entry-door": "enter_006_alt",
+		},
+
+		{
+			"id": "ot_temple_boss_gate",
+			"entry-door": "enter_007",
+			"exit-door": "bossgate_exit",
+			"rotations": 90,
+			"teleports" : [
+				{
+					"door":"travel_treasue",
+					"exit":"troom_door",
+					"dungeons":["sub_troom"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "ot_temple_boss_stairs_01",
+			"entry-door": "enter_008",
+			"challenges": ["ot_stairs_arena_01"],
+		},
+
+		{
+			"id": "ot_temple_boss_stairs_02",
+			"entry-door": "enter_009",
+			"challenges": ["ot_stairs_arena_02"],
+		},
+
+		{
+			"id": "ot_boss_arena",
+			"entry-door": "enter_010",
+		},
+
+		{
+			"id": "ot_temple_exit_01",
+			"entry-door": "enter_011",
+		},
+
+		{
+			"id": "ot_temple_sidepath_spider",
+			"rotations": 270,
+			"teleports" : [
+				{
+					"door":"travel_spider",
+					"exit":"spider_door",
+					"dungeons":["sub_spidernest"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "ot_temple_sidepath_flooded",
+			"rotations": [180, 270],
+			"teleports" : [
+				{
+					"door":"travel_flooded",
+					"exit":"flooded_door",
+					"dungeons":["sub_floodtemp"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "ot_temple_sidepath_tunnel",
+			"rotations": [180, 270],
+			"teleports" : [
+				{
+					"door":"travel_tunnel",
+					"exit":"tunnel_door",
+					"dungeons":["sub_templetunnel"],
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+		},
+
+		{
+			"id": "ot_temple_sidepath_key_01",
+			"rotations": [180, 270],
+		},
+
+		{
+			"id": "ot_temple_sidepath_key_02",
+			"rotations": [0, 90],
+		},
+
+		{
+			"id": "ot_temple_09",
+			"rotations": 90,
+			"entry-door": "enter_012",
+			"teleports" : [
+				{
+					"door":"travel_tunnel_exit",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				},
+			],
+			"challenges": ["temple_09_clicky", "temple_09_battle"],
+		},
+
+		{
+			"id": "ot_jungle_deadend_02",
+			"challenges": ["jungle_deadend_trap"],
+		},
+
+		{
+			"id": "ot_temple_deadend_02",
+			"challenges": ["temple_deadend_trap_02"],
+		},
+
+		{
+			"id": "ot_temple_deadend_05",
+			"challenges": ["temple_deadend_trap_05"],
+		},
+
+		{
+			"id": "ot_temple_deadend_06",
+			"challenges": ["temple_deadend_trap_06"],
+		},
+
+		{
+			"id": "ot_temple_deadend_loot",
+			"challenges": ["temple_deadend_trap_loot"],
+		},
+
+		{
+			"id": "ot_temple_deadend_goldkey_01",
+			"challenges": ["goldkey_battle_left"],
+			"rotations": [0, 90],
+		},
+
+		{
+			"id": "ot_temple_deadend_goldkey_02",
+			"challenges": ["goldkey_battle_right"],
+			"rotations": [0, 90],
+		},
+
+	],
+
+	"stretches": [
+		{
+			"tiles":["ot_start_new"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-easy"]
+			}
+		},
+
+		{
+			"tiles":["ot_jungle_edge_01", "ot_jungle_edge_02"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-easy"]
+			},
+			"dead-ends": ["ot_jungle_deadend_01", "ot_jungle_deadend_02", {"id": "ot_jungle_deadend_cap_01", "weight": 0.2}, {"id": "ot_jungle_deadend_cap_02", "weight": 0.1}],
+			"side-paths": {
+				"probability": 1,
+				"default": {
+					"max-length": [1, 2],
+					"dead-ends": ["ot_jungle_deadend_01", "ot_jungle_deadend_02", {"id": "ot_jungle_deadend_cap_01", "weight": 0.2}, {"id": "ot_jungle_deadend_cap_02", "weight": 0.1}],
+					"tile-groups": ["jungle_sidepath"]
+				}
+			}
+		},
+
+		/*{
+			"tiles":["ot_jungle_edge_02"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-easy"]
+			},
+			"dead-ends": ["ot_jungle_deadend_01", "ot_jungle_deadend_02", {"id": "ot_jungle_deadend_cap_01", "weight": 0.2}, {"id": "ot_jungle_deadend_cap_02", "weight": 0.1}],
+		},*/
+
+		{
+			"tiles":["ot_temple_entrance"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-easy"]
+			}
+		},
+
+		{
+			"id": "entrance_hall",
+			"tiles":["ot_entrance_hall", "ot_entrance_hall_alt"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-easy"]
+			},
+			"length": 1,
+			"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+			"side-paths": {
+				"probability": 1,
+				"default": {
+					"max-length": [2, 2],
+					"dead-ends": [{"id": "ot_temple_sidepath_tunnel", "weight": 0.5}, {"id": "ot_temple_sidepath_flooded", "weight": 0.5}],
+					"tile-groups": ["templeentrance_sidepath_01", "templeentrance_sidepath_02"]
+				}
+			}
+		},
+
+		{
+			"id": "temple_run_1",
+			"tiles":["ot_temple_01", "ot_temple_02", "ot_temple_03", "ot_temple_04", "ot_temple_05", "ot_temple_06", "ot_temple_07", "ot_temple_08"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-easy"]
+			}
+		},
+
+		{
+			"id": "temple_sidepath_1",
+			"tiles":["ot_temple_multi_01", "ot_temple_multi_02", "ot_temple_multi_03"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-easy"]
+			},
+			"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+			"side-paths": {
+				"probability": 1,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["ot_temple_sidepath_spider"],
+					"tile-groups": ["templespider_sidepath"]
+				}
+			}
+		},
+
+		{
+			"id": "temple_run_2",
+			"tiles":["ot_temple_01", "ot_temple_02", "ot_temple_03", "ot_temple_04", "ot_temple_05", "ot_temple_06", "ot_temple_07", "ot_temple_08"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-easy"]
+			}
+		},
+
+		{
+			"id": "temple_sidepath_2",
+			"tiles":["ot_temple_multi_01", "ot_temple_multi_02", "ot_temple_multi_03"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-easy"]
+			},
+			"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+		},
+
+		{
+			"id": "tunnel_exit",
+			"tiles":["ot_temple_09"],
+		},
+
+		{
+			"id": "temple_arena",
+			"tiles":[{"id": "ot_temple_arena", "weight": 0.5}, {"id": "ot_temple_arena_alt", "weight": 0.5}],
+		},
+
+		{
+			"id": "temple_sidepath_3",
+			"tiles":["ot_temple_multi_01", "ot_temple_multi_02", "ot_temple_multi_03"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-med"]
+			},
+			"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+		},
+
+		{
+			"id": "temple_run_4",
+			"tiles":["ot_temple_01", "ot_temple_02", "ot_temple_03", "ot_temple_04", "ot_temple_05", "ot_temple_06"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-med"]
+			},
+		},
+
+		{
+			"id": "temple_sidepath_4",
+			"tiles":["ot_temple_multi_01", "ot_temple_multi_02", "ot_temple_multi_03"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-med"]
+			},
+			"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+			"side-paths": {
+				"probability": 1,
+				"default": {
+					"max-length": [2, 3],
+					"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+					"tile-groups": ["templegeneric_sidepath"]
+				}
+			}
+		},
+
+		{
+			"tiles":["ot_temple_jungle_01"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-hard"]
+			},
+		},
+
+		{
+			"tiles":["ot_temple_jungle_02"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-hard"]
+			},
+		},
+
+		{
+			"tiles":["ot_temple_jungle_03"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-hard"]
+			},
+		},
+
+		{
+			"tiles":[{"id": "ot_temple_jungle_04", "weight": 0.4}, {"id": "ot_temple_jungle_04_alt", "weight": 0.6}],
+			"mobs": {
+				"density": 1.0,
+				"only": ["jungle-mix-hard"]
+			},
+		},
+
+		{
+			"id": "temple_sidepath_5",
+			"tiles":["ot_temple_multi_01", "ot_temple_multi_02", "ot_temple_multi_03"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-med"]
+			},
+			"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+		},
+
+		{
+			"id": "temple_boss_gate",
+			"tiles":["ot_temple_boss_gate"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-hard"]
+			},
+			"dead-ends": ["ot_temple_deadend_01", "ot_temple_deadend_02", "ot_temple_deadend_03", "ot_temple_deadend_04", "ot_temple_deadend_05", "ot_temple_deadend_06", "ot_temple_deadend_07", "ot_temple_deadend_08", "ot_temple_deadend_loot", {"id": "ot_deadend_cap_01", "weight": 0.2}, {"id": "ot_deadend_cap_02", "weight": 0.1}],
+			"side-paths": {
+				"probability": 1,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": ["ot_temple_deadend_goldkey_02"],
+					"tile-groups": ["templebossgate_sidepath"]
+				}
+			}
+		},
+
+		{
+			"tiles":["ot_temple_boss_stairs_01"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-hard"]
+			},
+		},
+
+		{
+			"tiles":["ot_temple_boss_stairs_02"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-hard"]
+			},
+		},
+
+		{
+			"id": "big_fight",
+			"tiles":["ot_boss_arena"],
+		},
+
+		{
+			"tiles":["ot_temple_exit_01"],
+			"mobs": {
+				"density": 2.0,
+				"only": ["temple-mix-hard"]
+			},
+		},
+
+		/*{
+			"id": "temple_run_5",
+			"tiles":["ot_temple_01", "ot_temple_02", "ot_temple_03", "ot_temple_04", "ot_temple_05", "ot_temple_06"],
+			"length": 1,
+			"mobs": {
+				"density": 1.0,
+				"only": ["temple-mix-hard"]
+			},
+		},*/
+
+		{
+			"tiles":["ot_temple_exit_02"],
+			"mobs": {
+				"density": 2.5,
+				"only": ["temple-mix-hard"]
+			},
+		},
+
+	],
+
+	"tile-groups": [
+		{
+			"#": "jungle_sidepath",
+			"id": "jungle_sidepath",
+			"tiles": ["ot_jungle_sidepath_01", "ot_jungle_sidepath_02"]
+		},
+
+		{
+			"#": "templeentrance_sidepath_01",
+			"id": "templeentrance_sidepath_01",
+			"tiles": ["ot_temple_sidepath_02", "ot_temple_sidepath_03", "ot_temple_sidepath_05"]
+		},
+
+		{
+			"#": "templeentrance_sidepath_02",
+			"id": "templeentrance_sidepath_02",
+			"tiles": ["ot_temple_sidepath_01", "ot_temple_sidepath_04", "ot_temple_sidepath_06"]
+		},
+
+		{
+			"#": "templegeneric_sidepath",
+			"id": "templegeneric_sidepath",
+			"tiles": ["ot_temple_sidepath_01", "ot_temple_sidepath_02", "ot_temple_sidepath_03", "ot_temple_sidepath_04", "ot_temple_sidepath_05", "ot_temple_sidepath_06"]
+		},
+
+		{
+			"#": "templespider_sidepath",
+			"id": "templespider_sidepath",
+			"tiles": ["ot_temple_sidepath_01", "ot_temple_sidepath_02", "ot_temple_sidepath_03", {"id": "ot_temple_sidepath_05", "weight": 0.2}, {"id": "ot_temple_sidepath_06", "weight": 0.2}]
+		},
+
+		{
+			"#": "templebossgate_sidepath",
+			"id": "templebossgate_sidepath",
+			"tiles": ["ot_temple_deadend_goldkey_01"]
+		},
+	],
+
+	"objectives": [
+		{
+			"name": "name_ot_01",
+			"description": "description_ot_g_01",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ot_temple_entrance.obj_find_temple"
+			}
+		},
+		/*{
+			"name": "name_ot_01",
+			"description": "description_ot_c_01",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple_Vert",
+				"door-path": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Temple_Entrance_Door_9",
+				"count": 2,
+				"locations": [
+					"*.ot_temple_entrance.obj_waterfall_switch"
+				],
+				"locked-doors": [
+					"*.ot_temple_entrance.obj_temple_gate"
+				]
+			}
+		},*/
+		/*{
+			"name": "name_ot_01",
+			"description": "description_ot_c_01",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ot_temple_entrance.obj_enter_temple"
+			}
+		},*/
+		{
+			"name": "name_ot_01",
+			"description": "description_ot_c_01",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "entrance_hall.*.obj_enter_temple"
+			}
+		},
+		{
+			"name": "name_ot_01",
+			"description": "description_ot_g_03",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "temple_arena.*.obj_reach_arena"
+			}
+		},
+		{
+			"name": "name_ot_01",
+			"description": "description_ot_c_02",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Ruby",
+				"count": 1,
+				"locations": [
+					"temple_arena.*.obj_arena_switch"
+				],
+				"locked-doors": [
+					"temple_arena.*.obj_arena_gate",
+				]
+			},
+		},
+		{
+			"name": "name_ot_01",
+			"description": "description_ot_a_01",
+			"displayMode": "MainObjective",
+			"arena": {
+				"stretch": "temple_arena",
+				"start-time": 1.0,
+				"interval": 20,
+				"rest-interval": 0.5,
+				"waves": [
+					[6, "arena-mix"],
+					[8, "arena-mix"],
+					[10, "arena-mix"],
+					[14, "arena-mix"],
+					[10, "arena-mix"],
+					[6, "arena-mix"],
+				],
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+			}
+		},
+		{
+			"name": "name_ot_01",
+			"description": "description_ot_g_04",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ot_temple_boss_gate.obj_reach_boss_gate"
+			}
+		},
+		{
+			"name": "name_ot_01",
+			"description": "description_ot_k_01",
+			"displayMode": "MainObjective",
+			"consider-tiles": "all",
+			"click": {
+				"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_DoorLocked_Gold_OvergrownTemple",
+				"count": 1,
+				"locations": ["*.*.obj_boss_gate_silvergate"],
+				"key-locations": ["*.*.obj_boss_gate_key"],
+				"key-type": "gold",
+				"mobs": [25, "jungle-mix-hard"],
+				"spawn-regions": ["*.*.bad_boys"]
+			}
+		},
+		{
+			"name": "name_ot_02",
+			"description": "description_ot_g_05",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ot_boss_arena.obj_reach_boss"
+			}
+		},
+		{
+			"name": "name_ot_02",
+			"description": "description_ot_b_01",
+			"displayMode": "MainObjective",
+			"arena": {
+				"stretch": "big_fight",
+				"interval": 30.0,
+				"rest-interval": 5.0,
+				"start-time": 2.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"is-boss": true,
+				"waves": [
+					[1, "jungleabomination"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_JungleDoorDown_5",
+					"start-unlocked": false
+				}
+			},
+		},
+		{
+			"name": "name_ot_03",
+			"description": "description_ot_g_06",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ot_temple_exit_02.obj_reach_exit"
+			}
+		},
+		{
+			"name": "name_dj_02",
+			"description": "description_ot_g_07",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Door7x4",
+				"count": 1,
+				"locations": [
+					"*.ot_temple_exit_02.obj_temple_exit"
+				]
+			}
+		}
+		/*{
+			"name": "name_ot_03",
+			"description": "description_ot_g_07",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.ot_temple_exit_02.playerend"
+			}
+		},*/
+	],
+
+	"challenges": [
+		{
+			"id": "ot_stairs_arena_01",
+			"trigger" : "*.*.obj_stair_challenge",
+			"reward": {
+				"region": "*.*.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 3,
+				"rest-interval": 1,
+				"start-time": 0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[1, "creeper-mix"],
+					[2, "creeper-mix"],
+					[3, "creeper-mix"],
+					[3, "creeper-mix"],
+					[2, "creeper-mix"],
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "ot_stairs_arena_02",
+			"trigger" : "*.*.obj_stair_challenge_redux",
+			"reward": {
+				"region": "*.*.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 3,
+				"rest-interval": 1,
+				"start-time": 0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[2, "creeper-mix"],
+					[3, "creeper-mix"],
+					[4, "creeper-mix"],
+					[4, "creeper-mix"],
+					[3, "creeper-mix"],
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "temple_deadend_trap_02",
+			"trigger": "*.ot_temple_deadend_02.trap_trigger",
+			"reward": {
+				"region": "*.ot_temple_deadend_02.challengereward",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 3.0,
+				"rest-interval": 0.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[2, "jungle-mix-easy"],
+					[1, "jungle-mix-easy"],
+					[2, "jungle-mix-med"],
+					[2, "jungle-mix-hard"],
+					[4, "jungle-mix-easy"],
+					[2, "jungle-mix-easy"],
+					[2, "jungle-mix-med"],
+					[1, "jungle-mix-hard"],
+					[2, "jungle-mix-easy"],
+					[2, "jungle-mix-easy"],
+					[1, "jungle-mix-med"],
+					[2, "jungle-mix-hard"],
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "temple_deadend_trap_05",
+			"trigger": "*.ot_temple_deadend_05.trap_trigger",
+			"reward": {
+				"region": "*.ot_temple_deadend_05.challengereward",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 4.0,
+				"rest-interval": 0.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[2, "jungle-mix-easy"],
+					[1, "jungle-mix-easy"],
+					[2, "jungle-mix-med"],
+					[2, "jungle-mix-hard"],
+					[4, "jungle-mix-easy"],
+					[2, "jungle-mix-easy"],
+					[2, "jungle-mix-med"],
+					[1, "jungle-mix-hard"],
+					[2, "jungle-mix-easy"],
+					[2, "jungle-mix-easy"],
+					[1, "jungle-mix-med"],
+					[2, "jungle-mix-hard"],
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "temple_deadend_trap_06",
+			"trigger": "*.ot_temple_deadend_06.trap_trigger",
+			"reward": {
+				"region": "*.ot_temple_deadend_06.challengereward",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 10.0,
+				"rest-interval": 0.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[6, "jungle-mix-easy"],
+					[4, "jungle-mix-easy"],
+					[8, "jungle-mix-med"],
+					[4, "jungle-mix-hard"],
+
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "temple_deadend_trap_loot",
+			"trigger": "*.ot_temple_deadend_loot.trap_trigger",
+			"reward": {
+				"region": "*.ot_temple_deadend_loot.challengereward",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 5.0,
+				"rest-interval": 0.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[1, "creeper-mix"],
+					[1, "creeper-mix"],
+					[2, "creeper-mix"],
+					[2, "creeper-mix"],
+					[1, "creeper-mix"],
+					[2, "creeper-mix"],
+					[1, "creeper-mix"],
+					[3, "creeper-mix"],
+					[6, "creeper-mix"]
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "jungle_deadend_trap",
+			"trigger": "*.ot_jungle_deadend_02.jungle_trap_trigger",
+			"reward": {
+				"region": "*.ot_jungle_deadend_02.challengereward",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 10.0,
+				"rest-interval": 1.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[3, "jungle-mix-easy"],
+					[4, "jungle-mix-easy"],
+					[8, "jungle-mix-med"],
+					[3, "jungle-mix-hard"],
+				],
+				"gate": null
+			}
+		},
+
+		{
+			"id": "temple_09_battle",
+			"trigger": "*.ot_temple_09.trap_trigger",
+			"reward": {
+				"region": "*.ot_temple_09.challengereward",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 10.0,
+				"rest-interval": 0.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[3, "jungle-mix-easy"],
+					[2, "jungle-mix-easy"],
+					[4, "jungle-mix-med"],
+					[2, "jungle-mix-hard"],
+					[4, "jungle-mix-med"],
+					[2, "jungle-mix-hard"],
+					[4, "jungle-mix-med"],
+					[3, "jungle-mix-hard"],
+
+				],
+				"gate": null,
+			}
+		},
+
+		{
+			"id": "temple_09_clicky",
+			"trigger": "tunnel_exit.ot_temple_09.challenge_trigger",
+			"click": {
+				"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+				"door-path": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_TempleDoorDown_5",
+				"count": 1,
+				"locations": [
+					"tunnel_exit.ot_temple_09.switch"
+				],
+				"locked-doors": [
+					"tunnel_exit.ot_temple_09.clicky_gate"
+				]
+			}
+		},
+
+		{
+			"id": "goldkey_battle_left",
+			"trigger": "*.ot_temple_deadend_goldkey_01.key_trap_left",
+			"reward": {
+				"region": "*.ot_temple_deadend_goldkey_01.challengereward_left",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 10.0,
+				"rest-interval": 0.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[1, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[3, "arena-mix"],
+					[6, "arena-mix"]
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "goldkey_battle_right",
+			"trigger": "*.ot_temple_deadend_goldkey_02.key_trap_right",
+			"reward": {
+				"region": "*.ot_temple_deadend_goldkey_02.challengereward_right",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 10.0,
+				"rest-interval": 0.0,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[1, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[2, "arena-mix"],
+					[1, "arena-mix"],
+					[3, "arena-mix"],
+					[6, "arena-mix"]
+				],
+				"gate": {
+					"object" : "",
+					"start-unlocked": true
+				}
+			}
+		},
+
+	]
+}

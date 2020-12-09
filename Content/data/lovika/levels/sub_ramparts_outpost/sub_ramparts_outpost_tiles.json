@@ -1,0 +1,412 @@
+{
+
+    "object-groups": ["sub_ramparts_outpost/objectgroup"],
+    
+    //TILES
+    
+    "tiles":[   
+    {
+    "id": "cr_sub_outpst_hub",
+    "rotations": [90],
+    "challenges": ["master_click_1", "master_click_2", "master_click_3", "master_click_4","outpost_goldgate"],
+    "teleports": [
+            {
+            "door": "outpost_door_in_01",
+            "exit": "*.er_forest_outpost_01.outpost_door_in",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            },
+            {
+            "door": "outpost_door_out_01",
+            "exit": "*.er_forest_outpost_02.outpost_door_out",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            },
+            /*{
+            "door": "outpost_floor_01",
+            "exit": "*.*.outpost_hub_door_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            },
+            {
+            "door": "outpost_floor_02",
+            "exit": "*.cr_sub_outpst_first_floor.outpost_hub_door_02",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            },
+            {
+            "door": "outpost_floor_03",
+            "exit": "*.*.outpost_hub_door_03",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            },
+            {
+            "door": "outpost_floor_04",
+            "exit": "*.cr_sub_outpst_fourth_floor.outpost_hub_door_04",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave" 
+            } */
+        ]
+    },
+    {
+    "id": "cr_sub_outpst_first_floor_01",
+    "rotations": [90],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_01",
+            "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+    {
+    "id": "cr_sub_outpst_first_floor_02",
+    "rotations": [90],
+    "challenges": ["floor1_v2_arena"],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_01",
+            "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+
+    {
+    "id": "cr_sub_outpst_first_floor_03",
+    "rotations": [90],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_01",
+            "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+    {
+    "id": "cr_sub_outpst_first_floor_04",
+    "rotations": [90],
+    "challenges": ["floor1_v4_arena"],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_01",
+            "exit": "*.cr_sub_outpst_hub.outpost_floor_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+
+    /*{
+    "id": "cr_sub_outpst_first_floor",
+    "challenges": ["floor2_arena"],
+    "rotations": [90],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_02",
+            "exit": "*.*.outpost_stairs_up_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },*/
+    {
+        "id": "cr_sub_outpst_second_floor",
+        "challenges": ["floor2_arena"],
+        "rotations": [90],
+        "teleports": [
+                {
+                "door": "outpost_stairs_down_01",
+                "exit": "*.*.outpost_floor_01",
+                "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+
+    {
+    "id": "cr_sub_outpst_third_floor_01",
+    "challenges": ["floor3_v1_arena"],
+    "rotations": [0],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_03",
+            "exit": "*.*.outpost_stairs_up_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+
+    {
+    "id": "cr_sub_outpst_third_floor_02",
+    "rotations": [0],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_03",
+            "exit": "*.*.outpost_stairs_up_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+
+    {
+    "id": "cr_sub_outpst_third_floor_03",
+    "challenges": ["floor3_v2_arena"],
+    "rotations": [0],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_03",
+            "exit": "*.*.outpost_stairs_up_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+
+    {
+    "id": "cr_sub_outpst_third_floor_04",
+    "rotations": [0],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_03",
+            "exit": "*.*.outpost_stairs_up_01",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+
+    {
+    "id": "cr_sub_outpst_fourth_floor",
+    "rotations": [90],
+    "teleports": [
+            {
+            "door": "outpost_stairs_down_04",
+            "exit": "*.*.outpost_stairs_up_03",
+            "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+        ]
+    },
+
+    {
+    "id": "outpost_spacer"
+    }
+
+],
+
+//CHALLENGES
+
+"challenges":[
+
+    //HUB
+    {
+    "id": "outpost_goldgate",
+    "trigger": "*.*.goldgate_challenge_trigger",
+    "consider-tiles": "all",
+    "click": {
+        "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_CactiCanyon",
+        "count": 1,
+        "locations": [
+            "*.*.outpostgate"
+            ],
+        "key-locations": [
+            "*.cr_sub_outpst_hub.outpostkey"
+            ],
+        "key-type": "gold"
+        }
+    },
+    {
+    "id": "master_click_1",
+    "trigger": "*.*.master_click_1",
+    "consider-tiles": "all",
+    "click": {
+        "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR_R",
+        "door-path": "Decor/Prefabs/Door/BP_StoneDoor_lit_7",
+        "count": 1,
+        "locations": [
+            "*.*.master_lever_01"
+            ],
+        "locked-doors": [
+            "*.*.master_gate_01"
+            ]
+        }
+    },
+    {
+    "id": "master_click_2",
+    "trigger": "*.*.master_click_2",
+    "consider-tiles": "all",
+    "click": {
+        "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR_R",
+        "door-path": "Decor/Prefabs/Door/BP_StoneDoor_lit_7",
+        "count": 1,
+        "locations": [
+            "*.*.master_lever_2"
+            ],
+        "locked-doors": [
+            "*.*.master_gate_02"
+            ]
+        }
+    },
+    {
+    "id": "master_click_3",
+    "trigger": "*.*.master_click_3",
+    "consider-tiles": "all",
+    "click": {
+        "object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR_G",
+        "door-path": "Decor/Prefabs/Door/BP_StoneDoor_lit_7",
+        "count": 1,
+        "locations": [
+            "*.*.master_lever_3"
+            ],
+        "locked-doors": [
+            "*.*.master_gate_03"
+            ]
+        }
+    },
+    {
+    "id": "master_click_4",
+    "trigger": "*.*.master_click_4",
+    "consider-tiles": "all",
+    "click": {
+        "object": "Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Outpost_Beacon/BP_Outpost_Beacon",
+        "door-path": "Decor/Prefabs/Door/BP_StoneDoor_lit_7",
+        "count": 1,
+        "locations": [
+            "*.*.master_lever_4"
+            ],
+        "locked-doors": [
+            "*.*.master_gate_04"
+            ]
+        }
+    },
+
+    //1ST FLOOR
+    {
+    "id": "floor1_v2_arena",
+    "trigger": "*.*.floor1_v2_arena_trigger",
+    "reward": {
+        "region": "*.*.floor1_v2_arena_loot",
+        "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+    },
+    "arena": {
+        "stretch": "*",
+        "interval": 6.0,
+        "rest-interval": 0.0,
+        "start-time": 0.0,
+        "prespawn-mob": "",
+        "waves": [
+            [5, "arena_easy_mix"],
+            [6, "arena_easy_mix"],
+            [6, "standard_mix"],
+            [7, "arena_hard_mix"]
+        ],
+        "gate": {
+            "object": "Decor/Prefabs/Door/BP_Door_5",
+            "start-unlocked": true,
+            "regions": ["*.*.floor1_v2_arena_gate"]
+            }
+        }
+    },
+    {
+    "id": "floor1_v4_arena",
+    "trigger": "*.*.floor1_v4_arena_trigger",
+    "reward": {
+        "region": "*.*.floor1_v4_arena_loot",
+        "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+    },
+    "arena": {
+        "stretch": "*",
+        "interval": 6.0,
+        "rest-interval": 0.50,
+        "start-time": 0.0,
+        "prespawn-mob": "",
+        "waves": [
+            [4, "arena_easy_mix"],
+            [5, "arena_easy_mix"],
+            [5, "standard_mix"],
+            [5, "arena_hard_mix"]
+        ],
+        "gate": {
+            "object": "Decor/Prefabs/Door/BP_Door_5",
+            "start-unlocked": true,
+            "regions": ["*.*.floor1_v4_arena_gate_01"]
+            }
+        }
+    },
+
+
+    //2ND FLOOR
+    {
+    "id": "floor2_arena",
+    "trigger": "*.*.floor2_arena_trigger",
+    "reward": {
+        "region": "*.*.floor2_arena_loot",
+        "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+    },
+    "arena": {
+        "stretch": "*",
+        "interval": 6.0,
+        "rest-interval": 0.0,
+        "start-time": 0.0,
+        "prespawn-mob": "",
+        "waves": [
+            [4, "illager_mix"],
+            [5, "illager_mix"],
+            [5, "illager_mix"],
+            [6, "arena_hard_mix"]
+        ],
+        "gate": {
+            "object": "Decor/Prefabs/Door/BP_Door_5",
+            "start-unlocked": true,
+            "regions": ["*.*.floor2_arena_gate"]
+            }
+        }
+    },
+
+    //3RD FLOOR
+    {
+    "id": "floor3_v1_arena",
+    "trigger": "*.*.f3_arena_trigger_01",
+    "reward": {
+        "region": "*.*.floor3_v1_arena_loot",
+        "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+    },
+    "arena": {
+        "stretch": "*",
+        "interval": 6.0,
+        "rest-interval": 0.0,
+        "start-time": 0.0,
+        "prespawn-mob": "",
+        "waves": [
+            [5,"arena_easy_mix"],
+            [6, "standard_mix"],
+            [6, "standard_mix"],
+            [6, "arena_hard_mix"],
+            [6, "arena_hard_mix"]
+        ],
+        "gate": {
+            "object": "Decor/Prefabs/Door/BP_Door_5",
+            "start-unlocked": true,
+            "regions": ["*.*.f3_arena_gate_01"]
+            }
+        }
+    },
+    {
+        "id": "floor3_v2_arena",
+        "trigger": "*.*.f3_arena_trigger_02",
+        "reward": {
+            "region": "*.*.floor3_v2_arena_loot",
+            "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+        },
+        "arena": {
+            "stretch": "*",
+            "interval": 6.0,
+            "rest-interval": 1.0,
+            "start-time": 0.50,
+            "prespawn-mob": "",
+            "waves": [
+                [6, "arena_easy_mix"],
+                [8, "standard_mix"],
+                [6, "standard_mix"],
+                [6, "arena_hard_mix"],
+                [10, "arena_hard_mix"]
+            ],
+            "gate": {
+                "object": "Decor/Prefabs/Door/BP_Door_5",
+                "start-unlocked": true,
+                "regions": ["*.*.f3_arenagate_02"]
+                }
+            }
+        }
+]
+
+}

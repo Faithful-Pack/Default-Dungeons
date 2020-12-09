@@ -1,0 +1,161 @@
+{
+    "object-groups": ["sub_stables_2/objectgroup"],
+
+    "tiles":[
+       
+        {
+            "id": "cr_sub_stable_entrance",
+            "rotations": [0],
+            "teleports": [
+
+                {
+                    "door": "stables_door_in_01",
+                    "exit": "*.er_platform_03.stables_door_in",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+
+        {
+            "id": "cr_sub_stable_ravager_01",
+            "rotations": [0],
+            "teleports": [
+
+                {
+                    "door": "stables_door_out_01",
+                    "exit": "*.er_farm_01.stables_door_out",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "challenges": ["stables_clicky_1",
+                           "stables_clicky_2",
+                           "stables_clicky_3",
+                           "stables_clicky_4",
+                           "stables_clicky_5",
+						   "stables_clicky_6",
+						   "llama_clicky"]
+
+        }
+        
+    ],
+
+    "challenges": [
+		{
+			"id": "stables_clicky_1",
+			"trigger": "*.*.stables_trigger_1",
+			"reward": {},
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR",
+				"door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/BP_Ravager_Pen_Door",
+				"count": 1,
+				"locations": [
+					"*.*.lever_click_01"
+				],
+				"locked-doors": [
+					"*.*.stables_door_1"
+				]
+			}
+        },
+        {
+			"id": "stables_clicky_2",
+			"trigger": "*.*.stables_trigger_2",
+			"reward": {},
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR",
+				"door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/BP_Ravager_Pen_Door",
+				"count": 1,
+				"locations": [
+					"*.*.lever_click_02"
+				],
+				"locked-doors": [
+					"*.*.stables_door_2"
+				]
+			}
+        },
+        {
+			"id": "stables_clicky_3",
+			"trigger": "*.*.stables_trigger_3",
+			"reward": {},
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR",
+				"door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/BP_Ravager_Pen_Door",
+				"count": 1,
+				"locations": [
+					"*.*.lever_click_03"
+				],
+				"locked-doors": [
+					"*.*.stables_door_3"
+				]
+			}
+        },
+        {
+			"id": "stables_clicky_4",
+			"trigger": "*.*.stables_trigger_4",
+			"reward": {},
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR",
+				"door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/BP_Ravager_Pen_Door",
+				"count": 1,
+				"locations": [
+					"*.*.lever_click_04"
+				],
+				"locked-doors": [
+					"*.*.stables_door_4"
+				]
+			}
+        },
+        {
+			"id": "stables_clicky_5",
+			"trigger": "*.*.stables_trigger_5",
+			"reward": {},
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR",
+				"door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/BP_Ravager_Pen_Door",
+				"count": 1,
+				"locations": [
+					"*.*.lever_click_05"
+				],
+				"locked-doors": [
+					"*.*.stables_door_5"
+				]
+			}
+        },
+        {
+			"id": "stables_clicky_6",
+			"trigger": "*.*.stables_trigger_6",
+			"reward": {},
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_CR",
+				"door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/BP_Ravager_Pen_Door",
+				"count": 1,
+				"locations": [
+					"*.*.lever_click_06"
+				],
+				"locked-doors": [
+					"*.*.stables_door_6"
+				]
+			}
+		},
+		{
+			"id": "llama_clicky",
+			"trigger": "*.*.llama_click_trigger",
+			"consider-tiles": "all",
+			"reward": {},
+			"click": {
+				"object": "Content_DLC3/Decor/Prefabs/_Mountains/Captured_Llama/BP_Captured_Llama",
+				"door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Gate/BP_Gate_7",
+				"count": 3,
+				"locations": [
+					"*.*.llama_click"
+				],
+				"locked-doors": [
+					"*.*.llama_gate"
+				]
+			}
+		}
+    ],
+        
+    "tile-groups":[
+    ]
+
+}

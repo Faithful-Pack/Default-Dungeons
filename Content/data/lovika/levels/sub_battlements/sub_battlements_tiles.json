@@ -1,0 +1,126 @@
+{
+	"object-groups": ["sub_battlements/objectgroup"],
+
+	"tiles": [
+		{
+			"id": "wall_stretch",
+			"rotations": [90],
+			"challenges": ["battlements_key","battlements_arena"],
+			"teleports": [
+				{
+					"door": "battlements_door",
+					"exit":"*.lf_battlements_enter.travel_battlements",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+				},
+				{
+					"door": "battlements_exit_door",
+					"exit":"*.lf_battlements_exit.travel_battlements_exit",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		}
+	],
+
+	"challenges":[
+		{
+			"id": "battlements_key",
+			"consider-tiles": "all",
+			"trigger": "*.*.battlements_lock",
+			"click": {
+				"object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_DesertTemple",
+				"count": 1,
+				"locations": ["*.*.silvergate"],
+				"key-locations": ["*.*.key"],
+				"key-type": "silver"
+			}
+		},
+		{
+			"id": "battlements_arena",
+			"trigger": "*.*.battlements_trigger",
+			"reward": {
+				"region": "*.wall_stretch.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 0.0,
+				"rest-interval": 0.0,
+				"start-time": 0.0,
+				"prespawn-mob": "",
+				"waves": [
+					[1, "cara-mix"]
+					
+				],
+				"gate": {
+					"object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+					"start-unlocked": true
+				}
+			}
+		}
+	],
+
+	"prop-groups": [
+		{
+			"id": "wall_group1",
+			"props": [
+				{
+					"id": "wall1_battlements",
+					"weight": 0.10
+				},
+				{
+					"id": "wall2_battlements",
+					"weight": 0.15
+				},
+				{
+					"id": "wall3_battlements",
+					"weight": 0.15
+				},
+				{
+					"id": "wall4_battlements",
+					"weight": 0.15
+				},
+				{
+					"id": "wall5_battlements",
+					"weight": 0.15
+				},
+				{
+					"id": "wall6_battlements",
+					"weight": 0.15
+				},
+				{
+					"id": "wall7_battlements",
+					"weight": 0.10
+				},
+			]
+		},
+		{
+			"id": "wall_group2",
+			"props": [
+				{
+					"id": "wall01_battlements",
+					"weight": 0.17
+				},
+				{
+					"id": "wall02_battlements",
+					"weight": 0.14
+				},
+				{
+					"id": "wall03_battlements",
+					"weight": 0.17
+				},
+				{
+					"id": "wall04_battlements",
+					"weight": 0.17
+				},
+				{
+					"id": "wall05_battlements",
+					"weight": 0.17
+				},
+				{
+					"id": "wall06_battlements",
+					"weight": 0.15
+				},
+			]
+		}
+	]
+}

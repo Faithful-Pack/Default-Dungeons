@@ -1,0 +1,51 @@
+{
+	"object-groups": [
+		"sub_rockpool/objectgroup"
+	],
+
+	"tiles": [
+		{
+			"id": "rock_pool",
+			"rotations": [270],
+			"teleports" : [
+				{
+					"door":"pool_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		},
+		{
+			"id": "rock_pool2",
+			"challenges": ["rp-arena"]
+		}
+	],
+	"challenges": [
+		{
+			"id": "rp-arena",
+			"trigger": "*.rock_pool2.arenatrigger",
+			"reward": {
+				"region": "*.rock_pool2.challenge-loot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 13.0,
+				"rest-interval": 0.5,
+				"start-time": 1.0,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[8, "main-arena-hard"],
+					[12, "main-arena-hard"],
+					[10, "main-arena-hard"],
+					[3, "arena-leaper"],
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_gate_bb_bamboo_x5",
+					"start-unlocked": true
+				}
+			}
+		}
+	
+	]
+
+}

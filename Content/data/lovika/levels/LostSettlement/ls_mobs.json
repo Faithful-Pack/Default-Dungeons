@@ -1,0 +1,252 @@
+[
+		{
+			"#": "============== ICY BOIS ==============",
+			"id": "icy-bois",
+			"types": [
+				{"type": "Stray", "weight": 0.2},
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "chillager", "weight": 0.2, "max%": 0.2},
+				{"type": "icycreeper", "weight": 0.2, "max%": 0.3},
+				{"type": "Rabbit", "weight": 0.1, "max%": 0.1},
+				{"type": "polarbear", "weight": 0.1, "max%": 0.05},
+			],
+			"pick-types": [3, 5]
+		},
+		{
+			"#": "============== PILLAGER POSSE ==============",
+			"id": "pillager-posse",
+			"types": [
+				{"type": "Vindicator", "weight": 0.3},
+				{"type": "Pillager", "weight": 0.3},
+				{"type": "Geomancer", "weight": 0.2, "max%": 0.1},
+				{"type": "Enchanter", "weight": 0.2, "max%": 0.2},
+			],
+			"pick-types": [2, 3]
+		},
+		{
+			"#": "============== SPIKE MIX EASY ==============",
+			"id": "spike-mix-easy",
+			"types": [
+				{"type": "Stray", "weight": 0.3},
+				{"type": "FrozenZombie", "weight": 0.3},
+				{"type": "polarbear", "weight": 0.1, "max%": 0.05},
+				{"type": "Vindicator", "weight": 0.2},
+				{"type": "Pillager", "weight": 0.1},
+			],
+			"pick-types": [2, 4]
+		},
+		{
+			"#": "============== SPIKE MIX MEDIUM ==============",
+			"id": "spike-mix-medium",
+			"types": [
+				{"type": "Stray", "weight": 0.2},
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "polarbear", "weight": 0.1, "max%": 0.05},
+				{"type": "Vindicator", "weight": 0.2},
+				{"type": "Pillager", "weight": 0.2},
+				{"type": "Geomancer", "weight": 0.1, "max%": 0.05},
+			],
+			"pick-types": [3, 5]
+		},
+		{
+			"#": "============== SPIKE MIX HARD ==============",
+			"id": "spike-mix-hard",
+			"types": [
+				{"type": "Stray", "weight": 0.15},
+				{"type": "FrozenZombie", "weight": 0.15},
+				{"type": "chillager", "weight": 0.25, "max%": 0.2},
+				{"type": "icycreeper", "weight": 0.25, "max%": 0.3},
+				{"type": "Vindicator", "weight": 0.05},
+				{"type": "Pillager", "weight": 0.1},
+				{"type": "Geomancer", "weight": 0.05, "max%": 0.05},
+			],
+			"pick-types": [4, 6]
+		},
+
+		{
+			"#": "============== FOREST MIX EASY ==============",
+			"id": "forest-mix-easy",
+			"types": [
+				{"type": "FrozenZombie", "weight": 0.5},
+				{"type": "Rabbit", "weight": 0.1, "max%": 0.1},
+				{"type": "spider", "weight": 0.4, "max%": 0.1},
+			],
+			"pick-types": [3, 4]
+		},
+		{
+			"#": "============== FOREST MIX MEDIUM ==============",
+			"id": "forest-mix-med",
+			"types": [
+				{"type": "Stray", "weight": 0.2},
+				{"type": "FrozenZombie", "weight": 0.3},
+				{"type": "icycreeper", "weight": 0.1, "max%": 0.3},
+				{"type": "Rabbit", "weight": 0.1, "max%": 0.1},
+				{"type": "spider", "weight": 0.3, "max%": 0.1},
+			],
+			"pick-types": [3, 4]
+		},
+		{
+			"#": "============== FOREST MIX HARD ==============",
+			"id": "forest-mix-hard",
+			"types": [
+				{"type": "Stray", "weight": 0.2},
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "icycreeper", "weight": 0.3, "max%": 0.5},
+				{"type": "spider", "weight": 0.3, "max%": 0.1},
+			],
+			"pick-types": [2, 4]
+		},
+		{
+			"#": "============== SETTLEMENT MIX EASY ==============",
+			"id": "settlement-mix-easy",
+			"types": [
+				{"type": "Stray", "weight": 0.15},
+				{"type": "FrozenZombie", "weight": 0.15},
+				{"type": "Vindicator", "weight": 0.4},
+				{"type": "Pillager", "weight": 0.3},
+			],
+			"pick-types": [3, 4]
+		},
+		{
+			"#": "============== SETTLEMENT MIX MEDIUM ==============",
+			"id": "settlement-mix-medium",
+			"types": [
+				{"type": "Stray", "weight": 0.1},
+				{"type": "FrozenZombie", "weight": 0.1},
+				{"type": "chillager", "weight": 0.2, "max%": 0.2},
+				{"type": "Vindicator", "weight": 0.3},
+				{"type": "Pillager", "weight": 0.3},
+			],
+			"pick-types": [3, 5]
+		},
+		{
+			"#": "============== SETTLEMENT MIX HARD ==============",
+			"id": "settlement-mix-hard",
+			"types": [
+				{"type": "Stray", "weight": 0.1},
+				{"type": "FrozenZombie", "weight": 0.1},
+				{"type": "chillager", "weight": 0.2, "max%": 0.2},
+				{"type": "Vindicator", "weight": 0.2},
+				{"type": "Pillager", "weight": 0.3},
+				{"type": "Enchanter", "weight": 0.2, "max%": 0.2},
+			],
+			"pick-types": [3, 5]
+		},
+		{
+			"#": "============== SETTLEMENT MIX HARD SMALL ==============",
+			"id": "settlement-mix-hard-small",
+			"types": [
+				{"type": "Stray", "weight": 0.1},
+				{"type": "FrozenZombie", "weight": 0.1},
+				{"type": "Vindicator", "weight": 0.3},
+				{"type": "Pillager", "weight": 0.3},
+			],
+			"pick-types": [3, 4]
+		},
+		{
+			"#": "============== SETTLEMENT CREEPER ZOMBIE ==============",
+			"id": "settlement-creeper-zombie",
+			"types": [
+				{"type": "icycreeper", "weight": 0.3, "max%": 0.4},
+				{"type": "creeper", "weight": 0.2, "max%": 0.4},
+				{"type": "FrozenZombie", "weight": 0.3},
+				{"type": "Zombie", "weight": 0.2},
+			],
+			"pick-types": [1, 3]
+		},
+		{
+			"#": "============== ARENA MIX ==============",
+			"id": "arena-mix",
+			"types": [
+				{"type": "icycreeper", "weight": 0.1, "max%": 0.3},
+				{"type": "FrozenZombie", "weight": 0.2},
+				{"type": "Enchanter", "weight": 0.1, "max%": 0.2},
+				{"type": "chillager", "weight": 0.2, "max%": 0.2},
+				{"type": "Stray", "weight": 0.2},
+				{"type": "Vindicator", "weight": 0.1},
+				{"type": "Pillager", "weight": 0.1},
+			],
+			"pick-types": [4, 6]
+		},
+		{
+			"#": "============== BARRICADE ARENA MIX ==============",
+			"id": "barricade-arena-mix",
+			"types": [
+				{"type": "icycreeper", "weight": 0.1, "max%": 0.4},
+				{"type": "FrozenZombie", "weight": 0.1},
+				{"type": "Pillager", "weight": 0.3},
+				{"type": "Vindicator", "weight": 0.3},
+				{"type": "Stray", "weight": 0.2}
+			],
+			"pick-types": [3, 5]
+		},
+		{
+			"#": "============== BARRICADE ARENA MIX SPECIAL ==============",
+			"id": "barricade-arena-mix-special",
+			"types": [
+				{"type": "Enchanter", "weight": 0.2, "max": 2},
+				{"type": "Pillager", "weight": 0.8}
+			],
+			"pick-types": [2, 2]
+		},
+		{
+			"#": "============== HORSE CHALLENGE MIX ==============",
+			"id": "horse-mix1",
+			"types": [
+				{"type": "SkeletonHorseman", "min": 1, "max": 1},
+			],
+			"pick-types": [1, 1]
+		},
+		{
+			"#": "============== SIGNAL ARENA MIX - RANGED ==============",
+			"id": "signal-arena-mix-ranged",
+			"types": [
+				{"type": "Skeleton", "weight": 0.2},
+				{"type": "Pillager", "weight": 0.4},
+				{"type": "Stray", "weight": 0.4}
+			],
+			"pick-types": [2, 3]
+		},
+		{
+			"#": "============== SIGNAL ARENA MIX - RANGED SPECIAL==============",
+			"id": "signal-arena-mix-ranged-special",
+			"types": [
+				{"type": "Skeleton", "weight": 0.1},
+				{"type": "Pillager", "weight": 0.5},
+				{"type": "Stray", "weight": 0.1},
+				{"type": "Chillager", "weight": 0.3},
+				{"type": "Enchanter", "min": 2, "max": 2},
+			],
+			"pick-types": [5, 5]
+		},
+		{
+			"#": "============== SIGNAL ARENA MIX - MELEE ==============",
+			"id": "signal-arena-mix-melee",
+			"types": [
+				{"type": "Vindicator", "weight": 0.3},
+				{"type": "icycreeper", "weight": 0.2,},
+				{"type": "FrozenZombie", "weight": 0.5},
+			],
+			"pick-types": [2, 3]
+		},
+		{
+			"#": "============== SIGNAL ARENA MIX - MELEE SPECIAL ==============",
+			"id": "signal-arena-mix-melee-special",
+			"types": [
+				{"type": "Vindicator", "weight": 0.8},
+				{"type": "icycreeper", "weight": 0.1,},
+				{"type": "FrozenZombie", "weight": 0.1},
+				{"type": "Enchanter", "min": 2, "max": 2},
+			],
+			"pick-types": [4, 4]
+		},
+		{
+			"#": "============== SIGNAL ARENA MIX - ILLUSIONER ==============",
+			"id": "signal-arena-mix-illusioner",
+			"types": [
+				{"type": "Illusioner", "min": 1, "max": 1},
+				{"type": "Stray", "weight": 1.0}
+			],
+			"pick-types": [2, 2]
+		}
+]

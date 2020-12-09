@@ -1,0 +1,337 @@
+
+{
+    "id": "ObsidianPinnacle",
+	"require-matching-doors": false,
+    "object-groups": [
+        "ObsidianPinnacle/objectgroup",
+		"PrisonDungeon/objectgroup"
+    ],
+    "resource-packs": [
+        "ObsidianPinnacle",
+		"HighblockHalls"
+    ],
+
+    "death-outside": false,
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 1,
+    "mob-files": [
+		"ObsidianPinnacle/mobs.json"
+    ],
+        "#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            {"id": "light-group", "weight": 1}
+        ]
+    }, 
+	"tile-files": [
+        "ObsidianPinnacle/tiles.json",
+        //"RuneRoom/rr_tiles.json"
+    ],
+    "objectives": [
+        {
+            "name": "name_the_eye_of_the_storm",
+            "description": "description_confront_the_arch-illager",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "beacon.*.objective"
+            }
+        },
+        {
+            "name": "name_the_eye_of_the_storm",
+            "description": "description_activate_the_beacons_to_close_the_gap",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_PlatformObsidian",
+                "count": 2,
+                "locations": [
+                    "beacon.*.beacon"
+                ],
+                "locked-doors": [
+                    "beacon.*.platform"
+                ]
+            }
+        },
+        {
+            "name": "name_the_eye_of_the_storm",
+            "description": "description_confront_the_arch-illager",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "boss.*.objective"
+            }
+        },
+		{
+            "name": "name_the_eye_of_the_storm",
+            "description": "description_defeat_the_arch-illager",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "boss",
+				"is-boss": true,
+                "interval": 999999999999,
+                "rest-interval": 6.9,
+                "start-time": 0,
+                "prespawn-mob": "/Game/Actors/Characters/Enemies/Illagers/ArchIllager/BP_ArchIllagerPhase1Intro",
+				"prespawn-mob-duration": 14.5,
+                "waves": [
+                    {
+					"show-spawn-indicator": false,
+                        "count": 1,
+                        "groups": [
+                            "archillager-group"
+                        ]
+                    },
+                    {
+                        "count": 1,
+                        "groups": [
+                            "archvessel-group"
+                        ],
+                        "show-spawn-indicator": false,
+                        "spawn-at-region": "*.*.phase2-spawn"
+                    }
+                ]
+            }
+        },
+        /*{
+            "name": "name_the_eye_of_the_storm",
+            "description": "description_defeat_the_arch-illager",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "boss",
+                "interval": 999999999999,
+                "rest-interval": 8,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+				"is-boss": true,
+                "waves": [
+                    {"count": 1, "groups": ["archillager-group"]},
+                    {"count": 1, "groups": ["archvessel-group"], "show-spawn-indicator": false, "spawn-at-region": "*.*.phase2-spawn"}
+                ]
+            }
+        },*/
+		{
+            "name": "name_the_eye_of_the_storm",
+            "description": "description_follow_the_trail",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_ObsidianPinnacle_EndgameClicky",
+                "door-path": "Decor/Prefabs/Platforms/BP_PlatformObsidian",
+                "count": 1,
+                "locations": [
+                    "*.*.the_end"
+                ],
+                "locked-doors": [
+                    "*.opboss_old.gate"
+                ]
+            }
+        },
+    ],
+	"challenges": [
+		{
+            "id": "jump_arena",
+            "trigger": "*.*.jumparena",/*
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },*/
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "light-group"],
+					[1, "light-group"],
+					[2, "light-group"],
+					[2, "light-group"],
+					[3, "light-group"],
+					[3, "light-group"],
+					[3, "light-group"],
+					[3, "light-group"],
+					[4, "light-group"],
+					[4, "light-group"],
+                ]/*,
+                 "gate": {
+                    "start-unlocked": true
+				}*/
+			}
+        },
+	],
+	"dungeon-files": [
+		"ObsidianPinnacle/indoor.json"
+	],
+    "stretches": [
+        {
+            "id": "start",
+            "tile-groups": ["start"],
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 0.07
+            }
+        },
+		{
+            "id": "",
+            "tile-groups": ["second"],
+            "prop-groups": ["wide", "cracks"],
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1
+            }
+        },
+		{
+            "id": "",
+            "tile-groups": ["jump_tiles"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "",
+            "tile-groups": ["uncommon"],
+            "prop-groups": ["long", "wide"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "",
+            "tile-groups": ["jump_tiles"],
+            "length": 3,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "",
+            "tile-groups": ["jump_arenas"],
+            "prop-groups": ["wide", "cracks", "long"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "",
+            "tile-groups": ["common"],
+            "prop-groups": ["wide", "cracks", "long"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "beacon",
+            "tile-groups": ["beacon"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "",
+            "tile-groups": ["uncommon"],
+            "prop-groups": ["long", "wide"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "",
+            "tile-groups": ["common"],
+            "prop-groups": ["wide", "cracks", "long"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["obsidian"],
+            "prop-groups": ["long", "wide", "cracks"],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1,
+                "only": ["redstonegolem-solo"]
+            }
+        },
+		{
+            "id": "",
+            "tile-groups": ["dungeondoors"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "",
+            "tile-groups": ["common"],
+            "prop-groups": ["wide", "cracks", "long"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["uncommon"],
+            "prop-groups": ["long", "wide"],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "dungeonexit",
+            "tile-groups": ["dungeonexits"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["uncommon"],
+            "prop-groups": ["long", "wide"],
+            "length": 1,
+            "visual-theme": "cave_dark"
+        },
+
+        {
+            "id": "",
+            "tile-groups": ["obsidian"],
+            "prop-groups": ["long", "wide", "cracks"],
+            "length": 1,
+            "visual-theme": "cave_dark",
+            "mobs": {
+                "density": 1,
+                "only": ["redstonegolem-solo"]
+            }
+        },
+        {
+            "id": "",
+            "tile-groups": ["jump_tiles"],
+            "prop-groups": ["long", "wide"],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "",
+            "tile-groups": ["common"],
+            "prop-groups": ["long", "wide", "cracks"],
+            "length": 2,
+            "visual-theme": "cave_dark"
+        },
+        {
+            "id": "end",
+            "tile-groups": ["end"],
+			"sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "boss",
+            "tile-groups": ["boss_alt"],
+			"audio-ambience":"audio_8",
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        },
+		{
+            "id": "oldboss",
+            "tile-groups": ["boss_old"],
+			"audio-ambience":"audio_5",
+            "sound-theme": "silent",
+            "visual-theme": "cave_dark"
+        }
+    ],
+    "side-paths": {
+        "probability": 1,
+        "default": {
+            "max-length": [2, 4],
+            "dead-ends": ["deadend001","deadend002","deadend003","deadend004", "deadend005"],
+            "tile-groups": ["common"]
+        }
+    }
+
+}

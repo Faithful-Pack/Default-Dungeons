@@ -1,0 +1,70 @@
+{
+    "object-groups": [
+        "OpenWoods/objectgroup"
+    ],
+    "tiles": [
+        {
+            "id": "start",
+            "rotations": 0,
+             "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["woods"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "destination@start",
+            "rotations": 0
+        },
+        {
+            "id": "return@start",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "exit" : "*.*.return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        }      
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+        {
+            "id": "ow_tiles_mix",
+            "tiles": [       
+                {"id":"ow_tile_med001", "weight":0.5},"ow_tile_med002","ow_tile_med003","ow_tile_med004","ow_tile_med005","ow_tile_med006","ow_tile_med007","ow_tile_med008","ow_tile_med009","ow_tile_med010",
+                "ow_tile_small001","ow_tile_small002","ow_tile_small003","ow_tile_small004","ow_tile_small005","ow_tile_small006"
+            ]
+        },
+        {
+            "id": "ow_tiles_med",
+            "tiles": [       
+                {"id":"ow_tile_med001", "weight":0.5},"ow_tile_med002","ow_tile_med003","ow_tile_med004","ow_tile_med005","ow_tile_med006","ow_tile_med007","ow_tile_med008","ow_tile_med009","ow_tile_med010"
+            ]
+        },
+        {
+            "id": "ow_tiles_small",
+            "tiles": [       
+                "ow_tile_small001","ow_tile_small002","ow_tile_small003","ow_tile_small004","ow_tile_small005","ow_tile_small006"
+            ]
+        },
+        {
+            "id": "ow_cemetery",
+            "tiles": [       
+                "ow_cem_small001","ow_cem_small002","ow_cem_small003","ow_cem_med001"
+            ]
+        }
+    ]
+}

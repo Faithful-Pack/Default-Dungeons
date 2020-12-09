@@ -1,0 +1,979 @@
+{
+    "id": "EndlessRampart",
+    "loctable-id": "endlessrampartLoctable",
+    "resource-packs": ["EndlessRampart"],
+    "object-groups": ["EndlessRampart/objectgroup"],
+    "mob-groups": [],
+    "mob-files": ["EndlessRampart/ER_Mobs.json"],
+    "dungeon-files": ["sub_ramparts_outpost/sub_ramparts_outpost.json","sub_rampart_garrison/sub_rampart_garrison.json","sub_stables_2/sub_stables_2.json","sub_rampart_workshop/sub_rampart_workshop.json"],
+    "tile-files": ["sub_ramparts_outpost/sub_ramparts_outpost_tiles.json", "sub_rampart_garrison/sub_rampart_garrison_tiles.json", "sub_stables_2/sub_stables_2_tiles.json","sub_rampart_workshop/sub_rampart_workshop_tiles.json"],
+    
+    "default-mobs": {
+        "only": [
+            {"id": "illager_mix",
+            "weight": 5}
+        ],
+        "density": 1
+    },
+    "stretches": [
+           
+        {
+            "tiles": ["er_bridge_01"],
+            "audio-ambience":"audio_3",
+            "mobs": {
+				"density": 1,
+                "only": ["standard_mix"]
+            }
+            
+        },
+        
+            {
+                
+                "tiles": 
+                [   {"id": "er_forest_main_01", "weight": 0.4},
+                    {"id": "er_forest_main_02", "weight": 0.4},
+                    {"id": "er_forest_main_03", "weight": 0.2},
+                    {"id": "er_forest_main_04", "weight": 0.4}
+                    
+            ],
+            "audio-ambience":"audio_3",
+                "length": 1,
+                "dead-ends": [
+
+                    {"id": "er_forest_dead_01","weight": 0.2},
+                    {"id": "er_forest_dead_06","weight": 0.05},
+                    {"id": "er_forest_dead_07","weight": 0.2},
+                    {"id": "er_forest_dead_09","weight": 0.04},
+                    {"id":"er_forest_dead_10","weight": 0.2},
+                    {"id":"er_forest_cap_01","weight": 0.01}, 
+                    {"id":"er_forest_cap_02","weight": 0.01},
+                    {"id":"er_forest_cap_03","weight": 0.01}
+                            ],
+
+                "side-paths":{
+                "probability": 1,
+                "default": {
+                "max-length": [1,1],
+                "dead-ends": [
+
+                    {"id":"er_forest_dead_01","weight": 0.1},
+                    {"id":"er_forest_dead_06","weight": 0.214}, 
+                    {"id":"er_forest_dead_07","weight": 0.1}, 
+                    {"id":"er_forest_dead_10","weight": 0.2},  
+                    {"id":"er_forest_cap_01","weight": 0.01}, 
+                    {"id":"er_forest_cap_03","weight": 0.01}],
+
+                "tile-groups": ["cr_start_sidepath","er_forest_sidepath"]
+                            }
+                            }
+            },
+            {
+                "tiles": ["cr_valleytile"],
+                "audio-ambience":"audio_3",
+                "mobs": {
+                    "density": 1,
+                    "only": ["standard_mix"]
+                }
+            },
+            {   
+                "id" : "arena_02",
+                "audio-ambience":"audio_3",
+                "tiles": [
+
+                    {"id": "cr_forest_outpost_03", "weight": 0.7},
+                    {"id": "er_forest_outpost_01", "weight": 0.3}
+                   
+                   
+                ],
+
+                "dead-ends": [
+                    {"id":"er_forest_dead_09","weight": 0.3},
+                    {"id":"er_forest_dead_01","weight": 0.2},
+                    {"id":"er_forest_dead_06","weight": 0.2}, 
+                    {"id":"er_forest_dead_07","weight": 0.15}, 
+                    {"id":"er_forest_dead_10","weight": 0.1},
+                    {"id": "er_forest_cap_01","weight": 0.025},
+                    {"id":"er_forest_cap_03","weight": 0.01}
+                ],
+                "side-paths":{
+                    "probability": 1,
+                    "default": {
+                    "max-length": [1,1],
+                    "dead-ends": [
+                        {"id":"er_forest_dead_01","weight": 0.1},  
+                        {"id":"er_forest_dead_06","weight": 0.2}, 
+                        {"id":"er_forest_dead_07","weight": 0.2}, 
+                        {"id":"er_forest_dead_10","weight": 0.3}, 
+                        {"id":"er_forest_cap_01","weight": 0.05}, 
+                        {"id":"er_forest_cap_03","weight": 0.02}],
+    
+                    "tile-groups": ["er_forest_sidepath"]
+                                }
+                        }
+                
+            },
+            {
+                "tiles": ["spacer"],
+                "length": 1
+            },
+            {
+                "tiles": ["spacer_02"],
+                "length": 1
+            },
+
+            {
+                "tiles": ["er_forest_outpost_02"],
+                "mobs": {
+                    "density": 0.8,
+                    "only": ["standard_mix"]
+                },
+                "audio-ambience":"audio_3",
+                "length": 1,
+                "dead-ends": [
+
+                    {"id": "er_forest_dead_01","weight": 0.2},
+                    {"id": "er_forest_dead_06","weight": 0.3},
+                    {"id": "er_forest_dead_07","weight": 0.22},
+                    {"id": "er_forest_dead_08","weight": 0.125},
+                    {"id": "er_forest_dead_09","weight": 0.025},
+                    {"id": "er_forest_cap_01","weight": 0.015},
+                    {"id":"er_forest_cap_03","weight": 0.01}
+                    
+                            ],
+                "side-paths":{
+                "probability": 1,
+                "default": {
+                "max-length": [1,1],
+                "dead-ends": [
+                    {"id":"er_forest_dead_01","weight": 0.2}, 
+                    {"id":"er_forest_dead_03","weight": 0.4}, 
+                    {"id":"er_forest_dead_06","weight": 0.1},  
+                    {"id":"er_forest_dead_08","weight": 0.34},
+                    {"id":"er_forest_dead_10","weight": 0.24}, 
+                    {"id":"er_forest_cap_01","weight": 0.01}, 
+                    {"id":"er_forest_cap_03","weight": 0.01}],
+
+                "tile-groups": ["er_forest_sidepath"]
+                            }
+                            }
+                
+            },
+            
+            
+            {
+                "tiles": [
+                    {"id": "er_forest_rise_01", "weight": 0.6},
+                    {"id": "er_platform_01", "weight": 0.6},
+                    {"id": "er_platform_02", "weight": 0.4},
+                    {"id": "er_jagged_main_01", "weight": 0.3},
+                    {"id": "er_jagged_main_02", "weight": 0.2}, 
+                    {"id": "er_jagged_main_03", "weight": 0.1},
+                    {"id": "er_platform_03", "weight": 0.6},
+                    {"id": "er_jagged_side_01", "weight": 0.1},
+                    {"id": "cr_lowerramparts_01", "weight" : 0.1},
+                    {"id":"er_forest_bend_01","weight": 0.05}, 
+                    {"id":"er_forest_bend_02","weight": 0.2}
+                   
+                         ],
+                "length": 1,
+                "audio-ambience":"audio_3",
+                "dead-ends": [
+                    {
+                        "id": "er_jagged_side_01",
+                        "weight": 0.2
+                    },
+                   // {
+                      //  "id": "er_jagged_side_02",
+                      //  "weight": 0.2
+                   // },
+                    {
+                        "id": "er_platform_cap_01",
+                        "weight": 0.2
+                    }
+                            ],
+                "side-paths":{
+                "probability": 0.50,
+                "default": {
+                "max-length": [1,1],
+                "dead-ends": [
+                    {"id":"er_jagged_dead_01","weight": 0.3},
+                    {"id":"er_jagged_dead_02","weight": 0.3},
+                    {"id":"er_platform_cap_01","weight": 0.1}]
+
+               // "tile-groups": ["er_jagged_sidepath"]
+                            }
+                        }
+            },
+            {
+                "id" : "Farm_ambush",
+                "tiles": [
+                    {"id":"er_farm_01","weight": 1}
+                ],
+                "mobs": {
+                    "density": 1,
+                    "only": [
+                        "farm_mix"
+                    ]
+                },
+            
+                "length": 1,
+                "audio-ambience":"audio_3",
+                "dead-ends": ["er_farm_side_01"]
+                
+            },
+            {
+                "tiles": ["er_hills_01"],
+                "audio-ambience":"audio_3",
+                "dead-ends": ["er_hills_side_01"],
+                "mobs": {
+                    "density": 1,
+                    "only": ["farm_mix"]
+                }
+            },
+            {
+                "tiles": ["er_hills_02"],
+                "audio-ambience":"audio_3",
+                "mobs": {
+                    "density": 1,
+                    "only": ["farm_mix"]
+                }
+            },
+            {
+                "tiles": ["er_garrison_end"],
+                "audio-ambience":"audio_3",
+                "mobs": {
+                    "density": 0.8,
+                    "only": ["captain_mix"]
+                }
+            }      
+    ],
+
+    "tiles":[
+        {
+            "id": "er_bridge_01",
+            "rotations": [180, 270]
+        },
+        {
+			"id": "er_forest_rise_01",
+            "entry-door": "enter",  
+            "challenges": ["maingate_key_puzzle"],
+            "rotations": [90]
+        },
+        {
+			"id": "er_forest_main_03",
+            "entry-door": "enter",  
+            "rotations": [0]
+        },
+        {
+			"id": "er_forest_main_02",
+            "entry-door": "enter",
+            "challenges" : ["initial_arena"]
+        },
+        {
+            "id": "er_forest_dead_03",
+            "rotations": [180,270],
+            "teleports": [
+                {
+                    "door": "workshop_door_in",
+                    "dungeons":["sub_rampart_workshop"],
+                    "exit": "*.cr_sub_wrkshp_entrance.workshop_door_in_01",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                }
+                         ] 
+              
+        },
+        {
+            "id": "er_forest_side_07",
+            "rotations": [0,90]
+              
+        },
+        {
+            "id": "er_forest_side_06",
+            "rotations": [0,270]
+              
+        },
+        {		
+		            "id": "er_forest_side_05",
+            "rotations": [90,180]
+              
+        },
+        {		
+            "id": "er_forest_side_04",
+            "challenges": ["forest_sidepath_challenge"]
+        },
+        {
+            "id": "er_forest_dead_07",
+            "rotations": [180,270]
+              
+        },
+        {
+            "id": "er_forest_cap_02",
+            "rotations": [180,90]
+              
+        },
+        {
+            "id": "cr_valleytile",
+            "rotations": [180,90]
+              
+        },
+        {
+            "id": "er_forest_dead_10",
+            "rotations": [0,270]
+              
+        },
+        {
+            "id": "cr_wall_supply_01"
+              
+        },
+        {
+            "id": "cr_wall_arena_01",
+            "rotations" : [180, 270],
+            "entry-door": "enter"
+        },
+        {
+            "id": "er_forest_outpost_01",
+            "rotations": [180,270],
+            "exit-door": "exit",
+            "teleports": [
+                {
+                     "door": "outpost_door_in",
+                     "dungeons":["sub_ramparts_outpost"],
+                     "exit": "*.cr_sub_outpst_hub.outpost_door_in_01",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                 }
+                         ] 
+              
+        },
+        {
+            "id": "cr_forest_outpost_03",
+            "rotations": [270],
+            "exit-door": "exit",
+            "teleports": [
+                {
+                     "door": "outpost_door_in",
+                     "dungeons":["sub_ramparts_outpost"],
+                     "exit": "*.cr_sub_outpst_hub.outpost_door_in_01",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                 }
+                         ] 
+              
+        },
+        {
+            "id": "er_forest_outpost_02",
+            "rotations": [180,270],
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "teleports": [
+                {
+                     "door": "outpost_door_out",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                 }
+                         ] 
+        },
+        {
+			"id": "spacer",
+            "rotations": [180,270],
+            "entry-door": "enter"
+        },
+        {
+			"id": "er_jagged_main_01",
+            "entry-door": "enter"  
+        },
+        {
+			"id": "er_jagged_main_02",
+            "entry-door": "enter",
+            "exit-door": "exit"  
+        },
+        {
+			"id": "er_jagged_main_03",
+            "entry-door": "enter",
+            "exit-door": "exit"  
+        },
+        {
+			"id": "er_jagged_side_01",
+            "rotations" : [270,0] 
+        },
+        {
+			"id": "er_platform_01",
+            "entry-door": "enter",
+            "challenges": 
+            ["cr_creeper_arena"]
+        },
+        {
+			"id": "er_platform_02",
+            "entry-door": "enter"  
+        },
+        {
+            "id": "er_platform_03",
+            "rotations": [180, 90], 
+            "teleports": [
+                {
+                     "door": "stables_door_in",
+                     "dungeons":["sub_stables_2"],
+                     "exit": "*.cr_sub_stable_entrance.stables_door_in_01",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                 }
+                         ] 
+             
+        },
+        {
+			"id": "cr_lowerramparts_01",
+            "entry-door": "enter",
+            "challenges" : ["wall_door_puzzle"],
+            "rotations" : [180]
+        },
+        {
+			"id": "cr_lowerramparts_02",
+            "entry-door": "enter"  
+        },
+        {
+			"id": "er_forest_bend_01",
+            "entry-door": "enter"
+            
+        },
+        {
+			"id": "er_forest_bend_02",
+            "entry-door": "enter"
+            
+        },
+        {
+			"id": "cr_lowerramparts_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "er_farm_01",
+            "rotations" : [180,270],
+            "entry-door": "enter",
+            "exit-door": "exit",  
+            "teleports": [
+                {
+                     "door": "stables_door_out",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                 }
+                ]
+        },
+        {
+            "id": "er_farm_01_alt",
+            "entry-door": "enter",
+            "exit-door": "exit" 
+            
+        },
+        {
+            "id": "er_farm_side_01"
+        },
+        {
+            "id": "er_hills_01",
+            "entry-door": "enter", 
+            "exit-door": "exit"  
+        },
+        {
+            "id": "er_hills_side_01"
+             
+        },
+        {
+            "id": "er_hills_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "er_garrison_end",
+            "teleports": [
+                {
+                     "door": "garrison_door_in",
+                     "dungeons":["sub_rampart_garrison"],
+                     "exit": "*.cr_sub_outpst_hub.garrison_door_in_01",
+                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
+                 }
+                         ] 
+              
+        }
+
+
+    ],
+    "objectives":[
+        {
+            "name": "name_cr_01",
+            "description": "description_er_g_01",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.er_bridge_01.er_start_gauntlet"
+                        } 
+        },
+        {
+            "name": "name_cr_01",
+            "description": "description_er_g_02",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.*.er_outpost_door_gauntlet"
+                        }
+        },
+        {
+			"name": "name_cr_01",
+			"description": "description_er_a_03",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.er_outpost_pillar_gauntlet"
+                            }
+
+        },
+        {
+            "name": "name_cr_01",
+            "description": "description_er_g_04",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "gauntlet": {
+            "end-region": "*.*.er_outpost_exit_gauntlet"
+                        }
+        },
+        {
+            "name": "name_cr_02",
+            "description": "description_er_g_05",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.*.cr_leave_outpost_gauntlet"
+                        }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_er_g_06",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.er_forest_rise_01.cr_maingate_gauntlet"
+                        }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_er_k_07",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_CactiCanyon",
+                "count": 1,
+                "locations": [
+                    "*.er_forest_rise_01.main_gate"
+                ],
+                "key-locations": [
+                    "*.er_forest_rise_01.main_gate_key"
+                ],
+                "key-type": "silver"            
+            }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_er_g_08",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.er_forest_rise_01.cr_windstorm_gauntlet"
+                        }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_er_g_08",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.cr_lowerramparts_01.cr_windstorm_finish_gauntlet"
+                        }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_er_g_09",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.cr_lowerramparts_01.cr_wallgate_gauntlet"
+                        }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_er_k_10",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_CactiCanyon",
+                "count": 1,
+                "locations": ["*.*.wallgate"],
+                "key-locations": ["*.*.wallgate_key"],
+                "key-type": "gold",
+                "mobs": [25, "illager_mix"],
+                "spawn-regions" : ["*.*.keylads"]
+               
+            }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_er_g_11",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.*.cr_farm_ambush"
+                        }
+        },
+        {
+			"name": "name_cr_04",
+			"description": "description_er_a_12",
+            "displayMode": "MainObjective",
+			"arena": {
+				"stretch": "Farm_ambush",
+                "start-time": 0.5,
+                "prespawn-mob": "",
+				"interval": 4,
+				"rest-interval": 0.5,
+				"waves": [
+                    [3, "farm_arenas_mix"],
+                    [4, "farm_arenas_mix"],
+                    [5, "illager_mix"],
+                    [6, "illager_mix"],
+                    [7, "illager_mix"],
+                    [1,"illusioner-mob"]
+                    
+				],
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_Door_5",
+					"start-unlocked": true
+                }
+			}
+        },
+
+//        {
+//            "name": "name_cr_04",
+//            "description": "description_er_a_13",
+//            "displayMode": "MainObjective",
+//            "gauntlet": {
+//                "end-region": "*.er_hills_02.cr_clicky_final"
+//            }
+//        },
+
+//        {
+//        "name": "name_cr_04",
+//        "description": "description_er_a_14",
+//        "displayMode": "MainObjective",
+//        "gauntlet": {
+//        "end-region": "*.er_farm_01.gauntlet_fix"
+//                   }
+//        },
+
+        {
+            "name": "name_cr_04",
+            "description": "description_er_a_14",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/BP_SiegeEngine",
+                "count": 2,
+                "locations": [
+                    "*.*.Click_garrison",
+                ],
+                
+                "locked-doors": [
+                    "*.er_farm_01.garrison_gate_01",
+                    "*.er_farm_side_01.garrison_gate_02"
+                ],
+                "door-path": "Decor/Prefabs/Door/BP_Door_5"
+            }
+          
+        },
+
+        {
+            "name": "name_cr_04",
+            "description": "description_er_a_13",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.er_hills_02.open_gate"
+           },
+        },
+
+           {
+            "name": "name_cr_04",
+            "description": "description_er_a_16",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.cr_windpillar_garrison"
+                
+            }
+            
+       },
+
+        {
+           "name": "name_cr_05",
+           "description": "description_er_a_17",
+           "consider-tiles": "all",
+           "displayMode": "MainObjective",
+           "gauntlet": {
+                "end-region": "*.*.cr_garrison_start_gauntlet"
+            }
+        },
+
+        {
+            "name": "name_cr_05",
+            "description": "description_er_a_18",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.cr_garisn_key_trigger"
+            }
+        },
+
+        {
+			"name": "name_cr_05",
+			"description": "description_er_k_10",
+			"displayMode": "MainObjective",
+			"consider-tiles": "all",
+			"click": {
+				"object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_CactiCanyon",
+				"count": 1,
+				"locations": ["*.*.garisn_key_gate_02"],
+				"key-locations": ["*.cr_sub_garisn_barracks_02.garisn_key_02"],
+				"key-type": "gold"
+				
+			}
+		},
+
+        
+        
+        {
+            "name": "name_cr_05",
+            "description": "description_er_a_18",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+            "end-region": "*.*.garisn_arena_trigger_01"
+                        }
+        },
+        {
+			"name": "name_cr_05",
+            "description": "description_er_a_19",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+			"arena": {
+				"stretch": "Cap_spawn",
+                "start-time": 0.02,
+                "prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+				"interval": 20,
+				"rest-interval": 0.5,
+				"waves": [
+                    [4, "garrison_mix"],
+                    [5, "garrison_mix"],
+                    [5, "garrison_mix"],
+                    [6, "captain_mix"],
+                    [6, "captain_mix"],
+                    [7, "captain_mix"],
+                    [1, "RampartCaptain"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_Door_5",
+                    "start-unlocked": true,
+                    "regions": ["*.*.garisn_gate_arena_01", "*.*.garisn_gate_arena_02", "*.*.garisn_gate_arena_03"]
+                }
+			}
+        },
+   {
+    "name": "name_cr_05",
+    "description": "description_er_a_20",
+    "displayMode": "MainObjective",
+    "consider-tiles": "all",
+    "click": {
+        "object": "Decor/Prefabs/DoorExit/BP_DoorExit_DT_Rot",
+        "count": 1,
+        "locations": [
+            "*.*.cr_garrison_finish_gauntlet"
+        ]
+        
+    }
+}
+    ],
+
+    "challenges":[
+
+        {
+			"id": "initial_arena",
+			"trigger": "*.*.er_initial_arena_trigger",
+			"reward": {
+				"region": "*.er_forest_main_02.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+			"arena": {
+				"stretch": "",
+				"interval": 6.0,
+				"rest-interval": 0.4,
+                "start-time": 0.2,
+                "prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+				"waves": [
+                    [3, "arena_easy_mix"],
+                    [4, "arena_easy_mix"],
+                    [5, "standard_mix"],
+                    [6, "standard_mix"],
+                    [6, "wind-mob-mix"]
+					
+				],
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_StoneDoor_lit_9",
+					"start-unlocked": true
+				}
+			}
+        },
+ 
+
+        {
+			"id": "puzzle_02_arena",
+			"trigger": "*.*.arena_trigger_puzzle",
+			"reward": {
+				"region": "*.cr_wall_arena_01.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            
+			"arena": {
+				"stretch": "",
+				"interval": 6.0,
+				"rest-interval": 0.5,
+				"start-time": 0.5,
+				"prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+				"waves": [
+                    [3, "farm_arenas_mix"],
+                    [4, "farm_arenas_mix"],
+                    [5, "farm_arenas_mix"],
+                    [7, "farm_arenas_mix"]
+					
+				],
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_StoneDoor_lit_9",
+					"start-unlocked": true
+				}
+			}
+        },
+        {
+			"id": "maingate_key_puzzle",
+			"trigger": "*.*.cr_keygate_trigger",
+			"reward": {
+				"region": "*.er_forest_rise_01.gateloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 6.0,
+				"rest-interval": 1, 
+				"start-time": 0.5,
+				"prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+				"waves": [
+                    [5, "farm_arenas_mix"],
+                    [6, "garrison_mix"],
+                    [6, "farm_arenas_mix"],
+                    [7, "garrison_mix"]
+                
+					
+				],
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_Door_5",
+					"start-unlocked": true
+				}
+			}
+        },
+        {
+			"id": "cr_creeper_arena",
+			"trigger-object": "Decor/Prefabs/DingyJungle/BP_DJ_Creeper_Trigger",
+			"reward": {
+				"region": "*.*.challengeloot",
+				"object": "Decor/Prefabs/DingyJungle/BP_DJ_Creeper_Trigger_Chest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 5,
+				"rest-interval": 3,
+				"start-time": 1,
+				"prespawn-mob": "",
+				"waves": [
+					[1,"creeper-mix"],
+					[2,"creeper-mix"],
+					[3,"creeper-mix"],
+					[3,"creeper-mix"],
+					[5,"creeper-mix"],
+					[10,"creeper-mix"],
+					[15,"creeper-mix"]
+				],
+				"gate": null
+            }
+        },
+        {
+            "id": "wall_door_puzzle",
+	        "trigger": "*.cr_lowerramparts_01.wall_button_trigger",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_Gate_Ice_x3",
+                "count": 1,
+                "locations": ["*.cr_lowerramparts_01.button"],
+                "locked-doors": ["*.cr_lowerramparts_01.wall_door"]
+            }
+        }, 
+        {
+			"id": "forest_sidepath_challenge",
+			"trigger": "*.*.challenge_trigger_deadend_01",
+			"reward": {
+				"region": "*.cr_wall_arena_01.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            
+			"arena": {
+				"stretch": "",
+				"interval": 6.0,
+				"rest-interval": 1,
+				"start-time": 1,
+				"prespawn-mob": "/Game/Actors/Ice/BP_Ice_ArenaBattle",
+				"waves": [
+                    [3, "arena_easy_mix"],
+                    [4, "arena_easy_mix"],
+                    [5, "arena_easy_mix"],
+                    [6, "standard_mix"],
+                    [7, "arena_hard_mix"]
+					
+				],
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_StoneDoor_lit_9",
+					"start-unlocked": true
+				}
+			}
+        }
+    ],    
+    "tile-groups":[
+
+            {
+            "#": "er_forest_sidepath",
+            "id":"er_forest_sidepath",
+            "tiles":
+            [
+                "er_forest_side_01", 
+                "er_forest_side_04",
+                "er_forest_side_07",
+                "cr_wall_supply_01",
+                "cr_wall_arena_01"
+            ]
+            },
+            {
+                "#": "cr_start_sidepath",
+                "id":"cr_start_sidepath",
+                "tiles":
+                [
+                    "er_forest_side_04",
+                    "er_forest_side_05",
+                    "er_forest_side_06",
+                    "cr_wall_supply_01",
+                    "cr_wall_arena_01"
+                    ]
+                },
+           // {
+            //"#": "er_jagged_sidepath",
+           // "id":"er_jagged_sidepath",
+           // "tiles":["er_jagged_side_02"]
+          //  },
+            {
+            "#": "er_farm_sidepath",
+            "id":"er_farm_sidepath",
+            "tiles":["er_farm_side_01"]
+            },
+            {
+            "#": "er_hills_sidepath",
+            "id":"er_hills_sidepath",
+            "tiles":["er_hills_side_01"]
+            },
+            {
+            "#": "er_garrison_sidepath",
+            "id":"er_garrison_sidepath",
+            "tiles":["er_garrison_end"]
+             }
+    ]
+}

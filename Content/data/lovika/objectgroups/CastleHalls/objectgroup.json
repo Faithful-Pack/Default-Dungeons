@@ -1,0 +1,486 @@
+
+{
+ "objects" : 
+ [
+  
+  {
+   "blocks" : "eNpjYMAPAAAgAAE=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 0, 2 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "id" : "sls_deadendmini001",
+   "is-leaky" : true,
+   "pos" : [ 352, 32, 103 ],
+   "region-plane" : "eNpjYMACAAAVAAE=",
+   "size" : [ 3, 1, 7 ],
+   "tags" : "deadend",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtlVEOwiAMhqnRnoOjeASPQHjgjRN5WSc6KROMLLgJ7RdCSr6wZuQPWDsDEzbH8ELYHhUR0aXoCyD/ASJ6FJS24WiNyiGCtbiSufVV6rPNvQjOIg3cXVj/jg0iG6oPgYNscxDBWaSBg8WLTd/ukgAobsk2/5e7XcQu4pdPqlKF7iL4ijRwqz5VmTeBNYvANce5WKMz2wqBG4bMSOZhhAuY/U54bA5hfMsplkd1iYszP6HDmAS6mXRHcnCGlBhr5CeegUPlIgbJgtbknWOPfgROqKTuhhNe6KrA3QDcRDz3",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 0 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "id" : "tile_start001",
+   "is-leaky" : false,
+   "pos" : [ 415, 31, -76 ],
+   "region-plane" : "eNpjZGRmHAWjgG4AAAOlAnQ=",
+   "regions" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 12, 1, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "playerstart",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 25, 9, 25 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrtlEGSgyAQRVszwwXiASzW2XkBj5BdthYLdjkRl53uBqRxSE1SlYhm8iqCzbel/bYx5sPjNEjtGnbC1bNchkTtCl9F43lAKHuFlwanFkmNMPGOdnR4a+ecP3cceeFEOCcnXucbU5Qm/7agxNaF2cQ7Mozpuk5YF6OrcXiFMJEiXMUf5/LCPLFQ3GO3QrTM/JlBvUq2NZEY4RFM5OVgInV26PPcRBaKe/wH4WYnmmInps920Ykb+QYrCbegTxT/bmevOKKUkJubKITfm7y7cIIP74y1tSsocBiGodrmygpP8HwqVKVsHJBJjIL22Goc9bH1YQ+g13yOqVRUxrkHTVX10I/fwOVRlV9wTtewEHi2cAB/ZAK5Sq+AJ2XQQGuNhtaCnU1Uk0oZSj7lKkLuYjKRw2DipriMXNVl5Gj1TtwrP0nhISc=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 12 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "id" : "corridor_deadend001",
+   "is-leaky" : false,
+   "pos" : [ 415, 31, -93 ],
+   "region-plane" : "eNpjZBwFxANm7MIA0GIBSA==",
+   "size" : [ 25, 9, 13 ],
+   "tags" : "deadend",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrtmL9u4kAQxneQ7RqknK5F1EZ30r1Aiog6zfUri7jza1zjR3DHw+S5zuA4zIb5lh2zDhgxxcnw2/n37YyJrigepjdqLQagT7sCiNjHw65ihO7WHE0PagRcr1BgzoJaBGROTQJ5a4UIOllIAO/v1IEcAZeEeIg5YFWKPgK0GiT7ZVcLp+TSSSTfC0tnEasaB3hXjdSgonOgPgVGNAiokEBd1wAYk5AP5KT1UABUFezjjFZDZb/sakdbtXiAXyJhsNvtAEjTQ3gECgUAOfgL5evMNY0WGAjM08fb6xQY2RowiY0aJBAcro4QMBoQr9y2c6gVVFd5H7qrhVPiGepzwEQMJRkE7YY0jQT+eYAcCoJUAHlXlXh+2JQA0G9UjkBwKJC8qmRQFWt5DfJ10S1OgYAJBTAHrCpIxHCtor6v4JRoh7r9Xp5dH9DnqERQIQBXzfzCQA4FQZpWqCo50BirFg5i/UzANUCLMwDAHFMUsVLOrg/Is+sD+hwkAkJgyKqRHAqCNCVUlRxoelMiff1YNWVVcEr0AMyuDygXh271txYB8esJTonY3WPVdFVFnKtvGWrQugeAHy8PUOcwOjBgSmh8oF+1gsDiRAMwx72IeGhyWkM9KQNyeMAtVtWugXx+XUQDMMe9iPiwIVaWx+fsxYqg3Ft/ZrPdbPtj2/Kl3EiAe4TlmLBlbrdjm+WpJVBaY7PPA+3jW39g/+kNgaOHE0rOcSU7KH3lGqAeCf+wCQFYWuucSi0AwAMeCqoqCQoV2TKeoUtqF/MjoL8M/HgFgHt0K9nXv2L1z5YMzJzG0Hgt2fOKPc84mEkteW2GQvEcZvmlKvHeeR9Og8fOHUkslF0BRFvwTuasE+f/V+bcA8mDJTmvLVZ3BUKl+39+f3x4ZUdSNy4L9Sd0GIChBp1QHtP7sL6eWV80h6GAEvSThwqpKaIkYaEM8Bhprswqs0wSplXiyM58Ep4ee7B1y/greQE74X+P8KoW/G+x75BEHcogj9HmikvCtbKOVszHsvTOfVjnoqAN2XRdoPtftcBSBviMHQoHsuw5CwERQzkADkPEUB6Lth8RLWJNI7V3i7Putf9woeXZ",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 2, 7 ],
+     "size" : [ 1, 1, 21 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 2, 0 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 2, 34 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : "deadend"
+    }
+   ],
+   "id" : "grandroom001",
+   "is-leaky" : false,
+   "pos" : [ 448, 31, -117 ],
+   "region-plane" : "eNpjZGRmHEJgSDl2FIxMgCORAgDpQANy",
+   "regions" : 
+   [
+    
+    {
+     "name" : "challenge",
+     "pos" : [ 8, 1, 12 ],
+     "size" : [ 8, 1, 11 ],
+     "tags" : "challenge",
+     "type" : "trigger"
+    },
+    
+    {
+     "name" : "challengeloot",
+     "pos" : [ 11, 1, 16 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "challengeloot",
+     "type" : "trigger"
+    },
+    
+    {
+     "name" : "gate",
+     "pos" : [ 9, 1, 17 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 4, 24 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 3, 4, 8 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 19, 4, 29 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 19, 4, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 1, 9 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 1, 23 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 2, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 1, 2, 20 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 1, 28 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 8, 1, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 25, 10, 35 ],
+   "tags" : "",
+   "y" : 2
+  },
+  
+  {
+   "blocks" : "eNrtl01upDAQhW0UyHYWfYAOi6xYtJQLzBFGI2WPrIQdu0h9iDkClx1jIC6DH9i0oUniNwzp+MN/VfVwh7GonSWE+EogKurgArUrm2smvgyIHow6uISwl6iqaVtRd4DfE4D1RqtFHVnYajUDVmsB9+7hD3zmiFYLJxG1k3j3ox5Fnat/A+DLPXgny1Dh5oj6aYKvhE1AYbT/0+1Nw3V5kjOhaGgHelgUHABjCRbQ9eMFAlMiFnowd+C+D3PnMFY4urukNspd2+VD18MYyP+1FCkfNpTPpDab6RhGOcNvXhDwWVDwYEM5rgrtoxnih2KFo+sHbsl51FicygDTnHsCjkDT9FViAaqJE4Ct1nvNvURxUS/YgCN8J6s1JK62WMHo4nz4ZdChGFBdHVSNjFjT3wfZ87QLQEXiC2RqF0BB245iNeHdwwessJp7rIZunmAutXetxBl/LOh0On3eO9XqvdS0cejvXUv3J/REQUGNAAi7N/DKeUirhQO1uOPkcOfBrTaT2nqHSpwByB/QURB0B68apL/3J7H9rcgFB4AHBCDsGNzJamJ7IHaYA4L9rMYxCFhXYgVA/vC3Wn9AMu1anFz2/b5AGm1gTU0fXksq7nji7HOqgZ3DWPmHvdPRv0CyqT8WrDZVP2R3Jqr70tbDAbY1CGU1mA3kwW8C1oTEN+y9VoA9ShT7Y9ZQP09tRfgBTxVKNoDCflCA9rFKm4c9KipKyTgff4UDURvKTEFGQekNovbRyDclAr49orZSqSOdZVmbgmwCqqoqddJcekT56Q/5/Pe5bH+oW3pWTV2AU9VEX3JMv+Rk6ztpzd7JUwagPaZD0Tn6yY1VTZf705SV5JeSvbx0n/JKtybG83NjMWOstLQ+VaIe1takfTzPp6tyGunYqpRKsn796vm8DyCjIJeJGkByLvssJrSocxSpsSjLXFICRqOtufqdrCrP9XKNfYANTkJCYxVST5ezvIIPa1NCp9HpMaxGH/GwGrsgsDCaYTVjfabVcvRcaD2dz/KaeyK9XhOWyOvx+kFf3b9T/fkBgkcKGO3B7MC+czerOSXj4eLbY2I166pgwY13To8AtyCaoKq6fGTVG4OS5j2zZ3lJE5O9ZHTyitRcViFAt0iLFJey/oSs5q/LTb1XWc0sAbdYUUDDXtJ8zK5UpfamzToLWM2MFdkfXbi/cVZYjUw+Kh9stcByy0f60V67CFkNPcJoBjNafduAuczsdqqlb+11IPnuPH191e98+vdSSp+6EdA5sHazml3/AXdCodI=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter",
+     "pos" : [ 0, 6, 7 ],
+     "size" : [ 1, 1, 21 ],
+     "tags" : "enter"
+    }
+   ],
+   "id" : "stairs001",
+   "is-leaky" : false,
+   "pos" : [ 481, 27, -117 ],
+   "region-plane" : "eNpjZBxSgHmgHTAKRgGZAADiQANu",
+   "size" : [ 25, 14, 35 ],
+   "tags" : "",
+   "y" : 5
+  },
+  
+  {
+   "blocks" : "eNrtlk1uwyAQhcFqve4iB7Cy9iJH6BF6BMSCnaXeh8umdWsziHkOhLETR34LNOYz8wcmsXaS/pVldIADiAMVVAtmZO1qoCbdoRYMt4GqBa/X9hhoAnQl0BNKDrbm3l8A0FVdukMdGHKArgOv2PYZKE73gZ6Z73/mvU9J7/0CwK5Y4OPNi05EOYAx9paVXNsFT4lgS3CvPDP/VzkAMF3PAm9PitepHMAYu8uquO1bHAbNAi0KyivHrliw0dbuLSu5tgsCyZ9UBI4b7jFZybVdEIACRcEWlQte+s/5h2WL71wp4EsOjKNzZp5pnQv4AIvgKfVBbJ0FtpYhY0vGGLhpmObMv92GBWrcDHfLVRpcpSBtT0uBSQGsg2YVpUvriArMakmpzrPVdE3HTI+ImpfwcImOSEfMhl0s7Iqme+ams/UezDf1FR4+IcgL3rHmkuAKQVdwz7Mqj4AJD4Z8KS0GMDhdAfccKlqxliuaLq0jr3IK8jKJskLBo7c61lwSXCHoKuuSWUvlwb+JCU97XvA6V4I33BX90tH8",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 0 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 24 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : "deadend"
+    }
+   ],
+   "id" : "tile001",
+   "is-leaky" : false,
+   "pos" : [ 448, 31, -76 ],
+   "region-plane" : "eNpjZGRmHAWjgPoAR7oCAAPTAnY=",
+   "size" : [ 25, 8, 25 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrtVsFugzAMNWxjHzA+AHHYicOkSj33L3aNMolbpWmXfUx+djEEcFIMhIaIdn1CKfBi+8VxHaTcD0AjXrTERlzCmfIviZuAKUmAswaQCu2JHgPhIBxxjkDMqnL5kZQFJ9jgiwlvJN6El/fmT6EHrCvaHbRwJMg6CKExSjgISJwjEHOqTPccXtv9JHHn+xCcK8fGn2CglFR6x/tRmZVXSlUV/poRH9uUNC8G6AnVWK5aH54EcK60CUPobQxFVPehKmTa3TNlIdEiz/N+bIC9BQtOz+rHruBAKcsNPk6oGn/PLpAl+BisBeTBiDtRtSLtE38D811zSUiW4AoO27RSSVNq3aiwx7biHK3YMbdfebLLrb0tVSHTnkjrI2YRwRZcd6TCo8PNxLgtVSHTfs2RegGjAY9Wacb9FpwM9lHEE/7Bd6lqRdphBSF9LaKgbiHwPjMPywkwLPUXl9gIT4ePrUPsE4LcZ/PT9bbUX4ej2RGRDXaZ2STWoWckH9FdeRoJGQ0hiIERSp0Qi87kch0tyvQtxavQ982A71iN3YzpaSl9YEuw4Cw2ckXlWutYgdffn6IAvEriesLrsuD+qiK44vf8RO6fM0GIF0JYzuq6lJDi9V7TghMwDj44tWD3nIVlsZErds/tDkLOhIwm0UlJ+ii4dSjh86SvoB3Owje5t6pdeGu9ztW1He4PivzGYA==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 24 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 2 ],
+     "size" : [ 1, 1, 21 ],
+     "tags" : ""
+    }
+   ],
+   "id" : "tile002",
+   "is-leaky" : false,
+   "pos" : [ 448, 31, -47 ],
+   "region-plane" : "eNpjZCQVMJOsYxSMRIAjnQAAA3MCdg==",
+   "size" : [ 25, 8, 25 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrtlTsOwyAMQGOppZfpOTr3CIjBW+Zev0JNYodgKkAqruI3RA4vHzAWDmEFIiHDOAGbgORpEtD6DxhJa0rklUu5Urq1E6FaTEaKzo36IoAJUCCWc4CLw4jxQcyVzq0VDo2C+F0q70JsHBmUq/ryCXNWzGEWRH7YOCdilYh1JXQpsX1ZVzMY9eWjuaUa6mloqdKXRi/F+GvKdYXotxGHSLpWuCjcEvsosPQGduELs9r9nM+qc4F7YTTh2dWxa61Ya4ACDSSz6llgIowWrhRebk+6eY2emA6cp/jBc8UFPwD5+JnhKeHHD1Z/yTB6eAOlBmuJ",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 24, 1, 2 ],
+     "size" : [ 1, 1, 21 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 24 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 2 ],
+     "size" : [ 1, 1, 21 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 0 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : "deadend"
+    }
+   ],
+   "id" : "tile003",
+   "is-leaky" : false,
+   "pos" : [ 448, 31, -18 ],
+   "region-plane" : "eNpjZGRmJA0wkyg+CkYmwJEeAAyfAno=",
+   "size" : [ 25, 8, 25 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrtlsGSwiAMhoPO5Dk6HvbsTF+I6YE9OeNp9/WX0FIpNbVgFdzmQ00GioXwB+g64WlUj/O6wYYsNMRO+l+VnrxQIeB52ABzLhbYA8xE04MolGS6PYYN40Kp6NFbgyIRBBWCZxaaKMjz6D5aj/8AzVq5z2ioelozmrv7K8E3lF52oSLS5cMrkdVuOnZboM6xyUgD7qKxjwuIsA5WJRlpwGo34yxwh6OKTUYacPcPuZcIN1iVZKQBq90N6RP3Ehu5FAnPkHUpYpS4qdrTR5U0P0FYw4ZKTBV7RaAxBlAb51g0GLTfHrL6boPvUXr4H0Pbvv+dh1NTetovZ9CmA/0P+jrTtvVIFLvTl/ZjDocbz+MNQ7FFg0b3+sGxpnSEPpgwiJPocvxq+P4BJHNle1wZf8doxp+GnY4rOqE0LCQVDk+QYdMAGX/HLIQkCOI0uqs42nKGMxkhl4MtDTRkhIr5A/T7KsM=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 5 ],
+     "size" : [ 1, 1, 21 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 24, 1, 5 ],
+     "size" : [ 1, 1, 21 ],
+     "tags" : ""
+    }
+   ],
+   "id" : "miniarena001",
+   "is-leaky" : false,
+   "pos" : [ 449, 31, -156 ],
+   "region-plane" : "eNpjZBxAwEyi+CgYBbQBAKPXAww=",
+   "regions" : 
+   [
+    
+    {
+     "name" : "challenge",
+     "pos" : [ 6, 1, 0 ],
+     "size" : [ 11, 1, 31 ],
+     "tags" : "challenge",
+     "type" : "trigger"
+    },
+    
+    {
+     "name" : "challengeloot",
+     "pos" : [ 8, 1, 14 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "challengeloot",
+     "type" : "trigger"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 3, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "gate",
+     "pos" : [ 12, 1, 15 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 3, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 18, 3, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 18, 3, 24 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 11, 3, 24 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 4, 3, 24 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 25, 8, 31 ],
+   "tags" : "",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrtVDtygzAQXWGLGvzpierMUHABjmAXHreEgo5rcAl1Pml2JVlIIGLLk4ydTN4MRsvT7j6e1rTtP+LBEM/W8EvQa0wfw4hvaHLhnF9iCLgQ7qs922eezCtjN4dgGvcQpqLjldMVtxqnJlPHHBNn48gJ3hOJpaWUfBgGjneKNPFOkFLVkVJF4xlh4N0nh+cf4xLBgwTKG4LE8Aix2MOosibelovY7XakuyxLbiM6Iak8ktSMTKSo7W0ta6Kt1Ad79I8QSy9YQhhlPLFsolF1tay9KZdGlWxjTJmIoY4YXgETabuZc99ERQR7PEQ81cR4ue7sTSJjol6bSWy/mMT4f+2fIZaALH1urVcqohST65voEPMmf52A10XXPVtBAKuqqiJT9qfMrtnpOBJ5ns1322e44EebBoBV0o482R8UgetGEbhRq1KpaXf9QTTOL1bJc71ItonYVhuxTXRYAIj738cRnbEFApaI7CqogRAys3ddgHgDJgooaoqFVglwGPfWzvd47RFO8/AXeAYvA0utQF9ejxQ1px/AOjI4bSERGWwEJB101sS0SceM1H1Ln5haEmf7Yg8/BU0kVWgieCa+EM61UnWuVRQ5iT+ETziEE2c=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 12 ],
+     "size" : [ 24, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "id" : "corridor_deadend003",
+   "is-leaky" : false,
+   "pos" : [ 415, 31, -127 ],
+   "region-plane" : "eNpjZBwFxAJmXBIA0GYBSA==",
+   "size" : [ 25, 8, 13 ],
+   "tags" : "deadend",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrtVEGywiAMTatyAXuADmt3vUCP4M5thwU7T8RlTQKUUHG+znxL/d83Fpo8Ul5fg8Z88ToaRG0NH4KrxzINCbUVvguNxwtE2StcGpxaFDXCxCfa0eGjnXP+3nHkiRPBOTlxnh9MUZr814IStk7MJj5RYUzXdcK6GF2NwxXCRIowiz+u5cQ8MVHc42OJaJn5sYJ6lWxrImKEVzCR08FE6uzQ57mJTBT3+A/Ew040xU5Mx3bRiRs5g5WIR6Ajin+3s1ccUUmozU0UxP0mf52A7cLa2goK2A3DUG1zZYUneD8VVCkbB8QkRoH22Goc9bH1YQ+g13yPqSQqw7kHTap66McDsDxSuYdzWsNEwG8TO/BXRpCr9Al4UgYNtNZoaC3Y2UQ1qVSh5FuuQuQuJhM5DCZuCpeRVV1GjlbvxCJu+D4g+w==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 2, 1, 12 ],
+     "size" : [ 21, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "id" : "corridor_deadend002",
+   "is-leaky" : false,
+   "pos" : [ 415, 31, -110 ],
+   "region-plane" : "eNpjZBwFxANm7MIA0GIBSA==",
+   "size" : [ 25, 8, 13 ],
+   "tags" : "deadend",
+   "y" : 1
+  }
+ ]
+}

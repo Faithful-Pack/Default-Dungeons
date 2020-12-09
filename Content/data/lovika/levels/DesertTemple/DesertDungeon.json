@@ -1,0 +1,71 @@
+{
+    "id":"desertdungeon",
+    "ambience":"alpha",
+	"audio-ambience":"audio_2",
+    "stretches": [
+        {
+        "id": "dungeon_entrance",
+        "tiles": ["dd_doorway_001"],
+		"length": 1
+        },
+        {
+		"id": "stretch1",
+        "tiles": ["dd_small19_001", "dd_small19_002", "dd_small19_003", "dd_small19_004", "dd_small19_005"],
+        "dead-ends": ["dd_deadend_001"],
+		"length": 4,
+		"mobs": {
+				"only": ["dt-default-mix"],
+				"density": 0.5
+			},
+        "side-paths": {
+            "probability": 0.8,
+            "default": {
+                "max-length": [2, 3],
+                "dead-ends": ["underground_deadend001"],
+                "tiles": ["dd_small19_001", "dd_small19_002", "dd_small19_003", "dd_small19_004", "dd_small19_005"]
+				}
+            }
+        },
+		{
+		"id": "medium_stretch1",
+        "tiles": ["dd_large38_001"],
+        "dead-ends": ["dd_deadend_001"],
+		"length": 1,
+		"mobs": {
+				"only": ["dt-default-mix"],
+				"density": 0.5
+			},
+        "side-paths": {
+            "probability": 0.8,
+            "default": {
+                "max-length": [2, 3],
+                "dead-ends": ["underground_deadend001"],
+                "tiles": ["dd_small19_001", "dd_small19_002", "dd_small19_003", "dd_small19_004", "dd_small19_005"]
+				}
+            }
+        },
+		{
+		"id": "stretch2",
+        "tiles": ["dd_small19_001", "dd_small19_002", "dd_small19_003", "dd_small19_004", "dd_small19_005"],
+        "dead-ends": ["dd_deadend_001"],
+		"length": 2,
+		"mobs": {
+				"only": ["dt-default-mix"],
+				"density": 0.5
+			},
+        "side-paths": {
+            "probability": 0.8,
+            "default": {
+                "max-length": [2, 3],
+                "dead-ends": ["underground_deadend001"],
+                "tiles": ["dd_small19_001", "dd_small19_002", "dd_small19_003", "dd_small19_004", "dd_small19_005"]
+				}
+            }
+        },
+		{
+        "id": "dungeon_exit",
+        "tiles": ["dd_doorway_002"],
+		"length": 1
+        }
+    ]
+}

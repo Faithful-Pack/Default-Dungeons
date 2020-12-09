@@ -1,0 +1,256 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_skyroom",
+    "resource-packs": [
+        "GaleSanctum"
+    ],
+    "object-groups": [
+        "sub_skyroom/objectgroup"
+    ],
+    "mob-groups": [
+        {
+            "#": "============== STAMPEDE ==============",
+            "id": "ravager-horde",
+            "types": [
+                {
+                    "type": "Ravager",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== GOAT ==============",
+            "id": "goat",
+            "types": [
+                {
+                    "type": "Goat",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== WOOLY-COW ==============",
+            "id": "woolycow",
+            "types": [
+                {
+                    "type": "WoolyCow",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== LLAMA ==============",
+            "id": "llama",
+            "types": [
+                {
+                    "type": "llama",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== HORDE ==============",
+            "id": "zombie-horde",
+            "types": [
+                {
+                    "type": "zombie",
+                    "min": 7,
+                    "weight": 1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "min": 7,
+                    "weight": 0.3
+                },
+                {
+                    "type": "skeleton",
+                    "min": 4,
+                    "weight": 1
+                }
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== Creeper ==============",
+            "id": "creeper",
+            "types": [
+                {
+                    "type": "creeper",
+                    "weight": 1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== FOREST PUZZLE MIX  ==============",
+            "id": "forest_puzzle_mix",
+            "types": [
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                6
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== FARM ARENAS MIX  ==============",
+            "id": "farm_arenas_mix",
+            "types": [
+                {
+                    "type": "Zombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "pillager",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                6
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "gs_sub_thesky_main"
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        2
+                    ],
+                    "dead-ends": [
+                        "gs_sub_thesky_sideroom_02"
+                    ],
+                    "tile-groups": [
+                        "gssr_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "gs_sub_thesky_sideroom_01"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "gs_sub_thesky_main",
+            "rotations": [
+                180,
+                270
+            ],
+            "##loc": "sub_skyroom/sub_skyroom.json"
+        },
+        {
+            "id": "gs_sub_thesky_sideroom_01",
+            "##loc": "sub_skyroom/sub_skyroom.json"
+        },
+        {
+            "id": "gs_sub_thesky_sideroom_02",
+            "##loc": "sub_skyroom/sub_skyroom.json"
+        }
+    ],
+    "objectives": [],
+    "challenges": [],
+    "prop-groups": [],
+    "tile-groups": [
+        {
+            "#": "gssr_sidepath",
+            "id": "gssr_sidepath",
+            "tiles": [
+                "gs_sub_thesky_sideroom_01",
+                "gs_sub_thesky_sideroom_02"
+            ],
+            "##loc": "sub_skyroom/sub_skyroom.json"
+        }
+    ],
+    "props": [],
+    "dungeons": []
+}

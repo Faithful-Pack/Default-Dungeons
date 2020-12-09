@@ -1,0 +1,381 @@
+{
+	"id": "Pumpkinpastures",
+    "require-matching-doors": true,
+	"resource-packs": [
+		"Pumpkinpastures"
+	],
+
+	"visual-theme": "cave",
+	"sound-theme": "cave",
+	"prop-density": 0.5,
+	"mob-files": [
+        "PumpkinPastures/pp_mobs.json"
+    ],
+    "#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+        	"pumpkin-mix",
+			{"id": "pumpkin-casters", "weight": 0.5}
+        ],
+		"density": 1.0
+    },
+    "tile-files": [
+        "PumpkinPastures/pp_tiles.json",
+        "PumpkinPastures/ppextended_tiles.json",
+        "CreeperWoods/ow_tiles.json",
+        "crypt/crypt_tiles.json",
+        "houses/houses_tiles.json",
+        "RuneRoom/rr_tiles.json"
+    ],    
+/*
+
+ ██████╗ ██████╗      ██╗███████╗ ██████╗████████╗██╗██╗   ██╗███████╗███████╗
+██╔═══██╗██╔══██╗     ██║██╔════╝██╔════╝╚══██╔══╝██║██║   ██║██╔════╝██╔════╝
+██║   ██║██████╔╝     ██║█████╗  ██║        ██║   ██║██║   ██║█████╗  ███████╗
+██║   ██║██╔══██╗██   ██║██╔══╝  ██║        ██║   ██║╚██╗ ██╔╝██╔══╝  ╚════██║
+╚██████╔╝██████╔╝╚█████╔╝███████╗╚██████╗   ██║   ██║ ╚████╔╝ ███████╗███████║
+ ╚═════╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═══╝  ╚══════╝╚══════╝
+                                                                              
+
+*/
+	"objectives": [
+	{
+        "name": "name_the_last_hearth",
+        "description": "description_reach_the_drawbridge",
+        "displayMode": "MainObjective",
+        "gauntlet": {
+            "end-region": "keep_entry.*.objective"
+        }
+    },
+    {
+            "name": "name_the_last_hearth",
+            "description": "description_survive_the_incoming_horde",
+            "arena": {
+                "stretch": "keep_entry",
+                "interval": 60,
+                "rest-interval": 1,
+                "start-time": 2.0,
+                "battle-max-duration": 360,
+                "waves": [
+                    [2, "vindicator-group"],
+                    [2, "illagercaster-group"],
+                    [3, "illagerenchanter-group"],
+                    [5, "illagerenchanter-group"]                 
+                ]
+            }
+    },
+    {
+        "name": "name_the_last_hearth",
+        "description": "description_reach_the_drawbridge",
+        "displayMode": "MainObjective",
+        "gauntlet": {
+            "end-region": "drawbridge.*.objective"
+        }
+    },
+    {
+            "name": "name_the_last_hearth",
+            "description": "description_lower_the_drawbridge",
+            "displayMode": "MainObjective",
+            "click": {
+                "door-path": "Decor/Prefabs/DrawBridge/New/BP_DrawbridgeGate",
+                "object": "Decor/Prefabs/Waterwheel/BP_WaterWheelObjective",
+                "count": 2,
+                "locations": [
+                    "drawbridge.keep_drawbridge001.lever"
+                    ],
+                "mobs": [3, "miniarena-singles"],
+                "mob-stretch": "drawbridge",
+                "locked-doors": [
+                    "drawbridge.keep_drawbridge001.gate"
+                ],
+            },
+        },
+        {
+            "name": "name_the_last_hearth",
+            "description": "description_lower_the_drawbridge",
+            "displayMode": "MainObjective",
+            "click": {
+                "door-path": "Decor/Prefabs/DrawBridge/New/BP_DrawbridgeGate_Rotated",
+                "object": "Decor/Prefabs/Waterwheel/BP_WaterWheelObjective_Rotated",
+                "count": 2,
+                "locations": [
+                    "drawbridge.keep_drawbridge_rotated.lever"
+                    ],
+                "mobs": [3, "miniarena-singles"],
+                "mob-stretch": "drawbridge",
+                "locked-doors": [
+                    "drawbridge.keep_drawbridge_rotated.gate"
+                ],
+            },
+        },
+		{
+            "name": "name_the_last_hearth",
+            "description": "description_find_the_unspoiled_village",
+//            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "arena.*.objective"
+            }
+        },
+        {
+            "name": "name_the_last_hearth",
+            "description": "description_ring_the_town_bell_to_warn_the_townsfolk",
+            "click": {
+                "object": "Decor/Prefabs/TownBell/BP_Townbell",
+                "count": 1,
+                "locations": [
+            	    "arena.*.bell"
+                ],
+                "locked-doors": [
+                    "arena.*.gate"
+                ]
+            }
+        },
+        {
+            "name": "name_the_last_hearth",
+            "description": "description_survive_the_incoming_horde",
+			//"panToObjectiveEnd": false,
+            "arena": {
+                "stretch": "arena",
+                "interval": 10, // Doubled from previous
+                "rest-interval": 2, //doubled from previous
+				"start-time": 2.0,
+                "waves": [
+                    [5, "vindicator-group"],
+                    [5, "illagercaster-group"],
+                    //[3, "illagerenchanter-group"],
+                    //[7, "illagerenchanter-group"],
+                    //[4, "vindicator-group"],
+                    [7, "illagerenchanter-group"],
+                    [7, "illagercaster-group"],
+                    [10, "illagerenchanter-group"],
+                    [1, "single-evoker"]    
+                ]
+            },
+            "sound": {
+                "track": {
+                    "object": "bgm_env_pupaArena"
+                },
+				"completed-track": {
+                    "object": "bgm_arena1-end"
+                }
+            }
+        },
+        {
+            "name": "name_scape",
+            "description": "description_escape_into_the_town_hall",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_PP",
+                "count": 1,
+                "locations": [
+            	    "arena.*.doubledoor"
+                ]
+            }
+        }
+		
+    ],
+/*
+
+███████╗████████╗██████╗ ███████╗████████╗ ██████╗██╗  ██╗███████╗███████╗
+██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝██╔════╝██║  ██║██╔════╝██╔════╝
+███████╗   ██║   ██████╔╝█████╗     ██║   ██║     ███████║█████╗  ███████╗
+╚════██║   ██║   ██╔══██╗██╔══╝     ██║   ██║     ██╔══██║██╔══╝  ╚════██║
+███████║   ██║   ██║  ██║███████╗   ██║   ╚██████╗██║  ██║███████╗███████║
+╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝
+
+
+*/
+	"stretches": [
+		{
+			"id": "start",
+			"tile-groups": ["start"],
+            "mobs": { "density": 0}
+		},
+        {
+            "tile-groups": ["ppe_section_a"],
+            "mobs": { "density": 0.7},
+            "length":1,
+            "prop-groups": ["ppe_fillprop_small","ppe_fillprop_large","ppe_groundprop","ppe_groundprop_medium","ppe_groundprop_tree","ppe_torched_ground","ppe_deadend_prop"],
+            "prop-density": 2,
+            "dead-ends": ["ppe_woods_deadend001","ppe_woods_deadend002","ppe_woods_deadend003",{"id":"ppe_woods_cryptentrance001", "weight":0.5}],
+            "side-paths": {
+                "probability": 0.7,
+                "default": {
+                    "max-length": [1, 2],
+                    "tile-groups": ["ppe_woods"],
+                    "dead-ends": ["ppe_woods_deadend001","ppe_woods_deadend002","ppe_woods_deadend003",{"id":"ppe_woods_cryptentrance001", "weight":0.5},"ppe_woods_sp_deadend001","ppe_woods_sp_deadend002","ppe_woods_sp_deadend003","ppe_woods_sp_deadend004"],
+                }       
+            }
+        },
+        {
+            "tile-groups": ["ppe_section_b"],
+            "mobs": { "density": 0.6},
+            "prop-groups": ["ppe_fillprop_small","ppe_fillprop_large","ppe_groundprop","ppe_groundprop_medium","ppe_groundprop_tree","ppe_torched_ground","ppe_deadend_prop"],
+            "prop-density": 2,
+            "dead-ends": ["ppe_woods_deadend001","ppe_woods_deadend002","ppe_woods_deadend003",{"id":"ppe_woods_cryptentrance001", "weight":0.5}],
+            "side-paths": {
+                "probability": 0.7,
+                "default": {
+                    "max-length": [1, 2],
+                    "tile-groups": ["ppe_woods"],
+                    "dead-ends": ["ppe_woods_deadend001","ppe_woods_deadend002","ppe_woods_deadend003",{"id":"ppe_woods_cryptentrance001", "weight":0.5},"ppe_woods_sp_deadend001","ppe_woods_sp_deadend002","ppe_woods_sp_deadend003","ppe_woods_sp_deadend004"],
+                }
+            }
+        },
+        {
+            "tile-groups": ["ppe_section_c"],
+            "mobs": { "density": 0.7},
+            "prop-groups": ["ppe_fillprop_small","ppe_fillprop_large","ppe_groundprop","ppe_groundprop_medium","ppe_groundprop_tree","ppe_torched_ground","ppe_deadend_prop","ppe_prop_tower","ppe_prop_towerhouse"],
+            "prop-density": 2,
+            "side-paths": {
+                "probability": 2,
+                "default": {
+                    "max-length": [1, 2]
+                },      
+                "variants": [
+                        {
+                            "weight": 0.5,
+                            "tile-groups": ["ppe_woods"],
+                            "dead-ends": ["ppe_woods_deadend001","ppe_woods_deadend002","ppe_woods_deadend003",{"id":"ppe_woods_cryptentrance001", "weight":0.5},"ppe_woods_sp_deadend001","ppe_woods_sp_deadend002","ppe_woods_sp_deadend003","ppe_woods_sp_deadend004"],
+                        },
+                        {
+                            "weight": 0.5,
+                            "max-length": [4, 5],
+                            "tile-groups": ["ppe_woods"],
+                            "dead-ends":["ppe_woods_cryptentrance001","ppe_woods_sp_ship001"],
+                        }
+                    ]       
+            }
+        },
+        {
+            "tile-groups": ["ppe_section_d"],
+            "mobs": { "density": 0.7},
+            "prop-groups": ["ppe_fillprop_small","ppe_fillprop_large","ppe_groundprop","ppe_groundprop_medium","ppe_groundprop_tree","ppe_torched_ground","ppe_deadend_prop","ppe_prop_house_large","ppe_prop_house","ppe_prop_plot","ppe_prop_cropfield"],
+            "prop-density": 2,
+        },
+		{   
+            "id": "keep_entry",
+            "mobs": { "density": 0},
+            "tiles": ["keep_entry001"],
+        },
+        {
+            "id": "drawbridge",
+            "mobs": { "density": 0},
+            "tile-groups": ["keep_drawbridge"],
+        },
+        {
+            "tiles": ["ppe_canyonentrance001"],
+            //"mobs": { "density": 0},
+        },
+		{
+			"tile-groups": ["canyon"],
+            "prop-groups": ["ppe_groundprop","ppe_groundprop_tree"],
+            "mobs": { "density": 0.8},
+		},
+        {
+            "tiles": ["ppe_canyonentrance002"],
+            //"mobs": { "density": 0},
+        },
+		{
+            "tile-groups": ["ow_tiles_mix"],
+            "mobs": { "density": 0.6},            
+            "prop-groups": ["pp_prop"],
+            "prop-density": 1,
+            "dead-ends": ["ow_deadend001","ow_deadend002","ow_deadend003","ow_deadend004","ow_deadend005"],
+            "length": 2,
+
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [2, 4],
+                    "tile-groups": ["ow_tiles_small"],
+                    "dead-ends": ["ow_deadend001","ow_deadend002","ow_deadend003","ow_deadend004","ow_deadend005"],
+                },
+                "variants": [
+                    {
+                        "tile-groups": ["ow_tiles_mix"],
+                        "weight": 0.8,
+                        "max-length": [1, 3]
+                    },
+                    {
+                        "tile-groups": ["ow_tiles_mix"],
+                        "weight": 0.1,
+                        "max-length": [1, 2]
+                    }
+                ]
+            }
+        },
+		{
+			"tile-groups": ["trans_smalltolarge"],
+            "mobs": { "density": 0.6},
+		},
+		{
+			"tile-groups": ["open"],
+            "mobs": { "density": 0.8},
+		},
+		{
+			"tile-groups": ["trans"],
+            "mobs": { "density": 0.6},
+		},
+		{
+			"tile-groups": ["inventory"],
+            "mobs": { "density": 0},
+		},
+		{
+			"tile-groups": ["small"],
+            "mobs": { "density": 0.6},
+			"length": 1,
+		},
+		{
+			"tile-groups": ["medium"],
+            "mobs": { "density": 0.8},
+		},
+		{
+			"tile-groups": ["trans_smalltolarge"],
+            "mobs": { "density": 0.6},
+		},
+		{
+			"id": "arena",
+			"tile-groups": ["arena"],
+            "mobs": { "density": 0},
+		}
+	],
+/*
+
+██████╗ ██╗   ██╗███╗   ██╗ ██████╗ ███████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██║   ██║████╗  ██║██╔════╝ ██╔════╝██╔═══██╗████╗  ██║██╔════╝
+██║  ██║██║   ██║██╔██╗ ██║██║  ███╗█████╗  ██║   ██║██╔██╗ ██║███████╗
+██║  ██║██║   ██║██║╚██╗██║██║   ██║██╔══╝  ██║   ██║██║╚██╗██║╚════██║
+██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝███████╗╚██████╔╝██║ ╚████║███████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+*/
+    "dungeon-files": [
+        "crypt/crypt_dungeon001.json",
+        "crypt/crypt_small.json",
+        "crypt/crypt_dungeons_single.json",
+		"pumpkinpastures/duskpit.json",
+        "houses/house_dungeons.json"
+    ],
+    "dungeons":[
+	{
+		"id":"shipsmall", 
+		"ambience":"alpha",
+		"audio-ambience": "audio_4",
+		"stretches": [
+			{
+				"tiles": ["ppe_shipsmall_indoor001"],
+			}
+		]
+	},
+    {
+        "id":"mysteryship", 
+        "ambience":"alpha",
+        "audio-ambience": "audio_4",
+        "stretches": [
+            {
+                "tiles": ["ppe_mysteryship01"],
+            }
+        ]
+    },
+]
+}

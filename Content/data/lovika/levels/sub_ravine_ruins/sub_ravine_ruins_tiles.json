@@ -1,0 +1,76 @@
+{
+    "object-groups": ["sub_ravine_ruins/objectgroup"], 
+    "tile-groups": [],
+    "tiles": [
+        {
+            "id": "wp_sub_ravrun_ravine",
+            "challenges": ["ravine_arena"],
+            "rotations": [270],
+            "teleports": [
+                {
+                    "door": "ravine_door",
+                    "exit": "*.wp_ravines_03_ruins.ravine_enter",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+                        ]
+        },
+
+        {
+            "id": "wp_sub_ravrun_ruins",
+            "challenges": ["ruins_arena"]
+           
+        }
+    ],
+
+    "challenges": [
+    
+        {
+            "id": "ravine_arena",
+            "trigger": "*.wp_sub_ravrun_ravine.ravine_arena_trigger",
+            "reward": {
+                "region": "*.wp_sub_ravrun_ravine.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+                "waves": [
+                    [5,"mountain-arena-mix-med"],
+                    [7, "mountain-arena-mix-med"],
+                    [9, "mountain-arena-mix-med"],
+                    [9, "mountain-arena-mix-med"]            
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/GateLobby/BP_GateLobby.BP_GateLobby",
+                    "start-unlocked": true
+                }
+            }
+        },
+
+        {
+            "id": "ruins_arena",
+            "trigger": "*.wp_sub_ravrun_ruins.ruins_arena_trigger",
+            "reward": {},
+            "arena": {
+                "stretch": "",
+                "interval": 20,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Content_DLC3/Actors/Mountains/BP_Mountain_ArenaBattle",
+                "waves": [
+                    [6,"mountain-arena-mix-medh"],
+                    [8, "mountain-arena-mix-med"],
+                    [8, "mountain-arena-mix-med"],
+                    [10, "mountain-arena-mix-med"]            
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/GateLobby/BP_GateLobby.BP_GateLobby",
+                    "start-unlocked": true
+                }
+            }
+        }
+    ]
+}

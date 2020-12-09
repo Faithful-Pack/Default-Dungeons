@@ -1,0 +1,42 @@
+[
+    {
+        "id":"cryptsingle001",
+        "ambience":"foxtrot", 
+        "stretches":[
+            {
+                "tile-groups": ["crypt_single"]
+            },
+        ]
+    },
+    {
+        "id":"cryptsingle002",
+        "ambience":"foxtrot", 
+        "stretches":[
+            {
+                "tiles": ["crypt_single006"],
+            },
+            {
+                "tile-groups": ["crypt_single_ext"],
+            }
+        ]
+    },
+    {
+        "id":"cryptsingle003",
+        "ambience":"foxtrot", 
+        "stretches":[
+            {
+                "tiles": ["crypt_single002"],
+            }
+        ]
+    },
+    {
+        "id":"cryptrewardroom",
+        "ambience":"echo",
+		"audio-ambience": "audio_3",
+        "stretches":[
+            {
+                "tiles": ["crypt_rewardroom001"]
+            }
+        ]
+    }
+]

@@ -1,0 +1,510 @@
+{
+	"object-groups": [
+		"fieryforge/objectgroup"
+	],
+	/*
+
+████████╗██╗██╗     ███████╗███████╗
+╚══██╔══╝██║██║     ██╔════╝██╔════╝
+   ██║   ██║██║     █████╗  ███████╗
+   ██║   ██║██║     ██╔══╝  ╚════██║
+   ██║   ██║███████╗███████╗███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝╚══════╝
+                                    
+	*/
+	"tiles": [
+		{
+			"id": "secret@ff_start",
+			"rotations": 0,
+			"teleports": [
+				{
+					"door": "runedoor",
+					"dungeons": ["runeroom01"],
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance_NoShaft"
+				},
+				{
+					"door": "travel",
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_IndoorEntrance_New"
+				}
+			],
+			"unlock-keys": ["RuneGateDiscovered"]
+		},
+		{
+			"id": "ff_start",
+			"rotations": 0,
+			"teleports": [
+				{
+					"door": "travel",
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_IndoorEntrance_New"
+				}
+			],
+			"unlock-keys": ["not RuneGateDiscovered"]
+		},
+		{
+			"id": "outdoor_start",
+			"rotations": 0
+
+		},
+		{
+			"id": "outdoor_start_snow",
+			"rotations": 0
+		},
+		{
+			"id": "forge_small_start001",
+			"entry-door": "enter"
+		},
+		{
+			"id": "forge_endtile001",
+			"entry-door": "enter"
+		},
+		{
+			"id": "forge_cross003",
+			"rotations": [270,180],
+			"teleports": [
+				{
+					"door": "travel",
+					"dungeons":[{"id":"cellar", "weight":7}, "cellar"],
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "ff_small_sidepath_entrance001",
+			"rotations": [90,180],
+			"teleports": [
+				{
+					"door": "travel",
+					"dungeons":[{"id":"cave", "weight":10 },"cave-arena"],
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "forge_cellar001",
+				"rotations": [90,180],
+			"challenges": [ "miniarena_cellar" ],
+			"teleports": [
+				{
+					"door": "travel",
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "forge_cellar002",
+			"rotations": [90,180],
+			"challenges": [ "miniarena_cellar" ],
+			"teleports": [
+				{
+					"door": "travel",
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "cave_arena001",
+			"rotations": [180,270],
+			"challenges": [ "clicky_arena" ],
+			"teleports": [
+				{
+					"door": "travel",
+					"dungeons":["cave_room"],
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance_NoShaft"
+				}
+			]
+		},
+		{
+			"id": "cave_pit001",
+			"rotations": [180,270]
+		},
+		{
+			"id": "cave_start001",
+			"rotations": [180,270],
+			"teleports": [
+				{
+					"door": "travel",
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "cave_chest_room001",
+			"rotations": [180,270],
+			"teleports": [
+				{
+					"door": "travel",
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "forge_mini_arena001",
+			"challenges": [ "miniarena_forge" ]
+		},
+		{
+			"id": "forge_up001",
+			"rotations": [180,270],
+			"teleports": [
+				{
+					"door": "travel",
+					"dungeons":["cellar"],
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "forge_cross007",
+			"challenges": [ "miniarena_forge" ]
+		},
+		{
+			"id": "outdoor_entrance",
+			"teleports": [
+				{
+					"door": "travel",
+					"exit": "start.*.travel",
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_OutdoorEntrance_New"
+				}
+			]
+		},
+		{
+			"id": "ff_020",
+			"rotations": 270
+		},
+		{
+			"id": "ff_monstrosity",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_transition001",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_transition002",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_transition003",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_transition004",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_transitionback001",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_transitionback002",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_transitionback003",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_inventory001"
+		},
+		{
+			"id": "ff_special",
+			"entry-door": "enter"
+		},
+		{
+			"id": "ff_notarena002",
+			"rotations": 0
+		}
+
+	],
+	/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+"tile-groups": [
+		{
+			"#": "Outdoor Stretch",
+			"id": "outdoor_stretch",
+			"tiles": ["outdoor_tile001"]
+		},
+		{
+			"#": "Forge Tiles",
+			"id": "forge",
+			"tiles": ["ff_002", "ff_003", "ff_004", "ff_006", "ff_007", "ff_009", "ff_010", "ff_011", "ff_012", "ff_013", "ff_020", "ff_021", "ff_notarena002"]
+		},
+		{
+			"#": "Mini Tiles",
+			"id": "mini",
+			"tiles": [
+				"forge_turn001","forge_turn002","forge_straight001",/*"forge_straight002",*/"forge_straight003",
+				"forge_T001","forge_T002",{"id":"forge_cross001", "weight":2},{"id":"forge_cross002", "weight":4},
+				{"id":"forge_cross004", "weight":4},{"id":"forge_cross003", "weight":0.5},{"id":"forge_cross007", "weight":0.5},
+				{"id":"forge_cross008", "weight":4},{"id":"forge_cross009", "weight":4},{"id":"forge_cross010", "weight":4},
+				{"id":"forge_cross011", "weight":4},"forge_cross005","forge_cross006","forge_mini_arena001",{"id":"forge_double001", "weight":0.5},"forge_double002",
+				{"id":"forge_up001", "weight":0.8}
+			]
+		},
+		{
+			"#": "Cave Tiles",
+			"id": "cave",
+			"tiles": ["cave_turn001","cave_turn002","cave_T001","cave_T002","cave_straight001","cave_straight002",{"id":"cave_cross001", "weight":2},{"id":"cave_cross002", "weight":2},{"id":"cave_cross003", "weight":2},{"id":"cave_double001", "weight":0.5},{"id":"cave_double002", "weight":0.5}]
+		},
+		{
+			"#": "Cellar Tiles",
+			"id": "forge_cellar",
+			"tiles": ["forge_cellar001","forge_cellar002"]
+		},
+		{
+			"#": "Special Tiles",
+			"id": "cave_chest_room",
+			"tiles": ["cave_chest_room001"] 
+		},
+		{
+			"#": "Small Sidepath",
+			"id": "small_sidepath",
+			"tiles": ["ff_small_sidepath001","ff_small_sidepath002","ff_small_sidepath003","ff_small_sidepath004",{"id":"ff_small_sidepath_entrance001", "weight":0.9}]
+		},
+		{
+			"#": "End tile",
+			"id": "end",
+			"tiles": ["ff_end2"]
+		},
+		{
+			"#": "Inventory Tile",
+			"id": "inventory01",
+			"tiles": ["ff_inventory001"]
+		},
+		{
+			"#": "Redstone Monstrosity Arena",
+			"id": "redstone-monstrosity",
+			"tiles": ["ff_monstrosity"]
+		}
+	],
+/*
+
+ ██████╗██╗  ██╗ █████╗ ██╗     ██╗     ███████╗███╗   ██╗ ██████╗ ███████╗███████╗
+██╔════╝██║  ██║██╔══██╗██║     ██║     ██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔════╝
+██║     ███████║███████║██║     ██║     █████╗  ██╔██╗ ██║██║  ███╗█████╗  ███████╗
+██║     ██╔══██║██╔══██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ╚════██║
+╚██████╗██║  ██║██║  ██║███████╗███████╗███████╗██║ ╚████║╚██████╔╝███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
+                                                                                   
+*/
+"challenges": [
+        {
+            "id": "miniarena_forge",
+            "trigger": "*.*.challenge",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/ArenaEye/BP_ArenaEye",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "miniarena_cellar",
+            "trigger": "*.*.challenge",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [1, "miniarena-singles"],
+                    [2, "miniarena-singles"]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/ArenaEye/BP_ArenaEye",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "clicky_arena",
+            "trigger-object": "Decor/Prefabs/_Forge/Head/BP_SwordStone",
+            /*"reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },*/
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [4, "miniarena-zombies"],
+                    [4, "miniarena-zombies"],
+                    [4, "miniarena-zombies"],
+                    [4, "miniarena-zombies"],
+                    [5, "miniarena-zombies"],
+                    [5, "miniarena-zombies"],
+                    [5, "miniarena-zombies"],
+                    [5, "miniarena-zombies"],
+                    [6, "miniarena-zombies"],
+                    [6, "miniarena-zombies"]
+                ],
+                 "gate": {
+                 	"object": "Decor/Prefabs/_Forge/HeadBP_Head_Door",
+                    "start-unlocked": false
+                }
+            },
+        }
+    ],
+/*
+
+██████╗ ██╗   ██╗███╗   ██╗ ██████╗ ███████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██║   ██║████╗  ██║██╔════╝ ██╔════╝██╔═══██╗████╗  ██║██╔════╝
+██║  ██║██║   ██║██╔██╗ ██║██║  ███╗█████╗  ██║   ██║██╔██╗ ██║███████╗
+██║  ██║██║   ██║██║╚██╗██║██║   ██║██╔══╝  ██║   ██║██║╚██╗██║╚════██║
+██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝███████╗╚██████╔╝██║ ╚████║███████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+*/
+	"dungeons":[
+	{
+		"id":"cave", 
+		"ambience":"foxtrot",
+		"audio-ambience":"audio_5",
+		"stretches": [
+			{
+				"id": "cave_start",
+				"tiles": ["cave_start001"],
+				"dead-ends": ["cave_deadend001", "cave_deadend001"]
+			},
+			{
+				"id": "cave",
+				"tile-groups": ["cave"],
+				"length": 3,
+				"side-paths": {
+	                "probability": 0.6,
+	                "default": {
+	                    "max-length": [2, 3],
+	                    "dead-ends": ["cave_deadend001", "cave_deadend001"],
+	                    "tile-groups": ["cave"]
+		            }
+		    	},
+				"dead-ends": ["cave_deadend001", "cave_deadend001"]
+			},
+			{
+				"id": "cave",
+				"tiles": ["cave_pit001","cave_double001","cave_double002"],
+				"side-paths": {
+	                "probability": 0.6,
+	                "default": {
+	                    "max-length": [2, 3],
+	                    "dead-ends": ["cave_deadend001", "cave_deadend002"],
+	                    "tile-groups": ["cave"]
+		            }
+		    	},
+				"dead-ends": ["cave_deadend001", "cave_deadend002"]
+			}
+		]
+	},
+	{
+		"id":"cave-arena",
+		"ambience":"foxtrot", 
+		"stretches": [
+			{
+				"id": "cave_start",
+				"tiles": ["cave_start001"],
+				"dead-ends": ["cave_deadend001", "cave_deadend002"]
+			},
+			{
+				"id": "cave",
+				"tile-groups": ["cave"],
+				"length": 2,
+				"side-paths": {
+	                "probability": 0.6,
+	                "default": {
+	                    "max-length": [1, 3],
+	                    "dead-ends": ["cave_deadend001", "cave_deadend002"],
+	                    "tile-groups": ["cave"]
+		            }
+		    	},
+				"dead-ends": ["cave_deadend001", "cave_deadend002 "]
+			},
+			{
+				"id": "cave",
+				"tiles": ["cave_arena001"],
+				"side-paths": {
+	                "probability": 0.6,
+	                "default": {
+	                    "max-length": [1, 2],
+	                    "dead-ends": ["cave_deadend001", "cave_deadend002"],
+	                    "tile-groups": ["cave"]
+		            }
+		    	},
+				"dead-ends": ["cave_deadend001", "cave_deadend002"]
+			},
+			{
+				"tile-groups": ["cave"],
+				"length": 2,
+				"side-paths": {
+	                "probability": 0.6,
+	                "default": {
+	                    "max-length": [1, 3],
+	                    "dead-ends": ["cave_deadend001", "cave_deadend002"],
+	                    "tile-groups": ["cave"]
+		            }
+		    	},
+				"dead-ends": ["cave_deadend001", "cave_deadend002"]
+			}
+		]
+	},
+	{
+		"id":"cellar", 
+		"ambience":"bravo",
+		"audio-ambience":"audio_4",
+		"stretches": [
+			{
+				"tile-groups": ["forge_cellar"]
+			}
+		]
+	},
+	{
+		"id":"cave_room", 
+		"ambience":"echo",
+		"audio-ambience":"audio_3",
+		"stretches": [
+			{
+				"tile-groups": ["cave_chest_room"]
+			}
+		]
+	}
+],
+}

@@ -1,0 +1,292 @@
+
+{
+	"object-groups": [
+        "ObsidianPinnacle/objectgroup",
+        "PrisonDungeon/objectgroup"
+    ],
+	"tiles": [
+        {
+            "id": "opstart",
+            "rotations": 0
+        },
+		{
+            "id": "op_special001",
+            "rotations": 0
+        },
+        {
+            "id": "deadend005",
+            "rotations": 0
+        },
+        {
+            "id": "op_beacon",
+            "entry-door": "enter"
+        },
+        {
+            "id": "op005",
+            "rotations": 0
+        },
+        {
+            "id": "op020",
+            "rotations": 180
+        },
+        {
+            "id": "opend",
+            "rotations": 0,
+			"entry-door": "enter"
+        },
+		{
+            "id": "opboss",
+            "rotations": 0,
+			"entry-door": "enter"
+        },
+		{
+            "id": "opboss_alt",
+            "rotations": 0,
+			"entry-door": "enter"
+        },
+		{
+            "id": "opboss_alt2",
+            "rotations": 0,
+			"entry-door": "enter"
+        },
+		{
+            "id": "opboss_alt3",
+            "rotations": 0,
+			"entry-door": "enter"
+        },
+		{
+            "id": "opboss_alt4",
+            "rotations": 0,
+			"entry-door": "enter"
+        },
+		{
+            "id": "opboss_old",
+            "rotations": 0
+        },
+		/*{
+			"id": "op_dungeondoor002",
+			"rotations": 180,
+			"teleports": [
+				{
+					"door": "op_to_interior",
+					"exit": "enter_indoor",
+					"dungeons":["indoor"],
+					"object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},*/
+		{
+			"id": "op_dungeondoor003",
+			"rotations": 180,
+			"entry-door": "enter",
+			"teleports": [
+				{
+					"door": "op_to_interior",
+					"exit": "enter_indoor",
+					"dungeons":["indoor"],
+					"object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+			"id": "op_dungeondoor004",
+			"rotations": 180,
+			"entry-door": "enter",
+			"teleports": [
+				{
+					"door": "return",
+					"object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+		},
+		{
+            "id": "op_indoor_enter",
+            "rotations": 0
+        },
+		/*{
+            "id": "op_indoor_leave",
+            "rotations": 0,
+			"teleports": [
+				{
+					"door": "exit_indoor",
+					"exit": "dungeonexit.*.return",
+					"object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+        },*/
+		{
+            "id": "op_indoor_leave002",
+            "rotations": 0,
+			"teleports": [
+				{
+					"door": "exit_indoor",
+					"exit": "dungeonexit.*.return",
+					"object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+        },
+		{
+            "id": "op_indoor_enter002",
+            "rotations": 90,
+			"teleports": [
+				{
+					"door": "enter_indoor",
+					"object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
+				}
+			]
+        },
+		{
+            "id": "op_indoor_l001",
+            "rotations": 0
+        },
+		{
+            "id": "op_indoor_m001",
+            "rotations": 0
+        },
+		{
+            "id": "op_indoor_straight001",
+            "rotations": 0
+        },
+		{
+            "id": "op_jumpcombo1",
+            "entry-door": "enter"
+        },
+		{
+            "id": "op_jumpcombo2",
+            "entry-door": "enter"
+        },
+		{
+            "id": "op_jumpcombo3",
+            "entry-door": "enter"
+        },
+		{
+            "id": "op_jumpcombo6",
+            "entry-door": "enter"
+        },
+		{
+            "id": "op_jumpcombo7",
+            "entry-door": "enter"
+        },
+		{
+            "id": "op_jumparena",
+            "entry-door": "enter",
+			"challenges": ["jump_arena"]
+        },
+		{
+            "id": "op_jumparena2",
+            "entry-door": "enter",
+			"challenges": ["jump_arena"]
+        }
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+        {
+            "#": "Start tile",
+            "id": "start",
+            "tiles": ["opstart"]
+        },
+        {
+            "#": "Second tile",
+            "id": "second",
+            "tiles": ["opsecond", "op007"]
+        },
+        {
+            "#": "End tile",
+            "id": "end",
+            "tiles": ["opend"]
+        },
+		{
+            "#": "Boss tile",
+            "id": "boss",
+            "tiles": ["opboss"]
+        },
+		{
+            "#": "Boss Alt",
+            "id": "boss_alt",
+            "tiles": ["opboss_alt4"]
+        },
+		{
+            "#": "Boss Alt 2",
+            "id": "boss_alt2",
+            "tiles": ["opboss_alt2"]
+        },
+		{
+            "#": "Boss Alt 3",
+            "id": "boss_alt3",
+            "tiles": ["opboss_alt3"]
+        },
+		{
+            "#": "Old Boss",
+            "id": "boss_old",
+            "tiles": ["opboss_old"]
+        },
+        {
+            "#": "Beacon tile",
+            "id": "beacon",
+            "tiles": ["op_beacon"]
+        },
+        {
+            "#": "Obsidian tiles",
+            "id": "obsidian",
+            "tiles": ["op_special001", "op_special002"]
+        },
+        {
+            "#": "Uncommon tiles",
+            "id": "uncommon",
+            "tiles": ["op005", "op008", "op020", "op021", "op_straight_broken"]
+        },
+		{
+            "#": "Dungeon Doors",
+            "id": "dungeondoors",
+            "tiles": ["op_dungeondoor003"]
+        },
+		{
+            "#": "Dungeon Exits",
+            "id": "dungeonexits",
+            "tiles": ["op_dungeondoor004"]
+        },
+        {
+            "#": "Common tiles",
+            "id": "common",
+            "tiles": ["op003", "op004", "op006", "op009", "op010", "op011"]
+        },
+		{
+            "#": "Indoor Small Tiles",
+            "id": "indoor_small",
+            "tiles": ["op_indoor_s001", "op_indoor_s002", "op_indoor_s003", "op_indoor_s004", "op_indoor_m005", "op_indoor_m006", "op_indoor_m007", "op_indoor_m008"]
+        },
+		{
+            "#": "Indoor Medium Tiles",
+            "id": "indoor_medium",
+            "tiles": ["op_indoor_m001", "op_indoor_m002", "op_indoor_m003", "op_indoor_m004"]
+        },
+        {
+            "id": "indoor_library",
+            "tiles": ["op_indoor_l001"]
+        },
+		{
+            "#": "Indoor Side Tiles",
+            "id": "indoor_side",
+            "tiles": ["op_indoor_s001", "op_indoor_s002", "op_indoor_s003", "op_indoor_s004"]
+        },
+		{
+            "#": "Jump Tiles",
+            "id": "jump_tiles",
+            "tiles": ["op_jumpcombo1", "op_jumpcombo2", "op_jumpcombo3", "op_jumpcombo4", "op_jumpcombo5", "op_jumpcombo6", "op_jumpcombo7"]
+        },
+		{
+            "#": "Jump Arenas",
+            "id": "jump_arenas",
+            "tiles": ["op_jumparena", "op_jumparena2"]
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "object-groups": [
+        "openwoods/objectgroup"
+    ],
+    "tiles": [
+        {
+            "id": "start",
+            "rotations": 0/*,
+             "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["woods"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]*/
+        },
+        {
+            "id": "destination@start",
+            "rotations": 0
+        },
+        {
+            "id": "ow_cem_entrance001",
+            "entry-door": "enter"
+        },
+        {
+            "id": "ow_cem_cryptentrance001",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsmall001","cryptsmall002",{"id":"cryptsmall003", "weight":0.4}],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "ow_cem_exit001",
+            "entry-door": "enter"
+        },
+        {
+            "id": "return@start",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "travel",
+                    "exit" : "*.*.return",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "pp_cryptentrance_small001",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                     "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "pp_cryptentrance_small002",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                     "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        }, 
+        {
+            "id": "pp_cryptentrance_small003",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                     "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "ow_cryptentrance001",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":[/*{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.04},*/"cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "ow_cryptentrance002",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "ow_cryptentrance003",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "ow_cryptentrance004",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "ow_cryptentrance005",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["cryptsmall004"],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+                {
+            "id": "cw@ow_cryptentrance001",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":[{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.04}],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "cw@ow_cryptentrance002",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":[{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.04}],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "cw@ow_cryptentrance003",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":[{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.04}],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "cw@ow_cryptentrance004",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":[{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.04}],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "cw@ow_cryptentrance005",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":[{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.08},{"id":"cryptsmall003", "weight":0.04}],
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
+                }
+            ]
+        },
+        {
+            "id": "ow_tile_house001",
+            "rotations": [0,90],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons":["house_small"],
+                    "object": "Decor/Prefabs/DoorTravel/BP_VanillaDoor_Inverted",
+                }
+            ]
+        },  
+    ],
+/*
+
+████████╗██╗██╗     ███████╗     ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██║██║     ██╔════╝    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║██║     █████╗█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+   ██║   ██║███████╗███████╗    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+   ╚═╝   ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+
+*/
+    "tile-groups": [
+        {
+            "id": "ow_tiles_mix",
+            "tiles": [       
+                {"id":"ow_tile_med001", "weight":0.5},"ow_tile_med002","ow_tile_med003","ow_tile_med004","ow_tile_med005","ow_tile_med006","ow_tile_med007","ow_tile_med008","ow_tile_med009","ow_tile_med010",
+                "ow_tile_small001","ow_tile_small002","ow_tile_small003","ow_tile_small004","ow_tile_small005","ow_tile_small006",
+                {"id":"ow_cryptentrance001", "weight":0.3},{"id":"ow_cryptentrance002", "weight":0.3},{"id":"ow_cryptentrance003", "weight":0.3},{"id":"ow_cryptentrance004", "weight":0.3},{"id":"ow_cryptentrance005", "weight":0.3}
+            ]
+        },
+        {
+            "id": "cw_ow_tiles_mix",
+            "tiles": [       
+                {"id":"ow_tile_med001", "weight":0.5},"ow_tile_med002","ow_tile_med003","ow_tile_med004","ow_tile_med005","ow_tile_med006","ow_tile_med007","ow_tile_med008","ow_tile_med009","ow_tile_med010",
+                "ow_tile_small001","ow_tile_small002","ow_tile_small003","ow_tile_small004","ow_tile_small005","ow_tile_small006",
+                {"id":"cw@ow_cryptentrance001", "weight":0.3},{"id":"cw@ow_cryptentrance002", "weight":0.3},{"id":"cw@ow_cryptentrance003", "weight":0.3},{"id":"cw@ow_cryptentrance004", "weight":0.3},{"id":"cw@ow_cryptentrance005", "weight":0.3}
+            ]
+        },
+        {
+            "id": "ow_tiles_med",
+            "tiles": [       
+                {"id":"ow_tile_med001", "weight":0.5},"ow_tile_med002","ow_tile_med003","ow_tile_med004","ow_tile_med005","ow_tile_med006","ow_tile_med007","ow_tile_med008","ow_tile_med009","ow_tile_med010"
+            ]
+        },
+        {
+            "id": "ow_tiles_small",
+            "tiles": [       
+                "ow_tile_small001","ow_tile_small002","ow_tile_small003","ow_tile_small004","ow_tile_small005","ow_tile_small006"
+            ]
+        },
+        {
+            "id": "ow_cemetery",
+            "tiles": [       
+                "ow_cem_small001","ow_cem_small002","ow_cem_small003","ow_cem_med001",{"id":"ow_cem_cryptentrance001", "weight":0.25}
+            ]
+        }
+    ],
+ /*
+
+██████╗ ██████╗  ██████╗ ██████╗        ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗      ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝
+██████╔╝██████╔╝██║   ██║██████╔╝█████╗██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████╗
+██╔═══╝ ██╔══██╗██║   ██║██╔═══╝ ╚════╝██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ╚════██║
+██║     ██║  ██║╚██████╔╝██║           ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝            ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+                                                                                          
+
+ */
+    "prop-groups": [
+        {
+            "id": "cw_ow_props",
+            "props": [
+                "prop_tiny001","prop_tiny002","prop_tiny003","prop_tiny004",
+                "prop_tinylong001","prop_tinylong002","prop_tinylong003",
+                "prop_small001","prop_small002","prop_small002","prop_small003","prop_small004","prop_small005",
+                "prop_med001","prop_med002","prop_med003","prop_med004","prop_med005","prop_med006",
+            ]
+        },
+        {
+            "id": "pp_ow_props",
+            "props": [
+                "pp_prop_tiny001","pp_prop_tiny002","pp_prop_tiny003","pp_prop_tiny004",
+                "pp_prop_tinylong001","pp_prop_tinylong002","pp_prop_tinylong003",
+                "pp_prop_small001","pp_prop_small002","pp_prop_small002","pp_prop_small003","pp_prop_small004","pp_prop_small005",
+                "pp_prop_med001","pp_prop_med002","pp_prop_med003","pp_prop_med004","pp_prop_med005","pp_prop_med006",
+            ]
+        }
+
+    ]
+
+
+}

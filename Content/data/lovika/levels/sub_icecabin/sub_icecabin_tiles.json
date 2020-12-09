@@ -1,0 +1,15 @@
+{
+	"object-groups": ["sub_icecabin/objectgroup"],
+	"tiles": [
+		{
+		"id": "ice_cabin",
+		"rotations": [270],
+			"teleports": [
+				{
+					"door": "cabin_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		}
+	]
+}

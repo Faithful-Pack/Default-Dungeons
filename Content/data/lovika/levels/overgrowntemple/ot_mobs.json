@@ -1,0 +1,245 @@
+[
+	{
+		"#": "============== JUNGLE MIX PASSIVE ==============",
+		"id": "jungle-mix-pass",
+		"types": [
+			{"type": "ocelot", 			"weight": 1.0},
+		],
+		"pick-types": [1, 1]
+	},
+	{
+		"#": "============== JUNGLE MIX EASY ==============",
+		"id": "jungle-mix-easy",
+		"types": [
+			{"type": "ocelot", 			"weight": 0.1, 		"max%": 0.1},
+			{"type": "zombie", 			"weight": 0.2},
+			{"type": "junglezombie", 	"weight": 0.1},
+			{"type": "skeleton", 		"weight": 0.3},
+			{"type": "mossyskeleton", 	"weight": 0.1},
+			{"type": "spider", 			"weight": 0.1, 		"max%": 0.3},
+		],
+		"pick-types": [3, 6]
+	},
+	{
+		"#": "============== JUNGLE MIX HARD ==============",
+		"id": "jungle-mix-hard",
+		"types": [
+			{"type": "junglezombie", "weight": 0.2},
+			{"type": "skeleton", "weight": 0.05},
+			{"type": "mossyskeleton", "weight": 0.2},
+			{"type": "spider", "weight": 0.1, "max%": 0.3},
+			{"type": "creeper", "weight": 0.1, "max%": 0.3},
+			{"type": "Leaper", "weight": 0.1, "max%": 0.05},
+			{"type": "Whisperer", "weight": 0.2, "max%": 0.1},
+		],
+		"pick-types": [5, 7]
+	},
+	{
+		"#": "============== JUNGLE MIX HARD WHISPERERS==============",
+		"id": "jungle-mix-hard-whisperers",
+		"types": [
+			{"type": "junglezombie", "weight": 0.2},
+			{"type": "mossyskeleton", "weight": 0.2},
+			{"type": "creeper", "weight": 0.1, "max%": 0.3},
+			{"type": "Leaper", "weight": 0.1, "max%": 0.05},
+			{"type": "Whisperer", "weight": 0.4, "min": 2, "max": 4},
+		],
+		"pick-types": [4, 5]
+	},
+	{
+		"#": "============== TEMPLE MIX EASY ==============",
+		"id": "temple-mix-easy",
+		"types": [
+			{"type": "ocelot", 			"weight": 0.1, 		"max%": 0.1},
+			{"type": "zombie", 			"weight": 0.2},
+			{"type": "junglezombie", 	"weight": 0.1},
+			{"type": "skeleton", 		"weight": 0.3},
+			{"type": "mossyskeleton", 	"weight": 0.1},
+			{"type": "spider", 			"weight": 0.1, 		"max%": 0.3},
+			{"type": "Whisperer", "weight": 0.2, "max%": 0.1},
+		],
+		"pick-types": [3, 6]
+	},
+	{
+		"#": "============== TEMPLE MIX MEDIUM ==============",
+		"id": "temple-mix-med",
+		"types": [
+			{"type": "zombie", 			"weight": 0.05},
+			{"type": "junglezombie", 	"weight": 0.2},
+			{"type": "skeleton", 		"weight": 0.05},
+			{"type": "mossyskeleton", 	"weight": 0.2},
+			{"type": "creeper", 		"weight": 0.2, 		"max%": 0.3},
+			{"type": "Whisperer", "weight": 0.2, "max%": 0.1},
+		],
+		"pick-types": [3, 5]
+	},
+	{
+		"#": "============== TEMPLE MIX MEDIUM WHISPERERS==============",
+		"id": "temple-mix-med-whisperers",
+		"types": [
+			{"type": "junglezombie", 	"weight": 0.2},
+			{"type": "mossyskeleton", 	"weight": 0.2},
+			{"type": "creeper", 		"weight": 0.2, 		"max%": 0.3},
+			{"type": "Whisperer", "weight": 0.4, "min": 3, "max": 5},
+		],
+		"pick-types": [3, 4]
+	},
+	{
+		"#": "============== TEMPLE MIX HARD ==============",
+		"id": "temple-mix-hard",
+		"types": [
+			{"type": "junglezombie", "weight": 0.2},
+			{"type": "skeleton", "weight": 0.05},
+			{"type": "mossyskeleton", "weight": 0.2},
+			{"type": "spider", "weight": 0.1, "max%": 0.3},
+			{"type": "creeper", "weight": 0.1, "max%": 0.3},
+			{"type": "Leaper", "weight": 0.1, "max%": 0.05},
+			{"type": "Whisperer", "weight": 0.2, "max%": 0.1},
+		],
+		"pick-types": [5, 7]
+	},
+	{
+		"#": "============== TEMPLE MIX HARD WHISPERERS==============",
+		"id": "temple-mix-hard-whisperers",
+		"types": [
+			{"type": "junglezombie", "weight": 0.2},
+			{"type": "mossyskeleton", "weight": 0.2},
+			{"type": "creeper", "weight": 0.1, "max%": 0.3},
+			{"type": "Leaper", "weight": 0.1, "max%": 0.05},
+			{"type": "Whisperer", "weight": 0.4, "min": 4, "max": 7},
+		],
+		"pick-types": [5, 5]
+	},
+	{
+		"#": "============== ARENA MIX==============",
+		"id": "arena-mix",
+		"types": [
+			{"type": "zombie", "weight": 0.1},
+			{"type": "junglezombie", "weight": 0.2},
+			{"type": "skeleton", "weight": 0.1},
+			{"type": "mossyskeleton", "weight": 0.2},
+			{"type": "spider", "weight": 0.2, "max%": 0.3},
+			{"type": "creeper", "weight": 0.05, "max%": 0.3},
+			{"type": "Leaper", "weight": 0.05, "max%": 0.05},
+			{"type": "Whisperer", "weight": 0.1, "max%": 0.1},
+		],
+		"pick-types": [4, 6]
+	},
+	{
+		"#": "============== ARENA MIX EASY ==============",
+		"id": "arena-mix-easy",
+		"types": [
+			{"type": "zombie", 			"weight": 0.2},
+			{"type": "junglezombie", 	"weight": 0.2},
+			{"type": "skeleton", 		"weight": 0.3},
+			{"type": "mossyskeleton", 	"weight": 0.2},
+			{"type": "spider", 			"weight": 0.1, 		"max%": 0.3},
+		],
+		"pick-types": [4, 6]
+	},
+	{
+		"#": "============== ARENA MIX MEDIUM ==============",
+		"id": "arena-mix-med",
+		"types": [
+			{"type": "zombie", "weight": 0.1},
+			{"type": "junglezombie", "weight": 0.2},
+			{"type": "skeleton", "weight": 0.1},
+			{"type": "mossyskeleton", "weight": 0.2},
+			{"type": "creeper", "weight": 0.3, "max%": 0.3},
+			{"type": "Leaper", "weight": 0.1, "max%": 0.05},
+		],
+		"pick-types": [4, 6]
+	},
+	{
+		"#": "============== ARENA MIX HARD==============",
+		"id": "arena-mix-hard",
+		"types": [
+			{"type": "junglezombie", "weight": 0.2},
+			{"type": "mossyskeleton", "weight": 0.2},
+			{"type": "spider", "weight": 0.2, "max%": 0.3},
+			{"type": "creeper", "weight": 0.05, "max%": 0.3},
+			{"type": "Leaper", "weight": 0.05, "max%": 0.05},
+			{"type": "Whisperer", "weight": 0.3},
+		],
+		"pick-types": [4, 6]
+	},
+	{
+		"#": "============== MAIN ARENA MIX EASY==============",
+		"id": "main-arena-easy",
+		"types": [
+			{"type": "zombie", "weight": 0.3},
+			{"type": "junglezombie", "weight": 0.4},
+			{"type": "spider", "weight": 0.1, "max%": 0.3},
+			{"type": "creeper", "weight": 0.2, "max%": 0.3},
+		],
+		"pick-types": [2, 3]
+	},
+	{
+		"#": "============== MAIN ARENA MIX HARD==============",
+		"id": "main-arena-hard",
+		"types": [
+			{"type": "zombie", "weight": 0.2},
+			{"type": "junglezombie", "weight": 0.3},
+			{"type": "spider", "weight": 0.2, "max%": 0.3},
+			{"type": "creeper", "weight": 0.1, "max%": 0.3},
+			{"type": "Whisperer", "weight": 0.2, "max%": 0.1},
+		],
+		"pick-types": [3, 5]
+	},
+	{
+		"#": "============== ARENA LEAPERS ==============",
+		"id": "arena-leaper",
+		"types": [
+			{"type": "Leaper", "weight": 1.0},
+		],
+		"pick-types": [1, 1]
+	},
+	{
+		"#": "============== ENDERMAN ==============",
+		"id": "Enderman-solo",
+		"types": [
+			{"type": "Enderman", "weight": 2}
+			
+		],
+		"pick-types": [1, 1]
+	},
+	{
+		"#": "============== CREEPER CHALLENGE MIX ==============",
+		"id": "creeper-mix",
+		"types": [
+			{"type": "creeper", "weight": 1, "max%": 1.0},
+		],
+		"pick-types": [1, 1]
+	},
+	{
+		"#": "============== SKELETON MIX EASY ==============",
+		"id": "skeleton-mix-easy",
+		"types": [
+			{"type": "skeleton", "weight": 0.75},
+			{"type": "mossyskeleton", "weight": 0.25}
+		],
+		"pick-types": [3, 4]
+	},
+	{
+		"#": "============== SPIDERNEST SPECIAL ==============",
+		"id": "spidernest-special",
+		"types": [
+			{"type": "cavespider", "weight": 1.0, "min": 5}
+		]
+	},
+	{
+		"#": "============== SPIDERNEST ==============",
+		"id": "spidernest",
+		"types": [
+			{"type": "spider", "weight": 0.2},
+			{"type": "cavespider", "weight": 0.8}
+		]
+	},
+	{
+		"#": "============== JUNGLE ABOMINATION ==============",
+		"id": "jungleabomination",
+		"types": [
+			{"type": "jungleabomination", "min": 1, "max": 1}
+		]
+	}
+]

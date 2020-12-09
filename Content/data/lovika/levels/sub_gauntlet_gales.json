@@ -1,0 +1,354 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "sub_gauntlet_gales",
+    "resource-packs": [
+        "GaleSanctum"
+    ],
+    "object-groups": [
+        "sub_gauntlet_gales/objectgroup"
+    ],
+    "mob-groups": [
+        {
+            "#": "============== STAMPEDE ==============",
+            "id": "ravager-horde",
+            "types": [
+                {
+                    "type": "Ravager",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== GOAT ==============",
+            "id": "goat",
+            "types": [
+                {
+                    "type": "Goat",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== WOOLY-COW ==============",
+            "id": "woolycow",
+            "types": [
+                {
+                    "type": "WoolyCow",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== LLAMA ==============",
+            "id": "llama",
+            "types": [
+                {
+                    "type": "llama",
+                    "min": 1,
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== HORDE ==============",
+            "id": "zombie-horde",
+            "types": [
+                {
+                    "type": "zombie",
+                    "min": 7,
+                    "weight": 1
+                },
+                {
+                    "type": "FrozenZombie",
+                    "min": 7,
+                    "weight": 0.3
+                },
+                {
+                    "type": "skeleton",
+                    "min": 4,
+                    "weight": 1
+                }
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== Creeper ==============",
+            "id": "creeper",
+            "types": [
+                {
+                    "type": "creeper",
+                    "weight": 1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== FOREST PUZZLE MIX  ==============",
+            "id": "forest_puzzle_mix",
+            "types": [
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "cavespider",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                3,
+                6
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        },
+        {
+            "#": "============== FARM ARENAS MIX  ==============",
+            "id": "farm_arenas_mix",
+            "types": [
+                {
+                    "type": "Zombie",
+                    "weight": 0.1
+                },
+                {
+                    "type": "SlimeMedium",
+                    "weight": 0.1
+                },
+                {
+                    "type": "pillager",
+                    "weight": 0.2,
+                    "max%": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                },
+                {
+                    "type": "chickenjockey",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "creeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                3,
+                6
+            ],
+            "##loc": "GaleSanctum/GS_Mobs.json"
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "gs_sub_gntlet_start"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_connection"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_easy_speed_01",
+                "gs_sub_gntlet_easy_speed_02"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_connection"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_easy_puzzle_01"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_connection"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_med_speed_01"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_connection"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_med_puzzle_01"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_hard_speed_01"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_connection"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_hard_puzzle_01"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_connection"
+            ]
+        },
+        {
+            "tiles": [
+                "gs_sub_gntlet_end"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "gs_sub_gntlet_start",
+            "rotations": [
+                270
+            ],
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_end",
+            "teleports": [
+                {
+                    "door": "gauntlet_end",
+                    "exit": "*.*.gauntlet_start",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_easy_puzzle_01",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_easy_puzzle_02",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_med_puzzle_01",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_med_puzzle_02",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_hard_puzzle_01",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_hard_puzzle_02",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_easy_speed_01",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_easy_speed_02",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_med_speed_01",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_med_speed_02",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_hard_speed_01",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        },
+        {
+            "id": "gs_sub_gntlet_hard_speed_02",
+            "entry-door": "enter",
+            "##loc": "sub_gauntlet_gales/sub_gauntlet_gales.json"
+        }
+    ],
+    "objectives": [],
+    "challenges": [],
+    "prop-groups": [],
+    "tile-groups": [],
+    "props": [],
+    "dungeons": []
+}

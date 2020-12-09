@@ -1,0 +1,63 @@
+{
+	"id": "sub_templetunnel",
+	"ambience": "bravo",
+	"audio-ambience": "audio_5",
+	
+	"stretches": [{
+			"tiles": ["tun_start"],
+			"mobs": {
+				"density": 2,
+				"only": ["arena-mix-hard"]
+			}
+		},
+		{
+			"tiles": ["tun_mid_5"],
+			"length": 1
+		},
+		{
+			"tiles": ["tun_mid_6"],
+			"mobs": {
+				"density": 2,
+				"only": ["arena-mix-hard"]
+			},
+			"length": 1
+		},
+		/*{
+			"tiles": ["tun_hall"],
+			"length": 1
+		},*/
+		{
+			"tiles": [{"id": "tun_mid_1", "weight": 0.5}, {"id": "tun_mid_2", "weight": 0.3}, {"id": "tun_mid_joe", "weight": 0.2}],
+			"length": 1,
+			"mobs": {
+				"density": 2,
+				"only": ["arena-mix-hard"]
+			},
+			"dead-ends": [{"id": "tun_mid_3", "weight": 0.7}, {"id": "tun_dead_end", "weight": 0.3}],
+			/*"side-paths": {
+				"probability": 10,
+				"default": {
+					"max-length": [2,3],
+					"dead-ends": ["tun_dead_end"],
+					"tile-groups": ["tunnel_sidepath1"]
+				}
+			}*/
+		},
+		/*{
+			"tiles": ["tun_mid_joe"],
+			"length": 1
+		},*/
+		{
+			"tiles": ["tun_right_2"],
+			"mobs": {
+				"density": 2,
+				"only": ["arena-mix-hard"]
+			},
+			"length": 1
+		},
+		{
+			"tiles": ["tun_end"],
+			"length": 1
+		}
+	]
+}

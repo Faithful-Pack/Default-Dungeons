@@ -1,0 +1,84 @@
+{
+    "id": "sub_rampart_garrison",
+    "ambience":"bravo",
+    "audio-ambience": "audio_1",
+    "fill": {
+        "world": {
+            "gradient": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15 ]
+        }
+    },
+     "stretches": [
+           
+        {
+         "tiles": ["cr_sub_garisn_hall"],          
+               
+        "mobs": {
+			"density": 1.0,
+			"only": ["garrison_mix"]
+			}
+        },
+        {
+        "tiles": ["cr_sub_garisn_training_1"],
+        "mobs": {
+			"density": 1.0,
+			"only": ["farm_arenas_mix"]
+			}
+        },
+        {
+        "tiles": ["cr_sub_garisn_training_2"],
+        "side-paths":{
+            "probability": 1,
+            "default": {
+            "max-length": [1,1],
+            "dead-ends": [
+                {"id":"cr_sub_garisn_barracks_02","weight": 0.05}],
+                "tile-groups": ["sidepath_windy"]
+                }
+            },
+        "mobs": {
+            "density": 1.0,
+            "only": ["garrison_mix"]
+            }
+        },
+        {
+        "tiles": ["cr_sub_garisn_training_3"],
+        "mobs": {
+            "density": 1.0,
+            "only": ["garrison_mix"]
+            }
+        },
+        {
+        "tiles": ["cr_sub_garisn_corridor_01"],
+        "mobs": {
+			"density": 1.0,
+			"only": ["farm_arenas_mix"]
+			}
+        },
+        {
+        "tiles": ["cr_sub_garisn_locked"],
+        "side-paths":{
+            "probability": 1,
+            "default": {
+            "max-length": [1,1],
+            "dead-ends": [
+                {"id":"cr_sub_garisn_corner_02","weight": 0.05}],
+                "tile-groups": ["sidepath_windy"]
+                }
+            },
+        "mobs": {
+            "density": 1.0,
+            "only": ["garrison_mix"]
+            }
+        },
+        {
+        "id" : "Cap_spawn",
+        "tiles": ["cr_sub_garisn_captain"]
+        }
+            
+    ]
+
+   
+      
+   
+}
+    

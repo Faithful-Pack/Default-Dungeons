@@ -1,24 +1,6 @@
-ScalarParameterValues[4] =
+ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
-    {
-        ParameterName = None
-        ParameterValue = 8
-        ParameterInfo = { Name=Displace Wind Strength }
-    }
-    ScalarParameterValues[1] =
-    {
-        ParameterName = None
-        ParameterValue = 0.2
-        ParameterInfo = { Name=Large Ripple Speed }
-    }
-    ScalarParameterValues[2] =
-    {
-        ParameterName = None
-        ParameterValue = 1
-        ParameterInfo = { Name=Rip_Amount }
-    }
-    ScalarParameterValues[3] =
     {
         ParameterName = None
         ParameterValue = 0
@@ -31,11 +13,11 @@ TextureParameterValues[1] =
     {
         ParameterName = None
         ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/T_Windswept_Props_Trim.T_Windswept_Props_Trim'
-        ParameterInfo = { Name=Diffuse }
+        ParameterInfo = { Name=01 Base Texture }
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.M_Cloth_A'
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.M_Master_Prefab_Meshes_Twosided'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

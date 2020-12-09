@@ -1,0 +1,19 @@
+{
+	"object-groups": [
+		"sub_bamboo_cab/objectgroup"
+	],
+
+	"tiles": [
+		{
+			"id": "hut_1",
+			"rotations": [90],
+			"teleports" : [
+				{
+					"door":"bamboohut_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		}
+	]
+
+}

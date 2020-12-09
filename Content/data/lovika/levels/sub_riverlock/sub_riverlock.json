@@ -1,0 +1,29 @@
+{
+	"id":"sub_riverlock",
+	"ambience":"default",
+	"audio-ambience":"audio_5",
+
+	"stretches": [
+		{
+			"tiles": ["lock"],
+			"prop-groups": ["house"],
+			"mobs": {
+				"density": 1,
+				"only": [
+					"fjord-mix-hard"
+				]
+			}
+		},
+		{
+			"tiles": ["lock_2"],
+			"mobs": {
+				"density": 1,
+				"only": [
+					"fjord-mix-hard"
+				]
+			}
+		}
+	]
+
+}
+

@@ -1,0 +1,72 @@
+{
+	"object-groups": [
+		"sub_river_under/objectgroup"
+	],
+
+	"tiles": [
+		{
+			"id": "river_1",
+			"rotations": [90],
+			"challenges": [
+				"river_clicky_arena"
+			],
+			"teleports": [
+				{
+					"door": "river_door",
+					"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+				}
+			]
+		},
+	],
+
+	"challenges": [
+		{
+			"id": "river_clicky_arena",
+			"trigger-object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Jungle",
+			"reward": {
+				"region": "*.river_1.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 20,
+				"rest-interval": 0.2,
+				"start-time": 0.5,
+				"prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
+				"waves": [
+					[2,"joe-mix"],
+					[3,"joe-mix"],
+					[2,"joe-mix"],
+					[5,"joe-mix"],
+					[2,"joe-mix"],
+					[8,"joe-mix"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
+					"start-unlocked": false
+				}
+			}
+		}
+	],
+
+	"prop-groups": [
+		{
+			"id": "pillar",
+			"props": [
+				{
+					"id": "riverpillar1",
+					"weight": 1
+				},
+				{
+					"id": "riverpillar2",
+					"weight": 1
+				},
+				{
+					"id": "riverpillar3",
+					"weight": 1
+				}
+			]
+		}
+	]
+
+}

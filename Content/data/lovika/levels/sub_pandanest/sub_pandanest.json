@@ -1,0 +1,17 @@
+{
+	"id": "sub_pandanest",
+	"ambience":"echo",
+	"audio-ambience": "audio_1",
+
+	"stretches": [
+		{
+			"tiles": ["nest_1"],
+			"prop-groups": ["panda_prop"],
+			"mobs": {
+				"density": 0.8,
+				"only": ["panda-mix"]
+			}
+		}
+	]
+
+}

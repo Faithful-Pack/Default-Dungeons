@@ -1,0 +1,310 @@
+
+{
+	"id": "FieryForge",
+	"require-matching-doors": false,
+	"resource-packs": [
+		"RedstoneMines"
+	],
+	"prop-density": 1,
+	"mob-files": [
+        "FieryForge/ff_mobs.json"
+    ],
+    "#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+			"ff-illager-group",
+			{"id": "ff-cave-group", "weight": 2}
+        ]
+    },
+    "tile-files": [
+        "RuneRoom/rr_tiles.json",
+        "FieryForge/ff_tiles.json"
+    ],   
+/*	
+
+███████╗████████╗██████╗ ███████╗████████╗ ██████╗██╗  ██╗███████╗███████╗
+██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝██╔════╝██║  ██║██╔════╝██╔════╝
+███████╗   ██║   ██████╔╝█████╗     ██║   ██║     ███████║█████╗  ███████╗
+╚════██║   ██║   ██╔══██╗██╔══╝     ██║   ██║     ██╔══██║██╔══╝  ╚════██║
+███████║   ██║   ██║  ██║███████╗   ██║   ╚██████╗██║  ██║███████╗███████║
+╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝
+ */                                                                        
+	
+	"stretches": [
+		{
+			"tiles": ["outdoor_start_snow"],
+			"push-ambience": "alpha",
+			"audio-ambience":"audio_2",
+		},
+		{
+			"tiles": ["outdoor_start"],
+			"audio-ambience":"audio_2",
+		},
+		{
+			"tile-groups": ["outdoor_stretch"],
+			"audio-ambience":"audio_2",
+		},
+		{
+			"tiles": ["outdoor_entrance"],
+			"audio-ambience":"audio_2",
+		},
+		{
+			"id": "start",
+			"tiles": ["ff_start","secret@ff_start"],
+			"push-ambience": "default",
+			"audio-ambience":"audio_9",
+		},
+		{
+			"tiles": ["ff_second"]
+		},
+		{
+			"tiles": ["ff_transition001","ff_transition002","ff_transition003","ff_transition004"],
+			"visual-theme": "cave_dark",
+			"side-paths": {		
+                "probability": 0.8,
+                "default": {
+                	"max-length": [1, 4],
+                    "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"],
+                    "tile-groups": ["small_sidepath"]
+                }
+            },
+            "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"]
+		},
+		{
+			"tile-groups": ["inventory01"],
+			"side-paths": {		
+                "probability": 0.9,
+                "default": {
+                    "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"],
+                    "tile-groups": ["small_sidepath"]
+                },
+                "variants": [
+	                {
+	                	"weight": 0.2,
+	                    "max-length": [3, 7]
+	                },
+	            	{
+	                	"weight": 0.8,
+	                    "max-length": [1, 3]
+	                }
+            	]
+            },
+            "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"]
+		},
+		{
+			"tiles": ["ff_transitionback001","ff_transitionback002","ff_transitionback003"]
+		},
+		{
+			"tile-groups": ["forge"],
+			"length": 3,
+			"dead-ends": ["ff_dead"],
+			"mobs": {
+				"only": ["ff-illager-group"]
+			}
+		},
+		{
+			"tiles": ["ff_transition001","ff_transition002","ff_transition003","ff_transition004"],
+			"side-paths": {		
+                "probability": 0.6,
+                "default": {
+                	"max-length": [1, 3],
+                    "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"],
+                    "tile-groups": ["small_sidepath"]
+                }
+            },
+            "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"]
+		},
+		{
+			"id": "forge_start",
+			"tiles": ["forge_small_start001"],
+			"dead-ends": ["forge_mini_deadend001", "forge_mini_deadend002","forge_mini_deadend003","forge_mini_deadend004","forge_mini_deadend005","forge_mini_deadend006","forge_mini_deadend007"]
+		},
+		{
+			"id": "forge_machinery",
+			"tile-groups": ["mini"],
+			"length": 15,
+			"visual-theme": "cave_dark",
+			"side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [2, 4],
+                    "dead-ends": ["forge_mini_deadend001", "forge_mini_deadend002","forge_mini_deadend003","forge_mini_deadend004","forge_mini_deadend005","forge_mini_deadend006","forge_mini_deadend007"],
+                    "tile-groups": ["mini"]
+                }
+            },
+			"dead-ends": ["forge_mini_deadend001", "forge_mini_deadend002","forge_mini_deadend003","forge_mini_deadend004","forge_mini_deadend005","forge_mini_deadend006","forge_mini_deadend007"]
+		},
+		{
+			"id": "forge_end",
+			"tiles": ["forge_endtile001"]
+		},
+		{
+			"tiles": ["ff_transitionback001","ff_transitionback002","ff_transitionback003"]
+		},
+		{
+			"tile-groups": ["forge"],
+			"length": 3,
+			"dead-ends": ["ff_dead"],
+			"mobs": {
+				"only": ["ff-illager-group"]
+			}
+		},		
+		{
+			"tiles": ["ff_transition001","ff_transition002","ff_transition003","ff_transition004"],
+			"side-paths": {		
+                "probability": 0.9,
+                "default": {
+                	"max-length": [1, 3],
+                    "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"],
+                    "tile-groups": ["small_sidepath"]
+                }
+            },
+            "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"]
+		},
+		{
+			"tile-groups": ["inventory01"],
+			"side-paths": {		
+                "probability": 1,
+                "default": {
+                    "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"],
+                    "tile-groups": ["small_sidepath"]
+                },
+                "variants": [
+	                {
+	                	"weight": 0.7,
+	                    "max-length": [3, 7]
+	                },
+	            	{
+	                	"weight": 0.3,
+	                    "max-length": [1, 3]
+	                }
+            	]
+            },
+            "dead-ends": ["ff_small_sidepath_deadend001","ff_small_sidepath_deadend002","ff_small_sidepath_deadend003","ff_small_sidepath_deadend004"]
+		},
+		{
+			"tiles": ["ff_transitionback001","ff_transitionback002","ff_transitionback003"]
+		},
+		{
+			"id": "redstone-monstrosity",
+			"audio-ambience":"audio_6",
+			"tile-groups": ["redstone-monstrosity"]
+		},
+		{
+			"id": "special",
+			"tiles": ["ff_special"],
+			"sound-theme": "silent",
+			"visual-theme": "cave_dark",
+			"mobs": {
+				"only": ["ff-illager-group"]
+			}
+		},
+		{
+			"id": "end",
+			"tile-groups": ["end"],
+			"mobs": {
+				"only": ["ff-illager-group"]
+			}
+		}
+	],
+/*
+
+ ██████╗ ██████╗      ██╗███████╗ ██████╗████████╗██╗██╗   ██╗███████╗███████╗
+██╔═══██╗██╔══██╗     ██║██╔════╝██╔════╝╚══██╔══╝██║██║   ██║██╔════╝██╔════╝
+██║   ██║██████╔╝     ██║█████╗  ██║        ██║   ██║██║   ██║█████╗  ███████╗
+██║   ██║██╔══██╗██   ██║██╔══╝  ██║        ██║   ██║╚██╗ ██╔╝██╔══╝  ╚════██║
+╚██████╔╝██████╔╝╚█████╔╝███████╗╚██████╗   ██║   ██║ ╚████╔╝ ███████╗███████║
+ ╚═════╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═══╝  ╚══════╝╚══════╝
+                                                                              
+*/
+"objectives": [
+	 	{
+            "name": "name_machines_of_war",
+            "description": "description_find_forge_entrance",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "start.*.forge_entrance"
+            }
+        },
+        {
+            "name": "name_machines_of_war",
+            "description": "description_locate_forge",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "forge_start.*.ClickyStart"
+            }
+        },
+        {
+            "name": "name_machines_of_war",
+            "description": "description_overload_cores",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/RedstoneMachine/BP_RedstoneMachine",
+                "dummy-object": "Decor/Prefabs/RedstoneMachine/Lid/BP_CoreGap_Dummy",
+                "door-path": "Decor/Prefabs/Door/BP_RedstoneToggle_Gate",
+                "count": 8,
+                "locations": [
+                    "forge_machinery.*.clicky"
+                ],
+				"mobs": [3, "ff-illager-group"],
+				"spawn-regions": [
+					"forge_machinery.*.*"
+				],
+                "locked-doors": [
+                    "forge_end.*.gate"
+                ]
+            }
+        },
+        {
+            "name": "name_machines_of_war",
+            "description": "description_find_a_way_out_of_the_fiery_forge",
+            "gauntlet": {
+                "end-region": "redstone-monstrosity.*.objective"
+            }
+        },
+        {
+            "name": "name_machines_of_war",
+            "description": "description_defeat_the_redstone_monstrosity",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "redstone-monstrosity",
+                "interval": 20,
+                "rest-interval": 3,
+				"start-time": 2.0,
+				"prespawn-mob": "",
+				"is-boss": true,
+                "waves": [
+                    [1, "redstonemonstrosity-group"]
+                ]
+            },
+            "sound": {
+                "track": {
+                    "object": "bgm_env_boss1"
+                },
+				"completed-track": {
+                    "object": "bgm_arena1-end"
+                }
+            }
+        },
+        {
+            "name": "name_flight_from_the_darkness",
+            "description": "description_find_a_way_out_of_the_fiery_forge",
+            "gauntlet": {
+                "end-region": "special.*.objective"
+            }
+        },
+        {
+            "name": "name_flight_from_the_darkness",
+            "description": "description_escape_to_the_surface_via_the_mining_lift",
+            "click": {
+                "object": "Decor/Prefabs/Elevator/BP_ff_Elevator",
+                "count": 1,
+                "locations": [
+            	    "end.*.villager"
+                ]
+            }
+        }
+    ],
+
+}

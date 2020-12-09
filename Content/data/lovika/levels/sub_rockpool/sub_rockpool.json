@@ -1,0 +1,19 @@
+{
+	"id": "sub_rockpool",
+	"ambience":"alpha",
+	"audio-ambience": "audio_5",
+
+	"stretches": [
+		{
+			"tiles": ["rock_pool"],
+			"mobs": {
+				"density": 1.0,
+				"only": ["arena-mix"]
+			}
+		},
+		{
+			"tiles": ["rock_pool2"]
+		}
+	]
+
+}

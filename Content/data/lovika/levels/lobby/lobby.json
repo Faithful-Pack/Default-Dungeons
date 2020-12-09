@@ -1,0 +1,98 @@
+
+{
+    "id": "lobby",
+	"objectives": [],
+    "tile-files": [
+        "lobby/lobby_tiles.json",
+    ], 
+    "resource-packs": [
+		"SquidCoast"
+    ],
+    "stretches": [
+        {
+            "id": "start",
+            "tiles": ["base@lobby001","questgiver@lobby001"],
+			"audio-ambience":"audio_1",
+            "prop-density": 2,
+            "prop-groups": ["questgiver","shopkeeper","luxurymerchant","mysterymerchant","blacksmith","giftwrapper", "lootchest1","lootchest2","lootchest3","lootchest4","lootchest5","lootchest6","lootchest7","lootchest8","op_jumppads"],
+        },
+        {
+            "tiles": ["lobby_extended01"],
+			"audio-ambience":"audio_2",
+            "prop-density": 2,
+            "prop-groups": ["lootchest9"],
+        },
+
+		/*
+		{
+            "id": "transition",
+            "tiles": ["sc_transition"]
+        },
+		
+		{
+            "id": "squidcoast",
+            "tiles": ["sc_maintile"]
+        }*/
+    ],
+    "dungeons":[
+        {
+            "id":"greathall", 
+            "ambience":"bravo", 
+            "stretches": [
+                {
+                    "tiles": ["greathall"],
+					"audio-ambience":"audio_4",
+                }
+            ]
+        },
+        {
+            "id":"greathall_mooroom", 
+            "ambience":"bravo", 
+            "stretches": [
+                {
+                    "tiles": ["greathall_mooroom"],
+					"audio-ambience":"audio_5",
+                }
+            ]
+        },
+        {
+            "id":"home", 
+            "ambience":"alpha", 
+            "stretches": [
+                {
+                    "tiles": ["lobby_house_lvl1"],
+					"audio-ambience":"audio_3",
+                    "prop-density": 2,
+                    "prop-groups": ["house_dog"],
+                }
+            ]
+        },
+        {
+            "id":"upstairs", 
+            "ambience":"alpha", 
+            "stretches": [
+                {
+                    "tiles": ["lobby_house_lvl2"],
+					"audio-ambience":"audio_3",
+                    //"prop-density": 2,
+                    //"prop-groups": ["lootchest8"],
+                }
+            ]
+        },
+        {
+            "id":"questgiver", 
+            "ambience":"alpha", 
+            "fill": {
+                "world": {
+                    "gradient": [2, 1, 1, 4, 1, 1, 2, 1, 1, 1]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": ["questgiver_room"],
+                    "audio-ambience":"audio_3",
+                }
+            ]
+        },
+    ]
+}

@@ -1,0 +1,440 @@
+
+{
+    "id": "SoggySwamp",
+	"require-matching-doors": false,
+    "object-groups": [
+		"SoggySwamp/objectgroup",
+		"SoggyCave/objectgroup"
+    ],
+	
+	"resource-packs": [
+        "SoggySwamp"
+    ],
+	
+	"visual-theme": "cave",
+	"sound-theme": "cave",
+	"prop-density": 0.8,
+    "mob-files": [
+		"soggyswamp/swamp_mobs.json"
+	],
+		
+	"#dm" : "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+        	"skeletons-zombies", "vindicators", "zombies", "witches-vindicators-zombies", "annoying-witches", {"id": "swamp-mobs", "weight": 4}
+        ]
+    },
+	
+	"tile-files": [
+			"soggyswamp/swamp_tiles.json",
+            "RuneRoom/rr_tiles.json"
+		],
+		
+	"dungeon-files": [
+        "soggyswamp/swamp_cave.json",
+		"soggyswamp/swamp_secret.json",
+		"soggyswamp/swamp_bonus_hub.json",
+		"soggyswamp/swamp_bonus_treasury.json",
+		"soggyswamp/swamp_bonus_challenge1.json",
+		"soggyswamp/swamp_bonus_challenge2.json",
+		"soggyswamp/swamp_bonus_challenge3.json",
+        "soggyswamp/swamp_bonus_challenge4.json"
+    ],
+
+    "stretches": [
+	
+		{
+            "id": "startstretch",
+            "tiles": ["ss_start_alt"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["skeletons-zombies"]
+			}
+        },
+		{
+            "id": "witchintro",
+            "tiles": ["ss_witchintro"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["solo-witches"]
+			}
+        },
+		{
+            "id": "stretch1-1",
+            "tiles": ["ss_001_alt", "ss_002_alt", "ss_003_alt", "ss_004", "ss_005_alt", "ss_007_alt", "ss_008", "ss_010_alt"],
+			"length": 1
+        },
+		{
+            "id": "stretch1-2",
+            "tiles": ["ss_001_alt", "ss_002_alt", "ss_003_alt", "ss_004", "ss_005_alt", "ss_007_alt", "ss_008", "ss_010_alt"],
+			"length": 1
+        },
+		{
+            "id": "targetobjectives",
+            "tiles": ["ss_special001_new1", "ss_special001_new2"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["witch-special"]
+			}
+        },
+		/*{
+            "id": "inventory01",
+            "tiles": ["ss_inventory001", "ss_inventory002"]
+        },*/
+		{
+			"id": "cavestart",
+			"tiles": ["ss_transition_in"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["skeletons-zombies"]
+			}
+		},
+		{
+			"id": "cavefill",
+			"tiles": ["ss_fillstart"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["skeletons-zombies"]
+			}
+		},
+		{
+            "id": "fillstretch",
+            "tiles": ["ss_001_alt", "ss_002_alt", "ss_003_alt", "ss_004", "ss_005_alt", "ss_007_alt", "ss_008", "ss_010_alt"],
+			"length": 6,
+			"mobs": {
+				"density": 0
+			}
+        },
+		{
+			"id": "caveend",
+			"tiles": ["ss_transition_out"],
+			"length": 1,
+			"mobs": {
+				"density": 1,
+				"only": ["skeletons-zombies"]
+			}
+		},
+		{
+            "id": "DONOTREMOVEME",
+            "tiles": ["ss_001_alt", "ss_002_alt", "ss_003_alt", "ss_004", "ss_005_alt", "ss_007_alt", "ss_008", "ss_010_alt"],
+			"length": 1
+        },
+		{
+            "id": "largetiles1",
+            "tiles": ["ss_large002_alt", "ss_large002_alt2", "ss_large003_alt", "ss_large004_alt", "ss_large004_alt2", "ss_large005_alt", "ss_large005_alt2", "ss_large006_alt", "ss_large007"],
+			"length": 1
+        },
+		{
+            "id": "inventory02",
+            "tiles": ["ss_inventory001", "ss_inventory002"],
+        },
+		{
+            "id": "ruins1",
+            "tiles": ["ss_ruin003", "ss_ruin004", "ss_large001_secret"],
+			"length": 1
+        },
+		{
+            "id": "ruins2",
+            "tiles": ["ss_ruin001", "ss_ruin002_alt", "ss_ruin002_alt2"],
+			"length": 1
+        },
+		{
+            "id": "bosstransition",
+            "tiles": ["ss_bosstransition"]
+        },
+		{
+            "id": "boss",
+            "tiles": ["ss_bosstile_large"]
+        },
+		{
+            "id": "end",
+            "tiles": ["ss_end","secret@ss_end"],
+			"audio-ambience": "audio_2",
+        }
+    ],
+	
+	"objectives": [
+		{
+            "name": "name_a_perilous_potion",
+            "description": "description_find_the_witch_brews",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "targetobjectives.*.objective"
+            }
+        },
+		{
+            "name": "name_a_perilous_potion",
+            "description": "description_destoy_the_witch_brews",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/CapturedVillager/BP_InteractableCauldron",
+                "count": 5,
+                "locations": [
+            	    "targetobjectives.*.target1",
+            		"targetobjectives.*.target2",
+            		"targetobjectives.*.target3",
+            		"targetobjectives.*.target4",
+                	"targetobjectives.*.target5",
+					"targetobjectives.*.target6",
+					"targetobjectives.*.target7",
+					"targetobjectives.*.target8",
+					"targetobjectives.*.target9",
+					"targetobjectives.*.target10"
+                ],
+                "locked-doors": [
+                	"targetobjectives.*.gate"
+                ]
+            }
+        },
+		{
+            "name": "name_a_perilous_potion",
+            "description": "description_find_the_enchanted_cauldron",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "boss.*.bosstrigger"
+            }
+        },
+		{
+            "name": "name_a_perilous_potion",
+            "description": "description_smash_the_enchanted_cauldron",
+			"displayMode": "MainObjective",
+            "arena": {
+                "stretch": "boss",
+                "interval": 20,
+                "rest-interval": 3,
+				"is-boss": true,
+                /*"start-time": 2.0,*/
+                "waves": [
+                    [1, "cauldron-boss"]
+                ]
+            },
+            "sound": {
+                "track": {
+                "object": "Decor/Prefabs/04_bgm_mob_boss/bgm_mob_soswBoss"
+                },
+                "completed-track": {
+                    "object": "Decor/Prefabs/04_bgm_mob_boss/bgm_mob_soswBossEnd"
+                }
+            }
+		},
+		{
+            "name": "name_a_perilous_potion",
+            "description": "description_escape_the_soggy_swamp",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_SS",
+                "count": 1,
+                "locations": [
+                    "end.*.doorexit"
+					]
+			}
+        }
+	],
+	"challenges": [
+		{
+            "id": "sub1_arena",
+            "trigger": "*.*.sub001_arena",/*
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },*/
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "swamp-mobs"],
+					[1, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[4, "swamp-mobs"],
+					[4, "swamp-mobs"],
+                ],
+                 "gate": {
+                    "start-unlocked": true
+				}
+			}
+        },
+		{
+            "id": "sub2_arena",
+            "trigger": "*.*.sub002_arena",/*
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },*/
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "swamp-mobs"],
+					[1, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[4, "swamp-mobs"],
+					[4, "swamp-mobs"],
+                ],
+                 "gate": {
+                    "start-unlocked": true
+				}
+			}
+        },
+		{
+            "id": "sub3_arena",
+            "trigger": "*.*.sub003_arena",/*
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },*/
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "swamp-mobs"],
+					[1, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[4, "swamp-mobs"],
+					[4, "swamp-mobs"],
+					[6, "swamp-mobs"],
+					[6, "swamp-mobs"],
+                ],
+                 "gate": {
+                    "start-unlocked": true
+				}
+			}
+        },
+		{
+            "id": "sub4_arena",
+            "trigger": "*.*.sub004_arena",/*
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },*/
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "swamp-mobs"],
+					[1, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[4, "swamp-mobs"],
+					[4, "swamp-mobs"],
+					[6, "swamp-mobs"],
+					[6, "swamp-mobs"],
+					[8, "swamp-mobs"],
+					[8, "swamp-mobs"],
+                ],
+                 "gate": {
+                    "start-unlocked": true
+				}
+			}
+        },
+		{
+            "id": "secret_arena",
+            "trigger": "*.ss_cave_secret2.arenastart",/*
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },*/
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 2.0,
+                "prespawn-mob": "",
+                "waves": [
+                    [1, "swamp-mobs"],
+					[1, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[2, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[3, "swamp-mobs"],
+					[4, "swamp-mobs"],
+					[4, "swamp-mobs"],
+                ],
+                 "gate": {
+                    "start-unlocked": true
+				}
+			}
+        },
+		{
+            "id": "secret_clicky",
+			"trigger": "*.ss_cave_secret2.challenge",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_GuideBeacon",
+                "door-path": "Decor/Prefabs/Platforms/BP_WaterfallGate_SS",
+                "count": 1,
+                "locations": [
+                    "*.ss_cave_secret2.beacon"
+                ],
+                "locked-doors": [
+                    "*.ss_cave_secret2.waterfall"
+                ]
+            }
+        },
+		{
+			"id": "gauntlet1",
+			"trigger": "*.*.g1_start",
+			"consider-tiles": "all",
+			"gauntlet": {
+				"end-region": "*.*.g1_end",
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_Cave_Multidoor",
+					"regions": [
+						"*.*.g1_gate"
+					]
+				}
+			},
+		},
+		{
+			"id": "gauntlet2",
+			"trigger": "*.*.g2_start",
+			"consider-tiles": "all",
+			"gauntlet": {
+				"end-region": "*.*.g2_end",
+				"gate": {
+					"object": "Decor/Prefabs/Door/BP_Cave_Multidoor2",
+					"regions": [
+						"*.*.g2_gate"
+					]
+				}
+			},
+		}
+	]
+	
+}

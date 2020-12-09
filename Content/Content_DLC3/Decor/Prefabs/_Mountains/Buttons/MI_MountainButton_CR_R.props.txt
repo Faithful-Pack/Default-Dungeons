@@ -1,0 +1,68 @@
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = 35
+        ParameterInfo = { Name=01 Emissive Strength }
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = 0
+        ParameterInfo = { Name=RefractionDepthBias }
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_D.GoldButtonCR_D'
+        ParameterInfo = { Name=01 Base Texture }
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_M.GoldButtonCR_M'
+        ParameterInfo = { Name=08 Mask }
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterName = None
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_E.GoldButtonCR_E'
+        ParameterInfo = { Name=03 Emissive }
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterName = None
+        ParameterValue = { R=1, G=0.086305, B=0, A=1 }
+        ParameterInfo = { Name=07 Color }
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterName = None
+        ParameterValue = { R=0.986111, G=0.039926, B=0, A=1 }
+        ParameterInfo = { Name=04 Color Multiply }
+    }
+}
+Parent = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/MI_MountainButton_CR.MI_MountainButton_CR'
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None

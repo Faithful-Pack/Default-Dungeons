@@ -1,0 +1,788 @@
+{
+"id" : "LonelyFortress",
+"resource-packs":["lonelyfortress"],
+"object-groups": ["LonelyFortress/objectgroup"],
+"loctable-id": "LonelyFortressLoctable",
+"require-matching-doors": true,
+
+"dungeon-files": [
+	"sub_bailey/sub_bailey.json",
+	"sub_dininghall/sub_dininghall.json",
+	"sub_icedungeon/sub_icedungeon.json",
+	"sub_battlements/sub_battlements.json",
+	"sub_staff/sub_staff.json",
+	"sub_royalquarters/sub_royalquarters.json"
+	],
+
+"tile-files": [
+	"sub_bailey/sub_bailey_tiles.json",
+	"sub_dininghall/sub_dininghall_tiles.json",
+	"sub_icedungeon/sub_icedungeon_tiles.json",
+	"sub_battlements/sub_battlements_tiles.json",
+	"sub_staff/sub_staff_tiles.json",
+	"sub_royalquarters/sub_royalquarters_tiles.json"
+	],
+	
+"mob-files": [
+	"lonelyfortress/lf_mobs.json"
+	],
+
+"default-mobs": {
+	"only": ["fortress-mix-easy"],
+	"density": 1
+	},
+
+"tiles": [
+	{
+	"id": "lf_start",
+	"rotations": 270
+	},
+	{
+	"id": "lf_foyer",
+	"rotations": 270,
+	"entry-door": "enter_001"
+	},
+	
+	{
+	"id": "lf_foyer_alt",
+	"rotations": 270,
+	"entry-door": "enter_001",
+	"teleports" : [
+			{
+			"door":"travel_bailey",
+			"exit":"bailey_door",
+			"dungeons":["sub_bailey"],
+			"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+			}
+		]
+	},	
+
+	{
+	"id": "lf_lobby_sidepath_00",
+	"rotations": 270,
+	"teleports" : [
+			{
+			"door":"travel_dining",
+			"exit":"dining_door",
+			"dungeons":["sub_dininghall"],
+			"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+			}
+		]
+	},
+	{
+		"id": "lf_foyer_stairs_bridge",
+		"rotations": [180, 270]
+	},
+	{
+		"id": "lf_staircase_og",
+		"rotations": 270,
+		"entry-door": "enter_004"
+	},
+	
+	{
+		"id": "lf_staircase_alt",
+		"rotations": 270,
+		"entry-door": "enter_004",
+		"teleports" : [
+			{
+			"door":"travel_dungeon",
+			"exit":"dungeon_door",
+			"dungeons":["sub_icedungeon"],
+			"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+			}
+		]
+	},
+		{
+		"id": "lf_bridge_01",
+		"rotations": 270,
+		"entry-door": "enter_006"
+		},
+		{
+		"id": "lf_bridge_view_blocker",
+		"rotations": 270,
+		"entry-door": "enter_007"
+		},
+		{
+		"id": "lf_courtyard_02",
+		"rotations": 270,
+		"entry-door": "enter_008"
+		},
+		{
+		"id": "lf_library",
+		"rotations": 270,
+		"entry-door": "enter_009"
+		},
+		{
+		"id": "lf_library_02",
+		"rotations": 270,
+		"entry-door": "enter_010"
+		},
+		{
+		"id": "lf_courtyard_03",
+		"rotations": 270,
+		"entry-door": "enter_011"
+		},
+		{
+		"id": "lf_courtyard_04",
+		"rotations": 270,
+		"entry-door": "enter_012"
+		},
+		{
+		"id": "lf_bridge_02",
+		"rotations": 270,
+		"entry-door": "enter_013"
+		},
+		{
+		"id": "lf_battlements_enter",
+		"rotations": 270,
+		"teleports" : [
+			{
+			"door":"travel_battlements",
+			"exit":"battlements_door",
+			"dungeons":["sub_battlements"],
+			"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+			}
+		]	
+	},	
+		{
+		"id": "lf_battlements_exit",
+		"rotations": 270,
+		"teleports" : [
+			{
+			"door":"travel_battlements_exit",
+			"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+			}
+		]	
+	},	
+	{
+		"id": "lf_gallery",
+		"entry-door": "gallery_entrance",
+		"exit-door": "gallery_exit",
+		"challenges": ["gate_key", "gallery_arena"]
+	},
+	{
+		"id": "lf_staff_deadend",
+		"rotations": [0, 270],
+		"teleports" : [
+			{
+				"door":"travel_staff",
+				"exit":"staff_door",
+				"dungeons":["sub_staff"],
+				"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+			}
+		]		
+	},
+	{
+		"id": "lf_lavish_deadend",
+		"rotations": [0, 270],
+		"teleports" : [
+			{
+				"door":"travel_royal",
+				"exit":"royal_door",
+				"dungeons":["sub_royalquarters"],
+				"object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+			}
+		]
+	},
+	{
+		"id": "lf_lobby_spacer",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_02_alt_02",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_deadend_room"
+	},
+	{
+		"id": "lf_sidepath_deadend_room_right"
+	},
+	{	
+		"id": "lf_throne_room",
+		"entry-door": "enter_018"
+	},
+	{
+		"id": "lf_sidepath_02",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_01",
+		"entry-door": "enter_101",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_02_alt_03",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_corner_l_d",
+		"entry-door": "enter_102",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_corner_r_d",
+		"entry-door": "enter_103",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_corner_l_a",
+		"entry-door": "enter_104",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_t",
+		"rotations": 270
+	},
+	{
+		"id": "lf_drawing_room_r",
+		"challenges": ["lf_drawing_room_r_trap", "lf_drawing_room_r_trap_2"]
+
+	},
+	{
+		"id": "lf_drawing_room_l",
+		"challenges": ["lf_drawing_room_l_trap", "lf_drawing_room_l_trap_2"]
+	},
+	{
+		"id": "lf_deadend_02",
+		"challenges": ["chess_trap_01"]
+	},
+	{
+		"id": "lf_sidepath_library_01",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_library_02",
+		"rotations": 270,
+		"challenges": ["sidepath_library_02_trap"]
+	},
+	{
+		"id": "lf_sidepath_library_l_01",
+		"entry-door": "enter_200",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_library_l_02",
+		"entry-door": "enter_201",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_library_r_01",
+		"entry-door": "enter_202"
+	},
+	{
+		"id": "lf_sidepath_library_r_02",
+		"entry-door": "enter_203"
+	},
+	{
+		"id": "lf_sidepath_library_deadend_l",
+		"rotations": 270
+	},
+	{
+		"id": "lf_sidepath_library_deadend_r"
+	},
+	{
+		"id": "lf_sidepath_gall_corner_01",
+		"rotations": [0, 270]
+	},
+	{
+		"id": "lf_music_room_l_01",
+		"challenges": ["music_trap"]
+	},
+	{
+		"id": "lf_deadend_gall_01",
+		"challenges": ["deadend_trap_01"]
+	},
+	{
+		"id": "lf_deadend_gall_02",
+		"challenges": ["deadend_trap_02"]
+	},
+	{
+		"id": "lf_deadend_gall_03",
+		"challenges": ["deadend_trap_03"]
+	},
+	{
+		"id": "lf_deadend_07",
+		"challenges": ["deadend_trap_07"]
+	}
+],
+
+	"stretches": [
+		{
+			"tiles":["lf_start"]
+		},
+		{
+			"tiles":["lf_lobby_spacer"],
+			"audio-ambience":"audio_7"
+		},
+		{
+			"tiles":[ {"id": "lf_foyer_alt","weight": 0.30}, {"id": "lf_foyer","weight": 0.70}],
+			"id":"key_quest",
+			"audio-ambience":"audio_7",
+			"mobs": {
+				"density": 1,
+				"only": ["fortress-mix-easy"]
+			},
+			"dead-ends": ["lf_sidepath_deadend_room", "lf_sidepath_deadend_room_right", "lf_deadend_02"],
+			"audio-ambience":"audio_7",
+			"side-paths": {
+				"probability": 1,
+				"default": {
+					"max-length": [1, 1],
+					"dead-ends": [{"id": "lf_drawing_room_r","weight": 0.25}, {"id": "lf_drawing_room_l","weight": 0.25}, {"id": "lf_music_room_l_01","weight": 0.25}, {"id": "lf_deadend_07", "weight": 0.25}],
+					"tile-groups": ["foyer_sidepath"]
+				}
+			}
+		},
+		{
+			"tiles":["lf_foyer_stairs_bridge"]
+		},
+		{
+			"tiles":[{"id":"lf_staircase_og","weight": 0.75}, {"id": "lf_staircase_alt","weight": 0.25} ]
+		},
+		{
+			"tiles":["lf_bridge_01","lf_bridge_02"]
+		},
+		{
+			"tiles":["lf_bridge_view_blocker"]
+		},
+		{
+			"tiles":["lf_courtyard_02"]
+		},
+		{
+			"tiles":["lf_library", "lf_library_02"],
+			"audio-ambience":"audio_7",
+			"dead-ends": ["lf_battlements_exit"],
+			"side-paths": {
+					"probability": 1,
+					"default": {
+						"max-length": [1,1],
+						"dead-ends": [{"id":"lf_battlements_enter","weight": 0.50}, {"id": "lf_sidepath_library_deadend_r","weight": 0.50}],
+						"tile-groups": ["library_sidepath"]
+					}
+		}
+		},
+		{
+			"tiles":["lf_courtyard_03"]
+		},
+		{
+			"tiles":["lf_courtyard_04"]
+		},
+		{
+			"tiles":["lf_gallery"],
+			"audio-ambience":"audio_7",
+			"mobs": {
+				"density": 1,
+				"only": ["fortress-mix-med"]
+			},
+			"dead-ends": [{"id": "lf_deadend_gall_01","weight": 0.15},{"id": "lf_deadend_gall_02","weight": 0.20},{"id": "lf_lavish_deadend","weight": 0.40}, {"id": "lf_staff_deadend","weight": 0.25}],
+			"side-paths": {
+				"probability": 1.0,
+				"default": {
+					"max-length": [1,1],
+					"dead-ends": ["lf_deadend_gall_03", "lf_deadend_gall_04", "lf_deadend_gall_05"],
+					"tile-groups": ["later_sidepath"]
+				}
+			}
+		},
+		{
+			"tiles":["lf_throne_room"],
+			"id":"boss_fight",
+			"audio-ambience":"audio_7"
+		}
+	],
+	"challenges": [
+		{
+			"id": "gallery_arena",
+			"trigger": "*.*.obj_gallery_arena",
+			"reward": {	},
+			"arena": {
+				"stretch": "",
+				"interval": 10.0,
+				"rest-interval": 2.0,
+				"start-time": 2.0,
+				"prespawn-mob": "",
+				"waves": [
+					[10, "arena-mix"],
+					[12, "arena-mix"],
+					[15, "arena-mix"]	
+				],
+				"gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_DoorWinter_9",
+                    "start-unlocked": false
+                }
+			}
+		},
+		{
+			"id": "sidepath_library_02_trap",
+			"trigger": "*.*.bridge_arena_trigger",
+			"reward": {
+				"region": "*.*.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+			},
+			"arena": {
+				"stretch": "",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "fortress-mix-med"],
+					[4, "fortress-mix-med"],
+					[6, "fortress-mix-med"]
+				],
+				"gate": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssetsBP_DoorWinter_9",
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+            "id": "gate_key",
+            "trigger": "*.*.lf_gallery_lock",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_LonelyFortress",
+                "count": 1,
+                "locations": ["*.lf_gallery.obj_silver_gate"],
+                "key-locations": ["*.lf_gallery.obj_silver_key"],
+				"key-type": "silver"
+            } 
+		},
+		{
+			"id": "deadend_trap_01",
+			"trigger": "*.lf_deadend_gall_01.arena_trigger",
+			"reward": {
+				"region": "*.lf_deadend_gall_01.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+					[6, "arena-mix"],
+					[5, "arena-mix"],
+					[4, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+				{
+			"id": "chess_trap_01",
+			"trigger": "*.lf_deadend_02.arena_trigger",
+			"reward": {
+				"region": "*.lf_deadend_02.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "key_quest",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+					[6, "arena-mix"],
+					[5, "arena-mix"],
+					[4, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+
+		{
+			"id": "music_trap",
+			"trigger": "*.lf_music_room_l_01.arena_trigger",
+			"arena": {
+				"stretch": "*",
+				"interval": 6.0,
+				"rest-interval": 0.1,
+				"start-time": 0.1,
+				"prespawn-mob": "",
+				"waves": [
+					[6, "arrow-surprise"]
+				],
+				"gate": null
+			}
+		},
+		{
+			"id": "deadend_trap_02",
+			"trigger": "*.lf_deadend_gall_02.arena_trigger",
+			"reward": {
+				"region": "*.lf_deadend_gall_02.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+					[6, "arena-mix"],
+					[5, "arena-mix"],
+					[4, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"id": "deadend_trap_03",
+			"trigger": "*.lf_deadend_gall_03.arena_trigger",
+			"reward": {
+				"region": "*.lf_deadend_gall_03.challengeloot",
+				"object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+			},
+			"arena": {
+				"stretch": "*",
+				"interval": 4.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+					[6, "arena-mix"],
+					[5, "arena-mix"],
+					[4, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"id": "deadend_trap_07",
+			"trigger": "*.lf_deadend_07.arena_trigger",
+			"arena": {
+				"stretch": "*",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 1.0,
+				"prespawn-mob": "",
+				"waves": [
+					[5, "arena-mix"],
+					[4, "arena-mix"],
+					[6, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"id": "lf_drawing_room_r_trap",
+			"trigger": "*.lf_drawing_room_r.click_trigger",
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LF",
+				"count": 3,
+				"locations": [
+					"*.lf_drawing_room_r.obj_key_release"
+				],
+				"mobs": [1, "arena-mix"],
+				"spawn-regions": [
+					"key_quest.lf_drawing_room_r.*"
+				],
+				"locked-doors": [
+					"*.lf_drawing_room_r.key_gate"
+				]
+			}
+		},
+		{
+			"id": "lf_drawing_room_r_trap_2",
+			"trigger": "*.lf_drawing_room_r.proxy_trigger",
+			"arena": {
+				"stretch": "key_quest",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 0.1,
+				"prespawn-mob": "",
+				"waves": [
+					[3, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": false
+				}
+			}		
+		},		
+		{
+			"id": "lf_drawing_room_l_trap",
+			"trigger": "*.lf_drawing_room_l.click_trigger",
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Button_LF",
+				"count": 3,
+				"locations": [
+					"*.lf_drawing_room_l.obj_key_release"
+				],
+				"mobs": [1, "arena-mix"],
+				"spawn-regions": [
+					"key_quest.lf_drawing_room_l.*"
+				],
+				"locked-doors": [
+					"*.lf_drawing_room_l.key_gate"
+				]
+			}
+		},
+		{
+			"id": "lf_drawing_room_l_trap_2",
+			"trigger": "*.lf_drawing_room_l.proxy_trigger",
+			"arena": {
+				"stretch": "key_quest",
+				"interval": 6.0,
+				"rest-interval": 0.25,
+				"start-time": 0.1,
+				"prespawn-mob": "",
+				"waves": [
+					[3, "arena-mix"]
+				],
+				"gate": {
+					"start-unlocked": false
+				}
+			}		
+		}
+		],
+	"objectives": [
+		{
+			"name": "name_lf_g_01",
+			"description": "description_lf_g",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.*.obj_find_stair_key_start"
+			}
+		},
+		{
+			"name": "name_lf_g_01",
+			"description": "description_lf_k_01",
+			"displayMode": "MainObjective",
+			"consider-tiles": "all",
+			"click": {
+				"object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_DesertTemple",
+				"count": 1,
+				"locations": ["*.*.obj_stairs_gate"],
+				"key-locations": ["*.*.obj_stairs_key"],
+				"key-type": "silver"
+			}
+		},
+		{
+			"name": "name_lf_g_01",
+			"description": "description_lf_g",
+			"displayMode": "MainObjective",
+			"gauntlet": {
+				"end-region": "*.lf_gallery.lf_gallery_lock"
+			}
+		},
+		{
+			"name": "name_lf_k_02",
+			"description": "description_lf_k_02",
+			"displayMode": "MainObjective",
+			"consider-tiles": "all",
+			"click": {
+				"object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_LonelyFortress",
+				"count": 1,
+				"locations": ["*.lf_gallery.obj_throne_gate"],
+				"key-locations": ["*.lf_gallery.obj_throne_key"],
+				"key-type": "gold"
+			}
+		},
+		{
+			"name": "name_lf_k_02",
+			"description": "name_lf_g_02",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/_Creepingwinter_Structures/Buttons/BP_Trigger_Crown",
+				"count": 1,
+				"locations": [
+					"boss_fight.*.obj_crown"
+				]
+			}
+		},
+		{
+			"name": "name_lf_g_02",
+			"description": "description_lf_g_02",
+			"displayMode": "MainObjective",
+			"arena": {
+				"stretch": "boss_fight",
+				"interval": 0.0,
+				"rest-interval": 0.0,
+				"start-time": 7.5,
+				"prespawn-mob": "",
+				"is-boss": true,
+				"waves": [
+					[1, "wickedwraith"]
+				],
+				"gate": {
+					"object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssetsBP_DoorWinter_5",
+					"start-unlocked": true
+				}
+			}
+		},
+		{
+			"name": "name_lf_g_04",
+			"description": "description_lf_g_04",
+			"displayMode": "MainObjective",
+			"click": {
+				"object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor_LF",
+				"count": 1,
+				"locations": [
+					"boss_fight.lf_throne_room.obj_exit"
+				]
+			}
+		}
+	],
+
+	"tile-groups": [
+        {
+            "#": "foyer_sidepath",
+            "id": "foyer_sidepath",
+            "tiles": [{"id": "lf_lobby_sidepath_00", "weight": 0.20}, {"id": "lf_sidepath_02", "weight": 0.3}, {"id": "lf_sidepath_02_alt_02", "weight": 0.2}, {"id": "lf_sidepath_t", "weight": 0.03}] //{"id": "lf_sidepath_02_alt_03", "weight": 0.2},
+        },
+        {
+            "#": "library_sidepath",
+            "id": "library_sidepath",
+            "tiles": [{"id": "lf_sidepath_library_01", "weight": 0.25}, {"id": "lf_sidepath_library_02", "weight": 0.25}, {"id": "lf_sidepath_library_r_01", "weight": 0.25}, {"id": "lf_sidepath_library_r_02", "weight": 0.25}]
+        },
+        {
+            "#": "later_sidepath",
+            "id": "later_sidepath",
+            "tiles": [{"id": "lf_sidepath_09", "weight": 0.1}, {"id": "lf_sidepath_gall_corner_01", "weight": 0.3}, {"id": "lf_sidepath_gall_01", "weight": 0.1}, {"id": "lf_sidepath_gall_02", "weight": 0.3}, {"id": "lf_sidepath_gall_03", "weight": 0.2}]
+		}
+	],
+		
+	"prop-groups": [
+
+			{
+				"id": "pillar",
+				"props": [
+					{
+						"id": "pillar1",
+						"weight": 1
+					},
+	
+					{
+						"id": "pillar2",
+						"weight": 1
+					},
+	
+					{
+					"id": "pillar3",
+					"weight": 1
+					}
+				]
+	
+			}
+		]
+}
+

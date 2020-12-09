@@ -1,0 +1,97 @@
+{
+"object-groups": ["sub_mountain_cabin/objectgroup"], 
+"tile-groups": [],
+"tiles": [ 
+    {
+        "id": "wp_sub_mcabin_house_01",
+        "rotations": [90],
+        "challenges": ["mcabin_door_clicky"],
+        "teleports": [
+            {
+                "door": "cabin_exit",
+                "exit": "*.wp_bridge_02.cabin_enter",
+                "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            },
+
+            {
+                "door": "cabin_basement_enter",
+                "exit": "*.wp_sub_mcabin_basement.cabin_basement_exit",
+                "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+            }
+                    ]
+    },
+
+    {
+        "id": "wp_sub_mcabin_house_02",
+        "rotations": [90],
+        "challenges": ["mcabin_door_clicky_2"]
+    },
+
+    {
+        "id": "spacer"
+         
+    },
+
+    {
+        "id": "wp_sub_mcabin_basement",
+        "rotations": [90],
+        "teleports": [
+            {
+                "door": "cabin_basement_exit",
+                "exit": "*.wp_sub_mcabin_house_01.cabin_basement_enter",
+                "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave" 
+            }
+        ]
+    }
+        ],
+        
+    "challenges": [
+
+
+
+    {
+        "id": "mcabin_door_clicky",
+        "trigger": "*.wp_sub_mcabin_house_01.door_click_trigger",
+        "reward": {},
+        "click": {
+            "object": "Decor/Prefabs/GuideBeacon/BP_DoorLever",
+            "door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Secret_Door/BP_Secret_Door",
+            "count": 1,
+            "locations": [
+                "*.wp_sub_mcabin_house_01.click"
+            ],
+            "locked-doors": [
+                "*.wp_sub_mcabin_house_01.cabin_door"
+            ],
+            "door-path": "Content_DLC3/Decor/Prefabs/_Mountains/Secret_Door/BP_Secret_Door"
+        }
+    },
+
+    {
+        "id": "mcabin_door_clicky_2",
+        "trigger": "*.wp_sub_mcabin_house_02.door_click_trigger",
+        "reward": {},
+        "click": {
+            "object": "Decor/Prefabs/GuideBeacon/BP_DoorLever",
+            "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_Gate_Ice_x5",
+            "count": 1,
+            "locations": [
+                "*.wp_sub_mcabin_house_02.click"
+            ],
+            "locked-doors": [
+                "*.wp_sub_mcabin_house_02.cabin_door"
+            ],
+            "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5"
+        }
+    }
+
+
+    ]
+
+}
+
+
+
+
+   
+
