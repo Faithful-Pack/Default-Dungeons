@@ -144,8 +144,8 @@ with open('json\\Content_DLC3.json', 'w') as content_dlc3JSON:
 for content_dlc4File in content_dlc4FilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",content_dlc4File)
 	count += 1
-	content_dlc4Data.append(content_dlc3File)
-with open('json\\Content_DLC3.json', 'w') as content_dlc4JSON:
+	content_dlc4Data.append(content_dlc4File)
+with open('json\\Content_DLC4.json', 'w') as content_dlc4JSON:
 	json.dump(content_dlc4Data, content_dlc4JSON, indent=2)
 
 for cuesFile in cuesFilesFiltered:
