@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/MI_Player_Dragon_Statue.MI_Player_Dragon_Statue'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/MI_Player_Dragon_Statue.MI_Player_Dragon_Statue'
+        MaterialSlotName = MI_Player_Dragon_Statue
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1131.38, 1369.23, 1827.16, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-19.0531, Y=-25.2815, Z=317.599 }
+    BoxExtent = { X=276.246, Y=250.236, Z=317.599 }
+    SphereRadius = 446.772
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Patch2/Actors/Equipment/RangedWeapons/BurstCrossbow_Unique1/MI_BurstCrossbow_Unique1.MI_BurstCrossbow_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Patch2/Actors/Equipment/RangedWeapons/BurstCrossbow_Unique1/MI_BurstCrossbow_Unique1.MI_BurstCrossbow_Unique1'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.052, 184.318, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.83882, Y=1.52588e-005, Z=0 }
+    BoxExtent = { X=57.4524, Y=61.8719, Z=3.125 }
+    SphereRadius = 64.4235
+}

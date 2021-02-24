@@ -1,67 +1,67 @@
+Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth.M_Cloth'
 ScalarParameterValues[6] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.3
         ParameterInfo = { Name=Pattern_Fade }
+        ParameterValue = 0.3
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Pattern_Tile }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 16
         ParameterInfo = { Name=Displace Wind Strength }
+        ParameterValue = 16
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0.2
         ParameterInfo = { Name=Large Ripple Speed }
+        ParameterValue = 0.2
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Rip_Amount }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/T_Cloth_Roof.T_Cloth_Roof'
         ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/T_Cloth_Roof.T_Cloth_Roof'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Cloth_Pattern_002.Cloth_Pattern_002'
         ParameterInfo = { Name=Pattern }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Cloth_Pattern_002.Cloth_Pattern_002'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.152941, G=0.239216, B=0.145098, A=1 }
         ParameterInfo = { Name=Diffuse Colour }
+        ParameterValue = { R=0.152941, G=0.239216, B=0.145098, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth.M_Cloth'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -71,6 +71,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -78,3 +85,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Cloth_Rips
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Wind_Ripple
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Sled/MI_Sled_Large.MI_Sled_Large'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Sled/MI_Sled_Large.MI_Sled_Large'
+        MaterialSlotName = 13 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 292.212, 581.629, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.278015, Y=20.3211, Z=65.625 }
+    BoxExtent = { X=68.75, Y=143.759, Z=65.625 }
+    SphereRadius = 169.94
+}

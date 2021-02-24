@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/WP_Fades/Mi_WP_ChestFade.Mi_WP_ChestFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/WP_Fades/Mi_WP_ChestFade.Mi_WP_ChestFade'
+        MaterialSlotName = WP_Fade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 2558.71, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.05176e-005, Z=400 }
+    BoxExtent = { X=500, Y=500, Z=300 }
+    SphereRadius = 768.115
+}

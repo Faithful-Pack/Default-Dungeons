@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/MI_ChainSmall.MI_ChainSmall'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/MI_ChainSmall.MI_ChainSmall'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 62.8676, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-50, Z=-8.58307e-006 }
+    BoxExtent = { X=9.375, Y=50, Z=9.37501 }
+    SphereRadius = 50.8713
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Boat/MI_Boat.MI_Boat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Boat/MI_Boat.MI_Boat'
+        MaterialSlotName = paddleMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 71.2537, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=59.696, Y=-3.125, Z=37.5 }
+    BoxExtent = { X=9.375, Y=3.125, Z=43.75 }
+    SphereRadius = 44.8522
+}

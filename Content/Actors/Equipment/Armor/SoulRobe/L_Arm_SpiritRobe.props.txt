@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/SoulRobe/MI_SpiritRobe.MI_SpiritRobe'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/SoulRobe/MI_SpiritRobe.MI_SpiritRobe'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 397.622, 122.396, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.92484, Y=25, Z=-0.0989151 }
+    BoxExtent = { X=12.6524, Y=37.5002, Z=18.75 }
+    SphereRadius = 43.7939
+}

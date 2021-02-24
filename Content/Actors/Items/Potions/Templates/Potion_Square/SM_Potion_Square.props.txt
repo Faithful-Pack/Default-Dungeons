@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/Potions/HealthPotion/M_PotionOpaque_HealthPotion.M_PotionOpaque_HealthPotion'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/Potions/HealthPotion/M_PotionOpaque_HealthPotion.M_PotionOpaque_HealthPotion'
+        MaterialSlotName = healthpotion_material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 403.608, 406.739, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=61.5757 }
+    BoxExtent = { X=38.05, Y=38.0501, Z=60.9837 }
+    SphereRadius = 81.2673
+}

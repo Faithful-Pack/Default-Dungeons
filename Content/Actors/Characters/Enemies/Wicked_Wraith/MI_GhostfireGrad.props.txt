@@ -1,28 +1,29 @@
+Parent = Material3'Actors/Characters/Enemies/Wicked_Wraith/M_NoiseGradientProjGrad.M_NoiseGradientProjGrad'
 ScalarParameterValues[4] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 5.63539
         ParameterInfo = { Name=AlphaGradient1 }
+        ParameterValue = 5.63539
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 6.16892
         ParameterInfo = { Name=AlphaGradient2 }
+        ParameterValue = 6.16892
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.003
         ParameterInfo = { Name=MinorDetails }
+        ParameterValue = 0.003
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -30,18 +31,17 @@ VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=20, G=0, B=19.1208, A=1 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=20, G=0, B=19.1208, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=16.3591, B=20, A=1 }
         ParameterInfo = { Name=Color_2 }
+        ParameterValue = { R=0, G=16.3591, B=20, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Characters/Enemies/Wicked_Wraith/M_NoiseGradientProjGrad.M_NoiseGradientProjGrad'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -51,6 +51,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -58,3 +65,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_PixelNoise_32
+    }
+}

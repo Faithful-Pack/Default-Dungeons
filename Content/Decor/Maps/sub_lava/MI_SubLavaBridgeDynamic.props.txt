@@ -1,21 +1,21 @@
+Parent = Material3'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.M_SubLavaBridgeDynamic'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Dissolve }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.M_SubLavaBridgeDynamic'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -25,6 +25,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -32,3 +39,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.21875
+        UVChannelIndex = 0
+        TextureName = T_Lava_16_spritesheet
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.75
+        UVChannelIndex = 0
+        TextureName = T_LavaMaskTiled
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SM_BlockLava5x2
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 7.3125
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

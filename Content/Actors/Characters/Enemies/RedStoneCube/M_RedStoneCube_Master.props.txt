@@ -1,91 +1,91 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[9] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=AlphaOverride }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=EmissiveB_SinusMin }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=EmissiveB_SinusTempo }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0.1
         ParameterInfo = { Name=EmissiveB_SinusVariation }
+        ParameterValue = 0.1
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=EmissiveBPower }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Enchanted }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 150
         ParameterInfo = { Name=EnchantedEye }
+        ParameterValue = 150
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/RedStoneCube/T_RedstoneCube_S.T_RedstoneCube_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/RedStoneCube/T_RedstoneCube_S.T_RedstoneCube_S'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/RedStoneCube/T_RedstoneCube.T_RedstoneCube'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/RedStoneCube/T_RedstoneCube.T_RedstoneCube'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=25, G=1.23372, B=0, A=1 }
         ParameterInfo = { Name=ConstantEmissiveColor }
+        ParameterValue = { R=25, G=1.23372, B=0, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.135417, G=0.002984, B=0, A=1 }
         ParameterInfo = { Name=EmissiveBColor }
+        ParameterValue = { R=0.135417, G=0.002984, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -95,6 +95,33 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ConstantEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnchantmentMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=SinusEmissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -102,3 +129,36 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Clouds_64
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RedstoneCube
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RedstoneCube_S
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

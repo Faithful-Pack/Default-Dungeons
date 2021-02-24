@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherWastesProps.MI_NetherWastesProps'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringMachineTwoSided.MI_BoringMachineTwoSided'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherWastesProps.MI_NetherWastesProps'
+        MaterialSlotName = Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.016, 29229.9, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringMachineTwoSided.MI_BoringMachineTwoSided'
+        MaterialSlotName = Boring
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 34841.6, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000427246, Y=0.000244141, Z=850.001 }
+    BoxExtent = { X=800, Y=800, Z=850.001 }
+    SphereRadius = 1304.8
+}

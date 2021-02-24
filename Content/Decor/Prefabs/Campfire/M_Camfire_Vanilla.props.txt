@@ -6,13 +6,7 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Campfire/T_campfire_log.T_campfire_log'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
 }
-Expressions[12] =
-{
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[3] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/Campfire/M_Camfire_Vanilla.MaterialExpressionScalarParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +19,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -34,25 +27,8 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[2] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Decor/Prefabs/Campfire/T_campfire_log.T_campfire_log'
-        Name = Diffuse
-        Group = None
-    }
-    CollectedTextureParameters[1] =
-    {
-        Texture = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
-        Name = Emissive
-        Group = None
-    }
-}
-CollectedScalarParameters[1] =
-{
-    CollectedScalarParameters[0] = { Value=2, Name=EmissiveStrength, Group=None }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -61,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

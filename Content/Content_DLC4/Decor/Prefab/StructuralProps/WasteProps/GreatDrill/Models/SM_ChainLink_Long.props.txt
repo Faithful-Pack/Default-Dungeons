@@ -1,0 +1,37 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherWastesProps.MI_NetherWastesProps'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherWastesProps.MI_NetherWastesProps'
+        MaterialSlotName = Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.001, 282.345, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = Boring
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.14441e-005, Y=0, Z=75.0002 }
+    BoxExtent = { X=50, Y=15.625, Z=75.0002 }
+    SphereRadius = 91.4832
+}

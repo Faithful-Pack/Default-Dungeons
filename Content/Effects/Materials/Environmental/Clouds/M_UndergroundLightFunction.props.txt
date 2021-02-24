@@ -3,27 +3,11 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/LightFunctions/T_Dungeon_Roof_LightCookie.T_Dungeon_Roof_LightCookie'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/LightFunctions/T_Dungeon_Roof_LightCookie.T_Dungeon_Roof_LightCookie'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
-Expressions[65] =
-{
-    Expressions[4] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionTextureSample_18'
-    Expressions[6] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionTextureSample_19'
-    Expressions[11] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionScalarParameter_0'
-    Expressions[12] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionTextureSample_0'
-    Expressions[23] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionScalarParameter_1'
-    Expressions[32] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionScalarParameter_2'
-    Expressions[34] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionScalarParameter_3'
-    Expressions[36] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionTextureSample_1'
-    Expressions[39] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionTextureSample_2'
-    Expressions[52] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionScalarParameter_4'
-    Expressions[58] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionScalarParameter_5'
-    Expressions[61] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionTextureSample_4'
-    Expressions[62] = MaterialExpressionVectorParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionVectorParameter_0'
-    Expressions[63] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Environmental/Clouds/M_UndergroundLightFunction.MaterialExpressionStaticSwitchParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -36,7 +20,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -46,24 +29,8 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[6] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=Opacity, Group=None }
-    CollectedScalarParameters[1] = { Value=0.04, Name=PanSpeed, Group=None }
-    CollectedScalarParameters[2] = { Value=1.6, Name=Contrast, Group=None }
-    CollectedScalarParameters[3] = { Value=1, Name=SineStr, Group=None }
-    CollectedScalarParameters[4] = { Value=-0.3, Name=Subtract, Group=None }
-    CollectedScalarParameters[5] = { Value=118.849, Name=TextureSize, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0, G=0, B=0, A=0 }
-        Name = LightMin
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -71,3 +38,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/ArmorStatue_HH/MI_VillagerStatue_Small.MI_VillagerStatue_Small'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/ArmorStatue_HH/MI_VillagerStatue_Small.MI_VillagerStatue_Small'
+        MaterialSlotName = 0002Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.949, 399.458, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.30626, Z=107.937 }
+    BoxExtent = { X=50, Y=32.6116, Z=107.996 }
+    SphereRadius = 113.185
+}

@@ -1,55 +1,55 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=EmissiveBPower }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 5
         ParameterInfo = { Name=Specular }
+        ParameterValue = 5
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/T_Squallgolem02_S.T_Squallgolem02_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/T_Squallgolem02_S.T_Squallgolem02_S'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/T_Squallgolem_03.T_Squallgolem_03'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/T_Squallgolem_03.T_Squallgolem_03'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=25, G=0, B=0.121176, A=1 }
         ParameterInfo = { Name=ConstantEmissiveColor }
+        ParameterValue = { R=25, G=0, B=0.121176, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=1.76412, G=5, B=4.80092, A=1 }
         ParameterInfo = { Name=EmissiveBColor }
+        ParameterValue = { R=1.76412, G=5, B=4.80092, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -59,6 +59,39 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Metallic }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Roughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=SinusEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=Specular }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -66,3 +99,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Squallgolem02_S
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Squallgolem_03
+    }
+}

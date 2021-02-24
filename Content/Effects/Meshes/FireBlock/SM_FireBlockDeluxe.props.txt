@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Effects/Materials/Fire/FireBlock/M_FireBlock1x1_Mat.M_FireBlock1x1_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Effects/Materials/Fire/FireBlock/M_FireBlock1x1_Mat.M_FireBlock1x1_Mat'
+        MaterialSlotName = fireblock
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 142.719, 372.059, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=78.125 }
+    BoxExtent = { X=50, Y=50, Z=78.125 }
+    SphereRadius = 105.373
+}

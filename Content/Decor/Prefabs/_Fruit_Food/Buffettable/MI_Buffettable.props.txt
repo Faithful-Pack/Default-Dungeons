@@ -1,79 +1,79 @@
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 ScalarParameterValues[5] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=05 Roughness strength }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 15
         ParameterInfo = { Name=06 Specular ScreenStr }
+        ParameterValue = 15
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=10 Shine Strength }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = -0.6
         ParameterInfo = { Name=11 SpeedX }
+        ParameterValue = -0.6
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[4] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table.T_Table'
         ParameterInfo = { Name=01 Base Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table.T_Table'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table_Colormask.T_Table_Colormask'
         ParameterInfo = { Name=08 Mask }
+        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table_Colormask.T_Table_Colormask'
+        ParameterName = None
     }
     TextureParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table_Spec.T_Table_Spec'
         ParameterInfo = { Name=03 Specular Alpha }
+        ParameterValue = Texture2D'Decor/Prefabs/_Furniture/T_Table_Spec.T_Table_Spec'
+        ParameterName = None
     }
     TextureParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Effects/Materials/Generic/T_DiagonalLine_512.T_DiagonalLine_512'
         ParameterInfo = { Name=08 ShineTexture }
+        ParameterValue = Texture2D'Effects/Materials/Generic/T_DiagonalLine_512.T_DiagonalLine_512'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.371238, G=0.024158, B=0.033105, A=1 }
         ParameterInfo = { Name=07 Color }
+        ParameterValue = { R=0.371238, G=0.024158, B=0.033105, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=2, G=1.51413, B=1.35316, A=1 }
         ParameterInfo = { Name=09 ShineColor }
+        ParameterValue = { R=2, G=1.51413, B=1.35316, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -83,6 +83,39 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=06 Use a color overlay }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=01 Use Specular }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Spec Alpha }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=07 Use Panning Highlight }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -90,3 +123,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DiagonalLine_512
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Table_Colormask
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Table_Spec
+    }
+}

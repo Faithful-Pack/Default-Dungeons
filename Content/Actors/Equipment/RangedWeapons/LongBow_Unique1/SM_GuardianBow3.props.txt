@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/LongBow_Unique1/MI_GuardianBow.MI_GuardianBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/LongBow_Unique1/MI_GuardianBow.MI_GuardianBow'
+        MaterialSlotName = lambert11SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.321, 195.41, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-006, Y=0, Z=22.0971 }
+    BoxExtent = { X=79.5495, Y=3.125, Z=48.6136 }
+    SphereRadius = 79.7334
+}

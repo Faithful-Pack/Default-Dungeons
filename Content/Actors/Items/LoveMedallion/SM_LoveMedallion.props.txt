@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/LoveMedallion/MI_LoveMedallion.MI_LoveMedallion'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/LoveMedallion/MI_LoveMedallion.MI_LoveMedallion'
+        MaterialSlotName = T_CharmMedla
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 390.14, 283.38, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.73622, Y=-3.37498, Z=-11.9232 }
+    BoxExtent = { X=103.372, Y=84.2603, Z=38.0482 }
+    SphereRadius = 108.2
+}

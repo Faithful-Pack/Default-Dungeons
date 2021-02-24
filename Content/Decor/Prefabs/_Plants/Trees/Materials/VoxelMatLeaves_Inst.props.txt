@@ -1,51 +1,51 @@
+Parent = Material3'Materials/VoxelMatLeaves.VoxelMatLeaves'
 ScalarParameterValues[7] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1024
         ParameterInfo = { Name=ScaleU }
+        ParameterValue = 1024
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 512
         ParameterInfo = { Name=ScaleV }
+        ParameterValue = 512
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 14.25
         ParameterInfo = { Name=OffsetU }
+        ParameterValue = 14.25
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 13.25
         ParameterInfo = { Name=OffsetV }
+        ParameterValue = 13.25
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 140
         ParameterInfo = { Name=deformDistance }
+        ParameterValue = 140
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 5
         ParameterInfo = { Name=Wind }
+        ParameterValue = 5
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Materials/VoxelMatLeaves.VoxelMatLeaves'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -55,6 +55,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=OffsetUV }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -62,3 +77,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Clouds_512
+    }
+}

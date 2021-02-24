@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/Ancient/MI_AncientGate_Nether.MI_AncientGate_Nether'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/Ancient/MI_AncientGate_Nether.MI_AncientGate_Nether'
+        MaterialSlotName = MI_AncientPortal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 799.81, 889.42, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=18.7499, Z=200 }
+    BoxExtent = { X=250, Y=68.75, Z=200 }
+    SphereRadius = 327.455
+}

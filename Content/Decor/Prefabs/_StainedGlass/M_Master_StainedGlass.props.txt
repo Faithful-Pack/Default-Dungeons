@@ -1,37 +1,13 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
+ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Texture/cobblestone.cobblestone'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_StainedGlass/MixedPatterns/T_StainedGlass_01_normal.T_StainedGlass_01_normal'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/Texture/cobblestone.cobblestone'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/Texture/cobblestone_SPEC.cobblestone_SPEC'
 }
-Expressions[75] =
-{
-    Expressions[1] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[7] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_0'
-    Expressions[9] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_1'
-    Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_2'
-    Expressions[14] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_3'
-    Expressions[17] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_4'
-    Expressions[25] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_1'
-    Expressions[26] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_2'
-    Expressions[27] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_3'
-    Expressions[35] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_5'
-    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_6'
-    Expressions[39] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_7'
-    Expressions[41] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_9'
-    Expressions[42] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_10'
-    Expressions[43] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_11'
-    Expressions[46] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_4'
-    Expressions[47] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_5'
-    Expressions[48] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_6'
-    Expressions[59] = MaterialExpressionScalarParameter'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionScalarParameter_8'
-    Expressions[62] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_0'
-    Expressions[63] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_7'
-    Expressions[64] = MaterialExpressionTextureSample'Decor/Prefabs/_StainedGlass/M_Master_StainedGlass.MaterialExpressionTextureSample_8'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -44,31 +20,16 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[12] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=Offset X, Group=None }
-    CollectedScalarParameters[1] = { Value=0, Name=Offset Z, Group=None }
-    CollectedScalarParameters[2] = { Value=0, Name=Offset Y, Group=None }
-    CollectedScalarParameters[3] = { Value=100, Name=World Texture Size, Group=None }
-    CollectedScalarParameters[4] = { Value=1, Name=Blend Scale, Group=None }
-    CollectedScalarParameters[5] = { Value=1, Name=04 Color Power, Group=None }
-    CollectedScalarParameters[6] = { Value=1, Name=03 Color Value, Group=None }
-    CollectedScalarParameters[7] = { Value=0, Name=02 Color Hue, Group=None }
-    CollectedScalarParameters[8] = { Value=0.8, Name=01 Roughness, Group=None }
-    CollectedScalarParameters[9] = { Value=0, Name=05 Color Desaturation, Group=None }
-    CollectedScalarParameters[10] = { Value=0.01, Name=02 Specular Input, Group=None }
-    CollectedScalarParameters[11] = { Value=0, Name=Emissive Strength, Group=None }
-}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -77,3 +38,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/ForestBranches/M_FallenBranches_PF.M_FallenBranches_PF'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/ForestBranches/M_Snow32x_PF.M_Snow32x_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/ForestBranches/M_FallenBranches_PF.M_FallenBranches_PF'
+        MaterialSlotName = Material_015
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.074, 457.814, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/ForestBranches/M_Snow32x_PF.M_Snow32x_PF'
+        MaterialSlotName = Snow_005
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.183, 459.185, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=137.5, Y=-175, Z=148.958 }
+    BoxExtent = { X=125, Y=175, Z=151.042 }
+    SphereRadius = 262.8
+}

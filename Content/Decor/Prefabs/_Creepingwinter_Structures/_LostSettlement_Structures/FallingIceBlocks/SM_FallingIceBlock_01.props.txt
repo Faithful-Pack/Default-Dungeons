@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/FallingIceBlocks/MI_FallingIceBlock.MI_FallingIceBlock'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/FallingIceBlocks/MI_FallingIceBlock.MI_FallingIceBlock'
+        MaterialSlotName = Falling_Ice
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 319.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-50, Z=-50 }
+    BoxExtent = { X=50, Y=50, Z=50 }
+    SphereRadius = 86.6025
+}

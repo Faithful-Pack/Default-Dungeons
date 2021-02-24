@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/MI_BambooBluff_Cog.MI_BambooBluff_Cog'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/MI_BambooBluff_Cog.MI_BambooBluff_Cog'
+        MaterialSlotName = 09 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 206.617, 239.791, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=21.875 }
+    BoxExtent = { X=78.125, Y=78.125, Z=21.875 }
+    SphereRadius = 79.242
+}

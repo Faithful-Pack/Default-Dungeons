@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/M_LS_Lantern.M_LS_Lantern'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/M_LS_Lantern.M_LS_Lantern'
+        MaterialSlotName = LS_Lantern
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.281, 164.149, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-25.3125, Y=0, Z=62.5 }
+    BoxExtent = { X=34.6875, Y=15.625, Z=62.5 }
+    SphereRadius = 67.4353
+}

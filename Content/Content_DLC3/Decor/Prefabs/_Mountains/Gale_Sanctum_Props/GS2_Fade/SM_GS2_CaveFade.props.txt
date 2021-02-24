@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS2_Fade/Mi_GS2_CaveFade.Mi_GS2_CaveFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS2_Fade/Mi_GS2_CaveFade.Mi_GS2_CaveFade'
+        MaterialSlotName = GS2Fade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 1596.23, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-500, Y=-50, Z=300 }
+    BoxExtent = { X=800, Y=150, Z=300 }
+    SphereRadius = 855.862
+}

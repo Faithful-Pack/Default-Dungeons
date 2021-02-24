@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/MI_Gate_Ice.MI_Gate_Ice'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/MI_Gate_Ice.MI_Gate_Ice'
+        MaterialSlotName = Fbx Default Material 0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 277.095, 759.338, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=250, Y=-31.25, Z=163.873 }
+    BoxExtent = { X=250, Y=18.75, Z=163.873 }
+    SphereRadius = 299.51
+}

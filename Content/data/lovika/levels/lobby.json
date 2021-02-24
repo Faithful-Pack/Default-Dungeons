@@ -14,13 +14,12 @@
         {
             "id": "start",
             "tiles": [
-                "base@lobby001",
-                "questgiver@lobby001"
+                "lobby001",
+                "base@lobby001"
             ],
             "audio-ambience": "audio_1",
             "prop-density": 2,
             "prop-groups": [
-                "questgiver",
                 "shopkeeper",
                 "luxurymerchant",
                 "mysterymerchant",
@@ -34,7 +33,9 @@
                 "lootchest6",
                 "lootchest7",
                 "lootchest8",
-                "op_jumppads"
+                "op_jumppads",
+                "nethercave",
+                "nethersign"
             ]
         },
         {
@@ -59,8 +60,7 @@
                     ],
                     "audio-ambience": "audio_4"
                 }
-            ],
-            "##loc": "lobby/lobby.json"
+            ]
         },
         {
             "id": "greathall_mooroom",
@@ -72,8 +72,7 @@
                     ],
                     "audio-ambience": "audio_5"
                 }
-            ],
-            "##loc": "lobby/lobby.json"
+            ]
         },
         {
             "id": "home",
@@ -89,8 +88,7 @@
                         "house_dog"
                     ]
                 }
-            ],
-            "##loc": "lobby/lobby.json"
+            ]
         },
         {
             "id": "upstairs",
@@ -102,8 +100,7 @@
                     ],
                     "audio-ambience": "audio_3"
                 }
-            ],
-            "##loc": "lobby/lobby.json"
+            ]
         },
         {
             "id": "questgiver",
@@ -131,8 +128,39 @@
                     ],
                     "audio-ambience": "audio_3"
                 }
-            ],
-            "##loc": "lobby/lobby.json"
+            ]
+        },
+        {
+            "id": "netherroom",
+            "ambience": "delta",
+            "audio-ambience": "audio_6",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        2,
+                        1,
+                        1,
+                        4,
+                        1,
+                        1,
+                        2,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        "nether_room"
+                    ],
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "piglinmerchant"
+                    ]
+                }
+            ]
         }
     ],
     "mob-groups": [],
@@ -148,8 +176,7 @@
             ],
             "unlock-keys": [
                 "not shopkeeper_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "shopkeeper_lvl1",
@@ -158,8 +185,7 @@
             ],
             "unlock-keys": [
                 "shopkeeper_lvl1"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "shopkeeper_lvl2",
@@ -168,8 +194,7 @@
             ],
             "unlock-keys": [
                 "shopkeeper_lvl2"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "shopkeeper_lvl3",
@@ -178,8 +203,7 @@
             ],
             "unlock-keys": [
                 "shopkeeper_lvl3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "shopkeeper_lvl4",
@@ -188,8 +212,7 @@
             ],
             "unlock-keys": [
                 "shopkeeper_lvl4"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "shopkeeper_lvl5",
@@ -198,8 +221,7 @@
             ],
             "unlock-keys": [
                 "shopkeeper_lvl5"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "luxurymerchant_base",
@@ -208,8 +230,7 @@
             ],
             "unlock-keys": [
                 "not luxurymerchant_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "luxurymerchant_lvl1",
@@ -218,8 +239,7 @@
             ],
             "unlock-keys": [
                 "luxurymerchant_lvl1"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "luxurymerchant_lvl2",
@@ -228,8 +248,7 @@
             ],
             "unlock-keys": [
                 "luxurymerchant_lvl2"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "luxurymerchant_lvl3",
@@ -238,8 +257,7 @@
             ],
             "unlock-keys": [
                 "luxurymerchant_lvl3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "luxurymerchant_lvl4",
@@ -248,8 +266,7 @@
             ],
             "unlock-keys": [
                 "luxurymerchant_lvl4"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "luxurymerchant_lvl5",
@@ -258,8 +275,7 @@
             ],
             "unlock-keys": [
                 "luxurymerchant_lvl5"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "mysterymerchant_base",
@@ -268,8 +284,7 @@
             ],
             "unlock-keys": [
                 "not mysterymerchant_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "mysterymerchant_lvl1",
@@ -278,8 +293,7 @@
             ],
             "unlock-keys": [
                 "mysterymerchant_lvl1"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "mysterymerchant_lvl2",
@@ -288,8 +302,7 @@
             ],
             "unlock-keys": [
                 "mysterymerchant_lvl2"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "mysterymerchant_lvl3",
@@ -298,8 +311,7 @@
             ],
             "unlock-keys": [
                 "mysterymerchant_lvl3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "mysterymerchant_lvl4",
@@ -308,8 +320,7 @@
             ],
             "unlock-keys": [
                 "mysterymerchant_lvl4"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "mysterymerchant_lvl5",
@@ -318,8 +329,7 @@
             ],
             "unlock-keys": [
                 "mysterymerchant_lvl5"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "blacksmith_base",
@@ -328,8 +338,7 @@
             ],
             "unlock-keys": [
                 "not blacksmith_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "blacksmith_lvl1",
@@ -338,8 +347,7 @@
             ],
             "unlock-keys": [
                 "blacksmith_lvl1"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "blacksmith_lvl2",
@@ -348,8 +356,7 @@
             ],
             "unlock-keys": [
                 "blacksmith_lvl2"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "blacksmith_lvl3",
@@ -358,8 +365,7 @@
             ],
             "unlock-keys": [
                 "blacksmith_lvl3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "giftwrapper_base",
@@ -368,8 +374,7 @@
             ],
             "unlock-keys": [
                 "not giftwrapper_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "giftwrapper_lvl1",
@@ -378,8 +383,7 @@
             ],
             "unlock-keys": [
                 "giftwrapper_lvl1"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "giftwrapper_lvl2",
@@ -388,8 +392,7 @@
             ],
             "unlock-keys": [
                 "giftwrapper_lvl2"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "giftwrapper_lvl3",
@@ -398,28 +401,79 @@
             ],
             "unlock-keys": [
                 "giftwrapper_lvl3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
-            "id": "questgiver_base",
+            "id": "nethercave_base",
             "rotations": [
                 0
             ],
             "unlock-keys": [
-                "not questgiver_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+                "not nether-cave-unlocked"
+            ]
         },
         {
-            "id": "questgiver_open",
+            "id": "nethercave_open",
             "rotations": [
                 0
             ],
             "unlock-keys": [
-                "questgiver_unlocked"
+                "nether-cave-unlocked"
+            ]
+        },
+        {
+            "id": "nethersign_base",
+            "rotations": [
+                0
             ],
-            "##loc": "lobby/lobby_tiles.json"
+            "unlock-keys": [
+                "not nether-cave-unlocked"
+            ]
+        },
+        {
+            "id": "nethersign_shown",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "nether-cave-unlocked"
+            ]
+        },
+        {
+            "id": "piglinmerchant_base",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not piglinmerchant_unlocked"
+            ]
+        },
+        {
+            "id": "piglinmerchant_lvl1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "piglinmerchant_lvl1"
+            ]
+        },
+        {
+            "id": "piglinmerchant_lvl2",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "piglinmerchant_lvl2"
+            ]
+        },
+        {
+            "id": "piglinmerchant_lvl3",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "piglinmerchant_lvl3"
+            ]
         },
         {
             "id": "house_dog_0",
@@ -428,8 +482,7 @@
             ],
             "unlock-keys": [
                 "not carried-TastyBone"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "house_dog_1",
@@ -438,8 +491,7 @@
             ],
             "unlock-keys": [
                 "carried-TastyBone"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest1",
@@ -449,8 +501,7 @@
             ],
             "unlock-keys": [
                 "creeperwoods and (not lobbychest-1)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest1_empty",
@@ -460,8 +511,7 @@
             ],
             "unlock-keys": [
                 "not creeperwoods or lobbychest-1"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest2",
@@ -471,8 +521,7 @@
             ],
             "unlock-keys": [
                 "pumpkinpastures and (not lobbychest-2)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest2_empty",
@@ -482,8 +531,7 @@
             ],
             "unlock-keys": [
                 "not pumpkinpastures or lobbychest-2"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest3",
@@ -493,8 +541,7 @@
             ],
             "unlock-keys": [
                 "soggyswamp and (not lobbychest-3)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest3_empty",
@@ -504,8 +551,7 @@
             ],
             "unlock-keys": [
                 "not soggyswamp or lobbychest-3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest4",
@@ -515,8 +561,7 @@
             ],
             "unlock-keys": [
                 "mooncorecaverns and (not lobbychest-4)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest4_empty",
@@ -526,8 +571,7 @@
             ],
             "unlock-keys": [
                 "not mooncorecaverns or lobbychest-4"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest5",
@@ -537,8 +581,7 @@
             ],
             "unlock-keys": [
                 "cacticanyon and (not lobbychest-5)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest5_empty",
@@ -548,8 +591,7 @@
             ],
             "unlock-keys": [
                 "not cacticanyon or lobbychest-5"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest6",
@@ -559,8 +601,7 @@
             ],
             "unlock-keys": [
                 "fieryforge and (not lobbychest-6)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest6_empty",
@@ -570,8 +611,7 @@
             ],
             "unlock-keys": [
                 "not fieryforge or lobbychest-6"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest7",
@@ -581,8 +621,7 @@
             ],
             "unlock-keys": [
                 "deserttemple and (not lobbychest-7)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest7_empty",
@@ -592,8 +631,7 @@
             ],
             "unlock-keys": [
                 "not deserttemple or lobbychest-7"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest8",
@@ -603,8 +641,7 @@
             ],
             "unlock-keys": [
                 "highblockhalls and (not lobbychest-8)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest8_empty",
@@ -614,8 +651,7 @@
             ],
             "unlock-keys": [
                 "not highblockhalls or lobbychest-8"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest9",
@@ -625,8 +661,7 @@
             ],
             "unlock-keys": [
                 "obsidianpinnacle and (not lobbychest-9)"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest9_empty",
@@ -636,8 +671,7 @@
             ],
             "unlock-keys": [
                 "not obsidianpinnacle or lobbychest-9"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "jumppads",
@@ -646,8 +680,7 @@
             ],
             "unlock-keys": [
                 "obsidianpinnacle"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "jumppads_empty",
@@ -656,11 +689,42 @@
             ],
             "unlock-keys": [
                 "not obsidianpinnacle"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         }
     ],
     "tiles": [
+        {
+            "id": "lobby001",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "home",
+                    "exit": "*.*.exit",
+                    "dungeons": [
+                        "home"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
+                },
+                {
+                    "door": "greathall_entrance",
+                    "dungeons": [
+                        "greathall"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
+                    "exit": "*.*.entrance"
+                },
+                {
+                    "door": "netherroom",
+                    "dungeons": [
+                        "netherroom"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
+                }
+            ],
+            "unlock-keys": [
+                "nether-cave-unlocked"
+            ]
+        },
         {
             "id": "base@lobby001",
             "rotations": 0,
@@ -680,12 +744,18 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
                     "exit": "*.*.entrance"
+                },
+                {
+                    "door": "netherroom",
+                    "dungeons": [
+                        "netherroom"
+                    ],
+                    "object": "Content_DLC4/Decor/Prefab/Decoration/Lobby/NetherArea/BP_TravelDoorDummy"
                 }
             ],
             "unlock-keys": [
-                "not questgiver_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+                "not nether-cave-unlocked"
+            ]
         },
         {
             "id": "questgiver@lobby001",
@@ -706,34 +776,19 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_GreatHall_Door_Outer",
                     "exit": "*.*.entrance"
-                },
-                {
-                    "door": "questgiver",
-                    "dungeons": [
-                        "questgiver"
-                    ],
-                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
                 }
             ],
             "unlock-keys": [
                 "questgiver_unlocked"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lobby_extended01",
-            "rotations": 0,
-            "##loc": "lobby/lobby_tiles.json"
+            "rotations": 0
         },
         {
             "id": "lobby_home",
-            "rotations": 0,
-            "teleports": [
-                {
-                    "door": "exit"
-                }
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            "rotations": 0
         },
         {
             "id": "greathall",
@@ -751,8 +806,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BP_Door4x4"
                 }
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lobby_house_lvl1",
@@ -768,8 +822,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_2x3"
                 }
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lobby_house_lvl2",
@@ -778,8 +831,7 @@
                 {
                     "door": "exit"
                 }
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "greathall_mooroom",
@@ -789,13 +841,15 @@
                     "door": "entrance",
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_CreeperDoor_Inner"
                 }
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "questgiver_room",
-            "rotations": 0,
-            "##loc": "lobby/lobby_tiles.json"
+            "rotations": 0
+        },
+        {
+            "id": "nether_room",
+            "rotations": 0
         }
     ],
     "prop-groups": [
@@ -811,8 +865,7 @@
                 "shopkeeper_lvl3",
                 "shopkeeper_lvl4",
                 "shopkeeper_lvl5"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "luxurymerchant",
@@ -826,8 +879,7 @@
                 "luxurymerchant_lvl3",
                 "luxurymerchant_lvl4",
                 "luxurymerchant_lvl5"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "mysterymerchant",
@@ -841,8 +893,7 @@
                 "mysterymerchant_lvl3",
                 "mysterymerchant_lvl4",
                 "mysterymerchant_lvl5"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "blacksmith",
@@ -854,8 +905,7 @@
                 "blacksmith_lvl1",
                 "blacksmith_lvl2",
                 "blacksmith_lvl3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "giftwrapper",
@@ -867,19 +917,41 @@
                 "giftwrapper_lvl1",
                 "giftwrapper_lvl2",
                 "giftwrapper_lvl3"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
-            "id": "questgiver",
+            "id": "nethercave",
             "on-regions": [
-                "*.*.questgiver"
+                "*.*.nethercave"
             ],
             "props": [
-                "questgiver_base",
-                "questgiver_open"
+                "nethercave_base",
+                "nethercave_open"
+            ]
+        },
+        {
+            "id": "nethersign",
+            "on-regions": [
+                "*.*.nethersign"
             ],
-            "##loc": "lobby/lobby_tiles.json"
+            "props": [
+                "nethersign_base",
+                "nethersign_shown"
+            ]
+        },
+        {
+            "id": "piglinmerchant",
+            "on-regions": [
+                "*.*.piglinmerchant"
+            ],
+            "props": [
+                "piglinmerchant_base",
+                "piglinmerchant_lvl1",
+                "piglinmerchant_lvl2",
+                "piglinmerchant_lvl3",
+                "piglinmerchant_lvl4",
+                "piglinmerchant_lvl5"
+            ]
         },
         {
             "id": "house_dog",
@@ -889,8 +961,7 @@
             "props": [
                 "house_dog_0",
                 "house_dog_1"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest1",
@@ -900,8 +971,7 @@
             "props": [
                 "lootchest1",
                 "lootchest1_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest2",
@@ -911,8 +981,7 @@
             "props": [
                 "lootchest2",
                 "lootchest2_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest3",
@@ -922,8 +991,7 @@
             "props": [
                 "lootchest3",
                 "lootchest3_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest4",
@@ -933,8 +1001,7 @@
             "props": [
                 "lootchest4",
                 "lootchest4_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest5",
@@ -944,8 +1011,7 @@
             "props": [
                 "lootchest5",
                 "lootchest5_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest6",
@@ -955,8 +1021,7 @@
             "props": [
                 "lootchest6",
                 "lootchest6_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest7",
@@ -966,8 +1031,7 @@
             "props": [
                 "lootchest7",
                 "lootchest7_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest8",
@@ -977,8 +1041,7 @@
             "props": [
                 "lootchest8",
                 "lootchest8_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "lootchest9",
@@ -988,8 +1051,7 @@
             "props": [
                 "lootchest9",
                 "lootchest9_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "op_jumppads",
@@ -999,8 +1061,7 @@
             "props": [
                 "jumppads",
                 "jumppads_empty"
-            ],
-            "##loc": "lobby/lobby_tiles.json"
+            ]
         },
         {
             "id": "sc_start",

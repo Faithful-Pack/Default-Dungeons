@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/MI_ChainswordStorable.MI_ChainswordStorable'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/MI_ChainswordBlade.MI_ChainswordBlade'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/MI_ChainswordStorable.MI_ChainswordStorable'
+        MaterialSlotName = lambert12SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.013, 198.665, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/MI_ChainswordBlade.MI_ChainswordBlade'
+        MaterialSlotName = lambert13SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 199.453, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=31.25, Y=0, Z=-31.25 }
+    BoxExtent = { X=50, Y=3.125, Z=50 }
+    SphereRadius = 70.7797
+}

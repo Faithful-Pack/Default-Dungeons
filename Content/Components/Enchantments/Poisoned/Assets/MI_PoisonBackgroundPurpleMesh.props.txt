@@ -1,70 +1,83 @@
-ScalarParameterValues[11] =
+Parent = Material3'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.M_PoisonBackground'
+ScalarParameterValues[13] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.15
         ParameterInfo = { Name=GREEN_Alpha }
+        ParameterValue = 0.15
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.13
         ParameterInfo = { Name=GREEN_SineTempoY }
+        ParameterValue = 0.13
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.4
         ParameterInfo = { Name=GREEN_SineVariationY }
+        ParameterValue = 0.4
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=GREEN_SpeedX }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=GREEN_SpeedY }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=RED_ SpeedY }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0.25
         ParameterInfo = { Name=RED_Alpha }
+        ParameterValue = 0.25
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
+        ParameterInfo = { Name=RED_MultiplierX }
+        ParameterValue = 0.5
         ParameterName = None
-        ParameterValue = 0.1
-        ParameterInfo = { Name=RED_SineYTempo }
     }
     ScalarParameterValues[8] =
     {
+        ParameterInfo = { Name=RED_MultiplierY }
+        ParameterValue = 0.5
         ParameterName = None
-        ParameterValue = 0.2
-        ParameterInfo = { Name=RED_SineYVariation }
     }
     ScalarParameterValues[9] =
     {
+        ParameterInfo = { Name=RED_SineYTempo }
+        ParameterValue = 0.1
         ParameterName = None
-        ParameterValue = 0.5
-        ParameterInfo = { Name=RED_SpeedX }
     }
     ScalarParameterValues[10] =
     {
+        ParameterInfo = { Name=RED_SineYVariation }
+        ParameterValue = 0.2
         ParameterName = None
-        ParameterValue = 0
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RED_SpeedX }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -72,12 +85,11 @@ VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.824002, G=0, B=1, A=1 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.824002, G=0, B=1, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.M_PoisonBackground'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -87,6 +99,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=IsParticleBased }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -94,3 +121,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_PoisonCloud
+    }
+}

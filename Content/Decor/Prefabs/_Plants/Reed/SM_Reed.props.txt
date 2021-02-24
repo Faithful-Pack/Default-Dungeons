@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Reed/MI_Reed.MI_Reed'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Reed/MI_Reed.MI_Reed'
+        MaterialSlotName = MI_Reed
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.729, 177.716, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=100 }
+    BoxExtent = { X=50, Y=43.75, Z=100 }
+    SphereRadius = 116.089
+}

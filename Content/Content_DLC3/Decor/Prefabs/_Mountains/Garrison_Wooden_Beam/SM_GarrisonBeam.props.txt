@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Garrison_Wooden_Beam/MI_MeshfadeMountains.MI_MeshfadeMountains'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Garrison_Wooden_Beam/MI_MeshfadeMountains.MI_MeshfadeMountains'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.004, 28758.7, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.5, Z=5 }
+    BoxExtent = { X=700, Y=1650, Z=400 }
+    SphereRadius = 1836.44
+}

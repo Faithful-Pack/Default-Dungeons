@@ -1,35 +1,35 @@
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Actors/Equipment/Armor/ClimbingGear_Unique2/T_ClimbingGear_Unique2.T_ClimbingGear_Unique2'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Content_DLC3/Actors/Equipment/Armor/ClimbingGear_Unique2/T_ClimbingGear_Unique2.T_ClimbingGear_Unique2'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Actors/Equipment/Armor/ClimbingGear_Unique2/T_ClimbingGear_Unique2_S.T_ClimbingGear_Unique2_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Content_DLC3/Actors/Equipment/Armor/ClimbingGear_Unique2/T_ClimbingGear_Unique2_S.T_ClimbingGear_Unique2_S'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -39,6 +39,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -46,3 +53,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ClimbingGear_Unique2
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ClimbingGear_Unique2_S
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_DiagonalLine
+    }
+}

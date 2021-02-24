@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/M_FFJ_CaveSet_PF.M_FFJ_CaveSet_PF'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/M_FFJ_CraftingStation_PF.M_FFJ_CraftingStation_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/M_FFJ_CaveSet_PF.M_FFJ_CaveSet_PF'
+        MaterialSlotName = CaveSet_008
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 913.744, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/M_FFJ_CraftingStation_PF.M_FFJ_CraftingStation_PF'
+        MaterialSlotName = M_FFJ_CraftingStation_006
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 914.239, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=199.935, Y=200, Z=78.125 }
+    BoxExtent = { X=200.065, Y=200, Z=78.125 }
+    SphereRadius = 293.39
+}

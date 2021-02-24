@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Milkjug/MI_Milkjug.MI_Milkjug'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Milkjug/MI_Milkjug.MI_Milkjug'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 203.322, 147.823, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-37.5, Z=0 }
+    BoxExtent = { X=18.75, Y=37.5, Z=18.75 }
+    SphereRadius = 45.9279
+}

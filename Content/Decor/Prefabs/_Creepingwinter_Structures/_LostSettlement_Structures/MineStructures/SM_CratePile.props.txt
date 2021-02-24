@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/MineStructures/M_SnowMineDecor_PF.M_SnowMineDecor_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/MineStructures/M_SnowMineDecor_PF.M_SnowMineDecor_PF'
+        MaterialSlotName = Material_008
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 192.537, 581.818, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=73.8066, Y=106.25, Z=100 }
+    BoxExtent = { X=73.8067, Y=106.25, Z=100 }
+    SphereRadius = 163.513
+}

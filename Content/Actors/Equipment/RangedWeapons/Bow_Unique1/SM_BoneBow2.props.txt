@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Bow_Unique1/MI_BoneBow.MI_BoneBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Bow_Unique1/MI_BoneBow.MI_BoneBow'
+        MaterialSlotName = lambert9SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.194, 148.068, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=24.3068, Y=0, Z=0 }
+    BoxExtent = { X=37.565, Y=3.125, Z=66.2912 }
+    SphereRadius = 66.6951
+}

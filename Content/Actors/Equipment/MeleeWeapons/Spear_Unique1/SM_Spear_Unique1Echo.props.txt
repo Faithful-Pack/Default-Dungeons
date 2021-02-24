@@ -1,0 +1,37 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Spear_Unique1/MI_Spear_Unique1.MI_Spear_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Spear_Unique1/MI_Spear_Unique1.MI_Spear_Unique1'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = SM_SpearofDestinySG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.302, 157.79, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.86781e-006, Z=12.9884 }
+    BoxExtent = { X=26.5165, Y=3.12502, Z=92.8078 }
+    SphereRadius = 92.8604
+}

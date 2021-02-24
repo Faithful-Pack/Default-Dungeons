@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/Clouds/M_Clouds.M_Clouds'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/Clouds/M_Clouds.M_Clouds'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.296, 2552.28, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=-100, Z=50 }
+    BoxExtent = { X=1050, Y=1500, Z=50.0002 }
+    SphereRadius = 1566.84
+}

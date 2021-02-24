@@ -1,118 +1,119 @@
+Parent = Material3'Components/Enchantments/Burning/M_Tornado.M_Tornado'
 ScalarParameterValues[19] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.01
         ParameterInfo = { Name=Add }
+        ParameterValue = 0.01
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1.5
         ParameterInfo = { Name=CenterGradient }
+        ParameterValue = 1.5
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Cloud1_Multiplier_X }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Cloud1_Multiplier_Y }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = -0.35
         ParameterInfo = { Name=Cloud1_Speed_Y }
+        ParameterValue = -0.35
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Cloud2_Multiplier_X }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=Cloud2_Multiplier_Y }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = -0.2
         ParameterInfo = { Name=Cloud2_Speed_X }
+        ParameterValue = -0.2
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = -0.1
         ParameterInfo = { Name=Cloud2_Speed_Y }
+        ParameterValue = -0.1
+        ParameterName = None
     }
     ScalarParameterValues[9] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Cloud3_Multiplier_X }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[10] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=Cloud3_Multiplier_Y }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[11] =
     {
-        ParameterName = None
-        ParameterValue = 0.05
         ParameterInfo = { Name=Cloud3_Speed_X }
+        ParameterValue = 0.05
+        ParameterName = None
     }
     ScalarParameterValues[12] =
     {
-        ParameterName = None
-        ParameterValue = -0.05
         ParameterInfo = { Name=Cloud3_Speed_Y }
+        ParameterValue = -0.05
+        ParameterName = None
     }
     ScalarParameterValues[13] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=CloudAdd }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[14] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=PowerSuperEmssive }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[15] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=SineAdd }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[16] =
     {
-        ParameterName = None
-        ParameterValue = 0.05
         ParameterInfo = { Name=TexCoordX }
+        ParameterValue = 0.05
+        ParameterName = None
     }
     ScalarParameterValues[17] =
     {
-        ParameterName = None
-        ParameterValue = 0.015
         ParameterInfo = { Name=TexCoordY }
+        ParameterValue = 0.015
+        ParameterName = None
     }
     ScalarParameterValues[18] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -120,24 +121,23 @@ VectorParameterValues[3] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.952136, G=0, B=1, A=1 }
         ParameterInfo = { Name=BaseColor }
+        ParameterValue = { R=0.952136, G=0, B=1, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=4.60648, G=0, B=5, A=1 }
         ParameterInfo = { Name=ColorHighlight }
+        ParameterValue = { R=4.60648, G=0, B=5, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.918797, G=0, B=1, A=1 }
         ParameterInfo = { Name=FinalColor }
+        ParameterValue = { R=0.918797, G=0, B=1, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Components/Enchantments/Burning/M_Tornado.M_Tornado'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -147,6 +147,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -154,3 +161,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

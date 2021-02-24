@@ -1,23 +1,14 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[4] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone.T_AnimatedRedstone'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone_Panner.T_AnimatedRedstone_Panner'
-    ReferencedTextures[2] = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone_Large.T_AnimatedRedstone_Large'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone_Large.T_AnimatedRedstone_Large'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone_Panner.T_AnimatedRedstone_Panner'
+    ReferencedTextures[3] = Texture2D'Decor/Prefabs/RedstonePuzzle/Models/T_PistonRelay.T_PistonRelay'
 }
-Expressions[53] =
-{
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSampleParameter2D_4'
-    Expressions[27] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_0'
-    Expressions[28] = MaterialExpressionTextureSample'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSample_2'
-    Expressions[29] = MaterialExpressionTextureSample'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSample_3'
-    Expressions[30] = MaterialExpressionTextureSample'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSample_4'
-    Expressions[35] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_1'
-    Expressions[37] = MaterialExpressionTextureSample'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSample_7'
-    Expressions[42] = MaterialExpressionTextureSample'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSample_8'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -30,7 +21,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -39,20 +29,8 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Decor/Prefabs/RedstonePuzzle/Models/T_PistonRelay.T_PistonRelay'
-        Name = Texture
-        Group = Texture
-    }
-}
-CollectedScalarParameters[2] =
-{
-    CollectedScalarParameters[0] = { Value=3, Name=Size, Group=None }
-    CollectedScalarParameters[1] = { Value=4, Name=Strength, Group=None }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -61,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

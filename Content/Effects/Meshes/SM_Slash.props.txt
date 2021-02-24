@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Effects/Materials/Combat/M_Slash.M_Slash'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Effects/Materials/Combat/M_Slash.M_Slash'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 22.7432, 51.2359, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.90735e-006, Y=0, Z=1.19209e-007 }
+    BoxExtent = { X=11.9565, Y=11.9565, Z=0.257062 }
+    SphereRadius = 11.9593
+}

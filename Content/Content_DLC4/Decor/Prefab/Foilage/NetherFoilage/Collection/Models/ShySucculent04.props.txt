@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherFoilage_NoDeform_Emissive.MI_NetherFoilage_NoDeform_Emissive'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PulsatingFoilage.MI_PulsatingFoilage'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherFoilage_NoDeform_Emissive.MI_NetherFoilage_NoDeform_Emissive'
+        MaterialSlotName = Succulent
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 416.123, 235.512, 236.342, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PulsatingFoilage.MI_PulsatingFoilage'
+        MaterialSlotName = Flower
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 405.598, 52.2449, 236.599, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=36.3755 }
+    BoxExtent = { X=68.75, Y=68.75, Z=36.3755 }
+    SphereRadius = 78.4798
+}

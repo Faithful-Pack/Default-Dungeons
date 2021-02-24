@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/ShieldDecorative/MI_RedstoneMonstrosityHead.MI_RedstoneMonstrosityHead'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/ShieldDecorative/MI_RedstoneMonstrosityHead.MI_RedstoneMonstrosityHead'
+        MaterialSlotName = MI_RedstoneMonstrosityHead
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2181.15, 680.707, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.273346, Y=-0.0161476, Z=34.59 }
+    BoxExtent = { X=209.408, Y=60.0384, Z=147.111 }
+    SphereRadius = 259.035
+}

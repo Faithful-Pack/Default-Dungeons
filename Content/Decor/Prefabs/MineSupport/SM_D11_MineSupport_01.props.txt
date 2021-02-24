@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'Decor/Prefabs/MineSupport/MI_log_Oak.MI_Log_Oak'
+    Materials[1] = Material3'Decor/Prefabs/MineSupport/MI_Log_Oak_Top.MI_Log_Oak_Top'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/MineSupport/MI_log_Oak.MI_Log_Oak'
+        MaterialSlotName = Material #33
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.084, 100.084, 1327.6, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/MineSupport/MI_Log_Oak_Top.MI_Log_Oak_Top'
+        MaterialSlotName = Material #36
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.059, 100.059, 1077.11, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=700.414, Y=-50.0296, Z=350.207 }
+    BoxExtent = { X=800.472, Y=50.0295, Z=350.207 }
+    SphereRadius = 875.159
+}

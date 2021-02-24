@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SlowBow/MI_SlowBow.MI_SlowBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SlowBow/MI_SlowBow.MI_SlowBow'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 132.836, 133.936, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=17.6779, Y=0.0498333, Z=8.39233e-005 }
+    BoxExtent = { X=35.3556, Y=3.17484, Z=70.7108 }
+    SphereRadius = 70.7821
+}

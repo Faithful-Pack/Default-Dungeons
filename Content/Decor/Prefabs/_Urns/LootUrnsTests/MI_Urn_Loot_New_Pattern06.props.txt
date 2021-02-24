@@ -1,35 +1,35 @@
+Parent = MaterialInstanceConstant'Decor/Prefabs/_Urns/LootUrnsTests/MI_Urn_Loot_New_Pattern03.MI_Urn_Loot_New_Pattern03'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[3] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern06.T_Urn_Loot_New_Pattern06'
         ParameterInfo = { Name=01 Base Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern06.T_Urn_Loot_New_Pattern06'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern06_Spec.T_Urn_Loot_New_Pattern06_Spec'
         ParameterInfo = { Name=03 Specular Alpha }
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_Pattern06_Spec.T_Urn_Loot_New_Pattern06_Spec'
+        ParameterName = None
     }
     TextureParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_EM.T_Urn_Loot_New_EM'
         ParameterInfo = { Name=03 Emissive }
+        ParameterValue = Texture2D'Decor/Prefabs/_Urns/LootUrnsTests/T_Urn_Loot_New_EM.T_Urn_Loot_New_EM'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = MaterialInstanceConstant'Decor/Prefabs/_Urns/LootUrnsTests/MI_Urn_Loot_New_Pattern03.MI_Urn_Loot_New_Pattern03'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -39,6 +39,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Emissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -46,3 +61,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Urn_Loot_New_Pattern06_Spec
+    }
+}

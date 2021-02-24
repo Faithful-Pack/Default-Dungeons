@@ -1,97 +1,97 @@
+Parent = Material3'Components/Enchantments/M_Master_Enchantment.M_Master_Enchantment'
 ScalarParameterValues[9] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 3.14
         ParameterInfo = { Name=Blue_Offset }
+        ParameterValue = 3.14
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 5
         ParameterInfo = { Name=Blue_SinusMin }
+        ParameterValue = 5
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 6
         ParameterInfo = { Name=Blue_SinusVariation }
+        ParameterValue = 6
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Green_Offset }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Green_SinusMin }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=Green_SinusVariation }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 1.57
         ParameterInfo = { Name=Red_Offset }
+        ParameterValue = 1.57
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=Red_SinusVariation }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Components/Enchantments/RadianceMelee/T_RadianceMeleeShine_Icon.T_RadianceMeleeShine_Icon'
         ParameterInfo = { Name=AdditiveTexture }
+        ParameterValue = Texture2D'Components/Enchantments/RadianceMelee/T_RadianceMeleeShine_Icon.T_RadianceMeleeShine_Icon'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Components/Enchantments/RadianceMelee/T_RadianceMelee_Icon.T_RadianceMelee_Icon'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Components/Enchantments/RadianceMelee/T_RadianceMelee_Icon.T_RadianceMelee_Icon'
+        ParameterName = None
     }
 }
 VectorParameterValues[3] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=0.023922, B=0.067708, A=1 }
         ParameterInfo = { Name=B_Color }
+        ParameterValue = { R=0, G=0.023922, B=0.067708, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.546424, B=0.354335, A=1 }
         ParameterInfo = { Name=G_Color }
+        ParameterValue = { R=1, G=0.546424, B=0.354335, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.937693, G=1, B=0.895314, A=1 }
         ParameterInfo = { Name=R_Color }
+        ParameterValue = { R=0.937693, G=1, B=0.895314, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Components/Enchantments/M_Master_Enchantment.M_Master_Enchantment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -101,6 +101,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -108,3 +115,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

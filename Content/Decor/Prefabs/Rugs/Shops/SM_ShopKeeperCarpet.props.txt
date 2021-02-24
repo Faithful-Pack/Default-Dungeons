@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Rugs/Shops/MI_ShopKeeperCarpet.MI_ShopKeeperCarpet'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Rugs/Shops/MI_ShopKeeperCarpet.MI_ShopKeeperCarpet'
+        MaterialSlotName = Base_003
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 330.404, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62939e-006, Y=0, Z=-15.625 }
+    BoxExtent = { X=56.25, Y=100, Z=21.875 }
+    SphereRadius = 116.801
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Furniture/MI_Table.MI_Table'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_Furniture/MI_Table.MI_Table'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Furniture/MI_Table.MI_Table'
+        MaterialSlotName = MapTable:MeshMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Furniture/MI_Table.MI_Table'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 443.88, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-50, Z=0 }
+    BoxExtent = { X=100, Y=50, Z=134.375 }
+    SphereRadius = 174.805
+}

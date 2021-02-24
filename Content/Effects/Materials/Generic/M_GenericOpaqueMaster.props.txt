@@ -1,14 +1,11 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Combat/T_Combat_Stab_Grayscale.T_Combat_Stab_Grayscale'
 }
-Expressions[3] =
-{
-    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Generic/M_GenericOpaqueMaster.MaterialExpressionTextureSampleParameter2D_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -21,7 +18,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -30,15 +26,7 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Effects/Materials/Combat/T_Combat_Stab_Grayscale.T_Combat_Stab_Grayscale'
-        Name = Texture
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
@@ -48,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

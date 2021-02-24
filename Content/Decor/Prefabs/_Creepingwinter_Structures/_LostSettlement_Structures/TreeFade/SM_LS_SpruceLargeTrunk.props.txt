@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/TreeFade/M_SpruceLog.M_SpruceLog'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/TreeFade/M_SpruceLog.M_SpruceLog'
+        MaterialSlotName = SpruceTree
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 631.292, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-50.0001, Z=500 }
+    BoxExtent = { X=50, Y=50, Z=300 }
+    SphereRadius = 308.221
+}

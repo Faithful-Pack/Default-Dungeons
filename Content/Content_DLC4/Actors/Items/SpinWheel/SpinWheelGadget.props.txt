@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC4/Actors/Items/SpinWheel/M_Spinwheel.M_Spinwheel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC4/Actors/Items/SpinWheel/M_Spinwheel.M_Spinwheel'
+        MaterialSlotName = lambert10SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 98.1607, 108.998, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=6.25 }
+    BoxExtent = { X=40.625, Y=3.125, Z=34.375 }
+    SphereRadius = 53.2892
+}

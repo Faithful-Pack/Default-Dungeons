@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Woodblock/MI_Woodblock.MI_Woodblock'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Woodblock/MI_Woodblock.MI_Woodblock'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 236.253, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-31.25, Z=-7.62939e-006 }
+    BoxExtent = { X=40.625, Y=31.25, Z=50 }
+    SphereRadius = 71.6028
+}

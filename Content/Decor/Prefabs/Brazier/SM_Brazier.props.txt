@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Brazier/MI_Brazier.MI_Brazier'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Brazier/MI_Brazier.MI_Brazier'
+        MaterialSlotName = initialShadingGroup_polySurface8Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 202.404, 347.452, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-71.875, Z=0 }
+    BoxExtent = { X=71.875, Y=71.875, Z=71.875 }
+    SphereRadius = 102.078
+}

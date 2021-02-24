@@ -1,11 +1,8 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] = { Texture2D'Cues/FrozenSolid/Splash.Splash' }
-Expressions[7] =
-{
-    Expressions[0] = MaterialExpressionTextureSample'Cues/FrozenSolid/M_Splash.MaterialExpressionTextureSample_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -18,14 +15,13 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Additive (3)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
@@ -37,3 +33,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

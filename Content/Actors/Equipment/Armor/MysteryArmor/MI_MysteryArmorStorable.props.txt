@@ -1,49 +1,49 @@
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=SoulPower }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor.T_MysteryArmor'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor.T_MysteryArmor'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor_S.T_MysteryArmor_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Equipment/Armor/MysteryArmor/T_MysteryArmor_S.T_MysteryArmor_S'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=3.71807, G=45, B=0, A=1 }
         ParameterInfo = { Name=Emissive }
+        ParameterValue = { R=3.71807, G=45, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -53,6 +53,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ConstantEmissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -60,3 +75,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_DiagonalLine
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MysteryArmor
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MysteryArmor_S
+    }
+}

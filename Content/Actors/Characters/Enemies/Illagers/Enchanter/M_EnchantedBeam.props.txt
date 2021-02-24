@@ -1,24 +1,11 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
-Expressions[50] =
-{
-    Expressions[0] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionTextureSample_18'
-    Expressions[2] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionTextureSample_19'
-    Expressions[7] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionTextureSample_2'
-    Expressions[19] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_0'
-    Expressions[23] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_1'
-    Expressions[25] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_2'
-    Expressions[28] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_3'
-    Expressions[33] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_4'
-    Expressions[35] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_8'
-    Expressions[46] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_9'
-    Expressions[49] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.MaterialExpressionScalarParameter_10'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -31,27 +18,16 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[8] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=Offset, Group=None }
-    CollectedScalarParameters[1] = { Value=2, Name=GradientX, Group=None }
-    CollectedScalarParameters[2] = { Value=1, Name=CoordinateMultiplier, Group=None }
-    CollectedScalarParameters[3] = { Value=4, Name=GradientMultiplierX, Group=None }
-    CollectedScalarParameters[4] = { Value=2, Name=InnerBeam, Group=None }
-    CollectedScalarParameters[5] = { Value=8, Name=Power, Group=None }
-    CollectedScalarParameters[6] = { Value=0, Name=DestroyedBeam, Group=None }
-    CollectedScalarParameters[7] = { Value=255, Name=CloudSrength, Group=None }
-}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -60,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

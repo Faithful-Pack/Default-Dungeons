@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/IcePiles/M_IcePiles_PF_Inst.M_IcePiles_PF_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/IcePiles/M_IcePiles_PF_Inst.M_IcePiles_PF_Inst'
+        MaterialSlotName = M_IcePiles_013
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.082, 217.981, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-121.875, Y=-56.25, Z=18.75 }
+    BoxExtent = { X=75, Y=62.5, Z=18.75 }
+    SphereRadius = 99.4123
+}

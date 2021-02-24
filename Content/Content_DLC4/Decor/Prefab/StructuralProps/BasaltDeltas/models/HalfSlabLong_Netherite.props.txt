@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherWastesProps.MI_NetherWastesProps'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherWastesProps.MI_NetherWastesProps'
+        MaterialSlotName = TextureAtlas_NetherWasteProps_MAT
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.538, 267.802, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=12.5, Z=0 }
+    BoxExtent = { X=100, Y=12.5, Z=50 }
+    SphereRadius = 112.5
+}

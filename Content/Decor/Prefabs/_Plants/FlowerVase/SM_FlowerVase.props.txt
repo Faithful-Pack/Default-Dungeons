@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/FlowerVase/MI_FlowerVase.MI_FlowerVase'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_Plants/FlowerVase/MI_FlowerVase.MI_FlowerVase'
+    Materials[2] = MaterialInstanceConstant'Decor/Prefabs/_Plants/FlowerVase/MI_FlowerVase.MI_FlowerVase'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/FlowerVase/MI_FlowerVase.MI_FlowerVase'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.092, 386.695, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/FlowerVase/MI_FlowerVase.MI_FlowerVase'
+        MaterialSlotName = pCube2Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.18, 386.155, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/FlowerVase/MI_FlowerVase.MI_FlowerVase'
+        MaterialSlotName = pCube3Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.977, 386.142, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-84.375, Z=0 }
+    BoxExtent = { X=50, Y=84.375, Z=50 }
+    SphereRadius = 110.087
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Flowers/FlowerColors/M_Flower_Nicolos.M_Flower_Nicolos'
+    Materials[1] = Material3'Decor/Prefabs/Flowers/M_FlowerRoot.M_FlowerRoot'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Flowers/FlowerColors/M_Flower_Nicolos.M_Flower_Nicolos'
+        MaterialSlotName = M_Flower_Nicolos
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 103.79, 104.082, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/Flowers/M_FlowerRoot.M_FlowerRoot'
+        MaterialSlotName = M_FlowerRoot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.8768, 100.856, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=19.2173, Y=5.16947, Z=23.077 }
+    BoxExtent = { X=71.5705, Y=63.8564, Z=23.0906 }
+    SphereRadius = 95.8824
+}

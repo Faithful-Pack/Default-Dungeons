@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/ArchersStrappings_Unique1/MI_HuntersArmor.MI_HuntersArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/ArchersStrappings_Unique1/MI_HuntersArmor.MI_HuntersArmor'
+        MaterialSlotName = pasted__lambert2SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 515.188, 67.8575, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.22374, Y=-66.7969, Z=-0.111244 }
+    BoxExtent = { X=9.92049, Y=10.5469, Z=14.0625 }
+    SphereRadius = 20.1843
+}

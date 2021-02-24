@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_CrimsonProps.MI_CrimsonProps'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_CrimsonProps.MI_CrimsonProps'
+        MaterialSlotName = phong2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 499.766, 185.507, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.725853, Y=-1.59475, Z=75 }
+    BoxExtent = { X=55.058, Y=49.228, Z=75 }
+    SphereRadius = 92.2373
+}

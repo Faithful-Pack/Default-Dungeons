@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/WitchTreeFade/M_WTFadeTrunk_PF.M_WTFadeTrunk_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/WitchTreeFade/M_WTFadeTrunk_PF.M_WTFadeTrunk_PF'
+        MaterialSlotName = WitchTree
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 4263.49, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=6.10352e-005, Z=400 }
+    BoxExtent = { X=1200, Y=1000, Z=400 }
+    SphereRadius = 1456.02
+}

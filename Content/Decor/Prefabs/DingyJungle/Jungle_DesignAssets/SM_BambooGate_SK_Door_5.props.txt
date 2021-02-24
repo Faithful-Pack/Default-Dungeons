@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/MI_BambooGate.MI_BambooGate'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/MI_BambooGate.MI_BambooGate'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.367, 173.08, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=3.125 }
+    BoxExtent = { X=250, Y=18.75, Z=3.125 }
+    SphereRadius = 250.722
+}

@@ -1,29 +1,29 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/End_Rogue/T_EndRogue_S.T_EndRogue_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/End_Rogue/T_EndRogue_S.T_EndRogue_S'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/End_Rogue/T_EndRogue_Skin.T_EndRogue_Skin'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/End_Rogue/T_EndRogue_Skin.T_EndRogue_Skin'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -33,6 +33,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Specular }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -40,3 +55,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EndRogue_S
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EndRogue_Skin
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

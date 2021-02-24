@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/Mi_Windhole_GS.Mi_Windhole_GS'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/Mi_Windhole_GS.Mi_Windhole_GS'
+        MaterialSlotName = GS_WH
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 302.118, 306.865, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=50, Z=-1.62921e-005 }
+    BoxExtent = { X=150, Y=150, Z=2.44381e-005 }
+    SphereRadius = 212.132
+}

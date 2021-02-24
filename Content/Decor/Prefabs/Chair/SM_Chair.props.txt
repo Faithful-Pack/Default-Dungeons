@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Chair/MI_Chair.MI_Chair'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Chair/MI_Chair.MI_Chair'
+        MaterialSlotName = defaultMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.52569, 2.04557, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.721134, Z=0 }
+    BoxExtent = { X=0.322526, Y=0.712385, Z=0.322526 }
+    SphereRadius = 0.845895
+}

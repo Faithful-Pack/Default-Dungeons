@@ -2,13 +2,7 @@ TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] = { Texture2D'Materials/T_WaterTile.T_WaterTile' }
-Expressions[25] =
-{
-    Expressions[4] = MaterialExpressionTextureSample'Decor/Prefabs/Waterfall/M_Waterfall.MaterialExpressionTextureSample_3'
-    Expressions[11] = MaterialExpressionTextureSample'Decor/Prefabs/Waterfall/M_Waterfall.MaterialExpressionTextureSample_4'
-    Expressions[20] = MaterialExpressionScalarParameter'Decor/Prefabs/Waterfall/M_Waterfall.MaterialExpressionScalarParameter_0'
-    Expressions[24] = MaterialExpressionVectorParameter'Decor/Prefabs/Waterfall/M_Waterfall.MaterialExpressionVectorParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -21,29 +15,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[1] =
-{
-    CollectedScalarParameters[0] = { Value=1, Name=Speed, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.035788, G=0.070591, B=0.175, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -51,3 +33,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

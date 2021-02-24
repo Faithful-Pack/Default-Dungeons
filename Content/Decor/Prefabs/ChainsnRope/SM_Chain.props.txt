@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/ChainsnRope/MI_Chain.MI_Chain'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/ChainsnRope/MI_Chain.MI_Chain'
+        MaterialSlotName = ChainMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 56.789, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=50, Z=0 }
+    BoxExtent = { X=15.625, Y=50, Z=0 }
+    SphereRadius = 52.3846
+}

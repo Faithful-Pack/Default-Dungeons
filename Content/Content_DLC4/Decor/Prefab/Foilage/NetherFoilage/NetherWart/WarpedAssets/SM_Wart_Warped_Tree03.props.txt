@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_Warped.MI_Warped'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_WarpedFoliage_Still.MI_WarpedFoliage_Still'
+    Materials[2] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_HangingWarped.MI_HangingWarped'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_Warped.MI_Warped'
+        MaterialSlotName = MI_Warped
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 1836.62, 2287.82, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_WarpedFoliage_Still.MI_WarpedFoliage_Still'
+        MaterialSlotName = MI_WarpedFoliage_Still
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.031, 2173.29, 2295.76, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_HangingWarped.MI_HangingWarped'
+        MaterialSlotName = MI_HangingWarped
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 301.399, 21815.7, 2283.74, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50.0001, Y=3.05176e-005, Z=262.5 }
+    BoxExtent = { X=251.071, Y=301.071, Z=437.5 }
+    SphereRadius = 494.048
+}

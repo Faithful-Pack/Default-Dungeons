@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/Armor/EmeraldArmor_Unique2/MI_EmeraldArmor_Unique2.MI_EmeraldArmor_Unique2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/Armor/EmeraldArmor_Unique2/MI_EmeraldArmor_Unique2.MI_EmeraldArmor_Unique2'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 351.822, 117.764, 97.8953, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.23978e-005, Y=-21.9411, Z=-0.108767 }
+    BoxExtent = { X=13.75, Y=22.0539, Z=13.75 }
+    SphereRadius = 29.4023
+}

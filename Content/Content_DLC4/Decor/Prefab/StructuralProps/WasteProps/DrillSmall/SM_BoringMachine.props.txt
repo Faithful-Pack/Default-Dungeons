@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringMachine.MI_BoringMachine'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringMachineTwoSided.MI_BoringMachineTwoSided'
+    Materials[2] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringChain.MI_BoringChain'
+    Materials[3] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/GenericFoilage/MI_HangingRoots.MI_HangingRoots'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringMachine.MI_BoringMachine'
+        MaterialSlotName = Bore
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 3181.73, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringMachineTwoSided.MI_BoringMachineTwoSided'
+        MaterialSlotName = BaseTwoSided
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.212, 3192.61, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/WasteProps/DrillSmall/MI_BoringChain.MI_BoringChain'
+        MaterialSlotName = Chain
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.551, 3186.34, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/GenericFoilage/MI_HangingRoots.MI_HangingRoots'
+        MaterialSlotName = Plants
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.001, 3186.69, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=56.7758, Y=-67.4707, Z=32.0439 }
+    BoxExtent = { X=509.794, Y=520.489, Z=632.044 }
+    SphereRadius = 824.332
+}

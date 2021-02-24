@@ -1,37 +1,37 @@
+Parent = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/MI_MountainButton_CR.MI_MountainButton_CR'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_M.GoldButtonCR_M'
         ParameterInfo = { Name=08 Mask }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_M.GoldButtonCR_M'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_E.GoldButtonCR_E'
         ParameterInfo = { Name=03 Emissive }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/GoldButtonCR_E.GoldButtonCR_E'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.120972, G=0.429991, B=1, A=1 }
         ParameterInfo = { Name=07 Color }
+        ParameterValue = { R=0.120972, G=0.429991, B=1, A=1 }
+        ParameterName = None
     }
 }
-Parent = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Buttons/MI_MountainButton_CR.MI_MountainButton_CR'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -41,6 +41,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=06 Use a color overlay }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -48,3 +63,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = GoldButtonCR_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = GoldButtonCR_S
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+}

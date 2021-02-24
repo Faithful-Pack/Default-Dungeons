@@ -1,0 +1,2335 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "netherfortress",
+    "play-intro": true,
+    "require-matching-doors": true,
+    "resource-packs": [
+        "nether"
+    ],
+    "object-groups": [
+        "netherfortress/objectgroup"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 2,
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "netherfortress_default"
+        ],
+        "density": 1
+    },
+    "objectives": [
+        {
+            "name": "name_nf",
+            "description": "desc_nf_01",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "bossflankleft.*.gauntletleft"
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_01",
+            "consider-tiles": "all",
+            "displayMode": "SubObjective",
+            "gauntlet": {
+                "end-region": "flankentrance_left.*.gauntlet"
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_01",
+            "consider-tiles": "all",
+            "displayMode": "SubObjective",
+            "gauntlet": {
+                "end-region": "transition_left.*.gauntlet"
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_01",
+            "consider-tiles": "all",
+            "displayMode": "SubObjective",
+            "gauntlet": {
+                "end-region": "netherflankend_left.*.gauntlet"
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_02",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/Interactables/NetherBeacon/BP_NetherBeacon",
+                "door-path": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                "count": 4,
+                "locations": [
+                    "netherflankend_left.*.seqclicky"
+                ],
+                "mobs": [
+                    3,
+                    "netherfortress_default"
+                ],
+                "spawn-regions": [
+                    "netherflankend_left.*.*"
+                ],
+                "locked-doors": [
+                    "netherflankend_left.*.endgate"
+                ]
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_01",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "bosleft01.*.gauntlet"
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_03",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/NetherFortressGate/BP_NehterFortressSilverGate_Rotated",
+                "count": 1,
+                "locations": [
+                    "*.nft_bossroom_a.silvergate"
+                ],
+                "key-locations": [
+                    "*.nft_bossroom_a.silverkey"
+                ],
+                "mobs": [
+                    1,
+                    "netherfortress_default"
+                ],
+                "key-type": "silver",
+                "spawn-regions": [
+                    "*.nft_bossroom_a.*"
+                ]
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_04",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "netherflankend_right.*.gauntlet"
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_05",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/Interactables/TagBasedInteractables/BP_Interactable_Tag_LavaPlane01",
+                "door-path": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                "count": 1,
+                "locations": [
+                    "netherflankend_right.*.nft_lavagate_clicky"
+                ],
+                "mobs": [
+                    3,
+                    "netherfortress_default"
+                ],
+                "spawn-regions": [
+                    "netherflankend_right.*.*"
+                ],
+                "locked-doors": [
+                    "netherflankend_right.*.nft_lavagate"
+                ]
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_06",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/Interactables/NetherBeacon/BP_NetherBeacon",
+                "door-path": "Content_DLC4/Decor/Prefab/Functional/NetherfortressBridge/BP_NetherFortressBridge_Rotated",
+                "count": 1,
+                "locations": [
+                    "netherflankend_right.*.nft_bridgeclicky"
+                ],
+                "mobs": [
+                    3,
+                    "netherfortress_default"
+                ],
+                "spawn-regions": [
+                    "netherflankend_right.*.*"
+                ],
+                "locked-doors": [
+                    "netherflankend_right.*.nft_bridge"
+                ]
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_07",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/NetherFortressGate/BP_NehterFortressGoldGate",
+                "count": 1,
+                "locations": [
+                    "*.nft_bossroom_a.goldgate"
+                ],
+                "key-locations": [
+                    "*.nft_bossroom_a.goldkey"
+                ],
+                "mobs": [
+                    1,
+                    "netherfortress_default"
+                ],
+                "key-type": "gold",
+                "spawn-regions": [
+                    "*.nft_bossroom_a.*"
+                ]
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_09",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/Interactables/TagBasedInteractables/BP_Interactable_Tag_BlazeFight01",
+                "count": 1,
+                "locations": [
+                    "*.*.stairgateTrigger"
+                ]
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_10",
+            "arena": {
+                "stretch": "bossroom",
+                "interval": 10,
+                "rest-interval": 1,
+                "start-time": 8,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "blaze_maze"
+                    ],
+                    [
+                        4,
+                        "blaze_maze"
+                    ],
+                    [
+                        4,
+                        "blaze_maze"
+                    ],
+                    [
+                        6,
+                        "blaze_maze"
+                    ],
+                    [
+                        5,
+                        "blaze_maze"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_Blackstone_NetherFortressEnd_Long",
+                    "start-unlocked": false,
+                    "regions": [
+                        "*.*.bossclickygate"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_11",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/ExitDoors/BP_CrimsonDoor_Framed",
+                "count": 1,
+                "locations": [
+                    "*.*.exitnetherfortress"
+                ]
+            }
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "nft_bossroom_entrance01"
+            ]
+        },
+        {
+            "id": "bossroom",
+            "tiles": [
+                "nft_bossroom_a"
+            ]
+        },
+        {
+            "id": "bossflankleft",
+            "tiles": [
+                "nft_bossroom_b"
+            ]
+        },
+        {
+            "id": "bosleft01",
+            "tiles": [
+                "nft_bossroom_c"
+            ]
+        },
+        {
+            "id": "bosleft02",
+            "tiles": [
+                "nft_bossroom_d"
+            ]
+        },
+        {
+            "id": "bossend",
+            "tiles": [
+                "nft_endroom"
+            ]
+        },
+        {
+            "id": "bossright01",
+            "tiles": [
+                "nft_bossroom_f"
+            ]
+        },
+        {
+            "id": "bossright02",
+            "tiles": [
+                "nft_bossroom_g"
+            ]
+        },
+        {
+            "id": "bossflankright",
+            "tiles": [
+                "nft_bossroom_h"
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "tiles": [
+                        "nft_inner_mainextension01"
+                    ]
+                }
+            }
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "firstfortress01",
+            "ambience": "bravo",
+            "audio-ambience": "audio_2",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "id": "firstfortressstart",
+                    "tiles": [
+                        "nft_stairs01"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "piglin_stand"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fortressflank01",
+            "ambience": "default",
+            "audio-ambience": "audio_2",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "id": "flankentrance_left",
+                    "tiles": [
+                        "nft_inner_entrance01"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "nft_inner_small_tiles"
+                    ],
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "tile-groups": [
+                                "nft_inner_small_tiles",
+                                "nft_inner_large_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    2,
+                                    3
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        {
+                            "id": "nft_inner_small_tiles",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "nft_inner_large_tiles",
+                            "weight": 1.5
+                        }
+                    ],
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "tile-groups": [
+                                "nft_inner_small_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    4
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "transition_left",
+                    "tile-groups": [
+                        "nft_inner_transition"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        {
+                            "id": "nft_small_tiles",
+                            "weight": 1.5
+                        },
+                        {
+                            "id": "nft_medium_tiles",
+                            "weight": 1.1
+                        },
+                        {
+                            "id": "nft_large_tiles",
+                            "weight": 0.05
+                        }
+                    ],
+                    "length": 2,
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "nft_prop_small",
+                        "nft_prop_square"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "tile-groups": [
+                                "nft_small_tiles",
+                                {
+                                    "id": "nft_medium_tiles",
+                                    "weight": 0.5
+                                }
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "nft_challengearena"
+                    ],
+                    "length": 1,
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "nft_prop_small",
+                        "nft_prop_square"
+                    ],
+                    "side-paths": {
+                        "probability": 0.2,
+                        "default": {
+                            "tile-groups": [
+                                "nft_small_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        {
+                            "id": "nft_small_tiles",
+                            "weight": 1.5
+                        },
+                        "nft_large_tiles"
+                    ],
+                    "length": 1,
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "nft_prop_small",
+                        "nft_prop_square"
+                    ],
+                    "side-paths": {
+                        "probability": 0.2,
+                        "default": {
+                            "tile-groups": [
+                                "nft_small_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "netherflankend_left",
+                    "tiles": [
+                        "nft_objective_tile02"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fortressflank02",
+            "ambience": "default",
+            "audio-ambience": "audio_2",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        "nft_inner_entrance02"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "nft_inner_small_tiles"
+                    ],
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "tile-groups": [
+                                "nft_inner_small_tiles",
+                                "nft_inner_large_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    2,
+                                    3
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        {
+                            "id": "nft_inner_small_tiles",
+                            "weight": 0.2
+                        },
+                        {
+                            "id": "nft_inner_large_tiles",
+                            "weight": 1.5
+                        }
+                    ],
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "tile-groups": [
+                                "nft_inner_small_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "nft_inner_transition"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        {
+                            "id": "nft_small_tiles",
+                            "weight": 1.5
+                        },
+                        {
+                            "id": "nft_medium_tiles",
+                            "weight": 1.1
+                        },
+                        {
+                            "id": "nft_large_tiles",
+                            "weight": 0.05
+                        }
+                    ],
+                    "length": 2,
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "nft_prop_small",
+                        "nft_prop_square"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "tile-groups": [
+                                "nft_small_tiles",
+                                {
+                                    "id": "nft_medium_tiles",
+                                    "weight": 0.5
+                                }
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        {
+                            "id": "nft_small_tiles",
+                            "weight": 0.2
+                        },
+                        "nft_large_tiles"
+                    ],
+                    "length": 1,
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "nft_prop_small",
+                        "nft_prop_square"
+                    ],
+                    "side-paths": {
+                        "probability": 0.2,
+                        "default": {
+                            "tile-groups": [
+                                "nft_small_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "nft_challengearena"
+                    ],
+                    "length": 1,
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "nft_prop_small",
+                        "nft_prop_square"
+                    ],
+                    "side-paths": {
+                        "probability": 0.2,
+                        "default": {
+                            "tile-groups": [
+                                "nft_small_tiles"
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        {
+                            "id": "nft_small_tiles",
+                            "weight": 1.5
+                        },
+                        "nft_large_tiles"
+                    ],
+                    "length": 1,
+                    "prop-density": 2,
+                    "prop-groups": [
+                        "nft_prop_small",
+                        "nft_prop_square"
+                    ],
+                    "side-paths": {
+                        "probability": 0.2,
+                        "default": {
+                            "tile-groups": [
+                                "nft_small_tiles",
+                                {
+                                    "id": "nft_large_tiles",
+                                    "weight": 0.3
+                                }
+                            ]
+                        },
+                        "variants": [
+                            {
+                                "weight": 0.2,
+                                "max-length": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "weight": 0.8,
+                                "max-length": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "netherflankend_right",
+                    "tiles": [
+                        "nft_objective_tile01"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fortress_cellar",
+            "ambience": "bravo",
+            "audio-ambience": "audio_1",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        1,
+                        1,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tile-groups": [
+                        "nft_cellar"
+                    ],
+                    "dead-ends": [
+                        "nft_cellarreward01",
+                        "nft_cellarreward02"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nft_outdoor",
+            "ambience": "alpha",
+            "audio-ambience": "audio_1",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        1,
+                        1,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        "nft_outdoor_entrance01"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "nft_outdoor_tile01",
+                        "nft_outdoor_tile02",
+                        "nft_outdoor_tile03"
+                    ]
+                }
+            ]
+        }
+    ],
+    "mob-groups": [
+        {
+            "#": "============== BD DEFAULT GROUP ==============",
+            "id": "bd-default-group",
+            "types": [
+                {
+                    "type": "piglinmelee",
+                    "weight": 1
+                },
+                {
+                    "type": "witherskeleton",
+                    "weight": 0.3
+                },
+                {
+                    "type": "enchanter",
+                    "weight": 0.15,
+                    "max%": 0.2
+                },
+                {
+                    "type": "blaze",
+                    "weight": 0.2,
+                    "max%": 0.1
+                },
+                {
+                    "type": "piglinrangedvariant0",
+                    "weight": 0.5
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== Nether Fortress ==============",
+            "id": "netherfortress_default",
+            "types": [
+                {
+                    "type": "witherskeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "WitherSkeletonRanged",
+                    "weight": 0.8,
+                    "max%": 0.5
+                },
+                {
+                    "type": "blaze",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "PiglinMelee",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "piglinranged",
+                    "weight": 0.2,
+                    "max%": 0.25
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== Nether Waste ==============",
+            "id": "netherwastes",
+            "types": [
+                {
+                    "type": "piglinmelee",
+                    "weight": 1
+                },
+                {
+                    "type": "piglinranged",
+                    "weight": 0.4
+                },
+                {
+                    "type": "zombifiedpiglinmelee",
+                    "weight": 0.4,
+                    "max%": 0.6
+                },
+                {
+                    "type": "zombifiedpiglinranged",
+                    "weight": 0.2,
+                    "max%": 0.6
+                },
+                {
+                    "type": "blaze",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "hoglin",
+                    "weight": 0.3,
+                    "max%": 0.5
+                },
+                {
+                    "type": "MagmaCubeSmall",
+                    "weight": 0.25,
+                    "max%": 0.2
+                },
+                {
+                    "type": "MagmaCubeMedium",
+                    "weight": 0.25,
+                    "max%": 0.15
+                },
+                {
+                    "type": "MagmaCubeLarge",
+                    "weight": 0.25,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ]
+        },
+        {
+            "#": "============== Nether Waste ==============",
+            "id": "piglin_stand",
+            "types": [
+                {
+                    "type": "piglinmelee",
+                    "weight": 1
+                },
+                {
+                    "type": "piglinranged",
+                    "weight": 0.5,
+                    "max%": 0.4
+                },
+                {
+                    "type": "zombifiedpiglinmelee",
+                    "weight": 0.4,
+                    "max%": 0.6
+                },
+                {
+                    "type": "zombifiedpiglinranged",
+                    "weight": 0.2,
+                    "max%": 0.6
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== Nether Waste Fortress ==============",
+            "id": "netherwastes_fortress",
+            "types": [
+                {
+                    "type": "PiglinMelee",
+                    "weight": 0.6,
+                    "max%": 0.3
+                },
+                {
+                    "type": "blaze",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "witherskeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "WitherSkeletonRanged",
+                    "weight": 0.3,
+                    "max%": 0.25,
+                    "min-difficulty": 2
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== Nether Waste Fortress Hard ==============",
+            "id": "netherwastes_fortress_hard",
+            "types": [
+                {
+                    "type": "piglinmelee",
+                    "weight": 0.1
+                },
+                {
+                    "type": "piglinranged",
+                    "weight": 0.3
+                },
+                {
+                    "type": "blaze",
+                    "weight": 0.5,
+                    "max%": 0.5
+                },
+                {
+                    "type": "witherskeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "piglinfungusthrower",
+                    "weight": 0.3,
+                    "max%": 0.4
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ]
+        },
+        {
+            "#": "============== Wither Blaze ==============",
+            "id": "wither_blaze",
+            "types": [
+                {
+                    "type": "blaze",
+                    "weight": 0.25,
+                    "max%": 0.1
+                },
+                {
+                    "type": "witherskeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "WitherSkeletonRanged",
+                    "weight": 1,
+                    "max%": 0.25
+                }
+            ],
+            "pick-types": [
+                2,
+                2
+            ]
+        },
+        {
+            "#": "============== Wither Blaze Hard ==============",
+            "id": "wither_blaze_hard",
+            "types": [
+                {
+                    "type": "blaze",
+                    "weight": 0.5,
+                    "max%": 0.5
+                },
+                {
+                    "type": "witherskeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "WitherSkeletonRanged",
+                    "weight": 1,
+                    "max%": 0.4
+                }
+            ]
+        },
+        {
+            "#": "============== Nether Waste ==============",
+            "id": "blaze_maze",
+            "types": [
+                {
+                    "type": "blaze",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "props": [
+        {
+            "id": "nft_prop_small01"
+        },
+        {
+            "id": "nft_prop_small02"
+        },
+        {
+            "id": "nft_prop_small03"
+        },
+        {
+            "id": "nft_prop_small04"
+        },
+        {
+            "id": "nft_prop_square01"
+        },
+        {
+            "id": "nft_prop_square02"
+        },
+        {
+            "id": "nft_prop_square03"
+        },
+        {
+            "id": "nft_prop_square04"
+        },
+        {
+            "id": "nft_prop_netherdoor_entrance01",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "hm_from_nether"
+            ]
+        },
+        {
+            "id": "nft_prop_door_entrance01",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "hm_from_overworld"
+            ]
+        },
+        {
+            "id": "nft_prop_empty_entrance01",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "hm_from_none"
+            ]
+        },
+        {
+            "id": "nft_prop_netherdoor_exit01",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "hm_to_nether"
+            ]
+        },
+        {
+            "id": "nft_prop_door_exit01",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "hm_to_overworld"
+            ]
+        },
+        {
+            "id": "nft_prop_none_exit01",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "hm_to_none"
+            ]
+        }
+    ],
+    "tiles": [
+        {
+            "id": "nft_stairs01",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "entrance",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_FramedTravelDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_large_tile03",
+            "entry-door": "exit"
+        },
+        {
+            "id": "nft_inner_transition01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "nft_inner_transition02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "nft_inner_entrance01",
+            "rotations": [
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_inner_entrance02",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_inner_large_tile01",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_inner_large_tile02",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_inner_large_tile03",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_inner_large_tile04",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_inner_large_tile05",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_inner_large_tile06",
+            "entry-door": "enter",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "nft_outdoor"
+                    ],
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_FramedTravelDoor"
+                }
+            ]
+        },
+        {
+            "id": "hyperdungeon@nft_inner_large_tile06",
+            "entry-door": "enter",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nft_challengearena01",
+            "challenges": [
+                "arenachallenge_medium"
+            ],
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_challengearena02",
+            "challenges": [
+                "arenachallenge_medium"
+            ],
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_challengearena03",
+            "challenges": [
+                "arenachallenge_medium"
+            ],
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_challengearena04",
+            "challenges": [
+                "arenachallenge_medium"
+            ],
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_small_deadend02",
+            "challenges": [
+                "arenachallenge_small"
+            ]
+        },
+        {
+            "id": "nft_small_deadend03",
+            "challenges": [
+                "arenachallenge_small"
+            ],
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "nft_outdoor"
+                    ],
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_FramedTravelDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_inner_deadend04",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "nft_outdoor"
+                    ],
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_FramedTravelDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_inner_deadend05",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "nft_outdoor"
+                    ],
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_FramedTravelDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_smalltravel_deadend03",
+            "challenges": [
+                "arenachallenge_small"
+            ],
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nft_innertravel_deadend04",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nft_innertravel_deadend05",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nft_inner_deadend07",
+            "challenges": [
+                "arenachallenge_medium"
+            ]
+        },
+        {
+            "id": "nft_inner_deadend08",
+            "challenges": [
+                "arenachallenge_medium"
+            ]
+        },
+        {
+            "id": "hm_from_nether@nft_inner_entrance01",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Nether"
+                }
+            ],
+            "unlock-keys": [
+                "hm_from_nether"
+            ]
+        },
+        {
+            "id": "hm_from_overworld@nft_inner_entrance01",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Nether"
+                }
+            ],
+            "unlock-keys": [
+                "hm_from_overworld"
+            ]
+        },
+        {
+            "id": "hm_from_none@nft_inner_entrance01",
+            "rotations": [
+                0,
+                90
+            ],
+            "unlock-keys": [
+                "hm_from_none"
+            ]
+        },
+        {
+            "id": "hm_to_nether@nft_objective_tile01",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "@hyperlevel"
+                    ]
+                }
+            ],
+            "unlock-keys": [
+                "hm_to_nether"
+            ]
+        },
+        {
+            "id": "hm_to_overworld@nft_objective_tile01",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "dungeons": [
+                        "@hyperlevel"
+                    ]
+                }
+            ],
+            "unlock-keys": [
+                "hm_to_overworld"
+            ]
+        },
+        {
+            "id": "hm_to_none@nft_objective_tile01",
+            "rotations": [
+                90
+            ],
+            "unlock-keys": [
+                "hm_to_none"
+            ]
+        },
+        {
+            "id": "nft_objective_tile01",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "exit": "bossright02.*.flankexit_right",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_FramedTravelDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_objective_tile02",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "exit": "bosleft01.*.flankexit_left",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_FramedTravelDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_cellar01",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "arenachallenge_cellar"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_cellar02",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "arenachallenge_cellar"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_cellar03",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "arenachallenge_cellar"
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_inner_mainextension01",
+            "challenges": [
+                "arenachallenge_locked_small"
+            ],
+            "entry-door": "enter"
+        },
+        {
+            "id": "nft_bossroom_a",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_bossroom_b",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "teleports": [
+                {
+                    "door": "flankentrance_left",
+                    "dungeons": [
+                        "fortressflank01"
+                    ],
+                    "exit": "*.*.travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_bossroom_c",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "teleports": [
+                {
+                    "door": "flankexit_left",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ]
+        },
+        {
+            "id": "nft_bossroom_d",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_endroom",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_bossroom_f",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "nft_bossroom_g",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "teleports": [
+                {
+                    "door": "flankexit_right",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ]
+        },
+        {
+            "id": "nft_bossroom_h",
+            "entry-door": "enter",
+            "teleports": [
+                {
+                    "door": "flankentrance_right",
+                    "dungeons": [
+                        "fortressflank02"
+                    ],
+                    "exit": "*.*.travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ]
+        },
+        {
+            "id": "nft_bossroom_entrance01",
+            "rotations": [
+                0
+            ]
+        },
+        {
+            "id": "nft_outdoor_entrance01",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor_Flipped"
+                }
+            ]
+        },
+        {
+            "id": "nft_outdoor_tile01",
+            "challenges": [
+                "arenachallenge_hard"
+            ]
+        },
+        {
+            "id": "nft_outdoor_tile02",
+            "challenges": [
+                "arenachallenge_hard"
+            ]
+        },
+        {
+            "id": "nft_outdoor_tile03",
+            "challenges": [
+                "arenachallenge_hard"
+            ]
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "nft_prop_small",
+            "on-regions": [
+                "*.*.nft_prop_small"
+            ],
+            "props": [
+                "nft_prop_small01",
+                "nft_prop_small02",
+                "nft_prop_small03",
+                "nft_prop_small04"
+            ]
+        },
+        {
+            "id": "nft_prop_square",
+            "on-regions": [
+                "*.*.nft_prop_square"
+            ],
+            "props": [
+                "nft_prop_square01",
+                "nft_prop_square02",
+                "nft_prop_square03",
+                "nft_prop_square04"
+            ]
+        },
+        {
+            "id": "travelprop_entrance",
+            "on-regions": [
+                "*.*.travelprop"
+            ],
+            "props": [
+                "nft_prop_netherdoor_entrance01",
+                "nft_prop_door_entrance01",
+                "nft_prop_empty_entrance01"
+            ]
+        },
+        {
+            "id": "travelprop_exit",
+            "on-regions": [
+                "*.*.travelprop"
+            ],
+            "props": [
+                "nft_prop_netherdoor_exit01",
+                "nft_prop_door_exit01",
+                "nft_prop_none_exit01"
+            ]
+        },
+        {
+            "id": "deadend",
+            "props": [
+                {
+                    "id": "nft_small_deadend01",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_deadend02",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_deadend03",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_large_deadend05",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_large_deadend03",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_large_deadend04",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend01",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend02",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend03",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend04",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend05",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend08",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend07",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend06",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_inner_deadend09",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [
+        {
+            "id": "nft_small_tiles",
+            "tiles": [
+                {
+                    "id": "nft_small_tile01",
+                    "weight": 2
+                },
+                {
+                    "id": "nft_small_tile02",
+                    "weight": 0.5
+                },
+                {
+                    "id": "nft_small_tile03",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_tile04",
+                    "weight": 0.5
+                },
+                {
+                    "id": "nft_small_tile05",
+                    "weight": 1.5
+                },
+                {
+                    "id": "nft_small_tile06",
+                    "weight": 1.5
+                },
+                {
+                    "id": "nft_small_tile07",
+                    "weight": 1.5
+                },
+                {
+                    "id": "nft_small_tile08",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_tile09",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_tile10",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_tile11",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_tile12",
+                    "weight": 1
+                },
+                {
+                    "id": "nft_small_tile13",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "id": "nft_medium_tiles",
+            "tiles": [
+                "nft_medium_tile01",
+                "nft_medium_tile02",
+                "nft_medium_tile03",
+                "nft_medium_tile03"
+            ]
+        },
+        {
+            "id": "nft_large_tiles",
+            "tiles": [
+                "nft_large_tile01",
+                "nft_large_tile02",
+                "nft_large_tile03"
+            ]
+        },
+        {
+            "id": "nft_small_cross",
+            "tiles": [
+                "nft_small_tile01",
+                "nft_small_tile06",
+                "nft_small_tile07"
+            ]
+        },
+        {
+            "id": "nft_small_turn",
+            "tiles": [
+                "nft_small_tile03"
+            ]
+        },
+        {
+            "id": "nft_small_straight",
+            "tiles": [
+                "nft_small_tile02"
+            ]
+        },
+        {
+            "id": "nft_small_elevation",
+            "tiles": [
+                "nft_small_tile04"
+            ]
+        },
+        {
+            "id": "nft_inner_transition",
+            "tiles": [
+                "nft_inner_transition01",
+                "nft_inner_transition02"
+            ]
+        },
+        {
+            "id": "nft_challengearena",
+            "tiles": [
+                "nft_challengearena01",
+                "nft_challengearena02",
+                "nft_challengearena03",
+                "nft_challengearena04"
+            ]
+        },
+        {
+            "id": "nft_inner_small_tiles",
+            "tiles": [
+                {
+                    "id": "nft_inner_small_tile01",
+                    "weight": 3
+                },
+                {
+                    "id": "nft_inner_small_tile02",
+                    "weight": 0.2
+                },
+                {
+                    "id": "nft_inner_small_tile03",
+                    "weight": 2
+                },
+                {
+                    "id": "nft_inner_small_tile04",
+                    "weight": 0.2
+                },
+                {
+                    "id": "nft_inner_small_tile05",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "id": "nft_inner_large_tiles",
+            "tiles": [
+                "nft_inner_large_tile01",
+                "nft_inner_large_tile02",
+                "nft_inner_large_tile03",
+                "nft_inner_large_tile04",
+                "nft_inner_large_tile05",
+                "nft_inner_large_tile06"
+            ]
+        },
+        {
+            "id": "hm_nft_inner_large_tiles",
+            "tiles": [
+                "nft_inner_large_tile01",
+                "nft_inner_large_tile02",
+                "nft_inner_large_tile03",
+                "nft_inner_large_tile04",
+                "nft_inner_large_tile05",
+                "nft_inner_large_tile06",
+                {
+                    "id": "hyperdungeon@nft_inner_large_tile06",
+                    "weight": 20
+                }
+            ]
+        },
+        {
+            "id": "nft_cellar",
+            "tiles": [
+                "nft_cellar01",
+                "nft_cellar02",
+                "nft_cellar03"
+            ]
+        },
+        {
+            "id": "hm_entrance",
+            "tiles": [
+                "hm_from_nether@nft_inner_entrance01",
+                "hm_from_overworld@nft_inner_entrance01",
+                "hm_from_none@nft_inner_entrance01"
+            ]
+        },
+        {
+            "id": "hm_exit",
+            "tiles": [
+                "hm_to_nether@nft_objective_tile01",
+                "hm_to_overworld@nft_objective_tile01",
+                "hm_to_none@nft_objective_tile01"
+            ]
+        }
+    ],
+    "challenges": [
+        {
+            "id": "arenachallenge_medium",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.*.challengereward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "wither_blaze"
+                    ],
+                    [
+                        3,
+                        "wither_blaze"
+                    ],
+                    [
+                        5,
+                        "wither_blaze_hard"
+                    ],
+                    [
+                        4,
+                        "netherwastes_fortress_hard"
+                    ],
+                    [
+                        5,
+                        "wither_blaze"
+                    ],
+                    [
+                        4,
+                        "netherwastes_fortress_hard"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "arenachallenge_hard",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.*.challengereward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 4.5,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "wither_blaze"
+                    ],
+                    [
+                        5,
+                        "wither_blaze"
+                    ],
+                    [
+                        8,
+                        "wither_blaze_hard"
+                    ],
+                    [
+                        4,
+                        "netherwastes_fortress_hard"
+                    ],
+                    [
+                        4,
+                        "netherwastes_fortress_hard"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "arenachallenge_small",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.*.challengereward",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "wither_blaze"
+                    ],
+                    [
+                        2,
+                        "wither_blaze"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "arenachallenge_locked_small",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.*.challengereward",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        2,
+                        "wither_blaze"
+                    ],
+                    [
+                        1,
+                        "wither_blaze_hard"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "arenachallenge_cellar",
+            "trigger": "*.*.arenatrigger",
+            "reward": {
+                "region": "*.*.challengereward",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "wither_blaze_hard"
+                    ],
+                    [
+                        1,
+                        "netherwastes_fortress_hard"
+                    ],
+                    [
+                        1,
+                        "wither_blaze"
+                    ],
+                    [
+                        1,
+                        "netherwastes_fortress"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                    "start-unlocked": true
+                }
+            }
+        }
+    ]
+}

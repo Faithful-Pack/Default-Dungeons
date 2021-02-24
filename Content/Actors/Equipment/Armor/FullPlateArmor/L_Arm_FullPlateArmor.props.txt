@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/FullPlateArmor/MI_FullPlateArmor.MI_FullPlateArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/FullPlateArmor/MI_FullPlateArmor.MI_FullPlateArmor'
+        MaterialSlotName = L_Arm_FullPlateArmorMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 397.708, 175.914, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=18.9951, Y=22.0407, Z=-3.17286 }
+    BoxExtent = { X=15.7774, Y=53.2907, Z=21.926 }
+    SphereRadius = 59.7459
+}

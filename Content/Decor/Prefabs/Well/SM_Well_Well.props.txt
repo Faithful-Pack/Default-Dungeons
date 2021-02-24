@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Well/MI_Well.MI_Well'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Well/MI_Well.MI_Well'
+        MaterialSlotName = SM_Well:WellMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 499.936, 530.138, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.375, Y=-122.092, Z=0 }
+    BoxExtent = { X=78.125, Y=122.092, Z=62.5 }
+    SphereRadius = 154.851
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ScatterCrossbow_Unique1/MI_HarpCrossbow.MI_HarpCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ScatterCrossbow_Unique1/MI_HarpCrossbow.MI_HarpCrossbow'
+        MaterialSlotName = lambert5SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.162, 197.82, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.83884, Y=0, Z=1.52588e-005 }
+    BoxExtent = { X=53.033, Y=3.125, Z=70.7107 }
+    SphereRadius = 71.3295
+}

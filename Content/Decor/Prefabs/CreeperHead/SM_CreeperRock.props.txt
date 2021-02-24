@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/CreeperHead/M_CreeperHead.M_CreeperHead'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/CreeperHead/M_CreeperHead.M_CreeperHead'
+        MaterialSlotName = Material.001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 240.29, 237.518, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.080162, Y=-0.0451927, Z=29.5532 }
+    BoxExtent = { X=45.3917, Y=44.8329, Z=49.593 }
+    SphereRadius = 69.2671
+}

@@ -1,82 +1,83 @@
+Parent = Material3'Decor/Prefabs/Window/M_Paralax.M_Paralax'
 ScalarParameterValues[13] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 184.507
         ParameterInfo = { Name=Distance }
+        ParameterValue = 184.507
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1.30627
         ParameterInfo = { Name=Emissive }
+        ParameterValue = 1.30627
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.4
         ParameterInfo = { Name=Layer1 }
+        ParameterValue = 0.4
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0.3
         ParameterInfo = { Name=Layer2 }
+        ParameterValue = 0.3
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0.2
         ParameterInfo = { Name=Layer3 }
+        ParameterValue = 0.2
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 1.31638
         ParameterInfo = { Name=Layer1Strength }
+        ParameterValue = 1.31638
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0.761905
         ParameterInfo = { Name=Layer2Strength }
+        ParameterValue = 0.761905
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=Layer3Strength }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 2.11036
         ParameterInfo = { Name=LightIntensity }
+        ParameterValue = 2.11036
+        ParameterName = None
     }
     ScalarParameterValues[9] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=AspectY }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[10] =
     {
-        ParameterName = None
-        ParameterValue = -0.514284
         ParameterInfo = { Name=OffsetY }
+        ParameterValue = -0.514284
+        ParameterName = None
     }
     ScalarParameterValues[11] =
     {
-        ParameterName = None
-        ParameterValue = 0.877572
         ParameterInfo = { Name=TextureSize }
+        ParameterValue = 0.877572
+        ParameterName = None
     }
     ScalarParameterValues[12] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -84,24 +85,23 @@ VectorParameterValues[3] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.916667, G=0.784866, B=0.348524, A=0 }
         ParameterInfo = { Name=ColorLights }
+        ParameterValue = { R=0.916667, G=0.784866, B=0.348524, A=0 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.040207, G=0.088542, B=0.022104, A=0 }
         ParameterInfo = { Name=ColorWindow }
+        ParameterValue = { R=0.040207, G=0.088542, B=0.022104, A=0 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.214088, G=0.458333, B=0.078776, A=1 }
         ParameterInfo = { Name=ColorWindowDepth }
+        ParameterValue = { R=0.214088, G=0.458333, B=0.078776, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/Window/M_Paralax.M_Paralax'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -111,6 +111,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -118,3 +125,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

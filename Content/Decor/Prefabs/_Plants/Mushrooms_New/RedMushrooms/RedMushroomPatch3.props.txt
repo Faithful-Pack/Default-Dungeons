@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Mushrooms_New/RedMushrooms/MI_RedMushrooms.MI_RedMushrooms'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Mushrooms_New/RedMushrooms/MI_RedMushrooms.MI_RedMushrooms'
+        MaterialSlotName = MI_RedMushrooms
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.055, 85.6814, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.125, Y=3.125, Z=7.81112 }
+    BoxExtent = { X=37.5, Y=40.625, Z=7.81388 }
+    SphereRadius = 51.846
+}

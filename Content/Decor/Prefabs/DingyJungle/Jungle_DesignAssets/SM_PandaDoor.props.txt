@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/MI_PandaDoor.MI_PandaDoor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/MI_PandaDoor.MI_PandaDoor'
+        MaterialSlotName = 15 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 143.63, 581.451, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=150 }
+    BoxExtent = { X=100, Y=50, Z=150 }
+    SphereRadius = 187.083
+}

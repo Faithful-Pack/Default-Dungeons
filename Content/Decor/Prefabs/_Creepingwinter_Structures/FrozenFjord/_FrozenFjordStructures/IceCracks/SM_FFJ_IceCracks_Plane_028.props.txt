@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/IceCracks/MI_FFJ_IceCracks.MI_FFJ_IceCracks'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/IceCracks/MI_FFJ_IceCracks.MI_FFJ_IceCracks'
+        MaterialSlotName = IceCracks
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.098, 143.666, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=-100, Z=2.67688 }
+    BoxExtent = { X=50, Y=100, Z=1.63317e-005 }
+    SphereRadius = 111.803
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/GuideBeacon/M_GuideBeacon.M_GuideBeacon'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/GuideBeacon/M_GuideBeacon.M_GuideBeacon'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 132.239, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=50 }
+    BoxExtent = { X=18.75, Y=18.75, Z=25 }
+    SphereRadius = 36.4435
+}

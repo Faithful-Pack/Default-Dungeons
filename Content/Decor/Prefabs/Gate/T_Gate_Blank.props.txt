@@ -1,19 +1,13 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Gate/T_Gate_Bars.T_Gate_Bars'
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
-Expressions[18] =
-{
-    Expressions[6] = MaterialExpressionTextureSample'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSample_3'
-    Expressions[7] = MaterialExpressionTextureSample'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSample_4'
-    Expressions[15] = MaterialExpressionVectorParameter'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionVectorParameter_0'
-    Expressions[16] = MaterialExpressionVectorParameter'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionVectorParameter_1'
-    Expressions[17] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Gate/T_Gate_Blank.MaterialExpressionTextureSampleParameter2D_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -26,7 +20,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -35,31 +28,9 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Decor/Prefabs/Gate/T_Gate_Bars.T_Gate_Bars'
-        Name = Texture
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
-CollectedVectorParameters[2] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.37, G=0.119799, B=0.018911, A=1 }
-        Name = RustColor
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=0.568745, G=0.733005, B=1, A=1 }
-        Name = Bar_Color
-        Group = None
-    }
-}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -67,3 +38,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

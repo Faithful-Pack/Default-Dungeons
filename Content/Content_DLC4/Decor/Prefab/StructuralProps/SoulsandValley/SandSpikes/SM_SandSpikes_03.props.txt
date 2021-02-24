@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/SoulsandValley/SandSpikes/M_SandSpikes_PF.M_SandSpikes_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/SoulsandValley/SandSpikes/M_SandSpikes_PF.M_SandSpikes_PF'
+        MaterialSlotName = IceSpikes_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 1279.07, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=150, Y=-50.0001, Z=547.917 }
+    BoxExtent = { X=150, Y=150, Z=550 }
+    SphereRadius = 572.276
+}

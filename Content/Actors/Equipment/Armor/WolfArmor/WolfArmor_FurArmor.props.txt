@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/WolfArmor/MI_WolfArmor.MI_WolfArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/WolfArmor/MI_WolfArmor.MI_WolfArmor'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 408.305, 186.509, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=21.875, Z=-0.0988846 }
+    BoxExtent = { X=31.25, Y=28.125, Z=25 }
+    SphereRadius = 48.914
+}

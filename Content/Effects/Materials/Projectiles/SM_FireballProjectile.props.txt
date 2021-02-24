@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Effects/Materials/Projectiles/M_NoiseGradientProjectile.M_NoiseGradientProjectile'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Effects/Materials/Projectiles/M_NoiseGradientProjectile.M_NoiseGradientProjectile'
+        MaterialSlotName = M_GhostProjectile
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 554.061, 142.089, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=25, Y=18.75, Z=18.75 }
+    SphereRadius = 36.4435
+}

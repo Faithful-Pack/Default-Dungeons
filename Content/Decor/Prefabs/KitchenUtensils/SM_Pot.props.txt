@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/KitchenUtensils/MI_Pot.MI_Pot'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/KitchenUtensils/MI_Pot.MI_Pot'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.144, 146.019, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=15.7062 }
+    BoxExtent = { X=25, Y=31.25, Z=15.7062 }
+    SphereRadius = 38.687
+}

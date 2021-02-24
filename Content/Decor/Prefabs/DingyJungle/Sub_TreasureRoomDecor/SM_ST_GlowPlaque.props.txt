@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/MI_STR_GlowPlaque.MI_STR_GlowPlaque'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/MI_STR_GlowPlaque.MI_STR_GlowPlaque'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.282, 406.46, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=50 }
+    BoxExtent = { X=100, Y=100, Z=50 }
+    SphereRadius = 150
+}

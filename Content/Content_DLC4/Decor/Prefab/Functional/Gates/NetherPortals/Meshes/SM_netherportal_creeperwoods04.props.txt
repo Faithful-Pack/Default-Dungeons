@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PortalsOverworld01.MI_PortalsOverworld01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PortalsOverworld01.MI_PortalsOverworld01'
+        MaterialSlotName = MI_PortalsOverworld
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 1321.66, 1596.72, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=50, Z=300.401 }
+    BoxExtent = { X=300, Y=350, Z=300.401 }
+    SphereRadius = 550.219
+}

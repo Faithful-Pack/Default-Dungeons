@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Cutlass/MI_Cutlass.MI_Cutlass'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Cutlass/MI_Cutlass.MI_Cutlass'
+        MaterialSlotName = ScimitarMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.276, 124.201, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.20971, Y=0, Z=-37.565 }
+    BoxExtent = { X=24.3068, Y=3.125, Z=64.0816 }
+    SphereRadius = 67.1693
+}

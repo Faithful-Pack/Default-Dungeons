@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/voofoo_trees_edit/MI_jungletree_trunk.MI_jungletree_trunk'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/voofoo_trees_edit/MI_jungletree_trunk.MI_jungletree_trunk'
+        MaterialSlotName = Material #275
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 101.536, 1252.44, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=750 }
+    BoxExtent = { X=100, Y=100, Z=750 }
+    SphereRadius = 763.217
+}

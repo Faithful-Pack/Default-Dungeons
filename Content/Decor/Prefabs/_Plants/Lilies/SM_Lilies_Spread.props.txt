@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Lilies/MI_Lilies_SoggySwamp.MI_Lilies_SoggySwamp'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Lilies/MI_Lilies_SoggySwamp.MI_Lilies_SoggySwamp'
+        MaterialSlotName = MI_Lilies_SoggySwamp
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 200.857, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.47773, Y=3.35273, Z=54.4194 }
+    BoxExtent = { X=86.6554, Y=71.0304, Z=54.4194 }
+    SphereRadius = 111.377
+}

@@ -1,17 +1,11 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Plants/WaterPlant/T_Water_Plant.T_Water_Plant'
 }
-Expressions[9] =
-{
-    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/_Plants/WaterPlant/M_WaterPlant.MaterialExpressionTextureSample_0'
-    Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/WaterPlant/M_WaterPlant.MaterialExpressionScalarParameter_0'
-    Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/WaterPlant/M_WaterPlant.MaterialExpressionScalarParameter_1'
-    Expressions[8] = MaterialExpressionVectorParameter'Decor/Prefabs/_Plants/WaterPlant/M_WaterPlant.MaterialExpressionVectorParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -24,30 +18,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Masked (1)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[2] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=HueShift, Group=None }
-    CollectedScalarParameters[1] = { Value=0, Name=Saturation Amount, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=1, G=1, B=1, A=0 }
-        Name = ColorMultiply
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -55,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

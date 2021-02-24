@@ -5,16 +5,10 @@ ReferencedTextures[4] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_d.T_RuneBeacon_d'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_e.T_RuneBeacon_e'
-    ReferencedTextures[2] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_Panner.T_RuneBeacon_Panner'
-    ReferencedTextures[3] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_e_mask.T_RuneBeacon_e_mask'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_e_mask.T_RuneBeacon_e_mask'
+    ReferencedTextures[3] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_Panner.T_RuneBeacon_Panner'
 }
-Expressions[11] =
-{
-    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_0'
-    Expressions[4] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_1'
-    Expressions[8] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_3'
-    Expressions[9] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_2'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -27,7 +21,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -46,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

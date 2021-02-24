@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/Vindicator/M_IllagerVindicatorVariant1.M_IllagerVindicatorVariant1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/Vindicator/M_IllagerVindicatorVariant1.M_IllagerVindicatorVariant1'
+        MaterialSlotName = lambert2SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.313, 195.1, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-4.39812, Z=-1.90735e-006 }
+    BoxExtent = { X=31.25, Y=31.2401, Z=31.25 }
+    SphereRadius = 54.1209
+}

@@ -977,6 +977,18 @@
             "##loc": "CreeperWoods/cw_mobs.json"
         },
         {
+            "#": "============== SINGLE jackolantern ==============",
+            "id": "jackolantern",
+            "types": [
+                {
+                    "type": "jackolantern",
+                    "weight": 1,
+                    "max%": 0.6
+                }
+            ],
+            "##loc": "CreeperWoods/cw_mobs.json"
+        },
+        {
             "#": "============ CW-MIX ===========",
             "id": "cw-mix",
             "pick-types": [
@@ -1579,14 +1591,6 @@
         },
         {
             "id": "return@start",
-            "rotations": 0,
-            "teleports": [
-                {
-                    "door": "travel",
-                    "exit": "*.*.return",
-                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
-                }
-            ],
             "##loc": "CreeperWoods/ow_tiles.json"
         },
         {
@@ -1861,6 +1865,91 @@
                         }
                     ],
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                }
+            ],
+            "##loc": "CreeperWoods/ow_tiles.json"
+        },
+        {
+            "id": "hmcw@ow_cryptentrance001",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ],
+            "##loc": "CreeperWoods/ow_tiles.json"
+        },
+        {
+            "id": "hmcw@ow_cryptentrance002",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ],
+            "##loc": "CreeperWoods/ow_tiles.json"
+        },
+        {
+            "id": "hmcw@ow_cryptentrance003",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ],
+            "##loc": "CreeperWoods/ow_tiles.json"
+        },
+        {
+            "id": "hmcw@ow_cryptentrance004",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ],
+            "##loc": "CreeperWoods/ow_tiles.json"
+        },
+        {
+            "id": "hmcw@ow_cryptentrance005",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
                 }
             ],
             "##loc": "CreeperWoods/ow_tiles.json"
@@ -3208,6 +3297,51 @@
             "##loc": "CreeperWoods/ow_tiles.json"
         },
         {
+            "id": "hmcw_ow_tiles_mix",
+            "tiles": [
+                {
+                    "id": "ow_tile_med001",
+                    "weight": 0.5
+                },
+                "ow_tile_med002",
+                "ow_tile_med003",
+                "ow_tile_med004",
+                "ow_tile_med005",
+                "ow_tile_med006",
+                "ow_tile_med007",
+                "ow_tile_med008",
+                "ow_tile_med009",
+                "ow_tile_med010",
+                "ow_tile_small001",
+                "ow_tile_small002",
+                "ow_tile_small003",
+                "ow_tile_small004",
+                "ow_tile_small005",
+                "ow_tile_small006",
+                {
+                    "id": "hmcw@ow_cryptentrance001",
+                    "weight": 0.3
+                },
+                {
+                    "id": "hmcw@ow_cryptentrance002",
+                    "weight": 0.3
+                },
+                {
+                    "id": "hmcw@ow_cryptentrance003",
+                    "weight": 0.3
+                },
+                {
+                    "id": "hmcw@ow_cryptentrance004",
+                    "weight": 0.3
+                },
+                {
+                    "id": "hmcw@ow_cryptentrance005",
+                    "weight": 0.3
+                }
+            ],
+            "##loc": "CreeperWoods/ow_tiles.json"
+        },
+        {
             "id": "ow_tiles_med",
             "tiles": [
                 {
@@ -3548,6 +3682,18 @@
     ],
     "dungeons": [
         {
+            "id": "creeperroom",
+            "ambience": "echo",
+            "stretches": [
+                {
+                    "tiles": [
+                        "cw_creeperroom_01"
+                    ]
+                }
+            ],
+            "##loc": "creeperwoods/creeperwoods.json"
+        },
+        {
             "id": "crypt001",
             "ambience": "foxtrot",
             "fill": {
@@ -3561,8 +3707,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -4249,8 +4395,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -4633,8 +4779,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -5260,8 +5406,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -5347,8 +5493,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -5487,8 +5633,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -5627,8 +5773,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -5767,8 +5913,8 @@
                         1,
                         2,
                         1,
-                        1,
-                        1
+                        0,
+                        0
                     ]
                 }
             },
@@ -5963,18 +6109,6 @@
                         "cw_indoor_inn002"
                     ],
                     "audio-ambience": "audio_5"
-                }
-            ],
-            "##loc": "houses/house_dungeons.json"
-        },
-        {
-            "id": "creeperroom",
-            "ambience": "echo",
-            "stretches": [
-                {
-                    "tiles": [
-                        "cw_creeperroom_01"
-                    ]
                 }
             ],
             "##loc": "houses/house_dungeons.json"

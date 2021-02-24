@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/MI_SquallGolem_2.MI_SquallGolem_2'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/MI_Resonance_Crystal_Squall_Golem_NEW.MI_Resonance_Crystal_Squall_Golem_NEW'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/MI_SquallGolem_2.MI_SquallGolem_2'
+        MaterialSlotName = Material #58
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 762.809, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/MI_Resonance_Crystal_Squall_Golem_NEW.MI_Resonance_Crystal_Squall_Golem_NEW'
+        MaterialSlotName = Material #71
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.045, 761.271, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.62939e-006, Z=165.625 }
+    BoxExtent = { X=137.5, Y=93.75, Z=165.625 }
+    SphereRadius = 234.791
+}

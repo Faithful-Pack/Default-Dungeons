@@ -1,0 +1,298 @@
+NumFrames = 49
+KeyEncodingFormat = AKF_ConstantKeyLerp (0)
+TranslationCompressionFormat = ACF_None (0)
+RotationCompressionFormat = ACF_Float96NoW (1)
+ScaleCompressionFormat = ACF_None (0)
+CompressedTrackOffsets[0] = {}
+CompressedScaleOffsets = { OffsetData[0]={}, StripSize=2 }
+TrackToSkeletonMapTable[4] =
+{
+    TrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    TrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    TrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    TrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+}
+CompressedTrackToSkeletonMapTable[4] =
+{
+    CompressedTrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    CompressedTrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    CompressedTrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    CompressedTrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+}
+CompressedCurveData = { FloatCurves[0]={} }
+Interpolation = Linear (0)
+AdditiveAnimType = AAT_None (0)
+RetargetSource = None
+RefPoseSeq = None
+RefFrameIndex = 0
+RetargetSourceAssetReferencePose[0] = {}
+bEnableRootMotion = false
+AuthoredSyncMarkers[0] = {}
+BakedPerBoneCustomAttributeData[0] = {}
+Notifies[5] =
+{
+    Notifies[0] =
+    {
+        TriggerTimeOffset = 0.0001
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[1] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[2] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[3] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[4] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+}
+SequenceLength = 1.625
+RateScale = 1
+RawCurveData = { FloatCurves[0]={} }
+Skeleton = Skeleton'Decor/Prefabs/WindmillSmall/Windmill_Small_Skeleton.Windmill_Small_Skeleton'
+
+// Sequence: Windmill_Small_Base
+NumFrames = 49
+KeyEncodingFormat = AKF_ConstantKeyLerp (0)
+TranslationCompressionFormat = ACF_None (0)
+RotationCompressionFormat = ACF_Float96NoW (1)
+ScaleCompressionFormat = ACF_None (0)
+CompressedTrackOffsets[0] = {}
+CompressedScaleOffsets = { OffsetData[0]={}, StripSize=2 }
+TrackToSkeletonMapTable[4] =
+{
+    TrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    TrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    TrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    TrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+}
+CompressedTrackToSkeletonMapTable[4] =
+{
+    CompressedTrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    CompressedTrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    CompressedTrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    CompressedTrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+}
+CompressedCurveData = { FloatCurves[0]={} }
+Interpolation = Linear (0)
+AdditiveAnimType = AAT_None (0)
+RetargetSource = None
+RefPoseSeq = None
+RefFrameIndex = 0
+RetargetSourceAssetReferencePose[0] = {}
+bEnableRootMotion = false
+AuthoredSyncMarkers[0] = {}
+BakedPerBoneCustomAttributeData[0] = {}
+Notifies[5] =
+{
+    Notifies[0] =
+    {
+        TriggerTimeOffset = 0.0001
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[1] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[2] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[3] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+    Notifies[4] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = windmill_Cue
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 0
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1.625
+    }
+}
+SequenceLength = 1.625
+RateScale = 1
+RawCurveData = { FloatCurves[0]={} }
+Skeleton = Skeleton'Decor/Prefabs/WindmillSmall/Windmill_Small_Skeleton.Windmill_Small_Skeleton'

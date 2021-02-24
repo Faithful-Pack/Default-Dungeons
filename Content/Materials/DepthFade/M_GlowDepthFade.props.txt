@@ -3,36 +3,10 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
-    ReferencedTextures[1] = Texture2D'Actors/Characters/Enemies/Illagers/ArchVessel/T_ArchIllagerAvatarSpace.T_ArchIllagerAvatarSpace'
+    ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Illagers/ArchVessel/T_ArchIllagerAvatarSpace.T_ArchIllagerAvatarSpace'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[76] =
-{
-    Expressions[0] = MaterialExpressionStaticSwitchParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[5] = MaterialExpressionVectorParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionVectorParameter_0'
-    Expressions[6] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_0'
-    Expressions[7] = MaterialExpressionVectorParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionVectorParameter_1'
-    Expressions[10] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_1'
-    Expressions[11] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_3'
-    Expressions[14] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_2'
-    Expressions[15] = MaterialExpressionTextureSample'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionTextureSample_0'
-    Expressions[20] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_4'
-    Expressions[24] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_5'
-    Expressions[28] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_6'
-    Expressions[36] = MaterialExpressionTextureSample'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionTextureSample_2'
-    Expressions[37] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_7'
-    Expressions[40] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_9'
-    Expressions[44] = MaterialExpressionTextureSample'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionTextureSample_3'
-    Expressions[46] = MaterialExpressionTextureSample'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionTextureSample_4'
-    Expressions[49] = MaterialExpressionVectorParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionVectorParameter_2'
-    Expressions[58] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_11'
-    Expressions[63] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_12'
-    Expressions[64] = MaterialExpressionStaticSwitchParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[69] = MaterialExpressionStaticSwitchParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[70] = MaterialExpressionStaticSwitchParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[73] = MaterialExpressionScalarParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionScalarParameter_14'
-    Expressions[74] = MaterialExpressionStaticSwitchParameter'Materials/DepthFade/M_GlowDepthFade.MaterialExpressionStaticSwitchParameter_2'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -45,52 +19,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[12] =
-{
-    CollectedScalarParameters[0] = { Value=2, Name=Emissive_Power, Group=None }
-    CollectedScalarParameters[1] = { Value=30, Name=EdgeDepth, Group=None }
-    CollectedScalarParameters[2] = { Value=30, Name=EdgeDepth_Opacity, Group=None }
-    CollectedScalarParameters[3] = { Value=0.560943, Name=Fresnel, Group=None }
-    CollectedScalarParameters[4] = { Value=1, Name=CloudSpeed, Group=None }
-    CollectedScalarParameters[5] = { Value=1000, Name=Tiling, Group=None }
-    CollectedScalarParameters[6] = { Value=0.5, Name=CloudPulseSpeed, Group=None }
-    CollectedScalarParameters[7] = { Value=1, Name=StarSizeScreenAligned, Group=None }
-    CollectedScalarParameters[8] = { Value=1, Name=CloudSpeed, Group=None }
-    CollectedScalarParameters[9] = { Value=1, Name=StarPower, Group=None }
-    CollectedScalarParameters[10] = { Value=1, Name=StarSize, Group=None }
-    CollectedScalarParameters[11] = { Value=0, Name=StarFresnel, Group=None }
-}
-CollectedVectorParameters[3] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=1, G=0.368491, B=0, A=1 }
-        Name = LightColor
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=0.328125, G=0.261433, B=0.042894, A=1 }
-        Name = DarkColor
-        Group = None
-    }
-    CollectedVectorParameters[2] =
-    {
-        Value = { R=0.328125, G=0.261433, B=0.042894, A=1 }
-        Name = StarColor
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -98,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

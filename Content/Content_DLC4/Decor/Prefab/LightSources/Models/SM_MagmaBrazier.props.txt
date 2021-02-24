@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_MagmaBrazierz.MI_MagmaBrazierz'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_MagmaBrazierz.MI_MagmaBrazierz'
+        MaterialSlotName = MI_NetherWastesProps
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 437.607, 437.607, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=50 }
+    BoxExtent = { X=75, Y=75, Z=50 }
+    SphereRadius = 117.26
+}

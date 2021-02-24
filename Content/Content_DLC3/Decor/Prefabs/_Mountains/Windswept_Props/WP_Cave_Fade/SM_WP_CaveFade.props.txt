@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/WP_Cave_Fade/Mi_WP_CaveFade.Mi_WP_CaveFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/WP_Cave_Fade/Mi_WP_CaveFade.Mi_WP_CaveFade'
+        MaterialSlotName = WP_CaveFade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 5472.75, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=700, Y=150, Z=700 }
+    BoxExtent = { X=800, Y=850, Z=800 }
+    SphereRadius = 1205.2
+}

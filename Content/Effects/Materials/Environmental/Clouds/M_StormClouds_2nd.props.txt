@@ -1,58 +1,59 @@
+Parent = Material3'Effects/Materials/Environmental/Clouds/M_StormClouds.M_StormClouds'
 ScalarParameterValues[9] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1100
         ParameterInfo = { Name=DepthFade }
+        ParameterValue = 1100
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Opacity }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=PanSpeed }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=PixelContrast }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=PixelPanSpeed }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=Storm_PixelSize }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=Storm_PixelStr }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 3000
         ParameterInfo = { Name=Tiling }
+        ParameterValue = 3000
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -60,12 +61,11 @@ VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.116781, G=0.130495, B=0.213542, A=0 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.116781, G=0.130495, B=0.213542, A=0 }
+        ParameterName = None
     }
 }
-Parent = Material3'Effects/Materials/Environmental/Clouds/M_StormClouds.M_StormClouds'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -75,6 +75,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -82,3 +89,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_PixelNoise_32
+    }
+}

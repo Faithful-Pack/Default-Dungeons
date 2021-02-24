@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Flags/MI_Flags.MI_Flags'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Flags/MI_Flags.MI_Flags'
+        MaterialSlotName = pPlane1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 500.027, 204.785, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.52588e-005, Y=2.48756e-015, Z=-40.625 }
+    BoxExtent = { X=250, Y=2.48756e-015, Z=40.625 }
+    SphereRadius = 253.279
+}

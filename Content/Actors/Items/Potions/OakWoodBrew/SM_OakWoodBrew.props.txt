@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/Potions/OakWoodBrew/M_Potion_OakWoodBrewBottle.M_Potion_OakWoodBrewBottle'
+    Materials[1] = MaterialInstanceConstant'Actors/Items/Potions/OakWoodBrew/MI_OakWoodBrew_Base.MI_OakWoodBrew_Base'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/Potions/OakWoodBrew/M_Potion_OakWoodBrewBottle.M_Potion_OakWoodBrewBottle'
+        MaterialSlotName = Material #14
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 261.891, 267.779, 368.86, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/Potions/OakWoodBrew/MI_OakWoodBrew_Base.MI_OakWoodBrew_Base'
+        MaterialSlotName = Material #16
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 309.906, 1.54882, 368.358, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0221939, Y=-3.8147e-006, Z=74.9421 }
+    BoxExtent = { X=38.7173, Y=38.7173, Z=74.9172 }
+    SphereRadius = 92.7935
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/MarketBooths/Big/MI_MarketBoothWide_V2.MI_MarketBoothWide_V2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/MarketBooths/Big/MI_MarketBoothWide_V2.MI_MarketBoothWide_V2'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 771.766, 466.325, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=25 }
+    BoxExtent = { X=250, Y=100, Z=25 }
+    SphereRadius = 270.416
+}

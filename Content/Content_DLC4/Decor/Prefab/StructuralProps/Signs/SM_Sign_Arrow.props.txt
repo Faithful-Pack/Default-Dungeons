@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/Signs/MI_Signs_Arrow.MI_Signs_Arrow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/Signs/MI_Signs_Arrow.MI_Signs_Arrow'
+        MaterialSlotName = MI_ArrowSign
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 311.582, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-96.875, Y=0.624972, Z=125 }
+    BoxExtent = { X=106.25, Y=12.5, Z=125 }
+    SphereRadius = 164.36
+}

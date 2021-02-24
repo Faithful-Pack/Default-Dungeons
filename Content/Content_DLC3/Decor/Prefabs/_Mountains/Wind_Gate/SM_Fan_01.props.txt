@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Gate/MI_Wind_Gate.MI_Wind_Gate'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Gate/MI_Wind_Gate.MI_Wind_Gate'
+        MaterialSlotName = Wind_Gate
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.272, 1.41521, 1.00282, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.000205994, Z=140.162 }
+    BoxExtent = { X=81.2505, Y=81.2505, Z=131.25 }
+    SphereRadius = 144.021
+}

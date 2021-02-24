@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Waterwheel/MI_Waterwheel.MI_Waterwheel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Waterwheel/MI_Waterwheel.MI_Waterwheel'
+        MaterialSlotName = pCube6Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1202.53, 2222.76, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-34.375, Y=1.42166, Z=0 }
+    BoxExtent = { X=153.125, Y=306.25, Z=306.25 }
+    SphereRadius = 349.902
+}

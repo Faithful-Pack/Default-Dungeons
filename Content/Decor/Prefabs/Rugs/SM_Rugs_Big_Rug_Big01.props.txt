@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Rugs/MI_Rug_Big01.MI_Rug_Big01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Rugs/MI_Rug_Big01.MI_Rug_Big01'
+        MaterialSlotName = Rug_Big01Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 314.697, 268.181, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.125, Y=-3.15121, Z=3.4913 }
+    BoxExtent = { X=96.875, Y=146.901, Z=3.71675 }
+    SphereRadius = 176.007
+}

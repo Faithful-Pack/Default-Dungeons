@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Unique1/MI_PowerBow_Unique1.MI_PowerBow_Unique1'
+    Materials[1] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Unique1/MI_PowerBow_Unique1.MI_PowerBow_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Unique1/MI_PowerBow_Unique1.MI_PowerBow_Unique1'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Unique1/MI_PowerBow_Unique1.MI_PowerBow_Unique1'
+        MaterialSlotName = lambert3SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.254, 159.019, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=15.4679 }
+    BoxExtent = { X=66.2913, Y=3.125, Z=46.4039 }
+    SphereRadius = 66.6951
+}

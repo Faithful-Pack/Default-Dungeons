@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Moving_Blocks/MI_Moving_Blocks.MI_Moving_Blocks'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Moving_Platforms/MI_Moving_Platforms_Fan.MI_Moving_Platforms_Fan'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Moving_Blocks/MI_Moving_Blocks.MI_Moving_Blocks'
+        MaterialSlotName = MI_Moving_Blocks_002
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.917, 484.962, 616.005, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Moving_Platforms/MI_Moving_Platforms_Fan.MI_Moving_Platforms_Fan'
+        MaterialSlotName = MI_Moving_Platforms_Fan_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 820.495, 2.46197, 2.46197, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.10352e-005, Y=0, Z=350 }
+    BoxExtent = { X=350, Y=350, Z=350 }
+    SphereRadius = 606.218
+}

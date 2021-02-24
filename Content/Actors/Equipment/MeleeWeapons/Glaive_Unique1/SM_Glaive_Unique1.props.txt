@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Glaive_Unique1/MI_Glaive_Unique1.MI_Glaive_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Glaive_Unique1/MI_Glaive_Unique1.MI_Glaive_Unique1'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 212.663, 233.746, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.20971, Y=-44.1942, Z=0 }
+    BoxExtent = { X=24.3068, Y=141.421, Z=3.125 }
+    SphereRadius = 142.847
+}

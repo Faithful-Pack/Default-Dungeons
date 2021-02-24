@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Patch2/Actors/Equipment/MeleeWeapons/Rapier/M_Rapier.M_Rapier'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Patch2/Actors/Equipment/MeleeWeapons/Rapier/M_Rapier.M_Rapier'
+        MaterialSlotName = lambert8SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 112.512, 138.903, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.316442, Y=3.125, Z=-37.5016 }
+    BoxExtent = { X=22.0908, Y=3.125, Z=77.3705 }
+    SphereRadius = 77.4977
+}

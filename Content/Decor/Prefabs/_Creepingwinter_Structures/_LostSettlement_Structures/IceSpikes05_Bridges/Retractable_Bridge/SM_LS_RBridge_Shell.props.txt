@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/IceSpikes05_Bridges/Retractable_Bridge/MI_LS_RetractableBridge.MI_LS_RetractableBridge'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/IceSpikes05_Bridges/Retractable_Bridge/MI_LS_RetractableBridge.MI_LS_RetractableBridge'
+        MaterialSlotName = RetractibeBridge
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.999, 12556, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=844.444, Y=250.695, Z=252.083 }
+    BoxExtent = { X=850, Y=250, Z=250 }
+    SphereRadius = 920.598
+}

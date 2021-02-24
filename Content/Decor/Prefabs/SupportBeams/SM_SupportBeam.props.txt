@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/SupportBeams/MI_SupportBeams.MI_SupportBeams'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/SupportBeams/MI_SupportBeams.MI_SupportBeams'
+        MaterialSlotName = __AUTO_SAVE__untitled_8717:pCube3Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 206.492, 275.871, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-81.25, Y=-118.75, Z=0 }
+    BoxExtent = { X=118.75, Y=118.75, Z=37.5 }
+    SphereRadius = 172.074
+}

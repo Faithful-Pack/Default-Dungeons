@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Crossbow_Unique1/MI_Slicer.MI_Slicer'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Crossbow_Unique1/MI_Slicer.MI_Slicer'
+        MaterialSlotName = lambert3SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 183.22, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-11.0485 }
+    BoxExtent = { X=57.4524, Y=3.125, Z=55.2427 }
+    SphereRadius = 62.4609
+}

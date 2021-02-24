@@ -3,20 +3,12 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[4] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/T_Ruby_New.T_Ruby_New'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
+    ReferencedTextures[0] = Texture2D'Actors/Items/TotemOfShielding/Shine.Shine'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/T_Ruby_New.T_Ruby_New'
     ReferencedTextures[2] = Texture2D'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/T_Ruby_Spec.T_Ruby_Spec'
-    ReferencedTextures[3] = Texture2D'Actors/Items/TotemOfShielding/Shine.Shine'
+    ReferencedTextures[3] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
 }
-Expressions[30] =
-{
-    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/M_Ruby.MaterialExpressionTextureSample_1'
-    Expressions[4] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/M_Ruby.MaterialExpressionTextureSample_5'
-    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/M_Ruby.MaterialExpressionTextureSample_6'
-    Expressions[14] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/M_Ruby.MaterialExpressionTextureSample_3'
-    Expressions[17] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/M_Ruby.MaterialExpressionTextureSample_4'
-    Expressions[21] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Ruby/M_Ruby.MaterialExpressionTextureSample_8'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -29,7 +21,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -48,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

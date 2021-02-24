@@ -1,49 +1,49 @@
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.6
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 0.6
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=SpeedX }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TNTBox/T_TNTBox.T_TNTBox'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Actors/Items/TNTBox/T_TNTBox.T_TNTBox'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = None
         ParameterInfo = { Name=Specular }
+        ParameterValue = None
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=6.977, B=35, A=1 }
         ParameterInfo = { Name=Emissive }
+        ParameterValue = { R=0, G=6.977, B=35, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -53,6 +53,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -60,3 +67,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultDiffuse
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_DiagonalLine
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TNTBox
+    }
+}

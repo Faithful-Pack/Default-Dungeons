@@ -1,97 +1,97 @@
+Parent = Material3'Decor/Prefabs/Window/Material/M_Window_decal.M_Window_Decal'
 ScalarParameterValues[11] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=DecalWidth }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=ScaleX }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=OffsetX }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = -0.2
         ParameterInfo = { Name=UTangent0 }
+        ParameterValue = -0.2
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 6.0455
         ParameterInfo = { Name=UTangent1 }
+        ParameterValue = 6.0455
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=VTangent0 }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 19.6005
         ParameterInfo = { Name=VTangent1 }
+        ParameterValue = 19.6005
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 3.88523
         ParameterInfo = { Name=CloseVTangent0 }
+        ParameterValue = 3.88523
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 8.44254
         ParameterInfo = { Name=CloseVTangent1 }
+        ParameterValue = 8.44254
+        ParameterName = None
     }
     ScalarParameterValues[9] =
     {
-        ParameterName = None
-        ParameterValue = 2.37418
         ParameterInfo = { Name=EmissiveStrength }
+        ParameterValue = 2.37418
+        ParameterName = None
     }
     ScalarParameterValues[10] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_Window_Glass.T_Window_Glass'
         ParameterInfo = { Name=Base Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_Window_Glass.T_Window_Glass'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
         ParameterInfo = { Name=StainedOverlay }
+        ParameterValue = Texture2D'Decor/Prefabs/Window/Material/T_StainedWindowOverlay.T_StainedWindowOverlay'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.590619, B=0.450786, A=0 }
         ParameterInfo = { Name=ColorOverlay }
+        ParameterValue = { R=1, G=0.590619, B=0.450786, A=0 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/Window/Material/M_Window_decal.M_Window_Decal'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -101,6 +101,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=StainedGlass }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -108,3 +123,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

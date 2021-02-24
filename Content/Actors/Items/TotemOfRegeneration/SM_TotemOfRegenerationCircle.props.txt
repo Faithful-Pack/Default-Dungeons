@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Actors/Items/TotemOfRegeneration/M_TotemOfRegenerationRunes.M_TotemOfRegenerationRunes'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Actors/Items/TotemOfRegeneration/M_TotemOfRegenerationRunes.M_TotemOfRegenerationRunes'
+        MaterialSlotName = Illager
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 53.9423, 28.9963, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.83931, Y=-7.62939e-006, Z=-0.586757 }
+    BoxExtent = { X=33.458, Y=34.2973, Z=0 }
+    SphereRadius = 35.0965
+}

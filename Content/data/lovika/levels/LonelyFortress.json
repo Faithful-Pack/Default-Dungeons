@@ -1143,6 +1143,7 @@
                 "interval": 10,
                 "rest-interval": 2,
                 "start-time": 2,
+                "battle-max-duration": 90,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1605,7 +1606,7 @@
             "description": "description_lf_g_04",
             "displayMode": "MainObjective",
             "click": {
-                "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor_LF",
+                "object": "Decor/Prefabs/DoorExit/BP_DoorExit_CW",
                 "count": 1,
                 "locations": [
                     "boss_fight.lf_throne_room.obj_exit"

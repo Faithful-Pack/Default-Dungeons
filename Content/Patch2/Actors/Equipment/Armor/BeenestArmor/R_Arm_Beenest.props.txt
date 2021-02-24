@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Patch2/Actors/Equipment/Armor/BeenestArmor/MI_BeenestArmor.MI_BeenestArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Patch2/Actors/Equipment/Armor/BeenestArmor/MI_BeenestArmor.MI_BeenestArmor'
+        MaterialSlotName = lambert7SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 398.992, 106.632, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.00472, Y=-9.53674e-007, Z=9.53674e-007 }
+    BoxExtent = { X=15.8139, Y=12.5074, Z=15.625 }
+    SphereRadius = 25.5079
+}

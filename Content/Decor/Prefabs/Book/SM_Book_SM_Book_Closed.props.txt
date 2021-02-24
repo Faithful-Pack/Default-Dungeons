@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/Book/M_Book_Blank.M_Book_Blank'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/Book/M_Book_Blank.M_Book_Blank'
+        MaterialSlotName = book_mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 275.06, 231.224, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=28.125 }
+    BoxExtent = { X=9.375, Y=36.6656, Z=28.125 }
+    SphereRadius = 47.1516
+}

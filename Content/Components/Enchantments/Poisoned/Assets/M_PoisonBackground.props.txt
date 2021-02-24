@@ -5,32 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Components/Enchantments/Poisoned/Assets/T_PoisonCloud.T_PoisonCloud'
 }
-Expressions[56] =
-{
-    Expressions[4] = MaterialExpressionTextureSample'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionTextureSample_0'
-    Expressions[6] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_0'
-    Expressions[7] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_1'
-    Expressions[8] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_2'
-    Expressions[9] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_3'
-    Expressions[14] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_4'
-    Expressions[15] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_5'
-    Expressions[16] = MaterialExpressionTextureSample'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionTextureSample_1'
-    Expressions[17] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_6'
-    Expressions[18] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_7'
-    Expressions[23] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_8'
-    Expressions[24] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_9'
-    Expressions[31] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_12'
-    Expressions[33] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_13'
-    Expressions[35] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_14'
-    Expressions[36] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_15'
-    Expressions[38] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_17'
-    Expressions[42] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_18'
-    Expressions[44] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_19'
-    Expressions[48] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_22'
-    Expressions[52] = MaterialExpressionStaticSwitchParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[53] = MaterialExpressionVectorParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionVectorParameter_0'
-    Expressions[54] = MaterialExpressionScalarParameter'Components/Enchantments/Poisoned/Assets/M_PoisonBackground.MaterialExpressionScalarParameter_10'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -43,47 +18,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[19] =
-{
-    CollectedScalarParameters[0] = { Value=0.5, Name=Radius, Group=None }
-    CollectedScalarParameters[1] = { Value=3, Name=Density, Group=None }
-    CollectedScalarParameters[2] = { Value=1, Name=RED_SpeedX, Group=None }
-    CollectedScalarParameters[3] = { Value=1, Name=RED_SpeedY, Group=None }
-    CollectedScalarParameters[4] = { Value=1.5, Name=RED_MultiplierX, Group=None }
-    CollectedScalarParameters[5] = { Value=1.5, Name=RED_MultiplierY, Group=None }
-    CollectedScalarParameters[6] = { Value=0, Name=GREEN_SpeedX, Group=None }
-    CollectedScalarParameters[7] = { Value=0.25, Name=GREEN_SpeedY, Group=None }
-    CollectedScalarParameters[8] = { Value=1.5, Name=GREEN_MultiplierX, Group=None }
-    CollectedScalarParameters[9] = { Value=1.5, Name=GREEN_MultiplierY, Group=None }
-    CollectedScalarParameters[10] = { Value=25, Name=GREEN_SineTempoY, Group=None }
-    CollectedScalarParameters[11] = { Value=5, Name=GREEN_SineVariationY, Group=None }
-    CollectedScalarParameters[12] = { Value=1, Name=RED_Alpha, Group=None }
-    CollectedScalarParameters[13] = { Value=1, Name=GREEN_Alpha, Group=None }
-    CollectedScalarParameters[14] = { Value=0.25, Name=RED_ SpeedY, Group=None }
-    CollectedScalarParameters[15] = { Value=25, Name=RED_SineYTempo, Group=None }
-    CollectedScalarParameters[16] = { Value=5, Name=RED_SineYVariation, Group=None }
-    CollectedScalarParameters[17] = { Value=0.2, Name=EmissiveMultiplier, Group=None }
-    CollectedScalarParameters[18] = { Value=1, Name=Alpha, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=4.12001, G=0, B=5, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -91,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

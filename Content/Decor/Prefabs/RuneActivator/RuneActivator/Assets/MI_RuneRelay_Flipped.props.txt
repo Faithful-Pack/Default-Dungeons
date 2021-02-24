@@ -1,53 +1,53 @@
+Parent = Material3'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.M_RuneActivator'
 ScalarParameterValues[5] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=EmissiveStrength }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 16
         ParameterInfo = { Name=TextureSize }
+        ParameterValue = 16
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 7
         ParameterInfo = { Name=NumBlocks }
+        ParameterValue = 7
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 150
         ParameterInfo = { Name=LeadingEdgeStrength }
+        ParameterValue = 150
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay.T_RuneRelay'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay.T_RuneRelay'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay_Mask.T_RuneRelay_Mask'
         ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneRelay_Mask.T_RuneRelay_Mask'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.M_RuneActivator'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -57,6 +57,27 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=FlippedDirection }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Tiled }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -64,3 +85,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_RuneActivatorNoise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RuneRelay
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RuneRelay_Mask
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_HighBlockHalls_Houses/MI_Fancy_Fence.MI_Fancy_Fence'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_HighBlockHalls_Houses/MI_Fancy_Fence.MI_Fancy_Fence'
+        MaterialSlotName = lambert3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.043, 180.948, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=50 }
+    BoxExtent = { X=25, Y=25, Z=50 }
+    SphereRadius = 61.2372
+}

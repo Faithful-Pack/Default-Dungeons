@@ -1,29 +1,29 @@
+Parent = Material3'Effects/Materials/Generic/M_PixelCircleGradient.M_PixelCircleGradient'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.352381
         ParameterInfo = { Name=0Scalar }
+        ParameterValue = 0.352381
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[1] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient256.T_PixelCircleGradient256'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient256.T_PixelCircleGradient256'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Effects/Materials/Generic/M_PixelCircleGradient.M_PixelCircleGradient'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -33,6 +33,27 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=DynamicParameter }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Particlebased }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -40,3 +61,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

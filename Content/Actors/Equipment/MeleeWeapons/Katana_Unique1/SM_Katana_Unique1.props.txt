@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Katana_Unique1/MI_Katana_Unique1.MI_Katana_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Katana_Unique1/MI_Katana_Unique1.MI_Katana_Unique1'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.124487, Y=56.0104, Z=-0.0293405 }
+    BoxExtent = { X=17.8436, Y=82.5269, Z=3.15434 }
+    SphereRadius = 83.0676
+}

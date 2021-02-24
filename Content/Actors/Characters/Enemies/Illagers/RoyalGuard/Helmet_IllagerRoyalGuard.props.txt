@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/RoyalGuard/MI_IllagerRoyalGuard.MI_IllagerRoyalGuard'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/RoyalGuard/MI_IllagerRoyalGuard.MI_IllagerRoyalGuard'
+        MaterialSlotName = lambert3SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 852.858, 192.359, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-40.4242, Z=0 }
+    BoxExtent = { X=50, Y=37.4045, Z=31.25 }
+    SphereRadius = 60.2234
+}

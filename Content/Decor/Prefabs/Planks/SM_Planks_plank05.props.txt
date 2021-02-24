@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Bonfire/MI_Bonfire.MI_Bonfire'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Bonfire/MI_Bonfire.MI_Bonfire'
+        MaterialSlotName = __AUTO_SAVE__untitled_0909:plank05Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 134.688, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=38.8733, Y=-125.377, Z=3.87866 }
+    BoxExtent = { X=39.1982, Y=125.377, Z=9.375 }
+    SphereRadius = 128.62
+}

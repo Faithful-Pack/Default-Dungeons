@@ -1,17 +1,12 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
+ReferencedTextures[2] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[1] = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
 }
-Expressions[47] =
-{
-    Expressions[28] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Glowplanes/M_Iceglow.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[33] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Glowplanes/M_Iceglow.MaterialExpressionTextureSample_2'
-    Expressions[40] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Glowplanes/M_Iceglow.MaterialExpressionScalarParameter_6'
-    Expressions[44] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Glowplanes/M_Iceglow.MaterialExpressionScalarParameter_7'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +19,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -33,20 +27,8 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
-        Name = Texture
-        Group = None
-    }
-}
-CollectedScalarParameters[2] =
-{
-    CollectedScalarParameters[0] = { Value=4, Name=Wind, Group=None }
-    CollectedScalarParameters[1] = { Value=32, Name=None, Group=None }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -55,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

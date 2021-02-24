@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/LampPost/MI_LampostFrozen.MI_LampostFrozen'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/LampPost/MI_LampostFrozen.MI_LampostFrozen'
+        MaterialSlotName = Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 232.111, 310.103, 253.321, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-006, Y=46.8681, Z=184.375 }
+    BoxExtent = { X=25, Y=71.8681, Z=184.375 }
+    SphereRadius = 199.46
+}

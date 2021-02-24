@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherFoilage_NoDeform_NoEmissive.MI_NetherFoilage_NoDeform_NoEmissive'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherFoilage_NoDeform_NoEmissive.MI_NetherFoilage_NoDeform_NoEmissive'
+        MaterialSlotName = TextureAtlas_NetherFoliage
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.595, 93.068, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=56.25 }
+    BoxExtent = { X=37.5, Y=25, Z=56.25 }
+    SphereRadius = 68.75
+}

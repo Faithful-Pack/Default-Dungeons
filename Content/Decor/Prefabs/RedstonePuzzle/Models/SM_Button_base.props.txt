@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/RedstonePuzzle/Models/M_BaseButton.M_BaseButton'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/RedstonePuzzle/Models/M_BaseButton.M_BaseButton'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.711, 207.447, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-006, Z=12.5 }
+    BoxExtent = { X=50, Y=50, Z=12.5 }
+    SphereRadius = 71.807
+}

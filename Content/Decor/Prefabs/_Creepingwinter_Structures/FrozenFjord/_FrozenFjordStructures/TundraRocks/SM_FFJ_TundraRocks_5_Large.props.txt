@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/TundraRocks/MI_FFJ_TundraRocks_PF.MI_FFJ_TundraRocks_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/TundraRocks/MI_FFJ_TundraRocks_PF.MI_FFJ_TundraRocks_PF'
+        MaterialSlotName = Rocks_012
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 204.57, 449.699, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=37.5, Y=-50, Z=18.75 }
+    BoxExtent = { X=137.5, Y=150, Z=37.5 }
+    SphereRadius = 166.771
+}

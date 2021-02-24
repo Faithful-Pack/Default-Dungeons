@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Traps/MI_Trap_Knife.MI_Trap_Knife'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Traps/MI_Trap_Knife.MI_Trap_Knife'
+        MaterialSlotName = RailMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 791.091, 585.395, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.125, Z=0 }
+    BoxExtent = { X=15.625, Y=3.125, Z=512.5 }
+    SphereRadius = 512.748
+}

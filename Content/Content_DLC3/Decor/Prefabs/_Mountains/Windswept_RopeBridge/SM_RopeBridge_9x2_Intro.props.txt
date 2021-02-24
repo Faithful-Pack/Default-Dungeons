@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Lift/MI_Windswept_Lift.MI_Windswept_Lift'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Lift/MI_Windswept_Lift.MI_Windswept_Lift'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 807.143, 973.512, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.10352e-005, Y=-175, Z=275 }
+    BoxExtent = { X=600, Y=175, Z=325 }
+    SphereRadius = 656.22
+}

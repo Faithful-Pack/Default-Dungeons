@@ -1,20 +1,12 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
+ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'UI/Materials/Map/Pins/drop_beam.drop_beam'
+    ReferencedTextures[0] = Texture2D'data/resourcepacks/pumpkinpastures/images/blocks/custom_1.custom_1'
+    ReferencedTextures[1] = Texture2D'UI/Materials/Map/Pins/drop_beam.drop_beam'
 }
-Expressions[14] =
-{
-    Expressions[2] = MaterialExpressionTextureSample'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSample_2'
-    Expressions[3] = MaterialExpressionTextureSampleParameter2D'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_3'
-    Expressions[4] = MaterialExpressionVectorParameter'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionVectorParameter_0'
-    Expressions[5] = MaterialExpressionVectorParameter'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionVectorParameter_1'
-    Expressions[7] = MaterialExpressionTextureSampleParameter2D'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_4'
-    Expressions[10] = MaterialExpressionTextureSampleParameter2D'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[11] = MaterialExpressionScalarParameter'UI/Materials/Map/Pins/global_beamglow_Mat.MaterialExpressionScalarParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -27,55 +19,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Additive (3)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[3] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'UI/Materials/Map/Pins/drop_beam.drop_beam'
-        Name = MainTex
-        Group = None
-    }
-    CollectedTextureParameters[1] =
-    {
-        Texture = Texture2D'data/resourcepacks/pumpkinpastures/images/blocks/custom_1.custom_1'
-        Name = Pattern
-        Group = None
-    }
-    CollectedTextureParameters[2] =
-    {
-        Texture = Texture2D'data/resourcepacks/pumpkinpastures/images/blocks/custom_1.custom_1'
-        Name = Pattern_1
-        Group = None
-    }
-}
-CollectedScalarParameters[1] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=TimeOffset, Group=None }
-}
-CollectedVectorParameters[2] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=1, G=0.811344, B=0, A=0 }
-        Name = Color
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=0.942708, G=0.854329, B=0.912202, A=0 }
-        Name = Shine
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -83,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

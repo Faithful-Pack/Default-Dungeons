@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Illusioner/Illusioner_Arrow/MI_Illusioner_Arrow.MI_Illusioner_Arrow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illusioner/Illusioner_Arrow/MI_Illusioner_Arrow.MI_Illusioner_Arrow'
+        MaterialSlotName = Material #117
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 226.28, 128.476, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-39.4504, Y=0, Z=0 }
+    BoxExtent = { X=76.875, Y=18.75, Z=18.75 }
+    SphereRadius = 78.4842
+}

@@ -1,35 +1,35 @@
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor.T_StalwartArmor'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor.T_StalwartArmor'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor_S.T_StalwartArmor_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Equipment/Armor/ReinforcedMail_Unique1/T_StalwartArmor_S.T_StalwartArmor_S'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -39,6 +39,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -46,3 +53,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

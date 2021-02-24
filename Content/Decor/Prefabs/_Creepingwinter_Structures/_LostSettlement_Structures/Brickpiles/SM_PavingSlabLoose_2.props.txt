@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Brickpiles/M_IceFortBricks_PF.M_IceFortBricks_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Brickpiles/M_IceFortBricks_PF.M_IceFortBricks_PF'
+        MaterialSlotName = M_IcefortBricks
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.058, 207.13, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-50, Z=6.25 }
+    BoxExtent = { X=50, Y=50, Z=6 }
+    SphereRadius = 70.9648
+}

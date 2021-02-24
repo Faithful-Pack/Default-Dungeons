@@ -1,121 +1,121 @@
+Parent = Material3'Components/Enchantments/M_Master_Enchantment.M_Master_Enchantment'
 ScalarParameterValues[13] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = -0.4
         ParameterInfo = { Name=Blue_Offset }
+        ParameterValue = -0.4
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Blue_SinusMin }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=Blue_SinusTempo }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 1.5
         ParameterInfo = { Name=Blue_SinusVariation }
+        ParameterValue = 1.5
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = -0.2
         ParameterInfo = { Name=Green_Offset }
+        ParameterValue = -0.2
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Green_SinusMin }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=Green_SinusTempo }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Green_SinusVariation }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Red_Offset }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[9] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Red_SinusMin }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[10] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=Red_SinusTempo }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[11] =
     {
-        ParameterName = None
-        ParameterValue = 1.5
         ParameterInfo = { Name=Red_SinusVariation }
+        ParameterValue = 1.5
+        ParameterName = None
     }
     ScalarParameterValues[12] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Components/Enchantments/Chilling/T_ChillingShine_Icon.T_ChillingShine_Icon'
         ParameterInfo = { Name=AdditiveTexture }
+        ParameterValue = Texture2D'Components/Enchantments/Chilling/T_ChillingShine_Icon.T_ChillingShine_Icon'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Components/Enchantments/Chilling/T_Chilling_Icon.T_Chilling_Icon'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Components/Enchantments/Chilling/T_Chilling_Icon.T_Chilling_Icon'
+        ParameterName = None
     }
 }
 VectorParameterValues[3] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=0.156677, B=1, A=1 }
         ParameterInfo = { Name=B_Color }
+        ParameterValue = { R=0, G=0.156677, B=1, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=0.531144, B=1, A=1 }
         ParameterInfo = { Name=G_Color }
+        ParameterValue = { R=0, G=0.531144, B=1, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.369383, G=0.676268, B=1, A=1 }
         ParameterInfo = { Name=R_Color }
+        ParameterValue = { R=0.369383, G=0.676268, B=1, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Components/Enchantments/M_Master_Enchantment.M_Master_Enchantment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -125,6 +125,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -132,3 +139,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

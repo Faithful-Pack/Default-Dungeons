@@ -196,8 +196,6 @@
         {
             "id": "ruins1",
             "tiles": [
-                "ss_ruin003",
-                "ss_ruin004",
                 "ss_large001_secret"
             ],
             "length": 1
@@ -366,8 +364,7 @@
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         },
         {
             "id": "sub2_arena",
@@ -423,8 +420,7 @@
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         },
         {
             "id": "sub3_arena",
@@ -488,8 +484,7 @@
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         },
         {
             "id": "sub4_arena",
@@ -561,8 +556,7 @@
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         },
         {
             "id": "secret_arena",
@@ -618,8 +612,7 @@
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         },
         {
             "id": "secret_clicky",
@@ -634,8 +627,7 @@
                 "locked-doors": [
                     "*.ss_cave_secret2.waterfall"
                 ]
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         },
         {
             "id": "gauntlet1",
@@ -649,8 +641,7 @@
                         "*.*.g1_gate"
                     ]
                 }
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         },
         {
             "id": "gauntlet2",
@@ -664,8 +655,7 @@
                         "*.*.g2_gate"
                     ]
                 }
-            },
-            "##loc": "soggyswamp/soggyswamp.json"
+            }
         }
     ],
     "mob-groups": [
@@ -685,8 +675,7 @@
                     "type": "skeleton",
                     "weight": 1.5
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== SOLO WITCHES ==============",
@@ -697,8 +686,7 @@
                     "min": 2,
                     "max": 2
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== ZOMBIES ==============",
@@ -712,8 +700,7 @@
                     "type": "babyzombie",
                     "weight": 0.4
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== SKELETONS, ZOMBIES ==============",
@@ -731,8 +718,7 @@
                     "type": "babyzombie",
                     "weight": 0.5
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== WITCHES, VINDICATORS, ZOMBIES ==============",
@@ -750,8 +736,7 @@
                     "type": "witch",
                     "weight": 0.2
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== ANNOYING WITCHES ==============",
@@ -774,8 +759,7 @@
                     "weight": 0.3,
                     "max%": 0.3
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== SWAMP MOBS ==============",
@@ -812,8 +796,7 @@
             "pick-types": [
                 3,
                 4
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== SPECIAL WITCHES ==============",
@@ -841,8 +824,7 @@
                     "weight": 0.2,
                     "min": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         },
         {
             "#": "============== CAULDRON BOSS ==============",
@@ -854,63 +836,52 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_mobs.json"
+            ]
         }
     ],
     "props": [],
     "tiles": [
         {
             "id": "ss_001",
-            "rotations": 0,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 0
         },
         {
             "id": "ss_start_alt",
-            "rotations": 0,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 0
         },
         {
             "id": "ss_bosstile_large",
-            "entry-door": "enter",
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ss_bosstransition",
-            "entry-door": "enter",
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ss_special001_alt",
             "entry-door": "enter",
-            "rotations": 0,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 0
         },
         {
             "id": "ss_special001_new1",
             "entry-door": "enter",
-            "rotations": 0,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 0
         },
         {
             "id": "ss_special001_new2",
             "entry-door": "enter",
-            "rotations": 0,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 0
         },
         {
             "id": "ss_inventory001",
-            "rotations": 270,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 270
         },
         {
             "id": "ss_inventory002",
-            "rotations": 0,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 0
         },
         {
-            "id": "ss_special002",
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "id": "ss_special002"
         },
         {
             "id": "secret@ss_end",
@@ -926,16 +897,14 @@
             ],
             "unlock-keys": [
                 "RuneGateDiscovered"
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_end",
             "rotations": 0,
             "unlock-keys": [
                 "not RuneGateDiscovered"
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_transition_in",
@@ -950,8 +919,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_cave_texit",
@@ -963,44 +931,36 @@
                     "exit": "caveend.*.cave_exit",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_transition_out",
             "entry-door": "enter",
-            "rotations": 0,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 0
         },
         {
             "id": "ss_cave_enter",
-            "rotations": 180,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 180
         },
         {
             "id": "ss_cave001",
-            "rotations": 180,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 180
         },
         {
             "id": "ss_cave002",
-            "entry-door": "enter",
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ss_cave008",
-            "entry-door": "enter",
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ss_fillstart",
-            "entry-door": "enter",
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ss_cave_secret1",
-            "rotations": 90,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 90
         },
         {
             "id": "ss_cave_secret2",
@@ -1009,8 +969,7 @@
             "challenges": [
                 "secret_arena",
                 "secret_clicky"
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_cave_secret3",
@@ -1021,8 +980,7 @@
                     "exit": "*.*.leftsecret",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_large001_secret",
@@ -1036,8 +994,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/SoggySwamp/BP_SS_Secret_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_side_transition",
@@ -1052,13 +1009,11 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_side_falsetrans",
-            "rotations": 90,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 90
         },
         {
             "id": "ss_side_hub",
@@ -1094,8 +1049,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_side_sub001",
@@ -1109,8 +1063,7 @@
                     "exit": "*.*.exited_sub1",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_side_sub002",
@@ -1124,8 +1077,7 @@
                     "exit": "*.*.exited_sub2",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_side_sub003",
@@ -1139,8 +1091,7 @@
                     "exit": "*.*.exited_sub1",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_side_sub004",
@@ -1154,24 +1105,20 @@
                     "exit": "*.*.exited_sub2",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "ss_side_start",
-            "rotations": 90,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 90
         },
         {
             "id": "ss_side_falsestart",
             "entry-door": "enter",
-            "rotations": 90,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 90
         },
         {
             "id": "ss_side_treasury",
-            "rotations": 270,
-            "##loc": "soggyswamp/swamp_tiles.json"
+            "rotations": 270
         },
         {
             "id": "ss_side_end",
@@ -1181,8 +1128,7 @@
                     "exit": "*.*.exited_new",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "soggyswamp/swamp_tiles.json"
+            ]
         },
         {
             "id": "rr_entrance001",
@@ -1192,13 +1138,11 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
                 }
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         },
         {
             "id": "rr_runeroom001",
-            "rotations": 90,
-            "##loc": "RuneRoom/rr_tiles.json"
+            "rotations": 90
         },
         {
             "id": "rralt_entrance001",
@@ -1208,8 +1152,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
                 }
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         }
     ],
     "prop-groups": [
@@ -1227,8 +1170,7 @@
                 "rr_rockprop06",
                 "rr_rockprop07",
                 "rr_rockprop08"
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         },
         {
             "id": "ss_004",
@@ -1303,8 +1245,7 @@
                     ],
                     "audio-ambience": "audio_1"
                 }
-            ],
-            "##loc": "runeroom/rr_dungeons.json"
+            ]
         },
         {
             "id": "runeroom02",
@@ -1325,8 +1266,7 @@
                         "rr_runeroom001"
                     ]
                 }
-            ],
-            "##loc": "runeroom/rr_dungeons.json"
+            ]
         },
         {
             "id": "swamp_cave",
@@ -1672,8 +1612,7 @@
                         "density": 0.5
                     }
                 }
-            ],
-            "##loc": "soggyswamp/swamp_cave.json"
+            ]
         },
         {
             "id": "swamp_secret",
@@ -1725,8 +1664,7 @@
                         "density": 0.5
                     }
                 }
-            ],
-            "##loc": "soggyswamp/swamp_secret.json"
+            ]
         },
         {
             "id": "swamp_bonus_hub",
@@ -1747,8 +1685,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_bonus_hub.json"
+            ]
         },
         {
             "id": "swamp_bonus_treasury",
@@ -1769,8 +1706,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_bonus_treasury.json"
+            ]
         },
         {
             "id": "swamp_bonus_challenge1",
@@ -1784,8 +1720,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_bonus_challenge1.json"
+            ]
         },
         {
             "id": "swamp_bonus_challenge2",
@@ -1799,8 +1734,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_bonus_challenge2.json"
+            ]
         },
         {
             "id": "swamp_bonus_challenge3",
@@ -1814,8 +1748,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_bonus_challenge3.json"
+            ]
         },
         {
             "id": "swamp_bonus_challenge4",
@@ -1829,8 +1762,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "soggyswamp/swamp_bonus_challenge4.json"
+            ]
         }
     ]
 }

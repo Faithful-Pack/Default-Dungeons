@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Claymore/MI_Claymore.MI_Claymore'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Claymore/MI_Claymore.MI_Claymore'
+        MaterialSlotName = lambert10SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.27, 165.07, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-006, Y=-50.8233, Z=0 }
+    BoxExtent = { X=26.5165, Y=90.5981, Z=3.125 }
+    SphereRadius = 90.7596
+}

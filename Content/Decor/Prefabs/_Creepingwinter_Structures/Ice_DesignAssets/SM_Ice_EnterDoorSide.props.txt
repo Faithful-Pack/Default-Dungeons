@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/MI_IceEntranceDoor.MI_IceEntranceDoor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/MI_IceEntranceDoor.MI_IceEntranceDoor'
+        MaterialSlotName = 14 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 808.995, 603.533, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=-50, Z=250 }
+    BoxExtent = { X=50, Y=62.5, Z=250 }
+    SphereRadius = 262.5
+}

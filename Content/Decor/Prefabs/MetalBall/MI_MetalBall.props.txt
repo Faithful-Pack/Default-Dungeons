@@ -1,35 +1,35 @@
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.6
         ParameterInfo = { Name=01 Emissive Strength }
+        ParameterValue = 0.6
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/MetalBall/T_MetalCube.T_MetalCube'
         ParameterInfo = { Name=01 Base Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/MetalBall/T_MetalCube.T_MetalCube'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/MetalBall/T_MetalCube.T_MetalCube'
         ParameterInfo = { Name=03 Specular Alpha }
+        ParameterValue = Texture2D'Decor/Prefabs/MetalBall/T_MetalCube.T_MetalCube'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -39,6 +39,27 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=01 Use Specular }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Spec Alpha }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -46,3 +67,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

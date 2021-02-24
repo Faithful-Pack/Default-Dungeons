@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/RewardChest/MI_WoodenChest_Prop.MI_WoodenChest_Prop'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/RewardChest/MI_WoodenChest_Prop.MI_WoodenChest_Prop'
+        MaterialSlotName = MaterialInstanceDynamic_0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 393.479, 436.884, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.372581, Y=-38.0699, Z=73.1724 }
+    BoxExtent = { X=62.8726, Y=81.8199, Z=73.1724 }
+    SphereRadius = 126.498
+}

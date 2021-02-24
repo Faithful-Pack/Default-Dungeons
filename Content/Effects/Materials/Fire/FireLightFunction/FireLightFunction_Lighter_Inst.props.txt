@@ -1,28 +1,29 @@
+Parent = Material3'Effects/Materials/Fire/FireLightFunction/FireLightFunction.FireLightFunction'
 ScalarParameterValues[4] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.657142
         ParameterInfo = { Name=MinRay }
+        ParameterValue = 0.657142
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.645092
         ParameterInfo = { Name=RayMoveSpeed }
+        ParameterValue = 0.645092
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 6.19259
         ParameterInfo = { Name=Size }
+        ParameterValue = 6.19259
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -30,12 +31,11 @@ VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.140625, G=0.140625, B=0.140625, A=0 }
         ParameterInfo = { Name=MinLight }
+        ParameterValue = { R=0.140625, G=0.140625, B=0.140625, A=0 }
+        ParameterName = None
     }
 }
-Parent = Material3'Effects/Materials/Fire/FireLightFunction/FireLightFunction.FireLightFunction'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -45,6 +45,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -52,3 +59,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

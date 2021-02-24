@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWart_NoFade.MI_NetherWart_NoFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWart_NoFade.MI_NetherWart_NoFade'
+        MaterialSlotName = phong1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.018, 320.862, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.28882e-005, Y=0, Z=100 }
+    BoxExtent = { X=50, Y=50, Z=100 }
+    SphereRadius = 122.474
+}

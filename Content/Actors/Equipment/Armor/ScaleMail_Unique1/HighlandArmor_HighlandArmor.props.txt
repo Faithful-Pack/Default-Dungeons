@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/ScaleMail_Unique1/MI_HighlandArmor.MI_HighlandArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/ScaleMail_Unique1/MI_HighlandArmor.MI_HighlandArmor'
+        MaterialSlotName = lambert5SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 462.481, 146.446, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=32.1084, Z=-0.111243 }
+    BoxExtent = { X=28.744, Y=40.0152, Z=14.3543 }
+    SphereRadius = 51.3175
+}

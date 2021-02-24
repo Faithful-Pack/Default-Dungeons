@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Patch2/Actors/Items/SoulLantern/MI_SoulLantern.MI_SoulLantern'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Patch2/Actors/Items/SoulLantern/MI_SoulLantern.MI_SoulLantern'
+        MaterialSlotName = Lantern
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.042, 155.505, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.125, Z=43.75 }
+    BoxExtent = { X=21.875, Y=21.875, Z=50 }
+    SphereRadius = 58.7965
+}

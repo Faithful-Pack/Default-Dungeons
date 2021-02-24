@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/AssassinArmor/MI_AssassinArmor.MI_AssassinArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/AssassinArmor/MI_AssassinArmor.MI_AssassinArmor'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 407.494, 197.907, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=31.25, Z=-0.0988846 }
+    BoxExtent = { X=31.25, Y=37.5, Z=25 }
+    SphereRadius = 54.8435
+}

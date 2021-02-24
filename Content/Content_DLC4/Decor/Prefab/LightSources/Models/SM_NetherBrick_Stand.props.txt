@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherMisc.MI_NetherMisc'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherMisc.MI_NetherMisc'
+        MaterialSlotName = MI_NetherMisc
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 801.52, 793.461, 639.699, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=62.5, Y=-3.43323e-005, Z=300 }
+    BoxExtent = { X=112.5, Y=50, Z=300 }
+    SphereRadius = 324.278
+}

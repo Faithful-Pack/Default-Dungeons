@@ -1,25 +1,14 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[4] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/T_FFJ_CloudPanner.T_FFJ_CloudPanner'
-    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_CR_Flow.T_CR_Flow'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_CR_Flow.T_CR_Flow'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_Flowclouds.T_Flowclouds'
     ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/WP_Flow_Pixels.WP_Flow_Pixels'
+    ReferencedTextures[3] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/T_FFJ_CloudPanner.T_FFJ_CloudPanner'
 }
-Expressions[36] =
-{
-    Expressions[0] = MaterialExpressionVectorParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionVectorParameter_0'
-    Expressions[4] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[8] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionScalarParameter_0'
-    Expressions[10] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionScalarParameter_1'
-    Expressions[12] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionTextureSample_0'
-    Expressions[16] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionScalarParameter_2'
-    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionScalarParameter_3'
-    Expressions[27] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionTextureSample_3'
-    Expressions[34] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionTextureSample_1'
-    Expressions[35] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS.MaterialExpressionTextureSample_2'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -32,32 +21,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[4] =
-{
-    CollectedScalarParameters[0] = { Value=3000, Name=FadeDistance, Group=None }
-    CollectedScalarParameters[1] = { Value=400, Name=Cutoff, Group=None }
-    CollectedScalarParameters[2] = { Value=400, Name=Tiling, Group=None }
-    CollectedScalarParameters[3] = { Value=0.01, Name=Speed, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.614258, G=0.755064, B=0.770833, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -65,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

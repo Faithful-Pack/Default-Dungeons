@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Interactables/BoneButton/NEW/MI_BoneButton.MI_BoneButton'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Interactables/BoneButton/NEW/MI_BoneButton.MI_BoneButton'
+        MaterialSlotName = Material #33
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 160.775, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-006, Z=12.5 }
+    BoxExtent = { X=50, Y=50, Z=12.5 }
+    SphereRadius = 71.807
+}

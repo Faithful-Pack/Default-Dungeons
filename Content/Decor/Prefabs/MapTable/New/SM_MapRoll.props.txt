@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/MapTable/New/MI_MapRoll_Dissolvable.MI_MapRoll_Dissolvable'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/MapTable/New/MI_MapRoll_Dissolvable.MI_MapRoll_Dissolvable'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 357.159, 221.835, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.93124, Y=-7.62939e-006, Z=23.3107 }
+    BoxExtent = { X=24.7309, Y=87.5, Z=23.3743 }
+    SphereRadius = 92.4744
+}

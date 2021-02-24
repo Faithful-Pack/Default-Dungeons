@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Orange.MI_Orange'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Orange.MI_Orange'
+        MaterialSlotName = SM_Apple:pPlane2Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.233, 137.178, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0.435741, Z=26.707 }
+    BoxExtent = { X=21.875, Y=22.3107, Z=26.707 }
+    SphereRadius = 41.1041
+}

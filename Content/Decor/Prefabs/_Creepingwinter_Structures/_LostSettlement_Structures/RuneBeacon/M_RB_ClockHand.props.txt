@@ -6,11 +6,7 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RB_Clock.T_RB_Clock'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RBClockHand.T_RBClockHand'
 }
-Expressions[3] =
-{
-    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RB_ClockHand.MaterialExpressionTextureSample_0'
-    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RB_ClockHand.MaterialExpressionTextureSample_1'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -23,14 +19,13 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Additive (3)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
@@ -42,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

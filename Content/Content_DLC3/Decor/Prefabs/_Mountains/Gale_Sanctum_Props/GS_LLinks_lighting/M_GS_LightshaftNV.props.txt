@@ -5,15 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_Flowclouds.T_Flowclouds'
 }
-Expressions[67] =
-{
-    Expressions[11] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS_LLinks_lighting/M_GS_LightshaftNV.MaterialExpressionTextureSample_5'
-    Expressions[19] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS_LLinks_lighting/M_GS_LightshaftNV.MaterialExpressionTextureSample_1'
-    Expressions[21] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS_LLinks_lighting/M_GS_LightshaftNV.MaterialExpressionTextureSample_3'
-    Expressions[48] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS_LLinks_lighting/M_GS_LightshaftNV.MaterialExpressionScalarParameter_0'
-    Expressions[50] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS_LLinks_lighting/M_GS_LightshaftNV.MaterialExpressionScalarParameter_1'
-    Expressions[57] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/GS_LLinks_lighting/M_GS_LightshaftNV.MaterialExpressionScalarParameter_2'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -26,22 +18,16 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Additive (3)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[3] =
-{
-    CollectedScalarParameters[0] = { Value=2, Name=Amount, Group=None }
-    CollectedScalarParameters[1] = { Value=250000, Name=DrawDistance, Group=None }
-    CollectedScalarParameters[2] = { Value=0, Name=GlowAmount, Group=None }
-}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -50,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

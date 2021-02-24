@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/MI_CampaignTent_NoFade.MI_CampaignTent_NoFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/MI_CampaignTent_NoFade.MI_CampaignTent_NoFade'
+        MaterialSlotName = CampaignTent
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1608.83, 855.01, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=350, Y=-350, Z=99.9999 }
+    BoxExtent = { X=350, Y=350, Z=100 }
+    SphereRadius = 504.975
+}

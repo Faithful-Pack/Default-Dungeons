@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/SnowArmor/MI_SnowArmor.MI_SnowArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/SnowArmor/MI_SnowArmor.MI_SnowArmor'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 371.409, 206.805, 170.422, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=31.1142, Z=4.13836 }
+    BoxExtent = { X=29.5611, Y=35.4733, Z=20.8616 }
+    SphereRadius = 50.6697
+}

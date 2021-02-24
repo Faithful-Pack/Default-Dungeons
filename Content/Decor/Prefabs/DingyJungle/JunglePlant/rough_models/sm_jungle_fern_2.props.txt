@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/rough_models/MI_jungle_plant_fern_2.MI_jungle_plant_fern_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/rough_models/MI_jungle_plant_fern_2.MI_jungle_plant_fern_2'
+        MaterialSlotName = MI_jungle_plant_fern_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 184.666, 82.087, 114.593, 401.217 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-17.4512, Y=-0.375092, Z=63.5465 }
+    BoxExtent = { X=148.01, Y=142.467, Z=77.0338 }
+    SphereRadius = 175.535
+}

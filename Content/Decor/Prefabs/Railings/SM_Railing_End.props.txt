@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Railings/MI_Railing.MI_Railing'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/Railings/MI_Railing.MI_Railing'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Railings/MI_Railing.MI_Railing'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 246.314, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Railings/MI_Railing.MI_Railing'
+        MaterialSlotName = pCube4Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 246.414, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-62.5, Z=0 }
+    BoxExtent = { X=62.5, Y=62.5, Z=12.5 }
+    SphereRadius = 89.2679
+}

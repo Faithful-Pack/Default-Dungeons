@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Podium/MI_Podium_HBH.MI_Podium_HBH'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Podium/MI_Podium_HBH.MI_Podium_HBH'
+        MaterialSlotName = SM_PodiumMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 415.094, 490.645, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62939e-006, Y=-100, Z=0 }
+    BoxExtent = { X=68.75, Y=100, Z=68.75 }
+    SphereRadius = 139.474
+}

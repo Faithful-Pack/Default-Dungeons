@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Sub_TroomDecor/MI_Troom_Pillar.MI_Troom_Pillar'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Sub_TroomDecor/MI_Troom_Pillar.MI_Troom_Pillar'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.476, 1777.37, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=300 }
+    BoxExtent = { X=300, Y=300, Z=300 }
+    SphereRadius = 491.172
+}

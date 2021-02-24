@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWart_TraceFade.MI_NetherWart_TraceFade'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWartFoilageTwoSide_TraceFade.MI_NetherWartFoilageTwoSide_TraceFade'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWart_TraceFade.MI_NetherWart_TraceFade'
+        MaterialSlotName = MI_NetherWart_TraceFade_010
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 2123.74, 2124.01, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWartFoilageTwoSide_TraceFade.MI_NetherWartFoilageTwoSide_TraceFade'
+        MaterialSlotName = MI_NetherWartFoilageTwoSide_TraceFade_010
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 2129.83, 2129.15, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=50.5352, Z=625 }
+    BoxExtent = { X=250, Y=250.535, Z=625 }
+    SphereRadius = 653.546
+}

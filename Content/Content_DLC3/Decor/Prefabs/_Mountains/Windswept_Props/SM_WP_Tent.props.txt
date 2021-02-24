@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/Mi_WP_Tent.Mi_WP_Tent'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/Mi_WP_Tent.Mi_WP_Tent'
+        MaterialSlotName = MI_Tent
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 938.411, 889.826, 536.047, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-121.565, Y=0.0300446, Z=93.6936 }
+    BoxExtent = { X=171.159, Y=190.595, Z=109.382 }
+    SphereRadius = 271.688
+}

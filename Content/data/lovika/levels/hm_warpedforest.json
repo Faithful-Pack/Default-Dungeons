@@ -1,0 +1,2185 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "WarpedForest",
+    "loctable-id": "hypermission",
+    "require-matching-doors": true,
+    "play-intro": false,
+    "dimension": "nether",
+    "initial-dungeons": [
+        "hm_warpedforest01",
+        "hm_warpedforest02"
+    ],
+    "resource-packs": [
+        "warpedforest"
+    ],
+    "visual-theme": "cave",
+    "sound-theme": "cave",
+    "prop-density": 1,
+    "#dm": "density:Float {only, add}: WeightedStringArray, not: StringArray",
+    "default-mobs": {
+        "only": [
+            "warped-default",
+            {
+                "id": "warped-default",
+                "weight": 0.9
+            }
+        ],
+        "density": 1
+    },
+    "objectives": [
+        {
+            "name": "name_the_ancient",
+            "description": "description_find_the_exit",
+            "consider-tiles": "all",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "hm_warped_end.*.hm_gauntlet"
+            }
+        },
+        {
+            "name": "name_the_escape",
+            "description": "description_exit_through_the_gate",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "optional": true,
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/ExitDoors/BP_WarpedDoor_Framed",
+                "count": 1,
+                "locations": [
+                    "*.hmtonone@wf_portal_01.endgate"
+                ]
+            }
+        },
+        {
+            "name": "name_the_escape",
+            "description": "description_exit_through_the_gate",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "optional": true,
+            "click": {
+                "object": "Content_DLC4/Decor/Prefab/Functional/ExitDoors/BP_WarpedDoor_Framed",
+                "count": 1,
+                "locations": [
+                    "*.hmtonone@wf_portal_02.endgate"
+                ]
+            }
+        }
+    ],
+    "challenges": [
+        {
+            "id": "cavearena",
+            "trigger": "*.wf_l_straight_02.challenge",
+            "reward": {
+                "region": "*.wf_l_straight_02.treasure",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "path_end",
+                "interval": 5,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        2,
+                        "warped-fort"
+                    ],
+                    [
+                        3,
+                        "warped-fort"
+                    ],
+                    [
+                        2,
+                        "warped-fort"
+                    ],
+                    [
+                        4,
+                        "warped-fort"
+                    ],
+                    [
+                        3,
+                        "warped-fort"
+                    ],
+                    [
+                        5,
+                        "warped-fort"
+                    ],
+                    [
+                        5,
+                        "warped-fort"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "zombiearena",
+            "trigger": "*.wf_l_curve_02.challenge",
+            "reward": {
+                "region": "*.wf_l_curve_02.treasure",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "zarena",
+                "interval": 5,
+                "rest-interval": 1,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        5,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        7,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        5,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        7,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        7,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        11,
+                        "warped-zombiehord"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "keyarena",
+            "trigger": "*.wf_l_fork_02_p2.keychallenge",
+            "arena": {
+                "stretch": "objective_final",
+                "interval": 3,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "has-music": false,
+                "waves": [
+                    [
+                        5,
+                        "warped-ambush"
+                    ],
+                    [
+                        4,
+                        "warped-ambush"
+                    ],
+                    [
+                        3,
+                        "warped-ambush"
+                    ],
+                    [
+                        6,
+                        "warped-ambush"
+                    ],
+                    [
+                        3,
+                        "warped-ambush"
+                    ]
+                ],
+                "gate": null
+            }
+        }
+    ],
+    "stretches": [],
+    "mob-groups": [
+        {
+            "#": "============== WARPED DEFAULT GROUP ==============",
+            "id": "warped-default",
+            "types": [
+                {
+                    "type": "witherskeleton",
+                    "weight": 0.25,
+                    "max%": 0.1
+                },
+                {
+                    "type": "piglinranged",
+                    "weight": 0.8
+                },
+                {
+                    "type": "piglinmelee",
+                    "weight": 1
+                },
+                {
+                    "type": "hoglin",
+                    "weight": 1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "piglinfungusthrower",
+                    "weight": 1,
+                    "max%": 0.2,
+                    "min-difficulty": 2
+                },
+                {
+                    "type": "zombifiedpiglin",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombifiedpiglinranged",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombifiedpiglinfungusthrower",
+                    "weight": 1,
+                    "max%": 0.15
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== WARPED BUILDING GROUP ==============",
+            "id": "warped-building",
+            "types": [
+                {
+                    "type": "witherskeleton",
+                    "weight": 0.25,
+                    "max%": 0.1
+                },
+                {
+                    "type": "piglinranged",
+                    "weight": 0.8
+                },
+                {
+                    "type": "piglinmelee",
+                    "weight": 1
+                },
+                {
+                    "type": "hoglin",
+                    "weight": 1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "piglinfungusthrower",
+                    "weight": 1,
+                    "max%": 0.2,
+                    "min-difficulty": 2
+                },
+                {
+                    "type": "zombifiedpiglin",
+                    "weight": 0.5,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombifiedpiglinranged",
+                    "weight": 0.5,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombifiedpiglinfungusthrower",
+                    "weight": 1,
+                    "max%": 0.15
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ]
+        },
+        {
+            "#": "============== WARPED AMBUSH GROUP ==============",
+            "id": "warped-ambush",
+            "types": [
+                {
+                    "type": "piglinranged",
+                    "weight": 3
+                },
+                {
+                    "type": "piglinmelee",
+                    "weight": 5
+                },
+                {
+                    "type": "hoglin",
+                    "weight": 2,
+                    "max%": 0.5
+                },
+                {
+                    "type": "piglinfungusthrower",
+                    "weight": 2,
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== WARPED FORT GROUP ==============",
+            "id": "warped-fort",
+            "types": [
+                {
+                    "type": "witherskeleton",
+                    "weight": 4
+                },
+                {
+                    "type": "witherskeletonranged",
+                    "weight": 3.5,
+                    "max%": 0.3
+                },
+                {
+                    "type": "piglinranged",
+                    "weight": 1,
+                    "max%": 0.4
+                },
+                {
+                    "type": "piglinmelee",
+                    "weight": 1.5
+                },
+                {
+                    "type": "zombifiedpiglin",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombifiedpiglinranged",
+                    "weight": 0.1,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                1,
+                3
+            ]
+        },
+        {
+            "#": "============== WARPED PIGLINHORD ==============",
+            "id": "warped-piglinhord",
+            "types": [
+                {
+                    "type": "piglinranged",
+                    "weight": 1
+                },
+                {
+                    "type": "piglinmelee",
+                    "weight": 0.8
+                },
+                {
+                    "type": "hoglin",
+                    "weight": 1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "piglinfungusthrower",
+                    "weight": 1,
+                    "max%": 0.2,
+                    "min-difficulty": 2
+                },
+                {
+                    "type": "zombifiedpiglin",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombifiedpiglinranged",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombifiedpiglinfungusthrower",
+                    "weight": 1,
+                    "max%": 0.15
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== WARPED ZOMBIEHORD ==============",
+            "id": "warped-zombiehord",
+            "types": [
+                {
+                    "type": "zombifiedpiglin",
+                    "weight": 1
+                },
+                {
+                    "type": "zombifiedpiglinranged",
+                    "weight": 0.8
+                },
+                {
+                    "type": "zombifiedpiglinfungusthrower",
+                    "weight": 1,
+                    "max%": 0.2,
+                    "min-difficulty": 2
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== ENDERMAN GROUP ==============",
+            "id": "Endermen",
+            "types": [
+                {
+                    "type": "Enderman",
+                    "weight": 1,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        }
+    ],
+    "object-groups": [
+        "WarpedForest/objectgroup",
+        "hm_warpedforest/objectgroup"
+    ],
+    "props": [
+        {
+            "id": "wf_prop_m_build_01"
+        },
+        {
+            "id": "wf_prop_m_build_02"
+        },
+        {
+            "id": "wf_prop_m_nat_01"
+        },
+        {
+            "id": "wf_prop_m_nat_02"
+        },
+        {
+            "id": "wf_prop_m_nat_03"
+        },
+        {
+            "id": "wf_prop_m_nat_04"
+        },
+        {
+            "id": "wf_prop_s_build_01"
+        },
+        {
+            "id": "wf_prop_s_build_02"
+        },
+        {
+            "id": "wf_prop_s_build_03"
+        },
+        {
+            "id": "wf_prop_s_build_04"
+        },
+        {
+            "id": "wf_prop_s_nat_01"
+        },
+        {
+            "id": "wf_prop_s_nat_02"
+        },
+        {
+            "id": "wf_prop_s_nat_03"
+        },
+        {
+            "id": "wf_prop_s_nat_04"
+        },
+        {
+            "id": "wf_prop_s_nat_05"
+        },
+        {
+            "id": "wf_prop_s_nat_06"
+        },
+        {
+            "id": "wf_prop_portal_01"
+        },
+        {
+            "id": "wf_prop_portal_02"
+        },
+        {
+            "id": "wf_prop_portal_03"
+        },
+        {
+            "id": "wf_prop_portal_04"
+        },
+        {
+            "id": "wf_prop_portal_05"
+        },
+        {
+            "id": "wf_prop_portal_06"
+        }
+    ],
+    "tiles": [
+        {
+            "id": "wf_start",
+            "rotations": [
+                0
+            ],
+            "exit-door": "exit"
+        },
+        {
+            "id": "wf_s_curve_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_curve_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_curve_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_curve_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_curve_03",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_l_curve_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_l_curve_02",
+            "entry-door": "path",
+            "challenges": [
+                "zombiearena"
+            ]
+        },
+        {
+            "id": "wf_long_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_long_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_long_03",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_long_04",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_long_05",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_bridge_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_path_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_path_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_path_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_path_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_path_03",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_fork_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_fork_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_fork_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_cross_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_cross_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_cross_03",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_cross_04",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_cross_05",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_cross_06",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_s_cross_07",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_cross_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_cross_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_cross_03",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_cross_04",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_m_cross_05",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_l_cross_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_l_cross_02",
+            "entry-door": "path"
+        },
+        {
+            "id": "wf_l_straight_01",
+            "entry-door": "path"
+        },
+        {
+            "id": "hmfromnone@wf_start",
+            "rotations": [
+                0
+            ],
+            "exit-door": "exit",
+            "unlock-keys": [
+                "hm_from_none"
+            ]
+        },
+        {
+            "id": "hmfromoverworld@wf_start",
+            "rotations": [
+                0
+            ],
+            "exit-door": "exit",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Soulsand"
+                }
+            ],
+            "unlock-keys": [
+                "hm_from_overworld"
+            ]
+        },
+        {
+            "id": "hmfromnether@wf_start",
+            "rotations": [
+                0
+            ],
+            "exit-door": "exit",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Soulsand"
+                }
+            ],
+            "unlock-keys": [
+                "hm_from_nether"
+            ]
+        },
+        {
+            "id": "wf_l_fork_01",
+            "entry-door": "path",
+            "rotations": [
+                90,
+                180
+            ]
+        },
+        {
+            "id": "hyperdungeon@wf_l_fork_01",
+            "entry-door": "path",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_hyperdungeon_01",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_hyperdungeon_02",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_hyperdungeon_03",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_hyperdungeon_04",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_l_fork_02",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "rotations": [
+                0
+            ]
+        },
+        {
+            "id": "wf_l_fork_02_p2",
+            "entry-door": "enter",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "keyarena"
+            ]
+        },
+        {
+            "id": "wf_l_curve_03",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "rotations": [
+                180
+            ]
+        },
+        {
+            "id": "wf_m_curve_04",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "rotations": [
+                180
+            ]
+        },
+        {
+            "id": "wf_l_straight_02",
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "challenges": [
+                "cavearena"
+            ]
+        },
+        {
+            "id": "wf_portal_01",
+            "entry-door": "enter",
+            "rotations": [
+                90
+            ]
+        },
+        {
+            "id": "wf_portal_02",
+            "entry-door": "enter",
+            "rotations": [
+                90
+            ]
+        },
+        {
+            "id": "hmtonone@wf_portal_01",
+            "rotations": [
+                90
+            ],
+            "entry-door": "enter",
+            "unlock-keys": [
+                "hm_to_none"
+            ]
+        },
+        {
+            "id": "hmtonone@wf_portal_02",
+            "rotations": [
+                90
+            ],
+            "entry-door": "enter",
+            "unlock-keys": [
+                "hm_to_none"
+            ]
+        },
+        {
+            "id": "hmtooverworld@wf_portal_01",
+            "rotations": [
+                90
+            ],
+            "entry-door": "enter",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Soulsand",
+                    "exit": "*.*.portal",
+                    "dungeons": [
+                        "@hyperlevel"
+                    ]
+                }
+            ],
+            "unlock-keys": [
+                "hm_to_overworld"
+            ]
+        },
+        {
+            "id": "hmtooverworld@wf_portal_02",
+            "rotations": [
+                90
+            ],
+            "entry-door": "enter",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Soulsand",
+                    "exit": "*.*.portal",
+                    "dungeons": [
+                        "@hyperlevel"
+                    ]
+                }
+            ],
+            "unlock-keys": [
+                "hm_to_overworld"
+            ]
+        },
+        {
+            "id": "hmtonether@wf_portal_01",
+            "rotations": [
+                90
+            ],
+            "entry-door": "enter",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Soulsand",
+                    "exit": "*.*.portal",
+                    "dungeons": [
+                        "@hyperlevel"
+                    ]
+                }
+            ],
+            "unlock-keys": [
+                "hm_to_nether"
+            ]
+        },
+        {
+            "id": "hmtonether@wf_portal_02",
+            "rotations": [
+                90
+            ],
+            "entry-door": "enter",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_Soulsand",
+                    "exit": "*.*.portal",
+                    "dungeons": [
+                        "@hyperlevel"
+                    ]
+                }
+            ],
+            "unlock-keys": [
+                "hm_to_nether"
+            ]
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "wf_props_natural",
+            "on-regions": [
+                "*.*.prop_natural"
+            ],
+            "props": [
+                "wf_prop_s_nat_01",
+                "wf_prop_s_nat_02",
+                "wf_prop_s_nat_03",
+                "wf_prop_s_nat_04",
+                "wf_prop_s_nat_05",
+                "wf_prop_s_nat_06",
+                "wf_prop_m_nat_01",
+                "wf_prop_m_nat_02",
+                "wf_prop_m_nat_03",
+                "wf_prop_m_nat_04"
+            ]
+        },
+        {
+            "id": "wf_props_buildings",
+            "on-regions": [
+                "*.*.prop_build"
+            ],
+            "props": [
+                "wf_prop_s_build_01",
+                "wf_prop_s_build_02",
+                "wf_prop_s_build_03",
+                "wf_prop_s_build_04",
+                "wf_prop_m_build_01",
+                "wf_prop_m_build_02"
+            ]
+        },
+        {
+            "id": "wf_props_portals",
+            "on-regions": [
+                "*.*.prop_portal"
+            ],
+            "props": [
+                "wf_prop_portal_01",
+                "wf_prop_portal_02",
+                "wf_prop_portal_03",
+                "wf_prop_portal_04",
+                "wf_prop_portal_05",
+                "wf_prop_portal_06"
+            ]
+        },
+        {
+            "id": "deadend",
+            "props": [
+                {
+                    "id": "wf_s_deadend_01",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_s_deadend_07",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_deadend_mini_02",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_deadend_mini_03",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_deadend_mini_06",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_deadend_mini_05",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_deadend_mini_01",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_s_deadend_04",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_s_deadend_03",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_s_deadend_06",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_s_deadend_05",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_deadend_mini_04",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_m_deadend_01",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_01",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_02",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_03",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_04",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [
+        {
+            "id": "wf_hm_start",
+            "tiles": [
+                "hmfromnone@wf_start",
+                "hmfromoverworld@wf_start",
+                "hmfromnether@wf_start"
+            ]
+        },
+        {
+            "id": "wf_hm_end",
+            "tiles": [
+                "hmtonone@wf_portal_01",
+                "hmtonone@wf_portal_02",
+                "hmtooverworld@wf_portal_01",
+                "hmtooverworld@wf_portal_02",
+                "hmtonether@wf_portal_01",
+                "hmtonether@wf_portal_02"
+            ]
+        },
+        {
+            "id": "wf_stretchfixer",
+            "tiles": [
+                "wf_s_path_01",
+                "wf_s_path_02",
+                "wf_m_path_01",
+                "wf_m_path_02",
+                "wf_m_path_03",
+                "wf_bridge_01"
+            ]
+        },
+        {
+            "id": "wf_serpentine",
+            "tiles": [
+                "wf_s_cross_01",
+                "wf_s_cross_02",
+                "wf_s_cross_03",
+                "wf_s_cross_04",
+                "wf_s_cross_05",
+                "wf_s_cross_06",
+                "wf_s_cross_07",
+                "wf_long_01",
+                "wf_long_03",
+                "wf_long_04",
+                "wf_long_05",
+                "wf_m_cross_03",
+                "wf_m_cross_04",
+                "wf_m_cross_05"
+            ]
+        },
+        {
+            "id": "wf_serpentine_alt",
+            "tiles": [
+                "wf_s_cross_01",
+                "wf_s_cross_02",
+                "wf_s_cross_03",
+                "wf_s_cross_04",
+                "wf_s_cross_05",
+                "wf_s_cross_06",
+                "wf_s_cross_07",
+                "wf_s_curve_01",
+                "wf_s_curve_02",
+                "wf_s_fork_01",
+                "wf_s_path_01",
+                "wf_s_path_02",
+                "wf_long_01",
+                "wf_long_02",
+                "wf_long_03",
+                "wf_long_04",
+                "wf_long_05",
+                "wf_m_cross_03",
+                "wf_m_cross_04",
+                "wf_m_cross_05"
+            ]
+        },
+        {
+            "id": "wf_small_natural",
+            "tiles": [
+                "wf_s_cross_01",
+                "wf_s_cross_02",
+                "wf_s_cross_03",
+                "wf_s_cross_04",
+                "wf_s_cross_06",
+                "wf_s_cross_07",
+                "wf_s_curve_01",
+                "wf_s_curve_02",
+                "wf_s_fork_01",
+                "wf_s_path_01",
+                "wf_s_path_02",
+                "wf_long_01",
+                "wf_long_02",
+                "wf_long_03",
+                "wf_long_04"
+            ]
+        },
+        {
+            "id": "wf_small_building",
+            "tiles": [
+                "wf_s_cross_05",
+                "wf_long_05",
+                "wf_bridge_01"
+            ]
+        },
+        {
+            "id": "wf_medium_natural",
+            "tiles": [
+                "wf_m_path_01",
+                "wf_m_path_02",
+                "wf_m_path_03",
+                "wf_m_fork_01",
+                "wf_m_fork_02",
+                "wf_m_cross_05",
+                "wf_m_curve_01",
+                "wf_m_curve_02",
+                "wf_m_curve_03"
+            ]
+        },
+        {
+            "id": "wf_medium_building",
+            "tiles": [
+                "wf_m_cross_01",
+                "wf_m_cross_02",
+                "wf_m_cross_03",
+                "wf_m_cross_04"
+            ]
+        },
+        {
+            "id": "wf_large",
+            "tiles": [
+                "wf_l_cross_01",
+                "wf_l_curve_01"
+            ]
+        },
+        {
+            "id": "wf_sidepaths_natural",
+            "tiles": [
+                "wf_s_curve_01",
+                "wf_s_curve_02",
+                "wf_s_path_01",
+                "wf_s_path_02"
+            ]
+        },
+        {
+            "id": "wf_end_sidepath",
+            "tiles": [
+                "wf_l_fork_02_p2"
+            ]
+        },
+        {
+            "id": "wf_small_linear",
+            "tiles": [
+                "wf_s_curve_01",
+                "wf_s_curve_02",
+                "wf_s_fork_01",
+                "wf_s_path_01",
+                "wf_s_path_02",
+                "wf_long_02"
+            ]
+        },
+        {
+            "id": "wf_islands",
+            "tiles": [
+                "wf_m_island_01",
+                "wf_m_island_02",
+                "wf_m_island_03",
+                "wf_m_island_04"
+            ]
+        },
+        {
+            "id": "wf_medium_linear",
+            "tiles": [
+                "wf_m_cross_01",
+                "wf_m_cross_02",
+                "wf_m_path_01",
+                "wf_m_path_02",
+                "wf_m_path_03",
+                "wf_m_curve_01",
+                "wf_m_curve_02",
+                "wf_m_curve_03",
+                "wf_m_fork_01",
+                "wf_long_02",
+                "wf_bridge_01"
+            ]
+        },
+        {
+            "id": "wf_medium_linear_alt",
+            "tiles": [
+                "wf_m_cross_01",
+                "wf_m_cross_02",
+                "wf_m_path_01",
+                "wf_m_path_02",
+                "wf_m_path_03",
+                "wf_m_curve_01",
+                "wf_m_curve_02",
+                "wf_m_curve_03",
+                "wf_m_fork_01",
+                "wf_long_02"
+            ]
+        },
+        {
+            "id": "wf_large_all",
+            "tiles": [
+                "wf_l_cross_01",
+                "wf_l_cross_02",
+                "wf_l_curve_01",
+                "wf_l_straight_01",
+                "wf_l_straight_02",
+                "wf_l_fork_01"
+            ]
+        },
+        {
+            "id": "wf_end",
+            "tiles": [
+                "wf_portal_01",
+                "wf_portal_02"
+            ]
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "hm_warpedforest01",
+            "ambience": "default",
+            "audio-ambience": "audio_1",
+            "fill": null,
+            "stretches": [
+                {
+                    "id": "start",
+                    "tile-groups": [
+                        "wf_hm_start"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings",
+                        "wf_props_portals"
+                    ],
+                    "prop-density": 5,
+                    "mobs": {
+                        "density": 0
+                    },
+                    "dead-ends": [
+                        "wf_m_island_01",
+                        "wf_m_island_02",
+                        "wf_m_island_03",
+                        "wf_m_island_04"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "wf_small_natural",
+                        "wf_medium_natural"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "dead-ends": [
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "prop-density": 0.5,
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_06",
+                                "wf_m_deadend_01",
+                                "wf_deadend_mini_01",
+                                "wf_deadend_mini_02",
+                                "wf_deadend_mini_03",
+                                "wf_deadend_mini_04",
+                                "wf_deadend_mini_05",
+                                "wf_deadend_mini_06",
+                                {
+                                    "id": "wf_hyperdungeon_01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_04",
+                                    "weight": 10
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "wf_serpentine"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "dead-ends": [
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "prop-density": 0.5,
+                    "length": 1,
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                2
+                            ],
+                            "tile-groups": [
+                                "wf_serpentine"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_06",
+                                "wf_m_deadend_01",
+                                "wf_deadend_mini_01",
+                                "wf_deadend_mini_02",
+                                "wf_deadend_mini_03",
+                                "wf_deadend_mini_04",
+                                "wf_deadend_mini_05",
+                                "wf_deadend_mini_06",
+                                {
+                                    "id": "wf_hyperdungeon_01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_04",
+                                    "weight": 10
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        "wf_l_fork_01",
+                        "hyperdungeon@wf_l_fork_01"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings",
+                        "wf_props_portals"
+                    ],
+                    "prop-density": 3,
+                    "dead-ends": [
+                        "wf_s_deadend_02",
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_05",
+                        "wf_s_deadend_06",
+                        "wf_s_deadend_07",
+                        "wf_m_deadend_01",
+                        "wf_m_deadend_02"
+                    ],
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_02",
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_05",
+                                "wf_s_deadend_06",
+                                "wf_s_deadend_07",
+                                "wf_m_deadend_01",
+                                "wf_m_deadend_02"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "wf_large"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings",
+                        "wf_props_portals"
+                    ],
+                    "prop-density": 1,
+                    "dead-ends": [
+                        "wf_s_deadend_02",
+                        "wf_s_deadend_05",
+                        "wf_s_deadend_07",
+                        "wf_m_deadend_01",
+                        "wf_m_deadend_02",
+                        "wf_m_island_01",
+                        "wf_m_island_02",
+                        "wf_m_island_03",
+                        "wf_m_island_04"
+                    ],
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_02",
+                                "wf_s_deadend_05",
+                                "wf_s_deadend_07"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "wf_small_natural",
+                        "wf_medium_natural"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "dead-ends": [
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "prop-density": 0.5,
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_06",
+                                "wf_m_deadend_01",
+                                "wf_deadend_mini_01",
+                                "wf_deadend_mini_02",
+                                "wf_deadend_mini_03",
+                                "wf_deadend_mini_04",
+                                "wf_deadend_mini_05",
+                                "wf_deadend_mini_06",
+                                {
+                                    "id": "wf_hyperdungeon_01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_04",
+                                    "weight": 10
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hm_warped_end",
+                    "tile-groups": [
+                        "wf_hm_end"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "prop-density": 0.5,
+                    "dead-ends": [
+                        "wf_m_island_01",
+                        "wf_m_island_02",
+                        "wf_m_island_03",
+                        "wf_m_island_04",
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "length": 1
+                }
+            ]
+        },
+        {
+            "id": "hm_warpedforest02",
+            "ambience": "default",
+            "audio-ambience": "audio_1",
+            "fill": null,
+            "stretches": [
+                {
+                    "id": "start",
+                    "tile-groups": [
+                        "wf_hm_start"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings",
+                        "wf_props_portals"
+                    ],
+                    "prop-density": 5,
+                    "mobs": {
+                        "density": 0
+                    },
+                    "dead-ends": [
+                        "wf_m_island_01",
+                        "wf_m_island_02",
+                        "wf_m_island_03",
+                        "wf_m_island_04"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "wf_small_natural",
+                        "wf_medium_natural"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "dead-ends": [
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "prop-density": 0.5,
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural",
+                                "wf_serpentine"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_06",
+                                "wf_m_deadend_01",
+                                "wf_deadend_mini_01",
+                                "wf_deadend_mini_02",
+                                "wf_deadend_mini_03",
+                                "wf_deadend_mini_04",
+                                "wf_deadend_mini_05",
+                                "wf_deadend_mini_06",
+                                {
+                                    "id": "wf_hyperdungeon_01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_04",
+                                    "weight": 10
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "wf_serpentine"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "dead-ends": [
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "prop-density": 0.5,
+                    "length": 1,
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                2
+                            ],
+                            "tile-groups": [
+                                "wf_serpentine"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_06",
+                                "wf_m_deadend_01",
+                                "wf_deadend_mini_01",
+                                "wf_deadend_mini_02",
+                                "wf_deadend_mini_03",
+                                "wf_deadend_mini_04",
+                                "wf_deadend_mini_05",
+                                "wf_deadend_mini_06",
+                                {
+                                    "id": "wf_hyperdungeon_01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_04",
+                                    "weight": 10
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "wf_large"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings",
+                        "wf_props_portals"
+                    ],
+                    "prop-density": 2,
+                    "length": 1,
+                    "dead-ends": [
+                        "wf_s_deadend_02",
+                        "wf_s_deadend_05",
+                        "wf_s_deadend_07",
+                        "wf_m_deadend_01",
+                        "wf_m_deadend_02",
+                        "wf_m_island_01",
+                        "wf_m_island_02",
+                        "wf_m_island_03",
+                        "wf_m_island_04"
+                    ],
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                2
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_02",
+                                "wf_s_deadend_05",
+                                "wf_s_deadend_07"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "wf_small_natural",
+                        "wf_medium_natural"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "dead-ends": [
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "prop-density": 0.5,
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_06",
+                                "wf_m_deadend_01",
+                                "wf_deadend_mini_01",
+                                "wf_deadend_mini_02",
+                                "wf_deadend_mini_03",
+                                "wf_deadend_mini_04",
+                                "wf_deadend_mini_05",
+                                "wf_deadend_mini_06",
+                                {
+                                    "id": "wf_hyperdungeon_01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_04",
+                                    "weight": 10
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        "wf_l_fork_01",
+                        "hyperdungeon@wf_l_fork_01"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings",
+                        "wf_props_portals"
+                    ],
+                    "prop-density": 5,
+                    "dead-ends": [
+                        "wf_s_deadend_02",
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_05",
+                        "wf_s_deadend_06",
+                        "wf_s_deadend_07",
+                        "wf_m_deadend_01",
+                        "wf_m_deadend_02"
+                    ],
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                2
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_02",
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_05",
+                                "wf_s_deadend_06",
+                                "wf_s_deadend_07",
+                                "wf_m_deadend_01",
+                                "wf_m_deadend_02"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "wf_small_natural",
+                        "wf_medium_natural"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "dead-ends": [
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "prop-density": 0.5,
+                    "length": 2,
+                    "side-paths": {
+                        "probability": 0.75,
+                        "default": {
+                            "max-length": [
+                                1,
+                                3
+                            ],
+                            "tile-groups": [
+                                "wf_sidepaths_natural"
+                            ],
+                            "dead-ends": [
+                                "wf_s_deadend_03",
+                                "wf_s_deadend_04",
+                                "wf_s_deadend_06",
+                                "wf_m_deadend_01",
+                                "wf_deadend_mini_01",
+                                "wf_deadend_mini_02",
+                                "wf_deadend_mini_03",
+                                "wf_deadend_mini_04",
+                                "wf_deadend_mini_05",
+                                "wf_deadend_mini_06",
+                                {
+                                    "id": "wf_hyperdungeon_01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "wf_hyperdungeon_04",
+                                    "weight": 10
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hm_warped_end",
+                    "tile-groups": [
+                        "wf_hm_end"
+                    ],
+                    "prop-groups": [
+                        "wf_props_natural",
+                        "wf_props_buildings"
+                    ],
+                    "prop-density": 0.5,
+                    "dead-ends": [
+                        "wf_m_island_01",
+                        "wf_m_island_02",
+                        "wf_m_island_03",
+                        "wf_m_island_04",
+                        "wf_s_deadend_03",
+                        "wf_s_deadend_04",
+                        "wf_s_deadend_06",
+                        "wf_m_deadend_01",
+                        "wf_deadend_mini_01",
+                        "wf_deadend_mini_02",
+                        "wf_deadend_mini_03",
+                        "wf_deadend_mini_04",
+                        "wf_deadend_mini_05",
+                        "wf_deadend_mini_06",
+                        {
+                            "id": "wf_hyperdungeon_01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "wf_hyperdungeon_04",
+                            "weight": 10
+                        }
+                    ],
+                    "length": 1
+                }
+            ]
+        }
+    ]
+}

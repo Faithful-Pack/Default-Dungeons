@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Sarcophagus/MI_Sarcophagus.MI_Sarcophagus'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Sarcophagus/MI_Sarcophagus.MI_Sarcophagus'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.148, 261.553, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-006, Z=74.8595 }
+    BoxExtent = { X=37.5, Y=25, Z=75.1405 }
+    SphereRadius = 87.6205
+}

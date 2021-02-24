@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_RopeBridge/MI_WP_rope_Bridge_2.MI_WP_rope_Bridge_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_RopeBridge/MI_WP_rope_Bridge_2.MI_WP_rope_Bridge_2'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 401.932, 1923.32, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-005, Y=100, Z=93.75 }
+    BoxExtent = { X=500, Y=100, Z=143.75 }
+    SphereRadius = 529.777
+}

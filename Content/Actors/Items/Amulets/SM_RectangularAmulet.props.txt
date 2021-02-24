@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/Amulets/CallersBane/M_CallersBane.M_CallersBane'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/Amulets/CallersBane/M_CallersBane.M_CallersBane'
+        MaterialSlotName = M_ShockPowder
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.668, 272.242, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-23.0801, Y=0, Z=-4.9544 }
+    BoxExtent = { X=107.403, Y=84.3225, Z=39.8919 }
+    SphereRadius = 111.502
+}

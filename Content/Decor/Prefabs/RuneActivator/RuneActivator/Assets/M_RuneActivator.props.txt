@@ -1,54 +1,13 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
+ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneActivatorNoise.T_RuneActivatorNoise'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RunActivator.T_RunActivator'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneActivatorMask.T_RuneActivatorMask'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneActivatorNoise.T_RuneActivatorNoise'
 }
-Expressions[217] =
-{
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_1'
-    Expressions[13] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionTextureSample_6'
-    Expressions[23] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionTextureSample_7'
-    Expressions[27] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionTextureSample_8'
-    Expressions[33] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_9'
-    Expressions[47] = MaterialExpressionVectorParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionVectorParameter_2'
-    Expressions[58] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_0'
-    Expressions[63] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_2'
-    Expressions[78] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_3'
-    Expressions[79] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_10'
-    Expressions[84] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_5'
-    Expressions[106] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_13'
-    Expressions[111] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_14'
-    Expressions[116] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_15'
-    Expressions[121] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[126] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[129] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[130] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[134] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[144] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_17'
-    Expressions[146] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_18'
-    Expressions[151] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_20'
-    Expressions[153] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_21'
-    Expressions[160] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_7'
-    Expressions[162] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_11'
-    Expressions[165] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[166] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_12'
-    Expressions[169] = MaterialExpressionVectorParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionVectorParameter_0'
-    Expressions[173] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_25'
-    Expressions[175] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[177] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_6'
-    Expressions[181] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_27'
-    Expressions[182] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_7'
-    Expressions[186] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_8'
-    Expressions[189] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionStaticSwitchParameter_9'
-    Expressions[195] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_31'
-    Expressions[198] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_32'
-    Expressions[209] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_4'
-    Expressions[210] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_6'
-    Expressions[216] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneActivator.MaterialExpressionScalarParameter_8'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -61,7 +20,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -70,63 +28,9 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[2] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RunActivator.T_RunActivator'
-        Name = Texture
-        Group = Textures
-    }
-    CollectedTextureParameters[1] =
-    {
-        Texture = Texture2D'Decor/Prefabs/RuneActivator/RuneActivator/Assets/T_RuneActivatorMask.T_RuneActivatorMask'
-        Name = Mask
-        Group = Textures
-    }
-}
-CollectedScalarParameters[24] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=EmissiveStrength, Group=None }
-    CollectedScalarParameters[1] = { Value=1.05243, Name=BlinkSpeed, Group=None }
-    CollectedScalarParameters[2] = { Value=0, Name=EmissiveStrength, Group=None }
-    CollectedScalarParameters[3] = { Value=0, Name=EmissiveStrength, Group=None }
-    CollectedScalarParameters[4] = { Value=0, Name=UTangent0, Group=None }
-    CollectedScalarParameters[5] = { Value=40, Name=UTangent1, Group=None }
-    CollectedScalarParameters[6] = { Value=0, Name=EmissiveStrength, Group=None }
-    CollectedScalarParameters[7] = { Value=0, Name=EmissiveStrength, Group=None }
-    CollectedScalarParameters[8] = { Value=0, Name=LeadingEdgeStrength, Group=None }
-    CollectedScalarParameters[9] = { Value=0, Name=EmissiveStrength, Group=None }
-    CollectedScalarParameters[10] = { Value=40, Name=UTangent1, Group=None }
-    CollectedScalarParameters[11] = { Value=0, Name=UTangent0, Group=None }
-    CollectedScalarParameters[12] = { Value=0, Name=TrailingEdge, Group=None }
-    CollectedScalarParameters[13] = { Value=0, Name=TrailingEdge, Group=None }
-    CollectedScalarParameters[14] = { Value=0, Name=FadeBack, Group=None }
-    CollectedScalarParameters[15] = { Value=0, Name=FadeBack, Group=None }
-    CollectedScalarParameters[16] = { Value=64, Name=TextureSize, Group=None }
-    CollectedScalarParameters[17] = { Value=7, Name=NumBlocks, Group=None }
-    CollectedScalarParameters[18] = { Value=7, Name=NumBlocks, Group=None }
-    CollectedScalarParameters[19] = { Value=7, Name=NumBlocks, Group=None }
-    CollectedScalarParameters[20] = { Value=7, Name=NumBlocks, Group=None }
-    CollectedScalarParameters[21] = { Value=0, Name=OffsetX, Group=None }
-    CollectedScalarParameters[22] = { Value=0, Name=OffsetY, Group=None }
-    CollectedScalarParameters[23] = { Value=1, Name=GradientUVScale, Group=None }
-}
-CollectedVectorParameters[2] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.710144, G=0, B=1, A=0 }
-        Name = GlowColor
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=17828, G=18916, B=0, A=0 }
-        Name = ObjectCenter
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -134,3 +38,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

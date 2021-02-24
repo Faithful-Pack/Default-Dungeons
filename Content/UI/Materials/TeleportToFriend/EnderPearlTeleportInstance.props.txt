@@ -1,15 +1,22 @@
+Parent = Material3'UI/Materials/TeleportToFriend/EnderPearlTeleport.EnderPearlTeleport'
 ScalarParameterValues[0] = {}
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'UI/Materials/TeleportToFriend/EnderPearlTeleport.EnderPearlTeleport'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
-    BlendMode = BLEND_AlphaComposite (7)
+    BlendMode = BLEND_AlphaComposite (5)
     bOverride_TwoSided = false
     TwoSided = false
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
 }
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -18,3 +25,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

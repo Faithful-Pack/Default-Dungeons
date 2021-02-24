@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/ArchIllegerStatue/MI_VillagerBroken.MI_VillagerBroken'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/ArchIllegerStatue/MI_VillagerBroken.MI_VillagerBroken'
+        MaterialSlotName = SM_VillagerStatue_Broken:SM_VillagerStatue:polySurface1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 418.441, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-18.75, Y=-112.5, Z=16.7624 }
+    BoxExtent = { X=56.25, Y=112.5, Z=48.0124 }
+    SphereRadius = 123.746
+}

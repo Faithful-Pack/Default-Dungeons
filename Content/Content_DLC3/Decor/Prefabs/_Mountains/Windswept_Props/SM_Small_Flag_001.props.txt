@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/MI_Windswept_Props.MI_Windswept_Props'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/Mi_WindSwept_Props_Cloth.Mi_WindSwept_Props_Cloth'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/MI_Windswept_Props.MI_Windswept_Props'
+        MaterialSlotName = MI_Windswept_Props
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 801.384, 1.10026, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Props/Mi_WindSwept_Props_Cloth.Mi_WindSwept_Props_Cloth'
+        MaterialSlotName = WindSwpt_Cloth
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 815.847, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=175.283 }
+    BoxExtent = { X=75.5071, Y=74.882, Z=174.717 }
+    SphereRadius = 184.507
+}

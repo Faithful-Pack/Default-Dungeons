@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Traps/FireTrap/M_BlazingParticle.M_BlazingParticle'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Traps/FireTrap/M_BlazingParticle.M_BlazingParticle'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Traps/FireTrap/M_BlazingParticle.M_BlazingParticle'
+        MaterialSlotName = Fire
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.421, 206.66, 321.318, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Traps/FireTrap/M_BlazingParticle.M_BlazingParticle'
+        MaterialSlotName = FireReverse
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.421, 206.66, 321.381, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=100, Y=-1.90735e-005, Z=0 }
+    BoxExtent = { X=100, Y=50, Z=50 }
+    SphereRadius = 122.474
+}

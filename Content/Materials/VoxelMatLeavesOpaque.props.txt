@@ -1,24 +1,12 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
+ReferencedTextures[2] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[1] = Texture2D'Materials/tallgrass.tallgrass'
 }
-Expressions[69] =
-{
-    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatLeavesOpaque.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[17] = MaterialExpressionTextureSample'Materials/VoxelMatLeavesOpaque.MaterialExpressionTextureSample_1'
-    Expressions[24] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_0'
-    Expressions[29] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_1'
-    Expressions[34] = MaterialExpressionVectorParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionVectorParameter_0'
-    Expressions[40] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_3'
-    Expressions[46] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_7'
-    Expressions[47] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_8'
-    Expressions[48] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_9'
-    Expressions[49] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionScalarParameter_10'
-    Expressions[50] = MaterialExpressionStaticSwitchParameter'Materials/VoxelMatLeavesOpaque.MaterialExpressionStaticSwitchParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -31,7 +19,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -40,34 +27,9 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Materials/tallgrass.tallgrass'
-        Name = T2DParam
-        Group = None
-    }
-}
-CollectedScalarParameters[7] =
-{
-    CollectedScalarParameters[0] = { Value=5, Name=Wind, Group=None }
-    CollectedScalarParameters[1] = { Value=140, Name=deformDistance, Group=None }
-    CollectedScalarParameters[2] = { Value=1, Name=Translucent, Group=None }
-    CollectedScalarParameters[3] = { Value=0, Name=OffsetU, Group=None }
-    CollectedScalarParameters[4] = { Value=0, Name=OffsetV, Group=None }
-    CollectedScalarParameters[5] = { Value=1, Name=ScaleU, Group=None }
-    CollectedScalarParameters[6] = { Value=256, Name=ScaleV, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=40, G=40, B=15, A=1 }
-        Name = deformStrength
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -75,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/EvocationRobe/MI_EvocationRobe.MI_EvocationRobe'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/EvocationRobe/MI_EvocationRobe.MI_EvocationRobe'
+        MaterialSlotName = lambert5SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 419.798, 273.797, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.297607, Y=-80.7881, Z=-5.25171 }
+    BoxExtent = { X=50.2971, Y=40.2863, Z=59.6101 }
+    SphereRadius = 87.5353
+}

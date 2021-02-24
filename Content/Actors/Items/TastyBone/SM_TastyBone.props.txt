@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/TastyBone/MI_TastyBoneStoreable.MI_TastyBoneStoreable'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/TastyBone/MI_TastyBoneStoreable.MI_TastyBoneStoreable'
+        MaterialSlotName = TastyBone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.001, 147.982, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.05176e-005, Y=-78.9773, Z=0 }
+    BoxExtent = { X=17.6776, Y=53.3503, Z=15.625 }
+    SphereRadius = 57.8576
+}

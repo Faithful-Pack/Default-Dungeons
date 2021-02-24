@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/Food/Food1/MI_HealthDrops_Bread.MI_HealthDrops_Bread'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/Food/Food1/MI_HealthDrops_Bread.MI_HealthDrops_Bread'
+        MaterialSlotName = Bread_MinecraftMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0.551315, 1.0909, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=0.238933, Y=0.256, Z=0.017067 }
+    SphereRadius = 0.308147
+}

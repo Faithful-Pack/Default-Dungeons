@@ -1,22 +1,23 @@
+Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.PP_OutpostBlended'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1000
         ParameterInfo = { Name=Fade Distance }
+        ParameterValue = 1000
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 26611
         ParameterInfo = { Name=Scale }
+        ParameterValue = 26611
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -24,18 +25,17 @@ VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.192345, G=0.055802, B=0.569, A=0 }
         ParameterInfo = { Name=WS_projection normal }
+        ParameterValue = { R=0.192345, G=0.055802, B=0.569, A=0 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.299678, G=0.73445, B=1, A=0 }
         ParameterInfo = { Name=WS_projectionTangent }
+        ParameterValue = { R=0.299678, G=0.73445, B=1, A=0 }
+        ParameterName = None
     }
 }
-Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_OutpostBlended.PP_OutpostBlended'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -45,6 +45,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -52,3 +59,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WS_Backdrop_sun
+    }
+}

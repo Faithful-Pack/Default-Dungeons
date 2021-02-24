@@ -1,47 +1,14 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[4] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
+    ReferencedTextures[0] = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
+    ReferencedTextures[1] = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[3] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
 }
-Expressions[103] =
-{
-    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[9] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[11] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[13] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_1'
-    Expressions[14] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[15] = MaterialExpressionTextureSample'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_18'
-    Expressions[18] = MaterialExpressionTextureSample'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_2'
-    Expressions[26] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_0'
-    Expressions[31] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_2'
-    Expressions[41] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[45] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_7'
-    Expressions[46] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_3'
-    Expressions[49] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_9'
-    Expressions[52] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_10'
-    Expressions[53] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_11'
-    Expressions[54] = MaterialExpressionTextureSample'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSample_1'
-    Expressions[63] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_4'
-    Expressions[68] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_15'
-    Expressions[69] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_16'
-    Expressions[77] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_12'
-    Expressions[83] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[86] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_1'
-    Expressions[88] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[89] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_0'
-    Expressions[91] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_3'
-    Expressions[93] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_4'
-    Expressions[94] = MaterialExpressionVectorParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionVectorParameter_2'
-    Expressions[97] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_14'
-    Expressions[98] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_26'
-    Expressions[99] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[100] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_5'
-    Expressions[101] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_6'
-    Expressions[102] = MaterialExpressionScalarParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionScalarParameter_6'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -54,81 +21,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Masked (1)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[2] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword.T_Sword'
-        Name = Albedo
-        Group = None
-    }
-    CollectedTextureParameters[1] =
-    {
-        Texture = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_S.T_Sword_S'
-        Name = Specular
-        Group = None
-    }
-}
-CollectedScalarParameters[15] =
-{
-    CollectedScalarParameters[0] = { Value=0.2, Name=NaturalEmissive, Group=None }
-    CollectedScalarParameters[1] = { Value=0, Name=Power, Group=None }
-    CollectedScalarParameters[2] = { Value=-100, Name=Flash Timestamp, Group=None }
-    CollectedScalarParameters[3] = { Value=-50, Name=DissolveStart, Group=None }
-    CollectedScalarParameters[4] = { Value=4, Name=DissolveDuration, Group=None }
-    CollectedScalarParameters[5] = { Value=0.1, Name=Flash Seconds, Group=None }
-    CollectedScalarParameters[6] = { Value=-50, Name=DesaturateStart, Group=None }
-    CollectedScalarParameters[7] = { Value=4, Name=DesaturateDuration, Group=None }
-    CollectedScalarParameters[8] = { Value=1, Name=AlphaOverride, Group=None }
-    CollectedScalarParameters[9] = { Value=0, Name=SpecularScalar, Group=None }
-    CollectedScalarParameters[10] = { Value=0, Name=EnchantmentAdd, Group=None }
-    CollectedScalarParameters[11] = { Value=1, Name=EmissivePower, Group=None }
-    CollectedScalarParameters[12] = { Value=0, Name=ConstantSpecular, Group=None }
-    CollectedScalarParameters[13] = { Value=0, Name=ConstantSpecular, Group=None }
-    CollectedScalarParameters[14] = { Value=0, Name=ConstantSpecular, Group=None }
-}
-CollectedVectorParameters[5] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.935231, G=0, B=1, A=1 }
-        Name = EnchantmentColor
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=1, G=0, B=0, A=1 }
-        Name = Flash Color
-        Group = None
-    }
-    CollectedVectorParameters[2] =
-    {
-        Value = { R=2, G=2, B=0, A=1 }
-        Name = DissolveTextureSize
-        Group = None
-    }
-    CollectedVectorParameters[3] =
-    {
-        Value = { R=1, G=1, B=1, A=1 }
-        Name = Emissive
-        Group = None
-    }
-    CollectedVectorParameters[4] =
-    {
-        Value = { R=1, G=1, B=1, A=1 }
-        Name = StatusColor
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -136,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

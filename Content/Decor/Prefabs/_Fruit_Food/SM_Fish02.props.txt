@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Fish02.MI_Fish02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Fish02.MI_Fish02'
+        MaterialSlotName = pPlane3Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 35.8561, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-14.0625, Y=0, Z=7.8125 }
+    BoxExtent = { X=14.0625, Y=3.125, Z=7.8125 }
+    SphereRadius = 16.3876
+}

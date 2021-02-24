@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Patch2/Actors/Equipment/Armor/GhostArmor/MI_GhostArmor.MI_GhostArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Patch2/Actors/Equipment/Armor/GhostArmor/MI_GhostArmor.MI_GhostArmor'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 446.427, 100.231, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-25, Z=0 }
+    BoxExtent = { X=13.7486, Y=25, Z=13.75 }
+    SphereRadius = 31.6715
+}

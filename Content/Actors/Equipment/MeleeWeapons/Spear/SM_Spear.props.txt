@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Spear/MI_Spear.MI_Spear'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Spear/MI_Spear.MI_Spear'
+        MaterialSlotName = lambert5SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.275, 150.027, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.53674e-006, Y=11.0486, Z=9.53674e-007 }
+    BoxExtent = { X=17.6777, Y=90.598, Z=3.125 }
+    SphereRadius = 90.7596
+}

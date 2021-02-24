@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/LootPile/MI_Minerals.MI_Minerals'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/LootPile/MI_Minerals.MI_Minerals'
+        MaterialSlotName = SM_LootPile_03:Diamond5Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.387, 342.792, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.86358, Y=18.6417, Z=25.2212 }
+    BoxExtent = { X=63.4041, Y=67.5445, Z=25.2223 }
+    SphereRadius = 77.4642
+}

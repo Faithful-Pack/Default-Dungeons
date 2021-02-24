@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/RangedWeapons/SoulBow_Winter1/MI_SoulBow_Winter1.MI_SoulBow_Winter1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/RangedWeapons/SoulBow_Winter1/MI_SoulBow_Winter1.MI_SoulBow_Winter1'
+        MaterialSlotName = lambert12
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 243.81, 198.523, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.20972, Y=11.0485, Z=0 }
+    BoxExtent = { X=72.9204, Y=37.565, Z=3.125 }
+    SphereRadius = 80.161
+}

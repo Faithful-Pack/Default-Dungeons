@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCubeOuter_Inst.M_RuneCubeOuter_Inst'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube_Inst.M_RuneCube_Inst'
+    Materials[2] = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCubeStars_Inst.M_RuneCubeStars_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCubeOuter_Inst.M_RuneCubeOuter_Inst'
+        MaterialSlotName = RuneBlockOuter
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 427.223, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCube_Inst.M_RuneCube_Inst'
+        MaterialSlotName = RuneBlockInner
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 275, 428.452, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/RuneCube/Assets/M_RuneCubeStars_Inst.M_RuneCubeStars_Inst'
+        MaterialSlotName = RuneCubeStarFieldOuter
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 427.279, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=50 }
+    BoxExtent = { X=50, Y=50, Z=50 }
+    SphereRadius = 86.6025
+}

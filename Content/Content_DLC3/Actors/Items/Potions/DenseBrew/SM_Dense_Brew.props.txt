@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Items/Potions/DenseBrew/MI_DenseBrew_Box.MI_DenseBrew_Box'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Actors/Items/Potions/DenseBrew/M_Dense_Brew.M_Dense_Brew'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Items/Potions/DenseBrew/MI_DenseBrew_Box.MI_DenseBrew_Box'
+        MaterialSlotName = Material #106
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 361.967, 1.68331, 690.608, 460.846 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Items/Potions/DenseBrew/M_Dense_Brew.M_Dense_Brew'
+        MaterialSlotName = Fbx Default Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 419.457, 306.995, 4.20505, 427.687 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.8147e-006, Z=59.3875 }
+    BoxExtent = { X=40.625, Y=40.625, Z=59.3625 }
+    SphereRadius = 82.6117
+}

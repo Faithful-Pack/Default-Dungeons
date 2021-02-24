@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Forge/Head/MI_FF_Head.MI_FF_Head'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Forge/Head/MI_FF_Head.MI_FF_Head'
+        MaterialSlotName = Head
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 531.78, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=325, Z=575 }
+    BoxExtent = { X=250, Y=25, Z=75 }
+    SphereRadius = 262.202
+}

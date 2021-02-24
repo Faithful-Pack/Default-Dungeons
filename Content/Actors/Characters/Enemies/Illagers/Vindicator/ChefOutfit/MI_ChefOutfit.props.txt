@@ -1,23 +1,23 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[1] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/Illagers/Vindicator/ChefOutfit/T_ChefOutfit.T_ChefOutfit'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Illagers/Vindicator/ChefOutfit/T_ChefOutfit.T_ChefOutfit'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -27,6 +27,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -34,3 +41,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Valorie_S
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Valorie_Skin
+    }
+}

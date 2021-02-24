@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/Dock/M_Dock_PF.M_Dock_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/Dock/M_Dock_PF.M_Dock_PF'
+        MaterialSlotName = M_SettlementStructures
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.79, 2420.76, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=400, Y=-49.3963, Z=188.364 }
+    BoxExtent = { X=400, Y=260.689, Z=194.614 }
+    SphereRadius = 445.222
+}

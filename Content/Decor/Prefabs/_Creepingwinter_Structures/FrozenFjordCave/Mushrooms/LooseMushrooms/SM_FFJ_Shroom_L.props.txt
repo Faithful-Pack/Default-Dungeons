@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/LooseMushrooms/MI_CW_Glowshrooms.MI_CW_Glowshrooms'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/LooseMushrooms/MI_CW_Glowshrooms.MI_CW_Glowshrooms'
+        MaterialSlotName = NewMushrooms
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.005, 100.185, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-006, Z=25.625 }
+    BoxExtent = { X=21.875, Y=21.875, Z=25.625 }
+    SphereRadius = 40.1705
+}

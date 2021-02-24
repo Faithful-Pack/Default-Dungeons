@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/DarkArmor/MI_DarkArmor.MI_DarkArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/DarkArmor/MI_DarkArmor.MI_DarkArmor'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 518.201, 149.627, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.01418, Y=-40.4969, Z=2.19708 }
+    BoxExtent = { X=16.6424, Y=40.625, Z=17.9457 }
+    SphereRadius = 47.4279
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Katana/MI_Katana.MI_Katana'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Katana/MI_Katana.MI_Katana'
+        MaterialSlotName = lambert8SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 112.484, 119.418, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=48.6136, Z=0 }
+    BoxExtent = { X=17.6777, Y=75.1301, Z=3.125 }
+    SphereRadius = 75.7128
+}

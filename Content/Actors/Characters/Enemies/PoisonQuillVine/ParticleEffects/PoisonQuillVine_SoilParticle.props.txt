@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Actors/Characters/Enemies/QuickGrowingVine/ParticleEffect/M_QuickGrowingVine_SoilParticle.M_QuickGrowingVine_SoilParticle'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Actors/Characters/Enemies/QuickGrowingVine/ParticleEffect/M_QuickGrowingVine_SoilParticle.M_QuickGrowingVine_SoilParticle'
+        MaterialSlotName = EmissiveTexturedMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.62663, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=1.31332, Y=1.31332, Z=1.31332 }
+    SphereRadius = 2.27473
+}

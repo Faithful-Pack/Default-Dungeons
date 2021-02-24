@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/MeleeWeapons/Boneclub/MI_Boneclub.MI_Boneclub'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/MeleeWeapons/Boneclub/MI_Boneclub.MI_Boneclub'
+        MaterialSlotName = lambert16SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 181.324, 266.204, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=46.875, Y=0, Z=-46.875 }
+    BoxExtent = { X=90.625, Y=9.375, Z=90.625 }
+    SphereRadius = 128.201
+}

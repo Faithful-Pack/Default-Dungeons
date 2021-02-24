@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/WheelbarrowNew/MI_Wheelbarrow_Small.MI_Wheelbarrow_Small'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/WheelbarrowNew/MI_Wheelbarrow_Small.MI_Wheelbarrow_Small'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.73, 300.552, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-45.3125, Z=-7.62939e-006 }
+    BoxExtent = { X=43.75, Y=45.3125, Z=103.125 }
+    SphereRadius = 116.728
+}

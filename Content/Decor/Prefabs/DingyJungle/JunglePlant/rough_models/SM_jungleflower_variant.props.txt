@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/rough_models/MI_jungle_plant_plantflower_variant.MI_jungle_plant_plantflower_variant'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/rough_models/MI_jungle_plant_plantflower_variant.MI_jungle_plant_plantflower_variant'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 287.223, 645.706, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.71713, Y=8.87358, Z=127.034 }
+    BoxExtent = { X=133.926, Y=168.153, Z=155.739 }
+    SphereRadius = 186.258
+}

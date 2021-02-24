@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherPortalRay.MI_NetherPortalRay'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_NetherPortalRay.MI_NetherPortalRay'
+        MaterialSlotName = Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1084.97, 871.991, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-005, Y=322.601, Z=-1.6884 }
+    BoxExtent = { X=175.593, Y=322.352, Z=209.613 }
+    SphereRadius = 420.067
+}

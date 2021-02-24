@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_OcelotPaintings.MI_OcelotPaintings'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_OcelotPaintings.MI_OcelotPaintings'
+        MaterialSlotName = 10 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 248.868, 134.136, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.141373, Y=0.0354805, Z=-3.125 }
+    BoxExtent = { X=55.7158, Y=55.7394, Z=3.125 }
+    SphereRadius = 78.8727
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/SpelunkersArmor_Unique1/MI_MinersArmor.MI_MinersArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/SpelunkersArmor_Unique1/MI_MinersArmor.MI_MinersArmor'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 396.95, 173.064, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-30.3044, Z=-0.148355 }
+    BoxExtent = { X=29.5611, Y=36.5546, Z=18.7995 }
+    SphereRadius = 50.2637
+}

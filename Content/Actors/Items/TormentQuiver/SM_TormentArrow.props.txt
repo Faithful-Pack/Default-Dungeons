@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/TormentQuiver/MI_TormentArrow.MI_TormentArrow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/TormentQuiver/MI_TormentArrow.MI_TormentArrow'
+        MaterialSlotName = lambert7SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 87.5268, 123.344, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-3.8147e-006 }
+    BoxExtent = { X=35.3553, Y=3.125, Z=61.8718 }
+    SphereRadius = 61.9507
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/Nethershroom/MI_NetherShroom_Red.MI_NetherShroom_Red'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/Nethershroom/MI_NetherShroom_Red.MI_NetherShroom_Red'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.002, 117.202, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.25, Y=-6.25001, Z=25 }
+    BoxExtent = { X=18.75, Y=18.75, Z=25 }
+    SphereRadius = 36.4435
+}

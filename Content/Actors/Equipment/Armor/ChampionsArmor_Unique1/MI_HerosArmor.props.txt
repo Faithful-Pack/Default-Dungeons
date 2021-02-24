@@ -1,49 +1,49 @@
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.6
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 0.6
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/ChampionsArmor_Unique1/T_HerosArmor.T_HerosArmor'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Actors/Equipment/Armor/ChampionsArmor_Unique1/T_HerosArmor.T_HerosArmor'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/Armor/ChampionsArmor_Unique1/T_HerosArmor_S.T_HerosArmor_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Equipment/Armor/ChampionsArmor_Unique1/T_HerosArmor_S.T_HerosArmor_S'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=5, G=2.55831, B=0, A=1 }
         ParameterInfo = { Name=Emissive }
+        ParameterValue = { R=5, G=2.55831, B=0, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=30, G=10.1808, B=0, A=1 }
         ParameterInfo = { Name=EnchantmentColor }
+        ParameterValue = { R=30, G=10.1808, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -53,6 +53,39 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ConstantEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnchantmentMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=FlashBehavior }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=SpecularTexture }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -60,3 +93,36 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.453125
+        UVChannelIndex = 0
+        TextureName = T_Clouds_64
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HerosArmor
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HerosArmor_S
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

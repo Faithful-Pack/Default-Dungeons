@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Nether/Props/Traps/MeshData/MI_NetherMisc.MI_NetherMisc'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Nether/Props/Traps/MeshData/MI_NetherMisc.MI_NetherMisc'
+        MaterialSlotName = phong3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.336, 3051.99, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.05176e-005, Z=500 }
+    BoxExtent = { X=250, Y=250, Z=500 }
+    SphereRadius = 612.372
+}

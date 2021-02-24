@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Patch1/Actors/Equipment/RangedWeapons/DualCrossbows/MI_DualCrossbows.MI_DualCrossbows'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Patch1/Actors/Equipment/RangedWeapons/DualCrossbows/MI_DualCrossbows.MI_DualCrossbows'
+        MaterialSlotName = M_DualCrossbow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.245, 121.392, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.45971, Y=0, Z=0 }
+    BoxExtent = { X=41.9845, Y=39.7747, Z=3.125 }
+    SphereRadius = 42.3319
+}

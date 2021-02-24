@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Tent/MI_Tent.MI_Tent'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Tent/MI_Tent.MI_Tent'
+        MaterialSlotName = MI_Tent
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1599.99, 889.596, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-121.565, Y=0.0300446, Z=93.6936 }
+    BoxExtent = { X=171.159, Y=190.595, Z=109.382 }
+    SphereRadius = 271.688
+}

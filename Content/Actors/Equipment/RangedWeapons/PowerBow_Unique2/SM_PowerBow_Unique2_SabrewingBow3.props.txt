@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Unique2/MI_SabrewingBow_Unique2.MI_SabrewingBow_Unique2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Unique2/MI_SabrewingBow_Unique2.MI_SabrewingBow_Unique2'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 212.811, 149.19, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=22.0971, Y=0, Z=0 }
+    BoxExtent = { X=39.7747, Y=3.125, Z=75.1301 }
+    SphereRadius = 75.7127
+}

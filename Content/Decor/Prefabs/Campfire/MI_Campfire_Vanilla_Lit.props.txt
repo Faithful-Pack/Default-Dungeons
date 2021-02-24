@@ -1,29 +1,29 @@
+Parent = Material3'Decor/Prefabs/Campfire/M_Camfire_Vanilla.M_Camfire_Vanilla'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit.T_campfire_log_lit'
         ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit.T_campfire_log_lit'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
         ParameterInfo = { Name=Emissive }
+        ParameterValue = Texture2D'Decor/Prefabs/Campfire/T_campfire_log_lit_emissive.T_campfire_log_lit_emissive'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/Campfire/M_Camfire_Vanilla.M_Camfire_Vanilla'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -33,6 +33,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Emissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -40,3 +55,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

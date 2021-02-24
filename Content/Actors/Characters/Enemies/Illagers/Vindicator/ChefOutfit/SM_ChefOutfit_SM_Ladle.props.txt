@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/Vindicator/ChefOutfit/MI_ChefOutfit.MI_ChefOutfit'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/Vindicator/ChefOutfit/MI_ChefOutfit.MI_ChefOutfit'
+        MaterialSlotName = SM_Ladle:SM_LadleMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 99.7394, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-6.6848, Z=0 }
+    BoxExtent = { X=3.125, Y=48.6136, Z=17.6777 }
+    SphereRadius = 48.914
+}

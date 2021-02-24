@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_JungleStatues_villager.MI_JungleStatues_villager'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_JungleStatues_villager.MI_JungleStatues_villager'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 402.366, 443.916, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.43659, Z=112.242 }
+    BoxExtent = { X=44.1066, Y=47.0953, Z=112.242 }
+    SphereRadius = 129.291
+}

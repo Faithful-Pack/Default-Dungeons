@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/WesternGate/MI_WesternGate_Big.MI_WesternGate_Big'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/WesternGate/MI_WesternGate_Big.MI_WesternGate_Big'
+        MaterialSlotName = SM_Westerngate:pCube6Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 799.807, 725.531, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=12.5, Y=-225, Z=21.8509 }
+    BoxExtent = { X=362.5, Y=225, Z=46.8509 }
+    SphereRadius = 408.228
+}

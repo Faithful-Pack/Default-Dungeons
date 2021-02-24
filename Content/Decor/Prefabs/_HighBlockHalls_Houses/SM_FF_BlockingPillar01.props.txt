@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_HighBlockHalls_Houses/MI_HH_Miniatlas.MI_HH_Miniatlas'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_HighBlockHalls_Houses/MI_HH_Miniatlas.MI_HH_Miniatlas'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 393.322, 1061.11, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=250 }
+    BoxExtent = { X=200, Y=200, Z=250 }
+    SphereRadius = 335.41
+}

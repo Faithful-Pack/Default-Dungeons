@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Stabledoor/MI_Stabledoor.MI_Stabledoor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Stabledoor/MI_Stabledoor.MI_Stabledoor'
+        MaterialSlotName = pCube3Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.595, 272.562, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.375, Y=-100, Z=0 }
+    BoxExtent = { X=9.375, Y=100, Z=100 }
+    SphereRadius = 141.732
+}

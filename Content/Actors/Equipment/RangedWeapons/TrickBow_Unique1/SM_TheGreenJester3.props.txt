@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/TrickBow_Unique1/MI_TheGreenJester.MI_TheGreenJester'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/TrickBow_Unique1/MI_TheGreenJester.MI_TheGreenJester'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.02, 145.814, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=19.8874, Y=0, Z=7.62939e-006 }
+    BoxExtent = { X=41.9845, Y=3.125, Z=70.7107 }
+    SphereRadius = 71.0894
+}

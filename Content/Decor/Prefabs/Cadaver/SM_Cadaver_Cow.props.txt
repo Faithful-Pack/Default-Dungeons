@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Cadaver/MI_Cadaver_Cow.MI_Cadaver_Cow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Cadaver/MI_Cadaver_Cow.MI_Cadaver_Cow'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 249.524, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-37.5, Z=-0.0468597 }
+    BoxExtent = { X=56.25, Y=37.5, Z=81.25 }
+    SphereRadius = 97.0261
+}

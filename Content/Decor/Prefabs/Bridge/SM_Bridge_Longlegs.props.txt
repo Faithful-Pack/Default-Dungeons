@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Bridge/MI_Bridge.MI_Bridge'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Bridge/MI_Bridge.MI_Bridge'
+        MaterialSlotName = BridgeMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 531.793, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-90.625, Y=28.125, Z=0 }
+    BoxExtent = { X=165.625, Y=109.375, Z=62.5 }
+    SphereRadius = 208.088
+}

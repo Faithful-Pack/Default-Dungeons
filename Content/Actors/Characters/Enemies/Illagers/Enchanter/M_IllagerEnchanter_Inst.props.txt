@@ -1,49 +1,49 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 66
         ParameterInfo = { Name=EmissiveBPower }
+        ParameterValue = 66
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/Illagers/Enchanter/T_Enchanter_S.T_Enchanter_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Illagers/Enchanter/T_Enchanter_S.T_Enchanter_S'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/Illagers/Enchanter/T_IllagerEnchanter.T_IllagerEnchanter'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Illagers/Enchanter/T_IllagerEnchanter.T_IllagerEnchanter'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.010076, G=0, B=0.5, A=1 }
         ParameterInfo = { Name=EmissiveBColor }
+        ParameterValue = { R=0.010076, G=0, B=0.5, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.25744, G=0, B=1, A=1 }
         ParameterInfo = { Name=EnchantmentColor }
+        ParameterValue = { R=0.25744, G=0, B=1, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -53,6 +53,27 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnchantmentMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=SinusEmissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -60,3 +81,36 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Clouds_64
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Enchanter_S
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_IllagerEnchanter
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

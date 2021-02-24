@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/KitchenUtensils/M_Cauldron_Witch.M_Cauldron_Witch'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/KitchenUtensils/M_Cauldron_Witch.M_Cauldron_Witch'
+        MaterialSlotName = pCube8Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.886, 601.575, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-109.597, Z=1.81757 }
+    BoxExtent = { X=125, Y=109.597, Z=77.1967 }
+    SphereRadius = 173.014
+}

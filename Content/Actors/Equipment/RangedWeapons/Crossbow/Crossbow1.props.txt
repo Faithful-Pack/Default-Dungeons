@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Crossbow/MI_Crossbow.MI_Crossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Crossbow/MI_Crossbow.MI_Crossbow'
+        MaterialSlotName = M_Crossbow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 178.812, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.05176e-005, Y=-18.75, Z=0 }
+    BoxExtent = { X=57.4525, Y=57.4524, Z=3.125 }
+    SphereRadius = 61.6347
+}

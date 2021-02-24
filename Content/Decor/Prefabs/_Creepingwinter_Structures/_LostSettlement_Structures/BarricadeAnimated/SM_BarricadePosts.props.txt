@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeAnimated/MI_AnimatedBaricade.MI_AnimatedBaricade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeAnimated/MI_AnimatedBaricade.MI_AnimatedBaricade'
+        MaterialSlotName = AnimBarricade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 1064.99, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=350, Y=378.125, Z=450 }
+    BoxExtent = { X=550, Y=378.125, Z=450 }
+    SphereRadius = 804.971
+}

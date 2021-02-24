@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/TotemOfRegeneration/MI_TotemOfRegeneration.MI_TotemOfRegeneration'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/TotemOfRegeneration/MI_TotemOfRegeneration.MI_TotemOfRegeneration'
+        MaterialSlotName = RegenerationRock
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.626, 204.637, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-18.7277, Y=-59.375, Z=-18.75 }
+    BoxExtent = { X=19.0782, Y=59.375, Z=25 }
+    SphereRadius = 65.0335
+}

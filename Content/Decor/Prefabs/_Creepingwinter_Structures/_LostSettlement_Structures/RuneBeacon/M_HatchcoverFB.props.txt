@@ -6,12 +6,7 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_ArenaEyeFB.T_ArenaEyeFB'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_ArenaEyeFB_e.T_ArenaEyeFB_e'
 }
-Expressions[9] =
-{
-    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_HatchcoverFB.MaterialExpressionTextureSample_1'
-    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_HatchcoverFB.MaterialExpressionTextureSample_0'
-    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_HatchcoverFB.MaterialExpressionScalarParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +19,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -34,10 +28,7 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[1] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=AnimationPhase, Group=None }
-}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -46,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

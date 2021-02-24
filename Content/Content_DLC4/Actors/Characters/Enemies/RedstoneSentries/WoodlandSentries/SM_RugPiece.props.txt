@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Actors/Characters/Enemies/RedstoneSentries/WoodlandSentries/MI_Rug.MI_Rug'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Characters/Enemies/RedstoneSentries/WoodlandSentries/MI_Rug.MI_Rug'
+        MaterialSlotName = Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 207.413, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=3.125 }
+    BoxExtent = { X=50, Y=50, Z=3.12501 }
+    SphereRadius = 70.7797
+}

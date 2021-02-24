@@ -1,49 +1,49 @@
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.6
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 0.6
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Patch2/Actors/Equipment/MeleeWeapons/Rapier/T_Rapier.T_Rapier'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Patch2/Actors/Equipment/MeleeWeapons/Rapier/T_Rapier.T_Rapier'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Patch2/Actors/Equipment/MeleeWeapons/Rapier/T_Rapier_S.T_Rapier_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Patch2/Actors/Equipment/MeleeWeapons/Rapier/T_Rapier_S.T_Rapier_S'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=2.37165, B=5, A=1 }
         ParameterInfo = { Name=Emissive }
+        ParameterValue = { R=0, G=2.37165, B=5, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=0.801928, B=2, A=1 }
         ParameterInfo = { Name=EnchantmentColor }
+        ParameterValue = { R=0, G=0.801928, B=2, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -53,6 +53,27 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ConstantEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnchantmentMask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -60,3 +81,36 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.453125
+        UVChannelIndex = 0
+        TextureName = T_Clouds_64
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Rapier
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Rapier_S
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

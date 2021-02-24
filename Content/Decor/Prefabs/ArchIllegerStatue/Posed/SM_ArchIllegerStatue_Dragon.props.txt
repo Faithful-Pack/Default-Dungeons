@@ -1,0 +1,45 @@
+Materials[3] = {  }
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = ArchIllegerMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 771.654, 1600.53, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = Enderdragon2Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.122, 1599.55, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = RocksMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.143, 1598.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=113.823, Y=-277.845, Z=-60.5024 }
+    BoxExtent = { X=368.208, Y=298.327, Z=241.217 }
+    SphereRadius = 462.84
+}

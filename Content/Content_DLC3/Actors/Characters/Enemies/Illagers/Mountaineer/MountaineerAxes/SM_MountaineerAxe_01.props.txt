@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Illagers/Mountaineer/MountaineerAxes/MI_MountaineerAxe_01.MI_MountaineerAxe_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Illagers/Mountaineer/MountaineerAxes/MI_MountaineerAxe_01.MI_MountaineerAxe_01'
+        MaterialSlotName = Material #106
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 131.264, 124.954, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.09944e-006, Y=10.89, Z=-11.1225 }
+    BoxExtent = { X=3.12501, Y=43.75, Z=43.75 }
+    SphereRadius = 61.9507
+}

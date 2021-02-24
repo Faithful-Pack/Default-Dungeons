@@ -1,21 +1,21 @@
+Parent = Material3'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.M_RelayMaterial'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 4
         ParameterInfo = { Name=Strength }
+        ParameterValue = 4
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.M_RelayMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -25,6 +25,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -32,3 +39,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_AnimatedRedstone
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_AnimatedRedstone_Large
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_AnimatedRedstone_Panner
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_PistonRelay
+    }
+}

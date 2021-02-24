@@ -1,35 +1,12 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[1] =
+ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Components/ArmorProperties/MoveSpeedAura/T_SpeedAuraOwner.T_SpeedAuraOwner'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[49] =
-{
-    Expressions[0] = MaterialExpressionVectorParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionVectorParameter_0'
-    Expressions[4] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_1'
-    Expressions[5] = MaterialExpressionTextureSample'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionTextureSample_1'
-    Expressions[10] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_5'
-    Expressions[11] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_6'
-    Expressions[13] = MaterialExpressionTextureSampleParameter2D'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[14] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_0'
-    Expressions[15] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_3'
-    Expressions[17] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_4'
-    Expressions[19] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_7'
-    Expressions[21] = MaterialExpressionTextureSample'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionTextureSample_0'
-    Expressions[23] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_8'
-    Expressions[24] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_9'
-    Expressions[26] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_10'
-    Expressions[28] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_11'
-    Expressions[32] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_12'
-    Expressions[33] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_13'
-    Expressions[37] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_14'
-    Expressions[38] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_15'
-    Expressions[42] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_16'
-    Expressions[43] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_17'
-    Expressions[46] = MaterialExpressionScalarParameter'Components/ArmorProperties/M_AuraSprite_Master.MaterialExpressionScalarParameter_18'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -42,94 +19,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Components/ArmorProperties/MoveSpeedAura/T_SpeedAuraOwner.T_SpeedAuraOwner'
-        Name = Texture
-        Group = None
-    }
-}
-CollectedScalarParameters[18] =
-{
-    CollectedScalarParameters[0] = { Value=0.2, Name=SinusMax, Group=None }
-    CollectedScalarParameters[1] = { Value=0.5, Name=SinusTempo, Group=None }
-    CollectedScalarParameters[2] = { Value=0.025, Name=SinusVariation, Group=None }
-    CollectedScalarParameters[3] =
-    {
-        Value = 0.1
-        Name = Cloud1_CoordinateMultiplier_Y
-        Group = None
-    }
-    CollectedScalarParameters[4] = { Value=-0.6, Name=Cloud1_Speed_X, Group=None }
-    CollectedScalarParameters[5] = { Value=0.2, Name=Cloud1_Speed_Y, Group=None }
-    CollectedScalarParameters[6] =
-    {
-        Value = 0.1
-        Name = Cloud1_CoordinateMultiplier_X
-        Group = None
-    }
-    CollectedScalarParameters[7] =
-    {
-        Value = 0.1
-        Name = Cloud2_CoordinateMultiplier_Y
-        Group = None
-    }
-    CollectedScalarParameters[8] = { Value=0.3, Name=Cloud2_Speed_X, Group=None }
-    CollectedScalarParameters[9] = { Value=0.4, Name=Cloud2_Speed_Y, Group=None }
-    CollectedScalarParameters[10] =
-    {
-        Value = 0.1
-        Name = Cloud2_CoordinateMultiplier_X
-        Group = None
-    }
-    CollectedScalarParameters[11] =
-    {
-        Value = 0.1
-        Name = Cloud2_CoordinateOffset_Y
-        Group = None
-    }
-    CollectedScalarParameters[12] =
-    {
-        Value = 0.1
-        Name = Cloud2_CoordinateOffset_X
-        Group = None
-    }
-    CollectedScalarParameters[13] =
-    {
-        Value = 0.1
-        Name = Cloud1_CoordinateOffset_Y
-        Group = None
-    }
-    CollectedScalarParameters[14] =
-    {
-        Value = 0.1
-        Name = Cloud1_CoordinateOffset_X
-        Group = None
-    }
-    CollectedScalarParameters[15] = { Value=0.4, Name=Cloud2_Power, Group=None }
-    CollectedScalarParameters[16] = { Value=1, Name=Cloud1_Multiply, Group=None }
-    CollectedScalarParameters[17] = { Value=0.2, Name=Add, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=1, G=1, B=1, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -137,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

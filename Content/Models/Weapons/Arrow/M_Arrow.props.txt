@@ -6,26 +6,7 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Actors/Items/TormentQuiver/T_TormentArrow_S.T_TormentArrow_S'
     ReferencedTextures[1] = Texture2D'Models/Weapons/Arrow/T_Arrow.T_Arrow'
 }
-Expressions[36] =
-{
-    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Models/Weapons/Arrow/M_Arrow.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[1] = MaterialExpressionStaticSwitchParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[2] = MaterialExpressionStaticSwitchParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[3] = MaterialExpressionStaticSwitchParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[5] = MaterialExpressionStaticSwitchParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[9] = MaterialExpressionVectorParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionVectorParameter_0'
-    Expressions[15] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_12'
-    Expressions[16] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_13'
-    Expressions[17] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_14'
-    Expressions[18] = MaterialExpressionVectorParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionVectorParameter_1'
-    Expressions[22] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_0'
-    Expressions[23] = MaterialExpressionStaticSwitchParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[24] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_9'
-    Expressions[28] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_10'
-    Expressions[30] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_11'
-    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Models/Weapons/Arrow/M_Arrow.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[34] = MaterialExpressionScalarParameter'Models/Weapons/Arrow/M_Arrow.MaterialExpressionScalarParameter_1'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -38,7 +19,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -47,52 +27,9 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[2] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Models/Weapons/Arrow/T_Arrow.T_Arrow'
-        Name = Albedo
-        Group = None
-    }
-    CollectedTextureParameters[1] =
-    {
-        Texture = Texture2D'Actors/Items/TormentQuiver/T_TormentArrow_S.T_TormentArrow_S'
-        Name = Specular
-        Group = None
-    }
-}
-CollectedScalarParameters[8] =
-{
-    CollectedScalarParameters[0] = { Value=2, Name=Emissive_SinusTempo, Group=None }
-    CollectedScalarParameters[1] = { Value=0, Name=Emissive_SinusMin, Group=None }
-    CollectedScalarParameters[2] =
-    {
-        Value = 2
-        Name = Emissive_SinusVariation
-        Group = None
-    }
-    CollectedScalarParameters[3] = { Value=0, Name=EmissivePower, Group=None }
-    CollectedScalarParameters[4] = { Value=1, Name=Specular, Group=None }
-    CollectedScalarParameters[5] = { Value=1, Name=Roughness, Group=None }
-    CollectedScalarParameters[6] = { Value=0.3, Name=Metallic, Group=None }
-    CollectedScalarParameters[7] = { Value=0.4, Name=FullEmissivePower, Group=None }
-}
-CollectedVectorParameters[2] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=1, G=1, B=1, A=1 }
-        Name = FullEmissive
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=0, G=0, B=0, A=1 }
-        Name = Emissive
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -100,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

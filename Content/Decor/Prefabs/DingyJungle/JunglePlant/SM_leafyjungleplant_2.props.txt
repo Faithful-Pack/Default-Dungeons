@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/MI_Leafy_Jungle_Plant_Test.MI_Leafy_Jungle_Plant_Test'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/MI_Leafy_Jungle_Plant_Test.MI_Leafy_Jungle_Plant_Test'
+        MaterialSlotName = MI_Leafy_Jungle_Plant_Test
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 179.074, 459.347, 371.155, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.46152, Y=-15.1189, Z=92.1689 }
+    BoxExtent = { X=140.907, Y=137.913, Z=92.2322 }
+    SphereRadius = 165.882
+}

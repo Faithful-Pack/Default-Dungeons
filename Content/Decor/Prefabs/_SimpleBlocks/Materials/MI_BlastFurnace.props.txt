@@ -1,47 +1,47 @@
+Parent = Material3'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.M_SimpleBlock'
 ScalarParameterValues[4] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 10
         ParameterInfo = { Name=EmissiveStrength }
+        ParameterValue = 10
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Speed }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 300
         ParameterInfo = { Name=Param }
+        ParameterValue = 300
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_BlastFurnace_E.T_BlastFurnace_E'
         ParameterInfo = { Name=Emissive }
+        ParameterValue = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_BlastFurnace_E.T_BlastFurnace_E'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_BlastFurnace.T_BlastFurnace'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_BlastFurnace.T_BlastFurnace'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/_SimpleBlocks/Materials/M_SimpleBlock.M_SimpleBlock'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -51,6 +51,27 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Animate }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=EmissiveTexture }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -58,3 +79,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BlastFurnace
+    }
+}

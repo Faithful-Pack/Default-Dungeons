@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Sign/NewSigns/MI_Signs_Blank_New.MI_Signs_Blank_New'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Sign/NewSigns/MI_Signs_Blank_New.MI_Signs_Blank_New'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 254.29, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.125, Y=-2.50002, Z=78.125 }
+    BoxExtent = { X=96.875, Y=12.5, Z=78.125 }
+    SphereRadius = 124.853
+}

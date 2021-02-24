@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Patch1/Actors/Equipment/MeleeWeapons/Battlestaff/MI_Battlestaff.MI_Battlestaff'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Patch1/Actors/Equipment/MeleeWeapons/Battlestaff/MI_Battlestaff.MI_Battlestaff'
+        MaterialSlotName = lambert15SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 125.04, 138.256, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.20971, Y=-3.125, Z=0 }
+    BoxExtent = { X=6.62913, Y=3.125, Z=88.3883 }
+    SphereRadius = 88.4712
+}

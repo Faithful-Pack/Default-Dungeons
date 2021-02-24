@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/MI_CW_WallShrooms.MI_CW_WallShrooms'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/MI_CW_WallShrooms.MI_CW_WallShrooms'
+        MaterialSlotName = NewWallShrooms
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.047, 193.495, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=40.625, Y=-28.125, Z=3.125 }
+    BoxExtent = { X=46.875, Y=28.125, Z=78.125 }
+    SphereRadius = 92.4387
+}

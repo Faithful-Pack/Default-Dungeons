@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC4/Actors/Items/NetherWartSporeGrenade/M_BlastFungusMushroom.M_BlastFungusMushroom'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC4/Actors/Items/NetherWartSporeGrenade/M_BlastFungusMushroom.M_BlastFungusMushroom'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 158.345, 133.3, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-34.375, Z=0 }
+    BoxExtent = { X=21.875, Y=34.375, Z=21.875 }
+    SphereRadius = 46.2458
+}

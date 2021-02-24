@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_SoulsandLampStand.MI_SoulsandLampStand'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_SoulsandLampStand.MI_SoulsandLampStand'
+        MaterialSlotName = BoneLamp
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 793.42, 639.598, 641.999 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=62.4434, Y=-3.43323e-005, Z=300 }
+    BoxExtent = { X=112.5, Y=50, Z=300 }
+    SphereRadius = 324.278
+}

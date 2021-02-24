@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_bench_jungle.MI_bench_jungle'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_bench_jungle.MI_bench_jungle'
+        MaterialSlotName = pCube10Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 189.259, 261.917, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-37.5, Z=34.375 }
+    BoxExtent = { X=100, Y=37.5, Z=34.375 }
+    SphereRadius = 112.196
+}

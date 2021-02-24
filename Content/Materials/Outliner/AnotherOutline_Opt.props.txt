@@ -5,35 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Materials/T_OutlineColorLT.T_OutlineColorLT'
 }
-Expressions[173] =
-{
-    Expressions[11] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_6'
-    Expressions[36] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_7'
-    Expressions[41] = MaterialExpressionTextureSample'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionTextureSample_0'
-    Expressions[42] = MaterialExpressionTextureSample'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionTextureSample_1'
-    Expressions[54] = MaterialExpressionVectorParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionVectorParameter_1'
-    Expressions[55] = MaterialExpressionVectorParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionVectorParameter_4'
-    Expressions[59] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_21'
-    Expressions[65] = MaterialExpressionStaticSwitchParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[77] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_9'
-    Expressions[87] = MaterialExpressionStaticSwitchParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[90] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_11'
-    Expressions[92] = MaterialExpressionVectorParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionVectorParameter_3'
-    Expressions[93] = MaterialExpressionVectorParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionVectorParameter_5'
-    Expressions[97] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_12'
-    Expressions[104] = MaterialExpressionStaticSwitchParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[106] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_13'
-    Expressions[112] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_14'
-    Expressions[116] = MaterialExpressionStaticSwitchParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionStaticSwitchParameter_7'
-    Expressions[119] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_15'
-    Expressions[124] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_19'
-    Expressions[128] = MaterialExpressionVectorParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionVectorParameter_6'
-    Expressions[130] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_23'
-    Expressions[138] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_3'
-    Expressions[144] = MaterialExpressionStaticSwitchParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[146] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionScalarParameter_0'
-    Expressions[171] = MaterialExpressionTextureSampleParameter2D'Materials/Outliner/AnotherOutline_Opt.MaterialExpressionTextureSampleParameter2D_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -46,7 +18,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -55,59 +26,9 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] = { Texture=None, Name=BGImage, Group=None }
-}
-CollectedScalarParameters[13] =
-{
-    CollectedScalarParameters[0] = { Value=4, Name=Width_1, Group=None }
-    CollectedScalarParameters[1] = { Value=0.15, Name=FillStr, Group=None }
-    CollectedScalarParameters[2] = { Value=0.5, Name=SkyMinLight, Group=None }
-    CollectedScalarParameters[3] = { Value=2, Name=Width_CheapOutline, Group=None }
-    CollectedScalarParameters[4] = { Value=0, Name=Multi, Group=None }
-    CollectedScalarParameters[5] = { Value=0.5, Name=MinLight, Group=None }
-    CollectedScalarParameters[6] = { Value=0, Name=MatAO, Group=None }
-    CollectedScalarParameters[7] = { Value=1, Name=SubSurfaceColor, Group=None }
-    CollectedScalarParameters[8] = { Value=2.1, Name=SkyMultiply, Group=None }
-    CollectedScalarParameters[9] = { Value=2500, Name=FogDensity, Group=None }
-    CollectedScalarParameters[10] = { Value=1, Name=StartDistance, Group=None }
-    CollectedScalarParameters[11] = { Value=0, Name=PPLightBoost, Group=None }
-    CollectedScalarParameters[12] = { Value=0, Name=HueShift, Group=None }
-}
-CollectedVectorParameters[5] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.412543, G=0.323143, B=0.623961, A=1 }
-        Name = SkyColor
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=0, G=0, B=1, A=0 }
-        Name = LightDirection
-        Group = None
-    }
-    CollectedVectorParameters[2] =
-    {
-        Value = { R=0.412543, G=0.323143, B=0.623961, A=1 }
-        Name = SkyColor
-        Group = None
-    }
-    CollectedVectorParameters[3] =
-    {
-        Value = { R=0, G=0, B=1, A=0 }
-        Name = LightDirection
-        Group = None
-    }
-    CollectedVectorParameters[4] =
-    {
-        Value = { R=0.637597, G=0.955974, B=1, A=1 }
-        Name = FogColor
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -115,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

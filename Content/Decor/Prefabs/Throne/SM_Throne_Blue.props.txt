@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Throne/MI_Throne_Blue.MI_Throne_Blue'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Throne/MI_Throne_Blue.MI_Throne_Blue'
+        MaterialSlotName = ThroneMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.712, 401.191, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.125, Y=-118.75, Z=6.24998 }
+    BoxExtent = { X=65.625, Y=118.75, Z=56.25 }
+    SphereRadius = 141.837
+}

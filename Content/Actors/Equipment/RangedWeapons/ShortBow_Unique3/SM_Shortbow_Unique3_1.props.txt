@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ShortBow_Unique3/MI_ShortBow_Unique3.MI_ShortBow_Unique3'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ShortBow_Unique3/MI_ShortBow_Unique3.MI_ShortBow_Unique3'
+        MaterialSlotName = lambert10SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 134.346, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=13.2582, Y=0, Z=7.62939e-006 }
+    BoxExtent = { X=30.9359, Y=3.125, Z=61.8718 }
+    SphereRadius = 65.7737
+}

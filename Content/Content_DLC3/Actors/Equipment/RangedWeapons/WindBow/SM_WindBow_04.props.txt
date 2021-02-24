@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/RangedWeapons/WindBow/MI_WindBow.MI_WindBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/RangedWeapons/WindBow/MI_WindBow.MI_WindBow'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 132.663, 159.918, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.82149e-006, Y=-12.8803, Z=-15.356 }
+    BoxExtent = { X=3.12501, Y=46.875, Z=50 }
+    SphereRadius = 68.6078
+}

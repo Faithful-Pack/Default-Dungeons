@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Urns/FancyUrns/MI_FancyUrn_02.MI_FancyUrn_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Urns/FancyUrns/MI_FancyUrn_02.MI_FancyUrn_02'
+        MaterialSlotName = LilMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 312.568, 188.471, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-34.375, Z=0 }
+    BoxExtent = { X=28.125, Y=34.375, Z=28.125 }
+    SphereRadius = 52.5706
+}

@@ -5,23 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
 }
-Expressions[43] =
-{
-    Expressions[0] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[6] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionScalarParameter_9'
-    Expressions[10] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionScalarParameter_10'
-    Expressions[18] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionScalarParameter_11'
-    Expressions[26] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionScalarParameter_12'
-    Expressions[30] = MaterialExpressionVectorParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionVectorParameter_1'
-    Expressions[31] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionStaticSwitchParameter_3'
-    Expressions[32] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[33] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[35] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[36] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionStaticSwitchParameter_5'
-    Expressions[37] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionStaticSwitchParameter_6'
-    Expressions[39] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[41] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_PixelCircleGradient.MaterialExpressionScalarParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -34,41 +18,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Effects/Materials/Generic/T_PixelCircleGradient128.T_PixelCircleGradient128'
-        Name = Texture
-        Group = None
-    }
-}
-CollectedScalarParameters[5] =
-{
-    CollectedScalarParameters[0] = { Value=0.3, Name=0Scalar, Group=None }
-    CollectedScalarParameters[1] = { Value=0.3, Name=3Thickness, Group=None }
-    CollectedScalarParameters[2] = { Value=-0.1, Name=1GreenAlpha, Group=None }
-    CollectedScalarParameters[3] = { Value=-0.1, Name=2BlueAlpha, Group=None }
-    CollectedScalarParameters[4] = { Value=0, Name=RadialRadius, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=1, G=1, B=1, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -76,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

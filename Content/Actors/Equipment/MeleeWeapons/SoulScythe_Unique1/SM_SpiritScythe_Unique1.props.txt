@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulScythe_Unique1/MI_SpiritScythe_Unique1.MI_SpiritScythe_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulScythe_Unique1/MI_SpiritScythe_Unique1.MI_SpiritScythe_Unique1'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.196, 198.534, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00534153, Y=20.0186, Z=-22.0442 }
+    BoxExtent = { X=3.11966, Y=90.4432, Z=61.7661 }
+    SphereRadius = 100.678
+}

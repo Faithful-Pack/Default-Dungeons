@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/MI_DesertShield.MI_DesertShield'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/MI_DesertShield.MI_DesertShield'
+        MaterialSlotName = pasted__lambert3SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 288.445, 45.5602, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=12.4224, Y=3.125, Z=9.37499 }
+    SphereRadius = 15.8736
+}

@@ -1,23 +1,23 @@
+Parent = Material3'Actors/Characters/Player/Master/M_PlayerPortrait.M_PlayerPortrait'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[1] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Sam/T_Sam_Skin.T_Sam_Skin'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Characters/Player/Master/Skins/Sam/T_Sam_Skin.T_Sam_Skin'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Characters/Player/Master/M_PlayerPortrait.M_PlayerPortrait'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -27,6 +27,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -34,3 +41,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,14 +1,11 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Furnace/T_Furnace.T_Furnace'
 }
-Expressions[5] =
-{
-    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/Furnace/M_Furnace.MaterialExpressionTextureSample_2'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -21,7 +18,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -40,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

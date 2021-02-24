@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_CreeperWoods_Structures/MI_CW_StoneAtlas.MI_CW_StoneAtlas'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_CreeperWoods_Structures/MI_CW_StoneAtlas.MI_CW_StoneAtlas'
+        MaterialSlotName = Stone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 206539, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-100, Y=0, Z=1300 }
+    BoxExtent = { X=2300, Y=2600, Z=600 }
+    SphereRadius = 2903.45
+}

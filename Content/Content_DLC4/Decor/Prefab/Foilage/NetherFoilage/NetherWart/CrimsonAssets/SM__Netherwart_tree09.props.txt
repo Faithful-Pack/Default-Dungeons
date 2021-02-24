@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWart_TraceFade.MI_NetherWart_TraceFade'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_ShroomLight_TraceFade.MI_ShroomLight_TraceFade'
+    Materials[2] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWartFoilageTwoSide_TraceFade.MI_NetherWartFoilageTwoSide_TraceFade'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWart_TraceFade.MI_NetherWart_TraceFade'
+        MaterialSlotName = MI_NetherWart_TraceFade_008
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 2121.88, 2122, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_ShroomLight_TraceFade.MI_ShroomLight_TraceFade'
+        MaterialSlotName = MI_ShroomLight_TraceFade_003
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 2130.34, 2129.88, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWartFoilageTwoSide_TraceFade.MI_NetherWartFoilageTwoSide_TraceFade'
+        MaterialSlotName = MI_NetherWartFoilageTwoSide_TraceFade_008
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 2129.32, 2129.22, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=49.4637, Y=49.9999, Z=575 }
+    BoxExtent = { X=250.536, Y=251.071, Z=575 }
+    SphereRadius = 605.906
+}

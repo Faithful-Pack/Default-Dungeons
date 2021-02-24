@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/MI_Ravager_Gate_Long.MI_Ravager_Gate_Long'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Ravager_Pens/Ravager_Gate/MI_Ravager_Gate_Long.MI_Ravager_Gate_Long'
+        MaterialSlotName = MI_Ravage_Gate
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 565.833, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-006, Z=6.24997 }
+    BoxExtent = { X=1356.25, Y=18.75, Z=6.24997 }
+    SphereRadius = 1356.39
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Stairrugs/MI_CarpetBorders.MI_CarpetBorders'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Stairrugs/MI_CarpetBorders.MI_CarpetBorders'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 201.59, 208.008, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-53.6094, Z=46.5625 }
+    BoxExtent = { X=50, Y=53.6094, Z=53.4375 }
+    SphereRadius = 90.7168
+}

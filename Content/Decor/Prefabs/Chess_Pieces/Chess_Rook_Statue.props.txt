@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Chess_Pieces/Chess_Statue_Rook_01.Chess_Statue_Rook_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Chess_Pieces/Chess_Statue_Rook_01.Chess_Statue_Rook_01'
+        MaterialSlotName = Chess_Statue_Rook
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.843, 336.842, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=91.112 }
+    BoxExtent = { X=50, Y=50, Z=91.112 }
+    SphereRadius = 115.332
+}

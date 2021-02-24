@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pillar/MI_Wind_Pillar_Crystal.MI_Wind_Pillar_Crystal'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pillar/MI_Wind_Pillar_Crystal.MI_Wind_Pillar_Crystal'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pillar/MI_Wind_Pillar_Crystal.MI_Wind_Pillar_Crystal'
+        MaterialSlotName = MI_WS_Tree_Trunk
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 565.955, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pillar/MI_Wind_Pillar_Crystal.MI_Wind_Pillar_Crystal'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.05176e-005, Y=6.10352e-005, Z=181.25 }
+    BoxExtent = { X=500, Y=500, Z=181.25 }
+    SphereRadius = 729.967
+}

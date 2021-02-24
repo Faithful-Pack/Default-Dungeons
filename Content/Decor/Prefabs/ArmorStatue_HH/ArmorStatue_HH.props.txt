@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/ArmorStatue_HH/M_ArmorStatue_HH.M_ArmorStatue_HH'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/ArmorStatue_HH/M_ArmorStatue_HH.M_ArmorStatue_HH'
+        MaterialSlotName = lambert6SG1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 402.826, 591.303, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=14.4626, Z=101.7 }
+    BoxExtent = { X=67.6829, Y=56.4672, Z=135.8 }
+    SphereRadius = 141.177
+}

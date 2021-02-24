@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+    Materials[2] = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+    Materials[3] = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+        MaterialSlotName = EndDoorMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 600.089, 779.166, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+        MaterialSlotName = Highblockhall_EndDoor:EndDoor_Highblockhall_EndDoor:polySurface3_Highblockhall_EndDoor:polySurface1_polySurface3Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 600.118, 779.063, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+        MaterialSlotName = Highblockhall_EndDoor:pCube1_Highblockhall_EndDoor:polySurface1_polySurface3_polySurface4Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 600.009, 780.899, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DoorExit/MI_Highblockhall_Enddoor.MI_Highblockhall_Enddoor'
+        MaterialSlotName = Highblockhall_EndDoor:pCube1_polySurface2_Highblockhall_EndDoor:polySurface1_polySurface1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 600.009, 778.966, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.14581, Y=-250, Z=16.5045 }
+    BoxExtent = { X=204.325, Y=250, Z=41.5045 }
+    SphereRadius = 324.169
+}

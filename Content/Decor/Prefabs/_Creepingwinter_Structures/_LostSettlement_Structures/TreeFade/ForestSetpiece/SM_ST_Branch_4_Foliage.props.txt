@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/TreeFade/ForestSetpiece/M_FSetpieceFoliage_PF.M_FSetpieceFoliage_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/TreeFade/ForestSetpiece/M_FSetpieceFoliage_PF.M_FSetpieceFoliage_PF'
+        MaterialSlotName = FSetpieceFade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.963, 207.41, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=362.5, Y=-700, Z=99.9999 }
+    BoxExtent = { X=150, Y=100, Z=100 }
+    SphereRadius = 206.155
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/CreeperDoor/M_CreeperDoor.M_CreeperDoor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/CreeperDoor/M_CreeperDoor.M_CreeperDoor'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 829.831, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-200, Y=3.12209, Z=250 }
+    BoxExtent = { X=200, Y=15.6222, Z=250 }
+    SphereRadius = 320.537
+}

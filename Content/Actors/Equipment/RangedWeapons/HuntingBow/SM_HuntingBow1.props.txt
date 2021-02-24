@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/HuntingBow/MI_HuntingBow.MI_HuntingBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/HuntingBow/MI_HuntingBow.MI_HuntingBow'
+        MaterialSlotName = lambert10SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 187.54, 132.817, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.17767, Y=0, Z=0 }
+    BoxExtent = { X=22.0971, Y=3.125, Z=66.2913 }
+    SphereRadius = 67.6763
+}

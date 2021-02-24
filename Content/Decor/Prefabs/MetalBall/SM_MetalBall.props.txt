@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/MetalBall/MI_MetalBall.MI_MetalBall'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/MetalBall/MI_MetalBall.MI_MetalBall'
+        MaterialSlotName = RedstoneCube_Master:lambert3SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 681.516, 282.113, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.78568, Y=-47.9818, Z=-77.1244 }
+    BoxExtent = { X=51.7857, Y=52.0182, Z=127.124 }
+    SphereRadius = 146.793
+}

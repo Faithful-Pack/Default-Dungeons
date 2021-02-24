@@ -1,30 +1,11 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Window/Material/T_WindowRayRays.T_WindowRayRays'
 }
-Expressions[74] =
-{
-    Expressions[0] = MaterialExpressionVectorParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionVectorParameter_0'
-    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionTextureSample_1'
-    Expressions[6] = MaterialExpressionTextureSample'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionTextureSample_2'
-    Expressions[8] = MaterialExpressionTextureSample'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionTextureSample_3'
-    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_2'
-    Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_3'
-    Expressions[28] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_5'
-    Expressions[30] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_6'
-    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_7'
-    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_8'
-    Expressions[49] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_9'
-    Expressions[50] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_10'
-    Expressions[51] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_11'
-    Expressions[52] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_12'
-    Expressions[62] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_16'
-    Expressions[63] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_17'
-    Expressions[73] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/Material/M_WindowRay.MaterialExpressionScalarParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -37,41 +18,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[13] =
-{
-    CollectedScalarParameters[0] = { Value=0.08, Name=RayPulseSpeed, Group=None }
-    CollectedScalarParameters[1] = { Value=0.2, Name=MinRayStrength, Group=None }
-    CollectedScalarParameters[2] = { Value=0.4, Name=RayOverallStrength, Group=None }
-    CollectedScalarParameters[3] = { Value=4, Name=EmisssiveStrength, Group=None }
-    CollectedScalarParameters[4] = { Value=0.02, Name=RaySpeed, Group=None }
-    CollectedScalarParameters[5] = { Value=0.4, Name=RaySize, Group=None }
-    CollectedScalarParameters[6] = { Value=1, Name=VTangent0, Group=None }
-    CollectedScalarParameters[7] = { Value=1, Name=VTangent1, Group=None }
-    CollectedScalarParameters[8] = { Value=0, Name=UTangent0, Group=None }
-    CollectedScalarParameters[9] = { Value=1, Name=UTangent1, Group=None }
-    CollectedScalarParameters[10] = { Value=-6.5, Name=CloseVTangent0, Group=None }
-    CollectedScalarParameters[11] = { Value=1, Name=CloseVTangent1, Group=None }
-    CollectedScalarParameters[12] = { Value=0, Name=RandomOffset, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.645833, G=0.836147, B=1, A=0 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -79,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

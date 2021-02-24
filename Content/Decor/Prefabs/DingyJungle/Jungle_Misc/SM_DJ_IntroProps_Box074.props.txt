@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_Misc/MI_DJ_IntroProps1.MI_DJ_IntroProps1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_Misc/MI_DJ_IntroProps1.MI_DJ_IntroProps1'
+        MaterialSlotName = 04 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 303.563, 266.006, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=28.1005, Z=-162.402 }
+    BoxExtent = { X=18.75, Y=46.8505, Z=237.402 }
+    SphereRadius = 241.173
+}

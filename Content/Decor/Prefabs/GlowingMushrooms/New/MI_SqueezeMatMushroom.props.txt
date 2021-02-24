@@ -1,27 +1,27 @@
+Parent = Material3'Decor/Prefabs/GlowingMushrooms/New/M_SqueezeMat.M_SqueezeMat'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 30
         ParameterInfo = { Name=Offset }
+        ParameterValue = 30
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Squeeze }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/GlowingMushrooms/New/M_SqueezeMat.M_SqueezeMat'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -31,6 +31,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -38,3 +45,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mushroom_Patch
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mushroom_Patch_E
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/SettlementFade/M_SettlementFade.M_SettlementFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/SettlementFade/M_SettlementFade.M_SettlementFade'
+        MaterialSlotName = SettlementRoofFade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.977, 2395.74, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=268.75, Y=-250, Z=99.9999 }
+    BoxExtent = { X=268.75, Y=250, Z=200 }
+    SphereRadius = 418.003
+}

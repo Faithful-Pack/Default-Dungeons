@@ -1,33 +1,33 @@
+Parent = Material3'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.M_RuneHintMat'
 ScalarParameterValues[4] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.3
         ParameterInfo = { Name=Emissive }
+        ParameterValue = 0.3
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 100
         ParameterInfo = { Name=Contrast }
+        ParameterValue = 100
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=PanSpped }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.M_RuneHintMat'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -37,6 +37,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -44,3 +51,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.75
+        UVChannelIndex = 0
+        TextureName = T_Clouds_64
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DiagonalLine
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 2.67188
+        UVChannelIndex = 0
+        TextureName = T_RuneHints
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 2.67188
+        UVChannelIndex = 0
+        TextureName = T_RuneHints_spec
+    }
+}

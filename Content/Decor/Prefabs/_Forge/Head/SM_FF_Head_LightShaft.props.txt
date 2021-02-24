@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Forge/LightShafts/MI_FF_OutdoorLighthaft.MI_FF_OutdoorLighthaft'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Forge/LightShafts/MI_FF_OutdoorLighthaft.MI_FF_OutdoorLighthaft'
+        MaterialSlotName = Head
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1035.92, 960.815, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=241.705, Z=191.719 }
+    BoxExtent = { X=191.719, Y=391.705, Z=191.719 }
+    SphereRadius = 476.387
+}

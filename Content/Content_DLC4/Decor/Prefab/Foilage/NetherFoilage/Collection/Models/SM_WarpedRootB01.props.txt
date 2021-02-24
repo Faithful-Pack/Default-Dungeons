@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_WarpedRootOpaque.MI_WarpedRootOpaque'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_WarpedRootOpaque.MI_WarpedRootOpaque'
+        MaterialSlotName = Foliage
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.931, 80.4379, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.77093, Y=5.06316, Z=33.5593 }
+    BoxExtent = { X=39.8508, Y=32.0599, Z=33.5593 }
+    SphereRadius = 50.9128
+}

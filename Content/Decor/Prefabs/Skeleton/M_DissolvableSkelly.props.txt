@@ -1,37 +1,37 @@
+Parent = Material3'Decor/Prefabs/Skeleton/M_DissolvableMaterial.M_DissolvableMaterial'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/Skeleton/T_Skeleton_S.T_Skeleton_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Skeleton/T_Skeleton_S.T_Skeleton_S'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/Skeleton/T_Skeleton.T_Skeleton'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/Skeleton/T_Skeleton.T_Skeleton'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=1, B=0, A=1 }
         ParameterInfo = { Name=DissolveTextureSize }
+        ParameterValue = { R=1, G=1, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/Skeleton/M_DissolvableMaterial.M_DissolvableMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -41,6 +41,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -48,3 +55,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Skeleton
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Skeleton_S
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

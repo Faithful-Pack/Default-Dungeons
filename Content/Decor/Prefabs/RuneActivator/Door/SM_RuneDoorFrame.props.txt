@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/Door/MI_RuneDoorFrame_Mid.MI_RuneDoorFrame_Mid'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/RuneActivator/Door/MI_RuneDoorFrame_Mid.MI_RuneDoorFrame_Mid'
+        MaterialSlotName = GlowFrame
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.902, 429.103, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=50 }
+    BoxExtent = { X=300, Y=50, Z=50 }
+    SphereRadius = 308.221
+}

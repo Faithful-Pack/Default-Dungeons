@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Skeleton/MI_Skeleton.MI_Skeleton'
+    Materials[1] = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/Poses/MI_DesertArmorDusted.MI_DesertArmorDusted'
+    Materials[2] = MaterialInstanceConstant'Actors/Characters/Enemies/Skeleton/MI_Skeleton.MI_Skeleton'
+    Materials[3] = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/Poses/MI_DesertShieldDusted.MI_DesertShieldDusted'
+    Materials[4] = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/Poses/MI_GlaiveDusted.MI_GlaiveDusted'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Skeleton/MI_Skeleton.MI_Skeleton'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.843, 455.441, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/Poses/MI_DesertArmorDusted.MI_DesertArmorDusted'
+        MaterialSlotName = armor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 365.442, 456.132, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Skeleton/MI_Skeleton.MI_Skeleton'
+        MaterialSlotName = Default_Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.843, 455.655, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/Poses/MI_DesertShieldDusted.MI_DesertShieldDusted'
+        MaterialSlotName = lambert7
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 225.011, 456.188, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/SkeletonVanguard/Poses/MI_GlaiveDusted.MI_GlaiveDusted'
+        MaterialSlotName = weapon
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 184.395, 456.349, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-22.4748, Y=40.8811, Z=77.6379 }
+    BoxExtent = { X=88.6559, Y=126.726, Z=104.882 }
+    SphereRadius = 157.884
+}

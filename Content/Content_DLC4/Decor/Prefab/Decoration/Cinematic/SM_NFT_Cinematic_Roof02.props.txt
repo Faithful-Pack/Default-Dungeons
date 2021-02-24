@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Decoration/Cinematic/MI_NFT_C_RoofBrick.MI_NFT_C_RoofBrick'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Decoration/Cinematic/MI_NFT_C_RoofDirt.MI_NFT_C_RoofDirt'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Decoration/Cinematic/MI_NFT_C_RoofBrick.MI_NFT_C_RoofBrick'
+        MaterialSlotName = Cinematic_RoofBrick01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12800, 3171.13, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Decoration/Cinematic/MI_NFT_C_RoofDirt.MI_NFT_C_RoofDirt'
+        MaterialSlotName = Cinematic_RoofDirt01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12800, 3174.36, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=150, Y=150, Z=150 }
+    BoxExtent = { X=850, Y=750, Z=150 }
+    SphereRadius = 1143.46
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_Pots.MI_China_Pots'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_Pots.MI_China_Pots'
+        MaterialSlotName = PotOpenMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.537, 179.745, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-18.75, Z=0 }
+    BoxExtent = { X=30.86, Y=18.75, Z=37.5 }
+    SphereRadius = 47.7542
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Items/UpdraftTome/M_UpdraftTome.M_UpdraftTome'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Items/UpdraftTome/M_UpdraftTome.M_UpdraftTome'
+        MaterialSlotName = Material #104
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.857, 264.244, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=34.375, Z=-1.23927 }
+    BoxExtent = { X=9.375, Y=34.375, Z=37.9049 }
+    SphereRadius = 52.0222
+}

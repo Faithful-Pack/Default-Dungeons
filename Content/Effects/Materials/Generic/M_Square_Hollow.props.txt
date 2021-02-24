@@ -1,22 +1,11 @@
 TwoSided = false
-bDisableDepthTest = true
+bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/SinglePixelSurrondedByAlpha.SinglePixelSurrondedByAlpha'
 }
-Expressions[28] =
-{
-    Expressions[0] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[3] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionTextureSample_3'
-    Expressions[11] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionTextureSample_5'
-    Expressions[13] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionScalarParameter_13'
-    Expressions[19] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionScalarParameter_15'
-    Expressions[24] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[25] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionStaticSwitchParameter_1'
-    Expressions[26] = MaterialExpressionVectorParameter'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionVectorParameter_0'
-    Expressions[27] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_Hollow.MaterialExpressionStaticSwitchParameter_3'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -29,30 +18,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[2] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=Size, Group=None }
-    CollectedScalarParameters[1] = { Value=1, Name=SizeMultiplier, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0, G=0, B=0, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -60,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

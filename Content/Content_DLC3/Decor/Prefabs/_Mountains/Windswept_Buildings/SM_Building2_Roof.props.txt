@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/MI_Building_Roof_005.MI_Building_Roof_005'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/MI_Building_Roof_002.MI_Building_Roof_002'
+    Materials[2] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/MI_Building_Roof_005.MI_Building_Roof_005'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/MI_Building_Roof_005.MI_Building_Roof_005'
+        MaterialSlotName = Grass_Block
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/MI_Building_Roof_002.MI_Building_Roof_002'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1612.32, 3200.09, 100.026, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/MI_Building_Roof_005.MI_Building_Roof_005'
+        MaterialSlotName = Material #14
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1603.99, 3676.77, 100.033, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=50, Z=400 }
+    BoxExtent = { X=350, Y=550, Z=100 }
+    SphereRadius = 612.372
+}

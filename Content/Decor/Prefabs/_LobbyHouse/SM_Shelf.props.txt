@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_Shelf.MI_Shelf'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_Shelf.MI_Shelf'
+    Materials[2] = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_Shelf.MI_Shelf'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_Shelf.MI_Shelf'
+        MaterialSlotName = Top
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.244, 319.75, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_Shelf.MI_Shelf'
+        MaterialSlotName = Sides
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 319.938, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_Shelf.MI_Shelf'
+        MaterialSlotName = Front
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 319.875, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=50 }
+    BoxExtent = { X=50, Y=50, Z=50 }
+    SphereRadius = 86.6025
+}

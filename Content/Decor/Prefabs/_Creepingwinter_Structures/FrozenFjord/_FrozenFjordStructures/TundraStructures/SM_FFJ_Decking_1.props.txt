@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/TundraStructures/MI_FFJ_Decking_PF.MI_FFJ_Decking_PF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/TundraStructures/MI_FFJ_Decking_PF.MI_FFJ_Decking_PF'
+        MaterialSlotName = FFJ_Decking
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 393.458, 416.767, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=100, Y=-100, Z=6.24999 }
+    BoxExtent = { X=100, Y=100, Z=25 }
+    SphereRadius = 143.614
+}

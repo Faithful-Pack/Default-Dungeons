@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/Served/MI_Fruits_Served.MI_Fruits_Served'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_Bowl.MI_China_Bowl'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/Served/MI_Fruits_Served.MI_Fruits_Served'
+        MaterialSlotName = pCube21Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.8424, 246.397, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_Bowl.MI_China_Bowl'
+        MaterialSlotName = SM_China1:BowlMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 113.082, 241.451, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-006, Y=-18.7451, Z=-7.62939e-006 }
+    BoxExtent = { X=38.1865, Y=18.7451, Z=37.5 }
+    SphereRadius = 53.8849
+}

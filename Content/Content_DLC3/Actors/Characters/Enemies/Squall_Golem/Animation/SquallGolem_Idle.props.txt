@@ -1,0 +1,1114 @@
+NumFrames = 180
+KeyEncodingFormat = AKF_ConstantKeyLerp (0)
+TranslationCompressionFormat = ACF_None (0)
+RotationCompressionFormat = ACF_Float96NoW (1)
+ScaleCompressionFormat = ACF_None (0)
+CompressedTrackOffsets[0] = {}
+CompressedScaleOffsets =
+{
+    OffsetData[40] =
+    {
+        OffsetData[0] = 24
+        OffsetData[1] = 1
+        OffsetData[2] = 2208
+        OffsetData[3] = 1
+        OffsetData[4] = 4392
+        OffsetData[5] = 1
+        OffsetData[6] = 4428
+        OffsetData[7] = 1
+        OffsetData[8] = 6612
+        OffsetData[9] = 1
+        OffsetData[10] = 6648
+        OffsetData[11] = 1
+        OffsetData[12] = 10980
+        OffsetData[13] = 1
+        OffsetData[14] = 11016
+        OffsetData[15] = 1
+        OffsetData[16] = 11052
+        OffsetData[17] = 1
+        OffsetData[18] = 13236
+        OffsetData[19] = 1
+        OffsetData[20] = 13272
+        OffsetData[21] = 1
+        OffsetData[22] = 15456
+        OffsetData[23] = 180
+        OffsetData[24] = 17640
+        OffsetData[25] = 1
+        OffsetData[26] = 19824
+        OffsetData[27] = 180
+        OffsetData[28] = 24156
+        OffsetData[29] = 1
+        OffsetData[30] = 24192
+        OffsetData[31] = 1
+        OffsetData[32] = 26376
+        OffsetData[33] = 1
+        OffsetData[34] = 26412
+        OffsetData[35] = 1
+        OffsetData[36] = 28596
+        OffsetData[37] = 1
+        OffsetData[38] = 30780
+        OffsetData[39] = 1
+    }
+    StripSize = 2
+}
+TrackToSkeletonMapTable[20] =
+{
+    TrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    TrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    TrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    TrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+    TrackToSkeletonMapTable[4] = { BoneTreeIndex=4 }
+    TrackToSkeletonMapTable[5] = { BoneTreeIndex=5 }
+    TrackToSkeletonMapTable[6] = { BoneTreeIndex=6 }
+    TrackToSkeletonMapTable[7] = { BoneTreeIndex=7 }
+    TrackToSkeletonMapTable[8] = { BoneTreeIndex=8 }
+    TrackToSkeletonMapTable[9] = { BoneTreeIndex=9 }
+    TrackToSkeletonMapTable[10] = { BoneTreeIndex=10 }
+    TrackToSkeletonMapTable[11] = { BoneTreeIndex=11 }
+    TrackToSkeletonMapTable[12] = { BoneTreeIndex=12 }
+    TrackToSkeletonMapTable[13] = { BoneTreeIndex=13 }
+    TrackToSkeletonMapTable[14] = { BoneTreeIndex=14 }
+    TrackToSkeletonMapTable[15] = { BoneTreeIndex=15 }
+    TrackToSkeletonMapTable[16] = { BoneTreeIndex=16 }
+    TrackToSkeletonMapTable[17] = { BoneTreeIndex=17 }
+    TrackToSkeletonMapTable[18] = { BoneTreeIndex=18 }
+    TrackToSkeletonMapTable[19] = { BoneTreeIndex=19 }
+}
+CompressedTrackToSkeletonMapTable[20] =
+{
+    CompressedTrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    CompressedTrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    CompressedTrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    CompressedTrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+    CompressedTrackToSkeletonMapTable[4] = { BoneTreeIndex=4 }
+    CompressedTrackToSkeletonMapTable[5] = { BoneTreeIndex=5 }
+    CompressedTrackToSkeletonMapTable[6] = { BoneTreeIndex=6 }
+    CompressedTrackToSkeletonMapTable[7] = { BoneTreeIndex=7 }
+    CompressedTrackToSkeletonMapTable[8] = { BoneTreeIndex=8 }
+    CompressedTrackToSkeletonMapTable[9] = { BoneTreeIndex=9 }
+    CompressedTrackToSkeletonMapTable[10] = { BoneTreeIndex=10 }
+    CompressedTrackToSkeletonMapTable[11] = { BoneTreeIndex=11 }
+    CompressedTrackToSkeletonMapTable[12] = { BoneTreeIndex=12 }
+    CompressedTrackToSkeletonMapTable[13] = { BoneTreeIndex=13 }
+    CompressedTrackToSkeletonMapTable[14] = { BoneTreeIndex=14 }
+    CompressedTrackToSkeletonMapTable[15] = { BoneTreeIndex=15 }
+    CompressedTrackToSkeletonMapTable[16] = { BoneTreeIndex=16 }
+    CompressedTrackToSkeletonMapTable[17] = { BoneTreeIndex=17 }
+    CompressedTrackToSkeletonMapTable[18] = { BoneTreeIndex=18 }
+    CompressedTrackToSkeletonMapTable[19] = { BoneTreeIndex=19 }
+}
+CompressedCurveData = { FloatCurves[0]={} }
+Interpolation = Linear (0)
+AdditiveAnimType = AAT_None (0)
+RetargetSource = None
+RefPoseSeq = None
+RefFrameIndex = 0
+RetargetSourceAssetReferencePose[0] = {}
+bEnableRootMotion = false
+AuthoredSyncMarkers[0] = {}
+BakedPerBoneCustomAttributeData[0] = {}
+Notifies[20] =
+{
+    Notifies[0] =
+    {
+        TriggerTimeOffset = 0.0001
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 1
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[1] =
+    {
+        TriggerTimeOffset = 0.0001
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[2] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[3] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[4] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 5
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[5] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 6
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[6] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 7
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[7] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[8] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[9] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[10] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 5
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[11] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 6
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[12] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 7
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[13] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[14] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[15] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[16] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 5
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[17] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 6
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[18] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 7
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[19] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+}
+SequenceLength = 7.45833
+RateScale = 1
+RawCurveData = { FloatCurves[0]={} }
+Skeleton = Skeleton'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/SK_SquallGolem_Skeleton.SK_SquallGolem_Skeleton'
+
+// Sequence: SquallGolem_Idle
+NumFrames = 180
+KeyEncodingFormat = AKF_ConstantKeyLerp (0)
+TranslationCompressionFormat = ACF_None (0)
+RotationCompressionFormat = ACF_Float96NoW (1)
+ScaleCompressionFormat = ACF_None (0)
+CompressedTrackOffsets[0] = {}
+CompressedScaleOffsets =
+{
+    OffsetData[40] =
+    {
+        OffsetData[0] = 24
+        OffsetData[1] = 1
+        OffsetData[2] = 2208
+        OffsetData[3] = 1
+        OffsetData[4] = 4392
+        OffsetData[5] = 1
+        OffsetData[6] = 4428
+        OffsetData[7] = 1
+        OffsetData[8] = 6612
+        OffsetData[9] = 1
+        OffsetData[10] = 6648
+        OffsetData[11] = 1
+        OffsetData[12] = 10980
+        OffsetData[13] = 1
+        OffsetData[14] = 11016
+        OffsetData[15] = 1
+        OffsetData[16] = 11052
+        OffsetData[17] = 1
+        OffsetData[18] = 13236
+        OffsetData[19] = 1
+        OffsetData[20] = 13272
+        OffsetData[21] = 1
+        OffsetData[22] = 15456
+        OffsetData[23] = 180
+        OffsetData[24] = 17640
+        OffsetData[25] = 1
+        OffsetData[26] = 19824
+        OffsetData[27] = 180
+        OffsetData[28] = 24156
+        OffsetData[29] = 1
+        OffsetData[30] = 24192
+        OffsetData[31] = 1
+        OffsetData[32] = 26376
+        OffsetData[33] = 1
+        OffsetData[34] = 26412
+        OffsetData[35] = 1
+        OffsetData[36] = 28596
+        OffsetData[37] = 1
+        OffsetData[38] = 30780
+        OffsetData[39] = 1
+    }
+    StripSize = 2
+}
+TrackToSkeletonMapTable[20] =
+{
+    TrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    TrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    TrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    TrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+    TrackToSkeletonMapTable[4] = { BoneTreeIndex=4 }
+    TrackToSkeletonMapTable[5] = { BoneTreeIndex=5 }
+    TrackToSkeletonMapTable[6] = { BoneTreeIndex=6 }
+    TrackToSkeletonMapTable[7] = { BoneTreeIndex=7 }
+    TrackToSkeletonMapTable[8] = { BoneTreeIndex=8 }
+    TrackToSkeletonMapTable[9] = { BoneTreeIndex=9 }
+    TrackToSkeletonMapTable[10] = { BoneTreeIndex=10 }
+    TrackToSkeletonMapTable[11] = { BoneTreeIndex=11 }
+    TrackToSkeletonMapTable[12] = { BoneTreeIndex=12 }
+    TrackToSkeletonMapTable[13] = { BoneTreeIndex=13 }
+    TrackToSkeletonMapTable[14] = { BoneTreeIndex=14 }
+    TrackToSkeletonMapTable[15] = { BoneTreeIndex=15 }
+    TrackToSkeletonMapTable[16] = { BoneTreeIndex=16 }
+    TrackToSkeletonMapTable[17] = { BoneTreeIndex=17 }
+    TrackToSkeletonMapTable[18] = { BoneTreeIndex=18 }
+    TrackToSkeletonMapTable[19] = { BoneTreeIndex=19 }
+}
+CompressedTrackToSkeletonMapTable[20] =
+{
+    CompressedTrackToSkeletonMapTable[0] = { BoneTreeIndex=0 }
+    CompressedTrackToSkeletonMapTable[1] = { BoneTreeIndex=1 }
+    CompressedTrackToSkeletonMapTable[2] = { BoneTreeIndex=2 }
+    CompressedTrackToSkeletonMapTable[3] = { BoneTreeIndex=3 }
+    CompressedTrackToSkeletonMapTable[4] = { BoneTreeIndex=4 }
+    CompressedTrackToSkeletonMapTable[5] = { BoneTreeIndex=5 }
+    CompressedTrackToSkeletonMapTable[6] = { BoneTreeIndex=6 }
+    CompressedTrackToSkeletonMapTable[7] = { BoneTreeIndex=7 }
+    CompressedTrackToSkeletonMapTable[8] = { BoneTreeIndex=8 }
+    CompressedTrackToSkeletonMapTable[9] = { BoneTreeIndex=9 }
+    CompressedTrackToSkeletonMapTable[10] = { BoneTreeIndex=10 }
+    CompressedTrackToSkeletonMapTable[11] = { BoneTreeIndex=11 }
+    CompressedTrackToSkeletonMapTable[12] = { BoneTreeIndex=12 }
+    CompressedTrackToSkeletonMapTable[13] = { BoneTreeIndex=13 }
+    CompressedTrackToSkeletonMapTable[14] = { BoneTreeIndex=14 }
+    CompressedTrackToSkeletonMapTable[15] = { BoneTreeIndex=15 }
+    CompressedTrackToSkeletonMapTable[16] = { BoneTreeIndex=16 }
+    CompressedTrackToSkeletonMapTable[17] = { BoneTreeIndex=17 }
+    CompressedTrackToSkeletonMapTable[18] = { BoneTreeIndex=18 }
+    CompressedTrackToSkeletonMapTable[19] = { BoneTreeIndex=19 }
+}
+CompressedCurveData = { FloatCurves[0]={} }
+Interpolation = Linear (0)
+AdditiveAnimType = AAT_None (0)
+RetargetSource = None
+RefPoseSeq = None
+RefFrameIndex = 0
+RetargetSourceAssetReferencePose[0] = {}
+bEnableRootMotion = false
+AuthoredSyncMarkers[0] = {}
+BakedPerBoneCustomAttributeData[0] = {}
+Notifies[20] =
+{
+    Notifies[0] =
+    {
+        TriggerTimeOffset = 0.0001
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 1
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[1] =
+    {
+        TriggerTimeOffset = 0.0001
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[2] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[3] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[4] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 5
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[5] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 6
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[6] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 7
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[7] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[8] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[9] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[10] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 5
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[11] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 6
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[12] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 7
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[13] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[14] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[15] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[16] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 5
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[17] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 6
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[18] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 7
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+    Notifies[19] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-005
+        NotifyName = DungeonsPlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = true
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 7.45833
+    }
+}
+SequenceLength = 7.45833
+RateScale = 1
+RawCurveData = { FloatCurves[0]={} }
+Skeleton = Skeleton'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/SK_SquallGolem_Skeleton.SK_SquallGolem_Skeleton'

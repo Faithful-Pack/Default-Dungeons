@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/LightningRod/MI_LightningRodOfOrder.MI_LightningRodOfOrder'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/LightningRod/MI_LightningRodOfOrder.MI_LightningRodOfOrder'
+        MaterialSlotName = lambert6
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 132.416, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=13.2583 }
+    BoxExtent = { X=3.125, Y=30.9359, Z=70.7107 }
+    SphereRadius = 70.7797
+}

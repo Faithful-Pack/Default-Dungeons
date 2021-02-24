@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/OcelotArmor/MI_OcelotArmor.MI_OcelotArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/OcelotArmor/MI_OcelotArmor.MI_OcelotArmor'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 390.365, 169.757, 182.905, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=31.25, Z=-0.0872269 }
+    BoxExtent = { X=31.25, Y=37.5, Z=18.6628 }
+    SphereRadius = 52.26
+}

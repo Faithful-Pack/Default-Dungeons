@@ -1,32 +1,14 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[4] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/RuneActivator/Door/T_RuneHints.T_RuneHints'
-    ReferencedTextures[2] = Texture2D'Decor/Prefabs/RuneActivator/Door/T_RuneHints_spec.T_RuneHints_spec'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/RuneActivator/Door/T_RuneHints.T_RuneHints'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/RuneActivator/Door/T_RuneHints_spec.T_RuneHints_spec'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+    ReferencedTextures[3] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
-Expressions[75] =
-{
-    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_0'
-    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_4'
-    Expressions[7] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_4'
-    Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_7'
-    Expressions[19] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_10'
-    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_11'
-    Expressions[29] = MaterialExpressionVectorParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionVectorParameter_4'
-    Expressions[35] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_5'
-    Expressions[36] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[38] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionStaticSwitchParameter_2'
-    Expressions[43] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_17'
-    Expressions[44] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_3'
-    Expressions[52] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_5'
-    Expressions[59] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_6'
-    Expressions[67] = MaterialExpressionTextureSample'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionTextureSample_8'
-    Expressions[73] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_18'
-    Expressions[74] = MaterialExpressionScalarParameter'Decor/Prefabs/RuneActivator/Door/M_RuneHintMat.MaterialExpressionScalarParameter_19'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -39,7 +21,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -48,36 +29,9 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
-        Name = ShineTexture
-        Group = Shine
-    }
-}
-CollectedScalarParameters[9] =
-{
-    CollectedScalarParameters[0] = { Value=0.2, Name=Emissive, Group=None }
-    CollectedScalarParameters[1] = { Value=0.5, Name=Darken, Group=None }
-    CollectedScalarParameters[2] = { Value=2, Name=PanSpped, Group=None }
-    CollectedScalarParameters[3] = { Value=0, Name=Fade, Group=None }
-    CollectedScalarParameters[4] = { Value=0, Name=Contrast, Group=None }
-    CollectedScalarParameters[5] = { Value=1, Name=Shine, Group=None }
-    CollectedScalarParameters[6] = { Value=0.8, Name=ShineSpped, Group=None }
-    CollectedScalarParameters[7] = { Value=0, Name=OffsetX, Group=None }
-    CollectedScalarParameters[8] = { Value=0, Name=OffsetY, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=2, G=1.93056, B=1.77854, A=1 }
-        Name = ShineColor
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -85,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

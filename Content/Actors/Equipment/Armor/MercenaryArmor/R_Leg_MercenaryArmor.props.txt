@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/MercenaryArmor/MI_MercenaryArmor.MI_MercenaryArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/MercenaryArmor/MI_MercenaryArmor.MI_MercenaryArmor'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 463.731, 103.638, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.01418, Y=-47.5206, Z=2.19708 }
+    BoxExtent = { X=16.6424, Y=10.0206, Z=17.9457 }
+    SphereRadius = 26.4467
+}

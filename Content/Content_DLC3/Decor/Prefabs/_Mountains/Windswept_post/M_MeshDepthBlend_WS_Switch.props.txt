@@ -4,19 +4,10 @@ bIsMasked = false
 ReferencedTextures[3] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_CR_Flow.T_CR_Flow'
-    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/WP_Flow_Pixels.WP_Flow_Pixels'
-    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_Flowclouds.T_Flowclouds'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_Flowclouds.T_Flowclouds'
+    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/WP_Flow_Pixels.WP_Flow_Pixels'
 }
-Expressions[25] =
-{
-    Expressions[0] = MaterialExpressionVectorParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS_Switch.MaterialExpressionVectorParameter_0'
-    Expressions[4] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS_Switch.MaterialExpressionStaticSwitchParameter_0'
-    Expressions[8] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS_Switch.MaterialExpressionScalarParameter_0'
-    Expressions[10] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS_Switch.MaterialExpressionScalarParameter_1'
-    Expressions[15] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS_Switch.MaterialExpressionTextureSample_3'
-    Expressions[16] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS_Switch.MaterialExpressionTextureSample_2'
-    Expressions[17] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_WS_Switch.MaterialExpressionTextureSample_4'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -29,30 +20,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Additive (3)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[2] =
-{
-    CollectedScalarParameters[0] = { Value=3000, Name=FadeDistance, Group=None }
-    CollectedScalarParameters[1] = { Value=400, Name=Cutoff, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.614258, G=0.755064, B=0.770833, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -60,3 +38,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

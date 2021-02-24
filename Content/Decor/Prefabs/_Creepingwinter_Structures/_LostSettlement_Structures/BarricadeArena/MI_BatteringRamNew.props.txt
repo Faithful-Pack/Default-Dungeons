@@ -1,53 +1,53 @@
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 ScalarParameterValues[4] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.4
         ParameterInfo = { Name=05 Roughness Strength }
+        ParameterValue = 0.4
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 5
         ParameterInfo = { Name=01 Emissive Strength }
+        ParameterValue = 5
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 5
         ParameterInfo = { Name=06 Speed }
+        ParameterValue = 5
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[3] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_d.T_BatteringRamNew_d'
         ParameterInfo = { Name=01 Base Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_d.T_BatteringRamNew_d'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_s.T_BatteringRamNew_s'
         ParameterInfo = { Name=03 Specular Alpha }
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_s.T_BatteringRamNew_s'
+        ParameterName = None
     }
     TextureParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_E.T_BatteringRamNew_E'
         ParameterInfo = { Name=03 Emissive }
+        ParameterValue = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/T_BatteringRamNew_E.T_BatteringRamNew_E'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -57,6 +57,33 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Spec Alpha }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Emissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=05 Emission Animation }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -64,3 +91,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BatteringRamNew_d
+    }
+}

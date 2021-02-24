@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_DesertTemple_Structures/Columns/MI_DT_Columns.MI_DT_Columns'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_DesertTemple_Structures/Columns/MI_DT_Columns.MI_DT_Columns'
+        MaterialSlotName = Texture
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.943, 2129.24, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=9.15527e-005, Z=625 }
+    BoxExtent = { X=300, Y=300, Z=625 }
+    SphereRadius = 663.796
+}

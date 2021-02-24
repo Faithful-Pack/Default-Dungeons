@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/FishingRod/MI_FishingRod.MI_FishingRod'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/FishingRod/MI_FishingRod.MI_FishingRod'
+        MaterialSlotName = M_FishingRod
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 132.792, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.62913, Y=3.12498, Z=28.7262 }
+    BoxExtent = { X=19.8874, Y=9.375, Z=77.3398 }
+    SphereRadius = 78.1875
+}

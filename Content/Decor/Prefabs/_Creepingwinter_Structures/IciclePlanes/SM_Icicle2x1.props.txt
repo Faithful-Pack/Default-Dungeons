@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/IciclePlanes/MI_Icicleplanes.MI_Icicleplanes'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/IciclePlanes/MI_Icicleplanes.MI_Icicleplanes'
+        MaterialSlotName = IciclePlanes
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.098, 143.666, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=100, Y=31.25, Z=5.09127e-006 }
+    BoxExtent = { X=100, Y=50, Z=8.14603e-006 }
+    SphereRadius = 111.803
+}

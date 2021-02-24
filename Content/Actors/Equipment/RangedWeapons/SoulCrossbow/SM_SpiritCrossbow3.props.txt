@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SoulCrossbow/MI_SpiritCrossbow.MI_SpiritCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SoulCrossbow/MI_SpiritCrossbow.MI_SpiritCrossbow'
+        MaterialSlotName = lambert4SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.016, 181.363, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=4.41942 }
+    BoxExtent = { X=61.8718, Y=3.125, Z=57.4524 }
+    SphereRadius = 62.5781
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Brazier_Statue/M_Brazier_Statue.M_Brazier_Statue'
+    Materials[1] = Material3'Decor/Prefabs/Coal/M_Coal.M_Coal'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Brazier_Statue/M_Brazier_Statue.M_Brazier_Statue'
+        MaterialSlotName = M_Brazier_Statue
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 412.678, 527.958, 617.007, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/Coal/M_Coal.M_Coal'
+        MaterialSlotName = M_Coal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 49.8542, 297.037, 622.142, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.70335, Y=28.9977, Z=118.686 }
+    BoxExtent = { X=77.7967, Y=71.0023, Z=118.814 }
+    SphereRadius = 132.475
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/HeavyCrossbow/MI_HeavyCrossbow.MI_HeavyCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/HeavyCrossbow/MI_HeavyCrossbow.MI_HeavyCrossbow'
+        MaterialSlotName = lambert3SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 212.251, 194.999, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-005, Y=0, Z=-17.6777 }
+    BoxExtent = { X=61.8718, Y=3.125, Z=57.4524 }
+    SphereRadius = 67.3871
+}

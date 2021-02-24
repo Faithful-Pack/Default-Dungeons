@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_BasaltDeltasProps.MI_BasaltDeltasProps'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_BasaltDeltasProps.MI_BasaltDeltasProps'
+        MaterialSlotName = BasaltDeltas_Props_MAT
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 803.117, 159.79, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=50 }
+    BoxExtent = { X=18.75, Y=18.75, Z=50 }
+    SphereRadius = 56.5962
+}

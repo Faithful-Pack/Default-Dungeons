@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Forge/LightShafts/MI_FF_OutdoorLighthaft.MI_FF_OutdoorLighthaft'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Forge/LightShafts/MI_FF_OutdoorLighthaft.MI_FF_OutdoorLighthaft'
+        MaterialSlotName = Ray
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1758.55, 1548.87, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.18369, Y=398.269, Z=452.671 }
+    BoxExtent = { X=417.59, Y=398.268, Z=477.272 }
+    SphereRadius = 748.858
+}

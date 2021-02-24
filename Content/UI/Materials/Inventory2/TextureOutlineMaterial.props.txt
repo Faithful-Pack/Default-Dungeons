@@ -5,20 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_Steel_Icon.T_Sword_Steel_Icon'
 }
-Expressions[43] =
-{
-    Expressions[2] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_0'
-    Expressions[3] = MaterialExpressionVectorParameter'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionVectorParameter_0'
-    Expressions[10] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_1'
-    Expressions[15] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_2'
-    Expressions[16] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_3'
-    Expressions[17] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_4'
-    Expressions[22] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionScalarParameter_0'
-    Expressions[29] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_5'
-    Expressions[30] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_6'
-    Expressions[31] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_7'
-    Expressions[32] = MaterialExpressionTextureSample'UI/Materials/Inventory2/TextureOutlineMaterial.MaterialExpressionTextureSample_8'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -31,29 +18,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[1] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=OutlineThickness, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=1, G=0, B=0, A=1 }
-        Name = OutlineColor
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -61,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

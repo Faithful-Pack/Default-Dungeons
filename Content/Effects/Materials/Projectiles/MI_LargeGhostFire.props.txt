@@ -1,52 +1,53 @@
+Parent = Material3'Effects/Materials/Projectiles/M_NoiseGradientProjectile.M_NoiseGradientProjectile'
 ScalarParameterValues[8] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 16
         ParameterInfo = { Name=AlphaGradient1 }
+        ParameterValue = 16
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=AlphaGradient2 }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.003
         ParameterInfo = { Name=MinorDetails }
+        ParameterValue = 0.003
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=SpeedX }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=SpeedY }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 6
         ParameterInfo = { Name=U }
+        ParameterValue = 6
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 6
         ParameterInfo = { Name=V }
+        ParameterValue = 6
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -54,12 +55,11 @@ VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=51.9427, B=90, A=1 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=0, G=51.9427, B=90, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Effects/Materials/Projectiles/M_NoiseGradientProjectile.M_NoiseGradientProjectile'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -69,6 +69,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -76,3 +83,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

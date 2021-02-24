@@ -5,13 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/Inventory2/Enchantment/asset_available.asset_available'
 }
-Expressions[21] =
-{
-    Expressions[1] = MaterialExpressionTextureSample'UI/Materials/Inventory2/Enchantment/EnchantmentButton.MaterialExpressionTextureSample_1'
-    Expressions[5] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/Enchantment/EnchantmentButton.MaterialExpressionScalarParameter_0'
-    Expressions[9] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/Enchantment/EnchantmentButton.MaterialExpressionScalarParameter_1'
-    Expressions[12] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/Enchantment/EnchantmentButton.MaterialExpressionScalarParameter_2'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -24,22 +18,16 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_AlphaComposite (7)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[3] =
-{
-    CollectedScalarParameters[0] = { Value=0, Name=grayscale, Group=None }
-    CollectedScalarParameters[1] = { Value=0, Name=highlight, Group=None }
-    CollectedScalarParameters[2] = { Value=0, Name=Shine, Group=None }
-}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -48,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

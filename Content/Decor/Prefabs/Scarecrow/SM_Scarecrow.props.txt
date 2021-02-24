@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Scarecrow/MI_Scarecrow.MI_Scarecrow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Scarecrow/MI_Scarecrow.MI_Scarecrow'
+        MaterialSlotName = defaultMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.8828, 9.93849, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.53506, Z=0.000617027 }
+    BoxExtent = { X=1, Y=3.71119, Z=3.03021 }
+    SphereRadius = 3.97167
+}

@@ -2,14 +2,7 @@ TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] = { Texture2D'Decor/Prefabs/Book/T_Book.T_Book' }
-Expressions[15] =
-{
-    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Book/M_Book_Blank.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionVectorParameter'Decor/Prefabs/Book/M_Book_Blank.MaterialExpressionVectorParameter_4'
-    Expressions[8] = MaterialExpressionVectorParameter'Decor/Prefabs/Book/M_Book_Blank.MaterialExpressionVectorParameter_10'
-    Expressions[9] = MaterialExpressionVectorParameter'Decor/Prefabs/Book/M_Book_Blank.MaterialExpressionVectorParameter_13'
-    Expressions[12] = MaterialExpressionVectorParameter'Decor/Prefabs/Book/M_Book_Blank.MaterialExpressionVectorParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -22,7 +15,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -31,43 +23,9 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Decor/Prefabs/Book/T_Book.T_Book'
-        Name = Texture
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
-CollectedVectorParameters[4] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0.21, G=0.121579, B=0.0109977, A=1 }
-        Name = Blue-SecColor
-        Group = None
-    }
-    CollectedVectorParameters[1] =
-    {
-        Value = { R=0.235, G=0.15791, B=0.000920546, A=1 }
-        Name = Green-Corners
-        Group = None
-    }
-    CollectedVectorParameters[2] =
-    {
-        Value = { R=0.135, G=0.0594542, B=0.0127225, A=1 }
-        Name = Red-Base
-        Group = None
-    }
-    CollectedVectorParameters[3] =
-    {
-        Value = { R=0.335, G=0.335, B=0.335, A=1 }
-        Name = Alpha-Print
-        Group = None
-    }
-}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -75,3 +33,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

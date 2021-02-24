@@ -41,6 +41,9 @@ componentsFiles = GetFileList(componentsPath)
 content_dlc3Path  = 'Content\\Content_DLC3\\'
 content_dlc3Files = GetFileList(content_dlc3Path)
 
+content_dlc4Path  = 'Content\\Content_DLC4\\'
+content_dlc4Files = GetFileList(content_dlc4Path)
+
 cuesPath  = 'Content\\Cues\\'
 cuesFiles = GetFileList(cuesPath)
 
@@ -79,6 +82,7 @@ contentFilesFiltered = [ contentFile for contentFile in contentFiles if contentF
 actorsFilesFiltered = [ actorsFile for actorsFile in actorsFiles if actorsFile.endswith(".png") ] + [ actorsFile for actorsFile in actorsFiles if actorsFile.endswith(".tga") ]
 componentsFilesFiltered = [ componentsFile for componentsFile in componentsFiles if componentsFile.endswith(".png") ] + [ componentsFile for componentsFile in componentsFiles if componentsFile.endswith(".tga") ]
 content_dlc3FilesFiltered = [ content_dlc3File for content_dlc3File in content_dlc3Files if content_dlc3File.endswith(".png") ] + [ content_dlc3File for content_dlc3File in content_dlc3Files if content_dlc3File.endswith(".tga") ]
+content_dlc4FilesFiltered = [ content_dlc4File for content_dlc4File in content_dlc4Files if content_dlc4File.endswith(".png") ] + [ content_dlc4File for content_dlc4File in content_dlc4Files if content_dlc4File.endswith(".tga") ]
 cuesFilesFiltered = [ cuesFile for cuesFile in cuesFiles if cuesFile.endswith(".png") ] + [ cuesFile for cuesFile in cuesFiles if cuesFile.endswith(".tga") ]
 decorFilesFiltered = [ decorFile for decorFile in decorFiles if decorFile.endswith(".png") ] + [ decorFile for decorFile in decorFiles if decorFile.endswith(".tga") ]
 effectsFilesFiltered = [ effectsFile for effectsFile in effectsFiles if effectsFile.endswith(".png") ] + [ effectsFile for effectsFile in effectsFiles if effectsFile.endswith(".tga") ]
@@ -99,6 +103,7 @@ contentData    = []
 actorsData     = []
 componentsData = []
 content_dlc3Data = []
+content_dlc4Data = []
 cuesData       = []
 decorData      = []
 effectsData    = []
@@ -113,98 +118,105 @@ uiData         = []
 for contentFile in contentFilesFiltered:
 	contentData.append(contentFile)
 with open('Content.json', 'w') as contentJSON:
-	json.dump(contentData, contentJSON, indent=4)
+	json.dump(contentData, contentJSON, indent=2)
 
 for actorsFile in actorsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",actorsFile)
 	count += 1
 	actorsData.append(actorsFile)
 with open('json\\Actors.json', 'w') as actorsJSON:
-	json.dump(actorsData, actorsJSON, indent=4)
+	json.dump(actorsData, actorsJSON, indent=2)
 
 for componentsFile in componentsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",componentsFile)
 	count += 1
 	componentsData.append(componentsFile)
 with open('json\\Components.json', 'w') as componentsJSON:
-	json.dump(componentsData, componentsJSON, indent=4)
+	json.dump(componentsData, componentsJSON, indent=2)
 
 for content_dlc3File in content_dlc3FilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",content_dlc3File)
 	count += 1
 	content_dlc3Data.append(content_dlc3File)
 with open('json\\Content_DLC3.json', 'w') as content_dlc3JSON:
-	json.dump(content_dlc3Data, content_dlc3JSON, indent=4)
+	json.dump(content_dlc3Data, content_dlc3JSON, indent=2)
+
+for content_dlc4File in content_dlc4FilesFiltered:
+	print("\x1b[1m \x1b[32m Found : \x1b[0m",content_dlc4File)
+	count += 1
+	content_dlc4Data.append(content_dlc3File)
+with open('json\\Content_DLC3.json', 'w') as content_dlc4JSON:
+	json.dump(content_dlc4Data, content_dlc4JSON, indent=2)
 
 for cuesFile in cuesFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",cuesFile)
 	count += 1
 	cuesData.append(cuesFile)
 with open('json\\Cues.json', 'w') as cuesJSON:
-	json.dump(cuesData, cuesJSON, indent=4)
+	json.dump(cuesData, cuesJSON, indent=2)
 
 for decorFile in decorFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",decorFile)
 	count += 1
 	decorData.append(decorFile)
 with open('json\\Decor.json', 'w') as decorJSON:
-	json.dump(decorData, decorJSON, indent=4)
+	json.dump(decorData, decorJSON, indent=2)
 
 for effectsFile in effectsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",effectsFile)
 	count += 1
 	effectsData.append(effectsFile)
 with open('json\\Effects.json', 'w') as effectsJSON:
-	json.dump(effectsData, effectsJSON, indent=4)
+	json.dump(effectsData, effectsJSON, indent=2)
 
 for materialsFile in materialsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",materialsFile)
 	count += 1
 	materialsData.append(materialsFile)
 with open('json\\Materials.json', 'w') as materialsJSON:
-	json.dump(materialsData, materialsJSON, indent=4)
+	json.dump(materialsData, materialsJSON, indent=2)
 
 for modelsFile in modelsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",modelsFile)
 	count += 1
 	modelsData.append(modelsFile)
 with open('json\\Models.json', 'w') as modelsJSON:
-	json.dump(modelsData, modelsJSON, indent=4)
+	json.dump(modelsData, modelsJSON, indent=2)
 
 for patch1File in patch1FilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",patch1File)
 	count += 1
 	patch1Data.append(patch1File)
 with open('json\\Patch1.json', 'w') as patch1JSON:
-	json.dump(patch1Data, patch1JSON, indent=4)
+	json.dump(patch1Data, patch1JSON, indent=2)
 
 for patch2File in patch2FilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",patch2File)
 	count += 1
 	patch2Data.append(patch2File)
 with open('json\\Patch2.json', 'w') as patch2JSON:
-	json.dump(patch2Data, patch2JSON, indent=4)
+	json.dump(patch2Data, patch2JSON, indent=2)
 
 for saveiconsFile in saveiconsFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",saveiconsFile)
 	count += 1
 	saveiconsData.append(saveiconsFile)
 with open('json\\SaveIcons.json', 'w') as saveiconsJSON:
-	json.dump(saveiconsData, saveiconsJSON, indent=4)
+	json.dump(saveiconsData, saveiconsJSON, indent=2)
 
 for texturesFile in texturesFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",texturesFile)
 	count += 1
 	texturesData.append(texturesFile)
 with open('json\\Textures.json', 'w') as texturesJSON:
-	json.dump(texturesData, texturesJSON, indent=4)
+	json.dump(texturesData, texturesJSON, indent=2)
 
 for uiFile in uiFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",uiFile)
 	count += 1
 	uiData.append(uiFile)
 with open('json\\UI.json', 'w') as uiJSON:
-	json.dump(uiData, uiJSON, indent=4)
+	json.dump(uiData, uiJSON, indent=2)
 
 print()
 print("-----------------------------------------------")

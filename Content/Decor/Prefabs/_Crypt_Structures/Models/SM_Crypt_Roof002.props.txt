@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Crypt_Structures/Models/MI_Crypt_MiniAtlas.MI_Crypt_MiniAtlas'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Crypt_Structures/Models/MI_Crypt_MiniAtlas.MI_Crypt_MiniAtlas'
+        MaterialSlotName = Texture
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.012, 107720, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=50, Z=700 }
+    BoxExtent = { X=1100, Y=2250, Z=700 }
+    SphereRadius = 2600.48
+}

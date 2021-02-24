@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/MI_JungleFlower_Leafy.MI_JungleFlower_Leafy'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/MI_JungleFlower_Leafy.MI_JungleFlower_Leafy'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 206.335, 398.336, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.6104, Y=-4.47609, Z=97.5191 }
+    BoxExtent = { X=126.825, Y=124.61, Z=97.5191 }
+    SphereRadius = 160.691
+}

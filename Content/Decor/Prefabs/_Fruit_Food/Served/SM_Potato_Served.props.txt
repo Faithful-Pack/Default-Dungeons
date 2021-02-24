@@ -1,0 +1,122 @@
+Materials[9] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+    Materials[2] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+    Materials[3] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+    Materials[4] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+    Materials[5] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+    Materials[6] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+    Materials[7] = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_PlateBig.MI_China_PlateBig'
+    Materials[8] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+}
+SourceModels[0] = {}
+StaticMaterials[9] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.705, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = pCube2Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.836, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = pCube3Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.597, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = pCube4Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.705, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = pCube5Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.609, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = pCube7Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.705, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = pCube9Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.702, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_PlateBig.MI_China_PlateBig'
+        MaterialSlotName = SM_China1:PlateBigMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 111.331, 226.29, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Potato.MI_Potato'
+        MaterialSlotName = SM_Potato:pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50, 222.84, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-15.625, Z=-3.8147e-006 }
+    BoxExtent = { X=37.5, Y=15.625, Z=37.5 }
+    SphereRadius = 53.8652
+}

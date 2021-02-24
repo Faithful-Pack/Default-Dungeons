@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_LF_Lightshafts.M_LF_Lightshafts'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_LF_Lightshafts.M_LF_Lightshafts'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1633.12, 1644.3, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.27596e-012, Y=0, Z=-550 }
+    BoxExtent = { X=8.34465e-005, Y=700, Z=1150 }
+    SphereRadius = 1346.29
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/HumanVase/MI_Humanvase.MI_Humanvase'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/HumanVase/MI_Humanvase.MI_Humanvase'
+        MaterialSlotName = pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 235.971, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-006, Y=-50, Z=1.90735e-006 }
+    BoxExtent = { X=31.25, Y=50, Z=31.25 }
+    SphereRadius = 66.7317
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Mushrooms_New/MI_Mushrooms.MI_Mushrooms'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Mushrooms_New/MI_Mushrooms.MI_Mushrooms'
+        MaterialSlotName = MI_Mushrooms
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 600.496, 133.177, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=31.2545 }
+    BoxExtent = { X=25, Y=25, Z=31.2545 }
+    SphereRadius = 47.1894
+}

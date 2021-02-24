@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/Particle/M_WindHole_Outer.M_WindHole_Outer'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/Particle/M_WindHole_Outer.M_WindHole_Outer'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 142.342, 227.959, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.64507, Y=-111.177, Z=22.3549 }
+    BoxExtent = { X=22.3549, Y=111.177, Z=22.3549 }
+    SphereRadius = 113.46
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/FurRugs/Old/MI_Deerrug.MI_Deerrug'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/FurRugs/Old/MI_Deerrug.MI_Deerrug'
+        MaterialSlotName = pPlane1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.884, 316.66, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.125, Z=0 }
+    BoxExtent = { X=125, Y=3.125, Z=150 }
+    SphereRadius = 181.707
+}

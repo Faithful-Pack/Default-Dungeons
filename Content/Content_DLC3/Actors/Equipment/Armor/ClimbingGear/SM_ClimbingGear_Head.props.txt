@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/Armor/ClimbingGear/M_ClimbingGear.M_ClimbingGear'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Equipment/Armor/ClimbingGear/M_ClimbingGear.M_ClimbingGear'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.011, 189.972, 179.956, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.153599, Y=-1.56251, Z=3.12501 }
+    BoxExtent = { X=31.25, Y=28.125, Z=31.25 }
+    SphereRadius = 52.3846
+}

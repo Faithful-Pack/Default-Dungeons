@@ -1,46 +1,47 @@
+Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_GS.M_MeshDepthBlend_GS'
 ScalarParameterValues[7] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=EmissiveMax }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=EmissiveMin }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=EmissivePulseAmount }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=EmissivePulseSpeed }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0.6
         ParameterInfo = { Name=Emissive Amount }
+        ParameterValue = 0.6
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 4494.54
         ParameterInfo = { Name=FadeDistance }
+        ParameterValue = 4494.54
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -48,12 +49,11 @@ VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.048172, G=0.456411, B=0.250158, A=1 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.048172, G=0.456411, B=0.250158, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_GS.M_MeshDepthBlend_GS'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -63,6 +63,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -70,3 +77,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

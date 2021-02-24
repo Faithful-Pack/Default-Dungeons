@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ExplodingCrossbow/MI_ExplodingCrossbow.MI_ExplodingCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ExplodingCrossbow/MI_ExplodingCrossbow.MI_ExplodingCrossbow'
+        MaterialSlotName = lambert2SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 174.818, 163.225, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-006, Y=0, Z=2.20972 }
+    BoxExtent = { X=48.6136, Y=3.125, Z=59.6621 }
+    SphereRadius = 59.9072
+}

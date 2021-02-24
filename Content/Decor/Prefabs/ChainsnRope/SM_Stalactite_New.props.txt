@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/ChainsnRope/MI_Stalactite_FadeMat.MI_Stalactite_FadeMat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/ChainsnRope/MI_Stalactite_FadeMat.MI_Stalactite_FadeMat'
+        MaterialSlotName = Cobblestone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 1985.65, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=50.0001, Z=700 }
+    BoxExtent = { X=200, Y=250, Z=700 }
+    SphereRadius = 708.872
+}

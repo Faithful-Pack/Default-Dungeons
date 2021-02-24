@@ -1,79 +1,79 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[5] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.1
         ParameterInfo = { Name=EmissiveB_SinusTempo }
+        ParameterValue = 0.1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=EmissiveB_SinusVariation }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 10
         ParameterInfo = { Name=EmissiveBPower }
+        ParameterValue = 10
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = -100
         ParameterInfo = { Name=Flash Timestamp }
+        ParameterValue = -100
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/PoisonQuillVine/T_Posion_Quill_Vine_E.T_Posion_Quill_Vine_E'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/PoisonQuillVine/T_Posion_Quill_Vine_E.T_Posion_Quill_Vine_E'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Characters/Enemies/PoisonQuillVine/T_Posion_Quill_Vine.T_Posion_Quill_Vine'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Characters/Enemies/PoisonQuillVine/T_Posion_Quill_Vine.T_Posion_Quill_Vine'
+        ParameterName = None
     }
 }
 VectorParameterValues[4] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=0, B=0, A=1 }
         ParameterInfo = { Name=ConstantEmissiveColor }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.136, B=0.98612, A=1 }
         ParameterInfo = { Name=EmissiveBColor }
+        ParameterValue = { R=1, G=0.136, B=0.98612, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.016807, G=0, B=0.020289, A=1 }
         ParameterInfo = { Name=EnchantmentColor }
+        ParameterValue = { R=0.016807, G=0, B=0.020289, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.061246, B=0.991102, A=1 }
         ParameterInfo = { Name=ExtraEmissiveColor }
+        ParameterValue = { R=1, G=0.061246, B=0.991102, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -83,6 +83,39 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ConstantEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnchantmentMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=ExtraEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=SinusEmissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -90,3 +123,36 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Clouds_64
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Posion_Quill_Vine
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Posion_Quill_Vine_E
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

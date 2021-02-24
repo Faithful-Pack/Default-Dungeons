@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/MiningDevices/MI_BellowForge.MI_BellowForge'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/MiningDevices/MI_BellowForge.MI_BellowForge'
+        MaterialSlotName = pCube3Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1000.28, 1200.09, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-162.5, Y=-250, Z=0 }
+    BoxExtent = { X=312.5, Y=250, Z=137.5 }
+    SphereRadius = 419.263
+}

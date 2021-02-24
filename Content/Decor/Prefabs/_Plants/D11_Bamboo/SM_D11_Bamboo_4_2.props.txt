@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/D11_Bamboo/MI_Bamboo.MI_Bamboo'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/D11_Bamboo/MI_Bamboo.MI_Bamboo'
+        MaterialSlotName = Material #43
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 194.74, 595.837, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.194389, Y=-3.54158, Z=250 }
+    BoxExtent = { X=66.9134, Y=62.9098, Z=250 }
+    SphereRadius = 258.866
+}

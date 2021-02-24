@@ -1,70 +1,71 @@
+Parent = Material3'Materials/DepthFade/M_GlowDepthFade.M_GlowDepthFade'
 ScalarParameterValues[11] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.04
         ParameterInfo = { Name=CloudSpeed }
+        ParameterValue = 0.04
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.071428
         ParameterInfo = { Name=CloudPulseSpeed }
+        ParameterValue = 0.071428
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 2867.64
         ParameterInfo = { Name=EdgeDepth }
+        ParameterValue = 2867.64
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 3322.4
         ParameterInfo = { Name=EdgeDepth_Opacity }
+        ParameterValue = 3322.4
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0.512609
         ParameterInfo = { Name=Fresnel }
+        ParameterValue = 0.512609
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0.123811
         ParameterInfo = { Name=StarFresnel }
+        ParameterValue = 0.123811
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0.335715
         ParameterInfo = { Name=StarPower }
+        ParameterValue = 0.335715
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 2.84481
         ParameterInfo = { Name=StarSizeScreenAligned }
+        ParameterValue = 2.84481
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Emissive_Power }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[9] =
     {
-        ParameterName = None
-        ParameterValue = 3500
         ParameterInfo = { Name=Tiling }
+        ParameterValue = 3500
+        ParameterName = None
     }
     ScalarParameterValues[10] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -72,24 +73,23 @@ VectorParameterValues[3] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.0455, G=0.016547, B=0.052083, A=1 }
         ParameterInfo = { Name=DarkColor }
+        ParameterValue = { R=0.0455, G=0.016547, B=0.052083, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.18762, G=0.044272, B=0.354167, A=1 }
         ParameterInfo = { Name=LightColor }
+        ParameterValue = { R=0.18762, G=0.044272, B=0.354167, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=3, G=0.8, B=4, A=1 }
         ParameterInfo = { Name=StarColor }
+        ParameterValue = { R=3, G=0.8, B=4, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Materials/DepthFade/M_GlowDepthFade.M_GlowDepthFade'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -99,6 +99,27 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseFresnel }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=ScreenAlignedStars }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -106,3 +127,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2.84375
+        UVChannelIndex = 0
+        TextureName = T_ArchIllagerAvatarSpace
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_Clouds_512
+    }
+}

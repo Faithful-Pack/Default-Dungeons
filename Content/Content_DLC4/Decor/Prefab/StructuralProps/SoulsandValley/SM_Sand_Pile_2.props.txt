@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/SoulsandValley/M_SandPiles_PF_Inst.M_SandPiles_PF_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/StructuralProps/SoulsandValley/M_SandPiles_PF_Inst.M_SandPiles_PF_Inst'
+        MaterialSlotName = M_IcePiles_013
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.082, 217.981, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-121.875, Y=-56.25, Z=18.75 }
+    BoxExtent = { X=75, Y=62.5, Z=18.75 }
+    SphereRadius = 99.4123
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Sword_Steel/M_Sword.M_Sword'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Sword_Steel/M_Sword.M_Sword'
+        MaterialSlotName = Steel_Sword
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 131.09, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.53674e-007, Y=1.90735e-006, Z=-4.10535 }
+    BoxExtent = { X=3.125, Y=26.5165, Z=70.7107 }
+    SphereRadius = 70.7797
+}

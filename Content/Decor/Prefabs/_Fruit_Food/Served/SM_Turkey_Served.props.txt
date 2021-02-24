@@ -1,0 +1,49 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_PlateServing.MI_China_PlateServing'
+    Materials[2] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Turkey.MI_Turkey'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_PlateServing.MI_China_PlateServing'
+        MaterialSlotName = SM_China:PlateServingMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 173.691, 233.496, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = SM_Turkey1:pCube1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4, 245.893, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Turkey.MI_Turkey'
+        MaterialSlotName = SM_Turkey1:pCube2Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.014, 246.457, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-24.2187, Z=0.33725 }
+    BoxExtent = { X=37.5, Y=24.7187, Z=50.3373 }
+    SphereRadius = 65.2914
+}

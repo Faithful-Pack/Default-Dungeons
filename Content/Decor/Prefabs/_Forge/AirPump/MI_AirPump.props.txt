@@ -1,43 +1,43 @@
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 8
         ParameterInfo = { Name=06 Speed }
+        ParameterValue = 8
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Forge/AirPump/T_AirPump.T_AirPump'
         ParameterInfo = { Name=01 Base Texture }
+        ParameterValue = Texture2D'Decor/Prefabs/_Forge/AirPump/T_AirPump.T_AirPump'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/_Forge/AirPump/T_AirPump_E.T_AirPump_E'
         ParameterInfo = { Name=03 Emissive }
+        ParameterValue = Texture2D'Decor/Prefabs/_Forge/AirPump/T_AirPump_E.T_AirPump_E'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.286458, G=0.286458, B=0.286458, A=0 }
         ParameterInfo = { Name=08.AnimationMin }
+        ParameterValue = { R=0.286458, G=0.286458, B=0.286458, A=0 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -47,6 +47,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -54,3 +61,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_AirPump
+    }
+}

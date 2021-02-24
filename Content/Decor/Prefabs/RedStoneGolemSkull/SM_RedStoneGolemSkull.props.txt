@@ -1,0 +1,23 @@
+Materials[1] = {  }
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = Redstone_Golem:MeshMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.065, 265.532, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-50, Z=37.5 }
+    BoxExtent = { X=50, Y=50, Z=37.5 }
+    SphereRadius = 80.0391
+}

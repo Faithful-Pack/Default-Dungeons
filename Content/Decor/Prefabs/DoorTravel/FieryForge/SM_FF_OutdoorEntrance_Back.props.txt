@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DoorTravel/FieryForge/MI_FF_OutdoorEntrance_BL.MI_FF_OutdoorEntrance_BL'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DoorTravel/FieryForge/MI_FF_OutdoorEntrance_BL.MI_FF_OutdoorEntrance_BL'
+        MaterialSlotName = Ray
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 842.448, 704.042, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0.000494322, Z=400 }
+    BoxExtent = { X=300, Y=6.51683e-005, Z=400 }
+    SphereRadius = 447.214
+}

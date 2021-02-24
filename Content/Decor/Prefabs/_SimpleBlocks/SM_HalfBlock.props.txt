@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_SimpleBlocks/Materials/MI_HalfBlock.MI_HalfBlock'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_SimpleBlocks/Materials/MI_HalfBlock.MI_HalfBlock'
+        MaterialSlotName = Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 213.779, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-006, Z=25 }
+    BoxExtent = { X=50, Y=50, Z=25 }
+    SphereRadius = 75
+}

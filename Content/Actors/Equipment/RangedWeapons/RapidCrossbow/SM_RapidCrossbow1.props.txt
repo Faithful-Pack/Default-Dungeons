@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/RapidCrossbow/MI_RapidCrossbow.MI_RapidCrossbow'
+    Materials[1] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/RapidCrossbow/MI_RapidCrossbow.MI_RapidCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/RapidCrossbow/MI_RapidCrossbow.MI_RapidCrossbow'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 212.885, 195.028, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/RapidCrossbow/MI_RapidCrossbow.MI_RapidCrossbow'
+        MaterialSlotName = AutoCrossbowMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.62912, Y=-6.25, Z=-3.8147e-006 }
+    BoxExtent = { X=50.8233, Y=9.375, Z=57.4524 }
+    SphereRadius = 64.9143
+}

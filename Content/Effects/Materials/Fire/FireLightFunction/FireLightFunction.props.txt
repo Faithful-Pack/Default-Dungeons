@@ -5,21 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
-Expressions[36] =
-{
-    Expressions[0] = MaterialExpressionTextureSample'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionTextureSample_0'
-    Expressions[3] = MaterialExpressionScalarParameter'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionScalarParameter_2'
-    Expressions[6] = MaterialExpressionTextureSample'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionTextureSample_2'
-    Expressions[10] = MaterialExpressionScalarParameter'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionScalarParameter_4'
-    Expressions[13] = MaterialExpressionScalarParameter'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionScalarParameter_3'
-    Expressions[14] = MaterialExpressionVectorParameter'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionVectorParameter_0'
-    Expressions[17] = MaterialExpressionTextureSample'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionTextureSample_5'
-    Expressions[19] = MaterialExpressionScalarParameter'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionScalarParameter_6'
-    Expressions[22] = MaterialExpressionTextureSample'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionTextureSample_6'
-    Expressions[23] = MaterialExpressionTextureSample'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionTextureSample_7'
-    Expressions[32] = MaterialExpressionScalarParameter'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionScalarParameter_7'
-    Expressions[34] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Fire/FireLightFunction/FireLightFunction.MaterialExpressionStaticSwitchParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -32,7 +18,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -42,23 +27,8 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[5] =
-{
-    CollectedScalarParameters[0] = { Value=0.4, Name=RayMoveSpeed, Group=None }
-    CollectedScalarParameters[1] = { Value=0.2, Name=MinRay, Group=None }
-    CollectedScalarParameters[2] = { Value=1, Name=Size, Group=None }
-    CollectedScalarParameters[3] = { Value=0.4, Name=RayMoveSpeed, Group=None }
-    CollectedScalarParameters[4] = { Value=1, Name=Size, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0, G=0, B=0, A=0 }
-        Name = MinLight
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -66,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

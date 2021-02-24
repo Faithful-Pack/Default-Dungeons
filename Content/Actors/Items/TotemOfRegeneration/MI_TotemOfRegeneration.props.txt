@@ -1,85 +1,85 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[8] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Dissolve }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=EmissiveB_SinusMin }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.4
         ParameterInfo = { Name=EmissiveB_SinusTempo }
+        ParameterValue = 0.4
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0.5
         ParameterInfo = { Name=EmissiveB_SinusVariation }
+        ParameterValue = 0.5
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 5
         ParameterInfo = { Name=EmissiveBPower }
+        ParameterValue = 5
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=ExtraEmissiveScalar }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration_S.T_TotemOfRegeneration_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration_S.T_TotemOfRegeneration_S'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration.T_TotemOfRegeneration'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration.T_TotemOfRegeneration'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.02448, B=0, A=1 }
         ParameterInfo = { Name=EmissiveBColor }
+        ParameterValue = { R=1, G=0.02448, B=0, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.052352, B=0, A=1 }
         ParameterInfo = { Name=ExtraEmissiveColor }
+        ParameterValue = { R=1, G=0.052352, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -89,6 +89,33 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ExtraEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=SinusEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=TimedDissolve }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -96,3 +123,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TotemOfRegeneration
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TotemOfRegeneration_S
+    }
+}

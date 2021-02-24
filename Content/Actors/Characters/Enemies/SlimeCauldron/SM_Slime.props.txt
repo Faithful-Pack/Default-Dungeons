@@ -1,0 +1,34 @@
+Materials[2] = {  }
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = M_SlimeInner
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.843, 209.836, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = M_SlimeOuter
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.843, 209.75, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0744762, Y=-0.00458908, Z=24.0224 }
+    BoxExtent = { X=25, Y=25, Z=25 }
+    SphereRadius = 43.3013
+}

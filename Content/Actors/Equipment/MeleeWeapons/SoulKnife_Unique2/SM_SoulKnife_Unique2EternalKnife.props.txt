@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulKnife_Unique2/MI_Soulknife_Unique2.MI_Soulknife_Unique2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulKnife_Unique2/MI_Soulknife_Unique2.MI_Soulknife_Unique2'
+        MaterialSlotName = lambert10SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 131.213, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-30.9359 }
+    BoxExtent = { X=26.5165, Y=3.125, Z=66.2913 }
+    SphereRadius = 66.9509
+}

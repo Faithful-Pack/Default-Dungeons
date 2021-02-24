@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Items/Food/Food6/MI_Sweet_Berries.MI_Sweet_Berries'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Items/Food/Food6/MI_Sweet_Berries.MI_Sweet_Berries'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.0026, 22.8765, 21.4675, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.52288, Y=-4.51584, Z=0 }
+    BoxExtent = { X=7.02464, Y=6.02112, Z=0.492805 }
+    SphereRadius = 8.64666
+}

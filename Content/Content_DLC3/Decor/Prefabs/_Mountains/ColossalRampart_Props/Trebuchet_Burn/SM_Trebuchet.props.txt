@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/MI_RampartsCatapult.MI_RampartsCatapult'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/MI_RampartsCatapult.MI_RampartsCatapult'
+        MaterialSlotName = Material #104
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 2537.86, 2696.37, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-104.649, Y=0, Z=603.611 }
+    BoxExtent = { X=422.773, Y=328.125, Z=603.611 }
+    SphereRadius = 787.678
+}

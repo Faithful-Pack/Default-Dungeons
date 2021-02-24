@@ -1,29 +1,29 @@
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/DoubleAxe/T_DoubleAxe.T_DoubleAxe'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/DoubleAxe/T_DoubleAxe.T_DoubleAxe'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/DoubleAxe/T_DoubleAxe_S.T_DoubleAxe_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Equipment/MeleeWeapons/DoubleAxe/T_DoubleAxe_S.T_DoubleAxe_S'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -33,6 +33,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -40,3 +47,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

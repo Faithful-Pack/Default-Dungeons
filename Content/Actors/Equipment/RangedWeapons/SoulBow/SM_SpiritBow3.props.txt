@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SoulBow/MI_SpiritBow.MI_SpiritBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SoulBow/MI_SpiritBow.MI_SpiritBow'
+        MaterialSlotName = lambert10SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.049, 144.577, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=22.0971, Y=0, Z=3.05176e-005 }
+    BoxExtent = { X=39.7747, Y=3.125, Z=61.8719 }
+    SphereRadius = 63.3536
+}

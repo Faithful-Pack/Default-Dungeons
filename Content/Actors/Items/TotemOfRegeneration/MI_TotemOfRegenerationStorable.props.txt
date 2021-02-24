@@ -1,43 +1,43 @@
+Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.8
         ParameterInfo = { Name=NaturalEmissive }
+        ParameterValue = 0.8
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration.T_TotemOfRegeneration'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration.T_TotemOfRegeneration'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration_S.T_TotemOfRegeneration_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Items/TotemOfRegeneration/T_TotemOfRegeneration_S.T_TotemOfRegeneration_S'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=15, G=1.51102, B=0, A=1 }
         ParameterInfo = { Name=Emissive }
+        ParameterValue = { R=15, G=1.51102, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Equipment/M_ItemStorable.M_ItemStorable'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -47,6 +47,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ConstantEmissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -54,3 +69,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_DiagonalLine
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TotemOfRegeneration
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TotemOfRegeneration_S
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/MarketBooths/MI_Marketbooth_Basic_Red.MI_Marketbooth_Basic_Red'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/MarketBooths/MI_Marketbooth_Basic_Red.MI_Marketbooth_Basic_Red'
+        MaterialSlotName = MarketboothMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 500.082, 550.905, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-147.158, Z=0 }
+    BoxExtent = { X=81.25, Y=147.158, Z=143.75 }
+    SphereRadius = 213.269
+}

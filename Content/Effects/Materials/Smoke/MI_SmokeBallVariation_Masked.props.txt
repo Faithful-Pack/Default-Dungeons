@@ -1,21 +1,21 @@
+Parent = Material3'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.M_SmokeBallVariation_DefaultLit'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.9
         ParameterInfo = { Name=Shadow }
+        ParameterValue = 0.9
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.M_SmokeBallVariation_DefaultLit'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = true
@@ -25,6 +25,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = true
     OpacityMaskClipValue = 0.5
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Emissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -32,3 +47,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

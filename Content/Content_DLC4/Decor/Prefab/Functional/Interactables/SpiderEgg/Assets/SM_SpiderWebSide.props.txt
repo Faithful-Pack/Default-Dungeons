@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Interactables/SpiderEgg/Assets/MI_WebSide.MI_WebSide'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/Interactables/SpiderEgg/Assets/MI_WebSide.MI_WebSide'
+        MaterialSlotName = SpiderNet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.687, 108.12, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-25, Z=50 }
+    BoxExtent = { X=50, Y=25, Z=50 }
+    SphereRadius = 75
+}

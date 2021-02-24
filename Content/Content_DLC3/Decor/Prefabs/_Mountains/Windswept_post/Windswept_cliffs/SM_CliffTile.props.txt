@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/M_CliffTriplanar.M_CliffTriplanar'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/Mi_Cliffblend.Mi_Cliffblend'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/M_CliffTriplanar.M_CliffTriplanar'
+        MaterialSlotName = Triplanar
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/Mi_Cliffblend.Mi_Cliffblend'
+        MaterialSlotName = P_side
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 6326.18, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1450, Y=-5500, Z=2400 }
+    BoxExtent = { X=1450, Y=5500, Z=2400 }
+    SphereRadius = 6173.53
+}

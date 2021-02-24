@@ -1,39 +1,39 @@
+Parent = Material3'Decor/Prefabs/Window/Material/M_WindowRay.M_WindowRay'
 ScalarParameterValues[5] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.590476
         ParameterInfo = { Name=UTangent0 }
+        ParameterValue = 0.590476
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.502496
         ParameterInfo = { Name=UTangent1 }
+        ParameterValue = 0.502496
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = -0.621063
         ParameterInfo = { Name=VTangent0 }
+        ParameterValue = -0.621063
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 19.835
         ParameterInfo = { Name=VTangent1 }
+        ParameterValue = 19.835
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/Window/Material/M_WindowRay.M_WindowRay'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -43,6 +43,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -50,3 +57,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.40625
+        UVChannelIndex = 0
+        TextureName = T_WindowRayRays
+    }
+}

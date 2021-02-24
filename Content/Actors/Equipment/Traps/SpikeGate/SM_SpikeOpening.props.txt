@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Traps/SpikeGate/MI_SpikeGate.MI_SpikeGate'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Traps/SpikeGate/MI_SpikeGate.MI_SpikeGate'
+        MaterialSlotName = Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.129, 206.393, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-006, Y=3.8147e-006, Z=6.25 }
+    BoxExtent = { X=50, Y=50, Z=6.25001 }
+    SphereRadius = 70.9864
+}

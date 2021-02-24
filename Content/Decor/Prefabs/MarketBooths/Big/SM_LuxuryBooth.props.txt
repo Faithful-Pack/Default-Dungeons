@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/MarketBooths/Big/MI_LuxuryBooth.MI_LuxuryBooth'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/MarketBooths/Big/MI_LuxuryBooth.MI_LuxuryBooth'
+        MaterialSlotName = Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 532.318, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=300, Y=-50, Z=25 }
+    BoxExtent = { X=300, Y=50, Z=25 }
+    SphereRadius = 305.164
+}

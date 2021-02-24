@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/_Plants/Kelp/M_Kelp.M_Kelp'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/_Plants/Kelp/M_Kelp.M_Kelp'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.421, 251.694, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-2.67029e-005, Z=150 }
+    BoxExtent = { X=35.3553, Y=35.3554, Z=150 }
+    SphereRadius = 158.114
+}

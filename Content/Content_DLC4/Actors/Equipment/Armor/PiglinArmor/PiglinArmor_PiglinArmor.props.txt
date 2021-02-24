@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/Armor/PiglinArmor/MI_PiglinArmor.MI_PiglinArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/Armor/PiglinArmor/MI_PiglinArmor.MI_PiglinArmor'
+        MaterialSlotName = lambert6SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 500.361, 143.449, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.25, Y=26.2884, Z=-0.121672 }
+    BoxExtent = { X=31.4388, Y=34.9364, Z=15.7001 }
+    SphereRadius = 49.5524
+}

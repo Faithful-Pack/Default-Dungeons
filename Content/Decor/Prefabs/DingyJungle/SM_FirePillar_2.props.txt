@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_JungleStatues_fire_pillar.MI_JungleStatues_fire_pillar'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/MI_JungleStatues_fire_pillar.MI_JungleStatues_fire_pillar'
+        MaterialSlotName = MI_JungleStatues_fire_pillar
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 419.897, 400.185, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=102.076 }
+    BoxExtent = { X=50, Y=50, Z=102.076 }
+    SphereRadius = 115.031
+}

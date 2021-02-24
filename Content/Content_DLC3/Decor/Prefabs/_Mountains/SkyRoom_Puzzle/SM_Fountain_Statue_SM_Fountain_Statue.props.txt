@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/SkyRoom_Puzzle/MI_Fountain_Statue_SM_Fountain_Statue.MI_Fountain_Statue_SM_Fountain_Statue'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/SkyRoom_Puzzle/MI_Fountain_Statue_SM_Fountain_Statue.MI_Fountain_Statue_SM_Fountain_Statue'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 565.938, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.57764e-005, Y=25, Z=375 }
+    BoxExtent = { X=200, Y=175, Z=375 }
+    SphereRadius = 395.285
+}

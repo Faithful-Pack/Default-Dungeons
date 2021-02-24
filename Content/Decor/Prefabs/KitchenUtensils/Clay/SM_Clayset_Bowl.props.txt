@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/KitchenUtensils/Clay/MI_Clayset.MI_Clayset'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/KitchenUtensils/Clay/MI_Clayset.MI_Clayset'
+        MaterialSlotName = SM_China:BowlMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 226.526, 151.903, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-006, Y=-12.5, Z=-7.62939e-006 }
+    BoxExtent = { X=38.1865, Y=12.5, Z=37.5 }
+    SphereRadius = 54.961
+}

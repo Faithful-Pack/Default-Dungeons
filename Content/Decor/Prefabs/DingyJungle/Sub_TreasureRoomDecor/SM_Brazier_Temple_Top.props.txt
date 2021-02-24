@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Brazier/MI_Brazier_ForestTemple.MI_Brazier_ForestTemple'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Brazier/MI_Brazier_ForestTemple.MI_Brazier_ForestTemple'
+        MaterialSlotName = MI_Brazier_ForestTemple
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 407.372, 351.573, 258.92, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.261185, Y=-31.1574, Z=-7.62939e-006 }
+    BoxExtent = { X=50.8349, Y=30.0975, Z=50.8349 }
+    SphereRadius = 77.9373
+}

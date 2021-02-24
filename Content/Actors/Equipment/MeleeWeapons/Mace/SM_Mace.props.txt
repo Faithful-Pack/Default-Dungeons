@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Mace/MI_Mace.MI_Mace'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Mace/MI_Mace.MI_Mace'
+        MaterialSlotName = lambert9SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.3546, 132.73, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.125, Y=0.145241, Z=-22.199 }
+    BoxExtent = { X=27.6222, Y=21.9518, Z=52.8878 }
+    SphereRadius = 55.6749
+}

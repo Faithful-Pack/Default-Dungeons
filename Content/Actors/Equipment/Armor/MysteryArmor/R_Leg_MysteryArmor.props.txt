@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/MysteryArmor/MI_MysteryArmor.MI_MysteryArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/MysteryArmor/MI_MysteryArmor.MI_MysteryArmor'
+        MaterialSlotName = R_Leg_MysteryArmorMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 429.283, 91.9301, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.37508, Y=12.5001, Z=-0.148357 }
+    BoxExtent = { X=9.37508, Y=25.0001, Z=18.7995 }
+    SphereRadius = 32.6545
+}

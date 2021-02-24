@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI_LightningCube.MI_LightningCube'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI_LightningCubeInner.MI_LightningCubeInner'
+    Materials[2] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI__LightningCube_Pixels.MI__LightningCube_Pixels'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI_LightningCube.MI_LightningCube'
+        MaterialSlotName = MI_LightningCube
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 854.468, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI_LightningCubeInner.MI_LightningCubeInner'
+        MaterialSlotName = MI_LightningCubeInner
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 550, 856.904, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI__LightningCube_Pixels.MI__LightningCube_Pixels'
+        MaterialSlotName = MI__LightningCube_Pixels
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 854.557, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-005, Z=100 }
+    BoxExtent = { X=100, Y=100, Z=100 }
+    SphereRadius = 173.205
+}

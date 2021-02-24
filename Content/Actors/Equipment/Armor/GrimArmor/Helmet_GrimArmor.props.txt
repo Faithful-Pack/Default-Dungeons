@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/GrimArmor/MI_GrimArmor.MI_GrimArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/GrimArmor/MI_GrimArmor.MI_GrimArmor'
+        MaterialSlotName = Helmet_GrimArmorMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 409.677, 176.992, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-27.3699, Z=0 }
+    BoxExtent = { X=31.0964, Y=31.7088, Z=31.25 }
+    SphereRadius = 54.3046
+}

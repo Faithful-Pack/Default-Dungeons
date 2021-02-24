@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Ship_Mast/MI_Ship_Mast.MI_Ship_Mast'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Ship_Mast/MI_Ship_Mast.MI_Ship_Mast'
+        MaterialSlotName = Material #51
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 367.36, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=49.9998, Y=18.75, Z=2450 }
+    BoxExtent = { X=1412.5, Y=281.25, Z=2050 }
+    SphereRadius = 2176.77
+}

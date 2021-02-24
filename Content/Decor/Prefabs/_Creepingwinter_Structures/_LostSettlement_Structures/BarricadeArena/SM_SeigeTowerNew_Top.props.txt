@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/MI_NewSeigeTower.MI_NewSeigeTower'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeArena/MI_NewSeigeTower.MI_NewSeigeTower'
+        MaterialSlotName = SeigeTower
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1606.26, 1337.56, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=178.125, Y=200, Z=450 }
+    BoxExtent = { X=178.125, Y=206.25, Z=250 }
+    SphereRadius = 366.372
+}

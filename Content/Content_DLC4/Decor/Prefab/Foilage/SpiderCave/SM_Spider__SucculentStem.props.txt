@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_SpiderSucculent_Stem.MI_SpiderSucculent_Stem'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_SpiderSucculent_Stem.MI_SpiderSucculent_Stem'
+        MaterialSlotName = Succulent
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.07, 378.514, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.119545, Y=-2.54941, Z=56.1543 }
+    BoxExtent = { X=101.218, Y=94.8112, Z=56.1543 }
+    SphereRadius = 115.406
+}

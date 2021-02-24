@@ -1,46 +1,47 @@
+Parent = Material3'Decor/Prefabs/DoorTravel/M_BacklightWithEdges.M_BacklightWithEdges'
 ScalarParameterValues[7] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 3153.82
         ParameterInfo = { Name=EdgeDepth }
+        ParameterValue = 3153.82
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 660.702
         ParameterInfo = { Name=EdgeDepth_Opacity }
+        ParameterValue = 660.702
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=EdgeStrength }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Emissive_Power }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 4
         ParameterInfo = { Name=Emissive_SinusMin }
+        ParameterValue = 4
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=Emissive_SinusTempo }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -48,18 +49,17 @@ VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.533277, G=0.132868, B=0.603828, A=1 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.533277, G=0.132868, B=0.603828, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.327778, G=0.058477, B=0.285855, A=1 }
         ParameterInfo = { Name=EdgeColor }
+        ParameterValue = { R=0.327778, G=0.058477, B=0.285855, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/DoorTravel/M_BacklightWithEdges.M_BacklightWithEdges'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -69,6 +69,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -76,3 +83,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

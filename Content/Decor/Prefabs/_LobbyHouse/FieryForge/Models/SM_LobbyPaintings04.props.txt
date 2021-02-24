@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_LobbyPaintings2.MI_LobbyPaintings2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/MI_LobbyPaintings2.MI_LobbyPaintings2'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 143.666, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-8.14603e-006, Z=50 }
+    BoxExtent = { X=100, Y=8.14603e-006, Z=50 }
+    SphereRadius = 111.803
+}

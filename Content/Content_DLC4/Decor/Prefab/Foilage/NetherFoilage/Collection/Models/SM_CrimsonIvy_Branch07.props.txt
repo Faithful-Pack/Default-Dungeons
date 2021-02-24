@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_CrimsonIvy.MI_CrimsonIvy'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_CrimsonIvy.MI_CrimsonIvy'
+        MaterialSlotName = MI_CrimsonIvy
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.815, 279.103, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-42.0687, Y=100.949, Z=51.1655 }
+    BoxExtent = { X=107.931, Y=50, Z=51.1655 }
+    SphereRadius = 129.488
+}

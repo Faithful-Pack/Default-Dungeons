@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI_LightningRod.MI_LightningRod'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Functional/LightningRod/MI_LightningRod.MI_LightningRod'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.003, 107.113, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.43051e-005, Z=50 }
+    BoxExtent = { X=12.5, Y=12.5, Z=50 }
+    SphereRadius = 53.033
+}

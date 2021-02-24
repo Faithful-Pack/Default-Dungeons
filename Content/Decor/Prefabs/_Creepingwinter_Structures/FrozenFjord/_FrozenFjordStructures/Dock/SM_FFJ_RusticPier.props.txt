@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/Dock/MI_FFJ_Pier.MI_FFJ_Pier'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjord/_FrozenFjordStructures/Dock/MI_FFJ_Pier.MI_FFJ_Pier'
+        MaterialSlotName = Pier
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 344.893, 1061.34, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=159.375, Y=-96.875, Z=-68.75 }
+    BoxExtent = { X=209.375, Y=196.875, Z=106.25 }
+    SphereRadius = 276.946
+}

@@ -1,16 +1,17 @@
+Parent = Material3'Actors/Characters/Enemies/Illagers/ArchIllager/M_SuperCube.M_SuperCube'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Emission }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -18,18 +19,17 @@ VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.593044, G=0, B=1, A=1 }
         ParameterInfo = { Name=CubeColor_1 }
+        ParameterValue = { R=0.593044, G=0, B=1, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=1.3666, G=0, B=1.5, A=1 }
         ParameterInfo = { Name=CubeColor_2 }
+        ParameterValue = { R=1.3666, G=0, B=1.5, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Characters/Enemies/Illagers/ArchIllager/M_SuperCube.M_SuperCube'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -39,6 +39,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -46,3 +53,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.65625
+        UVChannelIndex = 0
+        TextureName = T_Radial_Gradient
+    }
+}

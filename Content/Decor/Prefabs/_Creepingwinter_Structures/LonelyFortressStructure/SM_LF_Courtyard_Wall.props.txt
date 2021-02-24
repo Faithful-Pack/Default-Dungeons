@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/MI_LF_MiniAtlas.MI_LF_MiniAtlas'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/MI_LF_MiniAtlas.MI_LF_MiniAtlas'
+        MaterialSlotName = T_LF_Miniatlas
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.035, 208606, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=-350, Z=650 }
+    BoxExtent = { X=3050, Y=550, Z=650 }
+    SphereRadius = 3150.79
+}

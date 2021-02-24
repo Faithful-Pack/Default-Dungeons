@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Gauntlets_Unique3/MI_Gauntlet_Unique3.MI_Gauntlet_Unique3'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Gauntlets_Unique3/MI_Gauntlet_Unique3.MI_Gauntlet_Unique3'
+        MaterialSlotName = BulletGauntlets
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.014, 80.6413, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-14.0625 }
+    BoxExtent = { X=9.375, Y=12.5, Z=23.4375 }
+    SphereRadius = 28.1684
+}

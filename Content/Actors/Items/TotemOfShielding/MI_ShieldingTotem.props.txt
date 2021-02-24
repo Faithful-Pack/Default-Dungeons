@@ -1,91 +1,91 @@
+Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 ScalarParameterValues[9] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Dissolve }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=DissolveStretch }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=EmissiveB_Max }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=EmissiveB_SinusMin }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=EmissiveB_SinusTempo }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0.2
         ParameterInfo = { Name=EmissiveB_SinusVariation }
+        ParameterValue = 0.2
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 2.5
         ParameterInfo = { Name=EmissiveBPower }
+        ParameterValue = 2.5
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Saturation }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfShielding/T_ShieldingTotem_S.T_ShieldingTotem_S'
         ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Actors/Items/TotemOfShielding/T_ShieldingTotem_S.T_ShieldingTotem_S'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Items/TotemOfShielding/T_ShieldingTotem.T_ShieldingTotem'
         ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Actors/Items/TotemOfShielding/T_ShieldingTotem.T_ShieldingTotem'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.010417, G=0.005657, B=0, A=1 }
         ParameterInfo = { Name=ConstantEmissiveColor }
+        ParameterValue = { R=0.010417, G=0.005657, B=0, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.103049, B=0, A=1 }
         ParameterInfo = { Name=EmissiveBColor }
+        ParameterValue = { R=1, G=0.103049, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Models/Master_ModelMaterial.Master_ModelMaterial'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -95,6 +95,51 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.1
 }
+StaticParameters =
+{
+    StaticSwitchParameters[6] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=ConstantEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Metallic }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Roughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=SinusEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Specular }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=TimedDissolve }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -102,3 +147,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ShieldingTotem
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ShieldingTotem_S
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+}

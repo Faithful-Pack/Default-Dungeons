@@ -1,41 +1,41 @@
+Parent = Material3'Actors/Characters/Enemies/RedstoneGolem/M_Redstone_Family_Temp.M_Redstone_Family_Temp'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=EmissivePower }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Saturation }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/ArenaEye/T_ArenaEye.T_ArenaEye'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Decor/Prefabs/ArenaEye/T_ArenaEye.T_ArenaEye'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Decor/Prefabs/ArenaEye/T_ArenaEye_E.T_ArenaEye_E'
         ParameterInfo = { Name=Emissive }
+        ParameterValue = Texture2D'Decor/Prefabs/ArenaEye/T_ArenaEye_E.T_ArenaEye_E'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Characters/Enemies/RedstoneGolem/M_Redstone_Family_Temp.M_Redstone_Family_Temp'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -45,6 +45,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -52,3 +59,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ArenaEye
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ArenaEye_E
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = T_PixelNoise_32
+    }
+}

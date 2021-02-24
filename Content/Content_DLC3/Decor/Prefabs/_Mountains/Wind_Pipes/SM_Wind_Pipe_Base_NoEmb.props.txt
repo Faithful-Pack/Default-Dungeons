@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/MI_Wind_Pipe.MI_Wind_Pipe'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/MI_Wind_Pipe.MI_Wind_Pipe'
+        MaterialSlotName = MI_Wind_Pipe
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 584.011, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=25 }
+    BoxExtent = { X=150, Y=150, Z=25 }
+    SphereRadius = 213.6
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PulsatingFoilage.MI_PulsatingFoilage'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PulsatingFoilage.MI_PulsatingFoilage'
+        MaterialSlotName = MI_PulsatingFoilage
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.689, 100.287, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.90735e-006, Z=12.5 }
+    BoxExtent = { X=21.875, Y=21.875, Z=12.5 }
+    SphereRadius = 33.3659
+}

@@ -3,16 +3,10 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Coal/T_Coal_New_EM.T_Coal_New_EM'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/Coal/T_Coal_New.T_Coal_New'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Coal/T_Coal_New.T_Coal_New'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/Coal/T_Coal_New_EM.T_Coal_New_EM'
 }
-Expressions[12] =
-{
-    Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/Coal/M_Coal.MaterialExpressionScalarParameter_8'
-    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/Coal/M_Coal.MaterialExpressionScalarParameter_13'
-    Expressions[9] = MaterialExpressionTextureSample'Decor/Prefabs/Coal/M_Coal.MaterialExpressionTextureSample_0'
-    Expressions[11] = MaterialExpressionTextureSample'Decor/Prefabs/Coal/M_Coal.MaterialExpressionTextureSample_2'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +19,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -35,11 +28,7 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[2] =
-{
-    CollectedScalarParameters[0] = { Value=5, Name=03 Emissive Period, Group=None }
-    CollectedScalarParameters[1] = { Value=1, Name=02 Emissive Strenght, Group=None }
-}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -48,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

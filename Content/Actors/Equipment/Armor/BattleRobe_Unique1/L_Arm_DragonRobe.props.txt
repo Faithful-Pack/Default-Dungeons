@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/BattleRobe_Unique1/MI_DragonRobe.MI_DragonRobe'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/BattleRobe_Unique1/MI_DragonRobe.MI_DragonRobe'
+        MaterialSlotName = lambert7SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.879, 130.501, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.7462, Y=-38.9624, Z=1.26738 }
+    BoxExtent = { X=18.75, Y=31.25, Z=16.0253 }
+    SphereRadius = 39.8113
+}

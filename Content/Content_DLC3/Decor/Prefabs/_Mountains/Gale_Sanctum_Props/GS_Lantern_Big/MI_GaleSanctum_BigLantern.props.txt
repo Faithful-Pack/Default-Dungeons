@@ -1,43 +1,43 @@
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.M_Master_Prefab_Meshes_Twosided'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 17.3242
         ParameterInfo = { Name=01 Emissive Strenght }
+        ParameterValue = 17.3242
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/T_GaleSanctum_Props_Trim.T_GaleSanctum_Props_Trim'
         ParameterInfo = { Name=01 Base Texture }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/T_GaleSanctum_Props_Trim.T_GaleSanctum_Props_Trim'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/T_GaleSanctum_Props_Trim_E.T_GaleSanctum_Props_Trim_E'
         ParameterInfo = { Name=03 Emissive }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/T_GaleSanctum_Props_Trim_E.T_GaleSanctum_Props_Trim_E'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.872461, B=0.320916, A=1 }
         ParameterInfo = { Name=04 Color Multiply }
+        ParameterValue = { R=1, G=0.872461, B=0.320916, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.M_Master_Prefab_Meshes_Twosided'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -47,6 +47,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Emissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -54,3 +69,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GaleSanctum_Props_Trim
+    }
+}

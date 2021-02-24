@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Icelamp/M_IceLamp_PF_Inst.M_IceLamp_PF_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/Icelamp/M_IceLamp_PF_Inst.M_IceLamp_PF_Inst'
+        MaterialSlotName = M_M_SM_Icelamp_M_Ice_Lamp_447E30494E6D83A0AB30C68475BD454A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.248, 319.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=6.25, Z=50 }
+    BoxExtent = { X=50, Y=50, Z=50 }
+    SphereRadius = 86.6025
+}

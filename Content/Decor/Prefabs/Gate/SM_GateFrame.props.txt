@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Gate/T_Gate_Frame_Metallic.T_Gate_Frame_Metallic'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Gate/T_Gate_Frame_Metallic.T_Gate_Frame_Metallic'
+        MaterialSlotName = M_DoorFrame
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.023, 231.505, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-28.125, Y=0, Z=184.375 }
+    BoxExtent = { X=28.125, Y=18.75, Z=184.375 }
+    SphereRadius = 187.448
+}

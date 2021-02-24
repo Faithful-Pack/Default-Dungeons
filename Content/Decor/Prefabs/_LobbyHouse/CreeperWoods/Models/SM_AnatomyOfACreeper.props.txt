@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/CreeperWoods/MI_AnatomyOfACreeper.MI_AnatomyOfACreeper'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_LobbyHouse/CreeperWoods/MI_AnatomyOfACreeper.MI_AnatomyOfACreeper'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.842, 364.572, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-006, Z=93.75 }
+    BoxExtent = { X=50, Y=50, Z=93.75 }
+    SphereRadius = 117.427
+}

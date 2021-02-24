@@ -1,34 +1,18 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[4] =
+ReferencedTextures[8] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_NetherPortal.T_NetherPortal'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_ObsidianSparkles.T_ObsidianMonstrosity_ObsidianSparkles'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
-    ReferencedTextures[3] = Texture2D'Textures/screenspec_text.screenspec_text'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_EyesClosed.T_ObsidianMonstrosity_EyesClosed'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_GoldAlpha.T_ObsidianMonstrosity_GoldAlpha'
+    ReferencedTextures[3] = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_NetherAlpha.T_ObsidianMonstrosity_NetherAlpha'
+    ReferencedTextures[4] = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_ObsidianAlpha.T_ObsidianMonstrosity_ObsidianAlpha'
+    ReferencedTextures[5] = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_ObsidianSparkles.T_ObsidianMonstrosity_ObsidianSparkles'
+    ReferencedTextures[6] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
+    ReferencedTextures[7] = Texture2D'Textures/screenspec_text.screenspec_text'
 }
-Expressions[58] =
-{
-    Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_0'
-    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_1'
-    Expressions[13] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_2'
-    Expressions[14] = MaterialExpressionTextureSample'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSample_1'
-    Expressions[18] = MaterialExpressionTextureSample'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSample_3'
-    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_3'
-    Expressions[22] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_4'
-    Expressions[24] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_5'
-    Expressions[28] = MaterialExpressionTextureSample'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSample_18'
-    Expressions[31] = MaterialExpressionTextureSample'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSample_6'
-    Expressions[39] = MaterialExpressionTextureSample'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSample_4'
-    Expressions[42] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_11'
-    Expressions[45] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_10'
-    Expressions[46] = MaterialExpressionScalarParameter'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionScalarParameter_12'
-    Expressions[54] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[55] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[56] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSampleParameter2D_2'
-    Expressions[57] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/ObsidianMonstrosity/M_ObsidianMonstrosity_Master.MaterialExpressionTextureSampleParameter2D_3'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -41,54 +25,16 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Masked (1)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[4] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_GoldAlpha.T_ObsidianMonstrosity_GoldAlpha'
-        Name = 01 Specular Alpha
-        Group = 02 Specular
-    }
-    CollectedTextureParameters[1] =
-    {
-        Texture = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_EyesClosed.T_ObsidianMonstrosity_EyesClosed'
-        Name = Base Texture
-        Group = 01 Base Texture
-    }
-    CollectedTextureParameters[2] =
-    {
-        Texture = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_ObsidianAlpha.T_ObsidianMonstrosity_ObsidianAlpha'
-        Name = Obsidian Alpha
-        Group = 04 Obsidian
-    }
-    CollectedTextureParameters[3] =
-    {
-        Texture = Texture2D'Decor/Prefabs/ObsidianMonstrosity/T_ObsidianMonstrosity_NetherAlpha.T_ObsidianMonstrosity_NetherAlpha'
-        Name = NetherAlpha
-        Group = 03 Nether Texture
-    }
-}
-CollectedScalarParameters[9] =
-{
-    CollectedScalarParameters[0] = { Value=32, Name=Rows, Group=None }
-    CollectedScalarParameters[1] = { Value=1, Name=Columns, Group=None }
-    CollectedScalarParameters[2] = { Value=0.2, Name=Speed, Group=None }
-    CollectedScalarParameters[3] = { Value=22, Name=Rows_1, Group=None }
-    CollectedScalarParameters[4] = { Value=1, Name=Columns_1, Group=None }
-    CollectedScalarParameters[5] = { Value=0.25, Name=Speed_1, Group=None }
-    CollectedScalarParameters[6] = { Value=25, Name=04 Specular ScreenStr, Group=None }
-    CollectedScalarParameters[7] = { Value=0.5, Name=03 Specular strength, Group=None }
-    CollectedScalarParameters[8] = { Value=1, Name=02 Roughness strength, Group=None }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -97,3 +43,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

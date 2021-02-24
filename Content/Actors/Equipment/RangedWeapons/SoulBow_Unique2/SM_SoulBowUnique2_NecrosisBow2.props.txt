@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SoulBow_Unique2/M_Soulbow_Unique2NecrosisBow.M_Soulbow_Unique2NecrosisBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SoulBow_Unique2/M_Soulbow_Unique2NecrosisBow.M_Soulbow_Unique2NecrosisBow'
+        MaterialSlotName = lambert11SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 224.834, 157.061, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.20971, Y=0, Z=0 }
+    BoxExtent = { X=33.1456, Y=3.125, Z=70.7107 }
+    SphereRadius = 74.8371
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/Armor/SproutArmor/MI_SproutArmor.MI_SproutArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/Armor/SproutArmor/MI_SproutArmor.MI_SproutArmor'
+        MaterialSlotName = lambert7SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 498.389, 170.958, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.15583, Y=-97.2507, Z=-8.75039 }
+    BoxExtent = { X=50.2855, Y=53.6868, Z=35.7026 }
+    SphereRadius = 70.3
+}

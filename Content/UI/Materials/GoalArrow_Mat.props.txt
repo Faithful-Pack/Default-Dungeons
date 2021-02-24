@@ -2,11 +2,7 @@ TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] = { Texture2D'UI/Materials/GoalArrow.GoalArrow' }
-Expressions[11] =
-{
-    Expressions[0] = MaterialExpressionTextureSample'UI/Materials/GoalArrow_Mat.MaterialExpressionTextureSample_1'
-    Expressions[2] = MaterialExpressionScalarParameter'UI/Materials/GoalArrow_Mat.MaterialExpressionScalarParameter_0'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -19,20 +15,16 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[1] =
-{
-    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
-}
+CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -41,3 +33,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

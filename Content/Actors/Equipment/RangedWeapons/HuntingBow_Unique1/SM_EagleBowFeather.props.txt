@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/HuntingBow_Unique1/MI_EagleBowFeather.MI_EagleBowFeather'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/HuntingBow_Unique1/MI_EagleBowFeather.MI_EagleBowFeather'
+        MaterialSlotName = lambert12SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 43.4311, 57.0672, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=15.625, Y=-3.125, Z=18.75 }
+    BoxExtent = { X=15.625, Y=3.125, Z=18.75 }
+    SphereRadius = 24.6063
+}

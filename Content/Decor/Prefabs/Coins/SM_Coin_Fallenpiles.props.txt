@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Coins/MI_Coins.MI_Coins'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Coins/MI_Coins.MI_Coins'
+        MaterialSlotName = CoinsFallenPilesMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 49.9987, 991.371, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.5336, Y=-29.0854, Z=-8.60834 }
+    BoxExtent = { X=134.165, Y=29.0926, Z=118.625 }
+    SphereRadius = 161.395
+}

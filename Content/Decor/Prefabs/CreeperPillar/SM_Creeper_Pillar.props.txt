@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/CreeperPillar/M_Creeper_Pillar.M_Creeper_Pillar'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/CreeperPillar/M_Creeper_Pillar.M_Creeper_Pillar'
+        MaterialSlotName = M_Creeper_Pillar
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 795.161, 522.21, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.8872, Y=50.1615, Z=150.048 }
+    BoxExtent = { X=49.5328, Y=49.5327, Z=199.581 }
+    SphereRadius = 211.517
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PulsatingFoilage.MI_PulsatingFoilage'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PulsatingFoilage.MI_PulsatingFoilage'
+        MaterialSlotName = TextureAtlas_NetherFoliage
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 576.522, 114.458, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=12.5 }
+    BoxExtent = { X=28.125, Y=28.125, Z=12.5 }
+    SphereRadius = 41.5096
+}

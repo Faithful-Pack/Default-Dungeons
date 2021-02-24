@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Actors/Items/GongOfWeakening/M_GongOfWeakening.M_GongOfWeakening'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Actors/Items/GongOfWeakening/M_GongOfWeakening.M_GongOfWeakening'
+        MaterialSlotName = T_GongOfWeakening
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.766, 111.497, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-36.0047, Y=-6.25, Z=0 }
+    BoxExtent = { X=75.1191, Y=7.19486, Z=19.0506 }
+    SphereRadius = 77.6213
+}

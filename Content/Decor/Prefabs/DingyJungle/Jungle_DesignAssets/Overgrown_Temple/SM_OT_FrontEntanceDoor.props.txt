@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/MI_OT_EntranceDoor.MI_OT_EntranceDoor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/MI_OT_EntranceDoor.MI_OT_EntranceDoor'
+        MaterialSlotName = 22 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 805.316, 803.084, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-175, Y=-50, Z=275 }
+    BoxExtent = { X=175, Y=50, Z=275 }
+    SphereRadius = 328.11
+}

@@ -1,23 +1,11 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
-Expressions[38] =
-{
-    Expressions[2] = MaterialExpressionTextureSample'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionTextureSample_2'
-    Expressions[25] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_0'
-    Expressions[26] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_1'
-    Expressions[27] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_2'
-    Expressions[28] = MaterialExpressionVectorParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionVectorParameter_0'
-    Expressions[29] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_3'
-    Expressions[30] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_4'
-    Expressions[31] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_5'
-    Expressions[32] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_6'
-    Expressions[37] = MaterialExpressionScalarParameter'Effects/Materials/Projectiles/M_NoiseGradientProjectile.MaterialExpressionScalarParameter_7'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -30,36 +18,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Translucent (2)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[8] =
-{
-    CollectedScalarParameters[0] = { Value=0.003, Name=MinorDetails, Group=None }
-    CollectedScalarParameters[1] = { Value=1, Name=AlphaGradient2, Group=None }
-    CollectedScalarParameters[2] = { Value=1, Name=AlphaGradient1, Group=None }
-    CollectedScalarParameters[3] = { Value=1, Name=U, Group=None }
-    CollectedScalarParameters[4] = { Value=1, Name=V, Group=None }
-    CollectedScalarParameters[5] = { Value=1, Name=SpeedX, Group=None }
-    CollectedScalarParameters[6] = { Value=32, Name=TextureSize, Group=None }
-    CollectedScalarParameters[7] = { Value=0, Name=SpeedY, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=0, G=0, B=0, A=1 }
-        Name = Color
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -67,3 +36,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

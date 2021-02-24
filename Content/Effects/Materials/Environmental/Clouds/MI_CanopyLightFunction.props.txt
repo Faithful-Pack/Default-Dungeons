@@ -1,45 +1,45 @@
+Parent = Material3'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.M_CanopyLightFunction'
 ScalarParameterValues[6] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.142857
         ParameterInfo = { Name=CloudContrast }
+        ParameterValue = 0.142857
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.04
         ParameterInfo = { Name=CloudSpeed }
+        ParameterValue = 0.04
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.067857
         ParameterInfo = { Name=HoleSize }
+        ParameterValue = 0.067857
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0.142857
         ParameterInfo = { Name=LeafMin }
+        ParameterValue = 0.142857
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Param }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Effects/Materials/Environmental/Clouds/M_CanopyLightFunction.M_CanopyLightFunction'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -49,6 +49,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -56,3 +63,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

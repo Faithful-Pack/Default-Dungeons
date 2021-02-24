@@ -1,22 +1,23 @@
+Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_GS.M_MeshDepthBlend_GS'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 393.876
         ParameterInfo = { Name=Cutoff }
+        ParameterValue = 393.876
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1589.2
         ParameterInfo = { Name=FadeDistance }
+        ParameterValue = 1589.2
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -24,12 +25,11 @@ VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.541992, G=0.718202, B=0.770833, A=1 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.541992, G=0.718202, B=0.770833, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_GS.M_MeshDepthBlend_GS'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -39,6 +39,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -46,3 +53,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

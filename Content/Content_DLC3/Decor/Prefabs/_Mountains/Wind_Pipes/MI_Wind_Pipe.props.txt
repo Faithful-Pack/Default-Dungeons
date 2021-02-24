@@ -1,73 +1,73 @@
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 ScalarParameterValues[5] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=04 Specular Strength }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.8
         ParameterInfo = { Name=05 Roughness Strength }
+        ParameterValue = 0.8
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 30
         ParameterInfo = { Name=06 Specular ScreenStr }
+        ParameterValue = 30
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 10
         ParameterInfo = { Name=01 Emissive Strength }
+        ParameterValue = 10
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[3] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/T_Wind_Pipes.T_Wind_Pipes'
         ParameterInfo = { Name=01 Base Texture }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/T_Wind_Pipes.T_Wind_Pipes'
+        ParameterName = None
     }
     TextureParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/T_Wind_Pipes_Spec.T_Wind_Pipes_Spec'
         ParameterInfo = { Name=03 Specular Alpha }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/T_Wind_Pipes_Spec.T_Wind_Pipes_Spec'
+        ParameterName = None
     }
     TextureParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/T_Wind_Pipes_e.T_Wind_Pipes_e'
         ParameterInfo = { Name=03 Emissive }
+        ParameterValue = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Wind_Pipes/T_Wind_Pipes_e.T_Wind_Pipes_e'
+        ParameterName = None
     }
 }
 VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0, G=0.690076, B=1, A=1 }
         ParameterInfo = { Name=04 Color Multiply }
+        ParameterValue = { R=0, G=0.690076, B=1, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.682292, G=0.682292, B=0.682292, A=1 }
         ParameterInfo = { Name=EmissiveMin }
+        ParameterValue = { R=0.682292, G=0.682292, B=0.682292, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -77,6 +77,45 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[5] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=01 Use Specular }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Spec Alpha }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=02 Custom Emissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=05 Emission Animation }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=CameraFade }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -84,3 +123,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Wind_Pipes_Spec
+    }
+}

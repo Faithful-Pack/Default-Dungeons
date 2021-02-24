@@ -3,15 +3,10 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/T_clifftop.T_clifftop'
-    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/T_cliffstone.T_cliffstone'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/T_cliffstone.T_cliffstone'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/T_clifftop.T_clifftop'
 }
-Expressions[33] =
-{
-    Expressions[5] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/M_CliffTriplanar.MaterialExpressionTextureSample_5'
-    Expressions[14] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/M_CliffTriplanar.MaterialExpressionTextureSample_1'
-    Expressions[16] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/Windswept_cliffs/M_CliffTriplanar.MaterialExpressionTextureSample_3'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +19,6 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
@@ -43,3 +37,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

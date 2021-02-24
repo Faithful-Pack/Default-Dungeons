@@ -1,37 +1,37 @@
+Parent = Material3'Effects/Materials/Smoke/M_SmokeBallVariation_Emissive.M_SmokeBallVariation_Emissive'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 8
         ParameterInfo = { Name=NumberOfColumns }
+        ParameterValue = 8
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[1] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Effects/Materials/Smoke/Smoke_Ball_SmallVariation.Smoke_Ball_SmallVariation'
         ParameterInfo = { Name=Smoke }
+        ParameterValue = Texture2D'Effects/Materials/Smoke/Smoke_Ball_SmallVariation.Smoke_Ball_SmallVariation'
+        ParameterName = None
     }
 }
 VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=1, B=0, A=1 }
         ParameterInfo = { Name=UV }
+        ParameterValue = { R=1, G=1, B=0, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Effects/Materials/Smoke/M_SmokeBallVariation_Emissive.M_SmokeBallVariation_Emissive'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -41,6 +41,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UV }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -48,3 +63,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = Smoke_Ball_SmallVariation
+    }
+}

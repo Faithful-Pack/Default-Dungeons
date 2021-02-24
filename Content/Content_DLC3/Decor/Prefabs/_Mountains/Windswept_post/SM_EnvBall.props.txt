@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_Outpost.PP_Outpost'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/PP_Outpost.PP_Outpost'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.139, 303.975, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-006, Y=-7.62939e-006, Z=1.52588e-005 }
+    BoxExtent = { X=79.5395, Y=79.5396, Z=79.5395 }
+    SphereRadius = 79.5396
+}

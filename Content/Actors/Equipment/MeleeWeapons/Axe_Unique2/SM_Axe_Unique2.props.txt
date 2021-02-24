@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Axe_Unique2/M_Axe_Unique2Storable.M_Axe_Unique2Storable'
+    Materials[1] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Axe_Unique2/M_Axe_Unique2.M_Axe_Unique2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Axe_Unique2/M_Axe_Unique2Storable.M_Axe_Unique2Storable'
+        MaterialSlotName = SM_Axe_Unique1:initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Axe_Unique2/M_Axe_Unique2.M_Axe_Unique2'
+        MaterialSlotName = lambert9SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.8318, 128.621, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-11.0485, Y=0, Z=-39.7748 }
+    BoxExtent = { X=24.3068, Y=3.125, Z=66.2913 }
+    SphereRadius = 67.2783
+}

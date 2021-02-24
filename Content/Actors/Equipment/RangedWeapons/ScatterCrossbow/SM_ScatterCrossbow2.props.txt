@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ScatterCrossbow/MI_ScatterCrossbow.MI_ScatterCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ScatterCrossbow/MI_ScatterCrossbow.MI_ScatterCrossbow'
+        MaterialSlotName = lambert4SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 225.613, 200.68, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.20972, Y=0, Z=-38.2582 }
+    BoxExtent = { X=72.9204, Y=3.125, Z=57.4524 }
+    SphereRadius = 73.121
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Glaive/MI_Glaive.MI_Glaive'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Glaive/MI_Glaive.MI_Glaive'
+        MaterialSlotName = lambert4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 184.395, 204.618, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.62905, Y=3.09944e-006, Z=130.373 }
+    BoxExtent = { X=15.4681, Y=3.125, Z=130.373 }
+    SphereRadius = 130.877
+}

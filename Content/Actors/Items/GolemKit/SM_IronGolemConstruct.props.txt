@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/GolemKit/MI_IronGolemConstruct.MI_IronGolemConstruct'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/GolemKit/MI_IronGolemConstruct.MI_IronGolemConstruct'
+        MaterialSlotName = lambert6
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.008, 674.875, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=25, Z=168.301 }
+    BoxExtent = { X=150, Y=75, Z=168.301 }
+    SphereRadius = 190.92
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Moving_Platforms/MI_Moving_Platforms.MI_Moving_Platforms'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Moving_Platforms/MI_Moving_Platforms.MI_Moving_Platforms'
+        MaterialSlotName = 19 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 801.292, 1.00752, 1.00752, 1450.28 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-005, Y=-3.05176e-005, Z=605.661 }
+    BoxExtent = { X=6.25015, Y=6.21735, Z=705.661 }
+    SphereRadius = 705.716
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/MI_OT_SunMural.MI_OT_SunMural'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/MI_OT_SunMural.MI_OT_SunMural'
+        MaterialSlotName = 11 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 810.072, 1031.86, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-25, Z=300 }
+    BoxExtent = { X=500, Y=25, Z=300 }
+    SphereRadius = 583.631
+}

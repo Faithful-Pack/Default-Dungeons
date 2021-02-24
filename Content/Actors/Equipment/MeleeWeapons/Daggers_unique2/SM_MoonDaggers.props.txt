@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Daggers_unique2/MI_MoonDaggers.MI_MoonDaggers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Daggers_unique2/MI_MoonDaggers.MI_MoonDaggers'
+        MaterialSlotName = lambert12SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 71.2571, 129.43, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=18.75, Y=0, Z=-28.125 }
+    BoxExtent = { X=31.25, Y=3.125, Z=40.625 }
+    SphereRadius = 51.349
+}

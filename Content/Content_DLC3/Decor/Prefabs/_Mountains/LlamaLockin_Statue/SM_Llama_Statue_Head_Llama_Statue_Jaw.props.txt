@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/LlamaLockin_Statue/MI_Llama_Statue.MI_Llama_Statue'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/LlamaLockin_Statue/MI_Llama_Statue.MI_Llama_Statue'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.356, 711.12, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=350.104, Y=50.0272, Z=300.068 }
+    BoxExtent = { X=150.097, Y=150.179, Z=100.068 }
+    SphereRadius = 234.697
+}

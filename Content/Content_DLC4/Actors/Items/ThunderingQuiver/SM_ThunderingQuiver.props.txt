@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Actors/Items/ThunderingQuiver/MI_ThunderingQuiverStorable.MI_ThunderingQuiverStorable'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Items/ThunderingQuiver/MI_ThunderingQuiverStorable.MI_ThunderingQuiverStorable'
+        MaterialSlotName = FlamingQuiver
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.336, 207.487, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.58113, Y=17.2173, Z=0 }
+    BoxExtent = { X=30.4078, Y=65.0162, Z=9.375 }
+    SphereRadius = 70.5891
+}

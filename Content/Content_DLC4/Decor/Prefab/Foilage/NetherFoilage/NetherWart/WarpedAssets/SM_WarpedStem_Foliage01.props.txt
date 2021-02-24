@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_WarpedStemTwoSided.MI_WarpedStemTwoSided'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_WarpedStemTwoSided.MI_WarpedStemTwoSided'
+        MaterialSlotName = Warped
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 401.198, 377.796, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=12.059, Y=12.059, Z=62.5 }
+    BoxExtent = { X=87.941, Y=87.9409, Z=62.5 }
+    SphereRadius = 133.538
+}

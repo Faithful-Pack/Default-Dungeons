@@ -1,58 +1,59 @@
+Parent = Material3'Actors/Items/TotemOfShielding/M_ShieldingBubble.M_ShieldingBubble'
 ScalarParameterValues[9] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=Alpha_Lerp }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=Alpha_SinusTempo }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.3
         ParameterInfo = { Name=Alpha_SinusVariation }
+        ParameterValue = 0.3
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0.1
         ParameterInfo = { Name=Opaque }
+        ParameterValue = 0.1
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0.05
         ParameterInfo = { Name=RimThickness }
+        ParameterValue = 0.05
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = -0.1
         ParameterInfo = { Name=SpeedX }
+        ParameterValue = -0.1
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = -0.1
         ParameterInfo = { Name=SpeedY }
+        ParameterValue = -0.1
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=TopShade }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -60,24 +61,23 @@ VectorParameterValues[3] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.8, G=0.560128, B=0, A=1 }
         ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.8, G=0.560128, B=0, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=200, G=37.1634, B=0, A=1 }
         ParameterInfo = { Name=IntersectionColor }
+        ParameterValue = { R=200, G=37.1634, B=0, A=1 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=2, G=1.82177, B=1.17452, A=1 }
         ParameterInfo = { Name=ShineColor }
+        ParameterValue = { R=2, G=1.82177, B=1.17452, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Items/TotemOfShielding/M_ShieldingBubble.M_ShieldingBubble'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -87,6 +87,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Shine }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -94,3 +109,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

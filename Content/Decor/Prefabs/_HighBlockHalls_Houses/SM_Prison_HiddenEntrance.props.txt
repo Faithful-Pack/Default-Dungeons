@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_HighBlockHalls_Houses/MI_HH_Miniatlas_VertexPaint.MI_HH_Miniatlas_VertexPaint'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_HighBlockHalls_Houses/MI_HH_Miniatlas_VertexPaint.MI_HH_Miniatlas_VertexPaint'
+        MaterialSlotName = Stone
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 1593.76, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-0.000144958, Z=300 }
+    BoxExtent = { X=350, Y=100, Z=300 }
+    SphereRadius = 471.699
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Materials/MI_SquidCoastStream.MI_SquidCoastStream'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Materials/MI_SquidCoastStream.MI_SquidCoastStream'
+        MaterialSlotName = MI_SquidCoastStream
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.017, 207704, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-650, Y=-2300, Z=1632.05 }
+    BoxExtent = { X=6850, Y=6700, Z=1056.84 }
+    SphereRadius = 9638.5
+}

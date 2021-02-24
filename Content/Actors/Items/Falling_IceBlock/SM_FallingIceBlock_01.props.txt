@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/Falling_IceBlock/MI_Falling_IceBlock.MI_Falling_IceBlock'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/Falling_IceBlock/MI_Falling_IceBlock.MI_Falling_IceBlock'
+        MaterialSlotName = MI_Falling_IceBlock
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 512, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.27184, Z=125 }
+    BoxExtent = { X=100, Y=100, Z=75 }
+    SphereRadius = 160.078
+}

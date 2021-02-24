@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Pipes/MI_Pipes.MI_Pipes'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Pipes/MI_Pipes.MI_Pipes'
+        MaterialSlotName = ShortFullMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 298.398, 256.976, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-25, Z=0 }
+    BoxExtent = { X=31.25, Y=31.25, Z=50 }
+    SphereRadius = 66.7317
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/lookout_lift_fade/MI_LS_lift_fade.MI_LS_lift_fade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/lookout_lift_fade/MI_LS_lift_fade.MI_LS_lift_fade'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 202.201, 28021.8, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=350, Y=-350, Z=2050 }
+    BoxExtent = { X=450, Y=450, Z=2050 }
+    SphereRadius = 2108.91
+}

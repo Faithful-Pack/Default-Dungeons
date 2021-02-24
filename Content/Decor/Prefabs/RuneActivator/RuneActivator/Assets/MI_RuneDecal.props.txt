@@ -1,57 +1,57 @@
+Parent = Material3'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.M_RuneDecal'
 ScalarParameterValues[8] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 3
         ParameterInfo = { Name=NumTilesX }
+        ParameterValue = 3
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 7
         ParameterInfo = { Name=NumTilesY }
+        ParameterValue = 7
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=EmissiveStrength }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=GradientScale }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=Tang0 }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 4.67579
         ParameterInfo = { Name=Tang1 }
+        ParameterValue = 4.67579
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 4
         ParameterInfo = { Name=Slot }
+        ParameterValue = 4
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Decor/Prefabs/RuneActivator/RuneActivator/Assets/M_RuneDecal.M_RuneDecal'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -61,6 +61,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -68,3 +75,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

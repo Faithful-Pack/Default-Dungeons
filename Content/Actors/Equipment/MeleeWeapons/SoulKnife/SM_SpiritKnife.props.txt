@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulKnife/MI_SpiritKnife.MI_SpiritKnife'
+    Materials[1] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulKnife/MI_SpiritKnife.MI_SpiritKnife'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulKnife/MI_SpiritKnife.MI_SpiritKnife'
+        MaterialSlotName = lambert9SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 94.0096, 132.278, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/SoulKnife/MI_SpiritKnife.MI_SpiritKnife'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-39.4702, Z=0 }
+    BoxExtent = { X=26.3134, Y=65.7836, Z=3.10107 }
+    SphereRadius = 65.8566
+}

@@ -1,33 +1,14 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[4] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_E.T_Resonance_Crystal_E'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_128.T_Clouds_128'
-    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_D.T_Resonance_Crystal_D'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_D.T_Resonance_Crystal_D'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_E.T_Resonance_Crystal_E'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_128.T_Clouds_128'
     ReferencedTextures[3] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
 }
-Expressions[93] =
-{
-    Expressions[3] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_0'
-    Expressions[5] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_1'
-    Expressions[6] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_2'
-    Expressions[16] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_5'
-    Expressions[18] = MaterialExpressionScalarParameter'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionScalarParameter_4'
-    Expressions[21] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_7'
-    Expressions[50] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_8'
-    Expressions[51] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_9'
-    Expressions[62] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_10'
-    Expressions[65] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_11'
-    Expressions[76] = MaterialExpressionScalarParameter'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionScalarParameter_1'
-    Expressions[79] = MaterialExpressionScalarParameter'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionScalarParameter_2'
-    Expressions[80] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionTextureSample_3'
-    Expressions[85] = MaterialExpressionVectorParameter'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionVectorParameter_3'
-    Expressions[89] = MaterialExpressionScalarParameter'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionScalarParameter_5'
-    Expressions[90] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionStaticSwitchParameter_7'
-    Expressions[91] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/M_Tempest_Crystal.MaterialExpressionStaticSwitchParameter_8'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -40,32 +21,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Masked (1)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[4] =
-{
-    CollectedScalarParameters[0] = { Value=4, Name=Power_Scale, Group=None }
-    CollectedScalarParameters[1] = { Value=-50, Name=DissolveStart, Group=None }
-    CollectedScalarParameters[2] = { Value=4, Name=DissolveDuration, Group=None }
-    CollectedScalarParameters[3] = { Value=0, Name=Dissolve, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=2, G=2, B=0, A=1 }
-        Name = DissolveTextureSize
-        Group = None
-    }
-}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -73,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

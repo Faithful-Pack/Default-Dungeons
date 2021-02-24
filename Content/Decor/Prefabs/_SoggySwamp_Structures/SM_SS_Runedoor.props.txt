@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_SoggySwamp_Structures/MI_SS_Runedoor.MI_SS_Runedoor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_SoggySwamp_Structures/MI_SS_Runedoor.MI_SS_Runedoor'
+        MaterialSlotName = phong1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.021, 875.094, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-50, Z=250 }
+    BoxExtent = { X=200, Y=100, Z=250 }
+    SphereRadius = 335.41
+}

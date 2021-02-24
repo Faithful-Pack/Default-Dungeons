@@ -1,45 +1,45 @@
+Parent = Material3'UI/Materials/HotBar2/Heart/heart.heart'
 ScalarParameterValues[6] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0.571429
         ParameterInfo = { Name=Health }
+        ParameterValue = 0.571429
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.133334
         ParameterInfo = { Name=HealthLast }
+        ParameterValue = 0.133334
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 0.8
         ParameterInfo = { Name=ShadowClamp }
+        ParameterValue = 0.8
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=ShadowMutliply }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0.890476
         ParameterInfo = { Name=ShadowPowerFunction }
+        ParameterValue = 0.890476
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'UI/Materials/HotBar2/Heart/heart.heart'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -49,6 +49,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -56,3 +63,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

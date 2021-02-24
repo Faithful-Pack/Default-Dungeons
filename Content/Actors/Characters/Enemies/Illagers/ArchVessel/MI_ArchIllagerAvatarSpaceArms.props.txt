@@ -1,69 +1,69 @@
+Parent = Material3'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.M_ArchIllagerAvatarSpace'
 ScalarParameterValues[10] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=ClampMin }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0.569273
         ParameterInfo = { Name=CloudFade }
+        ParameterValue = 0.569273
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=CloudFadeMultiplier }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0.2
         ParameterInfo = { Name=CloudSpeedX }
+        ParameterValue = 0.2
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 0.2
         ParameterInfo = { Name=CloudSpeedY }
+        ParameterValue = 0.2
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 119.495
         ParameterInfo = { Name=GradientFalloff }
+        ParameterValue = 119.495
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=GradientOffsetX }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = -0.680885
         ParameterInfo = { Name=GradientOffsetY }
+        ParameterValue = -0.680885
+        ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterName = None
-        ParameterValue = 4
         ParameterInfo = { Name=Wind }
+        ParameterValue = 4
+        ParameterName = None
     }
     ScalarParameterValues[9] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.M_ArchIllagerAvatarSpace'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -73,6 +73,21 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=VerticalGradient }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -80,3 +95,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ArchIllagerAvatarSpace
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Clouds_512
+    }
+}

@@ -1,29 +1,29 @@
+Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 5
         ParameterInfo = { Name=Power }
+        ParameterValue = 5
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[1] =
 {
     TextureParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/LongBow/T_LongBow.T_LongBow'
         ParameterInfo = { Name=Albedo }
+        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/LongBow/T_LongBow.T_LongBow'
+        ParameterName = None
     }
 }
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -33,6 +33,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -40,3 +47,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

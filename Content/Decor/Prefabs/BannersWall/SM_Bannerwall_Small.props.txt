@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/BannersWall/MI_BannersSmall.MI_BannersSmall'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/BannersWall/MI_BannersSmall.MI_BannersSmall'
+        MaterialSlotName = pPlane1Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300, 215.499, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=150, Z=0 }
+    BoxExtent = { X=75, Y=150, Z=0 }
+    SphereRadius = 167.705
+}

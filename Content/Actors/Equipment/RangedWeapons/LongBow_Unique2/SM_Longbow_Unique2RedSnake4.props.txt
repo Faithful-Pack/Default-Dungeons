@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/LongBow_Unique2/MI_Longbow_Unique2RedSnake.MI_Longbow_Unique2RedSnake'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/LongBow_Unique2/MI_Longbow_Unique2RedSnake.MI_Longbow_Unique2RedSnake'
+        MaterialSlotName = lambert13SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 213.003, 171.178, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=37.565, Y=0, Z=0 }
+    BoxExtent = { X=50.8233, Y=3.125, Z=70.7107 }
+    SphereRadius = 70.8142
+}

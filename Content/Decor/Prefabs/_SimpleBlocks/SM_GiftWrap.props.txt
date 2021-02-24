@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_SimpleBlocks/Materials/MI_GiftWrap.MI_GiftWrap'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_SimpleBlocks/Materials/MI_GiftWrap.MI_GiftWrap'
+        MaterialSlotName = GiftWrap
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.092, 203.205, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-006, Y=0, Z=-45.4084 }
+    BoxExtent = { X=50.3126, Y=141.421, Z=45.5544 }
+    SphereRadius = 148.577
+}

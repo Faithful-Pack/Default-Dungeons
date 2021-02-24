@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC4/Actors/Items/NetherWartSporeGrenade/M_NetherWartSporeGrenade.M_NetherWartSporeGrenade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC4/Actors/Items/NetherWartSporeGrenade/M_NetherWartSporeGrenade.M_NetherWartSporeGrenade'
+        MaterialSlotName = lambert11SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 219.022, 182.048, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=28.125, Y=-22.0216, Z=-28.045 }
+    BoxExtent = { X=40.625, Y=40.7716, Z=34.455 }
+    SphereRadius = 55.524
+}

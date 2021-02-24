@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Gravestone/M_GravestoneCyan_Inst.M_GravestoneCyan_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Gravestone/M_GravestoneCyan_Inst.M_GravestoneCyan_Inst'
+        MaterialSlotName = defaultMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.54936, 0.79462, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.186668, Y=-0.169198, Z=0.0058555 }
+    BoxExtent = { X=0.177528, Y=0.169198, Z=0.158713 }
+    SphereRadius = 0.29212
+}

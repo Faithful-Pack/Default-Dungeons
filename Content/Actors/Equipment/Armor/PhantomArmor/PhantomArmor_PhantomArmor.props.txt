@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/PhantomArmor/MI_PhantomArmor.MI_PhantomArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/PhantomArmor/MI_PhantomArmor.MI_PhantomArmor'
+        MaterialSlotName = Nightweave_NightweaveMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 392.067, 160.18, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=4.05946, Z=-2.70626 }
+    BoxExtent = { X=29.5611, Y=36.4187, Z=22.9309 }
+    SphereRadius = 52.2111
+}

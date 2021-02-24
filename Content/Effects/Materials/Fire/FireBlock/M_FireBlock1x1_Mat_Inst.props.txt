@@ -1,15 +1,29 @@
+Parent = Material3'Effects/Materials/Fire/FireBlock/M_FireBlock1x1_Mat.M_FireBlock1x1_Mat'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
-VectorParameterValues[0] = {}
-Parent = Material3'Effects/Materials/Fire/FireBlock/M_FireBlock1x1_Mat.M_FireBlock1x1_Mat'
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color_InnerFire }
+        ParameterValue = { R=100, G=10, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color_OuterFire }
+        ParameterValue = { R=4, G=0.441386, B=0, A=1 }
+        ParameterName = None
+    }
+}
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -19,6 +33,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -26,3 +47,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

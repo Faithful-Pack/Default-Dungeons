@@ -1,57 +1,57 @@
+Parent = Material3'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.M_EnchantedBeam'
 ScalarParameterValues[8] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 2
         ParameterInfo = { Name=CloudSrength }
+        ParameterValue = 2
+        ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = 1.5
         ParameterInfo = { Name=CoordinateMultiplier }
+        ParameterValue = 1.5
+        ParameterName = None
     }
     ScalarParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = 1
         ParameterInfo = { Name=DestroyedBeam }
+        ParameterValue = 1
+        ParameterName = None
     }
     ScalarParameterValues[3] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=GradientMultiplierX }
+        ParameterValue = 0
+        ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterName = None
-        ParameterValue = 2.5
         ParameterInfo = { Name=GradientX }
+        ParameterValue = 2.5
+        ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterName = None
-        ParameterValue = 8
         ParameterInfo = { Name=InnerBeam }
+        ParameterValue = 8
+        ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterName = None
-        ParameterValue = 0.7
         ParameterInfo = { Name=Power }
+        ParameterValue = 0.7
+        ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
 VectorParameterValues[0] = {}
-Parent = Material3'Actors/Characters/Enemies/Illagers/Enchanter/M_EnchantedBeam.M_EnchantedBeam'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -61,6 +61,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -68,3 +75,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

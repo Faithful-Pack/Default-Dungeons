@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/RangedWeapons/TwistingVineBow_UNique1/MI_TwistingVineBow.MI_TwistingVineBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Actors/Equipment/RangedWeapons/TwistingVineBow_UNique1/MI_TwistingVineBow.MI_TwistingVineBow'
+        MaterialSlotName = initialShadingGroup
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.509, 184.016, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=21.875, Y=0, Z=15.625 }
+    BoxExtent = { X=56.25, Y=3.125, Z=56.25 }
+    SphereRadius = 66.5119
+}

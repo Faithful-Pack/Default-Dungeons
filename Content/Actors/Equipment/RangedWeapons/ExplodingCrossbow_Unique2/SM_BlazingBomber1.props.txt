@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ExplodingCrossbow_Unique2/MI_BlazingBomber.MI_BlazingBomber'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ExplodingCrossbow_Unique2/MI_BlazingBomber.MI_BlazingBomber'
+        MaterialSlotName = lambert4SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 199.459, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=11.0485 }
+    BoxExtent = { X=57.4524, Y=3.125, Z=64.0816 }
+    SphereRadius = 64.3097
+}

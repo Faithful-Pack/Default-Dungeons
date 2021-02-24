@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/MI_SquallGolem_2.MI_SquallGolem_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Actors/Characters/Enemies/Squall_Golem/MI_SquallGolem_2.MI_SquallGolem_2'
+        MaterialSlotName = MI_SquallGolem_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 742.85, 194.192, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-25, Y=25, Z=46.875 }
+    BoxExtent = { X=25, Y=25, Z=46.875 }
+    SphereRadius = 58.7134
+}

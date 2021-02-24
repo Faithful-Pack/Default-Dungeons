@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Benches/MI_GS_Props.MI_GS_Props'
+    Materials[1] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windmill/MI_Windmill_cloth_static.MI_Windmill_cloth_static'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Benches/MI_GS_Props.MI_GS_Props'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 799.974, 0, 0, 1591.83 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Windmill/MI_Windmill_cloth_static.MI_Windmill_cloth_static'
+        MaterialSlotName = Cloth
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 1804.14, 100, 1581.01 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.25, Y=0, Z=0 }
+    BoxExtent = { X=56.25, Y=935.297, Z=935.297 }
+    SphereRadius = 942.63
+}

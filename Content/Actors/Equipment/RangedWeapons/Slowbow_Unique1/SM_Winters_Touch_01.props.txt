@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Slowbow_Unique1/MI_Winters_Touch_Bow.MI_Winters_Touch_Bow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Slowbow_Unique1/MI_Winters_Touch_Bow.MI_Winters_Touch_Bow'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 132.866, 149.784, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.4193, Y=-5.00679e-006, Z=-8.39233e-005 }
+    BoxExtent = { X=26.517, Y=3.125, Z=70.7109 }
+    SphereRadius = 72.011
+}

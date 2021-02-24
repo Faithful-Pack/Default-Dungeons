@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Benches/MI_GS_Props.MI_GS_Props'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Benches/MI_GS_Props.MI_GS_Props'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 267.886, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=31.2103, Y=-31.2103, Z=100 }
+    BoxExtent = { X=38.3022, Y=38.3022, Z=100 }
+    SphereRadius = 111.803
+}

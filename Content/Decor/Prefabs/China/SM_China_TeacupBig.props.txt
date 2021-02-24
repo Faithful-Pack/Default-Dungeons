@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_TeacupBig.MI_China_TeacupBig'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_TeacupBig.MI_China_TeacupBig'
+        MaterialSlotName = TeacupBigMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.9999, 141.341, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.125, Y=-15.625, Z=6.25 }
+    BoxExtent = { X=21.875, Y=15.625, Z=31.25 }
+    SphereRadius = 41.2216
+}

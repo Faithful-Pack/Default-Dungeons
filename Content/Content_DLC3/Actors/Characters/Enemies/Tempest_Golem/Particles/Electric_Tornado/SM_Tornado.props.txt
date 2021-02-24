@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/Particles/Electric_Tornado/M_WindBuildUpSpiral.M_WindBuildUpSpiral'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC3/Actors/Characters/Enemies/Tempest_Golem/Particles/Electric_Tornado/M_WindBuildUpSpiral.M_WindBuildUpSpiral'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 837.662, 253.816, 334.397, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.78838, Y=8.58675, Z=287.113 }
+    BoxExtent = { X=180.953, Y=172.105, Z=277.318 }
+    SphereRadius = 326.533
+}

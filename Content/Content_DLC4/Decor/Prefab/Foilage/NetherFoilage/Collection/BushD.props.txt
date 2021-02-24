@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_RedBrush.MI_RedBrush'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_RedBrush.MI_RedBrush'
+        MaterialSlotName = MI_RedBrush_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.843, 291.255, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-13.0982, Y=-13.1002, Z=96.875 }
+    BoxExtent = { X=20.8884, Y=90.625, Z=96.875 }
+    SphereRadius = 134.291
+}

@@ -1,10 +1,11 @@
+Parent = Material3'Actors/Items/Potions/Templates/M_PotionBlank.M_PotionBlank'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = 0
         ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
     }
 }
 TextureParameterValues[0] = {}
@@ -12,24 +13,23 @@ VectorParameterValues[3] =
 {
     VectorParameterValues[0] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.719599, B=0, A=0 }
         ParameterInfo = { Name=Blue-Liquid }
+        ParameterValue = { R=1, G=0.719599, B=0, A=0 }
+        ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterName = None
-        ParameterValue = { R=1, G=0.513228, B=0.222352, A=0 }
         ParameterInfo = { Name=Green-Cork }
+        ParameterValue = { R=1, G=0.513228, B=0.222352, A=0 }
+        ParameterName = None
     }
     VectorParameterValues[2] =
     {
-        ParameterName = None
-        ParameterValue = { R=0.162996, G=1, B=0.45681, A=1 }
         ParameterInfo = { Name=Red-Glass }
+        ParameterValue = { R=0.162996, G=1, B=0.45681, A=1 }
+        ParameterName = None
     }
 }
-Parent = Material3'Actors/Items/Potions/Templates/M_PotionBlank.M_PotionBlank'
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
@@ -39,6 +39,13 @@ BasePropertyOverrides =
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -46,3 +53,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Potion_Square
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/TrickBow_Unique2/MI_ThePinkTrickster.MI_ThePinkTrickster'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/TrickBow_Unique2/MI_ThePinkTrickster.MI_ThePinkTrickster'
+        MaterialSlotName = lambert7SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 224.68, 198.419, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=21.7158, Y=-2.53909, Z=0.120804 }
+    BoxExtent = { X=48.7678, Y=10.0466, Z=75.187 }
+    SphereRadius = 75.7914
+}

@@ -1,36 +1,14 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[4] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_E.T_Resonance_Crystal_E'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_128.T_Clouds_128'
-    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_D.T_Resonance_Crystal_D'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_D.T_Resonance_Crystal_D'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_E.T_Resonance_Crystal_E'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_128.T_Clouds_128'
     ReferencedTextures[3] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
 }
-Expressions[99] =
-{
-    Expressions[4] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_0'
-    Expressions[6] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_1'
-    Expressions[7] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_2'
-    Expressions[16] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_5'
-    Expressions[17] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionScalarParameter_4'
-    Expressions[20] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_7'
-    Expressions[47] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_8'
-    Expressions[48] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_9'
-    Expressions[59] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_10'
-    Expressions[62] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_11'
-    Expressions[74] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionScalarParameter_0'
-    Expressions[75] = MaterialExpressionTextureSampleParameter2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[78] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionScalarParameter_3'
-    Expressions[80] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionScalarParameter_1'
-    Expressions[83] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionScalarParameter_2'
-    Expressions[84] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionTextureSample_3'
-    Expressions[89] = MaterialExpressionVectorParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionVectorParameter_3'
-    Expressions[94] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionScalarParameter_5'
-    Expressions[96] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionStaticSwitchParameter_7'
-    Expressions[97] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/M_Resonance_Crystal_01.MaterialExpressionStaticSwitchParameter_8'
-}
+Expressions[0] = {}
 CachedExpressionData =
 {
     Parameters =
@@ -43,42 +21,17 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        RuntimeEntries = 
         ScalarValues[0] = {}
         VectorValues[0] = {}
         TextureValues[0] = {}
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Masked (1)
+BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
-{
-    CollectedTextureParameters[0] =
-    {
-        Texture = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Resonance_Crystal/T_Resonance_Crystal_E.T_Resonance_Crystal_E'
-        Name = Object_Mask
-        Group = None
-    }
-}
-CollectedScalarParameters[6] =
-{
-    CollectedScalarParameters[0] = { Value=0.5, Name=Power_Scale, Group=None }
-    CollectedScalarParameters[1] = { Value=1.5, Name=Glow_Size, Group=None }
-    CollectedScalarParameters[2] = { Value=0, Name=Object_Mask_Power, Group=None }
-    CollectedScalarParameters[3] = { Value=-50, Name=DissolveStart, Group=None }
-    CollectedScalarParameters[4] = { Value=4, Name=DissolveDuration, Group=None }
-    CollectedScalarParameters[5] = { Value=0, Name=Dissolve, Group=None }
-}
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=2, G=2, B=0, A=1 }
-        Name = DissolveTextureSize
-        Group = None
-    }
-}
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -86,3 +39,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
+TextureStreamingData[0] = {}

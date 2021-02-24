@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Minecart/MI_RedstoneCrystal_Single.MI_RedstoneCrystal_Single'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Minecart/MI_RedstoneCrystal_Single.MI_RedstoneCrystal_Single'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 565.685, 82.8939, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-2.86102e-006, Z=15.625 }
+    BoxExtent = { X=15.625, Y=15.625, Z=15.625 }
+    SphereRadius = 27.0633
+}

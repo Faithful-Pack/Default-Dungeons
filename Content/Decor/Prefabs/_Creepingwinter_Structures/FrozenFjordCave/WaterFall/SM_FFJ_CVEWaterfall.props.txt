@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade_Inst.M_FFJCaveFallFade_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/WaterFall/M_FFJCaveFallFade_Inst.M_FFJCaveFallFade_Inst'
+        MaterialSlotName = Tiling
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 2310.66, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=150, Y=-0.000335693, Z=2050 }
+    BoxExtent = { X=150, Y=100, Z=2050 }
+    SphereRadius = 2057.91
+}

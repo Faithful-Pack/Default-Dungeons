@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PortalsNether.MI_PortalsNether'
+    Materials[1] = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWartFoilageTwoSide_NoFade.MI_NetherWartFoilageTwoSide_NoFade'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/MI_PortalsNether.MI_PortalsNether'
+        MaterialSlotName = MI_PortalsNether
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 0, 1596.66, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/MI_NetherWartFoilageTwoSide_NoFade.MI_NetherWartFoilageTwoSide_NoFade'
+        MaterialSlotName = MI_NetherWartFoilageTwoSide_NoFade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 171.342, 1597.51, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.05176e-005, Z=350.078 }
+    BoxExtent = { X=300, Y=400, Z=350.078 }
+    SphereRadius = 550.05
+}
