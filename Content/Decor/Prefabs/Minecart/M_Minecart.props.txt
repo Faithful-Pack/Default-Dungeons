@@ -6,7 +6,11 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Minecart/T_Minecart.T_Minecart'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/Minecart/T_Minecart_EM.T_Minecart_EM'
 }
-Expressions[0] = {}
+Expressions[6] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/Minecart/M_Minecart.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/Minecart/M_Minecart.MaterialExpressionTextureSample_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +29,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
@@ -37,4 +41,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Minecart
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Minecart_EM
+    }
+}

@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Mooshroom/mushroom_block_skin_red.mushroom_block_skin_red'
 }
-Expressions[0] = {}
+Expressions[4] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Mooshroom/M_MushroomRed.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -36,4 +39,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = mushroom_block_skin_red
+    }
+}

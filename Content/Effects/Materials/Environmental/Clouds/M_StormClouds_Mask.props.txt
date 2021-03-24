@@ -5,7 +5,14 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[0] = {}
+Expressions[32] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_StormClouds_Mask.MaterialExpressionTextureSample_18'
+    Expressions[6] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_StormClouds_Mask.MaterialExpressionTextureSample_19'
+    Expressions[19] = MaterialExpressionScalarParameter'Effects/Materials/Environmental/Clouds/M_StormClouds_Mask.MaterialExpressionScalarParameter_0'
+    Expressions[20] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Clouds/M_StormClouds_Mask.MaterialExpressionTextureSample_0'
+    Expressions[26] = MaterialExpressionVectorParameter'Effects/Materials/Environmental/Clouds/M_StormClouds_Mask.MaterialExpressionVectorParameter_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,11 +31,22 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.414188, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

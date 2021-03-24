@@ -3,10 +3,15 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_SmallLampLF.T_SmallLampLF'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_SmallLampLF.T_SmallLampLF'
 }
-Expressions[0] = {}
+Expressions[7] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/LF_FlickeringLanternLight.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/LF_FlickeringLanternLight.MaterialExpressionScalarParameter_1'
+    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/LF_FlickeringLanternLight.MaterialExpressionTextureSample_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +33,10 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Seed, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

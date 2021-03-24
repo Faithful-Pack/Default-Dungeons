@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Environmental/Mist/T_Mist_Large.T_Mist_Large'
 }
-Expressions[0] = {}
+Expressions[6] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Mist/M_Mist_Silouhette.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

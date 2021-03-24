@@ -1,11 +1,15 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/Particle/T_BarGradient2.T_BarGradient2'
 }
-Expressions[0] = {}
+Expressions[9] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/Particle/M_WindHole_Outer_WC.MaterialExpressionScalarParameter_0'
+    Expressions[6] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/Particle/M_WindHole_Outer_WC.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +28,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=FadeOpacity, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +43,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BarGradient2
+    }
+}

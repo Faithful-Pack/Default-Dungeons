@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Items/Emerald/T_EmeraldPickup.T_EmeraldPickup'
 }
-Expressions[0] = {}
+Expressions[2] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Actors/Items/Emerald/M_Emerald.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =

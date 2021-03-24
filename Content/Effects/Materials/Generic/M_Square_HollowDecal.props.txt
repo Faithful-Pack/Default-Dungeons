@@ -1,11 +1,24 @@
 TwoSided = false
-bDisableDepthTest = false
+bDisableDepthTest = true
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/SinglePixelSurrondedByAlpha.SinglePixelSurrondedByAlpha'
 }
-Expressions[0] = {}
+Expressions[32] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[3] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionTextureSample_3'
+    Expressions[11] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionTextureSample_5'
+    Expressions[13] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionScalarParameter_13'
+    Expressions[19] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionScalarParameter_15'
+    Expressions[24] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[26] = MaterialExpressionVectorParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionVectorParameter_0'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[29] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionScalarParameter_0'
+    Expressions[31] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_Square_HollowDecal.MaterialExpressionScalarParameter_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,11 +37,25 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Size, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=SizeMultiplier, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Emissive, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

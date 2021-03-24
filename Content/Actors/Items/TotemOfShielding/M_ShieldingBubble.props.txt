@@ -1,4 +1,4 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
@@ -6,7 +6,42 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Actors/Items/TotemOfShielding/Shine.Shine'
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
-Expressions[0] = {}
+Expressions[81] =
+{
+    Expressions[13] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_5'
+    Expressions[14] = MaterialExpressionVectorParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionVectorParameter_2'
+    Expressions[15] = MaterialExpressionVectorParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionVectorParameter_1'
+    Expressions[16] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_1'
+    Expressions[20] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_2'
+    Expressions[25] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_3'
+    Expressions[30] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_4'
+    Expressions[31] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_6'
+    Expressions[33] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_7'
+    Expressions[36] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_8'
+    Expressions[41] = MaterialExpressionTextureSample'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionTextureSample_0'
+    Expressions[43] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_9'
+    Expressions[44] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_10'
+    Expressions[46] = MaterialExpressionVectorParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionVectorParameter_0'
+    Expressions[47] = MaterialExpressionStaticSwitchParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[48] = MaterialExpressionTextureSample'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionTextureSample_18'
+    Expressions[49] = MaterialExpressionTextureSample'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionTextureSample_2'
+    Expressions[54] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_16'
+    Expressions[55] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_17'
+    Expressions[57] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_18'
+    Expressions[58] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_19'
+    Expressions[61] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_20'
+    Expressions[62] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_21'
+    Expressions[67] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_22'
+    Expressions[68] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_23'
+    Expressions[70] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_24'
+    Expressions[71] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_25'
+    Expressions[74] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_26'
+    Expressions[75] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_27'
+    Expressions[77] = MaterialExpressionStaticSwitchParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[79] = MaterialExpressionVectorParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionVectorParameter_3'
+    Expressions[80] = MaterialExpressionScalarParameter'Actors/Items/TotemOfShielding/M_ShieldingBubble.MaterialExpressionScalarParameter_11'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +60,63 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[24] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=RimThickness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.3, Name=Opaque, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=TopShade, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Alpha_Lerp, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=Alpha_SinusTempo, Group=None }
+    CollectedScalarParameters[5] = { Value=0.4, Name=Alpha_SinusMin, Group=None }
+    CollectedScalarParameters[6] = { Value=3, Name=Alpha_SinusVariation, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Alpha_Offset, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Alpha_Max, Group=None }
+    CollectedScalarParameters[9] = { Value=-1, Name=SpeedX, Group=None }
+    CollectedScalarParameters[10] = { Value=-1, Name=SpeedY, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Cloud1_Offset_X, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Cloud1_Offset_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Cloud1_Speed_X, Group=None }
+    CollectedScalarParameters[14] = { Value=-1, Name=Cloud1_Speed_Y, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Cloud1_Multiplier_X, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Cloud1_Multiplier_Y, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Cloud2_Offset_X, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Cloud2_Offset_Y, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Cloud2_Speed_X, Group=None }
+    CollectedScalarParameters[20] = { Value=-1, Name=Cloud2_Speed_Y, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=Cloud2_Multiplier_X, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=Cloud2_Multiplier_Y, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=Alpha, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.798933, G=0.781366, B=0.8, A=1 }
+        Name = IntersectionColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.433925, G=0, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ShineColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = CloudColor
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

@@ -1,13 +1,25 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Cloth_D.Cloth_D'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Wind_Ripple.Wind_Ripple'
     ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/T_Cloth_Rips.T_Cloth_Rips'
-    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Wind_Ripple.Wind_Ripple'
 }
-Expressions[0] = {}
+Expressions[39] =
+{
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[10] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionScalarParameter_3'
+    Expressions[15] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionScalarParameter_4'
+    Expressions[16] = MaterialExpressionVectorParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionVectorParameter_0'
+    Expressions[24] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionTextureSample_0'
+    Expressions[25] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionScalarParameter_0'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[28] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionScalarParameter_1'
+    Expressions[29] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionTextureSample_3'
+    Expressions[31] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionScalarParameter_7'
+    Expressions[38] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/M_Cloth_A.MaterialExpressionStaticSwitchParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,11 +38,45 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Cloth_D.Cloth_D'
+        Name = Pattern
+        Group = Texture
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_Buildings/Cloth_D.Cloth_D'
+        Name = Diffuse
+        Group = Texture
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 30
+        Name = Displace Wind Strength
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Pattern_Tile, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=Large Ripple Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Pattern_Fade, Group=None }
+    CollectedScalarParameters[4] = { Value=0.033333, Name=Rip_Amount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = Diffuse Colour
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -38,4 +84,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Cloth_Rips
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Wind_Ripple
+    }
+}

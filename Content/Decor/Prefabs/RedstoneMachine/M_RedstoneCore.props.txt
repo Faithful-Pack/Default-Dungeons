@@ -5,7 +5,15 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/RedstoneMachine/T_RedstoneCore_E.T_RedstoneCore_E'
 }
-Expressions[0] = {}
+Expressions[16] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/RedstoneMachine/M_RedstoneCore.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstoneMachine/M_RedstoneCore.MaterialExpressionScalarParameter_3'
+    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstoneMachine/M_RedstoneCore.MaterialExpressionScalarParameter_4'
+    Expressions[9] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstoneMachine/M_RedstoneCore.MaterialExpressionScalarParameter_5'
+    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstoneMachine/M_RedstoneCore.MaterialExpressionScalarParameter_7'
+    Expressions[15] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstoneMachine/M_RedstoneCore.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -27,7 +35,14 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=SinusTempo, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=SinusMin, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=SinusVariation, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Offset, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=EmissiveStrength, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +51,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RedstoneCore_E
+    }
+}

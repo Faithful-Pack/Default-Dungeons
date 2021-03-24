@@ -1,13 +1,21 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/T_Catapult_Burnt_E.T_Catapult_Burnt_E'
-    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/T_Catapult_D.T_Catapult_D'
-    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/T_Catapult_D_Burnt.T_Catapult_D_Burnt'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/T_Catapult_D.T_Catapult_D'
 }
-Expressions[0] = {}
+Expressions[40] =
+{
+    Expressions[10] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionScalarParameter_11'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[27] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionScalarParameter_12'
+    Expressions[28] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionScalarParameter_17'
+    Expressions[29] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionScalarParameter_18'
+    Expressions[38] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionTextureSample_0'
+    Expressions[39] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/M_BurningCatapult.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,10 +34,31 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/T_Catapult_D_Burnt.T_Catapult_D_Burnt'
+        Name = RGB
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/ColossalRampart_Props/Catapult_Burn/T_Catapult_Burnt_E.T_Catapult_Burnt_E'
+        Name = Emissive
+        Group = Emission
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=20, Name=EmissionStrength, Group=None }
+    CollectedScalarParameters[2] = { Value=0.8, Name=Offset1, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Offset2, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Switch, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -38,4 +67,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Catapult_Burnt_E
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Catapult_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Catapult_D_Burnt
+    }
+}

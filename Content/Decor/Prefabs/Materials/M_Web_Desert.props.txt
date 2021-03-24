@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Spider/VFX/T_Web.T_Web'
 }
-Expressions[0] = {}
+Expressions[3] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/Materials/M_Web_Desert.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

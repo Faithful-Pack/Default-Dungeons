@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/ForestBranches/T_Snow_32x.T_Snow_32x'
 }
-Expressions[0] = {}
+Expressions[1] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/ForestBranches/M_Snow32x.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -36,4 +39,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Snow_32x
+    }
+}

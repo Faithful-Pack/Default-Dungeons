@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/RedstoneCrystal/T_RedstoneCrystal.T_RedstoneCrystal'
 }
-Expressions[0] = {}
+Expressions[7] =
+{
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstoneCrystal/M_RedstoneCrystal.MaterialExpressionTextureSampleParameter2D_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,9 +27,17 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RedstoneCrystal/T_RedstoneCrystal.T_RedstoneCrystal'
+        Name = Texture
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None

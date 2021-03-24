@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/MineSupport/T_Log_Oak.T_Log_Oak'
 }
-Expressions[0] = {}
+Expressions[1] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/MineSupport/MI_log_Oak.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -36,4 +39,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Log_Oak
+    }
+}

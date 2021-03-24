@@ -5,7 +5,14 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Equipment/Traps/SpikeTrap/T_SpikePlates.T_SpikePlates'
 }
-Expressions[0] = {}
+Expressions[18] =
+{
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/Traps/SpikeTrap/M_Spiketrap.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/Traps/SpikeTrap/M_Spiketrap.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/Traps/SpikeTrap/M_Spiketrap.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[11] = MaterialExpressionScalarParameter'Actors/Equipment/Traps/SpikeTrap/M_Spiketrap.MaterialExpressionScalarParameter_1'
+    Expressions[13] = MaterialExpressionScalarParameter'Actors/Equipment/Traps/SpikeTrap/M_Spiketrap.MaterialExpressionScalarParameter_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +31,28 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Actors/Equipment/Traps/SpikeTrap/T_SpikePlates.T_SpikePlates'
+        Name = 01 Base Texture
+        Group = 01 BC
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Actors/Equipment/Traps/SpikeTrap/T_SpikePlates.T_SpikePlates'
+        Name = 03 Specular Alpha
+        Group = 02 Specular
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=255, Name=FadeLength, Group=None }
+    CollectedScalarParameters[1] = { Value=255, Name=FadeOffset, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

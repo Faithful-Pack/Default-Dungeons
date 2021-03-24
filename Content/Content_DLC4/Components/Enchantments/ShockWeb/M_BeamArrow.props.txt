@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Electric/T_ElectricStraight_Horizontal.T_ElectricStraight_Horizontal'
 }
-Expressions[0] = {}
+Expressions[22] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Content_DLC4/Components/Enchantments/ShockWeb/M_BeamArrow.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
@@ -36,4 +39,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = T_ElectricStraight_Horizontal
+    }
+}

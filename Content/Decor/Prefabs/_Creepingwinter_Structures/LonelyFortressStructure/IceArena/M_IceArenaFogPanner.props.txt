@@ -3,10 +3,16 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/T_IAD.T_IAD'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/T_IceArenaFog.T_IceArenaFog'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/T_IceArenaFog.T_IceArenaFog'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/T_IAD.T_IAD'
 }
-Expressions[0] = {}
+Expressions[26] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/M_IceArenaFogPanner.MaterialExpressionTextureSample_2'
+    Expressions[4] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/M_IceArenaFogPanner.MaterialExpressionTextureSample_3'
+    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/M_IceArenaFogPanner.MaterialExpressionTextureSample_4'
+    Expressions[22] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/M_IceArenaFogPanner.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +31,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Additive (3)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
@@ -37,4 +43,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_IAD
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_IceArenaFog
+    }
+}

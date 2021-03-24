@@ -6,7 +6,13 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/GuideBeacon/T_GuideBeacon.T_GuideBeacon'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/GuideBeacon/T_GuideBeacon_emissive.T_GuideBeacon_emissive'
 }
-Expressions[0] = {}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/GuideBeacon/M_GuideBeacon.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'Decor/Prefabs/GuideBeacon/M_GuideBeacon.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/GuideBeacon/M_GuideBeacon.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/GuideBeacon/M_GuideBeacon.MaterialExpressionScalarParameter_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +34,11 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=OffsetX, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=OffsetY, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -37,4 +47,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GuideBeacon
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GuideBeacon_emissive
+    }
+}

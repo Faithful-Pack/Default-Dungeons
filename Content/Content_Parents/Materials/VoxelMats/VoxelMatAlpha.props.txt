@@ -6,7 +6,11 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Materials/black1x1.black1x1'
     ReferencedTextures[1] = Texture2D'Materials/tallgrass.tallgrass'
 }
-Expressions[0] = {}
+Expressions[12] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Content_Parents/Materials/VoxelMats/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Content_Parents/Materials/VoxelMats/VoxelMatAlpha.MaterialExpressionTextureSampleParameter2D_5'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,9 +29,23 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Materials/tallgrass.tallgrass'
+        Name = T2DParam
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Materials/black1x1.black1x1'
+        Name = T2DParamEmissive
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
@@ -37,4 +55,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black1x1
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = tallgrass
+    }
+}

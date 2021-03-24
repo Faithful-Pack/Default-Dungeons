@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Coal/T_Coal_New_EM.T_Coal_New_EM'
 }
-Expressions[0] = {}
+Expressions[14] =
+{
+    Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/Coal/M_Coal_Blue.MaterialExpressionScalarParameter_8'
+    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/Coal/M_Coal_Blue.MaterialExpressionScalarParameter_13'
+    Expressions[9] = MaterialExpressionTextureSample'Decor/Prefabs/Coal/M_Coal_Blue.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -27,7 +32,11 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=03 Emissive Period, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=02 Emissive Strenght, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +45,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Coal_New_EM
+    }
+}

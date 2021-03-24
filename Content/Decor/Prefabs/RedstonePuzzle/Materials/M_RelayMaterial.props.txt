@@ -8,7 +8,22 @@ ReferencedTextures[4] =
     ReferencedTextures[2] = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone_Panner.T_AnimatedRedstone_Panner'
     ReferencedTextures[3] = Texture2D'Decor/Prefabs/RedstonePuzzle/Models/T_PistonRelay.T_PistonRelay'
 }
-Expressions[0] = {}
+Expressions[61] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[24] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_1'
+    Expressions[44] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[45] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[46] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[47] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[48] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[56] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_2'
+    Expressions[57] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_3'
+    Expressions[58] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_4'
+    Expressions[59] = MaterialExpressionScalarParameter'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionScalarParameter_5'
+    Expressions[60] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/RedstonePuzzle/Materials/M_RelayMaterial.MaterialExpressionTextureSampleParameter2D_5'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -29,8 +44,54 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RedstonePuzzle/Models/T_PistonRelay.T_PistonRelay'
+        Name = Texture
+        Group = Texture
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone_Large.T_AnimatedRedstone_Large'
+        Name = StillAnimTexture
+        Group = Textures
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone.T_AnimatedRedstone'
+        Name = MovingAnimTexture
+        Group = Textures
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone.T_AnimatedRedstone'
+        Name = MovingAnimTexture
+        Group = Textures
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone.T_AnimatedRedstone'
+        Name = MovingAnimTexture
+        Group = Textures
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RedstonePuzzle/Materials/T_AnimatedRedstone_Panner.T_AnimatedRedstone_Panner'
+        Name = Mask
+        Group = Texture
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Size, Group=None }
+    CollectedScalarParameters[1] = { Value=4, Name=Strength, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=OffsetU, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=OffsetV, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=OffsetV, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=OffsetU, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -39,4 +100,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_AnimatedRedstone
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_AnimatedRedstone_Large
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_AnimatedRedstone_Panner
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_PistonRelay
+    }
+}

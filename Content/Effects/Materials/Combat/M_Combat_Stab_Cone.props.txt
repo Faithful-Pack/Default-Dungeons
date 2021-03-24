@@ -1,11 +1,14 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Combat/T_SpikeyGradient.T_SpikeyGradient'
 }
-Expressions[0] = {}
+Expressions[13] =
+{
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Combat/M_Combat_Stab_Cone.MaterialExpressionTextureSampleParameter2D_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,9 +27,17 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Combat/T_SpikeyGradient.T_SpikeyGradient'
+        Name = Texture
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None

@@ -5,7 +5,14 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC4/Decor/Materials/EnvironmentMaterials/LightFunctions/T_LightFunctionLarge.T_LightFunctionLarge'
 }
-Expressions[0] = {}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content_Parents/Materials/LightFunctions/LightFunctionSimple.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Content_Parents/Materials/LightFunctions/LightFunctionSimple.MaterialExpressionScalarParameter_0'
+    Expressions[6] = MaterialExpressionScalarParameter'Content_Parents/Materials/LightFunctions/LightFunctionSimple.MaterialExpressionScalarParameter_1'
+    Expressions[10] = MaterialExpressionScalarParameter'Content_Parents/Materials/LightFunctions/LightFunctionSimple.MaterialExpressionScalarParameter_2'
+    Expressions[11] = MaterialExpressionScalarParameter'Content_Parents/Materials/LightFunctions/LightFunctionSimple.MaterialExpressionScalarParameter_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,8 +33,22 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC4/Decor/Materials/EnvironmentMaterials/LightFunctions/T_LightFunctionLarge.T_LightFunctionLarge'
+        Name = Cookie
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=VOffset, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=UOffset, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=VScale, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=UScale, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

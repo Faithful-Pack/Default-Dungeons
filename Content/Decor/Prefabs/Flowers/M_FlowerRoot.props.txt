@@ -1,11 +1,14 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Flowers/T_4PixelRamp.T_4PixelRamp'
 }
-Expressions[0] = {}
+Expressions[3] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/Flowers/M_FlowerRoot.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -36,4 +39,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_4PixelRamp
+    }
+}

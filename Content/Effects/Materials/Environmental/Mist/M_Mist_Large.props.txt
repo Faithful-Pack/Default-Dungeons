@@ -3,10 +3,16 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_Radial_Gradient.T_Radial_Gradient'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Generic/T_Radial_Gradient.T_Radial_Gradient'
 }
-Expressions[0] = {}
+Expressions[23] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Mist/M_Mist_Large.MaterialExpressionTextureSample_18'
+    Expressions[7] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Mist/M_Mist_Large.MaterialExpressionTextureSample_19'
+    Expressions[12] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Mist/M_Mist_Large.MaterialExpressionTextureSample_0'
+    Expressions[20] = MaterialExpressionTextureSample'Effects/Materials/Environmental/Mist/M_Mist_Large.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +31,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

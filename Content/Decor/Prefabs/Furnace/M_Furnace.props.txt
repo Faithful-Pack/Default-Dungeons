@@ -1,11 +1,14 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Furnace/T_Furnace.T_Furnace'
 }
-Expressions[0] = {}
+Expressions[5] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/Furnace/M_Furnace.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =

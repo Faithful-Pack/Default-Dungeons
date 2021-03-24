@@ -1,4 +1,4 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
@@ -6,7 +6,11 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/T_WindBuildUpSpiral.T_WindBuildUpSpiral'
     ReferencedTextures[1] = Texture2D'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/WindBuildup.WindBuildup'
 }
-Expressions[0] = {}
+Expressions[6] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/M_WindBuildUpTrail.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionTextureSample'Content_DLC3/Actors/Characters/Enemies/Windcaller/VFX/M_WindBuildUpTrail.MaterialExpressionTextureSample_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +29,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
@@ -37,4 +41,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WindBuildUpSpiral
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = WindBuildup
+    }
+}

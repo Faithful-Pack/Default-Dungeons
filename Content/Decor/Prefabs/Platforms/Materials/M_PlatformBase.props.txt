@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Platforms/Materials/T_MovingPlatform.T_MovingPlatform'
 }
-Expressions[0] = {}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Platforms/Materials/M_PlatformBase.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/Platforms/Materials/M_PlatformBase.MaterialExpressionScalarParameter_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/Platforms/Materials/M_PlatformBase.MaterialExpressionScalarParameter_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,8 +31,20 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/Platforms/Materials/T_MovingPlatform.T_MovingPlatform'
+        Name = RGB
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=X, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Y, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

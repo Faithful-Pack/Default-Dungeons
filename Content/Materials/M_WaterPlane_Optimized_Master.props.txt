@@ -2,7 +2,18 @@ TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] = { Texture2D'Materials/T_WaterTile.T_WaterTile' }
-Expressions[0] = {}
+Expressions[34] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionTextureSample_2'
+    Expressions[17] = MaterialExpressionVectorParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionVectorParameter_1'
+    Expressions[19] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_2'
+    Expressions[20] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_0'
+    Expressions[21] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_1'
+    Expressions[22] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_3'
+    Expressions[24] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_4'
+    Expressions[26] = MaterialExpressionTextureSample'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionTextureSample_1'
+    Expressions[33] = MaterialExpressionScalarParameter'Materials/M_WaterPlane_Optimized_Master.MaterialExpressionScalarParameter_5'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,8 +35,24 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.045, Name=2ndLayerG, Group=None }
+    CollectedScalarParameters[2] = { Value=0.035, Name=1st_LayerB, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=3rd_LayerR, Group=None }
+    CollectedScalarParameters[4] = { Value=0.3, Name=NaturalEmissive, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Specular, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.035788, G=0.0705909, B=0.175, A=0.6 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

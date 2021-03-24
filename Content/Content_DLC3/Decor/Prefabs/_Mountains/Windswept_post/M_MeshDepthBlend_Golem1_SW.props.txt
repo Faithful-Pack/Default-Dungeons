@@ -1,13 +1,22 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_CR_Flow.T_CR_Flow'
-    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_Flowclouds.T_Flowclouds'
-    ReferencedTextures[2] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/T_FFJ_CloudPanner.T_FFJ_CloudPanner'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/T_FFJ_CloudPanner.T_FFJ_CloudPanner'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/T_CR_Flow.T_CR_Flow'
 }
-Expressions[0] = {}
+Expressions[31] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionVectorParameter_0'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionScalarParameter_1'
+    Expressions[12] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionTextureSample_0'
+    Expressions[16] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionScalarParameter_2'
+    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionScalarParameter_3'
+    Expressions[27] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Windswept_post/M_MeshDepthBlend_Golem1_SW.MaterialExpressionTextureSample_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,11 +35,25 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=10723.3, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[1] = { Value=400, Name=Cutoff, Group=None }
+    CollectedScalarParameters[2] = { Value=400, Name=Tiling, Group=None }
+    CollectedScalarParameters[3] = { Value=0.01, Name=Speed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=5.41492, B=0.17294, A=1 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

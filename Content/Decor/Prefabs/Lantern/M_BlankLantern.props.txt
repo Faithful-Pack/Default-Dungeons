@@ -1,11 +1,16 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Lantern/T_Lantern.T_Lantern'
 }
-Expressions[0] = {}
+Expressions[5] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/Lantern/M_BlankLantern.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionVectorParameter'Decor/Prefabs/Lantern/M_BlankLantern.MaterialExpressionVectorParameter_0'
+    Expressions[4] = MaterialExpressionVectorParameter'Decor/Prefabs/Lantern/M_BlankLantern.MaterialExpressionVectorParameter_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +33,21 @@ BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.474086, G=0.668481, B=0.81, A=1 }
+        Name = Red
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=600, G=102.637, B=0, A=1 }
+        Name = Green
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -36,4 +55,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Lantern
+    }
+}

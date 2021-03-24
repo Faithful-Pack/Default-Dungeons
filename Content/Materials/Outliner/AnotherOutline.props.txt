@@ -5,7 +5,13 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Materials/T_OutlineColorLT.T_OutlineColorLT'
 }
-Expressions[0] = {}
+Expressions[52] =
+{
+    Expressions[11] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline.MaterialExpressionScalarParameter_6'
+    Expressions[36] = MaterialExpressionScalarParameter'Materials/Outliner/AnotherOutline.MaterialExpressionScalarParameter_7'
+    Expressions[41] = MaterialExpressionTextureSample'Materials/Outliner/AnotherOutline.MaterialExpressionTextureSample_0'
+    Expressions[42] = MaterialExpressionTextureSample'Materials/Outliner/AnotherOutline.MaterialExpressionTextureSample_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -27,7 +33,11 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=Width_1, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=FillStr, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

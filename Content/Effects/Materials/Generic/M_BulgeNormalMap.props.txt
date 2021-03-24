@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_BulgeNormalMap_Circle.T_BulgeNormalMap_Circle'
 }
-Expressions[0] = {}
+Expressions[4] =
+{
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Generic/M_BulgeNormalMap.MaterialExpressionTextureSampleParameter2D_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,9 +27,17 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Generic/T_BulgeNormalMap_Circle.T_BulgeNormalMap_Circle'
+        Name = Texture
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None

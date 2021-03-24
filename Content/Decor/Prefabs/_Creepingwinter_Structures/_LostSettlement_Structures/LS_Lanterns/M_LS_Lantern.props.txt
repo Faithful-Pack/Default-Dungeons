@@ -6,7 +6,12 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_LS_Lantern_d.T_LS_Lantern_d'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_LS_Lantern_e.T_LS_Lantern_e'
 }
-Expressions[0] = {}
+Expressions[5] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/M_LS_Lantern.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/M_LS_Lantern.MaterialExpressionTextureSample_1'
+    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/M_LS_Lantern.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +33,10 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=15, Name=brightness, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -37,4 +45,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LS_Lantern_d
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LS_Lantern_e
+    }
+}

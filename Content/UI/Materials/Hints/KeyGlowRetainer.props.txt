@@ -5,7 +5,13 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/Hints/icon_keyinput_left.icon_keyinput_left'
 }
-Expressions[0] = {}
+Expressions[20] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'UI/Materials/Hints/KeyGlowRetainer.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionScalarParameter'UI/Materials/Hints/KeyGlowRetainer.MaterialExpressionScalarParameter_0'
+    Expressions[16] = MaterialExpressionScalarParameter'UI/Materials/Hints/KeyGlowRetainer.MaterialExpressionScalarParameter_1'
+    Expressions[17] = MaterialExpressionScalarParameter'UI/Materials/Hints/KeyGlowRetainer.MaterialExpressionScalarParameter_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +30,15 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_AlphaComposite (5)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=glow, Group=None }
+    CollectedScalarParameters[1] = { Value=64, Name=width, Group=None }
+    CollectedScalarParameters[2] = { Value=64, Name=height, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Models/Weapons/Arrow/T_Arrow.T_Arrow'
 }
-Expressions[0] = {}
+Expressions[3] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Models/Weapons/Arrow/M_Arrow_Simple.MaterialExpressionTextureSampleParameter2D_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,7 +29,15 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Models/Weapons/Arrow/T_Arrow.T_Arrow'
+        Name = Albedo
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None

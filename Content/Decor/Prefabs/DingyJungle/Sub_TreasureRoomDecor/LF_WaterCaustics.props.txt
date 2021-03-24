@@ -3,11 +3,16 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_LS_PGPanner.T_LS_PGPanner'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/LF_WaterCaustics_1.LF_WaterCaustics_1'
-    ReferencedTextures[2] = Texture2D'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/LF_WaterCaustics_2.LF_WaterCaustics_2'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/LF_WaterCaustics_1.LF_WaterCaustics_1'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/LF_WaterCaustics_2.LF_WaterCaustics_2'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_LS_PGPanner.T_LS_PGPanner'
 }
-Expressions[0] = {}
+Expressions[10] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/LF_WaterCaustics.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/LF_WaterCaustics.MaterialExpressionTextureSample_1'
+    Expressions[9] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_TreasureRoomDecor/LF_WaterCaustics.MaterialExpressionTextureSample_3'
+}
 CachedExpressionData =
 {
     Parameters =

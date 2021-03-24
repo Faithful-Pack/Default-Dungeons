@@ -3,10 +3,16 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/T_Geomancer_Bomb_E.T_Geomancer_Bomb_E'
-    ReferencedTextures[1] = Texture2D'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/T_Geomancer_Pillar_Bomb.T_Geomancer_Pillar_Bomb'
+    ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/T_Geomancer_Pillar_Bomb.T_Geomancer_Pillar_Bomb'
+    ReferencedTextures[1] = Texture2D'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/T_Geomancer_Bomb_E.T_Geomancer_Bomb_E'
 }
-Expressions[0] = {}
+Expressions[18] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/M_Geomancer_Pillar_Bomb.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/M_Geomancer_Pillar_Bomb.MaterialExpressionTextureSample_1'
+    Expressions[7] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/M_Geomancer_Pillar_Bomb.MaterialExpressionScalarParameter_0'
+    Expressions[16] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/Geomancer/GeomancerBomb/M_Geomancer_Pillar_Bomb.MaterialExpressionScalarParameter_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +34,11 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Power, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=Tempo, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

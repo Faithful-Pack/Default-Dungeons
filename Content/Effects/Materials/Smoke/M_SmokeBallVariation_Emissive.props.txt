@@ -5,7 +5,13 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Smoke/T_SmokeBallVariation.T_SmokeBallVariation'
 }
-Expressions[0] = {}
+Expressions[29] =
+{
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Smoke/M_SmokeBallVariation_Emissive.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[23] = MaterialExpressionScalarParameter'Effects/Materials/Smoke/M_SmokeBallVariation_Emissive.MaterialExpressionScalarParameter_0'
+    Expressions[24] = MaterialExpressionVectorParameter'Effects/Materials/Smoke/M_SmokeBallVariation_Emissive.MaterialExpressionVectorParameter_0'
+    Expressions[25] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Smoke/M_SmokeBallVariation_Emissive.MaterialExpressionStaticSwitchParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,11 +30,30 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Smoke/T_SmokeBallVariation.T_SmokeBallVariation'
+        Name = Smoke
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=NumberOfColumns, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.25, B=0, A=1 }
+        Name = UV
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -36,4 +61,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = T_SmokeBallVariation
+    }
+}

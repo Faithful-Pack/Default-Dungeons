@@ -5,7 +5,11 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Components/Enchantments/PotionFortification/T_PotionFortification_Icon.T_PotionFortification_Icon'
 }
-Expressions[0] = {}
+Expressions[14] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'UI/Materials/Inventory2/Enchantment2/EffectImage.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/Enchantment2/EffectImage.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +28,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=Flash, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

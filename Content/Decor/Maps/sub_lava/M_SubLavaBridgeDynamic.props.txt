@@ -1,16 +1,38 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[6] =
+ReferencedTextures[5] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Maps/sub_lava/T_LavaMaskTiled.T_LavaMaskTiled'
-    ReferencedTextures[1] = Texture2D'Decor/Maps/sub_lava/T_SM_BlockLava5x2.T_SM_BlockLava5x2'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_TilingNoise03.T_TilingNoise03'
     ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_OffsetGradientLeft.T_OffsetGradientLeft'
     ReferencedTextures[3] = Texture2D'Effects/Materials/Noise/T_OffsetGradientRight.T_OffsetGradientRight'
-    ReferencedTextures[4] = Texture2D'Effects/Materials/Noise/T_TilingNoise03.T_TilingNoise03'
-    ReferencedTextures[5] = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+    ReferencedTextures[4] = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
 }
-Expressions[0] = {}
+Expressions[124] =
+{
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[23] = MaterialExpressionTextureSample'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionTextureSample_3'
+    Expressions[28] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_2'
+    Expressions[51] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_4'
+    Expressions[55] = MaterialExpressionTextureSampleParameter2D'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[60] = MaterialExpressionVectorParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionVectorParameter_1'
+    Expressions[67] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_21'
+    Expressions[69] = MaterialExpressionTextureSample'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionTextureSample_4'
+    Expressions[71] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_22'
+    Expressions[73] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_23'
+    Expressions[77] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_24'
+    Expressions[83] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_25'
+    Expressions[84] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_26'
+    Expressions[87] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_27'
+    Expressions[97] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_30'
+    Expressions[98] = MaterialExpressionTextureSample'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionTextureSample_8'
+    Expressions[99] = MaterialExpressionTextureSample'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionTextureSample_9'
+    Expressions[114] = MaterialExpressionTextureSample'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionTextureSample_11'
+    Expressions[116] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_33'
+    Expressions[120] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_34'
+    Expressions[121] = MaterialExpressionScalarParameter'Decor/Maps/sub_lava/M_SubLavaBridgeDynamic.MaterialExpressionScalarParameter_36'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -31,9 +53,46 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Maps/sub_lava/T_SM_BlockLava5x2.T_SM_BlockLava5x2'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Maps/sub_lava/T_SM_BlockLava5x2.T_SM_BlockLava5x2'
+        Name = Texture
+        Group = Texture
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=112, Name=TextureSize, Group=None }
+    CollectedScalarParameters[1] = { Value=112, Name=TextureSize, Group=None }
+    CollectedScalarParameters[2] = { Value=0.8, Name=Length, Group=None }
+    CollectedScalarParameters[3] = { Value=0.760862, Name=FadeAmount, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=Power, Group=None }
+    CollectedScalarParameters[6] = { Value=6.4, Name=NoiseScale, Group=None }
+    CollectedScalarParameters[7] = { Value=2, Name=CenterBlockFromTop, Group=None }
+    CollectedScalarParameters[8] = { Value=112, Name=TextureSize, Group=None }
+    CollectedScalarParameters[9] = { Value=112, Name=TextureSize, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[11] = { Value=4, Name=EmissivePower, Group=None }
+    CollectedScalarParameters[12] = { Value=3.5, Name=CenterBlockFromSide, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.114583, G=0.076007, B=0.045356, A=0 }
+        Name = BurntColor
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -41,4 +100,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.21875
+        UVChannelIndex = 0
+        TextureName = T_Lava_16_spritesheet
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.75
+        UVChannelIndex = 0
+        TextureName = T_LavaMaskTiled
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SM_BlockLava5x2
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 7.3125
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

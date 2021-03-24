@@ -3,10 +3,14 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Skull/T_SkullSoul.T_SkullSoul'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Skull/T_SkullSoul.T_SkullSoul'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
-Expressions[0] = {}
+Expressions[8] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Effects/Materials/Skull/M_SkullSoul.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'Effects/Materials/Skull/M_SkullSoul.MaterialExpressionTextureSample_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +29,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

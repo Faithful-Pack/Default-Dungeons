@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
-Expressions[0] = {}
+Expressions[31] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_Storm.MaterialExpressionTextureSample_18'
+    Expressions[6] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_Storm.MaterialExpressionTextureSample_19'
+    Expressions[17] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_Storm.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +29,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

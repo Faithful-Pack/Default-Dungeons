@@ -7,7 +7,17 @@ ReferencedTextures[3] =
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/T_CreeperPillarLava.T_CreeperPillarLava'
     ReferencedTextures[2] = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
 }
-Expressions[0] = {}
+Expressions[42] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[28] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[31] = MaterialExpressionVectorParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionVectorParameter_0'
+    Expressions[34] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_6'
+    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_7'
+    Expressions[39] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_8'
+    Expressions[41] = MaterialExpressionScalarParameter'Decor/Prefabs/DingyJungle/Sub_Lava_FX/M_LavaCracks_Master.MaterialExpressionScalarParameter_9'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,9 +38,43 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/T_CreeperPillar.T_CreeperPillar'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/DingyJungle/Sub_Lava_FX/T_CreeperPillarLava.T_CreeperPillarLava'
+        Name = LavaMask(B&W)
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=BottomPower, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=BottomBoost, Group=None }
+    CollectedScalarParameters[2] = { Value=5, Name=LavaScale, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=EmissiveBoost, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.011612, G=0.007499, B=0.030713, A=1 }
+        Name = UniformColor
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -38,4 +82,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_CreeperPillar
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_CreeperPillarLava
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.15625
+        UVChannelIndex = 0
+        TextureName = T_Lava_16_spritesheet
+    }
+}

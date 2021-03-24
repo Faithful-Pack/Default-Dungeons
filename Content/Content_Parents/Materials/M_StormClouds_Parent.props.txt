@@ -6,7 +6,34 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
-Expressions[0] = {}
+Expressions[96] =
+{
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[5] = MaterialExpressionVectorParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionVectorParameter_2'
+    Expressions[7] = MaterialExpressionTextureSample'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionTextureSample_18'
+    Expressions[9] = MaterialExpressionTextureSample'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionTextureSample_19'
+    Expressions[18] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_0'
+    Expressions[19] = MaterialExpressionTextureSample'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionTextureSample_0'
+    Expressions[28] = MaterialExpressionTextureSample'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionTextureSample_1'
+    Expressions[32] = MaterialExpressionTextureSample'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionTextureSample_2'
+    Expressions[37] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_1'
+    Expressions[53] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_2'
+    Expressions[55] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_3'
+    Expressions[57] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_4'
+    Expressions[60] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_5'
+    Expressions[63] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_6'
+    Expressions[64] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_7'
+    Expressions[66] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_8'
+    Expressions[68] = MaterialExpressionStaticSwitchParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[70] = MaterialExpressionVectorParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionVectorParameter_0'
+    Expressions[75] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_9'
+    Expressions[76] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_10'
+    Expressions[77] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_11'
+    Expressions[85] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_12'
+    Expressions[89] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_13'
+    Expressions[91] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_14'
+    Expressions[93] = MaterialExpressionScalarParameter'Content_Parents/Materials/M_StormClouds_Parent.MaterialExpressionScalarParameter_15'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +52,43 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=PanSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=1200, Name=DepthFadeAlpha, Group=None }
+    CollectedScalarParameters[3] = { Value=1000, Name=Tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Storm_PixelSize, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Storm_PixelStr, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=PixelContrast, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=PixelPanSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=0.1, Name=PulseSpeed, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=DarkCloudColorMod, Group=None }
+    CollectedScalarParameters[10] = { Value=500, Name=ColorFade, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MasterOpacity, Group=None }
+    CollectedScalarParameters[12] = { Value=100, Name=WaveAmplitude, Group=None }
+    CollectedScalarParameters[13] = { Value=0.05, Name=WaveLengthX, Group=None }
+    CollectedScalarParameters[14] = { Value=0.09, Name=WaveSpeed, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=WaveLengthY, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.0865, B=0, A=1 }
+        Name = Color1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.078187, G=0.006512, B=0, A=1 }
+        Name = Color2
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -37,4 +96,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_Clouds_512
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = T_PixelNoise_32
+    }
+}

@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_GenericTrail_25.T_GenericTrail_25'
 }
-Expressions[0] = {}
+Expressions[9] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'Effects/Materials/Generic/M_GenericTrail_25.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

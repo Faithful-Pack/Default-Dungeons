@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/Loaders/redstone_Sheet2.redstone_Sheet2'
 }
-Expressions[0] = {}
+Expressions[9] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'UI/Materials/Loaders/RedstoneLoaderMat.MaterialExpressionTextureSampleParameter2D_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,9 +27,17 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UI/Materials/Loaders/redstone_Sheet2.redstone_Sheet2'
+        Name = Param
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None

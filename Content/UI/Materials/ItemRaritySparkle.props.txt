@@ -3,10 +3,49 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Textures/screenspec_text.screenspec_text'
-    ReferencedTextures[1] = Texture2D'UI/Materials/Inventory/T_InventorySparkleTexture.T_InventorySparkleTexture'
+    ReferencedTextures[0] = Texture2D'UI/Materials/Inventory/T_InventorySparkleTexture.T_InventorySparkleTexture'
+    ReferencedTextures[1] = Texture2D'Textures/screenspec_text.screenspec_text'
 }
-Expressions[0] = {}
+Expressions[110] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionVectorParameter_0'
+    Expressions[3] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_2'
+    Expressions[5] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_5'
+    Expressions[6] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_0'
+    Expressions[9] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_6'
+    Expressions[11] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_7'
+    Expressions[12] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_8'
+    Expressions[15] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_1'
+    Expressions[17] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_9'
+    Expressions[19] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_11'
+    Expressions[24] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_13'
+    Expressions[25] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_14'
+    Expressions[29] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_15'
+    Expressions[32] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_4'
+    Expressions[34] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_16'
+    Expressions[36] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_17'
+    Expressions[41] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_18'
+    Expressions[42] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_19'
+    Expressions[48] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_23'
+    Expressions[49] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_24'
+    Expressions[57] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_25'
+    Expressions[62] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_5'
+    Expressions[63] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_6'
+    Expressions[64] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_7'
+    Expressions[65] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_8'
+    Expressions[74] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_0'
+    Expressions[75] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_1'
+    Expressions[81] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_3'
+    Expressions[86] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_4'
+    Expressions[89] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_22'
+    Expressions[90] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_26'
+    Expressions[94] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_28'
+    Expressions[96] = MaterialExpressionTextureSample'UI/Materials/ItemRaritySparkle.MaterialExpressionTextureSample_3'
+    Expressions[99] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_29'
+    Expressions[100] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_30'
+    Expressions[102] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_32'
+    Expressions[104] = MaterialExpressionScalarParameter'UI/Materials/ItemRaritySparkle.MaterialExpressionScalarParameter_33'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +64,58 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[27] =
+{
+    CollectedScalarParameters[0] = { Value=0.63, Name=outline amount, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=SpeedY_Red, Group=None }
+    CollectedScalarParameters[2] = { Value=0.3, Name=CenterRadiusSphere, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=CenterHardnessSphere, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=SpeedX_Green, Group=None }
+    CollectedScalarParameters[5] = { Value=0.18, Name=SpeedY_Green, Group=None }
+    CollectedScalarParameters[6] = { Value=0.05, Name=Red_SinusTempo, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=Red_SinusVariation, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=SpeedX_Red, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=SpeedX_Blue, Group=None }
+    CollectedScalarParameters[10] = { Value=0.3, Name=SpeedY_Blue, Group=None }
+    CollectedScalarParameters[11] = { Value=0.05, Name=Green_SinusTempo, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.25
+        Name = Green_SinusVariation
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.4, Name=UpperRadiusSphere, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=UpperHardnessSphere, Group=None }
+    CollectedScalarParameters[15] = { Value=0.01, Name=BlurSampleOffset, Group=None }
+    CollectedScalarParameters[16] = { Value=0.15, Name=Blue_SinusTempo, Group=None }
+    CollectedScalarParameters[17] = { Value=0.15, Name=Blue_SinusVariation, Group=None }
+    CollectedScalarParameters[18] = { Value=2, Name=ImageHardnessSphere, Group=None }
+    CollectedScalarParameters[19] = { Value=0.25, Name=ImageOpacity, Group=None }
+    CollectedScalarParameters[20] = { Value=0.01, Name=Image_SinusTempo, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0.05
+        Name = Image_SinusVariation
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=0.3, Name=Image_OffsetTest, Group=None }
+    CollectedScalarParameters[23] = { Value=-0.2, Name=ShineY, Group=None }
+    CollectedScalarParameters[24] = { Value=-0.5, Name=ShineX, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=ShineMultiplier, Group=None }
+    CollectedScalarParameters[26] = { Value=0.13, Name=SmallOutline, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.071847, B=0.832167, A=1 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

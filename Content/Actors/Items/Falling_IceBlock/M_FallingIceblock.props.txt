@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Items/Falling_IceBlock/T_Falling_IceBlock.T_Falling_IceBlock'
 }
-Expressions[0] = {}
+Expressions[8] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Actors/Items/Falling_IceBlock/M_FallingIceblock.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -36,4 +39,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Falling_IceBlock
+    }
+}

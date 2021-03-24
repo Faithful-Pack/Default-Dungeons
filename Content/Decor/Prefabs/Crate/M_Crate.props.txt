@@ -5,7 +5,11 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Crate/T_Crate.T_Crate'
 }
-Expressions[0] = {}
+Expressions[5] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/Crate/M_Crate.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionVectorParameter'Decor/Prefabs/Crate/M_Crate.MaterialExpressionVectorParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +32,15 @@ BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.8, G=0.8, B=0.8, A=0 }
+        Name = None
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

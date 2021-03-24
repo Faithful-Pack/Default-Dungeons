@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/MissionSelectMap/background/sheets/minecarts_restone_8sprites.minecarts_restone_8sprites'
 }
-Expressions[0] = {}
+Expressions[9] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/sheets/FrameFlipbookImage.MaterialExpressionScalarParameter_0'
+    Expressions[3] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/sheets/FrameFlipbookImage.MaterialExpressionScalarParameter_1'
+    Expressions[6] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/sheets/FrameFlipbookImage.MaterialExpressionScalarParameter_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +29,15 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=rows, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=columns, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=frames, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

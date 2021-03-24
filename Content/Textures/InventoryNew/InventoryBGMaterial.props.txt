@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/UI/T_BG_gradient_transparency_black.T_BG_gradient_transparency_black'
 }
-Expressions[0] = {}
+Expressions[1] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Textures/InventoryNew/InventoryBGMaterial.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =

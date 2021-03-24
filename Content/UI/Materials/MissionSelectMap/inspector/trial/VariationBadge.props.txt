@@ -5,7 +5,13 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/Chests/asset_secretchest.asset_secretchest'
 }
-Expressions[0] = {}
+Expressions[21] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'UI/Materials/MissionSelectMap/inspector/trial/VariationBadge.MaterialExpressionTextureSample_1'
+    Expressions[4] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/inspector/trial/VariationBadge.MaterialExpressionScalarParameter_1'
+    Expressions[7] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/inspector/trial/VariationBadge.MaterialExpressionScalarParameter_2'
+    Expressions[18] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/inspector/trial/VariationBadge.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +30,15 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_AlphaComposite (5)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=highlight, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Shine, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=StartTime, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

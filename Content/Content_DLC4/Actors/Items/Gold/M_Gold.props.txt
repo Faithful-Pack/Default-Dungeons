@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC4/Actors/Items/Gold/T_GoldPickup.T_GoldPickup'
 }
-Expressions[0] = {}
+Expressions[2] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_DLC4/Actors/Items/Gold/M_Gold.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -36,4 +39,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GoldPickup
+    }
+}

@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_mysteriousShapedCircle.T_MysteriousShapedCircle'
 }
-Expressions[0] = {}
+Expressions[7] =
+{
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Generic/M_mysteriousShapedCircle.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Generic/M_mysteriousShapedCircle.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[6] = MaterialExpressionScalarParameter'Effects/Materials/Generic/M_mysteriousShapedCircle.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +29,21 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Generic/T_mysteriousShapedCircle.T_MysteriousShapedCircle'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=None, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

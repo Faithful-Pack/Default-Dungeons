@@ -2,7 +2,10 @@ TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] = { Texture2D'Decor/Prefabs/Tent/T_Tent.T_Tent' }
-Expressions[0] = {}
+Expressions[4] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/Tent/M_Tent.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -21,7 +24,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

@@ -5,7 +5,16 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/Mushrooms/T_FFJ_CloudPanner.T_FFJ_CloudPanner'
 }
-Expressions[0] = {}
+Expressions[20] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_IS_05_2.MaterialExpressionVectorParameter_0'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_IS_05_2.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_IS_05_2.MaterialExpressionScalarParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_IS_05_2.MaterialExpressionScalarParameter_1'
+    Expressions[10] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_IS_05_2.MaterialExpressionTextureSample_0'
+    Expressions[14] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_IS_05_2.MaterialExpressionScalarParameter_2'
+    Expressions[18] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/M_MeshDepthBlend_LS_IS_05_2.MaterialExpressionScalarParameter_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,11 +33,25 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=2813.08, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[1] = { Value=400, Name=Cutoff, Group=None }
+    CollectedScalarParameters[2] = { Value=400, Name=Tiling, Group=None }
+    CollectedScalarParameters[3] = { Value=0.01, Name=Speed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.057977, G=0.147804, B=0.216146, A=1 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

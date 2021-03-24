@@ -1,13 +1,57 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[3] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Illagers/ArchVessel/T_ArchIllagerAvatarSpace.T_ArchIllagerAvatarSpace'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Fire/FireBlock/T_FireBlock1x1.T_FireBlock1x1'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[2] = Texture2D'Effects/Materials/Fire/FireBlock/T_FireBlock1x1.T_FireBlock1x1'
 }
-Expressions[0] = {}
+Expressions[128] =
+{
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[8] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionTextureSample_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_1'
+    Expressions[12] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_2'
+    Expressions[15] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionTextureSample_1'
+    Expressions[18] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_3'
+    Expressions[19] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_4'
+    Expressions[23] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_5'
+    Expressions[25] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_7'
+    Expressions[27] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionTextureSample_2'
+    Expressions[30] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_12'
+    Expressions[31] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_13'
+    Expressions[34] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionVectorParameter_3'
+    Expressions[35] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_14'
+    Expressions[37] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionTextureSample_3'
+    Expressions[39] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_15'
+    Expressions[40] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_16'
+    Expressions[43] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_17'
+    Expressions[55] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_11'
+    Expressions[56] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_18'
+    Expressions[57] = MaterialExpressionStaticSwitchParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[58] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_19'
+    Expressions[59] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_6'
+    Expressions[60] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionTextureSample_4'
+    Expressions[63] = MaterialExpressionStaticSwitchParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[65] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionTextureSample_5'
+    Expressions[86] = MaterialExpressionStaticSwitchParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[89] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_0'
+    Expressions[90] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_8'
+    Expressions[97] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_21'
+    Expressions[99] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_23'
+    Expressions[100] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_24'
+    Expressions[105] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_25'
+    Expressions[106] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_26'
+    Expressions[107] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_28'
+    Expressions[108] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_29'
+    Expressions[109] = MaterialExpressionStaticSwitchParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[113] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_9'
+    Expressions[115] = MaterialExpressionStaticSwitchParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[116] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_10'
+    Expressions[121] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionTextureSample_6'
+    Expressions[122] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchVessel/M_ArchIllagerAvatarSpace.MaterialExpressionScalarParameter_20'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,11 +70,49 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[28] =
+{
+    CollectedScalarParameters[0] = { Value=0.0625, Name=RedSpeedX, Group=None }
+    CollectedScalarParameters[1] = { Value=0.0625, Name=RedSpeedY, Group=None }
+    CollectedScalarParameters[2] = { Value=0.05, Name=GreenSpeedX, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.002, Name=GreenSpeedY, Group=None }
+    CollectedScalarParameters[4] = { Value=7, Name=GreenPower, Group=None }
+    CollectedScalarParameters[5] = { Value=4, Name=RedPower, Group=None }
+    CollectedScalarParameters[6] = { Value=0.04, Name=BlueSpeedX, Group=None }
+    CollectedScalarParameters[7] = { Value=0.004, Name=BlueSpeedY, Group=None }
+    CollectedScalarParameters[8] = { Value=7, Name=BluePower, Group=None }
+    CollectedScalarParameters[9] = { Value=0.25, Name=CloudSpeedY, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=CloudSpeedX, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=CloudFade, Group=None }
+    CollectedScalarParameters[12] = { Value=3, Name=GradientFalloff, Group=None }
+    CollectedScalarParameters[13] = { Value=0.5, Name=GradientOffsetX, Group=None }
+    CollectedScalarParameters[14] = { Value=-0.5, Name=GradientOffsetY, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=ClampMin, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=AllPower, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=SpeedMaster, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=EnderfireScaleX, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=CloudSizeX, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=CloudSizeY, Group=None }
+    CollectedScalarParameters[21] = { Value=32, Name=CeilMultiply, Group=None }
+    CollectedScalarParameters[22] = { Value=32, Name=CeilDivide, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=FinalClampMin, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=FinalClampMax, Group=None }
+    CollectedScalarParameters[25] = { Value=0.9, Name=CeilReverseAdd, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=CloudFadeMultiplier, Group=None }
+    CollectedScalarParameters[27] = { Value=12, Name=Wind, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.939106, G=0, B=1, A=1 }
+        Name = AllColors
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

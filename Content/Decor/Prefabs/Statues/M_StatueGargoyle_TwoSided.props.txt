@@ -1,11 +1,14 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Statues/T_Gargoyle_Statue.T_Gargoyle_Statue'
 }
-Expressions[0] = {}
+Expressions[3] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/Statues/M_StatueGargoyle_TwoSided.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

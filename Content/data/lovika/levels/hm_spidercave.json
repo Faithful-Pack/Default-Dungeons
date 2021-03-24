@@ -12,7 +12,8 @@
     "dimension": "overworld",
     "initial-dungeons": [
         "hm_spidercave01",
-        "hm_spidercave02"
+        "hm_spidercave02",
+        "hm_spidercave03"
     ],
     "resource-packs": [
         "CreeperWoods"
@@ -33,13 +34,15 @@
             "name": "name_spidercave",
             "description": "description_find_nest",
             "displayMode": "MainObjective",
+            "optional": true,
             "gauntlet": {
-                "end-region": "spidergate.*.spidergategauntlet"
+                "end-region": "spiderarena.*.arenastart"
             }
         },
         {
             "name": "name_spidercave",
             "description": "description_survive",
+            "optional": true,
             "consider-tiles": "all",
             "arena": {
                 "stretch": "spiderarena",
@@ -71,6 +74,7 @@
         {
             "name": "name_spidercave",
             "description": "description_destroy",
+            "optional": true,
             "displayMode": "MainObjective",
             "consider-tiles": "all",
             "click": {
@@ -510,6 +514,32 @@
                     "weight": 1
                 }
             ]
+        },
+        {
+            "#": "============== Evoker ==============",
+            "id": "evoker-spiderarena",
+            "types": [
+                {
+                    "type": "evoker",
+                    "max%": 0.1
+                },
+                {
+                    "type": "creeper",
+                    "max%": 0.3
+                },
+                {
+                    "type": "cavespider",
+                    "max%": 0.3
+                },
+                {
+                    "type": "spider",
+                    "max%": 0.3
+                }
+            ],
+            "pick-types": [
+                4,
+                4
+            ]
         }
     ],
     "object-groups": [
@@ -529,12 +559,27 @@
             ]
         },
         {
+            "id": "cwcave_spider_tile08",
+            "challenges": [
+                "arenaboss_clicky"
+            ]
+        },
+        {
+            "id": "cwcave_spider_tile09",
+            "challenges": [
+                "arenaboss_clicky"
+            ]
+        },
+        {
             "id": "cwcave_elevator01",
             "entry-door": "enter"
         },
         {
             "id": "cwcave_elevator02",
-            "entry-door": "enter"
+            "entry-door": "enter",
+            "challenges": [
+                "arenaboss_clicky"
+            ]
         },
         {
             "id": "cwcave_elevator03",
@@ -547,6 +592,29 @@
         {
             "id": "cwcave_spiderconnector02",
             "entry-door": "enter"
+        },
+        {
+            "id": "reverse@cwcave_elevator01",
+            "entry-door": "exit"
+        },
+        {
+            "id": "reverse@cwcave_elevator02",
+            "entry-door": "exit",
+            "challenges": [
+                "arenaboss_clicky"
+            ]
+        },
+        {
+            "id": "reverse@cwcave_elevator03",
+            "entry-door": "exit"
+        },
+        {
+            "id": "reverse@cwcave_spiderconnector01",
+            "entry-door": "exit"
+        },
+        {
+            "id": "reverse@cwcave_spiderconnector02",
+            "entry-door": "exit"
         },
         {
             "id": "cwcave_exitconnector01",
@@ -671,6 +739,36 @@
                         "@hyperdungeon"
                     ]
                 }
+            ]
+        },
+        {
+            "id": "hmfromnone@cwcave_lowstart01",
+            "unlock-keys": [
+                "hm_from_none"
+            ]
+        },
+        {
+            "id": "hmfromnether@cwcave_lowstart01",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_SpiderCave"
+                }
+            ],
+            "unlock-keys": [
+                "hm_from_nether"
+            ]
+        },
+        {
+            "id": "hmfromoverworld@cwcave_lowstart01",
+            "teleports": [
+                {
+                    "door": "portal",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/NetherPortals/BP_NetherPortal_SpiderCave"
+                }
+            ],
+            "unlock-keys": [
+                "hm_from_overworld"
             ]
         },
         {
@@ -905,6 +1003,14 @@
     "prop-groups": [],
     "tile-groups": [
         {
+            "id": "hm_entrance_low",
+            "tiles": [
+                "hmfromnone@cwcave_lowstart01",
+                "hmfromnether@cwcave_lowstart01",
+                "hmfromoverworld@cwcave_lowstart01"
+            ]
+        },
+        {
             "id": "cave_stretch",
             "tiles": [
                 "cwcave_spider_tile01",
@@ -917,6 +1023,12 @@
                 "cwcave_spider_tile08",
                 "cwcave_spider_tile09",
                 "cwcave_spider_tile10"
+            ]
+        },
+        {
+            "id": "cavetiles",
+            "tiles": [
+                "cwcave_merged_entrance01"
             ]
         },
         {
@@ -955,7 +1067,7 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 1.5,
+                "interval": 15,
                 "rest-interval": 0,
                 "start-time": 2,
                 "prespawn-mob": "",
@@ -975,6 +1087,40 @@
                     [
                         2,
                         "spidercave-arena"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "arenaboss_clicky",
+            "trigger-object": "Content_DLC4/Decor/Prefab/Functional/Interactables/SpiderEgg/BP_SpiderEgg",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 100,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        2,
+                        "spidercave-arena"
+                    ],
+                    [
+                        4,
+                        "spidercave-arena"
+                    ],
+                    [
+                        4,
+                        "spidercave-arena"
+                    ],
+                    [
+                        10,
+                        "evoker-spiderarena"
                     ]
                 ],
                 "gate": null
@@ -1396,6 +1542,215 @@
                             ]
                         }
                     }
+                },
+                {
+                    "tiles": [
+                        "cwcave_exitconnector01",
+                        "cwcave_exitconnector02",
+                        "cwcave_exitconnector03",
+                        "cwcave_exitconnector04"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "hm_exit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hm_spidercave03",
+            "ambience": "default",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tile-groups": [
+                        "hm_entrance_low"
+                    ],
+                    "mobs": {
+                        "only": [
+                            "spiders"
+                        ]
+                    },
+                    "dead-ends": [
+                        {
+                            "id": "cwcave_deadend_entrance01",
+                            "weight": 0.01
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance04",
+                            "weight": 10
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance05",
+                            "weight": 10
+                        },
+                        "cwcave_spider_deadend01",
+                        "cwcave_spider_deadend02",
+                        "cwcave_spider_deadend03",
+                        "cwcave_spider_deadend04",
+                        "cwcave_spider_deadend05",
+                        "sc_bat_achievement"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                2
+                            ],
+                            "dead-ends": [
+                                {
+                                    "id": "cwcave_deadend_entrance01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance04",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance05",
+                                    "weight": 10
+                                }
+                            ],
+                            "tile-groups": [
+                                "cave_stretch",
+                                {
+                                    "id": "cavetiles",
+                                    "weight": 0.8
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        "reverse@cwcave_spiderconnector01",
+                        "reverse@cwcave_spiderconnector02"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "reverse@cwcave_elevator01",
+                        "reverse@cwcave_elevator02",
+                        "reverse@cwcave_elevator03"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cwcave_creeper_tile01",
+                        "cwcave_creeper_tile02",
+                        "cwcave_creeper_tile03",
+                        "cwcave_creeper_tile04"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cwcave_elevator01",
+                        "cwcave_elevator02",
+                        "cwcave_elevator03"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cwcave_spiderconnector01",
+                        "cwcave_spiderconnector02"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "cave_stretch"
+                    ],
+                    "length": 1
+                },
+                {
+                    "tiles": [
+                        "cwcave_cross01"
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "cwcave_deadend_entrance01",
+                            "weight": 10
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance02",
+                            "weight": 10
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance03",
+                            "weight": 10
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance04",
+                            "weight": 10
+                        },
+                        {
+                            "id": "cwcave_deadend_entrance05",
+                            "weight": 10
+                        },
+                        "cwcave_spider_deadend01",
+                        "cwcave_spider_deadend02",
+                        "cwcave_spider_deadend03",
+                        "cwcave_spider_deadend04",
+                        "cwcave_spider_deadend05",
+                        "sc_bat_achievement"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                1
+                            ],
+                            "dead-ends": [
+                                {
+                                    "id": "cwcave_deadend_entrance01",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance02",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance03",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance04",
+                                    "weight": 10
+                                },
+                                {
+                                    "id": "cwcave_deadend_entrance05",
+                                    "weight": 10
+                                }
+                            ],
+                            "tiles": [
+                                "cwcave_merged_entrance01"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "cave_stretch"
+                    ],
+                    "length": 2
                 },
                 {
                     "tiles": [

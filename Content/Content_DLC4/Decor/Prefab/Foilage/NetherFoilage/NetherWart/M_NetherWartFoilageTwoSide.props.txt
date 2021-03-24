@@ -1,13 +1,28 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/T_NetherWart.T_NetherWart'
-    ReferencedTextures[1] = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/T_NetherWart_E.T_NetherWart_E'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
-Expressions[0] = {}
+Expressions[65] =
+{
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[11] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionScalarParameter_7'
+    Expressions[14] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[16] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionScalarParameter_1'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[18] = MaterialExpressionTextureSample'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionTextureSample_8'
+    Expressions[25] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionScalarParameter_2'
+    Expressions[30] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionScalarParameter_4'
+    Expressions[37] = MaterialExpressionTextureSample'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionTextureSample_3'
+    Expressions[40] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[48] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionScalarParameter_0'
+    Expressions[51] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionScalarParameter_9'
+    Expressions[54] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionScalarParameter_3'
+    Expressions[59] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_NetherWartFoilageTwoSide.MaterialExpressionStaticSwitchParameter_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,10 +41,33 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/T_NetherWart.T_NetherWart'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/T_NetherWart_E.T_NetherWart_E'
+        Name = Emissive
+        Group = Emissive
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=500, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=PanSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=VOffset, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=InEditorOverride, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=OpacityOverride, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -38,4 +76,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NetherWart
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NetherWart_E
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_PixelNoise_32
+    }
+}

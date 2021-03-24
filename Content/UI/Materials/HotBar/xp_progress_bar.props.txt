@@ -6,7 +6,12 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'UI/Materials/HotBar/xp_color.xp_color'
     ReferencedTextures[1] = Texture2D'UI/Materials/HotBar/xp_mask.xp_mask'
 }
-Expressions[0] = {}
+Expressions[13] =
+{
+    Expressions[1] = MaterialExpressionScalarParameter'UI/Materials/HotBar/xp_progress_bar.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar/xp_progress_bar.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar/xp_progress_bar.MaterialExpressionTextureSampleParameter2D_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,10 +30,27 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UI/Materials/HotBar/xp_color.xp_color'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'UI/Materials/HotBar/xp_mask.xp_mask'
+        Name = Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.75, Name=Progress, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

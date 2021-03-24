@@ -7,7 +7,21 @@ ReferencedTextures[3] =
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_128.T_Clouds_128'
     ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_HF_128.T_Clouds_HF_128'
 }
-Expressions[0] = {}
+Expressions[49] =
+{
+    Expressions[5] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_2'
+    Expressions[11] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_3'
+    Expressions[25] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_4'
+    Expressions[28] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_5'
+    Expressions[30] = MaterialExpressionVectorParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionVectorParameter_0'
+    Expressions[34] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_7'
+    Expressions[35] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_8'
+    Expressions[43] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[45] = MaterialExpressionVectorParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionVectorParameter_1'
+    Expressions[47] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_1'
+    Expressions[48] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_NetherPortalRay.MaterialExpressionScalarParameter_6'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,11 +40,36 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=VertexPow, Group=None }
+    CollectedScalarParameters[1] = { Value=0.308487, Name=FlowSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=FlowMapIntensity, Group=None }
+    CollectedScalarParameters[3] = { Value=1.15322, Name=Pow, Group=None }
+    CollectedScalarParameters[4] = { Value=20, Name=Emissive, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=InnerDirection, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=InnerPow, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Radius, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Density, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.394297, G=0.020833, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=0, B=0, A=0 }
+        Name = RadialCenter
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -38,4 +77,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = flowmap_netherportal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Clouds_128
+    }
+}

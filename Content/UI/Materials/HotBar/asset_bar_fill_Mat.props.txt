@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/HotBar/asset_bar_fill.asset_bar_fill'
 }
-Expressions[0] = {}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionScalarParameter'UI/Materials/HotBar/asset_bar_fill_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[5] = MaterialExpressionTextureSample'UI/Materials/HotBar/asset_bar_fill_Mat.MaterialExpressionTextureSample_1'
+    Expressions[6] = MaterialExpressionTextureSample'UI/Materials/HotBar/asset_bar_fill_Mat.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +29,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Fill, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

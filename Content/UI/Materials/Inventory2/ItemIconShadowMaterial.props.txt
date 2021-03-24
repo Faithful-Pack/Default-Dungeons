@@ -5,7 +5,11 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_Steel_Icon.T_Sword_Steel_Icon'
 }
-Expressions[0] = {}
+Expressions[5] =
+{
+    Expressions[2] = MaterialExpressionVectorParameter'UI/Materials/Inventory2/ItemIconShadowMaterial.MaterialExpressionVectorParameter_0'
+    Expressions[3] = MaterialExpressionTextureSample'UI/Materials/Inventory2/ItemIconShadowMaterial.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,11 +28,19 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.008568, G=0.007499, B=0.009134, A=1 }
+        Name = tint
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

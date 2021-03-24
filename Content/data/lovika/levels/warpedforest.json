@@ -101,9 +101,16 @@
                     "*.wf_l_fork_02.goldgate"
                 ],
                 "key-locations": [
-                    "*.wf_s_deadend_01.goldkey"
+                    "*.wf_l_fork_02.goldkey"
                 ],
-                "key-type": "gold"
+                "key-type": "gold",
+                "mobs": [
+                    4,
+                    "warped-ambush"
+                ],
+                "spawn-regions": [
+                    "*.*.keydefender"
+                ]
             }
         },
         {
@@ -174,141 +181,6 @@
                 "locations": [
                     "endstretch.*.endgate"
                 ]
-            }
-        }
-    ],
-    "challenges": [
-        {
-            "id": "cavearena",
-            "trigger": "*.wf_l_straight_02.challenge",
-            "reward": {
-                "region": "*.wf_l_straight_02.treasure",
-                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
-            },
-            "arena": {
-                "stretch": "path_end",
-                "interval": 5,
-                "rest-interval": 1,
-                "start-time": 1,
-                "prespawn-mob": "",
-                "waves": [
-                    [
-                        6,
-                        "warped-fort"
-                    ],
-                    [
-                        5,
-                        "warped-fort"
-                    ],
-                    [
-                        7,
-                        "warped-fort"
-                    ],
-                    [
-                        5,
-                        "warped-fort"
-                    ],
-                    [
-                        7,
-                        "warped-fort"
-                    ],
-                    [
-                        7,
-                        "warped-fort"
-                    ],
-                    [
-                        11,
-                        "warped-fort"
-                    ]
-                ],
-                "gate": {
-                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
-                    "start-unlocked": true
-                }
-            }
-        },
-        {
-            "id": "zombiearena",
-            "trigger": "*.wf_l_curve_02.challenge",
-            "reward": {
-                "region": "*.wf_l_curve_02.treasure",
-                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
-            },
-            "arena": {
-                "stretch": "zarena",
-                "interval": 5,
-                "rest-interval": 1,
-                "start-time": 1,
-                "prespawn-mob": "",
-                "waves": [
-                    [
-                        6,
-                        "warped-zombiehord"
-                    ],
-                    [
-                        5,
-                        "warped-zombiehord"
-                    ],
-                    [
-                        7,
-                        "warped-zombiehord"
-                    ],
-                    [
-                        5,
-                        "warped-zombiehord"
-                    ],
-                    [
-                        7,
-                        "warped-zombiehord"
-                    ],
-                    [
-                        7,
-                        "warped-zombiehord"
-                    ],
-                    [
-                        11,
-                        "warped-zombiehord"
-                    ]
-                ],
-                "gate": {
-                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
-                    "start-unlocked": true
-                }
-            }
-        },
-        {
-            "id": "keyarena",
-            "trigger": "*.wf_l_fork_02_p2.keychallenge",
-            "arena": {
-                "stretch": "objective_final",
-                "interval": 3,
-                "rest-interval": 0.5,
-                "start-time": 0.5,
-                "prespawn-mob": "",
-                "has-music": false,
-                "waves": [
-                    [
-                        5,
-                        "warped-ambush"
-                    ],
-                    [
-                        4,
-                        "warped-ambush"
-                    ],
-                    [
-                        3,
-                        "warped-ambush"
-                    ],
-                    [
-                        6,
-                        "warped-ambush"
-                    ],
-                    [
-                        3,
-                        "warped-ambush"
-                    ]
-                ],
-                "gate": null
             }
         }
     ],
@@ -1001,22 +873,7 @@
                 "wf_m_island_03",
                 "wf_m_island_04"
             ],
-            "length": 1,
-            "side-paths": {
-                "probability": 1,
-                "default": {
-                    "max-length": [
-                        1,
-                        1
-                    ],
-                    "tile-groups": [
-                        "wf_end_sidepath"
-                    ],
-                    "dead-ends": [
-                        "wf_s_deadend_01"
-                    ]
-                }
-            }
+            "length": 1
         },
         {
             "id": "endstretch",
@@ -1298,7 +1155,8 @@
         }
     ],
     "object-groups": [
-        "WarpedForest/objectgroup"
+        "WarpedForest/objectgroup",
+        "hm_warpedforest/objectgroup"
     ],
     "props": [
         {
@@ -1591,16 +1449,82 @@
             ]
         },
         {
+            "id": "wf_hyperdungeon_01",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_hyperdungeon_02",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_hyperdungeon_03",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wf_hyperdungeon_04",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor_Flipped",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                }
+            ]
+        },
+        {
             "id": "wf_l_fork_02",
             "entry-door": "enter",
             "exit-door": "exit",
+            "challenges": [
+                "keyarena"
+            ],
             "rotations": [
                 0
             ]
         },
         {
             "id": "wf_l_fork_02_p2",
-            "entry-door": "enter",
             "rotations": [
                 0
             ],
@@ -1848,6 +1772,22 @@
                 {
                     "id": "wf_m_deadend_01",
                     "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_01",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_02",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_03",
+                    "weight": 1
+                },
+                {
+                    "id": "wf_hyperdungeon_04",
+                    "weight": 1
                 }
             ]
         }
@@ -2068,6 +2008,156 @@
                 "wf_portal_01",
                 "wf_portal_02"
             ]
+        }
+    ],
+    "challenges": [
+        {
+            "id": "cavearena",
+            "trigger": "*.wf_l_straight_02.challenge",
+            "reward": {
+                "region": "*.wf_l_straight_02.treasure",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "path_end",
+                "interval": 5,
+                "rest-interval": 1,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "warped-fort"
+                    ],
+                    [
+                        5,
+                        "warped-fort"
+                    ],
+                    [
+                        7,
+                        "warped-fort"
+                    ],
+                    [
+                        5,
+                        "warped-fort"
+                    ],
+                    [
+                        7,
+                        "warped-fort"
+                    ],
+                    [
+                        7,
+                        "warped-fort"
+                    ],
+                    [
+                        11,
+                        "warped-fort"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "zombiearena",
+            "trigger": "*.wf_l_curve_02.challenge",
+            "reward": {
+                "region": "*.wf_l_curve_02.treasure",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "zarena",
+                "interval": 5,
+                "rest-interval": 1,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        5,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        7,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        5,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        7,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        7,
+                        "warped-zombiehord"
+                    ],
+                    [
+                        11,
+                        "warped-zombiehord"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/BlackstoneGate/BP_BlackstoneGate",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "keyarena",
+            "trigger": "*.*.keychallenge",
+            "arena": {
+                "stretch": "*",
+                "interval": 20,
+                "rest-interval": 0.1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "has-music": false,
+                "waves": [
+                    {
+                        "groups": [
+                            "warped-ambush"
+                        ],
+                        "count": 5,
+                        "spawn-at-region": "*.*.keyarena"
+                    },
+                    {
+                        "groups": [
+                            "warped-ambush"
+                        ],
+                        "count": 4,
+                        "spawn-at-region": "*.*.keyarena"
+                    },
+                    {
+                        "groups": [
+                            "warped-ambush"
+                        ],
+                        "count": 3,
+                        "spawn-at-region": "*.*.keyarena"
+                    },
+                    {
+                        "groups": [
+                            "warped-ambush"
+                        ],
+                        "count": 6,
+                        "spawn-at-region": "*.*.keyarena"
+                    },
+                    {
+                        "groups": [
+                            "warped-ambush"
+                        ],
+                        "count": 3,
+                        "spawn-at-region": "*.*.keyarena"
+                    }
+                ],
+                "gate": null
+            }
         }
     ]
 }

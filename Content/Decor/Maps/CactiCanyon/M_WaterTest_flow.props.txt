@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Maps/CactiCanyon/T_watertest.T_watertest'
 }
-Expressions[0] = {}
+Expressions[1] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Maps/CactiCanyon/M_WaterTest_flow.MaterialExpressionTextureSampleParameter2D_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,7 +29,15 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Maps/CactiCanyon/T_watertest.T_watertest'
+        Name = None
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None

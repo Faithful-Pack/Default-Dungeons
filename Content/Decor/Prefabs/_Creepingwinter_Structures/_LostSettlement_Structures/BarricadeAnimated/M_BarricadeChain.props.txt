@@ -1,4 +1,4 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
@@ -6,7 +6,12 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeAnimated/T_LS_AnimBaricade.T_LS_AnimBaricade'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeAnimated/T_LS_AnimBaricade_s.T_LS_AnimBaricade_s'
 }
-Expressions[0] = {}
+Expressions[6] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeAnimated/M_BarricadeChain.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeAnimated/M_BarricadeChain.MaterialExpressionTextureSample_1'
+    Expressions[5] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/BarricadeAnimated/M_BarricadeChain.MaterialExpressionVectorParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +30,19 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ChainSpeeds
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -37,4 +50,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LS_AnimBaricade
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LS_AnimBaricade_s
+    }
+}

@@ -5,7 +5,11 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Materials/T_Moon.T_Moon'
 }
-Expressions[0] = {}
+Expressions[6] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/Materials/M_Moon.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Decor/Prefabs/Materials/M_Moon.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +28,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=100, Name=Strength, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

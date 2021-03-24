@@ -7,7 +7,28 @@ ReferencedTextures[3] =
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/Window/Textures/T_BG_Candle002.T_BG_Candle002'
     ReferencedTextures[2] = Texture2D'Decor/Prefabs/Window/Textures/T_BG_Candle003.T_BG_Candle003'
 }
-Expressions[0] = {}
+Expressions[124] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Window/M_Paralax.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[21] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_5'
+    Expressions[22] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_6'
+    Expressions[23] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_7'
+    Expressions[26] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Window/M_Paralax.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/Window/M_Paralax.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[41] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_8'
+    Expressions[45] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_0'
+    Expressions[47] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_1'
+    Expressions[105] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_2'
+    Expressions[106] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_3'
+    Expressions[107] = MaterialExpressionVectorParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionVectorParameter_0'
+    Expressions[108] = MaterialExpressionVectorParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionVectorParameter_1'
+    Expressions[110] = MaterialExpressionVectorParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionVectorParameter_2'
+    Expressions[112] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_4'
+    Expressions[117] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_9'
+    Expressions[119] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_10'
+    Expressions[120] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_11'
+    Expressions[122] = MaterialExpressionScalarParameter'Decor/Prefabs/Window/M_Paralax.MaterialExpressionScalarParameter_12'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,11 +47,66 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/Window/Textures/T_BG_Candle001.T_BG_Candle001'
+        Name = Texture_1
+        Group = Texture
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/Window/Textures/T_BG_Candle002.T_BG_Candle002'
+        Name = Texture_2
+        Group = Texture
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Decor/Prefabs/Window/Textures/T_BG_Candle003.T_BG_Candle003'
+        Name = Texture_3
+        Group = Texture
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Layer1, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Layer2, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Layer3, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=TextureSize, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=AspectY, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=OffsetY, Group=None }
+    CollectedScalarParameters[6] = { Value=200, Name=Distance, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=LightIntensity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Emissive, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=Layer3Strength, Group=None }
+    CollectedScalarParameters[11] = { Value=0.75, Name=Layer2Strength, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Layer1Strength, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.109294, G=0.411458, B=0.117732, A=0 }
+        Name = ColorWindow
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.129859, G=0.635417, B=0.265188, A=0 }
+        Name = ColorWindowDepth
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.916667, G=0.738349, B=0.148003, A=0 }
+        Name = ColorLights
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

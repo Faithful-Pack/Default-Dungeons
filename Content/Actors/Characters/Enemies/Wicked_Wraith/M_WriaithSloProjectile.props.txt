@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[0] = {}
+Expressions[17] =
+{
+    Expressions[7] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Wicked_Wraith/M_WriaithSloProjectile.MaterialExpressionTextureSample_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Additive (3)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

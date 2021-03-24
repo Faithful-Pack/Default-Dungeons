@@ -1,13 +1,25 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC4/Decor/Materials/PropMaterials/T_SpiderSucculent.T_SpiderSucculent'
-    ReferencedTextures[1] = Texture2D'Content_DLC4/Decor/Materials/PropMaterials/T_SpiderSucculent_E.T_SpiderSucculent_E'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_128.T_Clouds_128'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_128.T_Clouds_128'
 }
-Expressions[0] = {}
+Expressions[62] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionScalarParameter_1'
+    Expressions[26] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionScalarParameter_3'
+    Expressions[27] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionScalarParameter_4'
+    Expressions[35] = MaterialExpressionTextureSample'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionTextureSample_0'
+    Expressions[38] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionScalarParameter_5'
+    Expressions[39] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionScalarParameter_6'
+    Expressions[41] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionScalarParameter_7'
+    Expressions[58] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Decor/Materials/PropMaterials/M_SpiderSucculent.MaterialExpressionStaticSwitchParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,10 +38,33 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC4/Decor/Materials/PropMaterials/T_SpiderSucculent.T_SpiderSucculent'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Content_DLC4/Decor/Materials/PropMaterials/T_SpiderSucculent_E.T_SpiderSucculent_E'
+        Name = Emissive
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Emissive, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=EmissiveDesat, Group=None }
+    CollectedScalarParameters[2] = { Value=0.05, Name=AnimationSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=0.01, Name=RandomTimeOffset, Group=None }
+    CollectedScalarParameters[4] = { Value=0.3, Name=WaveIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0.2, Name=WaveSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=50, Name=WaveEmissiveIntensity, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -38,4 +73,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Clouds_128
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SpiderSucculent
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SpiderSucculent_E
+    }
+}

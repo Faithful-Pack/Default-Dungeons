@@ -6,7 +6,11 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Effects/Meshes/TotemOfUndying/T_TotemOfUndying.T_TotemOfUndying'
     ReferencedTextures[1] = Texture2D'Effects/Meshes/TotemOfUndying/T_TotemOfUndying_E.T_TotemOfUndying_E'
 }
-Expressions[0] = {}
+Expressions[7] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Effects/Meshes/TotemOfUndying/M_TotemOfUndying.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'Effects/Meshes/TotemOfUndying/M_TotemOfUndying.MaterialExpressionTextureSample_1'
+}
 CachedExpressionData =
 {
     Parameters =

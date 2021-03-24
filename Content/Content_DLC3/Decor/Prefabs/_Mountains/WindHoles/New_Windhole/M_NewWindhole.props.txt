@@ -3,13 +3,21 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[5] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_AO.T_New_Windhole_AO'
-    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_Back.T_New_Windhole_Back'
-    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_Fan.T_New_Windhole_Fan'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_Mask.T_New_Windhole_Mask'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_AO.T_New_Windhole_AO'
+    ReferencedTextures[2] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_Back.T_New_Windhole_Back'
     ReferencedTextures[3] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_grate.T_New_Windhole_grate'
-    ReferencedTextures[4] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_Mask.T_New_Windhole_Mask'
+    ReferencedTextures[4] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/T_New_Windhole_Fan.T_New_Windhole_Fan'
 }
-Expressions[0] = {}
+Expressions[17] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/M_NewWindhole.MaterialExpressionTextureSample_3'
+    Expressions[4] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/M_NewWindhole.MaterialExpressionTextureSample_4'
+    Expressions[6] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/M_NewWindhole.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/M_NewWindhole.MaterialExpressionTextureSample_1'
+    Expressions[8] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/M_NewWindhole.MaterialExpressionTextureSample_2'
+    Expressions[14] = MaterialExpressionScalarParameter'Content_DLC3/Decor/Prefabs/_Mountains/WindHoles/New_Windhole/M_NewWindhole.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -31,7 +39,10 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=FanOpacity, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -40,4 +51,36 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_New_Windhole_AO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_New_Windhole_Back
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_New_Windhole_Fan
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_New_Windhole_grate
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_New_Windhole_Mask
+    }
+}

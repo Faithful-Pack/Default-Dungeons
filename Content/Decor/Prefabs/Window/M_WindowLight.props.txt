@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Window/Texture_Window.Texture_Window'
 }
-Expressions[0] = {}
+Expressions[3] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/Window/M_WindowLight.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =

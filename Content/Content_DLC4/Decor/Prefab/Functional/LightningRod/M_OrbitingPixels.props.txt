@@ -1,11 +1,23 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/RuneActivator/RuneCube/Assets/T_RuneCubeStars.T_RuneCubeStars'
 }
-Expressions[0] = {}
+Expressions[43] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionVectorParameter_1'
+    Expressions[19] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_8'
+    Expressions[21] = MaterialExpressionTextureSample'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionTextureSample_0'
+    Expressions[24] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_5'
+    Expressions[26] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_6'
+    Expressions[28] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_7'
+    Expressions[36] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_10'
+    Expressions[37] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_11'
+    Expressions[38] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_13'
+    Expressions[40] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Functional/LightningRod/M_OrbitingPixels.MaterialExpressionScalarParameter_17'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,11 +36,29 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=80, Name=SpinSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=StarPulse, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=0.6, Name=SpinFraction, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=BobSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=25, Name=BobDistance, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=BobOffset, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Alpha, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.963542, G=0.100369, B=0.819679, A=0 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -36,4 +66,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RuneCubeStars
+    }
+}

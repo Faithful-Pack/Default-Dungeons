@@ -5,7 +5,16 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/T_BabyGhast.T_BabyGhast'
 }
-Expressions[0] = {}
+Expressions[16] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[9] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.MaterialExpressionScalarParameter_1'
+    Expressions[11] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.MaterialExpressionScalarParameter_2'
+    Expressions[12] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.MaterialExpressionScalarParameter_3'
+    Expressions[13] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.MaterialExpressionScalarParameter_4'
+    Expressions[15] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.MaterialExpressionScalarParameter_5'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +33,26 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/T_BabyGhast.T_BabyGhast'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=TimeMultiplier, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=ValueMultiplier, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=Add, Group=None }
+    CollectedScalarParameters[3] = { Value=0.3, Name=ClampMin, Group=None }
+    CollectedScalarParameters[4] = { Value=0.6, Name=ClampMax, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Shy, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +61,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BabyGhast
+    }
+}

@@ -1,13 +1,26 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/T_WarpedRoots.T_WarpedRoots'
-    ReferencedTextures[1] = Texture2D'Decor/Maps/sub_lava/T_LavaMaskTiled.T_LavaMaskTiled'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_Clouds_HF_128.T_Clouds_HF_128'
+    ReferencedTextures[0] = Texture2D'Decor/Maps/sub_lava/T_LavaMaskTiled.T_LavaMaskTiled'
+    ReferencedTextures[1] = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/T_WarpedRoots.T_WarpedRoots'
 }
-Expressions[0] = {}
+Expressions[58] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_6'
+    Expressions[5] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_1'
+    Expressions[6] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionTextureSample'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionTextureSample_1'
+    Expressions[15] = MaterialExpressionVectorParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionVectorParameter_1'
+    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_13'
+    Expressions[31] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_19'
+    Expressions[32] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_26'
+    Expressions[46] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_29'
+    Expressions[49] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_30'
+    Expressions[57] = MaterialExpressionScalarParameter'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/NetherWart/M_WarpedRootsDecal.MaterialExpressionScalarParameter_35'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,11 +39,30 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DecalX, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DecalY, Group=None }
+    CollectedScalarParameters[2] = { Value=64, Name=TextureSize, Group=None }
+    CollectedScalarParameters[3] = { Value=0.25, Name=AnimSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=2.40937, Name=NoiseScale, Group=None }
+    CollectedScalarParameters[5] = { Value=0.144762, Name=SineOffset, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=RandomTimeOffset, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=EmissiveMultiply, Group=None }
+    CollectedScalarParameters[8] = { Value=0.6, Name=RadiusMax, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.292088, G=0.538025, B=0.822917, A=0 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

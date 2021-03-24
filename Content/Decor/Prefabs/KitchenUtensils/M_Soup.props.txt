@@ -1,4 +1,4 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
@@ -6,7 +6,12 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/KitchenUtensils/T_Soup.T_Soup'
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[0] = {}
+Expressions[18] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/KitchenUtensils/M_Soup.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionTextureSample'Decor/Prefabs/KitchenUtensils/M_Soup.MaterialExpressionTextureSample_1'
+    Expressions[15] = MaterialExpressionScalarParameter'Decor/Prefabs/KitchenUtensils/M_Soup.MaterialExpressionScalarParameter_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +33,10 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.15, Name=02 Wind Strenght, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

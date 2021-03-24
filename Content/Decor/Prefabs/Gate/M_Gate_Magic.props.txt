@@ -5,7 +5,13 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
-Expressions[0] = {}
+Expressions[26] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/Gate/M_Gate_Magic.MaterialExpressionTextureSample_18'
+    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/Gate/M_Gate_Magic.MaterialExpressionTextureSample_19'
+    Expressions[16] = MaterialExpressionTextureSample'Decor/Prefabs/Gate/M_Gate_Magic.MaterialExpressionTextureSample_2'
+    Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/Gate/M_Gate_Magic.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +30,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Additive (3)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

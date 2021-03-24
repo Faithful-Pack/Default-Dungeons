@@ -5,7 +5,11 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/T_IceArena.T_IceArena'
 }
-Expressions[0] = {}
+Expressions[5] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/M_Ice_arenaNAO.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortressStructure/IceArena/M_Ice_arenaNAO.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -27,7 +31,10 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=GlowAmount, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +43,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_IceArena
+    }
+}

@@ -3,10 +3,14 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/Materials/T_Logo.T_Logo'
-    ReferencedTextures[1] = Texture2D'UI/Materials/T_Logo.T_Logo'
+    ReferencedTextures[0] = Texture2D'UI/Materials/T_Logo.T_Logo'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/Materials/T_Logo.T_Logo'
 }
-Expressions[0] = {}
+Expressions[2] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'UI/Materials/M_Logo.MaterialExpressionTextureSample_1'
+    Expressions[1] = MaterialExpressionTextureSample'UI/Materials/M_Logo.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +29,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

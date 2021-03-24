@@ -5,7 +5,13 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_Radial_Gradient.T_Radial_Gradient'
 }
-Expressions[0] = {}
+Expressions[19] =
+{
+    Expressions[6] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Illagers/ArchIllager/M_SuperCube.MaterialExpressionTextureSample_1'
+    Expressions[15] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/Illagers/ArchIllager/M_SuperCube.MaterialExpressionVectorParameter_0'
+    Expressions[16] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/Illagers/ArchIllager/M_SuperCube.MaterialExpressionVectorParameter_1'
+    Expressions[17] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Illagers/ArchIllager/M_SuperCube.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -27,8 +33,25 @@ CachedExpressionData =
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Emission, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.464954, B=0, A=1 }
+        Name = CubeColor_1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=0, B=1.21347, A=1 }
+        Name = CubeColor_2
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

@@ -1,14 +1,23 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[4] =
 {
     ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Spider/VFX/T_Web.T_Web'
-    ReferencedTextures[1] = Texture2D'Actors/Characters/Enemies/Whisperer/Vine_Trap/T_Whisperer_Trap.T_Whisperer_Trap'
-    ReferencedTextures[2] = Texture2D'Actors/Characters/Enemies/Whisperer/Vine_Trap/T_Whisperer_Trap_A.T_Whisperer_Trap_A'
-    ReferencedTextures[3] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[2] = Texture2D'Actors/Characters/Enemies/Whisperer/Vine_Trap/T_Whisperer_Trap.T_Whisperer_Trap'
+    ReferencedTextures[3] = Texture2D'Actors/Characters/Enemies/Whisperer/Vine_Trap/T_Whisperer_Trap_A.T_Whisperer_Trap_A'
 }
-Expressions[0] = {}
+Expressions[23] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Whisperer/Vine_Trap/M_Whisperer_Trap.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Whisperer/Vine_Trap/M_Whisperer_Trap.MaterialExpressionScalarParameter_9'
+    Expressions[9] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/Whisperer/Vine_Trap/M_Whisperer_Trap.MaterialExpressionVectorParameter_4'
+    Expressions[12] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Whisperer/Vine_Trap/M_Whisperer_Trap.MaterialExpressionScalarParameter_10'
+    Expressions[18] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Whisperer/Vine_Trap/M_Whisperer_Trap.MaterialExpressionTextureSample_2'
+    Expressions[21] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Whisperer/Vine_Trap/M_Whisperer_Trap.MaterialExpressionTextureSample_1'
+    Expressions[22] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Whisperer/Vine_Trap/M_Whisperer_Trap.MaterialExpressionTextureSample_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -27,11 +36,23 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EmissiveBlendSize, Group=None }
+    CollectedScalarParameters[1] = { Value=15, Name=DissolvePower, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=25, G=6.51761, B=0, A=0 }
+        Name = DissolveColor
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -39,4 +60,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Whisperer_Trap_A
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Whisperer_Trap_A
+    }
+}

@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Gibs/T_GenericGibs_8.T_GenericGibs_8'
 }
-Expressions[0] = {}
+Expressions[4] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Effects/Materials/Gibs/M_GenericGibs_8_Lit.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}

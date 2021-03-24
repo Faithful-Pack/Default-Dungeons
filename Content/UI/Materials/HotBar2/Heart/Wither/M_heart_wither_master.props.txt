@@ -1,12 +1,20 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'UI/Materials/HotBar2/Heart/Wither/wither_Background.wither_Background'
-    ReferencedTextures[1] = Texture2D'UI/Materials/HotBar2/Heart/Wither/wither_top.wither_top'
+    ReferencedTextures[0] = Texture2D'UI/Materials/HotBar2/Heart/Wither/wither_top.wither_top'
 }
-Expressions[0] = {}
+Expressions[87] =
+{
+    Expressions[5] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/Wither/M_heart_wither_master.MaterialExpressionScalarParameter_1'
+    Expressions[28] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/Wither/M_heart_wither_master.MaterialExpressionScalarParameter_2'
+    Expressions[54] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar2/Heart/Wither/M_heart_wither_master.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[55] = MaterialExpressionTextureSampleParameter2D'UI/Materials/HotBar2/Heart/Wither/M_heart_wither_master.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[56] = MaterialExpressionTextureSample'UI/Materials/HotBar2/Heart/Wither/M_heart_wither_master.MaterialExpressionTextureSample_0'
+    Expressions[59] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/Wither/M_heart_wither_master.MaterialExpressionScalarParameter_0'
+    Expressions[67] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/Wither/M_heart_wither_master.MaterialExpressionScalarParameter_10'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,10 +33,30 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UI/Materials/HotBar2/Heart/Wither/wither_Background.wither_Background'
+        Name = FilledHeartTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'UI/Materials/HotBar2/Heart/Wither/wither_top.wither_top'
+        Name = TopTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.771429, Name=Health, Group=None }
+    CollectedScalarParameters[1] = { Value=0.133334, Name=HealthLast, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=AddStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=BottomFraction, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

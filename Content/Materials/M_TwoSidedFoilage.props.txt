@@ -1,11 +1,19 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/TwistedVine/T_TwistedVines.T_TwistedVines'
 }
-Expressions[0] = {}
+Expressions[22] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Materials/M_TwoSidedFoilage.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'Materials/M_TwoSidedFoilage.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[9] = MaterialExpressionScalarParameter'Materials/M_TwoSidedFoilage.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'Materials/M_TwoSidedFoilage.MaterialExpressionScalarParameter_1'
+    Expressions[18] = MaterialExpressionScalarParameter'Materials/M_TwoSidedFoilage.MaterialExpressionScalarParameter_4'
+    Expressions[19] = MaterialExpressionScalarParameter'Materials/M_TwoSidedFoilage.MaterialExpressionScalarParameter_5'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +32,30 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/TwistedVine/T_TwistedVines.T_TwistedVines'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Content_DLC4/Decor/Prefab/Foilage/NetherFoilage/TwistedVine/T_TwistedVines.T_TwistedVines'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=UVOffsetX, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=UVOffsetY, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=UVOffsetX, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=UVOffsetY, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +64,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TwistedVines
+    }
+}

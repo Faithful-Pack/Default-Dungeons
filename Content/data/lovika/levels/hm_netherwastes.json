@@ -2937,7 +2937,25 @@
                         "nw_decor_deadend06",
                         "nw_decor_deadend07"
                     ],
-                    "length": 2,
+                    "length": 3,
+                    "prop-groups": [
+                        "groundprop_a"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "nw_straightdip_a"
+                    ],
+                    "dead-ends": [
+                        "nw_decor_deadend01",
+                        "nw_decor_deadend02",
+                        "nw_decor_deadend03",
+                        "nw_decor_deadend04",
+                        "nw_decor_deadend05",
+                        "nw_decor_deadend06",
+                        "nw_decor_deadend07"
+                    ],
+                    "length": 1,
                     "prop-groups": [
                         "groundprop_a"
                     ]
@@ -2956,6 +2974,46 @@
                         "nw_decor_deadend07"
                     ],
                     "length": 1
+                },
+                {
+                    "tile-groups": [
+                        "nw_straight_b",
+                        "nw_turn_b"
+                    ],
+                    "dead-ends": [
+                        "nw_decor_deadend01",
+                        "nw_decor_deadend02",
+                        "nw_decor_deadend03",
+                        "nw_decor_deadend04",
+                        "nw_decor_deadend05",
+                        "nw_decor_deadend06",
+                        "nw_decor_deadend07"
+                    ],
+                    "length": 1,
+                    "mobs": {
+                        "only": [
+                            "netherwastes_fortress"
+                        ]
+                    }
+                },
+                {
+                    "tile-groups": [
+                        "nw_turnentrance_b",
+                        "nw_straightentrance_b"
+                    ],
+                    "dead-ends": [
+                        "nw_decor_deadend01",
+                        "nw_decor_deadend02",
+                        "nw_decor_deadend03",
+                        "nw_decor_deadend04",
+                        "nw_decor_deadend05",
+                        "nw_decor_deadend06",
+                        "nw_decor_deadend07"
+                    ],
+                    "length": 1,
+                    "mobs": {
+                        "density": 1.5
+                    }
                 },
                 {
                     "tile-groups": [
@@ -2983,7 +3041,7 @@
                         "nw_decorlower02",
                         "nw_decorlower03"
                     ],
-                    "length": 3,
+                    "length": 4,
                     "mobs": {
                         "only": [
                             "netherwastes_fortress"
@@ -3049,10 +3107,50 @@
                     ]
                 },
                 {
+                    "tiles": [
+                        "nw_endtransition_a01"
+                    ]
+                },
+                {
+                    "tile-groups": [
+                        "nw_straight_a",
+                        {
+                            "id": "nw_straightdip_a",
+                            "weight": 0.1
+                        }
+                    ],
+                    "dead-ends": [
+                        "nw_decor_deadend01",
+                        "nw_decor_deadend02",
+                        "nw_decor_deadend03",
+                        "nw_decor_deadend04",
+                        "nw_decor_deadend05",
+                        "nw_decor_deadend06",
+                        "nw_decor_deadend07"
+                    ],
+                    "length": 1,
+                    "prop-groups": [
+                        "groundprop_a"
+                    ],
+                    "mobs": {
+                        "density": 1.7
+                    }
+                },
+                {
+                    "tiles": [
+                        "nw_endtransition_a01"
+                    ]
+                },
+                {
                     "id": "fortress",
                     "tiles": [
                         "alt1@nw_mainfortress01",
                         "alt2@nw_mainfortress01"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
@@ -3685,7 +3783,7 @@
         },
         {
             "id": "hm_netherwastes01",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -3898,14 +3996,14 @@
                 },
                 {
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
         },
         {
             "id": "hm_netherwastes02",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -4066,14 +4164,14 @@
                 },
                 {
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
         },
         {
             "id": "hm_netherwastes03",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -4262,14 +4360,14 @@
                 },
                 {
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
         },
         {
             "id": "hm_netherwastes04",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -4338,14 +4436,14 @@
                 },
                 {
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
         },
         {
             "id": "hm_netherwastes05",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -4493,14 +4591,14 @@
                 },
                 {
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
         },
         {
             "id": "hm_netherwastes06",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -4553,14 +4651,14 @@
                 {
                     "id": "hm_wastes_end",
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
         },
         {
             "id": "hm_netherwastes07",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -4649,14 +4747,14 @@
                 },
                 {
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]
         },
         {
             "id": "hm_netherwastes08",
-            "ambience": "default",
+            "ambience": "delta",
             "fill": "only-doors",
             "stretches": [
                 {
@@ -4730,7 +4828,7 @@
                 },
                 {
                     "tiles": [
-                        "nw_prestart"
+                        "nw_prestart_dungeon"
                     ]
                 }
             ]

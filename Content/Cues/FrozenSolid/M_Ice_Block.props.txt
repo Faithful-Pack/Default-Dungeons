@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Cues/FrozenSolid/T_Ice_Block.T_Ice_Block'
 }
-Expressions[0] = {}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Cues/FrozenSolid/M_Ice_Block.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionScalarParameter'Cues/FrozenSolid/M_Ice_Block.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionTextureSample'Cues/FrozenSolid/M_Ice_Block.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +29,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1.306, Name=IOR, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +44,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Ice_Block
+    }
+}

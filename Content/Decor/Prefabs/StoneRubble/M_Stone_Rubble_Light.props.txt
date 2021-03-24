@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/StoneRubble/T_Stone_Rubble.T_Stone_Rubble'
 }
-Expressions[0] = {}
+Expressions[5] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/StoneRubble/M_Stone_Rubble_Light.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =

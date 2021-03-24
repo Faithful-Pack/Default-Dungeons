@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Smoke/T_SmokeBallVariation.T_SmokeBallVariation'
 }
-Expressions[0] = {}
+Expressions[31] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[20] = MaterialExpressionTextureSample'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionTextureSample_1'
+    Expressions[26] = MaterialExpressionScalarParameter'Effects/Materials/Smoke/M_SmokeBallVariation_DefaultLit.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +29,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Shadow, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +44,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = T_SmokeBallVariation
+    }
+}

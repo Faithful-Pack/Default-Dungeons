@@ -3,10 +3,15 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Skyroom/T_GS_FakeGeo.T_GS_FakeGeo'
-    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Skyroom/T_GS_FakeGeo_Top.T_GS_FakeGeo_Top'
+    ReferencedTextures[0] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Skyroom/T_GS_FakeGeo_Top.T_GS_FakeGeo_Top'
+    ReferencedTextures[1] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Skyroom/T_GS_FakeGeo.T_GS_FakeGeo'
 }
-Expressions[0] = {}
+Expressions[33] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Skyroom/M_GS_SetExtension.MaterialExpressionTextureSample_5'
+    Expressions[14] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Skyroom/M_GS_SetExtension.MaterialExpressionTextureSample_1'
+    Expressions[16] = MaterialExpressionTextureSample'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/Skyroom/M_GS_SetExtension.MaterialExpressionTextureSample_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -37,4 +42,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = T_GS_FakeGeo_Top
+    }
+}

@@ -6,7 +6,23 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Blue_SemiTransparent.T_StainedGlass_Blue_SemiTransparent'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Normal.T_StainedGlass_Mansonry_Normal'
 }
-Expressions[0] = {}
+Expressions[44] =
+{
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[11] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionVectorParameter_1'
+    Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_12'
+    Expressions[14] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_15'
+    Expressions[16] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_16'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[26] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_17'
+    Expressions[28] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_18'
+    Expressions[30] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_19'
+    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_20'
+    Expressions[35] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_0'
+    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_1'
+    Expressions[39] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_2'
+    Expressions[41] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/LonelyFortress/M_Master_StainedGlass_Storm_LF_R.MaterialExpressionScalarParameter_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -27,9 +43,49 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Blue_SemiTransparent.T_StainedGlass_Blue_SemiTransparent'
+        Name = BaseTexture
+        Group = Textures
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/_StainedGlass/Mansonry/T_StainedGlass_Mansonry_Normal.T_StainedGlass_Mansonry_Normal'
+        Name = Normal
+        Group = Textures
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=1000, Name=CloudSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=WindowEmissive, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=WindowOpacity, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Color Power, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Color Value, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Color Hue, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Color Desaturation, Group=None }
+    CollectedScalarParameters[7] = { Value=25, Name=ThunderIntensity, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1000
+        Name = CloudThunderIntensity
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=1, Name=Tiled, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=UseNormal, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.041443, G=0.038628, B=0.083333, A=0 }
+        Name = Color
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -37,4 +93,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_StainedGlass_Blue_SemiTransparent
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_StainedGlass_Mansonry_Normal
+    }
+}

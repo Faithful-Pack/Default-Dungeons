@@ -1,12 +1,16 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_LS_PGPanner.T_LS_PGPanner'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/T_FFJ_Lightshafts.T_FFJ_Lightshafts'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/FrozenFjordCave/T_FFJ_Lightshafts.T_FFJ_Lightshafts'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_LS_PGPanner.T_LS_PGPanner'
 }
-Expressions[0] = {}
+Expressions[7] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/M_LS_PitGlow.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/M_LS_PitGlow.MaterialExpressionTextureSample_4'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,7 +29,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Additive (3)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
@@ -37,4 +41,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FFJ_Lightshafts
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LS_PGPanner
+    }
+}

@@ -1,12 +1,19 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
-    ReferencedTextures[1] = Texture2D'Materials/tallgrass.tallgrass'
 }
-Expressions[0] = {}
+Expressions[51] =
+{
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Content_Parents/Materials/VoxelMats/VoxelMatAlphaWithWind.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'Content_Parents/Materials/VoxelMats/VoxelMatAlphaWithWind.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[16] = MaterialExpressionTextureSample'Content_Parents/Materials/VoxelMats/VoxelMatAlphaWithWind.MaterialExpressionTextureSample_1'
+    Expressions[23] = MaterialExpressionScalarParameter'Content_Parents/Materials/VoxelMats/VoxelMatAlphaWithWind.MaterialExpressionScalarParameter_0'
+    Expressions[28] = MaterialExpressionScalarParameter'Content_Parents/Materials/VoxelMats/VoxelMatAlphaWithWind.MaterialExpressionScalarParameter_1'
+    Expressions[33] = MaterialExpressionVectorParameter'Content_Parents/Materials/VoxelMats/VoxelMatAlphaWithWind.MaterialExpressionVectorParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +32,32 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Materials/tallgrass.tallgrass'
+        Name = T2DParam
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=T2DParamEmissive, Group=None }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=12, Name=Wind, Group=None }
+    CollectedScalarParameters[1] = { Value=140, Name=deformDistance, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=300, G=300, B=100, A=1 }
+        Name = deformStrength
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

@@ -1,13 +1,17 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/DingyJungle/Sub_FossilDecor/T_BoneLava_D.T_BoneLava_D'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/Sub_FossilDecor/T_BoneLava_M.T_BoneLava_M'
-    ReferencedTextures[2] = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/DingyJungle/Sub_FossilDecor/T_BoneLava_M.T_BoneLava_M'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/DingyJungle/Sub_FossilDecor/T_BoneLava_D.T_BoneLava_D'
 }
-Expressions[0] = {}
+Expressions[27] =
+{
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/DingyJungle/Sub_FossilDecor/M_SF_BoneLava.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[24] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_FossilDecor/M_SF_BoneLava.MaterialExpressionTextureSample_4'
+    Expressions[26] = MaterialExpressionTextureSample'Decor/Prefabs/DingyJungle/Sub_FossilDecor/M_SF_BoneLava.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -28,7 +32,15 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Materials/T_Lava_16_spritesheet.T_Lava_16_spritesheet'
+        Name = Texture
+        Group = None
+    }
+}
 CollectedScalarParameters[0] = {}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
@@ -38,4 +50,24 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BoneLava_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BoneLava_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = T_Lava_16_spritesheet
+    }
+}

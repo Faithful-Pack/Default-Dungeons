@@ -1,11 +1,20 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Lumbermill/New/T_SawMill.T_SawMill'
 }
-Expressions[0] = {}
+Expressions[18] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[4] = MaterialExpressionScalarParameter'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionScalarParameter_18'
+    Expressions[9] = MaterialExpressionScalarParameter'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionScalarParameter_1'
+    Expressions[14] = MaterialExpressionScalarParameter'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionScalarParameter_2'
+    Expressions[15] = MaterialExpressionScalarParameter'Decor/Prefabs/M_SimpleMaster_Opaque.MaterialExpressionScalarParameter_3'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,8 +35,24 @@ CachedExpressionData =
 }
 BlendMode = BLEND_Opaque (0)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/Lumbermill/New/T_SawMill.T_SawMill'
+        Name = BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=Emissive, Group=None }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EmissiveMultiply, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ScaleU, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=ScaleV, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=OffsetU, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=OffsetV, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
@@ -36,4 +61,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SawMill
+    }
+}

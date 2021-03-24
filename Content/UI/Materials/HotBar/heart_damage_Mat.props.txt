@@ -5,7 +5,11 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/HotBar2/Heart/heart_damage_outline.heart_damage_outline'
 }
-Expressions[0] = {}
+Expressions[3] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'UI/Materials/HotBar/heart_damage_Mat.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionScalarParameter'UI/Materials/HotBar/heart_damage_Mat.MaterialExpressionScalarParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,10 +28,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

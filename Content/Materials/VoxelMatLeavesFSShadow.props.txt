@@ -1,12 +1,18 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
-    ReferencedTextures[1] = Texture2D'Materials/tallgrass.tallgrass'
 }
-Expressions[0] = {}
+Expressions[38] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatLeavesFSShadow.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[12] = MaterialExpressionTextureSample'Materials/VoxelMatLeavesFSShadow.MaterialExpressionTextureSample_1'
+    Expressions[19] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesFSShadow.MaterialExpressionScalarParameter_0'
+    Expressions[24] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesFSShadow.MaterialExpressionScalarParameter_1'
+    Expressions[29] = MaterialExpressionVectorParameter'Materials/VoxelMatLeavesFSShadow.MaterialExpressionVectorParameter_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +31,31 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Materials/tallgrass.tallgrass'
+        Name = T2DParam
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Wind, Group=None }
+    CollectedScalarParameters[1] = { Value=140, Name=deformDistance, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=40, G=40, B=15, A=1 }
+        Name = deformStrength
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

@@ -4,10 +4,16 @@ bIsMasked = false
 ReferencedTextures[3] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/Anvil/T_Anvil.T_Anvil'
-    ReferencedTextures[1] = Texture2D'Decor/Prefabs/Anvil/T_Anvil_EM.T_Anvil_EM'
-    ReferencedTextures[2] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/Anvil/T_Anvil_EM.T_Anvil_EM'
 }
-Expressions[0] = {}
+Expressions[16] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/Anvil/M_Anvil.MaterialExpressionTextureSample_0'
+    Expressions[6] = MaterialExpressionScalarParameter'Decor/Prefabs/Anvil/M_Anvil.MaterialExpressionScalarParameter_1'
+    Expressions[7] = MaterialExpressionTextureSample'Decor/Prefabs/Anvil/M_Anvil.MaterialExpressionTextureSample_3'
+    Expressions[13] = MaterialExpressionTextureSample'Decor/Prefabs/Anvil/M_Anvil.MaterialExpressionTextureSample_4'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -26,10 +32,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Specular, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

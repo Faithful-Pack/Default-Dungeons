@@ -1,12 +1,18 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Plants/PopFlower/T_PopFlower.T_PopFlower'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[0] = {}
+Expressions[37] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Plants/PopFlower/M_PopFlower_Top.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[18] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/PopFlower/M_PopFlower_Top.MaterialExpressionScalarParameter_0'
+    Expressions[20] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/PopFlower/M_PopFlower_Top.MaterialExpressionScalarParameter_1'
+    Expressions[25] = MaterialExpressionTextureSample'Decor/Prefabs/_Plants/PopFlower/M_PopFlower_Top.MaterialExpressionTextureSample_1'
+    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/_Plants/PopFlower/M_PopFlower_Top.MaterialExpressionScalarParameter_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,10 +31,23 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/_Plants/PopFlower/T_PopFlower.T_PopFlower'
+        Name = Texture
+        Group = Texture
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=2.5, Name=Emissive, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=EmissiveRandomOffset, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=Wind, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

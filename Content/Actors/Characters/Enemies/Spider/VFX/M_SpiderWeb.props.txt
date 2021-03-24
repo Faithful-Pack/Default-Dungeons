@@ -1,4 +1,4 @@
-TwoSided = false
+TwoSided = true
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
@@ -6,7 +6,14 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Actors/Characters/Enemies/Spider/VFX/T_Web.T_Web'
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_PixelNoise_32.T_PixelNoise_32'
 }
-Expressions[0] = {}
+Expressions[22] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionScalarParameter_9'
+    Expressions[9] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionVectorParameter_4'
+    Expressions[12] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionScalarParameter_10'
+    Expressions[18] = MaterialExpressionTextureSample'Actors/Characters/Enemies/Spider/VFX/M_SpiderWeb.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +32,23 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EmissiveBlendSize, Group=None }
+    CollectedScalarParameters[1] = { Value=15, Name=DissolvePower, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=25, G=6.51761, B=0, A=0 }
+        Name = DissolveColor
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

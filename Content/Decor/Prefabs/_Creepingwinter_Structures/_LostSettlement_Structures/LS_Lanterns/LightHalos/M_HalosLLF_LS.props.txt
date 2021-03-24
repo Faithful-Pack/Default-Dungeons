@@ -5,7 +5,12 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_TilingNoise03.T_TilingNoise03'
 }
-Expressions[0] = {}
+Expressions[13] =
+{
+    Expressions[2] = MaterialExpressionVectorParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/LightHalos/M_HalosLLF_LS.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/LightHalos/M_HalosLLF_LS.MaterialExpressionTextureSample_0'
+    Expressions[12] = MaterialExpressionScalarParameter'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/LightHalos/M_HalosLLF_LS.MaterialExpressionScalarParameter_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,11 +29,22 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Additive (3)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Seed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.760525, G=0.201556, B=0.004777, A=1 }
+        Name = Color Alpha
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

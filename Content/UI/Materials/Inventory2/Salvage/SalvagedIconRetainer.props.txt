@@ -1,12 +1,18 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Actors/Equipment/MeleeWeapons/Sword_Steel/T_Sword_Steel_Icon.T_Sword_Steel_Icon'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[0] = {}
+Expressions[69] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'UI/Materials/Inventory2/Salvage/SalvagedIconRetainer.MaterialExpressionTextureSample_0'
+    Expressions[9] = MaterialExpressionTextureSample'UI/Materials/Inventory2/Salvage/SalvagedIconRetainer.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionTextureSample'UI/Materials/Inventory2/Salvage/SalvagedIconRetainer.MaterialExpressionTextureSample_2'
+    Expressions[17] = MaterialExpressionScalarParameter'UI/Materials/Inventory2/Salvage/SalvagedIconRetainer.MaterialExpressionScalarParameter_1'
+    Expressions[50] = MaterialExpressionTextureSample'UI/Materials/Inventory2/Salvage/SalvagedIconRetainer.MaterialExpressionTextureSample_11'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,10 +31,13 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_AlphaComposite (5)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=11, Name=Time, Group=None }
+}
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None

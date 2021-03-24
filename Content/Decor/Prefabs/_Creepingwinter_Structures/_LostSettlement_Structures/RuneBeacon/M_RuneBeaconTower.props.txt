@@ -5,10 +5,16 @@ ReferencedTextures[4] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_d.T_RuneBeacon_d'
     ReferencedTextures[1] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_e.T_RuneBeacon_e'
-    ReferencedTextures[2] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_e_mask.T_RuneBeacon_e_mask'
-    ReferencedTextures[3] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_Panner.T_RuneBeacon_Panner'
+    ReferencedTextures[2] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_Panner.T_RuneBeacon_Panner'
+    ReferencedTextures[3] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/T_RuneBeacon_e_mask.T_RuneBeacon_e_mask'
 }
-Expressions[0] = {}
+Expressions[11] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_1'
+    Expressions[8] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_3'
+    Expressions[9] = MaterialExpressionTextureSample'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/RuneBeacon/M_RuneBeaconTower.MaterialExpressionTextureSample_2'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -39,4 +45,30 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RuneBeacon_d
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RuneBeacon_e
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RuneBeacon_e_mask
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RuneBeacon_Panner
+    }
+}

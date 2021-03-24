@@ -1,12 +1,23 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
-    ReferencedTextures[1] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
 }
-Expressions[0] = {}
+Expressions[32] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[9] = MaterialExpressionScalarParameter'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionScalarParameter_6'
+    Expressions[10] = MaterialExpressionTextureSample'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionTextureSample_2'
+    Expressions[13] = MaterialExpressionScalarParameter'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionScalarParameter_7'
+    Expressions[14] = MaterialExpressionScalarParameter'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionScalarParameter_8'
+    Expressions[17] = MaterialExpressionVectorParameter'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionVectorParameter_4'
+    Expressions[23] = MaterialExpressionScalarParameter'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionScalarParameter_0'
+    Expressions[24] = MaterialExpressionTextureSampleParameter2D'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[26] = MaterialExpressionVectorParameter'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionVectorParameter_0'
+    Expressions[28] = MaterialExpressionVectorParameter'Decor/Prefabs/_Urns/LootUrnsAssets/M_Urn_Loot.MaterialExpressionVectorParameter_1'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -25,11 +36,51 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[0] = {}
-CollectedScalarParameters[0] = {}
-CollectedVectorParameters[0] = {}
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/RewardChest/T_FancyChest.T_FancyChest'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=AlphaOverride, Group=None }
+    CollectedScalarParameters[1] = { Value=-0.5, Name=SpeedX, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SpeedY, Group=None }
+    CollectedScalarParameters[3] = { Value=0.3, Name=ShineParameter, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1.93056, B=1.77854, A=1 }
+        Name = ShineColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Emissive
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = NaturalEmissive
+        Group = None
+    }
+}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -37,4 +88,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_DiagonalLine
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FancyChest
+    }
+}

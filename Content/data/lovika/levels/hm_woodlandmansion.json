@@ -102,7 +102,7 @@
             "displayMode": "MainObjective",
             "optional": true,
             "gauntlet": {
-                "end-region": "groundfloor_entrance.*.firstgauntlet"
+                "end-region": "first_stairroom.*.firstgauntlet"
             }
         },
         {
@@ -508,6 +508,32 @@
                     "type": "evoker",
                     "weight": 1
                 }
+            ]
+        },
+        {
+            "#": "============== Evoker ==============",
+            "id": "evoker-supported",
+            "types": [
+                {
+                    "type": "evoker",
+                    "max%": 0.2
+                },
+                {
+                    "type": "vindicator",
+                    "max%": 0.4
+                },
+                {
+                    "type": "enchanter",
+                    "max%": 0.2
+                },
+                {
+                    "type": "wraith",
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                4,
+                4
             ]
         }
     ],
@@ -1256,6 +1282,13 @@
             ],
             "teleports": [
                 {
+                    "door": "hyperdoor",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor",
+                    "dungeons": [
+                        "@hyperdungeon"
+                    ]
+                },
+                {
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
@@ -1658,7 +1691,7 @@
         {
             "id": "wm_room_b01",
             "challenges": [
-                "clicky_arena_dummy"
+                "clicky_arena_boss"
             ]
         },
         {
@@ -1681,9 +1714,28 @@
             ]
         },
         {
-            "id": "wm_room_a02",
+            "id": "wm_room_a01",
             "challenges": [
                 "clicky_arena_dummy"
+            ]
+        },
+        {
+            "id": "wm_room_a03",
+            "challenges": [
+                "clicky_arena_dummy"
+            ]
+        },
+        {
+            "id": "wm_room_a05",
+            "rotations": [
+                0,
+                90
+            ]
+        },
+        {
+            "id": "wm_room_a02",
+            "challenges": [
+                "clicky_arena_boss"
             ]
         },
         {
@@ -2073,13 +2125,13 @@
         {
             "id": "wmp_storage_01",
             "challenges": [
-                "lever_challenge"
+                "storage_arena"
             ]
         },
         {
             "id": "wmp_barracks_02",
             "challenges": [
-                "barrack_arena"
+                "storage_arena"
             ]
         },
         {
@@ -2510,10 +2562,6 @@
                 },
                 {
                     "id": "wm_room_a04",
-                    "weight": 1
-                },
-                {
-                    "id": "wm_room_a05",
                     "weight": 1
                 },
                 {
@@ -2972,9 +3020,50 @@
                     [
                         3,
                         "illager-main"
+                    ],
+                    [
+                        5,
+                        "illager-main"
                     ]
                 ],
                 "gate": null
+            }
+        },
+        {
+            "id": "clicky_arena_boss",
+            "trigger-object": "Content_DLC4/Decor/Prefab/Functional/Interactables/BP_RedstoneProvider",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 80,
+                "rest-interval": 0,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "illager-main"
+                    ],
+                    [
+                        5,
+                        "illager-main"
+                    ],
+                    [
+                        5,
+                        "illager-main"
+                    ],
+                    [
+                        5,
+                        "evoker-supported"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": false,
+                    "object": "Content_DLC4/Decor/Prefab/Functional/Gates/WoodlandGate/BP_WoodlandGate"
+                }
             }
         },
         {
@@ -2986,13 +3075,17 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 2.5,
+                "interval": 20,
                 "rest-interval": 0,
                 "start-time": 0.5,
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        3,
+                        4,
+                        "illager-main"
+                    ],
+                    [
+                        4,
                         "illager-main"
                     ]
                 ],
@@ -3041,17 +3134,21 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 2.5,
-                "rest-interval": 0,
+                "interval": 100,
+                "rest-interval": 1,
                 "start-time": 0.5,
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        1,
+                        5,
                         "illager-main"
                     ],
                     [
-                        2,
+                        5,
+                        "illager-main"
+                    ],
+                    [
+                        4,
                         "illager-main"
                     ],
                     [
@@ -3059,11 +3156,7 @@
                         "illager-main"
                     ],
                     [
-                        3,
-                        "illager-main"
-                    ],
-                    [
-                        1,
+                        6,
                         "zombie-horde"
                     ]
                 ],
@@ -3094,21 +3187,51 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 2.5,
-                "rest-interval": 0,
+                "interval": 100,
+                "rest-interval": 1,
                 "start-time": 0.5,
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        1,
-                        "illager-main"
-                    ],
-                    [
                         2,
                         "illager-main"
                     ],
                     [
-                        2,
+                        5,
+                        "illager-main"
+                    ],
+                    [
+                        5,
+                        "illager-main"
+                    ],
+                    [
+                        8,
+                        "illager-main"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "storage_arena",
+            "trigger": "*.*.arena_trigger",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 100,
+                "rest-interval": 1,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        8,
+                        "illager-main"
+                    ],
+                    [
+                        8,
                         "illager-main"
                     ]
                 ],
@@ -3120,22 +3243,34 @@
             "trigger": "*.*.arena_trigger",
             "reward": {
                 "region": "*.*.challengeloot",
-                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
             },
             "arena": {
                 "stretch": "*",
-                "interval": 2.5,
-                "rest-interval": 0,
-                "start-time": 0.5,
+                "interval": 100,
+                "rest-interval": 1,
+                "start-time": 1,
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        1,
+                        8,
                         "illager-main"
                     ],
                     [
-                        2,
+                        8,
                         "illager-main"
+                    ],
+                    [
+                        8,
+                        "illager-main"
+                    ],
+                    [
+                        6,
+                        "illager-main"
+                    ],
+                    [
+                        5,
+                        "evoker-supported"
                     ]
                 ],
                 "gate": null
@@ -3150,22 +3285,26 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 2.5,
-                "rest-interval": 0,
+                "interval": 100,
+                "rest-interval": 1,
                 "start-time": 0.5,
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        2,
+                        4,
                         "illager-main"
                     ],
                     [
-                        2,
+                        4,
                         "illager-main"
                     ],
                     [
-                        2,
+                        8,
                         "illager-main"
+                    ],
+                    [
+                        8,
+                        "prison-mix"
                     ]
                 ],
                 "gate": {
@@ -3368,7 +3507,14 @@
                         "wm_corner_sw"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
@@ -3460,7 +3606,14 @@
                         "wm_corner_wn"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
@@ -3559,7 +3712,14 @@
                         "wm_corner_ne"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
@@ -3742,7 +3902,14 @@
                         "wm_corner_sw"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
@@ -3834,7 +4001,14 @@
                         "wm_corner_wn"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
@@ -3933,14 +4107,21 @@
                         "wm_corner_ne"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
                         "north_prop_corner_01",
                         "east_prop_corner_02",
                         "north_prop_fullroom_small02",
-                        "east_prop_fullroom_small02"
+                        "east_prop_fullroom_small01"
                     ],
                     "side-paths": {
                         "probability": 0.5,
@@ -4068,7 +4249,7 @@
                         "wm_sp_corridor_deadnowindow_a01"
                     ],
                     "side-paths": {
-                        "probability": 0
+                        "probability": 0.5
                     }
                 },
                 {
@@ -4107,7 +4288,14 @@
                         "wm_corner_sw"
                     ],
                     "dead-ends": [
-                        "east@wm_room_a01",
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        },
                         "north@wm_sp_corridor_deadnowindow_a01"
                     ],
                     "prop-groups": [
@@ -4125,7 +4313,14 @@
                             "dead-ends": [
                                 "north@wm_sp_deadend_corner_a01",
                                 "north@wm_sp_deadend_b02",
-                                "west@wm_room_a01"
+                                "wm_room_a01",
+                                "wm_room_a02",
+                                "wm_room_a03",
+                                "wm_room_a04",
+                                {
+                                    "id": "wm_room_a05",
+                                    "weight": 0.2
+                                }
                             ],
                             "tile-groups": [
                                 "wm_sidepaths_east",
@@ -4169,7 +4364,14 @@
                         "wm_corner_wn"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
@@ -4232,7 +4434,14 @@
                         "wm_corner_ne"
                     ],
                     "dead-ends": [
-                        "south@wm_room_a01",
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        },
                         "west@wm_sp_corridor_deadnowindow_a01"
                     ],
                     "prop-groups": [
@@ -4417,7 +4626,14 @@
                         "wm_corner_wn"
                     ],
                     "dead-ends": [
-                        "south@wm_room_a01",
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        },
                         "east@wm_sp_corridor_deadnowindow_a01"
                     ],
                     "prop-groups": [
@@ -4480,7 +4696,14 @@
                         "wm_corner_ne"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",
@@ -4550,7 +4773,14 @@
                         "wm_corner_es"
                     ],
                     "dead-ends": [
-                        "wm_room_a01"
+                        "wm_room_a01",
+                        "wm_room_a02",
+                        "wm_room_a03",
+                        "wm_room_a04",
+                        {
+                            "id": "wm_room_a05",
+                            "weight": 0.2
+                        }
                     ],
                     "prop-groups": [
                         "roomsmall",

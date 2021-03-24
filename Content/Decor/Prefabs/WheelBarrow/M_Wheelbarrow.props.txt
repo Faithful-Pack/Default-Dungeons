@@ -5,7 +5,10 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Decor/Prefabs/WheelBarrow/T_Wheelbarrow.T_Wheelbarrow'
 }
-Expressions[0] = {}
+Expressions[3] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/WheelBarrow/M_Wheelbarrow.MaterialExpressionTextureSample_0'
+}
 CachedExpressionData =
 {
     Parameters =
@@ -24,7 +27,7 @@ CachedExpressionData =
     }
     ReferencedTextures[0] = {}
 }
-BlendMode = BLEND_Opaque (0)
+BlendMode = BLEND_Masked (1)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
 CollectedScalarParameters[0] = {}
