@@ -1,0 +1,103 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Actors/Items/Conduit/TX_Conduit_Merged_2.TX_Conduit_Merged_2'
+}
+Expressions[73] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionTextureSample_5'
+    Expressions[6] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_0'
+    Expressions[13] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_1'
+    Expressions[16] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_2'
+    Expressions[17] = MaterialExpressionTextureSample'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionTextureSample_2'
+    Expressions[19] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_3'
+    Expressions[27] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_10'
+    Expressions[28] = MaterialExpressionTextureSample'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionTextureSample_1'
+    Expressions[33] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_4'
+    Expressions[37] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_6'
+    Expressions[39] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_7'
+    Expressions[45] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_8'
+    Expressions[47] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_9'
+    Expressions[53] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_11'
+    Expressions[62] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_13'
+    Expressions[64] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_12'
+    Expressions[66] = MaterialExpressionVectorParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionVectorParameter_0'
+    Expressions[70] = MaterialExpressionScalarParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionScalarParameter_5'
+    Expressions[71] = MaterialExpressionVectorParameter'Actors/Items/Conduit/Conduit_Cylinder_3.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Flow_Map_1, Group=None }
+    CollectedScalarParameters[1] = { Value=128, Name=Pixelise, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Speed_2, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Speed_Down, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=U_Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=10, Name=Depth_Fade_Distance, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Depth_Fade_Boost, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=V_Scale, Group=None }
+    CollectedScalarParameters[9] = { Value=10, Name=Depth_Fade_Opacity, Group=None }
+    CollectedScalarParameters[10] = { Value=23.2346, Name=Top_Fade, Group=None }
+    CollectedScalarParameters[11] = { Value=6, Name=Bottom_Fade, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=Gradient, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0.5
+        Name = GradientFadeMultiplier
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.434154, B=0.887923, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0.034709, A=1 }
+        Name = DepthFadeColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = TX_Conduit_Merged_2
+    }
+}

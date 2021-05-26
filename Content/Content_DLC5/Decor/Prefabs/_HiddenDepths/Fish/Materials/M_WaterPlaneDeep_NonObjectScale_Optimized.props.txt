@@ -1,0 +1,76 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Materials/T_WaterTile.T_WaterTile' }
+Expressions[34] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionTextureSample_2'
+    Expressions[13] = MaterialExpressionVectorParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionVectorParameter_1'
+    Expressions[15] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionScalarParameter_2'
+    Expressions[16] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionScalarParameter_0'
+    Expressions[17] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionScalarParameter_1'
+    Expressions[18] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionScalarParameter_3'
+    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionScalarParameter_4'
+    Expressions[22] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionTextureSample_1'
+    Expressions[30] = MaterialExpressionVectorParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/Materials/M_WaterPlaneDeep_NonObjectScale_Optimized.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.045, Name=2ndLayerG, Group=None }
+    CollectedScalarParameters[2] = { Value=0.035, Name=1st_LayerB, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=3rd_LayerR, Group=None }
+    CollectedScalarParameters[4] = { Value=0.3, Name=NaturalEmissive, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.015977, G=0.031514, B=0.078125, A=0.6 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=2, B=0, A=1 }
+        Name = TexCoord
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_WaterTile
+    }
+}

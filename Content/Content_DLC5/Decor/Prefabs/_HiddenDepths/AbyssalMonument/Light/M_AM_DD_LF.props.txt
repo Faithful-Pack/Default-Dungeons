@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/RadiantRavine/DarkConduit/T_EyeGlow.T_EyeGlow'
+    ReferencedTextures[1] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Lightfunctions/T_CR_Flow.T_CR_Flow'
+    ReferencedTextures[2] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/glass_M.glass_M'
+    ReferencedTextures[3] = Texture2D'Content_DLC3/Decor/Prefabs/_Mountains/Gale_Sanctum_Props/LLinks03/T_LF_GS_InteriorSpot_L.T_LF_GS_InteriorSpot_L'
+}
+Expressions[15] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Light/M_AM_DD_LF.MaterialExpressionTextureSample_1'
+    Expressions[4] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Light/M_AM_DD_LF.MaterialExpressionTextureSample_2'
+    Expressions[13] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Light/M_AM_DD_LF.MaterialExpressionTextureSample_4'
+    Expressions[14] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Light/M_AM_DD_LF.MaterialExpressionTextureSample_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

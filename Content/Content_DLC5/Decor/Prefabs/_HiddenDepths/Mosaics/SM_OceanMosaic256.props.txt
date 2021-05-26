@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/Mosaics/MI_OceanMosaic256BDamage.MI_OceanMosaic256BDamage'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/Mosaics/MI_OceanMosaic256BDamage.MI_OceanMosaic256BDamage'
+        MaterialSlotName = Material #104
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1600.44, 1753.48, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=3.125 }
+    BoxExtent = { X=800, Y=800, Z=3.125 }
+    SphereRadius = 1131.38
+}

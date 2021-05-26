@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Ancient_Guardian_Wall/MI_Guardian_Wall.MI_Guardian_Wall'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Ancient_Guardian_Wall/MI_Guardian_Wall.MI_Guardian_Wall'
+        MaterialSlotName = Material #3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=49.9999, Y=0.000167847, Z=1100 }
+    BoxExtent = { X=1150, Y=150, Z=1000 }
+    SphereRadius = 1531.34
+}

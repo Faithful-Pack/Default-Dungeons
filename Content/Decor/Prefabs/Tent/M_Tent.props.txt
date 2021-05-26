@@ -4,7 +4,7 @@ bIsMasked = false
 ReferencedTextures[1] = { Texture2D'Decor/Prefabs/Tent/T_Tent.T_Tent' }
 Expressions[4] =
 {
-    Expressions[0] = MaterialExpressionTextureSample'Decor/Prefabs/Tent/M_Tent.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionTextureSample'Decor/Prefabs/Tent/M_Tent.MaterialExpressionTextureSample_0'
 }
 CachedExpressionData =
 {
@@ -36,4 +36,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tent
+    }
+}

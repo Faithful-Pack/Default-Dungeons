@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/Ancient/MI_AncientGateLobby.MI_AncientGateLobby'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC4/Decor/Materials/PropMaterials/Ancient/MI_AncientGateLobby.MI_AncientGateLobby'
+        MaterialSlotName = MI_AncientGateLobby
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 1118.38, 1136.95, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=72.4444, Z=200 }
+    BoxExtent = { X=250, Y=97.4445, Z=200 }
+    SphereRadius = 334.657
+}

@@ -1,0 +1,75 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Underwater_Fire/TX_Water_Explosion.TX_Water_Explosion'
+}
+Expressions[30] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'Effects/Materials/Underwater_Fire/M_Water_Explosion_1.MaterialExpressionScalarParameter_0'
+    Expressions[9] = MaterialExpressionTextureSample'Effects/Materials/Underwater_Fire/M_Water_Explosion_1.MaterialExpressionTextureSample_0'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Underwater_Fire/M_Water_Explosion_1.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[24] = MaterialExpressionScalarParameter'Effects/Materials/Underwater_Fire/M_Water_Explosion_1.MaterialExpressionScalarParameter_1'
+    Expressions[25] = MaterialExpressionVectorParameter'Effects/Materials/Underwater_Fire/M_Water_Explosion_1.MaterialExpressionVectorParameter_0'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Effects/Materials/Underwater_Fire/M_Water_Explosion_1.MaterialExpressionStaticSwitchParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Smoke/T_SmokeBallVariation.T_SmokeBallVariation'
+        Name = Smoke
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Flow, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=NumberOfColumns, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.25, B=0, A=1 }
+        Name = UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = T_SmokeBallVariation
+    }
+}

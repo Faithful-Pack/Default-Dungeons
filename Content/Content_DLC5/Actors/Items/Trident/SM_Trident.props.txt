@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Items/Trident/MI_Trident.MI_Trident'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Items/Trident/MI_Trident.MI_Trident'
+        MaterialSlotName = Material #173
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.422, 125.142, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-005, Y=1.4782e-005, Z=37.5 }
+    BoxExtent = { X=15.625, Y=3.125, Z=100 }
+    SphereRadius = 100.098
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/MeleeWeapons/CoralBlade_Unique1/MI_CoralBlade_Unique1.MI_CoralBlade_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/MeleeWeapons/CoralBlade_Unique1/MI_CoralBlade_Unique1.MI_CoralBlade_Unique1'
+        MaterialSlotName = Material #27
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.848, 138.348, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.319983, Y=6.4373e-006, Z=-46.2502 }
+    BoxExtent = { X=26.5165, Y=3.125, Z=72.9204 }
+    SphereRadius = 73.121
+}

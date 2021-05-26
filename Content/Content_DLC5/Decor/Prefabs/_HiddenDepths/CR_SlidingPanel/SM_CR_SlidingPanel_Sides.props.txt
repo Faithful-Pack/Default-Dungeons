@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CR_SlidingPanel/MI_CR_SlidingPanel.MI_CR_SlidingPanel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CR_SlidingPanel/MI_CR_SlidingPanel.MI_CR_SlidingPanel'
+        MaterialSlotName = Material #51
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.321, 100, 482.691, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-200, Y=1.52588e-005, Z=-4.95911e-005 }
+    BoxExtent = { X=50, Y=150, Z=50 }
+    SphereRadius = 165.831
+}

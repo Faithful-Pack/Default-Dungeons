@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Items/Food/Food7/MI_HealthDrops_TropicalFish.MI_HealthDrops_TropicalFish'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Items/Food/Food7/MI_HealthDrops_TropicalFish.MI_HealthDrops_TropicalFish'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 132.204, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=40.625, Y=3.12501, Z=43.75 }
+    SphereRadius = 55.7267
+}

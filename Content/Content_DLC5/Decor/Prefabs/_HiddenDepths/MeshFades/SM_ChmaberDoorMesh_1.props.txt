@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/MeshFades/MI_Meshfade_01.MI_Meshfade_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/MeshFades/MI_Meshfade_01.MI_Meshfade_01'
+        MaterialSlotName = Material #102
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 2132.47, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-99.9999, Y=-250, Z=200 }
+    BoxExtent = { X=100, Y=450, Z=200 }
+    SphereRadius = 502.494
+}

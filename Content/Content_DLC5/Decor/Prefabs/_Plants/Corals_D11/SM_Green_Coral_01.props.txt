@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_Plants/Corals_D11/MI_Coral_01.MI_Coral_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_Plants/Corals_D11/MI_Coral_01.MI_Coral_01'
+        MaterialSlotName = Material #0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 554.947, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=49.6836 }
+    BoxExtent = { X=49.0509, Y=49.0509, Z=49.0508 }
+    SphereRadius = 84.9586
+}

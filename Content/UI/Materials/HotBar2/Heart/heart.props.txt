@@ -5,7 +5,7 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/HotBar2/Heart/heart_top.heart_top'
 }
-Expressions[100] =
+Expressions[107] =
 {
     Expressions[5] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_1'
     Expressions[29] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_2'
@@ -22,7 +22,9 @@ Expressions[100] =
     Expressions[83] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_9'
     Expressions[87] = MaterialExpressionVectorParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionVectorParameter_1'
     Expressions[88] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_3'
-    Expressions[97] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_10'
+    Expressions[96] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_10'
+    Expressions[101] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_18'
+    Expressions[103] = MaterialExpressionScalarParameter'UI/Materials/HotBar2/Heart/heart.MaterialExpressionScalarParameter_19'
 }
 CachedExpressionData =
 {
@@ -59,7 +61,7 @@ CollectedTextureParameters[2] =
         Group = None
     }
 }
-CollectedScalarParameters[11] =
+CollectedScalarParameters[13] =
 {
     CollectedScalarParameters[0] = { Value=0.6, Name=Health, Group=None }
     CollectedScalarParameters[1] = { Value=0.133334, Name=HealthLast, Group=None }
@@ -77,6 +79,8 @@ CollectedScalarParameters[11] =
         Group = None
     }
     CollectedScalarParameters[10] = { Value=1, Name=BottomFraction, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=RightFraction, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=LeftFraction, Group=None }
 }
 CollectedVectorParameters[2] =
 {

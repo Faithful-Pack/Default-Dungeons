@@ -1,10 +1,13 @@
-Materials[1] = {  }
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+}
 SourceModels[0] = {}
 StaticMaterials[1] =
 {
     StaticMaterials[0] =
     {
-        MaterialInterface = None
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
         MaterialSlotName = HangBridge_ShortMat
         UVChannelData =
         {

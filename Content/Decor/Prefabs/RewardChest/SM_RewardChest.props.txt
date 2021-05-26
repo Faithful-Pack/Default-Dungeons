@@ -2,6 +2,7 @@ Materials[3] =
 {
     Materials[0] = MaterialInstanceConstant'Decor/Prefabs/RewardChest/MI_FancyChest.MI_FancyChest'
     Materials[1] = MaterialInstanceConstant'Decor/Prefabs/RewardChest/MI_FancyChest.MI_FancyChest'
+    Materials[2] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
 }
 SourceModels[0] = {}
 StaticMaterials[3] =
@@ -30,7 +31,7 @@ StaticMaterials[3] =
     }
     StaticMaterials[2] =
     {
-        MaterialInterface = None
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
         MaterialSlotName = pasted__lambert3SG
         UVChannelData =
         {

@@ -1,0 +1,66 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/T_Coral_Vase_Diffuse.T_Coral_Vase_Diffuse'
+    ReferencedTextures[1] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/T_Coral_Vase_Emissive.T_Coral_Vase_Emissive'
+    ReferencedTextures[2] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/T_Coral_Vase_Opacity.T_Coral_Vase_Opacity'
+}
+Expressions[3] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/Mat_Coral_Vase_Diffuse.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/Mat_Coral_Vase_Diffuse.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/Mat_Coral_Vase_Diffuse.MaterialExpressionTextureSample_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Mat_Coral_Vase_Diffuse
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Coral_Vase_Emissive
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Coral_Vase_Opacity
+    }
+}

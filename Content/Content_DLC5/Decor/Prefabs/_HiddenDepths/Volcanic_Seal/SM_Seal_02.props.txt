@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/Volcanic_Seal/MI_Volcanic_Seal.MI_Volcanic_Seal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/Volcanic_Seal/MI_Volcanic_Seal.MI_Volcanic_Seal'
+        MaterialSlotName = Material #51
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50, Y=50.0006, Z=-49.9999 }
+    BoxExtent = { X=1050, Y=1150, Z=50.0001 }
+    SphereRadius = 1275.73
+}

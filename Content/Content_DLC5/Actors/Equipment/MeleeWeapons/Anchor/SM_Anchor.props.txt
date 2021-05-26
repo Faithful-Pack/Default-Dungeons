@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/MeleeWeapons/Anchor/MI_Anchor.MI_Anchor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/MeleeWeapons/Anchor/MI_Anchor.MI_Anchor'
+        MaterialSlotName = Material #27
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 125.014, 132.717, 189.128, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.10623e-006, Y=-43.5283, Z=43.8534 }
+    BoxExtent = { X=3.12501, Y=62.5, Z=62.5001 }
+    SphereRadius = 88.4436
+}

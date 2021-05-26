@@ -346,12 +346,30 @@
         },
         {
             "tiles": [
-                "wp_ravines_03_ruins",
-                "wp_ravines_02",
-                "wp_ravines_04",
-                "wp_mountain_peak_01",
-                "wp_mountain_rise_03",
-                "wp_mountain_rise_06"
+                {
+                    "id": "wp_ravines_03_ruins",
+                    "weight": 2.5
+                },
+                {
+                    "id": "wp_ravines_02",
+                    "weight": 0.5
+                },
+                {
+                    "id": "wp_ravines_04",
+                    "weight": 0.5
+                },
+                {
+                    "id": "wp_mountain_peak_01",
+                    "weight": 0.5
+                },
+                {
+                    "id": "wp_mountain_rise_03",
+                    "weight": 0.5
+                },
+                {
+                    "id": "wp_mountain_rise_06",
+                    "weight": 0.5
+                }
             ],
             "length": 1,
             "audio-ambience": "audio_3",
@@ -768,7 +786,7 @@
             "id": "spacer",
             "entry-door": "enter",
             "exit-door": "exit",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_sub_mcabin_basement",
@@ -865,27 +883,27 @@
             "rotations": [
                 0
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_bc_glacier_deadend",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_bc_campsite_deadend",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_01",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_deadend_01",
             "challenges": [
                 "wp_deadend_arena_01"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_deadend_02",
@@ -893,49 +911,49 @@
                 0,
                 270
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_02",
             "challenges": [
                 "wp_basecamp_mid_02_arena"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_03",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_04",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_05",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_06",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_07",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_mid_08",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_basecamp_end",
             "entry-door": "enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_mountain_lift",
@@ -947,11 +965,11 @@
                 0,
                 270
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_mountain_cave_entrance",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "challenges": [
                 "wp_mountain_cave_arena_01"
             ],
@@ -973,7 +991,7 @@
         },
         {
             "id": "wp_small_cave_exit",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter",
             "teleports": [
                 {
@@ -987,12 +1005,12 @@
             "challenges": [
                 "wp_mountain_peak_arena_01"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter"
         },
         {
             "id": "wp_mountain_rise_01",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter"
         },
         {
@@ -1001,7 +1019,7 @@
                 0,
                 270
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "teleports": [
                 {
                     "door": "vista_enter",
@@ -1023,7 +1041,7 @@
         },
         {
             "id": "wp_mountain_rise_03",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter"
         },
         {
@@ -1031,11 +1049,11 @@
             "rotations": [
                 0
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_mountain_rise_05",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "challenges": [
                 "wp_mountain_arena_05"
             ],
@@ -1046,7 +1064,7 @@
         },
         {
             "id": "wp_mountain_rise_06",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "challenges": [
                 "wp_silver_key",
                 "wp_mountain_arena"
@@ -1055,12 +1073,12 @@
         },
         {
             "id": "wp_bridge_01",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter"
         },
         {
             "id": "wp_bridge_02",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "challenges": [
                 "wp_freebie_arena_1"
             ],
@@ -1078,12 +1096,12 @@
         },
         {
             "id": "wp_small_snow_straight",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter"
         },
         {
             "id": "wp_stampede_enter",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter",
             "exit-door": "exit",
             "challenges": [
@@ -1092,14 +1110,14 @@
         },
         {
             "id": "wp_stampede_right",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "challenges": [
                 "wp_stampede_arena_02"
             ]
         },
         {
             "id": "wp_stampede_center",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter",
             "exit-door": "exit",
             "challenges": [
@@ -1108,7 +1126,7 @@
         },
         {
             "id": "wp_ravines_03_ruins",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter",
             "teleports": [
                 {
@@ -1123,12 +1141,12 @@
         },
         {
             "id": "wp_ravines_01",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter"
         },
         {
             "id": "wp_ravines_02",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "entry-door": "enter",
             "challenges": [
                 "ravine_clicky"
@@ -1136,7 +1154,7 @@
         },
         {
             "id": "wp_ravines_04",
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json",
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json",
             "rotations": [
                 270
             ],
@@ -1147,7 +1165,7 @@
             "rotations": [
                 270
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         }
     ],
     "objectives": [
@@ -1555,7 +1573,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_deadend_arena_01",
@@ -1597,7 +1615,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_silver_key",
@@ -1613,7 +1631,7 @@
                 ],
                 "key-type": "silver"
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_mountain_arena",
@@ -1655,7 +1673,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_mountain_cave_arena_01",
@@ -1697,7 +1715,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_lift_arena",
@@ -1740,7 +1758,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_stampede_arena_01",
@@ -1782,7 +1800,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_stampede_arena_02",
@@ -1836,7 +1854,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_stampede_arena_03",
@@ -1874,7 +1892,7 @@
                     "start-unlocked": false
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_mountain_arena_05",
@@ -1912,7 +1930,7 @@
                     "start-unlocked": false
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_mountain_peak_arena_01",
@@ -1958,7 +1976,7 @@
                     "start-unlocked": true
                 }
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "ravine_clicky",
@@ -1978,7 +1996,7 @@
                 ],
                 "door-path": "Decor/Prefabs/_Creepingwinter_structures/Ice_DesignAssets/BP_DoorWinter_5"
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "id": "wp_freebie_arena_1",
@@ -2003,7 +2021,7 @@
                 ],
                 "gate": null
             },
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         }
     ],
     "tile-groups": [
@@ -2025,7 +2043,7 @@
                 "wp_mountain_rise_02_vista",
                 "wp_cap_01"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "#": "basecamp_sidepath_2",
@@ -2041,7 +2059,7 @@
                 "wp_basecamp_mid_08",
                 "wp_cap_01"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "#": "mountain_rise_sidepath",
@@ -2051,7 +2069,7 @@
                 "wp_mountain_rise_03",
                 "wp_cap_01"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "#": "mountain_DE_sidepath",
@@ -2061,7 +2079,7 @@
                 "wp_cap_01",
                 "wp_mountain_rise_04"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "#": "basecamp_DE_sidepath",
@@ -2072,7 +2090,7 @@
                 "wp_basecamp_deadend_03",
                 "wp_cap_01"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         },
         {
             "#": "mountain_DE_stampede",
@@ -2080,7 +2098,7 @@
             "tiles": [
                 "wp_stampede_right"
             ],
-            "##loc": "WindsweptPeaks/WindsweptPeaks.json"
+            "##loc": "Windsweptpeaks/WindsweptPeaks.json"
         }
     ],
     "mob-groups": [

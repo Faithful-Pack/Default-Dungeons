@@ -1,0 +1,89 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/T_Asteroid_E.T_Asteroid_E'
+    ReferencedTextures[1] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/T_Crystal_Mask.T_Crystal_Mask'
+    ReferencedTextures[2] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/T_Asteroid_D.T_Asteroid_D'
+    ReferencedTextures[3] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/T_Twinkle_Mask.T_Twinkle_Mask'
+}
+Expressions[69] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionTextureSample_3'
+    Expressions[28] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionScalarParameter_0'
+    Expressions[30] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionTextureSample_1'
+    Expressions[37] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionTextureSample_4'
+    Expressions[39] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionTextureSample_9'
+    Expressions[44] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionTextureSample_10'
+    Expressions[48] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionScalarParameter_3'
+    Expressions[52] = MaterialExpressionVectorParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionVectorParameter_0'
+    Expressions[56] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionTextureSample_13'
+    Expressions[57] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionScalarParameter_4'
+    Expressions[68] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/Asteroid/M_Asteroid.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Glow_Size, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Glow Amount, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=None, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=BaseTextureGlow, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.979167, G=0.722135, B=0.122396, A=1 }
+        Name = Crystal_Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Asteroid_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Asteroid_E
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 16
+        UVChannelIndex = 0
+        TextureName = T_Twinkle_Mask
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Items/SatchelofNourishment/New/M_SatchelofNourishment_v2.M_SatchelofNourishment_v2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Items/SatchelofNourishment/New/M_SatchelofNourishment_v2.M_SatchelofNourishment_v2'
+        MaterialSlotName = Material #112
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.151, 270.129, 319.883, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.62939e-006, Z=78.125 }
+    BoxExtent = { X=50, Y=50, Z=78.125 }
+    SphereRadius = 105.373
+}

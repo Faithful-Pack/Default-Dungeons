@@ -1,2 +1,0 @@
-python getname.py
-pause

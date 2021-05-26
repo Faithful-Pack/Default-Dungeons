@@ -1,10 +1,14 @@
-Materials[2] = {  }
+Materials[2] =
+{
+    Materials[0] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+    Materials[1] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+}
 SourceModels[0] = {}
 StaticMaterials[2] =
 {
     StaticMaterials[0] =
     {
-        MaterialInterface = None
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
         MaterialSlotName = pCube1Mat
         UVChannelData =
         {
@@ -15,7 +19,7 @@ StaticMaterials[2] =
     }
     StaticMaterials[1] =
     {
-        MaterialInterface = None
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
         MaterialSlotName = SM_VillagerStatue:SM_VillagerStatue:polySurface1Mat
         UVChannelData =
         {

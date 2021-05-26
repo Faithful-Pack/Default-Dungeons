@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/Armor/SquidArmor_Unique1/MI_SquidArmor_Unique1.MI_SquidArmor_Unique1'
+    Materials[1] = Material3'Content_DLC5/Actors/Equipment/Armor/SquidArmor_Unique1/MI_GlowSquidArmor_Flipbook.MI_GlowSquidArmor_Flipbook'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/Armor/SquidArmor_Unique1/MI_SquidArmor_Unique1.MI_SquidArmor_Unique1'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 244.973, 241.264, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Actors/Equipment/Armor/SquidArmor_Unique1/MI_GlowSquidArmor_Flipbook.MI_GlowSquidArmor_Flipbook'
+        MaterialSlotName = Material #104
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.112, 230.676, 100.353, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0262737, Y=-18.5251, Z=3.13331 }
+    BoxExtent = { X=31.3221, Y=40.6964, Z=28.1605 }
+    SphereRadius = 58.5442
+}

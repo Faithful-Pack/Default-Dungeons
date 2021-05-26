@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Items/HeavyHarpoonQuiver/MI_HeavyHarpoonQuiver.MI_HeavyHarpoonQuiver'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Items/HeavyHarpoonQuiver/MI_HeavyHarpoonQuiver.MI_HeavyHarpoonQuiver'
+        MaterialSlotName = Material #143
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 156, 172.145, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.53674e-007, Y=-3.48087, Z=25.4602 }
+    BoxExtent = { X=9.51745, Y=30.8942, Z=72.3352 }
+    SphereRadius = 73.5975
+}

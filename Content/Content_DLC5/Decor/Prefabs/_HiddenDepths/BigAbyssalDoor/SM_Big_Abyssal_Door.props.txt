@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Big_Abyssal_Door.MI_Big_Abyssal_Door'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Big_Abyssal_Door.MI_Big_Abyssal_Door'
+        MaterialSlotName = Material #42
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2262.38, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.181107, Y=-0.0010376, Z=600 }
+    BoxExtent = { X=99.9999, Y=700, Z=600 }
+    SphereRadius = 927.362
+}

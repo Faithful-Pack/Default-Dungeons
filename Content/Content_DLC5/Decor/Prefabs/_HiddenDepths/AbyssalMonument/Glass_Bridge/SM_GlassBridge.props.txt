@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Glass_Bridge/M_GlassBridgeFaded.M_GlassBridgeFaded'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/Glass_Bridge/M_GlassBridgeFaded.M_GlassBridgeFaded'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 440.977, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=350, Y=-50, Z=250 }
+    BoxExtent = { X=450, Y=50, Z=250 }
+    SphereRadius = 517.204
+}

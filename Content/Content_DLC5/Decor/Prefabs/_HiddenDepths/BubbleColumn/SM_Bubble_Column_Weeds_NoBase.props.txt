@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BubbleColumn/MI_Bubble_Column.MI_Bubble_Column'
+    Materials[1] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BubbleColumn/MI_Bubble_Weed.MI_Bubble_Weed'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BubbleColumn/MI_Bubble_Column.MI_Bubble_Column'
+        MaterialSlotName = MI_Bubble_Column
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 500.024, 531.017, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BubbleColumn/MI_Bubble_Weed.MI_Bubble_Weed'
+        MaterialSlotName = MI_Bubble_Weed
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.985, 531.988, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=125.039 }
+    BoxExtent = { X=150, Y=150, Z=125.039 }
+    SphereRadius = 223.935
+}

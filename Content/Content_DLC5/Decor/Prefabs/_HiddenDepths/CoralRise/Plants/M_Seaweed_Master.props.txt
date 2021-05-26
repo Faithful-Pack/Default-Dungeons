@@ -1,0 +1,58 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Electric/T_ElectricArcs.T_ElectricArcs'
+}
+Expressions[9] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/M_Seaweed_Master.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/M_Seaweed_Master.MaterialExpressionScalarParameter_0'
+    Expressions[6] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/M_Seaweed_Master.MaterialExpressionScalarParameter_1'
+    Expressions[8] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/M_Seaweed_Master.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Electric/T_ElectricArcs.T_ElectricArcs'
+        Name = 01 Texture
+        Group = 01 Base Color
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Rows, Group=None }
+    CollectedScalarParameters[1] = { Value=4, Name=Columns, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Speed, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

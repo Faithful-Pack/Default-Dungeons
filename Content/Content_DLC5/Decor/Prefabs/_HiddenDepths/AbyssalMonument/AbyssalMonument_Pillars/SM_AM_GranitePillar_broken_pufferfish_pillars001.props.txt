@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/AbyssalMonument_Pillars/MI_AM_GranitePillar_large.MI_AM_GranitePillar_large'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/AbyssalMonument_Pillars/MI_AM_GranitePillar_large.MI_AM_GranitePillar_large'
+        MaterialSlotName = 15 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.182, 3194.37, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-450, Z=-9.15527e-005 }
+    BoxExtent = { X=350, Y=550, Z=250 }
+    SphereRadius = 668.954
+}

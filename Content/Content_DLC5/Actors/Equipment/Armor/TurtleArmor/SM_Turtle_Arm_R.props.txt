@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/Armor/TurtleArmor/MI_TurtleArmor.MI_TurtleArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/Armor/TurtleArmor/MI_TurtleArmor.MI_TurtleArmor'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 402.877, 127.139, 108.123, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.73476, Y=-39.6994, Z=3.19166 }
+    BoxExtent = { X=12.375, Y=22.5, Z=15.4688 }
+    SphereRadius = 29.9779
+}

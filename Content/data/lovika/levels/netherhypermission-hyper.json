@@ -585,6 +585,42 @@
                 "witherskeletonranged",
                 "wraith"
             ]
+        },
+        {
+            "ids": [
+                "abyssalmonument"
+            ],
+            "types": [
+                "drowned",
+                "tridentdrowned",
+                "sunkenskeleton",
+                "creeper",
+                "spider"
+            ]
+        },
+        {
+            "ids": [
+                "coralrise"
+            ],
+            "types": [
+                "sunkenskeleton",
+                "drowned",
+                "tropicalslimelarge",
+                "creeper",
+                "cavespider"
+            ]
+        },
+        {
+            "ids": [
+                "radiantravine"
+            ],
+            "types": [
+                "drowned",
+                "tridentdrowned",
+                "sunkenskeleton",
+                "tropicalslimelarge",
+                "cavespider"
+            ]
         }
     ],
     "hypermission-mobs": [
@@ -825,6 +861,28 @@
             "type": "hoglin",
             "weight": 0.3,
             "max%": 0.3
+        },
+        {
+            "type": "drowned",
+            "weight": 1
+        },
+        {
+            "type": "tridentdrowned",
+            "weight": 0.6
+        },
+        {
+            "type": "sunkenskeleton",
+            "weight": 0.4
+        },
+        {
+            "type": "drownednecromancer",
+            "weight": 0.1,
+            "max%": 0.1
+        },
+        {
+            "type": "tropicalslimelarge",
+            "weight": 0.2,
+            "max%": 0.2
         }
     ]
 }

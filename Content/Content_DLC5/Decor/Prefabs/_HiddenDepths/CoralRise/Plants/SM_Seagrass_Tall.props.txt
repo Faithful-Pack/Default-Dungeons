@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/MI_Double_Tall_Seagrass_Top.MI_Double_Tall_Seagrass_Top'
+    Materials[1] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/MI_Double_Tall_Seagrass_Bottom.MI_Double_Tall_Seagrass_Bottom'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/MI_Double_Tall_Seagrass_Top.MI_Double_Tall_Seagrass_Top'
+        MaterialSlotName = 15 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 321.349, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/Plants/MI_Double_Tall_Seagrass_Bottom.MI_Double_Tall_Seagrass_Bottom'
+        MaterialSlotName = 19 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 321.349, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-5.72205e-005, Z=0 }
+    BoxExtent = { X=50, Y=50, Z=100 }
+    SphereRadius = 117.925
+}

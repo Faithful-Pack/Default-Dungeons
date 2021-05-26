@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC5/Actors/Items/Conduit/M_OceanSphere.M_OceanSphere'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Actors/Items/Conduit/M_OceanSphere.M_OceanSphere'
+        MaterialSlotName = M_OceanSphere
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11675, 20802.5, 20804.2, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000976563, Y=0.000732422, Z=0 }
+    BoxExtent = { X=3058.64, Y=3058.64, Z=3058.64 }
+    SphereRadius = 3478.83
+}

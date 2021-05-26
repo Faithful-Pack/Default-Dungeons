@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/AbyssalMonument_misc/Mi_AM_HornCoral.Mi_AM_HornCoral'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/AbyssalMonument_misc/Mi_AM_HornCoral.Mi_AM_HornCoral'
+        MaterialSlotName = Material_003
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 97.0142, 321.417, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-100, Y=-50, Z=50 }
+    BoxExtent = { X=135.355, Y=185.355, Z=50 }
+    SphereRadius = 234.899
+}

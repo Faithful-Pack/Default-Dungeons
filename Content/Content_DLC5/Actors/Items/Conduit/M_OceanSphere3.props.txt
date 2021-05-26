@@ -1,0 +1,63 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC5/Actors/Items/Conduit/T_WaterHeatrippleN1.T_WaterHeatrippleN1'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+    ReferencedTextures[2] = Texture2D'Content_DLC5/Actors/Items/Conduit/T_BubbleFlow.T_BubbleFlow'
+}
+Expressions[72] =
+{
+    Expressions[11] = MaterialExpressionTextureSample'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionTextureSample_0'
+    Expressions[15] = MaterialExpressionTextureSample'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionTextureSample_2'
+    Expressions[22] = MaterialExpressionTextureSample'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionTextureSample_3'
+    Expressions[28] = MaterialExpressionTextureSample'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionTextureSample_1'
+    Expressions[35] = MaterialExpressionScalarParameter'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionScalarParameter_3'
+    Expressions[37] = MaterialExpressionScalarParameter'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionScalarParameter_4'
+    Expressions[42] = MaterialExpressionTextureSample'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionTextureSample_4'
+    Expressions[46] = MaterialExpressionTextureSample'Content_DLC5/Actors/Items/Conduit/M_OceanSphere3.MaterialExpressionTextureSample_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=02 Wind Strenght, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=GradientStrength, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Clouds_512
+    }
+}

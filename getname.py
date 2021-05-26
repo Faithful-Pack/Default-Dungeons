@@ -44,6 +44,9 @@ content_dlc3Files = GetFileList(content_dlc3Path)
 content_dlc4Path  = 'Content\\Content_DLC4\\'
 content_dlc4Files = GetFileList(content_dlc4Path)
 
+content_dlc5Path  = 'Content\\Content_DLC5\\'
+content_dlc5Files = GetFileList(content_dlc5Path)
+
 cuesPath  = 'Content\\Cues\\'
 cuesFiles = GetFileList(cuesPath)
 
@@ -83,6 +86,7 @@ actorsFilesFiltered = [ actorsFile for actorsFile in actorsFiles if actorsFile.e
 componentsFilesFiltered = [ componentsFile for componentsFile in componentsFiles if componentsFile.endswith(".png") ] + [ componentsFile for componentsFile in componentsFiles if componentsFile.endswith(".tga") ]
 content_dlc3FilesFiltered = [ content_dlc3File for content_dlc3File in content_dlc3Files if content_dlc3File.endswith(".png") ] + [ content_dlc3File for content_dlc3File in content_dlc3Files if content_dlc3File.endswith(".tga") ]
 content_dlc4FilesFiltered = [ content_dlc4File for content_dlc4File in content_dlc4Files if content_dlc4File.endswith(".png") ] + [ content_dlc4File for content_dlc4File in content_dlc4Files if content_dlc4File.endswith(".tga") ]
+content_dlc5FilesFiltered = [ content_dlc5File for content_dlc5File in content_dlc5Files if content_dlc5File.endswith(".png") ] + [ content_dlc5File for content_dlc5File in content_dlc5Files if content_dlc5File.endswith(".tga") ]
 cuesFilesFiltered = [ cuesFile for cuesFile in cuesFiles if cuesFile.endswith(".png") ] + [ cuesFile for cuesFile in cuesFiles if cuesFile.endswith(".tga") ]
 decorFilesFiltered = [ decorFile for decorFile in decorFiles if decorFile.endswith(".png") ] + [ decorFile for decorFile in decorFiles if decorFile.endswith(".tga") ]
 effectsFilesFiltered = [ effectsFile for effectsFile in effectsFiles if effectsFile.endswith(".png") ] + [ effectsFile for effectsFile in effectsFiles if effectsFile.endswith(".tga") ]
@@ -104,6 +108,7 @@ actorsData     = []
 componentsData = []
 content_dlc3Data = []
 content_dlc4Data = []
+content_dlc5Data = []
 cuesData       = []
 decorData      = []
 effectsData    = []
@@ -147,6 +152,13 @@ for content_dlc4File in content_dlc4FilesFiltered:
 	content_dlc4Data.append(content_dlc4File)
 with open('json\\Content_DLC4.json', 'w') as content_dlc4JSON:
 	json.dump(content_dlc4Data, content_dlc4JSON, indent=2)
+
+for content_dlc5File in content_dlc5FilesFiltered:
+	print("\x1b[1m \x1b[32m Found : \x1b[0m",content_dlc5File)
+	count += 1
+	content_dlc5Data.append(content_dlc5File)
+with open('json\\Content_DLC5.json', 'w') as content_dlc5JSON:
+	json.dump(content_dlc5Data, content_dlc5JSON, indent=2)
 
 for cuesFile in cuesFilesFiltered:
 	print("\x1b[1m \x1b[32m Found : \x1b[0m",cuesFile)

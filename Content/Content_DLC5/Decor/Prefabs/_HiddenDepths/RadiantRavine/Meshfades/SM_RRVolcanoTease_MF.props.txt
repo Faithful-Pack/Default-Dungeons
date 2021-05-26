@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/RadiantRavine/Meshfades/Mi_RRDarkConduitFade.Mi_RRDarkConduitFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/RadiantRavine/Meshfades/Mi_RRDarkConduitFade.Mi_RRDarkConduitFade'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 1825.38, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=550, Y=-150, Z=300 }
+    BoxExtent = { X=550, Y=150, Z=300 }
+    SphereRadius = 644.205
+}

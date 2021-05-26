@@ -6,7 +6,7 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
 }
-Expressions[143] =
+Expressions[142] =
 {
     Expressions[1] = MaterialExpressionStaticSwitchParameter'Models/Master_ModelMaterial.MaterialExpressionStaticSwitchParameter_4'
     Expressions[2] = MaterialExpressionStaticSwitchParameter'Models/Master_ModelMaterial.MaterialExpressionStaticSwitchParameter_3'
@@ -64,8 +64,6 @@ Expressions[143] =
     Expressions[137] = MaterialExpressionScalarParameter'Models/Master_ModelMaterial.MaterialExpressionScalarParameter_26'
     Expressions[138] = MaterialExpressionStaticSwitchParameter'Models/Master_ModelMaterial.MaterialExpressionStaticSwitchParameter_15'
     Expressions[139] = MaterialExpressionScalarParameter'Models/Master_ModelMaterial.MaterialExpressionScalarParameter_27'
-    Expressions[140] = MaterialExpressionStaticBoolParameter'Models/Master_ModelMaterial.MaterialExpressionStaticBoolParameter_0'
-    Expressions[142] = MaterialExpressionStaticSwitchParameter'Models/Master_ModelMaterial.MaterialExpressionStaticSwitchParameter_16'
 }
 CachedExpressionData =
 {
@@ -190,30 +188,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[4] =
-{
-    TextureStreamingData[0] =
-    {
-        SamplingScale = 0.5
-        UVChannelIndex = 0
-        TextureName = Good64x64TilingNoiseHighFreq
-    }
-    TextureStreamingData[1] =
-    {
-        SamplingScale = 2
-        UVChannelIndex = 0
-        TextureName = T_SmoothClouds_512
-    }
-    TextureStreamingData[2] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_Valorie_S
-    }
-    TextureStreamingData[3] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_Valorie_Skin
-    }
-}
+TextureStreamingData[0] = {}

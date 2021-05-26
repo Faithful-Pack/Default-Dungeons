@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/RangedWeapons/HarpoonCrossbow/MI_HarpoonCrossbow.MI_HarpoonCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/RangedWeapons/HarpoonCrossbow/MI_HarpoonCrossbow.MI_HarpoonCrossbow'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.333, 132.639, 200.582, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.66893e-005, Y=-7.62939e-006, Z=0 }
+    BoxExtent = { X=3.12503, Y=56.25, Z=56.25 }
+    SphereRadius = 79.6109
+}

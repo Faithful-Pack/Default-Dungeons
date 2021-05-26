@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Dirt.MI_Dirt'
+    Materials[1] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Cracks_01.MI_Cracks_01'
+    Materials[2] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Cracks_02.MI_Cracks_02'
+    Materials[3] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Fake_Abyssal.MI_Fake_Abyssal'
+    Materials[4] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Fake_Abyssal_Rubble.MI_Fake_Abyssal_Rubble'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Dirt.MI_Dirt'
+        MaterialSlotName = Material #43
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.022, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Cracks_01.MI_Cracks_01'
+        MaterialSlotName = Material #58
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.033, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Cracks_02.MI_Cracks_02'
+        MaterialSlotName = Material #58_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.023, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Fake_Abyssal.MI_Fake_Abyssal'
+        MaterialSlotName = Material #42
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2262.38, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/BigAbyssalDoor/MI_Fake_Abyssal_Rubble.MI_Fake_Abyssal_Rubble'
+        MaterialSlotName = Material #93
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-25.0904, Y=-0.000366211, Z=800 }
+    BoxExtent = { X=124.909, Y=900, Z=800 }
+    SphereRadius = 1210.62
+}

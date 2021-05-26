@@ -1,0 +1,2161 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "CoralRise",
+    "require-matching-doors": true,
+    "resource-packs": [
+        "CoralRise"
+    ],
+    "object-groups": [
+        "CoralRise/objectgroup",
+        "CoralRise_02/objectgroup",
+        "CoralRise_End/objectgroup",
+        "sub_hydrothermalvent/objectgroup",
+        "sub_sandstoneruins/objectgroup",
+        "sub_twilightcavern/objectgroup",
+        "sub_bilge/objectgroup"
+    ],
+    "loctable-id": "coralriseLoctable",
+    "default-mobs": {
+        "only": [
+            "ocean-mobs"
+        ],
+        "density": 1
+    },
+    "tiles": [
+        {
+            "id": "cr_end",
+            "challenges": [
+                "guardian_ambush_clicky_arena"
+            ],
+            "rotations": [
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "teleport_end_out",
+                    "exit": "*.cr_monument_vista.obj_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_bamboo"
+                }
+            ]
+        },
+        {
+            "id": "cr_sub_hydrovent_entrance",
+            "rotations": [
+                90,
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "hydro_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cr_sub_hydrovent_arena",
+            "challenges": [
+                "hydro_challenge_arena"
+            ]
+        },
+        {
+            "id": "cr_sub_sandruins_1",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "sandstone_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cr_sub_sandruins_2",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "tele_sand_2",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cr_sub_sandruins_3",
+            "rotations": [
+                90,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "tele_sand_3",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cr_sub_twicav_start",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "twilight_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "cr_sub_twicav_starttileexit_tp",
+                    "exit": "*.*.cr_sub_twicav_end_exit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cr_sub_twicav_ravine_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_sub_twicav_ravine_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_sub_twicav_ravine_03",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_sub_twicav_arena",
+            "entry-door": "enter",
+            "challenges": [
+                "Slime_Arena"
+            ]
+        },
+        {
+            "id": "cr_sub_twicav_central",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_sub_twicav_central_alt",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_sub_twicav_arena_alt",
+            "entry-door": "enter",
+            "challenges": [
+                "Slime_Arena"
+            ]
+        },
+        {
+            "id": "cr_sub_twicav_end",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "cr_sub_twicav_end_exit_tp",
+                    "exit": "*.*.cr_sub_twicav_starttileexit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "challenges": [
+                "LootRoomUnlock"
+            ]
+        },
+        {
+            "id": "cr_twicav_sub_arena_deadend",
+            "challenges": [
+                "DeadEnd_Arena"
+            ]
+        },
+        {
+            "id": "cr_twicav_sub_rrunlock_v2",
+            "challenges": [
+                "rrunlock_click"
+            ]
+        },
+        {
+            "id": "cr_sub_bilge_main_01",
+            "challenges": [
+                "new_arena_1/2",
+                "new_arena_2/2"
+            ],
+            "rotations": [
+                270,
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "bilge_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cr_sub_bilge_main_02",
+            "challenges": [
+                "new_arena_1/2",
+                "new_arena_2/2"
+            ],
+            "rotations": [
+                270,
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "bilge_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ]
+        },
+        {
+            "id": "cr_sandstone_entrance",
+            "rotations": [
+                180,
+                270
+            ]
+        },
+        {
+            "id": "cr_hydro_entrance",
+            "teleports": [
+                {
+                    "door": "travel_hydro",
+                    "exit": "hydro_door",
+                    "dungeons": [
+                        "sub_hydrothermalvent"
+                    ],
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/HD_TravelDoors/BP_TravelDoor_HydroVent"
+                }
+            ]
+        },
+        {
+            "id": "cr_twilight_entrance",
+            "rotations": [
+                0,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel_twilight",
+                    "exit": "twilight_door",
+                    "dungeons": [
+                        "sub_twilightcavern"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_monument_vista",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "travel_bilge",
+                    "exit": "bilge_door",
+                    "dungeons": [
+                        "sub_bilge"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "obj_exit",
+                    "exit": "teleport_end_out",
+                    "dungeons": [
+                        "CoralRise_End"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_monument_vista_1",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "obj_exit",
+                    "exit": "teleport_end_out",
+                    "dungeons": [
+                        "CoralRise_End"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                }
+            ],
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_start",
+            "rotations": [
+                0
+            ]
+        },
+        {
+            "id": "cr_early_corridor_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_ruin_ent_quad",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "cr_ruin_ent_sidepath_l_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_ruin_ent_sidepath_l_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_ruin_ent_sidepath_r_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_ruin_ent_sidepath_r_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_mount_early_corridor_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_mount_early_corridor_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_mount_early_corridor_03",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_mount_cont_corridor_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_mount_cont_corridor_02",
+            "entry-door": "enter",
+            "rotations": [
+                0,
+                90
+            ]
+        },
+        {
+            "id": "cr_mount_cont_r_angle",
+            "challenges": [
+                "r_angle_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_conduit_chamber",
+            "exit-door": "exit",
+            "challenges": [
+                "conduit_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_sidepath_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_ruin_exit_corridor",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_ruin_sidepath_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_precipice_tease",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_precipice_corridor_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_precipice_corridor_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_precipice_corridor_03",
+            "entry-door": "enter"
+        },
+        {
+            "id": "cr_ruin_ent_deadend_big_l_01",
+            "challenges": [
+                "de_big_l_01_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_ent_deadend_big_l_02",
+            "challenges": [
+                "de_big_l_02_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_ent_deadend_big_r_01",
+            "challenges": [
+                "de_big_r_01_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_ent_deadend_big_r_02",
+            "challenges": [
+                "de_big_r_02_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_ent_deadend_med_l_01",
+            "challenges": [
+                "de_med_l_01_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_ent_deadend_med_l_02",
+            "challenges": [
+                "de_med_l_02_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_deadend_big_01",
+            "challenges": [
+                "de_ruin_big_01_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_deadend_med_02",
+            "challenges": [
+                "de_ruin_med_02_arena"
+            ]
+        },
+        {
+            "id": "cr_ruin_sidepath_03",
+            "challenges": [
+                "conduit_elder"
+            ]
+        }
+    ],
+    "stretches": [
+        {
+            "tiles": [
+                "cr_start"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "cr_early_corridor_01",
+                    "weight": 0.5
+                },
+                {
+                    "id": "cr_early_corridor_02",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "cr_expanse_01",
+                    "weight": 0.5
+                },
+                {
+                    "id": "cr_expanse_02",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "cr_early_quad_01",
+                    "weight": 0.5
+                },
+                {
+                    "id": "cr_early_quad_02",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            },
+            "dead-ends": [
+                "cr_early_deadend_small_01",
+                "cr_early_deadend_small_02",
+                "cr_early_deadend_med_01",
+                "cr_early_deadend_med_02",
+                "cr_early_deadend_big_01",
+                "cr_early_deadend_big_02"
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "cap_02",
+                            "weight": 0.025
+                        },
+                        {
+                            "id": "cr_early_deadend_small_01",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_early_deadend_med_01",
+                            "weight": 0.3
+                        },
+                        {
+                            "id": "cr_hydro_entrance",
+                            "weight": 0.6
+                        }
+                    ],
+                    "tile-groups": [
+                        "early_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "cr_mount_early_corridor_01",
+                    "weight": 0.3
+                },
+                {
+                    "id": "cr_mount_early_corridor_02",
+                    "weight": 0.3
+                },
+                {
+                    "id": "cr_mount_early_corridor_03",
+                    "weight": 0.3
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "cr_mount_cont_corridor_01",
+                    "weight": 0.05
+                },
+                {
+                    "id": "cr_mount_cont_corridor_02",
+                    "weight": 0.05
+                },
+                {
+                    "id": "cr_twilight_entrance",
+                    "weight": 0.8
+                },
+                {
+                    "id": "cr_mount_cont_r_angle",
+                    "weight": 0.1
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "cr_ruin_ent_quad"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            },
+            "dead-ends": [
+                "cr_ruin_ent_deadend_small_l_01",
+                "cr_ruin_ent_deadend_small_r_01",
+                "cr_ruin_ent_deadend_med_l_01",
+                "cr_ruin_ent_deadend_med_r_01",
+                "cr_ruin_ent_deadend_big_l_01",
+                "cr_ruin_ent_deadend_big_r_01",
+                "cr_ruin_ent_deadend_small_l_02",
+                "cr_ruin_ent_deadend_small_r_02",
+                "cr_ruin_ent_deadend_med_l_02",
+                "cr_ruin_ent_deadend_med_r_02",
+                "cr_ruin_ent_deadend_big_l_02",
+                "cr_ruin_ent_deadend_big_r_02"
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "cap_1",
+                            "weight": 0.025
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_small_l_01",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_small_r_01",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_med_l_01",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_med_r_01",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_big_l_01",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_big_r_01",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_small_l_02",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_small_r_02",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_med_l_02",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_med_r_02",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_big_l_02",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_ent_deadend_big_r_02",
+                            "weight": 0.1
+                        }
+                    ],
+                    "tile-groups": [
+                        "ruin_ent_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "cr_ruin_corridor_01",
+                    "weight": 0.5
+                },
+                {
+                    "id": "cr_ruin_corridor_02",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        },
+        {
+            "id": "conduit_clicky_tile",
+            "tiles": [
+                "cr_ruin_conduit_chamber"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            },
+            "dead-ends": [
+                "cr_ruin_deadend_small_01",
+                "cr_ruin_deadend_small_02",
+                "cr_ruin_deadend_med_01",
+                "cr_ruin_deadend_med_02",
+                "cr_ruin_deadend_big_01"
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "cap_1",
+                            "weight": 0.025
+                        },
+                        {
+                            "id": "cr_ruin_deadend_small_01",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_deadend_small_02",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_deadend_med_01",
+                            "weight": 0.2
+                        },
+                        {
+                            "id": "cr_ruin_deadend_med_02",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "cr_ruin_deadend_big_01",
+                            "weight": 0.4
+                        },
+                        {
+                            "id": "cr_sandstone_entrance",
+                            "weight": 0.1
+                        }
+                    ],
+                    "tile-groups": [
+                        "ruin_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "cr_ruin_exit_corridor"
+            ]
+        },
+        {
+            "tiles": [
+                "cr_precipice_tease"
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "id": "cr_precipice_corridor_01",
+                    "weight": 0.3
+                },
+                {
+                    "id": "cr_precipice_corridor_02",
+                    "weight": 0.3
+                },
+                {
+                    "id": "cr_precipice_corridor_03",
+                    "weight": 0.3
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        },
+        {
+            "id": "ship_battle",
+            "tiles": [
+                {
+                    "id": "cr_monument_vista_1",
+                    "weight": 0.7
+                },
+                {
+                    "id": "cr_monument_vista",
+                    "weight": 0.3
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "ocean-mobs"
+                ]
+            }
+        }
+    ],
+    "tile-groups": [
+        {
+            "#": "cr_sub_twicav_central_sidepath",
+            "id": "cr_sub_twicav_central_sidepath",
+            "tiles": [
+                "cr_sub_twicav_central_sidepath",
+                "cr_sub_twicav_arena_sidepath"
+            ]
+        },
+        {
+            "#": "early_sidepath",
+            "id": "early_sidepath",
+            "tiles": [
+                {
+                    "id": "cr_early_sidepath_03",
+                    "weight": 0.1
+                },
+                {
+                    "id": "cr_early_sidepath_04",
+                    "weight": 0.1
+                },
+                {
+                    "id": "cr_early_sidepath_05",
+                    "weight": 0.1
+                },
+                {
+                    "id": "cr_early_sidepath_06",
+                    "weight": 0.1
+                },
+                {
+                    "id": "cr_early_sidepath_07",
+                    "weight": 0.1
+                },
+                {
+                    "id": "cr_early_r_angle",
+                    "weight": 0.02
+                },
+                {
+                    "id": "cr_early_t_shape",
+                    "weight": 0.02
+                }
+            ]
+        },
+        {
+            "#": "ruin_ent_sidepath",
+            "id": "ruin_ent_sidepath",
+            "tiles": [
+                {
+                    "id": "cr_ruin_ent_sidepath_l_01",
+                    "weight": 0.25
+                },
+                {
+                    "id": "cr_ruin_ent_sidepath_l_02",
+                    "weight": 0.25
+                },
+                {
+                    "id": "cr_ruin_ent_sidepath_r_01",
+                    "weight": 0.25
+                },
+                {
+                    "id": "cr_ruin_ent_sidepath_r_02",
+                    "weight": 0.25
+                },
+                {
+                    "id": "cap_1",
+                    "weight": 0.1
+                }
+            ]
+        },
+        {
+            "#": "ruin_sidepath",
+            "id": "ruin_sidepath",
+            "tiles": [
+                {
+                    "id": "cr_ruin_sidepath_01",
+                    "weight": 0.01
+                },
+                {
+                    "id": "cr_ruin_sidepath_02",
+                    "weight": 0.01
+                },
+                {
+                    "id": "cr_ruin_sidepath_03",
+                    "weight": 0.25
+                },
+                {
+                    "id": "cr_ruin_sidepath_r_angle",
+                    "weight": 0.25
+                },
+                {
+                    "id": "cap_1",
+                    "weight": 0.1
+                }
+            ]
+        }
+    ],
+    "props": [],
+    "prop-groups": [
+        {
+            "id": "17-11PropGroup",
+            "on-regions": [
+                "*.*.17-11PropGroup"
+            ],
+            "props": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "id": "23-11PropGroup",
+            "on-regions": [
+                "*.*.23-11PropGroup"
+            ],
+            "props": [
+                "4",
+                "5"
+            ]
+        },
+        {
+            "id": "30-11PropGroup",
+            "on-regions": [
+                "*.*.30-11PropGroup"
+            ],
+            "props": [
+                "6",
+                "7"
+            ]
+        }
+    ],
+    "objectives": [
+        {
+            "name": "name_cr_01",
+            "description": "description_cr_g_01",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.cr_ruin_ent_quad.obj_enter_ruins"
+            }
+        },
+        {
+            "name": "name_cr_02",
+            "description": "description_cr_c_02",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/BP_Button_Coral",
+                "door-path": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_CoralGate_9",
+                "count": 2,
+                "locations": [
+                    "*.cr_ruin_ent_quad.obj_gate_button_01",
+                    "*.cr_ruin_ent_quad.obj_gate_button_02"
+                ],
+                "locked-doors": [
+                    "*.cr_ruin_ent_quad.obj_ruin_gate"
+                ]
+            }
+        },
+        {
+            "name": "name_cr_02",
+            "description": "description_cr_g_03",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.cr_precipice_tease.obj_enter_precipice"
+            }
+        },
+        {
+            "name": "name_cr_03",
+            "description": "description_cr_g_04",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "gauntlet": {
+                "end-region": "*.*.obj_enter_ship_trigger"
+            }
+        },
+        {
+            "name": "name_cr_04",
+            "description": "description_cr_a_05",
+            "displayMode": "MainObjective",
+            "arena": {
+                "stretch": "ship_battle",
+                "start-time": 5,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "interval": 10,
+                "rest-interval": 1.5,
+                "waves": [
+                    [
+                        7,
+                        "Drowned"
+                    ],
+                    [
+                        6,
+                        "TridentDrowned"
+                    ],
+                    [
+                        7,
+                        "Drowned"
+                    ],
+                    [
+                        5,
+                        "SunkenSkeleton"
+                    ],
+                    [
+                        7,
+                        "Drowned"
+                    ],
+                    [
+                        2,
+                        "TropicalSlimeLarge"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/coralgate/BP_coralgate_7",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "name": "name_cr_05",
+            "description": "description_cr_g_06",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Door7x4",
+                "count": 1,
+                "locations": [
+                    "*.cr_end.finish"
+                ]
+            }
+        }
+    ],
+    "challenges": [
+        {
+            "id": "hydro_challenge_arena",
+            "trigger": "*.cr_sub_hydrovent_arena.hydro_arena",
+            "reward": {
+                "region": "*.cr_sub_hydrovent_arena.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 5,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        6,
+                        "ocean-arena"
+                    ],
+                    [
+                        8,
+                        "ocean-arena"
+                    ],
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        10,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "ocean-arena"
+                    ],
+                    [
+                        8,
+                        "ocean-arena"
+                    ],
+                    [
+                        12,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralGate/BP_CoralGate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "Slime_Arena",
+            "trigger": "*.*.Slime_Arena_Trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0.5,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "ocean-arena"
+                    ],
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        4,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "ocean-arena"
+                    ],
+                    [
+                        8,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralGate/BP_CoralGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "DeadEnd_Arena",
+            "trigger": "*.cr_twicav_sub_arena_deadend.FightTrigger",
+            "reward": {
+                "region": "*.cr_twicav_sub_arena_deadend.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2,
+                "rest-interval": 0.5,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "ocean-arena"
+                    ],
+                    [
+                        8,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/PickleGate/BP_PickleGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "rrunlock_click",
+            "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/BP_Button_AM",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 4,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ],
+                    [
+                        1.5,
+                        "DrownedNecromancer"
+                    ],
+                    [
+                        2,
+                        "DrownedNecromancer"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralGate/BP_CoralGate_7",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "LootRoomUnlock",
+            "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/BP_Button_AM",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 4,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "ocean-arena"
+                    ],
+                    [
+                        2,
+                        "DrownedNecromancer"
+                    ],
+                    [
+                        2,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralGate/BP_CoralGate_7",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "new_arena_1/2",
+            "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/Bilge_Buttons/BP_Button_AM_Child_1",
+            "arena": {
+                "stretch": "",
+                "interval": 2,
+                "rest-interval": 2,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        18,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/BP_Door_5",
+                    "start-unlocked": false,
+                    "regions": [
+                        "*.*.gate1"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "new_arena_2/2",
+            "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/Bilge_Buttons/BP_Button_AM_Child_5",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 7,
+                "rest-interval": 1.5,
+                "start-time": 0.5,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        2,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "ocean-arena"
+                    ],
+                    [
+                        2,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "ocean-arena"
+                    ],
+                    [
+                        2,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/BP_Door_5",
+                    "start-unlocked": false,
+                    "regions": [
+                        "*.*.gate2"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "r_angle_arena",
+            "trigger": "*.cr_mount_cont_r_angle.r_angle_arena_trigger",
+            "reward": {
+                "region": "*.cr_mount_cont_r_angle.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        10,
+                        "ocean-arena"
+                    ],
+                    [
+                        12,
+                        "ocean-arena"
+                    ],
+                    [
+                        15,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "de_big_l_01_arena",
+            "trigger": "*.cr_ruin_ent_deadend_big_l_01.de_big_l_01_arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_ent_deadend_big_l_01.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "Drowned"
+                    ],
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ],
+                    [
+                        12,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "de_big_l_02_arena",
+            "trigger": "*.cr_ruin_ent_deadend_big_l_02.de_big_l_02_arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_ent_deadend_big_l_02.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        3,
+                        "ocean-arena"
+                    ],
+                    [
+                        4,
+                        "Drowned"
+                    ],
+                    [
+                        5,
+                        "SunkenSkeleton"
+                    ],
+                    [
+                        12,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "de_big_r_01_arena",
+            "trigger": "*.cr_ruin_ent_deadend_big_r_01.de_big_r_01_arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_ent_deadend_big_r_01.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        2,
+                        "Drowned"
+                    ],
+                    [
+                        2,
+                        "Drowned"
+                    ],
+                    [
+                        3,
+                        "Drowned"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ],
+                    [
+                        5,
+                        "TridentDrowned"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "de_big_r_02_arena",
+            "trigger": "*.cr_ruin_ent_deadend_big_r_02.de_big_r_02_arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_ent_deadend_big_r_02.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        3,
+                        "SunkenSkeleton"
+                    ],
+                    [
+                        3,
+                        "SunkenSkeleton"
+                    ],
+                    [
+                        3,
+                        "SunkenSkeleton"
+                    ],
+                    [
+                        3,
+                        "SunkenSkeleton"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "de_med_l_01_arena",
+            "trigger": "*.cr_ruin_ent_deadend_med_l_01.de_med_l_01_arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_ent_deadend_med_l_01.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 3,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        2,
+                        "TropicalSlimelarge"
+                    ],
+                    [
+                        2,
+                        "TropicalSlimelarge"
+                    ],
+                    [
+                        3,
+                        "TropicalSlimelarge"
+                    ],
+                    [
+                        2,
+                        "TropicalSlimelarge"
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "de_med_l_02_arena",
+            "trigger": "*.cr_ruin_ent_deadend_med_l_02.de_med_l_02_arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_ent_deadend_med_l_02.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        7,
+                        "Drowned"
+                    ],
+                    [
+                        10,
+                        "TridentDrowned"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "de_ruin_big_01_arena",
+            "trigger": "*.cr_ruin_deadend_big_01.arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_deadend_big_01.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Hidden"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "Guardian"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ],
+                    [
+                        7,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "de_ruin_med_02_arena",
+            "trigger": "*.cr_ruin_deadend_med_02.arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_deadend_med_02.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_fancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        10,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ],
+                    [
+                        12,
+                        "ocean-arena"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_Picklegate_7",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "conduit_arena",
+            "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Conduit_Stand/BP_ConduitStand",
+            "reward": {
+                "region": "*.cr_mount_cont_r_angle.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "stretch": "conduit_clicky_tile",
+                "interval": 7.5,
+                "rest-interval": 0,
+                "start-time": 0,
+                "waves": [
+                    [
+                        3,
+                        "ocean-arena"
+                    ],
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        3,
+                        "ocean-arena"
+                    ],
+                    [
+                        5,
+                        "ocean-arena"
+                    ],
+                    [
+                        7,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/coralgate/BP_coralgate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "conduit_elder",
+            "trigger": "*.cr_ruin_sidepath_03.arena_trigger",
+            "reward": {
+                "region": "*.cr_ruin_sidepath_03.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_fancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 1.5,
+                "start-time": 10,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        7,
+                        "Drowned"
+                    ],
+                    [
+                        1,
+                        "DrownedNecromancer"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/picklegate/BP_picklegate_9",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "guardian_ambush_clicky_arena",
+            "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/BP_Button_Coral",
+            "reward": {
+                "region": "*.cr_end.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 2.5,
+                "rest-interval": 0,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "waves": [
+                    [
+                        1,
+                        "ElderGuardian"
+                    ],
+                    [
+                        6,
+                        "Guardian"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalStoneDoor/BP_AbyssalStoneDoor",
+                    "start-unlocked": false
+                }
+            }
+        }
+    ],
+    "mob-groups": [
+        {
+            "#": "============== OCEAN ANIMALS ==============",
+            "id": "ocean-animals",
+            "types": [
+                {
+                    "type": "Squid",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Turtle",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Dolphin",
+                    "weight": 0.3
+                },
+                {
+                    "type": "BabyTurtle",
+                    "weight": 0.05
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== OCEAN MOBS ==============",
+            "id": "ocean-mobs",
+            "types": [
+                {
+                    "type": "OceanAnimal",
+                    "weight": 1,
+                    "max%": 0.05
+                },
+                {
+                    "type": "Drowned",
+                    "weight": 5
+                },
+                {
+                    "type": "BabyDrowned",
+                    "weight": 5
+                },
+                {
+                    "type": "TridentDrowned",
+                    "weight": 2
+                },
+                {
+                    "type": "TropicalSlimeLarge",
+                    "weight": 5,
+                    "max%": 0.05
+                },
+                {
+                    "type": "SunkenSkeleton",
+                    "weight": 5
+                },
+                {
+                    "type": "WaveWhisperer",
+                    "weight": 0.1,
+                    "max%": 0.1
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ]
+        },
+        {
+            "#": "============== OCEAN ARENA ==============",
+            "id": "ocean-arena",
+            "types": [
+                {
+                    "type": "Drowned",
+                    "weight": 5
+                },
+                {
+                    "type": "BabyDrowned",
+                    "weight": 5
+                },
+                {
+                    "type": "TridentDrowned",
+                    "weight": 5
+                },
+                {
+                    "type": "TropicalSlimeLarge",
+                    "weight": 5,
+                    "max%": 0.05
+                },
+                {
+                    "type": "SunkenSkeleton",
+                    "weight": 5
+                },
+                {
+                    "type": "WaveWhisperer",
+                    "weight": 0.2,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ]
+        },
+        {
+            "#": "============== OCEAN SINGLES 1 ==============",
+            "id": "elderguardian",
+            "types": [
+                {
+                    "type": "ElderGuardian",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "#": "============== OCEAN SINGLES 2 ==============",
+            "id": "Guardian",
+            "types": [
+                {
+                    "type": "Guardian",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "#": "============== OCEAN SINGLES 3==============",
+            "id": "DrownedNecromancer",
+            "types": [
+                {
+                    "type": "DrownedNecromancer",
+                    "weight": 0.1
+                }
+            ]
+        },
+        {
+            "#": "============== OCEAN SINGLES 4 ==============",
+            "id": "SunkenSkeleton",
+            "types": [
+                {
+                    "type": "SunkenSkeleton",
+                    "weight": 0.1
+                }
+            ]
+        },
+        {
+            "#": "============== OCEAN SINGLES 5 ==============",
+            "id": "TridentDrowned",
+            "types": [
+                {
+                    "type": "TridentDrowned",
+                    "weight": 0.1
+                }
+            ]
+        },
+        {
+            "#": "============== OCEAN SINGLES 6 ==============",
+            "id": "Drowned",
+            "types": [
+                {
+                    "type": "Drowned",
+                    "weight": 0.1
+                }
+            ]
+        },
+        {
+            "#": "============== OCEAN SINGLES 7 ==============",
+            "id": "TropicalSlimeLarge",
+            "types": [
+                {
+                    "type": "TropicalSlimeLarge",
+                    "weight": 0.1
+                }
+            ]
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "CoralRise_End",
+            "stretches": [
+                {
+                    "id": "name_cr_c_1",
+                    "tiles": [
+                        "cr_end"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sub_hydrothermalvent",
+            "ambience": "delta",
+            "audio-ambience": "audio_4",
+            "stretches": [
+                {
+                    "tiles": [
+                        "cr_sub_hydrovent_entrance"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cr_sub_hydrovent_arena"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sub_sandstoneruins",
+            "ambience": "echo",
+            "audio-ambience": "audio_2",
+            "stretches": [
+                {
+                    "tiles": [
+                        {
+                            "id": "cr_sub_sandruins_1",
+                            "weight": 0.6
+                        },
+                        {
+                            "id": "cr_sub_sandruins_2",
+                            "weight": 0.2
+                        },
+                        {
+                            "id": "cr_sub_sandruins_3",
+                            "weight": 0.2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sub_twilightcavern",
+            "ambience": "foxtrot",
+            "audio-ambience": "audio_3",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        5,
+                        5,
+                        5
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        "cr_sub_twicav_start"
+                    ]
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "cr_sub_twicav_ravine_01",
+                            "weight": 0.4
+                        },
+                        {
+                            "id": "cr_sub_twicav_ravine_02",
+                            "weight": 0.2
+                        },
+                        {
+                            "id": "cr_sub_twicav_ravine_03",
+                            "weight": 0.4
+                        }
+                    ],
+                    "length": 2
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "cr_sub_twicav_central",
+                            "weight": 0.6
+                        },
+                        {
+                            "id": "cr_sub_twicav_central_alt",
+                            "weight": 0.4
+                        }
+                    ],
+                    "prop-groups": [
+                        "17-11PropGroup",
+                        "23-11PropGroup",
+                        "30-11PropGroup"
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "cr_sub_twicav_central_deadend_01",
+                            "weight": 0.3
+                        },
+                        {
+                            "id": "cr_sub_twicav_central_deadend_02",
+                            "weight": 0.3
+                        },
+                        {
+                            "id": "cr_twicav_sub_arena_deadend",
+                            "weight": 0.4
+                        }
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                1
+                            ],
+                            "dead-ends": [
+                                {
+                                    "id": "cr_twicav_sub_rrunlock_v2",
+                                    "weight": 1
+                                }
+                            ],
+                            "tile-groups": [
+                                "cr_sub_twicav_central_sidepath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "cr_sub_twicav_dark_01",
+                            "weight": 2.5
+                        },
+                        {
+                            "id": "cr_sub_twicav_dark_02",
+                            "weight": 2.5
+                        },
+                        {
+                            "id": "cr_sub_twicav_dark_03",
+                            "weight": 2.5
+                        },
+                        {
+                            "id": "cr_sub_twicav_dark_04",
+                            "weight": 2.5
+                        }
+                    ],
+                    "length": 2
+                },
+                {
+                    "tiles": [
+                        "cr_sub_twicav_climb"
+                    ]
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "cr_sub_twicav_arena",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "cr_sub_twicav_arena_alt",
+                            "weight": 0.5
+                        }
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cr_sub_twicav_end"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sub_bilge",
+            "audio-ambience": "audio_1",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        5
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        {
+                            "id": "cr_sub_bilge_main_01",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "cr_sub_bilge_main_02",
+                            "weight": 0.5
+                        }
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "ocean-mobs"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

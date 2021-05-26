@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Kelp/MI_Glowing_Seaweed_tall.MI_Glowing_Seaweed_tall'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Kelp/MI_Glowing_Seaweed_tall.MI_Glowing_Seaweed_tall'
+        MaterialSlotName = 09 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.493, 206.661, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00038147, Y=0, Z=100 }
+    BoxExtent = { X=50, Y=50, Z=100 }
+    SphereRadius = 111.803
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/Mat_Underwater_Lantern.Mat_Underwater_Lantern'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Glowing_Coral_Vase/Mat_Underwater_Lantern.Mat_Underwater_Lantern'
+        MaterialSlotName = lambert12
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 768.772, 408.697, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=50, Z=100 }
+    BoxExtent = { X=50, Y=50, Z=100 }
+    SphereRadius = 122.474
+}

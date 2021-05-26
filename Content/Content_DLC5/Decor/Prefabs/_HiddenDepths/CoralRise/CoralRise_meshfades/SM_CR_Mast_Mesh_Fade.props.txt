@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/CoralRise_meshfades/SM_CR_Mast_MeshFade.SM_CR_Mast_MeshFade'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralRise/CoralRise_meshfades/SM_CR_Mast_MeshFade.SM_CR_Mast_MeshFade'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.008, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=-200, Z=1900 }
+    BoxExtent = { X=150, Y=1362.5, Z=1800 }
+    SphereRadius = 1992.88
+}

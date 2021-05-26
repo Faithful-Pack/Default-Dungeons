@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Items/SatchelofNeed/M_SatchelofNeed.M_SatchelofNeed'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Items/SatchelofNeed/M_SatchelofNeed.M_SatchelofNeed'
+        MaterialSlotName = Material #111
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.272, 298.24, 313.097, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=78.125 }
+    BoxExtent = { X=50, Y=50, Z=78.125 }
+    SphereRadius = 105.373
+}

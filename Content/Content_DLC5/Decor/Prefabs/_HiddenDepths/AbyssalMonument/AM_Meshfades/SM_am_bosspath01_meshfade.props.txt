@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/AM_Meshfades/Mi_AbyssalMeshfades.Mi_AbyssalMeshfades'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/AM_Meshfades/Mi_AbyssalMeshfades.Mi_AbyssalMeshfades'
+        MaterialSlotName = Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 2119.54, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-350, Y=-950, Z=49.9999 }
+    BoxExtent = { X=350, Y=950, Z=250 }
+    SphereRadius = 1042.83
+}

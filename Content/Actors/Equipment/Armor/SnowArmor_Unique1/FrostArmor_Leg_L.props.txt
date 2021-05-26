@@ -1,6 +1,7 @@
 Materials[2] =
 {
     Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/SnowArmor_Unique1/MI_SnowArmor_Unique1.MI_SnowArmor_Unique1'
+    Materials[1] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
 }
 SourceModels[0] = {}
 StaticMaterials[2] =
@@ -18,7 +19,7 @@ StaticMaterials[2] =
     }
     StaticMaterials[1] =
     {
-        MaterialInterface = None
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
         MaterialSlotName = Material #103
         UVChannelData =
         {

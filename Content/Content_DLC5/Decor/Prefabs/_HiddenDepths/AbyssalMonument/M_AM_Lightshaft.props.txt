@@ -1,0 +1,101 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/T_AM_LightMask.T_AM_LightMask'
+}
+Expressions[21] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionTextureSample_0'
+    Expressions[12] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionScalarParameter_0'
+    Expressions[13] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionScalarParameter_1'
+    Expressions[14] = MaterialExpressionVectorParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionVectorParameter_0'
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[18] = MaterialExpressionScalarParameter'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/M_AM_Lightshaft.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/T_Am_LightContent.T_Am_LightContent'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/T_Am_LightContent.T_Am_LightContent'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Content_DLC5/Decor/Prefabs/_HiddenDepths/AbyssalMonument/T_Am_LightContent.T_Am_LightContent'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=750, Name=Depth Fade Distance, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.5
+        Name = Animation Speed Multipier
+        Group = None
+    }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1.85368, B=0.986174, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_Am_LightContent
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_AM_LightMask
+    }
+}

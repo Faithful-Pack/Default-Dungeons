@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/RangedWeapons/BubbleBow_Unique1/MI_BubbleBow.MI_BubbleBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Actors/Equipment/RangedWeapons/BubbleBow_Unique1/MI_BubbleBow.MI_BubbleBow'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.174, 132.717, 179.058, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.04904e-005, Y=-12.5908, Z=-12.3437 }
+    BoxExtent = { X=3.12502, Y=50, Z=50.0001 }
+    SphereRadius = 70.7798
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/RadiantRavine/MI_RR_CaveMeshfade1.MI_RR_CaveMeshfade1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC5/Decor/Prefabs/_HiddenDepths/RadiantRavine/MI_RR_CaveMeshfade1.MI_RR_CaveMeshfade1'
+        MaterialSlotName = 14 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.007, 8533.44, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=900, Y=-1400, Z=300 }
+    BoxExtent = { X=1200, Y=1700, Z=300 }
+    SphereRadius = 1862.79
+}

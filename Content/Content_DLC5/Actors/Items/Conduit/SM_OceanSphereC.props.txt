@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC5/Actors/Items/Conduit/M_Oceanspher3C.M_Oceanspher3C'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Actors/Items/Conduit/M_Oceanspher3C.M_Oceanspher3C'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 1430.2, 2676.76, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.10352e-005, Y=6.10352e-005, Z=3.05176e-005 }
+    BoxExtent = { X=450, Y=450, Z=450 }
+    SphereRadius = 572.276
+}
