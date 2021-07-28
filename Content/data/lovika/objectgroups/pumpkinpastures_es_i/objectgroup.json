@@ -1,0 +1,2575 @@
+
+{
+ "objects" : 
+ [
+  
+  {
+   "blocks" : "eNrtk8FugzAMho0EZ7C0nvsq2yP0wM5V7nuNXvoQvCJIbFcWIElJPHBC063SYlXQfvy2f7uhKFKkuDtw+hSFEAIsgAhivCJOVwMWec2YsgQCFiAbLxbI81xEB24X4uPmdDmLEM60FEANi5ACG8BFNNuA1ABpbAHkMAXYilzAZooPyNkuJIU65YeT+4BNINs022Bs6wisXx+TdSsIABEMnBo/dCEp1Ck/nMeCXpptwC0IrldmuCiAdvFZEDtcWtBfLIhYd0HOgZxVUHAlr5gLoiyIFC0aFkAo2DE+f6R2+IgxHPD/S3jKI16xxzhNC3rOBe16G57U6YUFO1L4GjGMxXAao+3/AvyhSyCBBBKICjAFGzViBR3i4SR/wAywyrCu6xNWJR7kF8SyG8E74jCBMygAwAGdomtMRU0Xp203TFGVx/nLqwK9Ap1WtMMEvuCoAAwqpbQVNwBuilaYor3btirneweDCgVk7hxY2g8g04KjoySpWmFSjALLlVzjo1pVVM4D0EpibBWAW9wUJTOEL6jVSt6HBi0pHmNBnZ5Wd8mCganhsSCdgoMvMOOv+mjDixKg35LbLC4wCv8TFFAUvRWkqP8JCih6z4JO6v7JgnsW9KbuvavoVxWrPvrwosaH/3H4HUB2mkACnuAb/7w8jg==",
+   "boundaries" : "eNotz1sOgzAMRNEBEpqQB7T7X2wn5n5YRyONbFlSkvTTcsMdD0yY8cQPFqx4YcOOAyfe+Njm7VnfsNnurdnN5RlW3xthwRoW33t7zQ6PojH9z+uOR1jjs5UTuZM7vYETb3xU/t20BWc=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 5, 3, 16 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 5, 3, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "fake"
+    }
+   ],
+   "height-plane" : "eNpjZkICvILsjMyoAhzshAQwtDAiC7CwowkwYQhwkC7ATtAWJiwCZHkOAHFGBGI=",
+   "id" : "oldtownhall_chunk_01",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 120, 32, -57 ],
+   "region-plane" : "eNpjZEACjCCALMDMTEgAUwuqACMjugpmDAFm0gUYCdmC7g6yPQcASL0Agw==",
+   "region-y-plane" : "eNpjZkICvILsjMyoAhzshAQwtDAiC7CwowkwYQhwkC7ATtAWJiwCZHkOAHFGBGI=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 3, 3, 5 ],
+     "size" : [ 4, 1, 9 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 18, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYEYCDCCALMDMQkgAUwuqAAMDhgpCWogRYCBoCyEtxHoOAHA8AoQ=",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtlEtuwjAQhieLrJ2R6DpXaY/QBRfwYZA4Ra7oSOxd4xd4htQhccFSPUKazKd5/gRkT0w+D6q1Dbf8CajWil2L9mMCKSEBiCAzYJLQJ0ACAT3kMkqAR1PYpuQWKbPAnGtEsSatQYytneSUxBbcx2B6HBMgp2oA25Tfwq+902OFQHAgAl1BOvYwAZCMWgDblN/Cr20CPSfQ2ZgD5sH8BiHGLuswJbEF6dh0pn21awFsU34Lv5bokbag1yL9XjhgJT1UCjYcJ3PHQT9lwIOSHNhQUqJHieNec209Aj1d0gRqAhUW6JQFryl501jsyb/0hk3/F9jwrjfQQAMN7AEdOhu8RwZK2vKU9aCorRp7NCEoxI9vE4MDhjgwCHRAzD5DEzBkwa1EhaZkym2sAqG1AhBXb+xTOX8Rzuthdl7p0T2IPSA0jVPiWLcHCgATmpdJga/1XinnZ99C+1jrPSA2jVPiWLtHxwRSfnUdBSqxRwREIH0bmwrUBYFUWB2oQEX2oQLdjfV7+Ez0tXOoHQMIAqH381gADHRKGDsIUjKHW2gPTTOWS/IZ+aYbxi6W7LkFV2c0gZx9eX+hGReasVySz1huGl7pzgMVMt4MllVvoIHfwQ+G2V6b",
+   "boundaries" : "eNotzkkSgCAQBMEGF5DV8P+PtcWKOSR1mUFS0qYpafc8ywNPTJjxwoIV2zKpe1+wEYeNNuD0bFZ420IXutKVbnSju38TfLN7e/D760jH1cO7f3c88MSEGS8sWLFh587gzqAnPZVfmfwGCg==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 5, 3, 16 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 5, 3, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "fake"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjY2NjYwIDIINXkJ0RzgcBXkEOdmQ+RIAJRYCdlRlVgG3QCGC4FNMvmL5FCQ8eHgDCCwUB",
+   "id" : "oldtownhall_chunk_02",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 120, 32, -36 ],
+   "region-plane" : "eNpjZGRkZAADRjhggANmZlQ+RIABWYARXYB5sAowYvMLpm/RwgMAWQYAoA==",
+   "region-y-plane" : "eNpjY2NjYwIDIINXkJ0RzgcBXkEOdmQ+RIAJRYCdlRlVgG3QCGC4FNMvmL5FCQ8eHgDCCwUB",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 3, 3 ],
+     "size" : [ 3, 1, 12 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 18, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYGBgYAYDBjhgRgAWND5YAJnPjK4AU8VgEWDA5hdM36KFBwB0/gKQ",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtlk1ugzAQRp0Fa5iqXaP2JO0RsmBdicNwjOSKsUTWLj9jlIwzHZsY0yJGTVs9xt9MHkRKlu31T6vpau0dbMHw0/2qlUoBagI6EgqcjCU27YaoSt1WIlAT0NRnHgBQ0L9uM4BOiQL6qhWpRMAhr2cenE4UoKA7cDclCujKEZTGGIQJegicjIpmxgAxBM06soCghW7lOoKyCIKyYEEx3hxkacACglKtTjcXwawjVJBszPXhZCyy6UqCnA7RmPjAbFzQHx0rC2pEkObISmP7r9PPbrpxQATNeNY3DnZBu6Bd0MKCYMv18vEeI6bqXrkGeDsCFMYbKASgEBQHAlRwaJFrM9TFlOM/ASBH8ImgHYAuEZSmGIE9UmIGD/rFsHJjx3oD9fhKheBq9NjxjReutpMH1dFmzVisEFtth6ZTAoA7lpumFXfFgqnD37qWx7IZIKZPHf6hk6DSZvgD8SZPHQGhFNjPkdG0Q9MOYOUWtCMg1Lvjl1DucXwmdI4g7kjIexEFfeHflna0tIM/InfwoYDkgOBiO9YCdlVWYWJgBa29xwR2QZKgH9vKSqQ=",
+   "boundaries" : "eNotztESgCAIRFEyM0XQ6v8/NnTu05ldB0FEsoh8sjww4YkZLyx4Y8WGih0NHQdOfMIWvzd5t4odDR0HTnxCZV7JHQ09piQuXR6Y8MSMFxa8sWJD3ZbYlXbuZCMb2WPjyk4e+73tzasf9JN+0k+pP89bB7c=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 5, 3, 16 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 5, 3, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "fake"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjZkICvIKMjMx0EOBEF+DiQBfghAuwsKCpYEE3gwXdFqoIAAGvoKAgAFm8BGU=",
+   "id" : "oldtownhall_chunk_03",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 120, 32, -15 ],
+   "region-plane" : "eNpjZEACzIxAMAACzPgEQCxUAbAgmgAz1QWgAABHvgCG",
+   "region-y-plane" : "eNpjZkICvIKMjMx0EOBEF+DiQBfghAuwsKCpYEE3gwXdFqoIAAGvoKAgAFm8BGU=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 5, 3, 2 ],
+     "size" : [ 4, 1, 7 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 6, 3, 12 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 2, 3, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 17, 18, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYEYGDEAwAAIs+ATALBQBqBEoAsxUF4ACAHiEAno=",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtlE9uqzAQxt0FaxipXVa+yssRsmBZVeIwOUZypi7eMneIpbxl5RIzQ90x08EJPLHwKATnxzd//AWoqhIlHg4In/4LOsOA6UQwHKcoJYDOsBoVB90aIO7C50gnxd12KjCtiSMBh+4kgt6snynht+kH2xzgk+qbG/0wvwPzfBIBHFnKkQbbGkgm1Te3iEHTKfx3mw+WriFMuhGDNgAWMwgyH7E+4pRjAJWJQJWA4X36f8H4xs00KEmJiyI4yaC9RZwyvOA4mFBUDBzyAa/x+xx8Un1zkh/cYxXoKROKhKj3egJ4jbvmyE4pBhWDFjbooAI9ZUJRLQ/umkNPYW30lGXACgatNSlD+XfhXaBaA6wzaTGoGFQMWtcgKKFG2x+NA3jZ9wtD4GkATY2gJoVnoFFBmlKzLt9tnQ/hajss/iC4BgDeB0V/XPwN9Ef9KKCiY5eorauHs2/w7AlcwuV3VLzjhX944REwFqUucVuaQ1DYb8WFK8VUTWGl7c8wKFKIe8oFzs8wCKYVr+ePoPg8nyHQ89uHDeBvi6Dd54KXdi8aRHM4S8DHwN0eDzTZ4uZGAAiuFsGOA+ApP4uKbSPgCTiuSAEtxD+IFE4tOraF2YoUjAvxdgC1hjjp5gxqsNgOwZUrUkCLndUAqEWprQMkT7Q3UswAuLiACjKKUq5ooQzmPyc5RW12ygj0OWx+0WKQZtAXbzI6cA==",
+   "boundaries" : "eNot0FkKwCAMANG41cS19P6HbZTBj8eAu4hkEfnkGDBiwowFH6yoaNiw48CJCze+rvrq5DOOGQs+WFHRsGHHgdOHsa/RjW50pzs96EFPv63cE83/J90OdKQjvehFb3rfXv5O/QE5ngZr",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 5, 3, 16 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 5, 3, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "fake"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjZkICvII8PMyoAhzsOAU4QIBXkJ0RLsAOBLyCjAQFBDEEuEkXIMVadJcS9hxUQFAQAEriBfY=",
+   "id" : "oldtownhall_chunk_04",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 120, 32, 6 ],
+   "region-plane" : "eNpjZEACzIxAgCLAjEeAkZGZmRlZC5g/KAXQXUrYc/DwAACUeQEL",
+   "region-y-plane" : "eNpjZkICvII8PMyoAhzsOAU4QIBXkJ0RLsAOBLyCjAQFBDEEuEkXIMVadJcS9hxUQFAQAEriBfY=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 2, 3, 4 ],
+     "size" : [ 6, 1, 11 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 10, 6, 4 ],
+     "size" : [ 3, 1, 9 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 18, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYEYGDECAIsCCRwDCQNLCwDxYBdBdSthz8PAAAG3tAoE=",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtmEtqwzAQhscUra0hzTqPC2SRC7RHyMLLUtBhfAz7VF33ChGky6JKtuTEY5up87ITPBQkfZ35Z+YnUFIhpugZUI9/AizCv4V7O62K+HcgDoR+PQDVaHRpztF7l9bA4seGUlADtpVqA6kPC3JXkqalviWIShVvkWXCEQtApMcZ0jID/GyiAlkJMgtUUdLIoBq0C5kDWiat7aLqywkKnEZy6p8brAYgVTkDqAbARlHQyMgZ0CLKlbR0AUaUXc4ZRCQIAHjNGYCNkg0Pcga0iHIlfFvsvdxk0GTQ8AY1NECMFOA1DKJ/9VDkLIDHBZcvByw4oyRhwTVKrjHpfQzil7sJeByDnvoTlLLgjJKBwFnLke8iY9llPIB+Wev/KXxyMBk0GTQZdGODcKwh/Yzoz+gIouK3KKN5snMXe7pLJO2Z7BywZ1IDISOUVBqdXU4icf+C04jznbt4ICOcbbdblDHOjDEvFszMx5e9xGhc2GaLT2N+9rbk176/I9AVCBkrV7K0JSv7XqLUuF6vl0606kLa6qLUyHhRXt48OAQQMgx4sA8gJkDHXIahogfaFmOvBSaU+HNvQhcCTCeQbAYrqoOGvGWXHqKPZ1CVoWnbC4DmDVoEYMYFTACaZmiagV0ZNxE1naLX2JafdLQGvfvzQDMOnRlngE5RjZ5EHuxDxlAgjNpp4Z1BMGjoOSowGcQZ9Acb/3rR",
+   "boundaries" : "eNotzEkKACEUxNBSv/NI3/+wrZDVgywiySR9ejr0GNAwYsKMBSs27Dhw4sKN5zpv1T09HXoMaBgxYcaCFRt2HDhx4caj8gM9zQTa",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 5, 3, 16 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 5, 3, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "fake"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjZkICvILsjMyoAhzshAQgWhjBACLAzAziMzFBSIgKRjgACbABBWBasAswYlOBbgaGLajuYGSm2HOCggBfDgRe",
+   "id" : "oldtownhall_chunk_05",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 120, 32, 27 ],
+   "region-plane" : "eNpjZEACjCCALMDMTFCADC1DxlCQDgBNhACM",
+   "region-y-plane" : "eNpjZkICvILsjMyoAhzshAQgWhjBACLAzAziMzFBSIgKRjgACbABBWBasAswYlOBbgaGLajuYGSm2HOCggBfDgRe",
+   "size" : [ 17, 18, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYEYCDCCALMDMQlAAqoUJDGAiID4zM4wECTDBAUwApgWbAAN2FehmYNiC6Q5Ml5LgOZAOAGkeAno=",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNpN09dSwkAAQNGd8UVfrKgUgaCIUuyAvSsqooDt/z/FDZ4HJ5O5czabbJJJQjFkwmLc0i5pRpd1RVc1qznNa0HXtKil2FK8ykKYj82GcpiN+5/LnHDCFa7wOq/zBm9wlau8yZtc4xpv8RZv8zbXuc4NbkQn0U1ucotb8S0lYS7scNpEK7G7xvd0Xw/0UI/+NdH0/LbxtnU63HEfXe7yMR97jhM+4VM+5TM+43M+5wu+4Eu+5Cu+4mu+5hu+4Vu+5Tu+43u+5wd+4Ed+5B73+Imf+Jmf+YVfuM99fuVXHvCA3/iN3/mdhzzkEY94zGP+4A/+5E/+4i/+5u/o5YmzcSRtLn4hU7HF2JnJeNbxnObNK5hXMG/N8aKm6/xM/uLpSZc0o6Uw/QvmmUAk",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter",
+     "pos" : [ 79, 20, 33 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "fake"
+    },
+    
+    {
+     "name" : "pp_es_othall_door",
+     "pos" : [ 87, 19, 24 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrtlUsOgzAMRM8AxPFIpQvuf8kGQimf/DD2rrNAyApPw2QCL97k9PSeovhPF9L9V6XRZdJOh/fcQIeM7uOzuxFWmoZ3PtpKe0c0L/OOEx3H15F7X2Mvez9ndcM7Ap4PdFx3FcLc042E19lVtb6fMHJl6MyGdBh7hyV9rR49VDkZGqK6tPpFyWG/3OWSaaLX1JcbGehuIDG9yySz8+7k3rnBuwEdm3dyYvqYocPWu0pn6smEqzZ9f5oedGasd4b0k/n13Zn2/cmups5qRduHa76prL1PD78tWujkqyut6eOs6QPBZggQ",
+   "id" : "oldtownhall_entrance",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 47, 15, -95 ],
+   "region-plane" : "eNpjZBwFo2AUjIJRMAqGEmAgEzAPYdNpGjLMNHU7cYYPUrePmj4wpg/hNEOk45kRANUmZBmoPAqLuKDB5hcCTiHLYMKmYwEABFgKGw==",
+   "region-y-plane" : "eNrtld0OgyAMRp9BoT8X7ML3f8k5cMsQRrHYuGQ7V4SEk8+2SAhVPAxxWxLhg32MX7DjE9/YKnb67YxIHXbW2TGdfbPzZjsjO+Wx6tk5hddl552d88/RZ9/K3s6+r9WB7LzqKbNz2VVW1r0+kYzndNVy3nX87Ur72OMhvR4uMdWZI9XNOa6G7BKy3TtQ2yc5u9dnp47slnYHXm0PV2c3ta83zjL7wMx01B1sK/OtXZXuKpW8flyPBbU5bidCiHZAkrC2R8tyB1jVGxM=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 87, 28, 17 ],
+     "size" : [ 6, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 18, 19 ],
+     "size" : [ 17, 1, 6 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 81, 18, 20 ],
+     "size" : [ 4, 1, 11 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 24, 21, 0 ],
+     "size" : [ 65, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 28, 0 ],
+     "size" : [ 23, 1, 34 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 45, 18, 32 ],
+     "size" : [ 7, 1, 2 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 18, 26 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 18, 19 ],
+     "size" : [ 7, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 67, 18, 19 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 63, 18, 21 ],
+     "size" : [ 3, 1, 4 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 8, 0 ],
+     "size" : [ 94, 1, 34 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 94, 34, 34 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYBgFo2AUjIJRMAqGEhDCDoTBAKugMIRFiemEAG1NF6IoZAi6XYSWphNn+OB0OzT5jJpO53AfymlGiOSSgAFecIEjDMNABmEYYCC2FMNqGy5JEQggy2DCpmMBAJtJOjk=",
+   "y" : 3
+  },
+  
+  {
+   "blocks" : "eNrlk01qw0AMhWWM17UIXQ/4AiaEHMQLX0B7+x65hM/oxmSdyNIwPwpN4pJ20wdGwzeSnmYYI1Ys9F/QI8ABWVUMae4LQMt8g5iliRbYjNijsi73YBzzSRmM5nB3wJyWBsj1i2BYlQEi2gpsj9SlZ2VgmqYcgAUUAbZti0TBcZA1gXX5SxAOGwANTzLePEdC4gWFTdbJlvwzkBDk94anVWGTxf/mZ4+qvtNowfpyO+GsHAiTREERfFMCvmkN3qUuctudu6r2Pi6vgHPTKABwAmYocrAc9mkJoi6OvXZbLp2CUkANdXlwazV8+JLZx+s20DgFc+FB6bb1kMUXFDoJD/SzOd4G1J8vSCaZAW5k/cn9",
+   "boundaries" : "eNpNzTkOgEAMBEEDC8tt//+1BBQSwaiiUUdEi28DR05snLmwc+XGnQdPXry1Uqu0Sqt8kuWbvvlbvT6gtQIo",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjZmRABcy0E2AEARQBJiYmUgXQzUCxBS6HS4ABXYAZIcAMBxARRjAbAEG1AJ8=",
+   "id" : "oldtownhall_sidepath_01",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 99, 32, -57 ],
+   "region-plane" : "eNpjZEADjCNLgBGZDQPIAgAMGAAh",
+   "region-y-plane" : "eNpjZmRABcy0E2AEARQBJiYmUgXQzUCxBS6HS4ABXYAZIcAMBxARRjAbAEG1AJ8=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 7, 1, 13 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 1, 4 ],
+     "size" : [ 3, 1, 6 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 13, 1, 4 ],
+     "size" : [ 3, 1, 9 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 4, 1, 0 ],
+     "size" : [ 9, 1, 4 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 4, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYGJEBQy0E2ACARQBZmZmUgXQzUCxBS6HS4ARXYABIcAABxARJjAbALmKAUA=",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtULERgzAMlAtqrMJ1RvAsKbSAB9NqrEAKaiIjcOyDcCG5uCD5AyS/haT/ponA+U04TCBi+qb7FBEfN3l+BJs9iimbe3wqDioCvfeYTjLaY0A/ZREsRAjBT9lmxarHybASN8vPCDVop+Jv0E8bxMyFOBb5XBBiEO9WrHp8fWlER6igq8anBJEyTh9yciInLMWTYCaWiuyXV6dcxndwAxPDMBrTDpJ0PcDYZcRSUQsWVEhvrRIAbUksFXWQ5IsfuocYVBCnMai/A8WTQzg=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjYKAfYAEBOI8RLsBIrACGGXQAAD0rAGs=",
+   "id" : "oldtownhall_sidepath_02",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 99, 32, -36 ],
+   "region-plane" : "eNpjYKAfYAQBagvQGgAAD0oAGg==",
+   "region-y-plane" : "eNpjYKAfYAEBOI8RLsBIrACGGXQAAD0rAGs=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 13, 1, 1 ],
+     "size" : [ 3, 1, 15 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 2, 1, 1 ],
+     "size" : [ 2, 1, 15 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 5, 1, 13 ],
+     "size" : [ 7, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 5, 1, 1 ],
+     "size" : [ 7, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 5, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjZKQfYAABOI8JLsBErACGGXQAAJoPAQ8=",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrllMsNwjAMhl0hH3qCHHoGOgFSBmAFEPIC3BmExViDFZAQZ0gcp6RJebUS5fFLrZ2vbvwnigLw08IEYJtpvlXxajEB+whhWvJgx5Cl5EGlIuBVA8rKR5tdS4/HHaZAqaQCXwUNczwBQqeYLC4F10JZXLRfm3U3wF1qIM/zjwCxMWd9w3IDqzVLAOfxifp3EG5K4wZt/xywwgG8V5lPVJdZ2su3VSPxkwmpLpvYmLmGCpL7iJYuRqAgoiVkZmg0ggrYwIBjCG7+cqeLgPHZaSDxMG8GRCuOJ0AHFtAeEFVdynJqepQTrbWxMtAz+XAe+v49AQCbunefPjwwZ8fZugDd2NGs",
+   "boundaries" : "eNotxbcBgDAMADCnEFra/9fCIC2KiBY7aiRnF1d3D08v7/9wcnZx9eHm05dvP37dPTy9on45MQND",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 3, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 3, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjYkIBzKxMFAkwg8CQEIA4HSzMjKQCDKACYDYAg9UC1Q==",
+   "id" : "oldtownhall_sidepath_04",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 99, 30, 6 ],
+   "region-plane" : "eNpjYEAFjAwjWwAMkDkACpMAGw==",
+   "region-y-plane" : "eNpjYkIBzKxMFAkwg8CQEIA4HSzMjKQCDKACYDYAg9UC1Q==",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 3, 0 ],
+     "size" : [ 9, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 3, 12 ],
+     "size" : [ 9, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 3, 3 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 6, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjZkYBLAzMFAmwgACKAIaKARJAdxjE6WBhFiQVYAAVALMB4oYDQg==",
+   "y" : 2
+  },
+  
+  {
+   "blocks" : "eNrtlr2SGyEMxynkeofiilR+JhcuUvmZUqbhnk6o9RZXuCJ8IwHeXd+kyEysuQUhxF/iN7c7VmowIhojVDwR4anBJ3GWiDqtI2sRoS7Sly0eC3QOqX6nialD1vMgwaEKlTCPUKtCxBN5fZLSu2seoclMrVRtgFhAOsRESarTQGhOzFoZtzFW9kokDhWQTXK2icZMK6rYoaqdrW235hE7mW0rpWx7aqA6udMmaqW65aW7wruA+LX/e0C0Aajh2AM0vmIjoP6V6gGROPgMEDVAwytm+1dsBMResWOA/tI3CA8Awh1gT79Blq1x5xuEpdT+N6gHMv8GzQAhsmu3e2Cpj602z5QXRjFVF2Wplz/S2EpFrfzgAIg1yYi1+jgAQTWzVFBmFUDYroQDIOSAsHaNXbkNQP1/1HCieMTWiKgYhh1AyERRqh8GhMcBoQTUOlWt61cB9esZID5vAsKXAPVAjgOCogpzQNAKAMvcAwSqHfg2IGilpoCglNoDBAcBpYLyFpBD0AECfklIqSyzwWMOSOlhPQIC1UlIQNDKQnueAAImClJ9BARqZgB7gICHtwAJANADAugAwRTYDBCfB0AAwG8PURhkk9ADgrK1B+gUTecnWoiKQIjkQDmgjPaeNmUddsMxoww75I8Zc9LZUsG6nzJOTSCXPhkRMf4v5niFMGTh6AVfx0O1j+iEoXZa2m6t6hg+nURA86osoJ6ZUZtmOseY7BvTxc1LuiKnaBZRpmV6sRo4UmDeydDrv23uXhwXhuQsYfbjknYXl7OWYc6Oy44foxOGoLHcs+i9LOKxjX5S6VIjHFmKqB+dK+VY02J2pbF8hSQYhtpLFFV5Ee2+0dAb0BvQG9Ab0BuQ8r8uPq7hV8rZ6cslOT5wXr3z6+vyucbQ+uMRZufW3ynFPa7BnLtdk/P18+Kny/Vx+9RB7+PmXDx5c0FLu4/bGkX11emw48uuOqpfL+l3UuzDSzcTC188x9azH3X29Tw3R0KmT4/Z4fxads6rm1gRqarO/QFwbDB6",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 13, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 13, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNplj1ESACEIQvlX7n/djbByVj9S3yhY5ggA6+Ugrioz4b7mSNfgARFaI69QbNJ01Sem9fVmGR1RpyZDzS/dbIAi7VKvPFDemv19vN364gNjGwt9",
+   "id" : "oldtownhall_sidepath_03",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 99, 20, -15 ],
+   "region-plane" : "eNpjYMAATExMOEVgDCYwQvDhbCYiDYJrYWLArwOEiHAPugCyS9FkkM0mDAA5mQBb",
+   "region-y-plane" : "eNplj1ESACEIQvlX7n/djbByVj9S3yhY5ggA6+Ugrioz4b7mSNfgARFaI69QbNJ01Sem9fVmGR1RpyZDzS/dbIAi7VKvPFDemv19vN364gNjGwt9",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 8, -1 ],
+     "size" : [ 16, 1, 18 ],
+     "tags" : "death",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 9, 13, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 12, 13, 6 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 13, 3 ],
+     "size" : [ 2, 1, 5 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 13, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 9, 13, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 7, 13, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 4, 13, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 9, 12, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 9, 13, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 5, 13, 5 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 2, 13, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 13, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 13, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 1, 13, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 6, 13, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 14, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNplj8EOADAEQ9O79v8/dwRhm4PoC+1GfgXAu26Cni7ivfakmLGAGbA0aUnG9tVp66RPVADShORZgdTGBRTG66WZNKCyY/f5uCR+dQBDXgt4",
+   "y" : 12
+  },
+  
+  {
+   "blocks" : "eNrFlM0NgzAMhZNW3AkSZ6pOUKkDdAYOWSljsBortAfOrp3EIU2oIG1FnwSOPjn2c/gR4jdSrAAqp71B6mMPVbEsMLM8CMYCYOs7g9RH6jSdZdvwyl9Bq0ApvrFDp9mxsfUdsY59RzsDpRhBDithuIYRA4IhBlHGUo3XLks+cqeF02pSfGI6PcIPwJ/0C+vZeWwRPa4ao8S9PYEWF4WAa5RL8j9FXVGX2gOJwHYhQF0Kga/RnFGneu6yMHyr/WerexczgMZsvAEcKXYAIDGtn2C605F3I4z0MnrAGUo1uDjYvehjpQsDsOpcgIePOfhC74sGwD6eID375w==",
+   "boundaries" : "eNpjYGBgYWAEYhDNBKWZoTQLlOaB0rxQmg9K8yPpBdECSGYwQfnMSGYKIJnJAuEDAD2MARU=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 16, 3, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 3, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNpjZgYCJiSAwiFTAAIYQQCdjyzCCBJiIk2AEaup1HM6M3p4AAA9KQIu",
+   "id" : "oldtownhall_sidepath_05",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 99, 30, 27 ],
+   "region-plane" : "eNpjZAQCBiSAwiFTYIAANZzOiB4eAAvPABM=",
+   "region-y-plane" : "eNpjZgYCJiSAwiFTAAIYQQCdjyzCCBJiIk2AEaup1HM6M3p4AAA9KQIu",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 4, 1, 4 ],
+     "size" : [ 4, 1, 9 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 9, 1, 4 ],
+     "size" : [ 4, 1, 9 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 3, 1 ],
+     "size" : [ 4, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 2, 3, 2 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 2, 3, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 3, 13 ],
+     "size" : [ 5, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 17, 4, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYAACZiSAwiFTAAKYQACdjyzCBBJiJk2ACaup1HM6A3p4AAC2IgMH",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "eNrtl7GS2yoUhtFc3NpR4WIrvUXeY4vUmXHqPEzKNMqjJQ2i81hlKoKQkC2Q+I9tomj3HiYrT44/4PDzjWb3dJoZIhwnpphiiimmmGJqferEFFNMMcVUbqrwQJGkCvf18JGgihFa7qvoh6BQ8Iw0yvcG8ypg9+ImCEwVmPIYvEeHQUrQKEGjnvar8UCToBrRuK/ts0lRbpXhI0X1yzWUvhpK9w1IoiFR/pAw1QbldcVoVCqvAEtTPlhADfcEqe7iKX7hvoCF2gOaZqF+zxZqtvB/YqGmWaivB2QL2cKTM0e7FDS0UPcLQQs9tNiXIlmos1qo81uoITXumb5Hj6WpPlidzUJNWWs9C5XGFnZfqd6fBKVuwiJYqAWB0sAvTaKEVlkthGd0Q4l0Xrc5aHjbmmihJlFUC3FfOSxUg4X2qbJYqBXYUfq2FMVCBfxSNAuVumKpVDXK6y9YqIZHmvLBAurNWqiwhYpuocpjoZxAi2eUiuSqP2QuC5VfDFKpVO+zUPWbAiq3hbgvYKGaHHOBGi1URAsB9cYtVCiv7VuoaBYqylprWSiHi7RPmfZLQgudOUrCHXNaKIkWyjsslJksHPdM3yPVQumWBNTwtoDUahaO151KVQ4XaZ9SJJ2Qwn8kzZES7njbFqJkHgsl0UJJtxBTRAs9lqbIFkoSZRmShZItJFsIKM9JQJEtRGcMFkvfo8fSlA8WUHdYSKGW+9oFY4mSHhAJqrPQMSJN2X4clKKuvSf7mkCIAmfc0agdZceRg9QYF6YEpjwGqIGjUIS1nBUEitIXW3iXhdgcooWC5Ne4Z/oePZamPAYoqqsd95RfPVa6fygJTAlPJVMdQi8FogThPUGycFeLWoga+lXXtqksSfjbqTO9C0t7BOxqufMYoFwilDMio4ckxHN+Bb8YfqJAKaquSWsNWA12dFi9TN28MevlHWtS93dQ8Iz19Yywr5HFZ+wwcEN9YvAe+96evm1M0fwKFyNBTDFFpGh+fd1o90y9Dyr0K/o1sShiiCmm1qRc7ZNYkSpX35GpN5G9WJMqV9+RKc6ek9gOtZnsefDgwYMHj38yftmf/bR0/iX256B07qqTsT+fA6grBVA3MyqJaGI3dQZ7eOY+xsRMaS+yjIv9OUxL5iIOJiiZrjoZB2MCqCtdwvVnSiKa2E2dwR6eeYgxMVM6iCyDI+QIOUKOkCN8IkLDEf6FCA1HyBFyhBwhR/juIiyHcVsq7P+rSenDpSgrMy2ZS2mmparLq52u1ZXKqNQGpSoulfHErtaGpXKuZKJSZbHw2LYWlyLKRgHy2nKELSHCKs7LrRalauJU5yKMSmUVlyY72riOr1GqUam1pSpIoj2+mjCcyIkqjvDlt/kW7vi9anETtvT5W1SKUz3+iFI9vkSpHl9ffsc7mrhUgby6vx7M5Dr+M3OlMi61Np4qmGgjnFzaZzdtcrU/o+XnS+1MqYrXquZ2NGV4INtYWGorfOyor8Ni6fYtari0XJrJq9pCX2+o5PMaXokfPn4pDJeeKVXdm+SRUvnoxE2UMndvHiqVj07cRGkT3W+iiX/b/R9zBbFe",
+   "boundaries" : "eNotzEkOgCAUBNFGQGZ043AB739FP0mt3qKS0qVXTknLDT0GjLhjwowFKzbsOHDiYd56JDssT/OzIjssHW7oMWDEHRNmLFixYceBEw88VX96wgkL",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 37, 18, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNqN0ksOwCAIBNAVJ2BSG+5/0PJpSWwUZOPmRXFAZKphdY+Lp4IsFR8qYsAFLZSkInKmR3WXs9duFIJpMbhS2hBR3X00nqxS6JIIBQ+kexHc/vHrzFgzoUhsn30yG9HBtC3Zg53Yqv9+PXS7NuU=",
+   "id" : "oldtownhall_deadend_01",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 57, 15, -57 ],
+   "region-plane" : "eNql0kEKACAMA0G7+P83C0pFxZqCOc8hDTW7pNayxa45UKxwwVMxHEoxbdyLEdWeAqkbnX0usewglbxxZbJXZ4n2SUVqiVCd/9UAszcCEw==",
+   "region-y-plane" : "eNqN0jEOwDAIA8DJL7CVhf//swTaSq0SCEuXU+qYmK1m8DNaIuOhAqUQKBUQzD+1cnbbjVIyH4qV8kBAnT6Dv6xS6ppIpSik+6PY3vFJNlmzoWys3aMfhKNtz2Z7xa36v68LAAw5qQ==",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 21, 13, 0 ],
+     "size" : [ 16, 1, 17 ],
+     "tags" : "death",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 20, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 28, 19, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 27, 19, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 26, 20, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 27, 20, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 24, 20, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 22, 20, 2 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 20, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 26, 20, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 20, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 20, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 20, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 20, 5 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 20, 6 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 20, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 27, 0 ],
+     "size" : [ 22, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 20, 10 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "loot"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 29, 20, 9 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 38, 27, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNqN0jsOACEIBFAqTjBz/6sqYEzcLB8amxdERpHfwlMyQblSkC60VKrG7KjVZscmKrpYgehVOb01mCnwslI5Y6P24O0bY6XBmoTOnV2OPtsk7ZlCqr7/awEqThC3",
+   "y" : 17
+  },
+  
+  {
+   "blocks" : "eNrt1kFOhEAQhWGIca1l4nqih/AeLrgArr2Gx+COLGZd4mSIY3cTy7anKcL/MquXD6YoCDN9n0gTpkehyqne6VwoFArlT9nemCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAo1I7UbZBCSr4+qMJbRV3s3uVcXtXHFI9zuVL9/GjJ7+dCoa6jgh/ubhGJiEFNDrWSst4hy90upmzPV3iyRTQMg+mfKGotZb1DlrtdTNmer/fqc6H2pMLnK/qb2LYxQqFqqlPXNRWVVP9G1CZ239RUUv0bUeyeTfhRbnZPCCGEEEIIIYQQQggh5BqRcyxV56GyjUq1XD08P60/xM+qFXl8jRTVH6o7PWX8bm50lKjScctV6oI0q0rsa670otJjF1V63HKVuiDNqxL7OuSea6fVvK/zK/H+5a1Vqv9U00YPWZXkHuiiKjy9ZlWSe6CLysX0LoZYd/pP/EKzSQ==",
+   "boundaries" : "eNotzEkOgCAUBNFGQGZ043AB739FP0mt3qKS0qVXTknLDT0GjLhjwowFKzbsOHDiYd56JDssT/OzIjssHW7oMWDEHRNmLFixYceBEw88VX96wgkL",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 37, 18, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNqTkkIB4iAgIS4mjAJEpLCqAsqIiooSoQqoDqcqKaJUEWfWqCrSYgg57ImJbaqpQk9fAH6tORY=",
+   "id" : "oldtownhall_deadend_02",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 57, 15, -36 ],
+   "region-plane" : "eNpjZMQKGFAAI05FyEoZ8Rg1qmqgVBEbQ8TENtVUoacvABT4AZo=",
+   "region-y-plane" : "eNqTkcEGxIRRgAhWRTJAGVFRUSJUAdWNqhogVcTGEDGxTTVV6OkLAO5aPVA=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 20, 12 ],
+     "size" : [ 6, 1, 4 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 28, 0 ],
+     "size" : [ 22, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 20, 3 ],
+     "size" : [ 2, 1, 5 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 33, 20, 12 ],
+     "size" : [ 4, 1, 3 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 29, 20, 9 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 38, 27, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYMAKRFAAA05FyEoZ8Bg1qmqgVBEbQ8TENtVUoacvAFvkEoU=",
+   "y" : 17
+  },
+  
+  {
+   "blocks" : "eNrt1kFOwkAYBtAawhpn0TVX8CpddE3SvVfyap7BE1RSIeJYcFLbYarvS8Piy6Pzz9AAXTeSKk5HURRFUVR+1VEURVEURVEURVEURVEURVEURVEURVEURVEU9TXbKBRFUf9XheEqTIVjzq831MV1S33c6weVtOK80yfNlbbHGafPrKIf7jYFlaO2Sepl1Sptj6V+QmnPV3yzJERRiSrt+XoudHrqb6j4+Rr9mxgjisqphq6tMqqQfUVqFWdf5VQh+4qUs3cS5ahizl5ERERERERERERElkg4RaW6a1U3S1Zt3bRR1dRNPdftR+41suKie9z1Q94+m00/X1Udvlevy1aHZTe0u1r1F1Wvul6NnNe+hLlWVJ3P6/SV+Pi0eehVv6mOJ7qfVIWpbyyimnn6flIVpr6xiKqI6YsY4r7TvwNq3LHT",
+   "boundaries" : "eNotzEkOgCAUBNFGQGZ043AB739FP0mt3qKS0qVXTknLDT0GjLhjwowFKzbsOHDiYd56JDssT/OzIjssHW7oMWDEHRNmLFixYceBEw88VX96wgkL",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 37, 18, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNqTkkIB4iAgIS4mjAJEpLCqEqaGKikqmgVVJTKqasDCnjhV6OkLAFjhOP0=",
+   "id" : "oldtownhall_deadend_03",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 57, 15, -15 ],
+   "region-plane" : "eNpjZMQKGFAAIzGKRlWNqiJWFXr6AgD9owGK",
+   "region-y-plane" : "eNqTkcEGxIRRgAhWRTLCg1SVyKiqQR5D6OkLAMiOPTc=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 20, 1 ],
+     "size" : [ 2, 1, 15 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 20, 1 ],
+     "size" : [ 2, 1, 15 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 20, 14 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 20, 1 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 28, 0 ],
+     "size" : [ 22, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 29, 20, 8 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 38, 27, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYMAKRFAAAzGKBo8q0VFVgzyG0NMXADY6E8w=",
+   "y" : 17
+  },
+  
+  {
+   "blocks" : "eNrt1kuugkAQhWGMcaw9cMwSdCsO3ABzt+QaZQWtdsRHS7DEoizCf+Lo5BOKasy9VdWSIk+FQqFQKBTKXlUoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBTqNYssKBQKNV0V0kdJXWJ8R9TIzzH7w72XIBUVgkRtNj7VFKZXOW3Z+5VfTIQ0VLOJbtVs1ZuawvQqpy17vw68hcOd47inVznt/P1q/TcxR3bqvolOdTz6VFOY3uKdSN2+MFTB/I6oUey+sFTB/I4ods8m/Cg3uyeEEEIIIYQQQgghhBAyRMItVFR/rdY7SeViVJfLWcaU+tHMo7Sqy7fqtNSr7C//+bFb9tVU8amK0uo6RFZdR9Wq7C8veOyWfZWs8KvHbvZ1+9WvtvNZ/KFKQ7xWaVSlyv7y32/ico2yVxX6ftFFpTx97FWFvl90UbmY3sUQ/53+DPCvk1w=",
+   "boundaries" : "eNotzEkOgCAUBNFGQGZ043AB739FP0mt3qKS0qVXTknLDT0GjLhjwowFKzbsOHDiYd56JDssT/OzIjssHW7oMWDEHRNmLFixYceBEw88VX96wgkL",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 37, 18, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNqTkkIB4iAgIS4mjAJEpLCqEqaGKikUVeLixJg1qoo6qsgJe6qkCfT0BQC7jTlO",
+   "id" : "oldtownhall_deadend_04",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 57, 15, 6 ],
+   "region-plane" : "eNpjZMQKGFAAIzGKqKIKxhhVNVhVUSW20dMXABiNAaA=",
+   "region-y-plane" : "eNqTkcEGxIRRgAhWRTLC1FclLj6qanCrokpso6cvACtJPYg=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 20, 1 ],
+     "size" : [ 5, 1, 15 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 20, 1 ],
+     "size" : [ 5, 1, 15 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 28, 0 ],
+     "size" : [ 22, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 31, 20, 8 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 38, 27, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYMAKRFAAAzGKqKIKxhhVNVhVUSW20dMXABRAEg0=",
+   "y" : 17
+  },
+  
+  {
+   "blocks" : "eNrt2kGOgkAQheEmhOVk7IVrruAN5gwuWJuw90pztbkCnIABFUarM1QHmxbhfzFG24/qogLRhWUpY2RKCAQCgUBWTEoIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCCQcCQTgUAgkCUSe3kEIB4bhSFjvdi7/Ef+hjIz0Xt5s+mqRHw5FqoYIzazGmm7eKZKpvfy/V7E44yCTjfTq4z14nG9yDK6GCG2tBoZXj1VJUy7b0YWMV2P6+W8upNeLVnEdOX14v6ukgICmUwuC4WZn9hYG22SLG66JgKxsTbaJNnkdDd50puZLiGEkFWkenUDhBBCCCGEEEJmT/9fp2EhuS3sIJCpZH+UpAiykVql6HJP9t3CcZRM2mhau49zMc01A0lvC/Ugvtp3NhektqPEnGSVD7mR+QlCTiHadU/amYv5vK04C9X9MXUiSfekEKeKx0ZhSIB2nbkkfr3sckEqo5Joc5mj3X4u9fW2PaT9QnO9bVNzyCEuaT9pHkh7QK4QqxOPKtFIsHYbSRqN5DrxqBKNvK5dG2ujZbRb/QL3Yew9",
+   "boundaries" : "eNotzMsOQDAUBuEfvehpqRBh7f0f0iGz+jKb0a5bg7I+R5wwYMSEGWcsaFix4YIrdvfQJfnhc3Mfnd72O+CIEwaMmDDjjAUNKzZccMWOm+wFQ2AIpQ==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 34, 18, 6 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "deadend"
+    }
+   ],
+   "height-plane" : "eNqTkkIAcRCQEBcTRgEiUphKhIlWIiYmhqlEirASIkyBKhEh7Jbhp4RuoUtETKOnFwDTJDQF",
+   "id" : "oldtownhall_deadend_05",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 60, 15, 27 ],
+   "region-plane" : "eNpjZMQEDCiAkaAKfEpgLJoroY5zh5iSQRG66OkFAK2xAWk=",
+   "region-y-plane" : "eNqTkcEAYsIoQARThYww0UrExMRorESEsFuGnxK6hS4RMY2eXgBfEzfZ",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 20, 1 ],
+     "size" : [ 5, 1, 5 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 28, 0 ],
+     "size" : [ 19, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 21, 20, 4 ],
+     "size" : [ 3, 1, 6 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 20, 8 ],
+     "size" : [ 4, 1, 7 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 26, 20, 8 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 35, 27, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYMAEIiiAgaAKfEpgLNopESXsluGnhG6hS0RMo6cXAMXDEmQ=",
+   "y" : 17
+  },
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNpN0FlKBDEUBdDXNc9VCqLguBUrDv3Z+1+NKT2KhHDy4JIbElvcxSnWOCxYsmLNhi079hw4cuLMhWteV3EbkafDLa/7uMnvuP62YMmKNRu27Nhz4Jh9cO8jn/jMl2zwd+45cOTEmQtXbtnXvKd83v/8ye/yu/wun/Qn/Ul/0p/0J/3JfW/y7/zgJ8//LFiyYs2GLTv2HHi845J/LnLi8MSCJSvWbNiyY8+BIyfOXLhyi+4L6xYgnA==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter",
+     "pos" : [ 72, 20, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "exit",
+     "pos" : [ 72, 20, 16 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNqd1NsOgyAMBuCbYnZZOjIPyXax93/I8RdEBKdIlzkN5BO60mVZY0RM4+u5C2cvw+XzP99JRN5LyWaiRgOrkdgZ7pJHwV6L9ZIrdp6bWarv3S4JXSwR40cEt6ZkpZll8pHQgZgZqjfTQBfL3sJ2TVgrWBGTv6xztTCsfo0BbG1mdrIhCwMuJn7g69BwOwkYjzbrjmMytzu9hHl9LOmuAWlRUcbfZcsqW9eH1+DZhJy4NLmJPSheClJ8klAKRU/oYGMCTPibRIvMHbSas57w96hRKi4ciZ1a94Sqg52dYJ+JR1GxOcsbO2nc77clC5V/7LlpYw==",
+   "id" : "oldtownhall_middle",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 53, 15, 48 ],
+   "region-plane" : "eNqtlI0KwCAIhNP5/s881q+aUekOAoXbx6XbAKSIkpBqLQnLQ1mgscyedYDlvgPsnjibI1ic62YmPxaRlQp7lRZxoEaJRYEhfE9jubGkhmZbY9VTYIwZSavUUqshHK6MltwucqTtWL4hTH9heWLVX2KnActXqrbq+3Zh+wAYWGL3K7Oxjdy50uFNO65vOlbY6/+tgQV4Ae8iBUE=",
+   "region-y-plane" : "eNqt1MEOgyAMANBLS3YsHdkFt8P+/yNHCzJAooLWqBDIE2qD9028nlU4exiunP/5LiHereoLUeMEq1Gxyx57LG6XfIWFbfsGFoDkxSxNnGcJQmTUABGJGsw8MMVSsGS7GNcqLDOWH5tcrRhWb0SBrS3M2dxqFow8MF3i65AZTgKHSDbpjlMy/y19xHlzLOiuBdKigoIfZdsqW9cnn5E+xpy4PPkU2yleiFLqcSyFzpkwyKYEYPxNrEXmbmHX1CYYoFKvsJpWfDQVu88On7dd9gdCkW52",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 16, 13, 1 ],
+     "size" : [ 69, 1, 19 ],
+     "tags" : "death",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 81, 28, 0 ],
+     "size" : [ 6, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 61, 18, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 68, 18, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 69, 18, 4 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 76, 20, 2 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 64, 18, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 59, 18, 2 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 56, 18, 4 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 53, 17, 5 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 54, 18, 2 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 57, 18, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 18, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 18, 1 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 18, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 18, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 18, 2 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 18, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 18, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 18, 0 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 18, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 18, 14 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 18, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 18, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 18, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 18, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 18, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 53, 18, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 56, 18, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 60, 18, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 61, 18, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 69, 20, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 76, 20, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 78, 20, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 72, 20, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 64, 18, 6 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 16, 10, -4 ],
+     "size" : [ 77, 1, 20 ],
+     "tags" : "death",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 19, 20, 15 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "loot"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 33, 18, 0 ],
+     "size" : [ 34, 1, 3 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 67, 18, 6 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 28, 18, 6 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 27, 0 ],
+     "size" : [ 17, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 87, 35, 17 ],
+   "tags" : "",
+   "walkable-plane" : "eNqdlEESwyAIRdmA0yWlvf9VC6IJ2qRSySQ6mfwH+SoAc7yGgOcyRgVcx/xBAguAeOjeS6yraMlF2sESlZkT5xanEzcefGOtmIIDFdkGEZsS4mBwGtsqwlaz5mBmo1amU7ewzMoyBNUUbFgJzB2s19RvfZKBMTJ3sNR5pULbheFtxCaWTDTg2WrEOPQZ9UxI+WodO9PqBsPwgg6LSgrrTriwbwhyS/mwJ/yGuk5r7EVP8Mr6uRPjuQTrVkmZcN1qnOxYETu2g2S9ZDcdrHnawDobBcue8KMxFnXicaZJYP/ut7Ogxgejhz5Y",
+   "y" : 3
+  },
+  
+  {
+   "blocks" : "eNrtnU2S48h1xwE1aiK8mAahGE3ErCjVzqGJkMM6wEg3sBa1dKiHYXPX8i1645UuUHUEHcG7WY8OMNOzAWslElRJihg7uuH8BDIT+fESmSyCxfe6qkiAiR/ey0zkyz8+2EWBhoaGhpZor17lZFFbCmxvWoo3CFsC7EH5m+7ZA7VcYSIsGpa3NRfbaRF2PhgaGhoaGh1YtYW0cVXdPn2MHsf5HAO+TBuZkgfDZGApEWbwS0ByJcjMCdedwudIOteU4NV+Hy0RR4IBmxG7usl+v1MsHqaX301C3sVXG8IWBWuUv+mebajlCvOGsG5ePmxzc3OTq87ytuZiOy3CzgYrdqYlsNDQ0NAu1VC8zseheJ2P04mHQzJt4B32+8Orx1mswhSvj3whiqZuLycrqniNgenVNIl4v4uMU7EdwpYA0+ROsmeqeH2cTbNIxOXCZlcZileEXR4MxSsaGtqlmjZeJY5eu7bdqQtl0rjaEprwZ9eWbdq4Sggl5ZF3ZZkKo4yWuZfOIi7tdgzG/iQG2bIM1LbpLF7pJaOVbXpa21EcQZWs6pITJQ+StQIBkhWP4yR2hnjdlTRYiitKuty2gvZYtrHiVVQ/rzPGE7BH7m8MTTYlrSvyWxJecdjtDuS3LajDETC9IdkLjZXEzd6WRZxnWgPuWKAtg7XUSRJtdCNIo83XKq4VcZ4ZMAai/2jjFvQ3QdUVLDbaS0pWZYkwYaWINyVM6ljbMP8ajkxQdQULkolX1unKIq7b6jBW7UwikkYo6ABQzoXxI1vA+PsUz5gxWMuaM0UJs2GoZeJVw8/zjHaHhh0BDa20Ysb5ODVMNkTyw520ZaJntLsWAzAFxt2S1qZ5Vpa8q5ZiLEprAFpTdMCkf+j7BNiB9tJSZAXWBimtyQcgASNVlpTndySR8N8Dilc0NLRLsrziVUkYYr49H6b4k8riY37Lgt0VyTC5+S4Di4lXlmrbHEGKDJTOEjN10QI5xKu+lCxe2cyJT35M8Ro/Ay3lm1a+SPFKcK+eYutNxijAUrzyhRjajru0Gw4AOo/lxuePMeJ1cEr1UrEE8XqQrTFObNPEa6mtSVJ10tismwrOJJgQAIPl8KwQ/S5VvBajeC1SxKvwTIhXxmxnB8rFayH0ZplWaxbxmgobxCunJcBKQ7ymNkDDHGoYOFG8FqpKbFNhwzGu1OI8mHaYp4lX0TXoHzEWJcMKOaSlhXngp7uKsRVSxWspQ6VnMBNgLJfs2A9/RfGKhoZ2IXZF4rVcrngt6ZnjHEHS+0nd8iQ2yFG8HlLv9DXF6+P8qZ3AjRMfQ7zOIA/OyUt9inh9fEwQr5wmr7yyhVjxWopryYp4fXyUV5cjYGx7MkUxIlYsTrweNPEqnGvFa4qqewStelmwNhF2kNfqTiFeC9oJc0jE5FqbiteEkxEW8ZoapipeDznEq/ybpp30k0GLEa8HwJpImHoWclmeqdbOoFhhbZpnxaM4E0r6KjMUr2hoaBdiungFPUCx83yw10oFabvWOY6zZwZ3+4EVVk8+5S1E8B4sXr0ngaU8PEhHg1E6fSM1zoME+kVvbts5bmLasRobHpEEsJho3jlpgwI7AB5T3Sl/rXEqdtgFJCEN07sz81OPeGW3PvtrdvrpKF6fnlRP+W1bENZhVHePKnKktf4qK4Y2ZKcOZDExzzBhu9ZeMTprL1WvrT3HetvtigBtp53PWK5EtMS5EM9OAFPlToJ4FRuq4nW+b2K7nOI1EyyrZ7LORvGacHpu2poJZ/qm4ma5sAQhNvVjKXqzBaw5j2cylzw+tuzvnG+LQENDQzuduefHO+07llqIRHQKgWjxuvPc3CO+8GZgBT3b+QTnfgh2VIp+WLkL0aDild/76aCxb2oaMCC/6DM91oL8G6RaqHild7Wye4xbF419PwR9OeyDKZKqzd3OuBNMi1Oxw/7xySde2RVyJ6swui01RQw/PRospje9VTutq6fhRROvos4AZzZIjMNU4NFAKkHyQAN+8W9/Gmry8XE/Ea/iroed/4Ai4tXTOx4NmH4rhW4HrUtYaN+MFRJUwtag7bBYQ/Eab6LOFihe9zlhJxav+9QGyCReHwFrEmAJt+Sc2LMXKV6zwoR43T+27Z6r1wQWGhoaWnZz/2cf+1jx+uqVk7ZXR1L1YpHPLResZc61Ayvo2StvmCI+4WEQ9uT9H1ekeN1LR0Msd5ytJl4hfj05aUy8tvJiNoRVPL3y0YbTB/sWECX596r0xKmy909e8frEecBuy7YYeQbZ1IzOWB1baZ6K5ScAaz/6+GR15In3nSeAeG1VbvtI9Ot+CqPvPeKV39ErnbK15zcGjNa/UwrDxau8UfrVQsTrfJhlbr0Q2FTuLEW8WvXm3ECzwk4tXr/JKF4TJOJ00wSJuAesAduJxWsCbLl6c7ppNR9GJ3w0l7QVfSWJJelRHjQ0NLTc5lYBrS5ew8PqqyqveHWNvexy2X78Rp6gZ7nFa+upNP4CFK/tEKvtwz2XJnC/3OK1ZTVWDV8+EjBa8x7xKsQO9wsqXivXbnVAu3/yEZ+KoHg1t1bFazuBFQHxOvXlafhA87SFi9fDeGi1BlKN0humPA+hite2pVOOdgoT4tV3Nmg4otLFK+lo05htsKHpoeLV4lrl+9BrFs/mz/ZOLavne8arRRevs10TdayL10XozTYn7BRKWBGv7TezG2AqXrPKnaxK+EXClqs3K8CaCNeI0fPdVdV+Q9+nsNDQ0NCym2d6rH0PYRUeo6vKpzf1WWaIVhXusbdizlVgFi0QUgEUVxUQWMULe2mi7oIDvle8Vq3AtArY69eTsyD7PymqOPFaOUPgDvFaAKQ12i0qt3jVexbNkx6iFK/uIhPx2o4d2ejE1cj0VoUlelGlunhtiTj2wWRpRfC36geVuvaJLgfFK6t9SRP/TYK+Mw7yilfe0q3pxaYYBMo3SlEpXp1SWOsSlkafitfKHae1Ak3fZ1lWWFbxeoIwG9aaQrxWecXrXN+sejMrbElKWBGvxTezm3N6KmK5F/4SYKg3zwwjkzmWS6pNxTIyilc0NLRlmXtQqnTxGh69POK1yi1e5WjqK6fuMCQ3o8Srpy6qoSogjlWFpxgVr6NLIL+ctIrVmPQb5FfrpQ0tAOgYTLy6O4cOqPzilYdZ+drT/KgaO7JBhlSHU7xWYyeUq6nnEPGqnAlqrY60smO7W13taNXApVMOB6x19yG1Pe3itVLeVArUStMasPLAhrYC3NbhaIyECdpyYbI2rHU2zzNdvCZqpyWK12qxMFlnWcSrbM3x71LkjnOgnGOoN88MKzY8l5AjoOKWwEJDy2o3qs3ZLKsz566N6zWPDqu0hXziFSI4K9InvOK1ihCvlTfMIViw4Hwm8VqpGHCQrevDKk68ekLgn1Tqi58WI14DiTIoXidbKzyweB2HN+eUoDJiF8sB3/nrptJX2fSmCDTA2qgHgDbNMPVmSLxuNuaGikCZiFfPIVVVVvG68YhXwG0dYVisnUS8ZvUsI6xhsGTxKnsditf4OlPEa2oDqOJ1Mxdl23Qp2ikrLGuYG8CapXiWJF6ZamUHOntB8Yp2btuoNghRbcFhRolmo8JCGwfspLAm3p7DsyYV1jhhE2eDKzywOZ5tJrB79WxJYZw7CYS5MWHq9jEsK4zPTuS7+wjYw8ZSZ4x2z19j6szRNRgmzi8Cu5nAhgjvI1lWz0RwsX65wmRVJgaoTHUm7F4Sy7KcB7u5N0ZQxqI0j68Bz5SpwIbBNkPs5vhjb01qHLGpyrKpbDDKoYt0i/cOmDR+soJt3gwTawaT5ErAiL1XBkoVtuGjys1GiYBAR5qMuapuBtjDuNWDtUKVccoFGwsaDTWxAgp7eHgogjAuSMKwSRK2w0J1FgUzPWMVXjZ5YKyjjbo6MUx2bBYGba5ni4FNwlTFa2ydFQZMe4I5tjVNmGqbxcLoKbGcsMROOxtGe0G2MMOwOM+UxLMxTa/cCM/8dg4YbIJ78WHOhC3X3OI1vKXeAQxVp8BuzgIbFg3YZvNOWkUW3hIbir4VpqzwwtRqqvjxrWy7sa9QuocGa2T2YbsRq2JWqDC1Pvgwpq4CrbDBKrl60oV8K1TxupGnme9NFQC0d5sHFSbW3t8znvgDRuswxe4HFtwzPcwku7E1wNwau7e25kzavatrfJkLpjsGd3MC+5L2V70zzIc5bWO8QmHVWGXKDjYhlr1rFPK0OluxscGGwk2hDDR2WFUMinpT2ZwZyt7c3zeK+NXE67i6adg4+3ZjP/s/wD77TIfZMjA1IpU25cZxwYrv6m1jVqMtUauh22BcwJOPgeLVC5MfT+YJdpisCuudB1UkzPRMkzuxnk36ntrpimpemEOV3RTqrVeJni0GNglTE6+RsMLwLKk1TVhSpx1h9sMpm2f0qJgFq+ywal5rOlyDw25GXXhyWFyYN3QeDrFIz5YHu5IwZ8KWa3a/6UJ4S6MDGHpzkIhgvamcwTdhY0EwbFiciNfhkyoVplYTv2TwVtn0rXVF45o5nky8Fv89/AGv8MCYRa3IqOqIffawUFjWMKHaCWFnhgHEawim3DYcFq+FV7xqz7wmiddKile73JR6c5zIucUrH5z4zpLF62efbeT9kfZb1+SVZqh49clqibiJEK/KRUgTxmU1ZK5RKOLV4RmX1UCY2cIoXp8ZNpE7KF6TPBt0WCYYileLXYmqu5IwZ8KWa5rf2trwlsZyMuyOWHFHX5oMsKyeDYt+zwycdYW66pnE6wzLCkPxGm85G+DuOmCXW2dRDxD5YSpqnnilo/BIutvAxCvZKixe7wqrnVe88uvMjsqOFa9VAYAB5ho0gAYiqxtzvcsz9RbyqdyJktXT3KcFHSerJzpgMXozK+zqxOtFwZYrXouc4jUWdiWq7krCnAlbrml+a2vDWxrLGWEZxOtZPEPxajUUr/G23NZE2KXA9Mu4G6B4Nc0nnSKvvHr9jBWvDiUs18eJ1wDsPOK1AMDA4lWHmXInyrPxarXc/EYTYnFhGrLa+Fqk8SZwWJhGRzZgSVerTRg3cJjmfOEGxetyYHNvF/C6BoHdoHg9O+xKwpwJuwQzn/0Ml9eXb+SG9IO3+qOesbCGw2iqSYcJz8o//CEDrPHCSGFFTfJqNFeoeViF3c34IqlGuQeZv5UwSySN+c6zogjBYozdBZ4LRvXmEmH39xnDJDCtayAsBsZGjUwwPp4pGSABJoxA7oXFcpilwozvonN+AoKxZz3ev7dsM34LhngOBAZTtnI+8wpyjc5IdPrUCqbqANe9IdODYhCvISUMgzWGRjcUyl2hLwfDpCZrxGzkWPGqwUhV04aZqYRNjd4wiWjCwGHqstoOA4dpXK02YLE3gRNU6ayzKFkti7tak/sdBXNflI+EbfRTEbqlebYcGG3NTQAWISp8nlUzYBunZwV7gj9C1Yln/u02J0yfxQgxsQX7fXjYWGkRYW54mPT1oUyBaWES14SL88Mcfli7in/lsB7Fa7o1OYM9CexPy/WMuabN/LQX2IrF19mf1llgD+mQCSw9zru7jA1wN9yelqHKRlgWz4Yw013L7NnpYHejzYJpXePO8g7GEQ6kwZpmuPhKfzXxqr4Dilf2XY2NeLGLV3Aq1GcUjXOucQPxDSJ3aEaP8+wZYaAwmzjPAkp4Jsy4ihgHE2E6r2/Oac0ALC7MPLBJmLar1cDWfHi40a/wO66jA24XYDAjTN0Q5mjNX4ZgkcemF2b5cl8P7EsfjJ7ziOy0LjO2BYUpQ3I8PhMJq1i0lfVbBasbIIyGSb/dsfrll57/8y0+TP6f29HrW/oVsLgwRb7mj2ZsCEr8F2dDHod3DWPZUKuGFVB7UL+L/2HyxfxxlhUGtsWK12Kx4rXQxOsiPcvByqqE8/4fwBK22AZYHuxKwnyxdeYXr/RbB+5egniNnDlCPXtG2EnDNOROYpi6EJsV5p2+3bAUcYH5xiKrrbC4MPPAJmHaBH+keA2dioCpus+0jSYm13924bCHGwgsQrwGYXNPLDk8ywaDaycZpsvmeDaYRW/CZbUOyyBe6d7Flx9kFK85YGO+ZuK1yCJeaZlBvNo3KKD28JlyBGoLMwzFK3qGnmGYGOZSYEuqsyu58ori1etZZvE6XoZJD1P/9ifNXxs94JkNNjvMBNg0TEudwcUrqDWjxGvIovTmAmEPsGMzSrz67UqGoIyezRWvrgvNkWEKSlbxml5nKF5Pby91soeevVzPMEwM8zlgS6ozv3htCi1bhn1B8Xoq2AWJ18WG+TJbE8XrDBiK13jYc4vX2bAvk2AyTEFB8arBgobiVbMlTfZO6Nk79Oy8nmGYGOZzwJZUZ03z7h3/Yb+aeB1W8x8A7QYqXoEwZUbxPOI10rNnhWGYGGaKZzAhhrA5MMAg/BI6LSTXYJgez96+lV9iOxM2puN37zZvmdx8yxaG9TdgmGbTr2iKrhJul//M63JnjghDGMIQhjBmDct8g6mwd4ZBYM6E907/ZBYsYeKSdeaIMIQhDGEIWw5s1tkDl50Opn+31QyYJl6FhcSrE6ZaNvH6AmyxF0sRhjCEIQxhp4DlTHg5syd8ehDl2dJgGCaGeXFhXgkMWzMHLEG8wj07HcwuXmNg6m3DUrzSBc9tw8EQVPGaUL8vxhY1pUIYwhCGMISdGobi9awwDBPDvLgwrwSGrZkDhuIVxevJbVFTKoQhDGEIQ9ipYShezwrDMDHMiwvzSmDYmjlgKF5RvJ7cFjWlQhjCEIYwhJ0ahuL1rDAME8O8uDCvBIatmQN24eI1HWb58v8s4jVkgChejC1qSoUwhCEMYQg7NSxnwsuZPa9k5ohhYpgXF+aVwLA1c8BSxNW59GZWGIrX09uiplQIQxjCEIawU8NyJryc2fNKZo4YJoZ5cWFeCQxbMwcsRVydS29mhaF4Pb0takqFMIQhDGEIOzUsZ8LLmT2vZOaIYWKYFxfmlcCwNXPAUsTVufRmVhiK19PboqZUCEMYwhCGsFPDcia8nNnzSmaOGCaGeXFhXgkMWzMHLEVcnUtvZoWheD29LWpKhTCEIQxhCDs1LGfCy5k9r2TmiGFimBcX5pXAsDVzwFLE1bn0ZlYYitfT26KmVAhDGMIQhrBTw3ImvJzZ80pmjhgmhnlxYV4JDFszByxFXJ1Lb2aFoXhFQ0NDU61jP0Hre0ipuu8h+zwDDBgmGhoaGhpaDivZTy5bkX+QfYJ2CYMVDWyXOcNEQ0NDQ0Pz26qAJTGQZc2bQFjZQEplDRMNDe057VtIoU+DBX4gf/ZB1vf0F7THfPGR3f0AifDT7wHFiuI1ibMOnft7/fr1t8UHcYrQH2/dfei5A/5iHzpWrNs7A2DF+o/9h9d9/73/fGJdH+pvD3UdODvZd4f+h0PoHOan/YePH0kcdQBGau3D+w8Hf93VPbH33ftADXd92ddHEmwARl3qD6+7AIxksPUPH797HfCM5M0+dN6XFCBJuN8H6uyHnojXIOxjf+y//fPHQM3W/bekzvq/BM4hf/zYkxb/EGjN16wF+i4A+8vH7nAgvSjk2V+KH7593X8XqDN2jLzvAyMD8/zTukBDW7rxXhpKFPzzYDohY6cczPy0vguXYuNdmEUzU5hFHIPsUYwpwXJkcCLFQgVfU1gtxij3CMT2SMZFNmo4R9qe5VXCYzBXU4jNe2nhMN53XR/KTgcIjJYgQ/c+APvYfzyEK5nvMNRkpBrWXb8GwFi37Gs/rDuSvBmaRpCPSRLueXN46qwnsDqUn/pDVzZ1yH9SYN3X6w/BBqgBzcR8gnQN3gJBGMvUgK5BGj4UZle/ZyGE9vmeHnrd807P0dBmGO/xoUTBPw/nug/dMML7aKQI4K6POqxemP/BA5IeuR1kjwUkjTDP+OAfKkYTjhyjel+pQo4qzoRCBpWO5wi+Seco1UkkIBQ6OHbhJAaG9YDJSQysC8E+EFVHxGsYxnvJx0De7Fne7EN5k4vXQxhGZen7AAwiXkmqZj+hJPwBMjmk/bEOFqtBzURgbJ9B8QqEQTpQLWdeBRrawo130kzitRYqIVwMJF6tA//rH7SzrL0913z6vX6WlSWw2eJ1ck4LNA7o40VIvPLBxy1k+OcC5hypTPG60LyZD7buweI1nDePLG+GxCswCQNhUPFKf7yl4rLTS4ehoZ3fapd41bOBS7wap46ESpjs5YNZzCpezfNoVKlNS32sayW91g7x2v+gBVD3VvH6aWf4Zj+8ifTVr4jWtnFger5WGy/kh/239bRUIeWEhPZm3fIxuDaScGeIYrt4ractpft3LHw2wLy31pwnCXNVBxSvz5s3YbAuo3hdaqo7BwwN7Sym5032dypL6366ZBGvRoJxiNfaTJtW8Tp5SNAqXms95TrEa23kb4d4JTnnvb6Z9fCeXICyjgPTI94mXslrNyk1Ea/15CFHq3jtJ9MgQ7weJcyqnSPzZtYknAl2CvF6DMBE3lyBYDDxCgvTG+WCUx2KV7RrMS1VOMVrDxOvZgqwi9dJ2rSL1x4iXvWU6xSvev52iNfJk/r2w3tyd4pdvE6OeLt4LUDitYOI1zooXldy17YxKzbVeUvFitc8SliI1zIAE+I1a97MA+PitVz5YSheY2HM8DlhtOc2FK9jMXOyYT286zOI1z5ZvLK7V7KK105Umd30JNyFYJky+rqu1yHxFytegSd98yRhJl6BGt1bGQtOdShe0a7FULyOBhOv9RnEK+jKq0+8Ko9e+MQr4BbS04jXIAzk2bHrXsKV19BcA8VrLAwtp5UNM+tn7k8mdg3figITr2tt6arF64wrr/xcX4J4Tb/yOmRsr3gd9uw2Lf27DZ43YTCYZ+uCiVe22LlhC79tGHh3tLfUglMditfLN5pDVzLNDrYSK1b9UMhnfBQqA6VOAAuVatadskv5biU3HD6CwVYS9sWRb3W0FiskjH/uKLUaKqOnJfof7aXqwbOeFOl7X53xiMmE3c4aw1zTHT64Sg0wgmqcLKUB+v6hB3lG7YEU/HzrhjVfiIHg+Pl22/Q+GE842+0bY+8jjEic7pOvabFPtls6eJNdf92sOGGArcigs92uaLHt9r8ouCG7bkoFRr+4VvQZVoyW6koGYx8pjcyYKzqe/WPLhj22KEbBodSaOajCWEWK0MdQuilsLYuNsL6Jgh232689MOlZx2q2d8CO0rPPt2tRzAc7sl0yF3xh+mEyTC5eXZ71Mkxxd7QjzKOsM56dAjCZnWCwIgnWQDxj3ViFWeuMd+MwTPbdYhi9nDDDHJ4ZZoM1OWEez0oYLMLq4AdKPSpzaPmh2LVIdcyp1cqEdkYSZoulDcZqTMCKXxP7l9VPbllcP7m9/QVj/bzkgQoY7xB06OJ9pxjmviWPg8OOjCw/XRXjhRsVJvyQ0bPTpz17+L5WYDVfJ8t3cmYoVxy5GiMSsm96t/2Gw2rW+v2RHCy2BvxbrXi2pqWssJVxy43V/t4NYfocez+G6Sn2oVPq7CsA7MjDO659sK+6I9/nMeDZaF+Z+1c8q596KdRqs7P/XoFRac8am31VFG1K6gHzVAmz7sVpcGHs7Rd/ZB2MJ+EVz8Sks9bdWIyJLf7ReKCT5W3xpht96m5vb9diq3HUEAJ5LPXJ9s3ggXLoMx8VmJgRrHs91SmdqeffxlHKAcYCW7MfF6wba08KZhuMBt6xFj32ANiaV7vPsyDsKA8sLl5dMHGmIhBmb/Q4H0x/YCsIY6daXDDj4S9XmJpjFhjPhb2yTyuMTeP1/mOFWU5AOmCGuTwLw5qcMI9nHQwWYV3wg25krybDd3dzx0zmzVc0I1ry5t3vmM8yCbNNVxYY817AViJvWmDs+JLn4zhMJNNOpMueDng8DlZozcmTrCpXaMP2NKsOK5TRaZJVhxWgVCe/DS3YQiDYEQarQTAtzMXDnsSvG8bF66SzK7CO5UB2RZJ/xyI7Y3g0YB2/wqwMezRv9iJvsq7N/vRUC6sjLfld8Y/WR+UAXosLoNJrCpuK1+L29udq3ux5LqCmZ6etWnt0NupIdco+iaL3pTqh6kKpruuH69C+VJcjbwKT8Ep6xsVrIG8Gwuz0HueDdVqpMMyVN80kHAhTKRbMm8AkfO5Ud46MXsJgEQYVr2IOaJaSK7RUN03CNYnveGxWIdgRBmMHlgEbcl49uK3AosSrp7ZypjpY3gQmYVhGh6W6IyxMWJ0BYSf1rIbAhhmVS7xSVd3RPjM6Td+uj/TIU8Xr+liPGbB3i9dS3h81OmATr3WtBVArwl7NTrU2e+jEp+teT3U/1WS1E8bPow+qjshqX6oTDhJZ7csBzy1e6efPLV6VBsgIc+TNeeLVMQsyxWtXoHi1wyIMLF75W0uqE6UhSfgYzJvzYWNWHdyuFViUePXUVsZUh+J1iTBxBtkqXsciA8EpXg2mS7yulWJrh3jttPPkx94hXvtJErYM200/ScI2mKgFqeocMCar+1Ei9vaMzi9mD3csyYs8JkzmTXGRxy+rldufliRelWI5YV0BEa9sq2De7F15Uz8W6jOnumsRr8z41c/xsJAmV6z7v9LLRuLq59oo1YkVxLmbu9/14sAoTVg5wLp/uwHBigH2k9sf6euPf7391QN981De/rMCa+6c9vsRNo5iP8o/HCZWCJjpkWlkwqzBHNaBYD0E9uHPKwjsOzNMBwwUZn7YHQj2619/NbabE0bs73ffEXOV+e67P3Of7v6dvH9vKSKPXHXBEoa4u28tFpjVbphyAJdTmLz/REt1tRWm7E6IVzMJ21LdmqfTH0WPXjvEK8+Vf//Z3d3PemfelEn4x7L5JwoIZPQ/FuVD787o9Go1ha2KLzwwKaslzC6rj8X2E9Uzh6ymKVwNk7BtqU5MD2SdkUUr7BPumbAATJoLtoXAjsUbA/bGmlB0WGGduDSrT3idSfvHG3uqo1f+FXPCDCscnm3JbvdjaXtGf7MtyO9uKOUKk370hzfbN6KU3bM3W/Kz/YTalr4/q3gFGSypW29pscO+ygn7V3k8r8VgMgiAYQUc9iuQZ09hYESdBWsDNqs6aqOp09bhIhTGPAuGCYSFQQrs2MiDy+PZ2MLWMvSeaLHr3l4px/WRnadUYUcraXRHW9BMDpzqqDEtNk11TVPaYeteHzWmgU6zk218ODpg635UdWs7rBQfC4loz+hsM1Vv1s4w2Zgjxas7TBNmD7NTPOvsYdKTDKZGn3pGGz0s+Jt+3YdP4eeFEdxXBszVmjqsG3qf1gBPOqxwtaaac2pn12D6YXxW29WaHdmtcrXF5hkN89VX6iUNzxFQ17+SY3Rt94y0AREj3T/o89z0GB/qzHLb8KrQn1/p4wwoXkO2BpUCOkdg/5cV9qeMsP+FefY/IBjA6FEVrg3g9ACU6vK35mV61tBjT1zhI38bnm6nxdS0pS1o8cnDU88BtlLrfk7ehCVhy/jQeGDrsZJ8npWDWrd5xp7/4p/xmrQmFJnRe1Eta39GV2COMNeKZ2trmPQK+VEJ0+GZmgFlt5HxKrC6n5w96GbDjj3gesAY5ghztGb4vMbYAAPMmp3Eg0Vqf/J0jTEjOlIdM+XMdWmBsYyu3SnoOwKCSfjIZsn0fgbaMcl7GYcqXsWTdo1xPUetoMHEHMJyxSqTeIUNjllzwJXAlpvqzhHmc3p2DvHqGBxtxdb9nCQcl9GVQd4znskvbHJ4NoQ53p/l0+jdOPT4wlRgnjBHz2xhyk6nhjn1bG0RGo68aVo9F2Y5HOziNaY1A11j9vwMBOt8rRnIm3SzGpA3gZ6x47oj/SwoXtdHJl6VzXubiadGLE27UPGKMGnLTXVXJl7XPYrXWZ4tNsxhsqSEuVb3zS1r3gTCLIeDxbNlzM+SUh2zJz+MbvbUB5MwNEwUr/lgv71w2N9gMFhCAcKWG+Zzenb8/Ovt59vP/4PDyAJZ/Ho7LaYOdHLh95Niw7gZPTg6YOteH4J+ZvfMhK2tpWbCYJ5dVJhGezk8W6vUM8IW0ZoJsLmt6YNtt9v/9MG27Lh+85ui+N2Wvf+thFm+y2m4X9gVvN/yiFd5K2/ASlAphCFsCbDmlhmH/ZUv3E62OWojQOk6CofDM35wBGYnhCHsBcG0lW6Yanwz5buu7LBf3P70F7e3NG/+9Ja9l7BusodmVeg3Nk38fRY7w+U1hCFsETDXcGIttQaUCrsEO9CPINgxJwzo2ZWEeQbYBYTpT8JW2NoJ0zblL8qzu3YYv/LKHk7Xr7yqilJ4WaTdNpzJ1qBSSxwcEYawJNgRlDePoMMTU91LCvMcsAsI0ytefXkz5BnfTP2iZiuMX3ll3zNkXHmdVCQTr6XX3+ewyx0cEYawNBiK12jPriRMFK82GIrXaFuDSi1xcEQYwpJgKF6jPbuSMFG8WmEnFq9B2HF4uC4sXk0Lh3kKu9zBEWEIS4OheI327ErCRPFqg51avAZhw8N15jOvk02nFg7zFLYGlVri4IgwhCXBULxGe3YlYaJ4tcIWK16nFYniFWEIOysMxWu0Z1cSJopXGwzFa7StQaWWODgiDGFJMBSv0Z5dSZgoXq0wFK+xdrmDI8IQlgZD8Rrt2ZWEieLVBkPxGm1rUKklDo4IQ1gSDMVrtGdXEiaKVysMxati3f8DLILWGA==",
+   "boundaries" : "eNo9loly4jAQRLUkgc2BgRjbmHCZ+07IDeTcI9n8/w9ta/wqtVV+2z0zkkaSHdyxC13R1Z1nCf6Ex/AEnsIzWIYBrMCq6GuOqK1ZbShdtzFqNkbonP7v+QMW4AE8hEfGvK6MLqMDdICuoCvoKrqKrqFr6HP0OTpEh9+6bjmhefnTx/MMv8KU2Ssu0soj4hHxiHhEPKbvmL5j+o7pO6bvmP2LdTqhy0TfQcElYlFPz5LRd+KdfJ4GfsPyS2Lup8ybMm/KvCnzptSltmOJa7KOJn7TdiN2F/gX+J7nYou+W7a+grFkfk3x2LWpa3Pf2nrW1Feb+g71Hebvort2MpHroXuKR4r3tJ+xuvM6QTdM19RDbLppOtAaU2MLtmEHdmEPZsaq69u4gRvgD+EIjsWMdWV6TlTRR/e1yqnWPkAP0EP0ED1Cj7514haa2+ul9nFMfEzccwbnxpbyTjV3vr8T9ndC/oT4lHGmnM+U85mSNyVvxjgz4jPiM+Jz4nPic+Jz4gviC+IL4gviS+JL4kviS+Ir1rlinSvyVuSttJMrjbBmnDX9rvWc6BTW5K11Niud0SXjXeJf4l/hX+Ff4W/wNxov07+N1ECnuSFvQ941edd6xop7psai7lcmnuhetcWy7kpTDBRNxarOPjE9Mp3fo2s7q0jM57mmzxvmueH9u7H33TOwb4tnAhuwaSzq3mfGjjEf94b13zLurX3dIrGq/ETM34db8m/JvyP/jvw71uEZGf1bHhkTY6j11I2psW7flDv7dnhGOvFzYxt2YBf2YAb7cACHcATHcAKnxnwf71n/Peu/p68H/Af0I/fqkXv1SP2WvC33csu93KrrmfZgS/2O7+yO7+yO7+yO7+yO8XfU73iPd9Tvqd9Tv6d+T/2eur19uQNjHUbGgVZ0aDrBb+Cn+E38C/wWfhu/g9/F7+FnsA8HcEj+iPwx/gRO4czo+z0wvcBfik/syxP9PdHfM/4z/jP+C/4L5/FC/IX4q87kh3bCswAPjHndK39fXznnV+reqHuzv/aHYu6/47/jv+P/wv/F74Tf8A/8Cz/I+0B/oj/tt1JoPIVnsAwDWIFV6L8I/xjnH+N8iU7r+9L6nCq/lF1Q51/26yH3C+ancnMewiNYhCVjXb8HD0z/RB+jj13wHwdygZM=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter",
+     "pos" : [ 65, 16, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "pp_es_shelter_travel",
+     "pos" : [ 40, 14, 27 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNqdltuuqyAQhhMOFyupAgPtMtn7yvd/yDX/AIpVW/FPWxXl6xyYwRCqiMhV8TkNX9Q8Dk3z4yEQ1k2YZzmPww42Vl2HLZcVlg5hOC6P1hvNwAlssaz5V8g1A+5woJmyWMamBYq0Km4OnwaOLdvEaHT43RjybWATswbGkclJbfBfB6aZMiwKLIdXN1HWWn/LaQOL1Lg5lvkla+OYz3thqXHTam31uLAuomKsbm4ToHX2Tvc4GakmIDYw2MKmaVh4GdXCGsts9oxBXawWFlfLSsR6XDy1LMdd58D1JGAHQw5R0oiZNpmmlLoBi6uGaphVmmHK1oXuTp2vsKKmhguKm55SBrxCc1b+4Z0j+gCzQGG6YpZVKsi0YBSc9/w0LqetWtjbrQmPex/gpi5xw6lWxofcEnn+Rh9gqFAP24wYB5aBkQyusPkdNp0JsDB4pNNk0yQZfMX+SgtvMVmnMHT4gASKn1Kshkn8HcYMm67DZMfjhYeEijmwTGtZd1R2yssw7IjkRi+ukcSMLFhmLLAONwGLsIyDTi9ZMy8qmY246Tssk7WX14PS9ISIUZwM627B0uCwIJShZ0rpSZwCqY0ki6knm2jnxTJVYHJuK6zDsmMYp5NrLUkIu2EjNxADWI4Z9PMYMuyOm7rJJsCPYbhpWa5uS1IGBC/Rge7CHGqJo55rPBeAu20ZPFvFHY3X/j2Y7FNoQfjJvUg5H/phcY2ZzhuMkVLnlnk/m9x2ZKvCF2R+KRNY7HIzCkwaUDGNtytjgoObMXXH7Ex3ElBfXmOinZ4HsPlMK4nS6wBGaQ/7PdEs2Xzx7pqoVNO7emDNW/q/ohYVe2DTPJXPNFWYXCzju3X2/xTWo8dVgXx88WlSN2w/4w+4aPti",
+   "id" : "oldtownhall_lift",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 60, 19, 70 ],
+   "region-plane" : "eNrN1ouuwyAIBmAv//s/81YLChbXWsjJIUs2Tf2GdNjlLCJxqMEipitqnmIfaxfmNEMZQL8QcrCIdoVe8kfYd1hHRZI5IZZUjVVUDlDcTywym/bQlqrvvZ/4ie1MmFgRC0op6WkcO58xuX7HMrFDIGMvL7tmrJUIjJitPdpY32HashaZjT3uWD9rdhYurGasPRRnrLdd7Rz4nZZgKa8xJsAYaTS+Otz6BoaW0tl7lJ/CuCePU2YcIzYGFfJOjIxTx1Sow9GK0vfGRRzYHPdYEZjcZQjmywyRWKvVgQHubbafCd3nmMwwLBeGGePfcERmiMS+mhfTn6lVX2GXgSezUS2Cfe2EAtEA3t4s0vK2k9aiMnPfTRt7kZnS4MWs8GHXJyUiMaP+DzH7Kf4S6/8bQrB2BJ3Pb/TX25o9i/+LfQAUTSAy",
+   "region-y-plane" : "eNqtltuyoyAQRau4PExVEGlIYtXMk///kdO7gYgmGvGcnZQalJXd3Vx8PquIyFfxNbkvah6Hpvl2e/4MNrL8iNMbbKg6D3v9PIbh/Hq03mgavsGaf4V80+A/NjRd1rBIi+LqdNSwA2vzMXgcV0a+NezBODO5qA3+a8M0UwvL6dVNlrXW32rawCK1sNK/VG0Y8vU1WJbV2urhxTqJinET5hKbRKd7goz0qQDwwtY0HJ5G7cBsjoxBXawdZyVjPSEehSm50lnnC/AGQw0xpZEzbTLNGHUFFl9y1ZhVmmHK1oHujTkJW+ZwQfGip5Qx+kXzltnGbjmiA5gFCt0ZpqxSQboFozh4M4Ygv6e1Wtjm1oTHxzEgTPYmMMWXWjEsL4ncf6UDGGboKGlimAVNiUllXIXNW9i0J8CCGwd2ZrI1PiqBuSBL+ILJPQ5gWOEDnCE4JZMVXE6bGzJsOg+THY8HHvfOduCMU4ZLKjvlaRh2RPLDCJQiyRlZRGqGAusIE7AIZ5x0esiYeRAiZmcRN8cOZzyYAvYeyRndIQJKG+svwZLzDgPN0D2ldCcugcYkSLgZeqrJSsWZKjAZGrbCOpx9hmEGWJMkhd2wwRkMr5oz6M/NZdiVMHVTTYBvzl10JmFqSzINCFFiBboK8+wMK5rMcVzx8PXXnRnViCcXj/1rsEFyxrHhkNci5cfQD4tLznTeYIxMdV4yr1cT24Ap2xXSxi9lAotdYcaSs0Y8+k3wCDOm7pzt6UoB6strTPSm+wfYvKeFROnxAUbpHba3O81SzQfvronKbNqqB9a8pf8talGxB8af8p2mCpvznfrdwv7twnpUne1p6lfT+/kLsP/xxwuu",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 10, 9, 2 ],
+     "size" : [ 70, 1, 47 ],
+     "tags" : "death",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 60, 24, 21 ],
+     "size" : [ 15, 1, 30 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 9, 24, 21 ],
+     "size" : [ 15, 1, 26 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 30, 14, 5 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 47, 14, 5 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "pp_enderman_arena_trigger",
+     "pos" : [ 8, 14, 7 ],
+     "size" : [ 66, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "pp_enderman_arena_reward",
+     "pos" : [ 47, 19, 44 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 51, 14, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 14, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 55, 14, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 56, 14, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 59, 14, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 36, 14, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 36, 14, 9 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 14, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 28, 14, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 14, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 14, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 62, 14, 9 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 53, 14, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 14, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 14, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 14, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 14, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 14, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 14, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 64, 14, 6 ],
+     "size" : [ 11, 1, 1 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 14, 6 ],
+     "size" : [ 11, 1, 1 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 14, 6 ],
+     "size" : [ 11, 1, 1 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 10, 14, 6 ],
+     "size" : [ 14, 1, 1 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 58, 19, 33 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "loot"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 54, 14, 19 ],
+     "size" : [ 6, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 24, 24, 46 ],
+     "size" : [ 36, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 4, 17 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 4, 18 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 4, 19 ],
+     "size" : [ 3, 1, 12 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 4, 31 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 4, 39 ],
+     "size" : [ 17, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 4, 16 ],
+     "size" : [ 2, 1, 23 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 23, 0 ],
+     "size" : [ 10, 1, 22 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 13, 14, 5 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 61, 16, 2 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 77, 35, 49 ],
+   "tags" : "",
+   "walkable-plane" : "eNrNld2WgyAMhHNOApfa3brv/6qbSQCpP1uJvdhpqxXlMxMCEHV6VOFieqPu8dbnHsx60Q4EzVXXYd3lXzCc26P1RtfwDra58+j6Pg4b+vg3qP1rAg3bd+h7d01XG3aw+XrfU5inV7osi8i7Md25qbDSv4zaPPv/GMyVRbLMhSWXUSc5E5OfB0wewWBLQxNEOMA6hGXPv0gaYx1HVjI25vHcpnQaGMstDGOIKY2cmU+lMXM8suLVRSwK41wd07n3Y5v6rSgi5gRe9ptEaM5DkYFjKKMJ66HCOPlLyvU0nS1Bvce1FTbhVRvtr3Bqz9L8MoUuiJG4zDIpho29woalvVMXmrFoXdzHZCB8kiTlJqNFYWzeFILILDqqe2LIpks5VFhxGMpDf5OHKEb7MsUi01rB4AGlg0ESh2EaFJggcyjDb1MwZ7lEZqVxF2bzySaX1ojafJrGYSJeWitXFWT5KoSYkljSVliAxl4Zdbp7kA5bIpGhtrgB78DgbFW6FxnGD/NIbNHN93MmvsEkm+oNNs5C/SfbqpKvaA22jLssq2OB6SaQHLb8hEI7UjRnfe9e9ElY3OTzUFHYguF7IS1xGHA4lmTdSllTqLj+gX4B03hO5A==",
+   "y" : 13
+  },
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNot1ddCG0EMheEFkhA62KbZ63UDNzCQYHrvNe//OtGuvxt+zpFGo5kRS7KUVJMk2UxyTuE0zuAP/Im/cBZ/4zwu4CIu4TKu4CquYQnLWMF13MBN3MJtrGINU6xjhg1sBpdj9VxUWo6sVuy4Qq/Qq/QqvUav0aX4fSu8UvFzwirWMMU6ZtjAJrbixnO2g2V1y7E6jRvIWccMGwXrsb5SsIXtgs2kE12Ww92N7nN2sYd9HOAQ93A/WNFHJU5TixeoRN2dqJtzhAfBdXnrxak3ClYLdpPDmIgN97YR+qiYkInepLfo/PRHxStM9DZdpat0ja7RqTlOzXFqjlNznJrj1Byn5jg1x6k5Ts1xao5Tc5ya49Qcp+Y4NcepPurFbGwXLBWcnC/TX6a/TH+Z/jL9ZfrL9JfpL9NfzjmcxwVcxKWCk/0z+zf03eA3+E1+k9/kt/gtfsv52vw2v83v8Dv8Dn+Hv8Pf4e/yd/m7/C6/y+/qp+ecPefsOWdPXk9eX15fXl9eX15f3iBeZjmmd+AdB95x4P0G8gfyh/HCyzHNQ33u0Xv0Pr1Pj+gRfUAf0If0ofpH9BH9h/5D/6X/0sf6P9b/sf6P1R+7h7F7GLuHsfONnW8s/0T+ifwT+SfyTuSdep9T/in/jH/GP+Of88/55/q/4F/wL/iX/Ev+ZUzeQZzsUvxK/Er8KuKjiOc8DF6LX4tfW3/Dv+Hf8G/j9yS8nFM4XXAr/i63g5N1t9bdWnfHv+Pf8e/59/x7/gP/gf/Af+Q/8h/5T/wn/pNzPjnns/iz+LN1z5F1FF+SF/EX8Rf+K//VHLyKv8ZkH8aX5k38zTy9WffOf+e/R/5u5L/HO3fjnXP2sI8DHOIe7uOo4DD6zuuMYv8fyYd9PuzzEf5O+J/8T/6n/3+f4l/iX+Jf4l/i3+Lf4t/i3+L/4kuZxIv/i76S6CvXU/QUPU1P0zP0TKGHUWW20D8L3Y7v98Sf5f/mz/Hn+Qv8Rf5S4WfxPpP6a/Yr0SW6TJetq6i3rt4GbuIWbmMVa5iqU7d/pn5W+Pl9TRXxpn1a1rWt6ySz/wGP/JY1",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 68, 24, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "pp_es_shelter_travel",
+     "pos" : [ 62, 27, 48 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNq9lkuSgyAQQHOBWHERQLAiTooFVd7/fNP8wQ+gg/MWSgSf3UhjKNUMBpwAF9A7C0lvmBeA3mY02tNGlJAah+GCEeeMlF0wrpCJkV2JcUWDrG83yptj1PNIAIwJJpoWWSf9KBhhZcQd6OBBq6xZzph0HYa+k3VTo67CAyPaGJHN3vWbU5y13S7Q2hgYmWMcjphPGYcoxP8zFrNGOPqFd5vplVKMb5RUUHT/lrp3fZ5SzZxDrQK53XH/YgRLqWbOGhltn/WB0b+69AXvEQ/NxAh9VA+DqS0Zw1CamcfEGH06vSdcyhvjGO0NNUY3dM/IvNHfwVZf+DXRUEJzWfvaKhv9UKKqTu5X4SWjFtKd/2bGSBxlox8KSdr1OBpi4+iHjSXj+FToD7FqyMgYgcOuX2nUUnWc10bzFUmMWSUORkw6Z/yJmbRx8luwesyxUPXSF/DsNM9ObozcEJQgzaSs+vv+1Wvf4khj1HAWG3HeCEqmhPKEEebSWLE/wBEuG6NaNV1nFk6dMYM3uqVYZayguZHR9jH6km5l1NLWxlKMU5WD2Seb84FRfAHBoRgrjFzYEhOc2s1WI3ZxRpZr8MnNEpNsKRiFmBX5hjcuCeI6YIRJamtU0/5taPw67jY+DvjAlH+yDR7Sj2/sH9fhq7M1/gKp8Mcc",
+   "id" : "oldtownhall_lift_alt",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ -100, 14, 36 ],
+   "region-plane" : "eNrt1tEOgyAMBVBq+f9vVioCUqBFCNHE+7A5gQMW4wRIY25hJ1iydgSWX9SIhg2YLM5f40fFUwVTmWL9GsW9RoTY9zbw6RpfIGquGtCF2vAK9IRPGY3WSnrEQtuAaCpt1YHizvSLKIm9+YQo1vEFayyLA7IkKuSsy0ox9JdF3VXHAaKY1dHOFu10cfIarcu4uLnQoTsoiOcDu1ckdJkIdEfFAcfvOkeTb2lKIntgtMSrfF4r7gx/AjUuHPyOmAhWROwSvYp6kWp7/muHD8zqTUXVitr8YvvumSMqSUy/m3ePUsTrjdI60rZFHRnEwxPFdJ/Ya21yBn35QjQi8PfkeOaZKMz2evGr2QHKjgtb",
+   "region-y-plane" : "eNq9lkuSgyAQQHOBWHERQLAiTooFVd7/fNP8wQ+gg/MWSgSf3UhjKNUMBpwAF9A7C0lvmBeA3mY02tNGlJAah+GCEeeMlF0wrpCJkV2JcUWDrG83yptj1PNIAIwJJpoWWSf9KBhhZcQd6OBBq6xZzph0HYa+k3VTo67CAyPaGJHN3vWbU5y13S7Q2hgYmWMcjphPGYcoxP8zFrNGOPqFd5vplVKMb5RUUHT/lrp3fZ5SzZxDrQK53XH/YgRLqWbOGhltn/WB0b+69AXvEQ/NxAh9VA+DqS0Zw1CamcfEGH06vSdcyhvjGO0NNUY3dM/IvNHfwVZf+DXRUEJzWfvaKhv9UKKqTu5X4SWjFtKd/2bGSBxlox8KSdr1OBpi4+iHjSXj+FToD7FqyMgYgcOuX2nUUnWc10bzFUmMWSUORkw6Z/yJmbRx8luwesyxUPXSF/DsNM9ObozcEJQgzaSs+vv+1Wvf4khj1HAWG3HeCEqmhPKEEebSWLE/wBEuG6NaNV1nFk6dMYM3uqVYZayguZHR9jH6km5l1NLWxlKMU5WD2Seb84FRfAHBoRgrjFzYEhOc2s1WI3ZxRpZr8MnNEpNsKRiFmBX5hjcuCeI6YIRJamtU0/5taPw67jY+DvjAlH+yDR7Sj2/sH9fhq7M1/gKp8Mcc",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 63, 18, 28 ],
+     "size" : [ 16, 1, 24 ],
+     "tags" : "death",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 22, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 22, 25 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 54, 22, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 23, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 57, 22, 23 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 22, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 22, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 23, 34 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 23, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 22, 23 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 52, 22, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 22, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 23, 35 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 61, 22, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 68, 22, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 51, 23, 36 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 22, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 36, 23, 33 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 42, 22, 14 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "pp_enderman_arena_trigger",
+     "pos" : [ 14, 22, 15 ],
+     "size" : [ 65, 1, 5 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "pp_enderman_arena_reward",
+     "pos" : [ 68, 28, 38 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 22, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 22, 17 ],
+     "size" : [ 10, 1, 3 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 14, 22, 13 ],
+     "size" : [ 15, 1, 7 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 20, 3 ],
+     "size" : [ 20, 1, 4 ],
+     "tags" : "spawn",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 65, 22, 25 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 27, 20, 3 ],
+     "size" : [ 12, 1, 3 ],
+     "tags" : "",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 21, 24, 8 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 22, 22, 11 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 26, 22, 15 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "loot"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 22, 15 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 16, 22, 11 ],
+     "size" : [ 6, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 22, 12 ],
+     "size" : [ 3, 1, 6 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    }
+   ],
+   "size" : [ 82, 45, 55 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt1tuSgyAMBuA8AV29ECy8/3NuAAmHSoItM2tn9r8AR+hnpFgLUMZUwRN6Y9N8wMBLbiDqOncU2wtMF7d/sVQh76uPxWpYZxE3Rjmg9SjYiLi/NOHVB3ul/6GoX0R9TEjjtExtdCtCvrTwhXZSi+RMFU9W5ANRn4vMJhHE7bqoewNv5+aisxiYK6LppoqYjkiy/4nkFZqBPVMjidhLYpqKS6iUGhKLN2f+QinjIr19ZfE4EsT8Qi/Fk5g8dQ8idMT86hJFmro/kYSJYgD7Ne4psqhUmKhiYIrok0TVE58po6Kv1LePAZElTRbN/ujeNjY2BVjS/42xC0Y9Qs5KTLE5hgH9+Loua/CAiyvE/lIaiOK6yGAt4o1H1VCDrd+tccbqRLIW/cMdHzagBltDi4O/iz8oulHRL6WxgbH+4aDDPI6kuiYKcZ7EzBNtnD5TjCgnwnVRqLHa4Qxx3MvRs+DYfTtwRQ9CHNXBHMQLhx6cJFb1tjujODNQ3DnZPfOeyOUbxG/NLz578IY=",
+   "y" : 17
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes.M_Master_Prefab_Meshes'
+Parent = Material3'Decor/Prefabs/M_Master_Prefab_Meshes_Twosided.M_Master_Prefab_Meshes_Twosided'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
@@ -23,7 +23,7 @@ BasePropertyOverrides =
     bOverride_BlendMode = false
     BlendMode = BLEND_Masked (1)
     bOverride_TwoSided = false
-    TwoSided = false
+    TwoSided = true
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
@@ -34,6 +34,8 @@ StaticParameters =
     TerrainLayerWeightParameters[0] = {}
     MaterialLayersParameters[0] = {}
 }
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None
@@ -41,4 +43,18 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = screenspec_text
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tent
+    }
+}

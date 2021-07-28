@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Items/VoidShard/M_VoidShard.M_VoidShard'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Items/VoidShard/M_VoidShard.M_VoidShard'
+        MaterialSlotName = Material #112
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.082, 270.132, 320.49, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.8147e-06, Z=53.125 }
+    BoxExtent = { X=50, Y=50, Z=53.125 }
+    SphereRadius = 88.4436
+}

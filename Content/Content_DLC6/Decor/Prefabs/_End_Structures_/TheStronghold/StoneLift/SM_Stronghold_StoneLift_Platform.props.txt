@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/StoneLift/MI_StoneLift.MI_StoneLift'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/StoneLift/MI_StoneLift.MI_StoneLift'
+        MaterialSlotName = MI_PowerStationChain
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 565.682, 2126.46, 3138.7, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0206299, Y=0.00158691, Z=25.0159 }
+    BoxExtent = { X=450.056, Y=450.036, Z=174.984 }
+    SphereRadius = 640.825
+}

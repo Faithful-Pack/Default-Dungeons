@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_LongCage_Stronghold.MI_LongCage_Stronghold'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_LongCage_Stronghold.MI_LongCage_Stronghold'
+        MaterialSlotName = MI_LongCage_Stronghold
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 401.098, 720.924, 608.506, 395.987 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=151.732, Y=-97.1754, Z=404.547 }
+    BoxExtent = { X=132.871, Y=34.5742, Z=82.8736 }
+    SphereRadius = 160.368
+}

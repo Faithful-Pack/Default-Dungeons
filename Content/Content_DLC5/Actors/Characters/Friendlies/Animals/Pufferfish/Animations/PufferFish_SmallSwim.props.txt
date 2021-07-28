@@ -114,7 +114,7 @@ Notifies[1] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = DungeonsPlaySound
         Duration = 0
         EndLink =
@@ -124,7 +124,7 @@ Notifies[1] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -255,7 +255,7 @@ Notifies[1] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = DungeonsPlaySound
         Duration = 0
         EndLink =
@@ -265,7 +265,7 @@ Notifies[1] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0

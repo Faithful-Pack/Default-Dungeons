@@ -47,13 +47,13 @@ StaticParameters =
     {
         StaticSwitchParameters[0] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=ConstantEmissive }
             bOverride = true
         }
         StaticSwitchParameters[1] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=EnchantmentMask }
             bOverride = true
         }
@@ -65,7 +65,7 @@ StaticParameters =
         }
         StaticSwitchParameters[3] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=SpecularTexture }
             bOverride = true
         }
@@ -74,6 +74,8 @@ StaticParameters =
     TerrainLayerWeightParameters[0] = {}
     MaterialLayersParameters[0] = {}
 }
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/RangedWeapons/ShadowCrossbow/MI_ShadowCrossbow.MI_ShadowCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/RangedWeapons/ShadowCrossbow/MI_ShadowCrossbow.MI_ShadowCrossbow'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 132.607, 109.911, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.7643e-05, Y=-0.000125885, Z=-48.6137 }
+    BoxExtent = { X=3.12505, Y=57.4525, Z=53.0332 }
+    SphereRadius = 57.7069
+}

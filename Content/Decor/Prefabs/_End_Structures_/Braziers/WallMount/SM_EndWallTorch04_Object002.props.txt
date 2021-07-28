@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_End_Structures_/Braziers/WallMount/MI_GaleSanctum_Props.MI_GaleSanctum_Props'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_End_Structures_/Braziers/WallMount/MI_GaleSanctum_Props.MI_GaleSanctum_Props'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_End_Structures_/Braziers/WallMount/MI_GaleSanctum_Props.MI_GaleSanctum_Props'
+        MaterialSlotName = MI_GaleSanctum_Props
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 785.738, 145.115, 153.825, 200.258 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_End_Structures_/Braziers/WallMount/MI_GaleSanctum_Props.MI_GaleSanctum_Props'
+        MaterialSlotName = Material #103
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 775.889, 136.171, 151.89, 200.634 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.8147e-06, Y=-0.00187492, Z=-28.17 }
+    BoxExtent = { X=24.9762, Y=28.1281, Z=50.045 }
+    SphereRadius = 60.3735
+}

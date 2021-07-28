@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_Stronghold_FadeMesh_Atlas_002.MI_Stronghold_FadeMesh_Atlas_002'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_Stronghold_FadeMesh_Atlas_002.MI_Stronghold_FadeMesh_Atlas_002'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.015, 55299.1, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=1900 }
+    BoxExtent = { X=456.25, Y=250, Z=1900 }
+    SphereRadius = 1959.76
+}

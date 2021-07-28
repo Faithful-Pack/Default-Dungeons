@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/BC_Meshfades/MI_Stone_Tiles_01.MI_Stone_Tiles_01'
+    Materials[1] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/BC_Meshfades/MI_Stone_Tiles_02.MI_Stone_Tiles_02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/BC_Meshfades/MI_Stone_Tiles_01.MI_Stone_Tiles_01'
+        MaterialSlotName = Material #36
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.055, 3598.48, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/BC_Meshfades/MI_Stone_Tiles_02.MI_Stone_Tiles_02'
+        MaterialSlotName = Material #37
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.03, 3592.98, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.10352e-05, Y=0, Z=300 }
+    BoxExtent = { X=849.999, Y=849.999, Z=300 }
+    SphereRadius = 1007.47
+}

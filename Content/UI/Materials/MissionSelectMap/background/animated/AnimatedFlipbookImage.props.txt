@@ -5,12 +5,15 @@ ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'UI/Materials/MissionSelectMap/background/animated/beaconfire_soggyswamp_5sprites.beaconfire_soggyswamp_5sprites'
 }
-Expressions[13] =
+Expressions[27] =
 {
-    Expressions[2] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_0'
-    Expressions[3] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_1'
-    Expressions[7] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_3'
-    Expressions[11] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_2'
+    Expressions[3] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_0'
+    Expressions[4] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_1'
+    Expressions[8] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_3'
+    Expressions[12] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_2'
+    Expressions[15] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_4'
+    Expressions[17] = MaterialExpressionScalarParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionScalarParameter_5'
+    Expressions[26] = MaterialExpressionStaticBoolParameter'UI/Materials/MissionSelectMap/background/animated/AnimatedFlipbookImage.MaterialExpressionStaticBoolParameter_0'
 }
 CachedExpressionData =
 {
@@ -33,12 +36,14 @@ CachedExpressionData =
 BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
 CollectedTextureParameters[0] = {}
-CollectedScalarParameters[4] =
+CollectedScalarParameters[6] =
 {
     CollectedScalarParameters[0] = { Value=1, Name=rows, Group=None }
     CollectedScalarParameters[1] = { Value=5, Name=columns, Group=None }
     CollectedScalarParameters[2] = { Value=4, Name=framesPerSecond, Group=None }
     CollectedScalarParameters[3] = { Value=0, Name=TimeOffset, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Fade End, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=FadeStart, Group=None }
 }
 CollectedVectorParameters[0] = {}
 FlattenedTexture = None

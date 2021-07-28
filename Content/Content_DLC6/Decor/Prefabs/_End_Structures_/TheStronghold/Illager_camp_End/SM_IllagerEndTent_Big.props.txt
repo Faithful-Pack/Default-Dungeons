@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/Illager_camp_End/MI_IllagerEndTent.MI_IllagerEndTent'
+    Materials[1] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/Illager_camp_End/MI_IllagerEndTent.MI_IllagerEndTent'
+        MaterialSlotName = Material #34
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 790.781, 873.305, 699.271, 921.969 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = Material #33
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.52588e-05, Z=98.0086 }
+    BoxExtent = { X=277.388, Y=190.595, Z=102.101 }
+    SphereRadius = 350.518
+}

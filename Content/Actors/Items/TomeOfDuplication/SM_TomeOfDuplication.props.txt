@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Items/TomeOfDuplication/M_TomeOfDuplication.M_TomeOfDuplication'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Items/TomeOfDuplication/M_TomeOfDuplication.M_TomeOfDuplication'
+        MaterialSlotName = M_TomeOfDuplication
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 172.857, 251.615, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.5, Y=-0.0797729, Z=0 }
+    BoxExtent = { X=12.5, Y=32.5, Z=35.5102 }
+    SphereRadius = 49.734
+}

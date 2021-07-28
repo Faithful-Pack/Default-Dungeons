@@ -1,0 +1,77 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Actors/Equipment/Traps/SpikeTrap/T_CloudMask.T_CloudMask'
+    ReferencedTextures[1] = Texture2D'Actors/Characters/Enemies/PerfectForm/ImperfectForm/T_PinkGoo_S.T_PinkGoo_S'
+    ReferencedTextures[2] = Texture2D'Actors/Characters/Enemies/PerfectForm/ImperfectForm/T_PinkGoo.T_PinkGoo'
+}
+Expressions[23] =
+{
+    Expressions[5] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionScalarParameter_0'
+    Expressions[12] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionVectorParameter_2'
+    Expressions[15] = MaterialExpressionTextureSample'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionTextureSample_0'
+    Expressions[17] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionScalarParameter_2'
+    Expressions[18] = MaterialExpressionTextureSample'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionTextureSample_2'
+    Expressions[19] = MaterialExpressionTextureSample'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionTextureSample_3'
+    Expressions[21] = MaterialExpressionTextureSample'Actors/Characters/Enemies/PerfectForm/Materials/MI_PerfectForm_Glow_2.MaterialExpressionTextureSample_4'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=GradientPower, Group=None }
+    CollectedScalarParameters[1] = { Value=20, Name=Power, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.59375, G=0.59375, B=0.59375, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_PinkGoo_S
+    }
+}

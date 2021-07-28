@@ -99,6 +99,7 @@
             "description": "desc_nf_03",
             "displayMode": "MainObjective",
             "consider-tiles": "all",
+            "objective-indicator-force": true,
             "click": {
                 "object": "Content_DLC4/Decor/Prefab/Functional/NetherFortressGate/BP_NehterFortressSilverGate_Rotated",
                 "count": 1,
@@ -116,6 +117,17 @@
                 "spawn-regions": [
                     "*.nft_bossroom_a.*"
                 ]
+            }
+        },
+        {
+            "name": "name_nf",
+            "description": "desc_nf_04",
+            "consider-tiles": "all",
+            "objective-indicator-force": true,
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "marker-region": "bossflankright.*.gauntlet",
+                "end-region": "bossflankright.*.gauntlet"
             }
         },
         {
@@ -180,6 +192,7 @@
             "description": "desc_nf_07",
             "displayMode": "MainObjective",
             "consider-tiles": "all",
+            "objective-indicator-force": true,
             "click": {
                 "object": "Content_DLC4/Decor/Prefab/Functional/NetherFortressGate/BP_NehterFortressGoldGate",
                 "count": 1,
@@ -1617,7 +1630,7 @@
             ]
         },
         {
-            "id": "hm_to_nether@nft_objective_tile01",
+            "id": "hm_to_nether@nft_hmobjective_tile01",
             "rotations": [
                 90
             ],
@@ -1634,7 +1647,7 @@
             ]
         },
         {
-            "id": "hm_to_overworld@nft_objective_tile01",
+            "id": "hm_to_overworld@nft_hmobjective_tile01",
             "rotations": [
                 90
             ],
@@ -1651,7 +1664,7 @@
             ]
         },
         {
-            "id": "hm_to_none@nft_objective_tile01",
+            "id": "hm_to_none@nft_hmobjective_tile01",
             "rotations": [
                 90
             ],
@@ -2113,6 +2126,14 @@
             ]
         },
         {
+            "id": "hm_nft_inner_large_cross",
+            "tiles": [
+                "nft_inner_large_tile01",
+                "nft_inner_large_tile03",
+                "nft_inner_large_tile04"
+            ]
+        },
+        {
             "id": "hm_nft_inner_large_tiles",
             "tiles": [
                 "nft_inner_large_tile01",
@@ -2146,9 +2167,9 @@
         {
             "id": "hm_exit",
             "tiles": [
-                "hm_to_nether@nft_objective_tile01",
-                "hm_to_overworld@nft_objective_tile01",
-                "hm_to_none@nft_objective_tile01"
+                "hm_to_nether@nft_hmobjective_tile01",
+                "hm_to_overworld@nft_hmobjective_tile01",
+                "hm_to_none@nft_hmobjective_tile01"
             ]
         }
     ],

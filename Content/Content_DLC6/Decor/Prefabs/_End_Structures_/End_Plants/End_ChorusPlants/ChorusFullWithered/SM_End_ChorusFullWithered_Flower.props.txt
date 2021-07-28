@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_Plants/End_ChorusPlants/ChorusFullWithered/MI_ChorusFullWithered.MI_ChorusFullWithered'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_Plants/End_ChorusPlants/ChorusFullWithered/MI_ChorusFullWithered.MI_ChorusFullWithered'
+        MaterialSlotName = lambert4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.068, 267.427, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=0, Z=43.75 }
+    BoxExtent = { X=50, Y=50, Z=43.75 }
+    SphereRadius = 76.291
+}

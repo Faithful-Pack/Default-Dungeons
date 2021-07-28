@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_Stone_FadeMesh_Stronghold.MI_Stone_FadeMesh_Stronghold'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_Stone_FadeMesh_Stronghold.MI_Stone_FadeMesh_Stronghold'
+        MaterialSlotName = MI_Stone_FadeMesh_Stronghold
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.17, 2176.1, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=700, Y=-450, Z=100 }
+    BoxExtent = { X=700, Y=450, Z=100 }
+    SphereRadius = 838.153
+}

@@ -106,7 +106,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -116,7 +116,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -128,7 +128,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -138,7 +138,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 12
         SlotIndex = 0
@@ -150,7 +150,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_ChargeUpTransferAttack_C
         Duration = 2.87678
         EndLink =
@@ -160,7 +160,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 9
         SlotIndex = 0
@@ -172,7 +172,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -182,7 +182,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -194,7 +194,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CameraShakeNotify_C
         Duration = 0
         EndLink =
@@ -204,7 +204,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 10
         SlotIndex = 0
@@ -216,7 +216,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -226,7 +226,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 13
         SlotIndex = 0
@@ -238,7 +238,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -248,7 +248,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 14
         SlotIndex = 0
@@ -260,7 +260,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -270,7 +270,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 6
         SlotIndex = 0
@@ -282,7 +282,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -292,7 +292,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 7
         SlotIndex = 0
@@ -304,7 +304,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CameraShakeNotify_C
         Duration = 0
         EndLink =
@@ -314,7 +314,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 8
         SlotIndex = 0
@@ -326,7 +326,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -336,7 +336,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -348,7 +348,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -358,7 +358,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -370,7 +370,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -380,7 +380,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -392,7 +392,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -402,7 +402,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 4
         SlotIndex = 0
@@ -414,7 +414,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CameraShakeNotify_C
         Duration = 0
         EndLink =
@@ -424,7 +424,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 11
         SlotIndex = 0
@@ -436,7 +436,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -446,7 +446,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 5
         SlotIndex = 0
@@ -458,7 +458,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -468,7 +468,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -480,7 +480,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.0720434
         EndLink =
@@ -490,7 +490,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -502,7 +502,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -512,7 +512,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -524,7 +524,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -534,7 +534,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 12
         SlotIndex = 0
@@ -546,7 +546,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -556,7 +556,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 4
         SlotIndex = 0
@@ -568,7 +568,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.113513
         EndLink =
@@ -578,7 +578,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 7
         SlotIndex = 0
@@ -590,7 +590,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.11763
         EndLink =
@@ -600,7 +600,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 6
         SlotIndex = 0
@@ -612,7 +612,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -622,7 +622,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 5
         SlotIndex = 0
@@ -634,7 +634,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.113513
         EndLink =
@@ -644,7 +644,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 8
         SlotIndex = 0
@@ -656,7 +656,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -666,7 +666,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -678,7 +678,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.364998
         EndLink =
@@ -688,7 +688,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 10
         SlotIndex = 0
@@ -700,7 +700,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.113513
         EndLink =
@@ -710,7 +710,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 9
         SlotIndex = 0
@@ -722,7 +722,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -732,7 +732,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -744,7 +744,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -754,7 +754,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 4
         SlotIndex = 0
@@ -877,7 +877,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -887,7 +887,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -899,7 +899,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -909,7 +909,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 12
         SlotIndex = 0
@@ -921,7 +921,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_ChargeUpTransferAttack_C
         Duration = 2.87678
         EndLink =
@@ -931,7 +931,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 9
         SlotIndex = 0
@@ -943,7 +943,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -953,7 +953,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -965,7 +965,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CameraShakeNotify_C
         Duration = 0
         EndLink =
@@ -975,7 +975,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 10
         SlotIndex = 0
@@ -987,7 +987,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -997,7 +997,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 13
         SlotIndex = 0
@@ -1009,7 +1009,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -1019,7 +1019,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 14
         SlotIndex = 0
@@ -1031,7 +1031,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1041,7 +1041,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 6
         SlotIndex = 0
@@ -1053,7 +1053,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1063,7 +1063,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 7
         SlotIndex = 0
@@ -1075,7 +1075,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CameraShakeNotify_C
         Duration = 0
         EndLink =
@@ -1085,7 +1085,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 8
         SlotIndex = 0
@@ -1097,7 +1097,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1107,7 +1107,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -1119,7 +1119,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1129,7 +1129,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -1141,7 +1141,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1151,7 +1151,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -1163,7 +1163,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1173,7 +1173,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 4
         SlotIndex = 0
@@ -1185,7 +1185,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CameraShakeNotify_C
         Duration = 0
         EndLink =
@@ -1195,7 +1195,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 11
         SlotIndex = 0
@@ -1207,7 +1207,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1217,7 +1217,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 5
         SlotIndex = 0
@@ -1229,7 +1229,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1239,7 +1239,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -1251,7 +1251,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.0720434
         EndLink =
@@ -1261,7 +1261,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -1273,7 +1273,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1283,7 +1283,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -1295,7 +1295,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlaySound
         Duration = 0
         EndLink =
@@ -1305,7 +1305,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 12
         SlotIndex = 0
@@ -1317,7 +1317,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1327,7 +1327,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 4
         SlotIndex = 0
@@ -1339,7 +1339,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.113513
         EndLink =
@@ -1349,7 +1349,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 7
         SlotIndex = 0
@@ -1361,7 +1361,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.11763
         EndLink =
@@ -1371,7 +1371,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 6
         SlotIndex = 0
@@ -1383,7 +1383,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1393,7 +1393,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 5
         SlotIndex = 0
@@ -1405,7 +1405,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.113513
         EndLink =
@@ -1415,7 +1415,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 8
         SlotIndex = 0
@@ -1427,7 +1427,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1437,7 +1437,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -1449,7 +1449,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.364998
         EndLink =
@@ -1459,7 +1459,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 10
         SlotIndex = 0
@@ -1471,7 +1471,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RedStoneGolem_Malfunction_C
         Duration = 0.113513
         EndLink =
@@ -1481,7 +1481,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 5.79167
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 9
         SlotIndex = 0
@@ -1493,7 +1493,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1503,7 +1503,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -1515,7 +1515,7 @@ Notifies[30] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PlayParticleEffect
         Duration = 0
         EndLink =
@@ -1525,7 +1525,7 @@ Notifies[30] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 4
         SlotIndex = 0

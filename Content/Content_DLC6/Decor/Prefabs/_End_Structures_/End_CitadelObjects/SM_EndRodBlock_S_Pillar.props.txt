@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_CitadelObjects/MI_EndRodBlock_S_Pillar.MI_EndRodBlock_S_Pillar'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_CitadelObjects/MI_EndRodBlock_S_Pillar.MI_EndRodBlock_S_Pillar'
+        MaterialSlotName = EndRodBlockSingle
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 415.179, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=50, Z=100 }
+    BoxExtent = { X=50, Y=50, Z=100 }
+    SphereRadius = 122.475
+}

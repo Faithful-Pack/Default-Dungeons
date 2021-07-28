@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_Barrels_Pots_Sack_Stronghold.MI_Barrels_Pots_Sack_Stronghold'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_Barrels_Pots_Sack_Stronghold.MI_Barrels_Pots_Sack_Stronghold'
+        MaterialSlotName = MI_Master
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 805.769, 391.665, 361.461, 360.84 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=62.5282 }
+    BoxExtent = { X=50, Y=49.935, Z=62.5282 }
+    SphereRadius = 94.3572
+}

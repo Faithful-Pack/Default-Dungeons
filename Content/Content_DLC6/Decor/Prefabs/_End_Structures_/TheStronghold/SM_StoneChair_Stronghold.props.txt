@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_StoneChair_Stronghold.MI_StoneChair_Stronghold'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_StoneChair_Stronghold.MI_StoneChair_Stronghold'
+        MaterialSlotName = MI_Chair
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 385.831, 194.725, 226.961, 250.237 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=62.0931, Y=53.125, Z=103.125 }
+    BoxExtent = { X=62.0931, Y=53.125, Z=103.125 }
+    SphereRadius = 131.577
+}

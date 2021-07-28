@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_GlassContainer.MI_GlassContainer'
+    Materials[1] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_GlassContainerAlpha.MI_GlassContainerAlpha'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_GlassContainer.MI_GlassContainer'
+        MaterialSlotName = Material #111
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.458, 294.858, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_GlassContainerAlpha.MI_GlassContainerAlpha'
+        MaterialSlotName = Material #136
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 294.867, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.14441e-05, Y=3.8147e-06, Z=56.25 }
+    BoxExtent = { X=53.125, Y=53.125, Z=56.25 }
+    SphereRadius = 93.8541
+}

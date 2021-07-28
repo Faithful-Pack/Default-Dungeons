@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/Armor/BardsGarb_Unique1/MI_BardsGarb_Unique1.MI_BardsGarb_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/Armor/BardsGarb_Unique1/MI_BardsGarb_Unique1.MI_BardsGarb_Unique1'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 416.701, 139.191, 150.443, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.02472, Y=-28.4855, Z=3.54629 }
+    BoxExtent = { X=15.625, Y=40.625, Z=17.1875 }
+    SphereRadius = 46.7968
+}

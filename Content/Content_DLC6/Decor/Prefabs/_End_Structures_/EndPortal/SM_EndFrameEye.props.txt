@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/EndPortal/MI_EnderFrameEye.MI_EnderFrameEye'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/EndPortal/MI_EnderFrameEye.MI_EnderFrameEye'
+        MaterialSlotName = MI_EnderFrameEye
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 103.536, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=25, Y=-25, Z=103.125 }
+    BoxExtent = { X=25, Y=25, Z=9.37501 }
+    SphereRadius = 36.5772
+}

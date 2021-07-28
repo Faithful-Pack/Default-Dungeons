@@ -1,0 +1,74 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Fire/T_FireDroplet.T_FireDroplet'
+}
+Expressions[18] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Effects/Materials/Fire/M_FireBase_Spritesheet_End.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[5] = MaterialExpressionVectorParameter'Effects/Materials/Fire/M_FireBase_Spritesheet_End.MaterialExpressionVectorParameter_5'
+    Expressions[6] = MaterialExpressionVectorParameter'Effects/Materials/Fire/M_FireBase_Spritesheet_End.MaterialExpressionVectorParameter_6'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Fire/T_FireDroplet.T_FireDroplet'
+        Name = Fire
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=8, G=0.703186, B=0, A=1 }
+        Name = Outer
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=80, G=7.03186, B=0, A=1 }
+        Name = Inner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = T_FireDroplet
+    }
+}

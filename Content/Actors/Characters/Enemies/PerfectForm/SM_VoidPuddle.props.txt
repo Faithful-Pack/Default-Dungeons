@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/PerfectForm/M_LiquidVoid_PFPool.M_LiquidVoid_PFPool'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/PerfectForm/M_LiquidVoid_PFPool.M_LiquidVoid_PFPool'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 274.886, 794.134, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.52588e-05, Z=-80 }
+    BoxExtent = { X=150, Y=150, Z=110 }
+    SphereRadius = 238.956
+}

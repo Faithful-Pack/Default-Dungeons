@@ -19,7 +19,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Albedo }
-        ParameterValue = Texture2D'Content_DLC4/Actors/Equipment/RangedWeapons/TwistingVineBow_Unique1/T_TwistingVineBow_Unique1.T_TwistingVineBow_Unique1'
+        ParameterValue = Texture2D'Content_DLC4/Actors/Equipment/RangedWeapons/TwistingVineBow_UNique1/T_TwistingVineBow_Unique1.T_TwistingVineBow_Unique1'
         ParameterName = None
     }
 }
@@ -39,7 +39,7 @@ StaticParameters =
     {
         StaticSwitchParameters[0] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=SpecularTexture }
             bOverride = true
         }
@@ -48,6 +48,8 @@ StaticParameters =
     TerrainLayerWeightParameters[0] = {}
     MaterialLayersParameters[0] = {}
 }
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

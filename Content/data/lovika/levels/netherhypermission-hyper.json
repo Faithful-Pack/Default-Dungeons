@@ -236,6 +236,65 @@
             }
         },
         {
+            "id": "ocean_1",
+            "mob-types": [
+                "guardianancient"
+            ],
+            "required-dlc": "Oceans",
+            "archetype-requirements": {
+                "acrobat": 1,
+                "fighter": 1,
+                "tank": 1
+            }
+        },
+        {
+            "id": "ocean_2",
+            "mob-types": [
+                "drownedancient"
+            ],
+            "required-dlc": "Oceans",
+            "archetype-requirements": {
+                "support": 2,
+                "tank": 1
+            }
+        },
+        {
+            "id": "end_1",
+            "mob-types": [
+                "endlingancient"
+            ],
+            "required-dlc": "TheEnd",
+            "archetype-requirements": {
+                "acrobat": 1,
+                "mage": 1,
+                "tank": 1
+            }
+        },
+        {
+            "id": "end_2",
+            "mob-types": [
+                "snarelingancient"
+            ],
+            "required-dlc": "TheEnd",
+            "archetype-requirements": {
+                "acrobat": 2,
+                "archer": 1,
+                "support": 1
+            }
+        },
+        {
+            "id": "scuttlingtorment_dungeon",
+            "mob-types": [
+                "silverfishancient"
+            ],
+            "required-dlc": "TheEnd",
+            "archetype-requirements": {
+                "acrobat": 1,
+                "fighter": 1,
+                "mage": 2
+            }
+        },
+        {
             "id": "gold_s",
             "weight": 3
         },
@@ -621,6 +680,21 @@
                 "tropicalslimelarge",
                 "cavespider"
             ]
+        },
+        {
+            "ids": [
+                "enderwilds",
+                "blightedcitadel"
+            ],
+            "types": [
+                "blastling",
+                "snareling",
+                "endling",
+                "endermite",
+                "pillager",
+                "vindicator",
+                "enchanter"
+            ]
         }
     ],
     "hypermission-mobs": [
@@ -881,6 +955,26 @@
         },
         {
             "type": "tropicalslimelarge",
+            "weight": 0.2,
+            "max%": 0.2
+        },
+        {
+            "type": "blastling",
+            "weight": 0.3,
+            "max%": 0.3
+        },
+        {
+            "type": "snareling",
+            "weight": 0.4,
+            "max%": 0.4
+        },
+        {
+            "type": "endling",
+            "weight": 0.3,
+            "max%": 0.3
+        },
+        {
+            "type": "endermite",
             "weight": 0.2,
             "max%": 0.2
         }

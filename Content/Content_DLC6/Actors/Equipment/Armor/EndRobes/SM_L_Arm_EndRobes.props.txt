@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/Armor/EndRobes/MI_EndRobesArmor.MI_EndRobesArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/Armor/EndRobes/MI_EndRobesArmor.MI_EndRobesArmor'
+        MaterialSlotName = MI_SquidArmor_Unique1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 406.46, 123.54, 88.5661, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=12.2305, Y=12.5001, Z=3.02607 }
+    BoxExtent = { X=15.625, Y=25.0002, Z=15.625 }
+    SphereRadius = 33.3661
+}

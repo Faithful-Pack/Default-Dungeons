@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+    Materials[1] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = GlassMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.943, 314.512, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = MetalMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.019, 314.325, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-81.25, Z=0 }
+    BoxExtent = { X=37.5, Y=81.25, Z=37.5 }
+    SphereRadius = 97.0261
+}

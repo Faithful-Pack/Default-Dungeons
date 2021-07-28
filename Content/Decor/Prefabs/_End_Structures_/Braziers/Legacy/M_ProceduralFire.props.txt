@@ -1,0 +1,131 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_CellsCellsCellsCells.T_CellsCellsCellsCells'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Bubbles.T_Bubbles'
+}
+Expressions[103] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionTextureSample_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_1'
+    Expressions[14] = MaterialExpressionTextureSample'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionTextureSample_1'
+    Expressions[20] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_2'
+    Expressions[22] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_3'
+    Expressions[25] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_4'
+    Expressions[28] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_6'
+    Expressions[40] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_0'
+    Expressions[44] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_5'
+    Expressions[46] = MaterialExpressionTextureSample'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionTextureSample_2'
+    Expressions[50] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_7'
+    Expressions[52] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_10'
+    Expressions[54] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_11'
+    Expressions[59] = MaterialExpressionTextureSample'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionTextureSample_3'
+    Expressions[66] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_12'
+    Expressions[68] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_13'
+    Expressions[69] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_14'
+    Expressions[73] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_15'
+    Expressions[74] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_16'
+    Expressions[75] = MaterialExpressionVectorParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionVectorParameter_0'
+    Expressions[76] = MaterialExpressionVectorParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionVectorParameter_1'
+    Expressions[80] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_9'
+    Expressions[82] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_17'
+    Expressions[88] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_18'
+    Expressions[89] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_19'
+    Expressions[91] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_20'
+    Expressions[94] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_21'
+    Expressions[95] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_22'
+    Expressions[97] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_8'
+    Expressions[100] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/Braziers/Legacy/M_ProceduralFire.MaterialExpressionScalarParameter_23'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.02
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[24] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Quantize, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Speed, Group=None }
+    CollectedScalarParameters[2] = { Value=4.81814, Name=GradientPower, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=CoreRadius, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Tiling, Group=None }
+    CollectedScalarParameters[5] = { Value=2.87133, Name=Height Exponent, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=ColourPower, Group=None }
+    CollectedScalarParameters[7] = { Value=3, Name=Bubble_Exponent, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Bubble Height, Group=None }
+    CollectedScalarParameters[9] = { Value=0.01, Name=BubbleThreshold, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.5
+        Name = Biggus Blobbus Prominus
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=0.5, Name=Blob Gradient, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=Blob Gradient, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Width, Group=None }
+    CollectedScalarParameters[14] = { Value=22, Name=Resolution, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Tiles-X, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=TIles-Y, Group=None }
+    CollectedScalarParameters[17] = { Value=0.066667, Name=ClampOpacity, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[19] = { Value=100, Name=LowerClipping, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=CoreCentre-X, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=CoreCentre-Y, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=LowerClippingOpacity, Group=None }
+    CollectedScalarParameters[23] = { Value=3, Name=Exp, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.025743, G=0.380208, B=0.029991, A=1 }
+        Name = Colour Outer
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.864373, G=5, B=2.85723, A=1 }
+        Name = Colour Inner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1.45313
+        UVChannelIndex = 0
+        TextureName = T_Bubbles
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.45313
+        UVChannelIndex = 0
+        TextureName = T_CellsCellsCellsCells
+    }
+}

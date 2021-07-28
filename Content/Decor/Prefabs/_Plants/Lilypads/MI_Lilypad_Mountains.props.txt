@@ -45,13 +45,13 @@ StaticParameters =
     {
         StaticSwitchParameters[0] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=01 Use PlantMovement }
             bOverride = true
         }
         StaticSwitchParameters[1] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=01 Use PlantWind }
             bOverride = true
         }
@@ -60,6 +60,8 @@ StaticParameters =
     TerrainLayerWeightParameters[0] = {}
     MaterialLayersParameters[0] = {}
 }
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

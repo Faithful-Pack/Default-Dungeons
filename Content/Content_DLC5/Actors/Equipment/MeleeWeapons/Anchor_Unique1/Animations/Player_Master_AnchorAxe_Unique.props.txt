@@ -180,13 +180,13 @@ RetargetSourceAssetReferencePose[0] = {}
 bEnableRootMotion = false
 AuthoredSyncMarkers[0] = {}
 BakedPerBoneCustomAttributeData[0] = {}
-Notifies[8] =
+Notifies[9] =
 {
     Notifies[0] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = jump_Cue
         Duration = 0
         EndLink =
@@ -196,7 +196,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -208,7 +208,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = DungeonsPlaySound
         Duration = 0
         EndLink =
@@ -218,7 +218,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -230,7 +230,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_GroundSlam
         Duration = 0.450575
         EndLink =
@@ -240,7 +240,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 2
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -252,7 +252,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = jump_Cue
         Duration = 0
         EndLink =
@@ -262,7 +262,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -274,7 +274,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = P_Slash
         Duration = 0.109687
         EndLink =
@@ -284,7 +284,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 2
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -296,8 +296,8 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
-        NotifyName = hammer_impact_Cue
+        TriggerWeightThreshold = 1e-05
+        NotifyName = CameraShakeNotify
         Duration = 0
         EndLink =
         {
@@ -306,9 +306,9 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 3
+        TrackIndex = 4
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
@@ -318,19 +318,19 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
-        NotifyName = PS_GroundSlam
-        Duration = 0.450575
+        TriggerWeightThreshold = 1e-05
+        NotifyName = hammer_impact_Cue
+        Duration = 0
         EndLink =
         {
             SlotIndex = 0
-            SegmentIndex = 0
+            SegmentIndex = -1
             SegmentBeginTime = 0
-            SegmentLength = 2
+            SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 1
+        TrackIndex = 3
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
@@ -340,7 +340,29 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PS_GroundSlam
+        Duration = 0.450575
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = 0
+            SegmentBeginTime = 0
+            SegmentLength = 2
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 1
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 2
+    }
+    Notifies[8] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
         NotifyName = dirt_debris_Cue
         Duration = 0
         EndLink =
@@ -350,7 +372,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -547,13 +569,13 @@ RetargetSourceAssetReferencePose[0] = {}
 bEnableRootMotion = false
 AuthoredSyncMarkers[0] = {}
 BakedPerBoneCustomAttributeData[0] = {}
-Notifies[8] =
+Notifies[9] =
 {
     Notifies[0] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = jump_Cue
         Duration = 0
         EndLink =
@@ -563,7 +585,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -575,7 +597,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = DungeonsPlaySound
         Duration = 0
         EndLink =
@@ -585,7 +607,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -597,7 +619,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_GroundSlam
         Duration = 0.450575
         EndLink =
@@ -607,7 +629,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 2
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -619,7 +641,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = jump_Cue
         Duration = 0
         EndLink =
@@ -629,7 +651,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 3
         SlotIndex = 0
@@ -641,7 +663,7 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = P_Slash
         Duration = 0.109687
         EndLink =
@@ -651,7 +673,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 2
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -663,8 +685,8 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
-        NotifyName = hammer_impact_Cue
+        TriggerWeightThreshold = 1e-05
+        NotifyName = CameraShakeNotify
         Duration = 0
         EndLink =
         {
@@ -673,9 +695,9 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 3
+        TrackIndex = 4
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
@@ -685,19 +707,19 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
-        NotifyName = PS_GroundSlam
-        Duration = 0.450575
+        TriggerWeightThreshold = 1e-05
+        NotifyName = hammer_impact_Cue
+        Duration = 0
         EndLink =
         {
             SlotIndex = 0
-            SegmentIndex = 0
+            SegmentIndex = -1
             SegmentBeginTime = 0
-            SegmentLength = 2
+            SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 1
+        TrackIndex = 3
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
@@ -707,7 +729,29 @@ Notifies[8] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PS_GroundSlam
+        Duration = 0.450575
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = 0
+            SegmentBeginTime = 0
+            SegmentLength = 2
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 1
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 2
+    }
+    Notifies[8] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
         NotifyName = dirt_debris_Cue
         Duration = 0
         EndLink =
@@ -717,7 +761,7 @@ Notifies[8] =
             SegmentBeginTime = 0
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0

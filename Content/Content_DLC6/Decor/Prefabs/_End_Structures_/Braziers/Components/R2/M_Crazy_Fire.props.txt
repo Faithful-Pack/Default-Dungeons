@@ -1,0 +1,87 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Generic/T_PixelGradient.T_PixelGradient'
+}
+Expressions[60] =
+{
+    Expressions[8] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionTextureSample_7'
+    Expressions[12] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionScalarParameter_32'
+    Expressions[15] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionScalarParameter_33'
+    Expressions[16] = MaterialExpressionVectorParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionVectorParameter_4'
+    Expressions[17] = MaterialExpressionVectorParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionVectorParameter_5'
+    Expressions[19] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionScalarParameter_34'
+    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionScalarParameter_35'
+    Expressions[22] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionTextureSample_0'
+    Expressions[28] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionTextureSample_1'
+    Expressions[30] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionTextureSample_2'
+    Expressions[32] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionScalarParameter_0'
+    Expressions[36] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionTextureSample_3'
+    Expressions[39] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionTextureSample_5'
+    Expressions[48] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionScalarParameter_2'
+    Expressions[51] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/Braziers/Components/R2/M_Crazy_Fire.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.02
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Quantize, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=ColourPower, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Brightness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Contrast, Group=None }
+    CollectedScalarParameters[4] = { Value=32, Name=Res, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Blob, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Blob2, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.864373, G=5, B=2.85723, A=1 }
+        Name = Colour Inner
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.025743, G=0.380208, B=0.029991, A=1 }
+        Name = Colour Outer
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_PixelGradient
+    }
+}

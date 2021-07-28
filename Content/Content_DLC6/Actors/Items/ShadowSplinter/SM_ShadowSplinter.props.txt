@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Items/ShadowSplinter/M_ShadowSplinter.M_ShadowSplinter'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Items/ShadowSplinter/M_ShadowSplinter.M_ShadowSplinter'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 209.747, 137.892, 262.757, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.12501, Y=21.875, Z=15.6249 }
+    BoxExtent = { X=9.37502, Y=59.375, Z=59.3749 }
+    SphereRadius = 84.4906
+}

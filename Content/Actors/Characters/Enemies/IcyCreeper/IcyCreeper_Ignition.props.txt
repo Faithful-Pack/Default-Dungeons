@@ -110,17 +110,17 @@ Notifies[1] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CreeperIgnition
         Duration = 0
         EndLink =
         {
             SlotIndex = 0
             SegmentIndex = -1
-            SegmentBeginTime = 6.95044e-043
-            SegmentLength = 1.4013e-045
+            SegmentBeginTime = 6.95044e-43
+            SegmentLength = 1.4013e-45
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -247,17 +247,17 @@ Notifies[1] =
     {
         TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = CreeperIgnition
         Duration = 0
         EndLink =
         {
             SlotIndex = 0
             SegmentIndex = -1
-            SegmentBeginTime = 6.95044e-043
-            SegmentLength = 1.4013e-045
+            SegmentBeginTime = 6.95044e-43
+            SegmentLength = 1.4013e-45
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0

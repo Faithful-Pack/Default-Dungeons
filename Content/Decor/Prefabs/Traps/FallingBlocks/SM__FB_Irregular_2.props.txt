@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Decor/Prefabs/Traps/FallingBlocks/TestBlock16x.TestBlock16x'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Decor/Prefabs/Traps/FallingBlocks/TestBlock16x.TestBlock16x'
+        MaterialSlotName = TestBlock16x
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 427.557, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-7.62939e-06 }
+    BoxExtent = { X=100, Y=100, Z=50 }
+    SphereRadius = 150
+}

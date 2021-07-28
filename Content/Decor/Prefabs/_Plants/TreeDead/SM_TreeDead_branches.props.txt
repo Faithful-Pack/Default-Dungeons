@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/TreeDead/MI_TreeDead.MI_TreeDead'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/TreeDead/MI_TreeDead.MI_TreeDead'
+        MaterialSlotName = branchesMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 500.224, 619.355, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=56.25, Y=-150, Z=12.5 }
+    BoxExtent = { X=150, Y=150, Z=150 }
+    SphereRadius = 219.463
+}

@@ -106,7 +106,7 @@ VectorParameterValues[3] =
     VectorParameterValues[1] =
     {
         ParameterInfo = { Name=G_Color }
-        ParameterValue = { R=2.2e-005, G=1, B=0, A=1 }
+        ParameterValue = { R=2.2e-05, G=1, B=0, A=1 }
         ParameterName = None
     }
     VectorParameterValues[2] =
@@ -132,6 +132,8 @@ StaticParameters =
     TerrainLayerWeightParameters[0] = {}
     MaterialLayersParameters[0] = {}
 }
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

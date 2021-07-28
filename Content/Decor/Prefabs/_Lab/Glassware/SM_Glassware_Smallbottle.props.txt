@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Lab/Glassware/MI_Glassware.MI_Glassware'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Lab/Glassware/MI_Glassware.MI_Glassware'
+        MaterialSlotName = SmallbottleMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 207.684, 77.4053, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-18.7501, Z=0 }
+    BoxExtent = { X=9.375, Y=18.75, Z=9.375 }
+    SphereRadius = 22.964
+}

@@ -1,0 +1,2881 @@
+// ███╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗ ██████╗██╗  ██╗██╗██╗██╗
+// ████╗  ██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██║   ██║██╔════╝██║  ██║██║██║██║
+// ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ███████║██║██║██║
+// ██║╚██╗██║██║   ██║       ██║   ██║   ██║██║   ██║██║     ██╔══██║╚═╝╚═╝╚═╝
+// ██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝╚██████╗██║  ██║██╗██╗██╗
+// ╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+{
+    "id": "EnderWilds",
+    "loctable-id": "enderwildsLoctable",
+    "resource-packs": [
+        "enderwilds"
+    ],
+    "object-groups": [
+        "EnderWilds/objectgroup",
+        "EnderWilds_02/objectgroup",
+        "sub_endcity/objectgroup",
+        "sub_endtower/objectgroup",
+        "sub_obsidiancavern/objectgroup",
+        "sub_endship/objectgroup"
+    ],
+    "require-matching-doors": false,
+    "default-mobs": {
+        "only": [
+            {
+                "id": "endling-mix-default",
+                "weight": 1
+            }
+        ],
+        "density": 1
+    },
+    "stretches": [
+        {
+            "tiles": [
+                "ew_spawn_01"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "Endling"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ew_classic_01",
+                "ew_classic_02",
+                "ew_classic_alt"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "Endling"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ew_rise_01",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ew_rise_02",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ew_barrens_01",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ew_barrens_02",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ew_barrens_03",
+                    "weight": 0.3
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default"
+                ]
+            },
+            "dead-ends": [
+                "ew_barrens_deadend_01",
+                "ew_barrens_deadend_02",
+                "ew_endcity_deadend_03",
+                {
+                    "id": "ew_barrens_deadend_03",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ew_endcity_cap_03",
+                    "weight": 0.1
+                }
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        "ew_barrens_deadend_01",
+                        "ew_barrens_deadend_02",
+                        {
+                            "id": "ew_barrens_deadend_03",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "ew_endcity_cap_02",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "ew_endcity_cap_03",
+                            "weight": 0.1
+                        }
+                    ],
+                    "tile-groups": [
+                        "ew_barrens_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "arena",
+            "tiles": [
+                "ew_barrens_arena"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default"
+                ]
+            }
+        },
+        {
+            "id": "endgate",
+            "tiles": [
+                {
+                    "id": "ew_endcity_ruins",
+                    "weight": 0.5
+                },
+                {
+                    "id": "ew_endcity_ruins_02",
+                    "weight": 0.5
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default"
+                ]
+            },
+            "dead-ends": [
+                "ew_barrens_deadend_01",
+                "ew_barrens_deadend_02",
+                "ew_endcity_deadend_03",
+                {
+                    "id": "ew_barrens_deadend_03",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ew_endcity_cap_03",
+                    "weight": 0.1
+                }
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        "ew_barrens_deadend_01",
+                        "ew_barrens_deadend_02",
+                        {
+                            "id": "ew_barrens_deadend_03",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "ew_endcity_cap_02",
+                            "weight": 0.1
+                        },
+                        {
+                            "id": "ew_endcity_cap_03",
+                            "weight": 0.1
+                        }
+                    ],
+                    "tile-groups": [
+                        "ew_barrens_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ew_endcity_entrance"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ew_endcity_deadend_01",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ew_endcity_deadend_02",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ew_endcity_deadend_03",
+                    "weight": 0.49
+                },
+                {
+                    "id": "ew_endcity_cap_01",
+                    "weight": 0.1
+                },
+                {
+                    "id": "ew_endcity_cap_02",
+                    "weight": 0.01
+                }
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ew_endcity_deadend_01",
+                            "weight": 0.4
+                        },
+                        {
+                            "id": "ew_endcity_deadend_02",
+                            "weight": 0.3
+                        },
+                        {
+                            "id": "ew_endcity_deadend_03",
+                            "weight": 0.2
+                        },
+                        {
+                            "id": "ew_endcity_cap_01",
+                            "weight": 0.1
+                        }
+                    ],
+                    "tile-groups": [
+                        "ew_endcity_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ew_spacer"
+            ]
+        },
+        {
+            "tiles": [
+                "ew_endcity_roof",
+                "ew_endcity_roof_alt"
+            ]
+        },
+        {
+            "tiles": [
+                "ew_tutorial_elytra_alt",
+                "ew_tutorial_elytra"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ew_enddock_01",
+                    "weight": 0.6
+                },
+                {
+                    "id": "ew_enddock_02",
+                    "weight": 0.6
+                }
+            ],
+            "prop-groups": [
+                "ships"
+            ],
+            "prop-density": 2,
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-02"
+                ]
+            },
+            "dead-ends": [
+                "ew_docks_deadend_01"
+            ],
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        "ew_docks_deadend_01",
+                        "ew_docks_deadend_02"
+                    ],
+                    "tile-groups": [
+                        "ew_docks_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                {
+                    "id": "ew_islands_final",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ew_islands_02",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ew_islands_03",
+                    "weight": 0.3
+                }
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default,Entermites"
+                ]
+            }
+        },
+        {
+            "tiles": [
+                "ew_gardens_01"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default"
+                ]
+            },
+            "dead-ends": [
+                {
+                    "id": "ew_portal_deadend_01",
+                    "weight": 0.6
+                },
+                {
+                    "id": "ew_portal_et_deadend",
+                    "weight": 0.4
+                },
+                {
+                    "id": "ew_portal_cap_01",
+                    "weight": 0.2
+                },
+                {
+                    "id": "ew_portal_cap_02",
+                    "weight": 0.1
+                }
+            ],
+            "side-paths": {
+                "probability": 2,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ew_portal_deadend_01",
+                            "weight": 0.6
+                        },
+                        {
+                            "id": "ew_portal_et_deadend",
+                            "weight": 0.4
+                        },
+                        {
+                            "id": "ew_portal_cap_01",
+                            "weight": 0.2
+                        },
+                        {
+                            "id": "ew_portal_cap_02",
+                            "weight": 0.1
+                        }
+                    ],
+                    "tile-groups": [
+                        "ew_portal_sidepath"
+                    ]
+                }
+            }
+        },
+        {
+            "tiles": [
+                "ew_portal_end"
+            ],
+            "mobs": {
+                "density": 1,
+                "only": [
+                    "endling-mix-default"
+                ]
+            }
+        }
+    ],
+    "tiles": [
+        {
+            "id": "ew_sub_endcit_entrance",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "endcity_door",
+                    "exit": "travel_endcity",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endcit_shulker_01",
+            "rotations": 0,
+            "challenges": [
+                "shulker_clicky"
+            ]
+        },
+        {
+            "id": "ew_sub_endcit_shulker_02",
+            "rotations": 0,
+            "challenges": [
+                "shulker_clicky"
+            ]
+        },
+        {
+            "id": "ew_sub_endcit_lift",
+            "exit-door": "door_tower",
+            "rotations": 0
+        },
+        {
+            "id": "ew_sub_endcit_corridor",
+            "rotations": [
+                90,
+                270
+            ]
+        },
+        {
+            "id": "ew_sub_endcit_broken_sidepath_01",
+            "entry-door": "enter",
+            "rotations": 0
+        },
+        {
+            "id": "ew_sub_endcit_broken_deadend_01",
+            "rotations": 270
+        },
+        {
+            "id": "ew_sub_endcit_broken_deadend_02",
+            "rotations": 90
+        },
+        {
+            "id": "ew_sub_endcit_balcony_deadend_01"
+        },
+        {
+            "id": "ew_sub_endcit_tower",
+            "entry-door": "door_hall",
+            "exit-door": "door_bridge",
+            "rotations": 0
+        },
+        {
+            "id": "ew_sub_endcit_tower_sidepath_01"
+        },
+        {
+            "id": "ew_sub_endcit_tower_sidepath_02"
+        },
+        {
+            "id": "ew_sub_endcit_tower_sidepath_03"
+        },
+        {
+            "id": "ew_sub_endcit_tower_deadend_01",
+            "rotations": 0
+        },
+        {
+            "id": "ew_sub_endcit_tower_deadend_ext",
+            "rotations": 0,
+            "challenges": [
+                "deadend_arena"
+            ]
+        },
+        {
+            "id": "ew_sub_endcit_bridge",
+            "rotations": 0
+        },
+        {
+            "id": "ew_sub_endcit_voidtower",
+            "rotations": 0
+        },
+        {
+            "id": "ew_sub_endcit_exit",
+            "rotations": 0,
+            "challenges": [
+                "finale_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "endcity_exit",
+                    "exit": "*.*.endcity_destination",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endtow_entrance",
+            "rotations": 0,
+            "challenges": [
+                "endermite_endless1",
+                "endermite_endless2",
+                "endermite_endless3",
+                "endermite_endless4",
+                "endermite_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "endtower_door",
+                    "exit": "travel_endtower",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                },
+                {
+                    "door": "3rdfloor_tp",
+                    "exit": "*.*.groundfloor_tp",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                },
+                {
+                    "door": "groundfloor_tp",
+                    "exit": "*.*.3rdfloor_tp",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_obscav_entrance",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "dynamic_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "obsidiancavern_door",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                },
+                {
+                    "door": "obsidian_out_02",
+                    "exit": "*.*.obsidian_in_02",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_obscav_bridges",
+            "challenges": [
+                "dynamic_arena"
+            ],
+            "rotations": [
+                0,
+                90
+            ]
+        },
+        {
+            "id": "ew_sub_obscav_treasure",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "obsidian_out_01",
+                    "exit": "*.*.obsidian_in_01",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endship_interior",
+            "rotations": 90,
+            "challenges": [
+                "sub_endship_ambush"
+            ],
+            "teleports": [
+                {
+                    "door": "endship_door",
+                    "exit": "travel_endship",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endship_interior_alt01",
+            "rotations": 90,
+            "challenges": [
+                "sub_endship_ambush2"
+            ],
+            "teleports": [
+                {
+                    "door": "endship_door",
+                    "exit": "travel_endship",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endship_interior_alt02",
+            "rotations": 90,
+            "challenges": [
+                "sub_endship_ambush3"
+            ],
+            "teleports": [
+                {
+                    "door": "endship_door",
+                    "exit": "travel_endship",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endship_interior_02",
+            "rotations": 90,
+            "challenges": [
+                "sub_endship_ambush4"
+            ],
+            "teleports": [
+                {
+                    "door": "endship_door",
+                    "exit": "travel_endship",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endship_interior_02_alt01",
+            "rotations": 90,
+            "challenges": [
+                "sub_endship_ambush5"
+            ],
+            "teleports": [
+                {
+                    "door": "endship_door",
+                    "exit": "travel_endship",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endship_interior_02_alt02",
+            "rotations": 90,
+            "challenges": [
+                "sub_endship_ambush6"
+            ],
+            "teleports": [
+                {
+                    "door": "endship_door",
+                    "exit": "travel_endship",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_sub_endship_interior_02_alt03",
+            "rotations": 90,
+            "challenges": [
+                "sub_endship_ambush7"
+            ],
+            "teleports": [
+                {
+                    "door": "endship_door",
+                    "exit": "travel_endship",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_spawn_01",
+            "rotations": [
+                0
+            ],
+            "challenges": []
+        },
+        {
+            "id": "ew_classic_01",
+            "exit-door": "Exit",
+            "challenges": [
+                "mobs first challenge"
+            ]
+        },
+        {
+            "id": "ew_classic_02",
+            "exit-door": "Exit",
+            "challenges": [
+                "mobs first challenge"
+            ]
+        },
+        {
+            "id": "ew_classic_03",
+            "exit-door": "Exit",
+            "challenges": [
+                "mobs first challenge"
+            ]
+        },
+        {
+            "id": "ew_classic_alt",
+            "exit-door": "Exit"
+        },
+        {
+            "id": "ew_endcity_entrance",
+            "entry-door": "entry_door",
+            "challenges": [
+                "door_puzzle",
+                "entrance_arena_01"
+            ],
+            "exit-door": "exit_door",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "travel_endcity",
+                    "exit": "endcity_door",
+                    "dungeons": [
+                        "sub_endcity"
+                    ],
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_barrens_02",
+            "entry-door": "enter"
+        },
+        {
+            "id": "ew_barrens_03",
+            "exit-door": "exit",
+            "rotations": [
+                0,
+                270
+            ]
+        },
+        {
+            "id": "ew_rise_01",
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "ew_rise_02",
+            "rotations": [
+                90
+            ],
+            "entry-door": "enter",
+            "challenges": [
+                "rise_arena_01",
+                "rise_gate_challenge"
+            ]
+        },
+        {
+            "id": "ew_endcity_ruins",
+            "entry-door": "entry_door",
+            "challenges": [
+                "arena_challenge_01",
+                "sidepath_door"
+            ],
+            "rotations": [
+                0
+            ]
+        },
+        {
+            "id": "ew_endcity_ruins_02",
+            "entry-door": "entry_door",
+            "challenges": [
+                "arena_challenge_01",
+                "sidepath_door"
+            ],
+            "rotations": [
+                0,
+                90
+            ]
+        },
+        {
+            "id": "ew_barrens_arena",
+            "entry-door": "enter",
+            "rotations": [
+                0,
+                270
+            ]
+        },
+        {
+            "id": "ew_endcity_deadend_02",
+            "rotations": 0
+        },
+        {
+            "id": "ew_endcity_deadend_01",
+            "rotations": [
+                180
+            ],
+            "challenges": [
+                "illager_ambush_challenge"
+            ]
+        },
+        {
+            "id": "ew_endcity_roof",
+            "rotations": [
+                90
+            ],
+            "entry-door": "entry_door",
+            "exit-door": "exit_door",
+            "teleports": [
+                {
+                    "door": "endcity_destination",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_endcity_roof_alt",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "ship_in",
+                    "exit": "endship_door",
+                    "dungeons": [
+                        "sub_endship"
+                    ],
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                },
+                {
+                    "door": "endcity_destination",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_tutorial_elytra",
+            "entry-door": "entry_door",
+            "exit-door": "exit_door"
+        },
+        {
+            "id": "ew_tutorial_elytra_alt",
+            "entry-door": "entry_door",
+            "exit-door": "exit_door",
+            "rotations": [
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "ship_in",
+                    "exit": "endship_door",
+                    "dungeons": [
+                        "sub_endship"
+                    ],
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_endcity_deadend_03",
+            "rotations": [
+                90,
+                0
+            ]
+        },
+        {
+            "id": "ew_endcity_sidepath_02",
+            "rotations": 270
+        },
+        {
+            "id": "ew_portal_et_deadend",
+            "rotations": [
+                270,
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "travel_endtower",
+                    "exit": "endtower_door",
+                    "dungeons": [
+                        "sub_endtower"
+                    ],
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_portal_deadend_01",
+            "rotations": [
+                90
+            ]
+        },
+        {
+            "id": "ew_portal_sidepath_02",
+            "rotations": [
+                90,
+                180
+            ]
+        },
+        {
+            "id": "ew_docks_deadend_01",
+            "challenges": [
+                "docks_arena_01"
+            ]
+        },
+        {
+            "id": "ew_docks_deadend_02",
+            "challenges": [
+                "docks_arena_01"
+            ]
+        },
+        {
+            "id": "ew_portal_end",
+            "challenges": [
+                "em_ending"
+            ],
+            "rotations": [
+                180,
+                270
+            ]
+        },
+        {
+            "id": "ew_spacer",
+            "rotations": 0
+        },
+        {
+            "id": "ew_enddock_01",
+            "challenges": [
+                "docks_gate1"
+            ],
+            "rotations": [
+                0
+            ],
+            "exit-door": "exit",
+            "teleports": [
+                {
+                    "door": "travel_sub_endship",
+                    "exit": "endship_door",
+                    "dungeons": [
+                        "sub_endship"
+                    ],
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End_Bamboo"
+                }
+            ]
+        },
+        {
+            "id": "ew_enddock_02",
+            "challenges": [
+                "docks_gate2"
+            ],
+            "rotations": [
+                0
+            ],
+            "exit-door": "exit"
+        },
+        {
+            "id": "ew_islands_final",
+            "entry-door": "entry_door",
+            "challenges": [
+                "arena_challenge_02",
+                "keygate_challenge"
+            ],
+            "rotations": [
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "travel_obsidiancavern",
+                    "exit": "obsidiancavern_door",
+                    "dungeons": [
+                        "sub_obsidiancavern"
+                    ],
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                },
+                {
+                    "door": "obsidian_in_01",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                },
+                {
+                    "door": "obsidian_in_02",
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_TravelDoor/BP_TravelDoor_End"
+                }
+            ]
+        },
+        {
+            "id": "ew_gardens_01",
+            "exit-door": "exit_door",
+            "challenges": [
+                "em_ending1"
+            ],
+            "rotations": [
+                0,
+                270
+            ]
+        },
+        {
+            "id": "ew_gardens_02",
+            "challenges": [],
+            "rotations": [
+                0,
+                270
+            ]
+        },
+        {
+            "id": "ew_islands_flight_01",
+            "entry-door": "enter"
+        },
+        {
+            "id": "ew_islands_flight_02",
+            "entry-door": "enter"
+        }
+    ],
+    "objectives": [
+        {
+            "name": "name_ew_01",
+            "description": "description_ew_g_01",
+            "displayMode": "",
+            "gauntlet": {
+                "end-region": "*.ew_barrens_arena.ew_gauntlet_arena"
+            }
+        },
+        {
+            "name": "name_ew_01",
+            "description": "description_ew_g_03",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.ew_challenge_trigger_01"
+            }
+        },
+        {
+            "name": "name_ew_01",
+            "description": "description_ew_k_04",
+            "displayMode": "MainObjective",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_End",
+                "count": 1,
+                "locations": [
+                    "*.ew_endcity_ruins.silvergate",
+                    "*.ew_endcity_ruins_02.silvergate"
+                ],
+                "key-locations": [
+                    "endgate.*.silverkey"
+                ],
+                "key-type": "Gold"
+            }
+        },
+        {
+            "name": "name_ew_02",
+            "description": "description_ew_g_05",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.ew_gauntlet_endcitystart"
+            }
+        },
+        {
+            "name": "name_ew_02",
+            "description": "description_ew_g_06",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.ew_gauntlet_elytra"
+            }
+        },
+        {
+            "name": "name_ew_02",
+            "description": "description_ew_g_07",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.ew_endcity_roof.ew_fly_gauntlet"
+            }
+        },
+        {
+            "name": "name_ew_02",
+            "description": "description_ew_g_08",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.ew_gauntlet_docks"
+            }
+        },
+        {
+            "name": "name_ew_03",
+            "description": "description_ew_c_09",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/BP_VoidBarrel",
+                "count": 3,
+                "locations": [
+                    "*.ew_enddock_01.click",
+                    "*.ew_enddock_02.click"
+                ],
+                "mobs": [
+                    3,
+                    "Entermites"
+                ],
+                "spawn-regions": [
+                    "*.*.endermites"
+                ],
+                "locked-doors": [
+                    "*.ew_enddock_01.dock_click_gate",
+                    "*.ew_enddock_02.dock_click_gate"
+                ],
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_7"
+            }
+        },
+        {
+            "name": "name_ew_04",
+            "description": "description_ew_g_10",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.ew_gauntlet_islands"
+            }
+        },
+        {
+            "name": "name_ew_04",
+            "description": "description_ew_g_11",
+            "displayMode": "MainObjective",
+            "gauntlet": {
+                "end-region": "*.*.ew_endpillar_02"
+            }
+        },
+        {
+            "name": "name_ew_04",
+            "description": "description_ew_c_12",
+            "displayMode": "MainObjective",
+            "click": {
+                "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/EndGateway/BP_EndGateway_Functional",
+                "count": 1,
+                "locations": [
+                    "*.ew_portal_end.ew_end_trigger"
+                ]
+            }
+        }
+    ],
+    "challenges": [
+        {
+            "id": "deadend_arena",
+            "trigger-object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_Buttons/BP_Button_EW",
+            "reward": {
+                "region": "*.*.deadend_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "tower",
+                "battle-max-duration": 120,
+                "interval": 25,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "endling-mix-default"
+                    ],
+                    [
+                        6,
+                        "endling-mix-default"
+                    ],
+                    [
+                        1,
+                        "endermen"
+                    ],
+                    [
+                        5,
+                        "endling-mix-default"
+                    ],
+                    [
+                        7,
+                        "endling-mix-default"
+                    ],
+                    [
+                        15,
+                        "Entermites"
+                    ],
+                    [
+                        1,
+                        "endersent"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "finale_arena",
+            "trigger": "*.ew_sub_endcit_exit.eye_trigger",
+            "arena": {
+                "stretch": "",
+                "battle-max-duration": 150,
+                "interval": 7.5,
+                "rest-interval": 1,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        10,
+                        "Entermites"
+                    ],
+                    [
+                        5,
+                        "endling-mix-default"
+                    ],
+                    [
+                        7,
+                        "Entermites"
+                    ],
+                    [
+                        8,
+                        "endling-mix-default"
+                    ],
+                    [
+                        14,
+                        "Entermites"
+                    ],
+                    [
+                        1,
+                        "endermen"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "shulker_clicky",
+            "trigger-object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_Buttons/BP_Button_EW",
+            "reward": {
+                "region": "*.*.shulker_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "battle-max-duration": 30,
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "endling-mix-default"
+                    ],
+                    [
+                        10,
+                        "endling-mix-default"
+                    ],
+                    [
+                        8,
+                        "endling-mix-default"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "endermite_endless1",
+            "trigger": "*.ew_sub_endtow_entrance.mite_trigger1",
+            "click": {
+                "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_Buttons/BP_Button_EW",
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                "count": 1,
+                "locations": [
+                    "*.ew_sub_endtow_entrance.mite_button1"
+                ],
+                "locked-doors": [
+                    "*.ew_sub_endtow_entrance.mite_gate1"
+                ],
+                "mobs": [
+                    1,
+                    "Endermitemodel3step1"
+                ],
+                "spawn-regions": [
+                    "*.*.mite_spawn"
+                ]
+            }
+        },
+        {
+            "id": "endermite_endless2",
+            "trigger": "*.ew_sub_endtow_entrance.mite_trigger2",
+            "click": {
+                "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_Buttons/BP_Button_EW",
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                "count": 1,
+                "locations": [
+                    "*.ew_sub_endtow_entrance.mite_button2"
+                ],
+                "locked-doors": [
+                    "*.ew_sub_endtow_entrance.mite_gate2"
+                ],
+                "mobs": [
+                    1,
+                    "Endermitemodel3step1"
+                ],
+                "spawn-regions": [
+                    "*.*.mite_spawn2"
+                ]
+            }
+        },
+        {
+            "id": "endermite_endless3",
+            "trigger": "*.ew_sub_endtow_entrance.mite_trigger3",
+            "click": {
+                "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_Buttons/BP_Button_EW",
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                "count": 1,
+                "locations": [
+                    "*.ew_sub_endtow_entrance.mite_button3"
+                ],
+                "locked-doors": [
+                    "*.ew_sub_endtow_entrance.mite_gate3"
+                ],
+                "mobs": [
+                    1,
+                    "Endermitemodel3step2"
+                ],
+                "spawn-regions": [
+                    "*.*.mite_spawn3"
+                ]
+            }
+        },
+        {
+            "id": "endermite_endless4",
+            "trigger": "*.ew_sub_endtow_entrance.mite_trigger4",
+            "reward": {
+                "region": "*.ew_sub_endtow_entrance.towerreward2",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "click": {
+                "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_Buttons/BP_Button_EW",
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                "count": 1,
+                "locations": [
+                    "*.ew_sub_endtow_entrance.mite_button4"
+                ],
+                "locked-doors": [
+                    "*.ew_sub_endtow_entrance.mite_gate4"
+                ],
+                "mobs": [
+                    1,
+                    "Endermitemodel3step1"
+                ],
+                "spawn-regions": [
+                    "*.*.mite_spawn4"
+                ]
+            }
+        },
+        {
+            "id": "endermite_arena",
+            "trigger-object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_Buttons/BP_Button_EW",
+            "reward": {
+                "region": "*.*.towerreward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 5,
+                "has-music": false,
+                "rest-interval": 4,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "Endermites2"
+                    ],
+                    [
+                        7,
+                        "Endermites2"
+                    ],
+                    [
+                        7,
+                        "Endermites2"
+                    ],
+                    [
+                        10,
+                        "Endermites2"
+                    ],
+                    [
+                        10,
+                        "Endermites2"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "dynamic_arena",
+            "trigger": "*.*.arena_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 5,
+                "rest-interval": 5,
+                "start-time": 2,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "Endermite"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ],
+                    [
+                        2,
+                        "EndermiteSmart"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "sub_endship_ambush",
+            "trigger": "*.*.sub_endship_ambush",
+            "reward": {
+                "region": "*.*.endship_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "pillager-posse"
+                    ],
+                    [
+                        10,
+                        "pillager-posse"
+                    ],
+                    [
+                        8,
+                        "pillager-posse"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sub_endship_ambush2",
+            "trigger": "*.*.sub_endship_ambush2",
+            "reward": {
+                "region": "*.*.endship_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        7,
+                        "endling-mix-default"
+                    ],
+                    [
+                        7,
+                        "endling-mix-default"
+                    ],
+                    [
+                        11,
+                        "endling-mix-default"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sub_endship_ambush3",
+            "trigger": "*.*.sub_endship_ambush3",
+            "reward": {
+                "region": "*.*.endship_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        10,
+                        "endermites2"
+                    ],
+                    [
+                        15,
+                        "endermites2"
+                    ],
+                    [
+                        15,
+                        "endermites2"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sub_endship_ambush4",
+            "trigger": "*.*.sub_endship_ambush4",
+            "reward": {
+                "region": "*.*.endship_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        7,
+                        "pillager-only"
+                    ],
+                    [
+                        9,
+                        "pillager-only"
+                    ],
+                    [
+                        10,
+                        "pillager-only"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sub_endship_ambush5",
+            "trigger": "*.*.sub_endship_ambush5",
+            "reward": {
+                "region": "*.*.endship_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "endling-mix-default"
+                    ],
+                    [
+                        1,
+                        "endermen"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sub_endship_ambush6",
+            "trigger": "*.*.sub_endship_ambush6",
+            "reward": {
+                "region": "*.*.endship_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        7,
+                        "pillager-only"
+                    ],
+                    [
+                        11,
+                        "pillager-only"
+                    ],
+                    [
+                        9,
+                        "pillager-posse"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sub_endship_ambush7",
+            "trigger": "*.*.sub_endship_ambush7",
+            "reward": {
+                "region": "*.*.endship_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "",
+                "interval": 15,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        7,
+                        "endling-mix-default"
+                    ],
+                    [
+                        11,
+                        "endling-mix-default"
+                    ],
+                    [
+                        9,
+                        "endling-mix-default"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "mobs first challenge",
+            "trigger": "*.*.mobs_intro_trigger",
+            "arena": {
+                "stretch": "*",
+                "battle-max-duration": 30,
+                "interval": 3,
+                "rest-interval": 0.5,
+                "start-time": 0.1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "endling"
+                    ],
+                    [
+                        5,
+                        "endling-mix-default"
+                    ],
+                    [
+                        5,
+                        "endling-mix-default"
+                    ],
+                    [
+                        1,
+                        "Snareling"
+                    ],
+                    [
+                        5,
+                        "endling"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "arena_challenge_01",
+            "trigger": "*.*.ew_challenge_trigger_01",
+            "reward": {
+                "region": "*.*.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "endgate",
+                "interval": 6,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "battle-max-duration": 120,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "endling-mix-default"
+                    ],
+                    [
+                        4,
+                        "endling-mix-default"
+                    ],
+                    [
+                        5,
+                        "endling-mix-default"
+                    ],
+                    [
+                        7,
+                        "endling-mix-default"
+                    ],
+                    [
+                        1,
+                        "endermen"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sidepath_door",
+            "trigger": "*.*.sidepath_gate_trigger",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                "count": 1,
+                "locations": [
+                    "*.ew_endcity_ruins.sidepath_button",
+                    "*.ew_endcity_ruins_02.sidepath_button"
+                ],
+                "locked-doors": [
+                    "*.ew_endcity_ruins.gate_region",
+                    "*.ew_endcity_ruins_02.gate_region"
+                ],
+                "mobs": [
+                    1,
+                    "Endermites4"
+                ],
+                "spawn-regions": [
+                    "*.*.endermite4"
+                ]
+            }
+        },
+        {
+            "id": "illager_ambush_challenge",
+            "trigger": "*.*.illager_challenge_arena",
+            "arena": {
+                "stretch": "*",
+                "interval": 6,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "pillager-posse"
+                    ],
+                    [
+                        12,
+                        "pillager-posse"
+                    ],
+                    [
+                        5,
+                        "pillager-posse"
+                    ],
+                    [
+                        7,
+                        "pillager-posse"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "door_puzzle",
+            "trigger": "*.ew_endcity_entrance.button_trigger",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                "count": 1,
+                "locations": [
+                    "*.ew_endcity_entrance.button"
+                ],
+                "locked-doors": [
+                    "*.ew_endcity_entrance.gate_trigger"
+                ]
+            }
+        },
+        {
+            "id": "rise_gate_challenge",
+            "trigger": "*.ew_rise_02.rise_button_trigger",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                "count": 1,
+                "locations": [
+                    "*.ew_rise_02.Button"
+                ],
+                "locked-doors": [
+                    "*.ew_rise_02.rise_gate"
+                ]
+            }
+        },
+        {
+            "id": "entrance_arena_01",
+            "trigger": "*.*.entrance_arena_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "MountChill"
+                    ],
+                    [
+                        12,
+                        "MountChill"
+                    ],
+                    [
+                        5,
+                        "MountChill"
+                    ],
+                    [
+                        7,
+                        "MountChill"
+                    ],
+                    [
+                        5,
+                        "MountChill"
+                    ],
+                    [
+                        7,
+                        "MountChill"
+                    ],
+                    [
+                        10,
+                        "MountChill"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "rise_arena_01",
+            "trigger": "*.*.rise_arena_trigger_01",
+            "arena": {
+                "stretch": "",
+                "battle-max-duration": 30,
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "endling-mix-default"
+                    ],
+                    [
+                        8,
+                        "endling-mix-default"
+                    ],
+                    [
+                        5,
+                        "Snareling"
+                    ],
+                    [
+                        8,
+                        "endling-mix-default"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "docks_arena_01",
+            "trigger": "*.*.docks_arena_01",
+            "reward": {
+                "region": "*.*.docks_loot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        8,
+                        "Entermites"
+                    ],
+                    [
+                        4,
+                        "Entermites"
+                    ],
+                    [
+                        5,
+                        "Entermites"
+                    ],
+                    [
+                        7,
+                        "Entermites"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "arena_challenge_02",
+            "trigger": "*.*.gardens_arena_trigger_02",
+            "arena": {
+                "stretch": "*",
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "endling-mix-default"
+                    ],
+                    [
+                        4,
+                        "endling-mix-default"
+                    ],
+                    [
+                        5,
+                        "endling-mix-default"
+                    ],
+                    [
+                        7,
+                        "endling-mix-default"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "keygate_challenge",
+            "trigger": "*.*.keygate_challenge",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_End",
+                "count": 1,
+                "locations": [
+                    "*.ew_islands_final.goldgate"
+                ],
+                "key-locations": [
+                    "*.ew_islands_final.goldkey"
+                ],
+                "key-type": "silver",
+                "mobs": [
+                    25,
+                    "arena-mix-hard"
+                ],
+                "spawn-regions": [
+                    "*.*.endling-mix-default"
+                ]
+            }
+        },
+        {
+            "id": "docks_gate1",
+            "trigger": "*.*.gate_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        0,
+                        "endling-mix-default"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "docks_gate2",
+            "trigger": "*.*.gate_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        0,
+                        "endling-mix-default"
+                    ]
+                ],
+                "gate": {
+                    "object": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_5",
+                    "start-unlocked": false
+                }
+            }
+        },
+        {
+            "id": "em_ending",
+            "trigger": "*.*.em_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "Endermites4"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "em_ending1",
+            "trigger": "*.*.em_trigger",
+            "arena": {
+                "stretch": "*",
+                "interval": 14,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "Endermites4"
+                    ]
+                ],
+                "gate": null
+            }
+        }
+    ],
+    "props": [
+        {
+            "id": "ew_ship_01",
+            "rotations": 270
+        },
+        {
+            "id": "ew_ship_02",
+            "rotations": 270
+        }
+    ],
+    "prop-groups": [
+        {
+            "id": "ships",
+            "on-regions": [
+                "*.ew_docks.ship_01",
+                "*.ew_docks.ship_02"
+            ],
+            "props": [
+                {
+                    "id": "ew_ship_01",
+                    "weight": 1
+                },
+                {
+                    "id": "ew_ship_02",
+                    "weight": 0
+                },
+                {
+                    "id": "ew_ship_01",
+                    "weight": 1
+                },
+                {
+                    "id": "ew_ship_02",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "tile-groups": [
+        {
+            "#": "broken_sidepath",
+            "id": "broken_sidepath",
+            "tiles": [
+                {
+                    "id": "ew_sub_endcit_broken_sidepath_01",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "#": "tower_sidepath",
+            "id": "tower_sidepath",
+            "tiles": [
+                {
+                    "id": "ew_sub_endcit_tower_sidepath_01",
+                    "weight": 1
+                },
+                {
+                    "id": "ew_sub_endcit_tower_sidepath_02",
+                    "weight": 1
+                },
+                {
+                    "id": "ew_sub_endcit_tower_sidepath_03",
+                    "weight": 1
+                },
+                {
+                    "id": "ew_sub_endcit_corridor",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "#": "ew_barrens_sidepath",
+            "id": "ew_barrens_sidepath",
+            "tiles": [
+                "ew_barrens_sidepath_01",
+                "ew_barrens_sidepath_02"
+            ]
+        },
+        {
+            "#": "ew_endcity_sidepath",
+            "id": "ew_endcity_sidepath",
+            "tiles": [
+                "ew_endcity_sidepath_01",
+                "ew_endcity_sidepath_02"
+            ]
+        },
+        {
+            "#": "ew_portal_sidepath",
+            "id": "ew_portal_sidepath",
+            "tiles": [
+                {
+                    "id": "ew_portal_sidepath_01",
+                    "weight": 0.3
+                },
+                {
+                    "id": "ew_portal_sidepath_02",
+                    "weight": 0.7
+                }
+            ]
+        },
+        {
+            "#": "ew_docks_sidepath",
+            "id": "ew_docks_sidepath",
+            "tiles": [
+                "ew_docks_sidepath_01"
+            ]
+        }
+    ],
+    "mob-groups": [
+        {
+            "#": "============== ENDERMEN ==============",
+            "id": "endermen",
+            "types": [
+                {
+                    "type": "Enderman",
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== ENDESENT ==============",
+            "id": "endersent",
+            "types": [
+                {
+                    "type": "endersent",
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== PILLAGER POSSE ==============",
+            "id": "pillager-posse",
+            "types": [
+                {
+                    "type": "Vindicator",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.2,
+                    "max%": 0.2
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== ENDLINGS MIX 1 ==============",
+            "id": "endling-mix-default",
+            "types": [
+                {
+                    "type": "Endling",
+                    "weight": 1,
+                    "max%": 0.4
+                },
+                {
+                    "type": "Endermite",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ]
+        },
+        {
+            "#": "============== ENDLINGS MIX 1.5 ==============",
+            "id": "endling-mix-default1.5",
+            "types": [
+                {
+                    "type": "Blastling",
+                    "weight": 0.4
+                },
+                {
+                    "type": "Snareling",
+                    "weight": 0.4,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Endling",
+                    "weight": 1,
+                    "max%": 0.8
+                },
+                {
+                    "type": "Endermite",
+                    "weight": 0.2
+                }
+            ],
+            "pick-types": [
+                2,
+                4
+            ]
+        },
+        {
+            "#": "============== ENDLINGS MIX 2 ==============",
+            "id": "endling-mix-02",
+            "types": [
+                {
+                    "type": "Blastling",
+                    "weight": 0.5
+                },
+                {
+                    "type": "Snareling",
+                    "weight": 0.8
+                },
+                {
+                    "type": "Endling",
+                    "weight": 1,
+                    "max%": 0.8
+                },
+                {
+                    "type": "Enderman",
+                    "weight": 0.1,
+                    "max%": 0.01
+                }
+            ],
+            "pick-types": [
+                3,
+                5
+            ]
+        },
+        {
+            "#": "============== ENDLINGS MIX 2 ==============",
+            "id": "Entermites",
+            "types": [
+                {
+                    "type": "Endermite",
+                    "weight": 1,
+                    "max%": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== CONFLICT MIX 1 ==============",
+            "id": "conflict-mix_standard",
+            "types": [
+                {
+                    "type": "Pillager",
+                    "weight": 1
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.1,
+                    "max%": 0.1
+                },
+                {
+                    "type": "Snareling",
+                    "weight": 0.3
+                },
+                {
+                    "type": "Endling",
+                    "weight": 1,
+                    "max%": 0.5
+                }
+            ],
+            "pick-types": [
+                5,
+                4
+            ]
+        },
+        {
+            "#": "============== CONFLICT MIX 2 ==============",
+            "id": "conflict-mix-hard",
+            "types": [
+                {
+                    "type": "Vindicator",
+                    "weight": 0.8
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 1
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.2,
+                    "max%": 0.1
+                },
+                {
+                    "type": "Blastling",
+                    "weight": 1
+                },
+                {
+                    "type": "Snareling",
+                    "weight": 1
+                },
+                {
+                    "type": "Endling",
+                    "weight": 1,
+                    "max%": 0.5
+                }
+            ],
+            "pick-types": [
+                5,
+                4
+            ]
+        },
+        {
+            "#": "============== ARENA MIX ==============",
+            "id": "arena-mix",
+            "types": [
+                {
+                    "type": "icycreeper",
+                    "weight": 0.1,
+                    "max%": 0.3
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 0.2
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 0.1,
+                    "max%": 0.2
+                },
+                {
+                    "type": "chillager",
+                    "weight": 0.2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 0.1
+                },
+                {
+                    "type": "Pillager",
+                    "weight": 0.1
+                }
+            ],
+            "pick-types": [
+                4,
+                6
+            ]
+        },
+        {
+            "#": "============== END TOWER MIX - Enderpods ==============",
+            "id": "endtower-mix-enderpods",
+            "types": [
+                {
+                    "type": "mobspawner",
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== END TOWER MIX - Shulkers ==============",
+            "id": "endtower-mix-Shulkers",
+            "types": [
+                {
+                    "type": "mobspawner",
+                    "weight": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== PILLAGER ONLY - ENDSHIP ==============",
+            "id": "pillager-only",
+            "types": [
+                {
+                    "type": "Pillager"
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== ENDERMITES - ENDSHIP - END TOWER ==============",
+            "id": "Endermites2",
+            "types": [
+                {
+                    "type": "Endermite"
+                }
+            ],
+            "pick-types": [
+                2,
+                3
+            ]
+        },
+        {
+            "#": "============== ENDERMITES - END TOWER ENDLESS v1 ==============",
+            "id": "Endermitemodel3step1",
+            "types": [
+                {
+                    "type": "Endermite",
+                    "min": 35,
+                    "max": 40
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== ENDERMITES - END TOWER ENDLESS v2 ==============",
+            "id": "Endermitemodel3step2",
+            "types": [
+                {
+                    "type": "Endermite",
+                    "min": 25,
+                    "max": 30
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== ENDERMITES - END WILDS ==============",
+            "id": "Endermites4",
+            "types": [
+                {
+                    "type": "Endermite",
+                    "min": 35,
+                    "max": 40
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== ENDLING ==============",
+            "id": "Endling",
+            "types": [
+                {
+                    "type": "Endling",
+                    "min": 2,
+                    "max": 4,
+                    "weight": 0.4
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== ENDLING1 ==============",
+            "id": "Endling1",
+            "types": [
+                {
+                    "type": "Endling",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== SNARELING ==============",
+            "id": "Snareling",
+            "types": [
+                {
+                    "type": "Snareling",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== Mountaineer ==============",
+            "id": "Mountaineer",
+            "types": [
+                {
+                    "type": "Mountaineer",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== Chillager ==============",
+            "id": "Chillager",
+            "types": [
+                {
+                    "type": "Chillager",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        },
+        {
+            "#": "============== Mountain/Chillager ==============",
+            "id": "MountChill",
+            "types": [
+                {
+                    "type": "Chillager",
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "type": "Mountaineer",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                1,
+                2
+            ]
+        },
+        {
+            "#": "============== BLASTLING ==============",
+            "id": "Blastling",
+            "types": [
+                {
+                    "type": "Blastling",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "pick-types": [
+                1,
+                1
+            ]
+        }
+    ],
+    "dungeons": [
+        {
+            "id": "sub_endcity",
+            "ambience": "echo",
+            "audio-ambience": "audio_1",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ew_sub_endcit_entrance"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ew_sub_endcit_shulker_01",
+                        "ew_sub_endcit_shulker_02"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ew_sub_endcit_lift"
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ew_sub_endcit_broken_deadend_01",
+                            "weight": 1
+                        },
+                        {
+                            "id": "ew_sub_endcit_broken_deadend_02",
+                            "weight": 1
+                        },
+                        {
+                            "id": "ew_sub_endcit_balcony_deadend_01",
+                            "weight": 0.5
+                        }
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                1
+                            ],
+                            "dead-ends": [
+                                {
+                                    "id": "ew_sub_endcit_broken_deadend_01",
+                                    "weight": 1
+                                },
+                                {
+                                    "id": "ew_sub_endcit_broken_deadend_02",
+                                    "weight": 1
+                                },
+                                {
+                                    "id": "ew_sub_endcit_balcony_deadend_01",
+                                    "weight": 0.5
+                                }
+                            ],
+                            "tile-groups": [
+                                "broken_sidepath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tower",
+                    "tiles": [
+                        "ew_sub_endcit_tower"
+                    ],
+                    "dead-ends": [
+                        {
+                            "id": "ew_sub_endcit_tower_deadend_01",
+                            "weight": 1
+                        },
+                        {
+                            "id": "ew_sub_endcit_tower_deadend_ext",
+                            "weight": 1
+                        }
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                1,
+                                1
+                            ],
+                            "dead-ends": [
+                                {
+                                    "id": "ew_sub_endcit_tower_deadend_ext",
+                                    "weight": 1
+                                }
+                            ],
+                            "tile-groups": [
+                                "tower_sidepath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "ew_sub_endcit_bridge",
+                            "weight": 1
+                        },
+                        {
+                            "id": "ew_sub_endcit_voidtower",
+                            "weight": 0.5
+                        }
+                    ]
+                },
+                {
+                    "tiles": [
+                        "ew_sub_endcit_exit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sub_endtower",
+            "ambience": "alpha",
+            "audio-ambience": "audio_3",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ew_sub_endtow_entrance"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "endling-mix-default"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "sub_obsidiancavern",
+            "audio-ambience": "audio_4",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ew_sub_obscav_entrance"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "endling-mix-default"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "ew_sub_obscav_bridges"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "Endermites4"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "ew_sub_obscav_treasure"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderman-mix"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "sub_endship",
+            "ambience": "alpha",
+            "audio-ambience": "audio_2",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ew_sub_endship_interior",
+                        "ew_sub_endship_interior_alt01",
+                        "ew_sub_endship_interior_alt02",
+                        "ew_sub_endship_interior_02",
+                        "ew_sub_endship_interior_02_alt01",
+                        "ew_sub_endship_interior_02_alt02",
+                        "ew_sub_endship_interior_02_alt03"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "pillager-posse"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

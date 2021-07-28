@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/BC_Meshfades/MI_EndCitadel_MeshFades.MI_EndCitadel_MeshFades'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/BC_Meshfades/MI_EndCitadel_MeshFades.MI_EndCitadel_MeshFades'
+        MaterialSlotName = Material #30
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.003, 52.0315, 6310.82, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-100, Y=50.0001, Z=250.001 }
+    BoxExtent = { X=750, Y=500, Z=350 }
+    SphereRadius = 913.783
+}

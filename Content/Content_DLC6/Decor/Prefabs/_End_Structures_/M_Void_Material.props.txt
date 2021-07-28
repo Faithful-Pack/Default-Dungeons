@@ -1,0 +1,93 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC6/Decor/Prefabs/_End_Structures_/T_Void_Particle_Noise.T_Void_Particle_Noise'
+}
+Expressions[68] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionTextureSample_1'
+    Expressions[5] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionTextureSample_2'
+    Expressions[14] = MaterialExpressionVectorParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionVectorParameter_1'
+    Expressions[28] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_1'
+    Expressions[34] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_2'
+    Expressions[35] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_3'
+    Expressions[40] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_4'
+    Expressions[41] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_5'
+    Expressions[44] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_7'
+    Expressions[49] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionScalarParameter_8'
+    Expressions[52] = MaterialExpressionVectorParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/M_Void_Material.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1
+        Name = Inside Param Bottom Layer
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=3, Name=Inside Offset Bottom, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Inside Param Top Layer, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Inside Offset Top, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Inside Param Middle Layer
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=Inside Offset Middle, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 2
+        Name = Middle Layer Emissive Brightness
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0.2, Name=Flicker Param, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.191135, G=0.705729, B=0.645693, A=1 }
+        Name = Color Speckle
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.150382, G=0.471354, B=0.136451, A=1 }
+        Name = Plasma Speckle
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

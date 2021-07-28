@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Items/VoidQuiver/MI_VoidQuiver.MI_VoidQuiver'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Items/VoidQuiver/MI_VoidQuiver.MI_VoidQuiver'
+        MaterialSlotName = MI_VoidQuiver
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160, 106.104, 230.457, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00746918, Y=12.5, Z=-0.0312958 }
+    BoxExtent = { X=27.5, Y=12.5, Z=52.5 }
+    SphereRadius = 60.5702
+}

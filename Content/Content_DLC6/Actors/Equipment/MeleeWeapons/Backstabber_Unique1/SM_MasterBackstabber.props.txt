@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/MeleeWeapons/Backstabber_Unique1/MI_MasterBackstabber.MI_MasterBackstabber'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/MeleeWeapons/Backstabber_Unique1/MI_MasterBackstabber.MI_MasterBackstabber'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 75.0115, 132.647, 104.87, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.50204e-05, Y=-6.82247, Z=30.8731 }
+    BoxExtent = { X=3.12501, Y=19.8874, Z=53.033 }
+    SphereRadius = 53.1709
+}

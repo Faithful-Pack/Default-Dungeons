@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndFortuneFlower/MI_FortuneFlower.MI_FortuneFlower'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndFortuneFlower/MI_FortuneFlower.MI_FortuneFlower'
+        MaterialSlotName = MI_FortuneFlower
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 194.089, 71.7789, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-12.5, Y=0, Z=21.875 }
+    BoxExtent = { X=12.5, Y=25, Z=21.875 }
+    SphereRadius = 35.4932
+}

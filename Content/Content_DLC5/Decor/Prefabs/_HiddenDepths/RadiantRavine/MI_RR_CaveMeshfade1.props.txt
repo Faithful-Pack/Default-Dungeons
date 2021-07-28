@@ -63,13 +63,13 @@ StaticParameters =
         }
         StaticSwitchParameters[2] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=01 Use PlantMovement }
             bOverride = true
         }
         StaticSwitchParameters[3] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=03 Use Vertex Colors }
             bOverride = true
         }
@@ -78,6 +78,8 @@ StaticParameters =
     TerrainLayerWeightParameters[0] = {}
     MaterialLayersParameters[0] = {}
 }
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

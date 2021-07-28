@@ -42,7 +42,7 @@ Notifies[3] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RewardChest_RemoveShine
         Duration = 0.249278
         EndLink =
@@ -52,7 +52,7 @@ Notifies[3] =
             SegmentBeginTime = 0
             SegmentLength = 3.70833
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -64,17 +64,17 @@ Notifies[3] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_RewardChest_ReleaseJointed
         Duration = 0
         EndLink =
         {
             SlotIndex = 0
             SegmentIndex = -1
-            SegmentBeginTime = 9.05239e-043
+            SegmentBeginTime = 9.05239e-43
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -86,17 +86,17 @@ Notifies[3] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_RewardChest_Release
         Duration = 0
         EndLink =
         {
             SlotIndex = 0
             SegmentIndex = -1
-            SegmentBeginTime = 8.16957e-043
+            SegmentBeginTime = 8.16957e-43
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0
@@ -155,7 +155,7 @@ Notifies[3] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = AnimNS_RewardChest_RemoveShine
         Duration = 0.249278
         EndLink =
@@ -165,7 +165,7 @@ Notifies[3] =
             SegmentBeginTime = 0
             SegmentLength = 3.70833
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 1
         SlotIndex = 0
@@ -177,17 +177,17 @@ Notifies[3] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_RewardChest_ReleaseJointed
         Duration = 0
         EndLink =
         {
             SlotIndex = 0
             SegmentIndex = -1
-            SegmentBeginTime = 9.05239e-043
+            SegmentBeginTime = 9.05239e-43
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 2
         SlotIndex = 0
@@ -199,17 +199,17 @@ Notifies[3] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-005
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_RewardChest_Release
         Duration = 0
         EndLink =
         {
             SlotIndex = 0
             SegmentIndex = -1
-            SegmentBeginTime = 8.16957e-043
+            SegmentBeginTime = 8.16957e-43
             SegmentLength = 0
         }
-        bConvertedFromBranchingPoint = true
+        bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
         SlotIndex = 0

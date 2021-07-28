@@ -1,0 +1,70 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Caustics/TX_Caustics_Flow_2.TX_Caustics_Flow_2'
+}
+Expressions[46] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionTextureSample'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_1'
+    Expressions[16] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_2'
+    Expressions[18] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_3'
+    Expressions[22] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_4'
+    Expressions[26] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_5'
+    Expressions[27] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_6'
+    Expressions[31] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_7'
+    Expressions[32] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_8'
+    Expressions[34] = MaterialExpressionTextureSample'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionTextureSample_2'
+    Expressions[37] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_9'
+    Expressions[41] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_10'
+    Expressions[44] = MaterialExpressionScalarParameter'Effects/Materials/Caustics/Light_Caustics_Flow_V2.MaterialExpressionScalarParameter_11'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=U_Scale, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=V_Scale, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Boost, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Power_Value_1, Group=None }
+    CollectedScalarParameters[4] = { Value=16, Name=Pixalize_2, Group=None }
+    CollectedScalarParameters[5] = { Value=16, Name=Pixelise, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Min_Value, Group=None }
+    CollectedScalarParameters[7] = { Value=0.3, Name=Time_1, Group=None }
+    CollectedScalarParameters[8] = { Value=0.2, Name=Time_2, Group=None }
+    CollectedScalarParameters[9] = { Value=0.01, Name=UV_Flow, Group=None }
+    CollectedScalarParameters[10] = { Value=0.3, Name=Flow_Time, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Flow_Scale, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/End_EndermanArtefact/MI_EndermenArtefact.MI_EndermenArtefact'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/End_EndermanArtefact/MI_EndermenArtefact.MI_EndermenArtefact'
+        MaterialSlotName = MI_EndermenArtefact
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 453.242, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=62.5 }
+    BoxExtent = { X=100, Y=100, Z=62.5 }
+    SphereRadius = 154.616
+}

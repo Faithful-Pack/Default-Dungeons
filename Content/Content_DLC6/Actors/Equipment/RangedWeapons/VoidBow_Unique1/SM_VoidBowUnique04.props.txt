@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/RangedWeapons/VoidBow_Unique1/MI_VoidBow_Unique1.MI_VoidBow_Unique1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/RangedWeapons/VoidBow_Unique1/MI_VoidBow_Unique1.MI_VoidBow_Unique1'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 262.132, 132.697, 233.815, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.5974e-05, Y=-21.875, Z=-21.875 }
+    BoxExtent = { X=3.12502, Y=65.6249, Z=65.625 }
+    SphereRadius = 92.8603
+}

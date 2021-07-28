@@ -4172,15 +4172,6 @@
     
     {
      "locked" : false,
-     "name" : "challengeloot",
-     "pos" : [ 43, 26, 12 ],
-     "size" : [ 1, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
      "name" : "conduitstand",
      "pos" : [ 43, 26, 27 ],
      "size" : [ 1, 1, 1 ],
@@ -4249,6 +4240,15 @@
      "size" : [ 37, 1, 8 ],
      "tags" : "",
      "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 23, 13, 49 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "gate",
+     "type" : "trigger"
     }
    ],
    "size" : [ 50, 41, 50 ],
@@ -5963,8 +5963,8 @@
    "is-leaky" : false,
    "locked" : true,
    "pos" : [ 240, 15, 194 ],
-   "region-plane" : "eNrtldEKwCAIRS/h/3/zgi1oW1fTCoLtIHuYHDQNEvmxgBVES9CDeMkCMU+p1/avv1FP6XNWPWSGPcc8T8+eZ0Pr9vCkc+9oEKo36q3sU4ohq/sEmHjT8LMFZH+P+4Jd7/VMb7M+Oc53THSNvislG/W871iwnoS8OuuZZ5Vy7a/Py59XXEl+wCQ6kA9hDYNxAPagHhE=",
-   "region-y-plane" : "eNrVlutugzAMhdVwn7aSlB9gm8v7v+VMS0ogISRM0zQrqpCbT+fECTht2wJSHxGE0HVd+/+4oR/840gPz4abwxv6x0vR4m5ngf0lzqOHc5hza9U8dNbHTeO0crVUj6ZZs8c+cRzHlWOMOaWzoXpSqQ4AlM6Gro/lAJHUOxtWz9kl8lQVUM8VquVTjoa+qcM4MIMGguYhQ/bdxJCIAAGi9ZBnITo448VaOdwFmD6tMDi29yKeD1ufXm7UHD9ABGfqac7vE6z1wQJu9Hb/L1VcpGiXtwpmc3TCgSu0HB1POeCIrnEmeTjFvT696zF10RZp2T+bc+/fcl6Yep0X+L3zYr8P4efTih9xG58n77tDL+g7EcH5GlIoJwT/JNF9TDwjje1jjCRCJPfIPsZIlook+YzrY6yWFVmZFjKqj/HCsjyvPri/RPWx2WVRVF/cPZUM3z+RpFmWl+WdOXnKGdccrn6OWCGyTTlnjn2eXrTcekPYxe7P759R3HSR+wavZvsd",
+   "region-plane" : "eNrt0tEKwCAIheHDOO//zBtsQpMklAQJ/8vsI6jIrljXogQ3999qYYenTKd7nfsd4HHQRZ3QkxxFMPs8wIK/zehKZLyf+i+o+q8PdmZex7WbepkWdwy5Yeq6z2G023Ubit7uDf5QH2c=",
+   "region-y-plane" : "eNrt1ttugzAMBmANCNBpKwlcgG0O7/+WMzSUlECJq7KLaf9FhdJ8ckKgbl3XgNQJQghN09T/7gTXjvk4yAkOx7hzC1OV8+gzN/TD4gptyqq6jz5zfd8vjhk7M4+G1tPGNABgQuq5++NygEgmYH9uxlUitq2RnIMu9FSOurYqwhy4oY6gKrXUIREBAojrIc9C3HDtksXhKg+uXcdxvLybmC4g3PWz4wsQOLdemANvf2Dhg1t9b++iLUWrce+G+Y4OHGxlLkf7U3Yc0WvOlbtTtvc3n7rkvsxLJHt+vts+P/u8sLo9L3De8+K/D+HOy/vcwfu+4YJ+JwTuHX0sivgjFvexaEoi7WNM4iiKr8I+xkQlURx/yfoYV1OZypNMi/oYb0yl6eWT+4uoj42rzLLLN3dPE9RXLIsTpdI8v7LTu+63/y/9XTe86H4AV18CsA==",
    "regions" : 
    [
     
@@ -6010,6 +6010,42 @@
      "pos" : [ 12, 26, 24 ],
      "size" : [ 4, 1, 7 ],
      "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 29, 7 ],
+     "size" : [ 7, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 29, 31 ],
+     "size" : [ 7, 1, 16 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 6, 29, 0 ],
+     "size" : [ 44, 1, 7 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 6, 29, 47 ],
+     "size" : [ 44, 1, 7 ],
+     "tags" : "boundary-force",
      "type" : "trigger"
     }
    ],
@@ -7480,69 +7516,6 @@
     
     {
      "locked" : false,
-     "name" : "current_gate_01",
-     "pos" : [ 31, 41, 36 ],
-     "size" : [ 7, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
-     "name" : "current_clicky_02_trigger",
-     "pos" : [ 31, 41, 37 ],
-     "size" : [ 7, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
-     "name" : "current_button_01",
-     "pos" : [ 54, 41, 31 ],
-     "size" : [ 1, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
-     "name" : "current_gate_02",
-     "pos" : [ 50, 42, 76 ],
-     "size" : [ 7, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
-     "name" : "current_button_01",
-     "pos" : [ 14, 41, 32 ],
-     "size" : [ 1, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
-     "name" : "current_button_02",
-     "pos" : [ 52, 40, 50 ],
-     "size" : [ 1, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
-     "name" : "current_button_02",
-     "pos" : [ 15, 41, 85 ],
-     "size" : [ 1, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
      "name" : "Pufferfish",
      "pos" : [ 33, 41, 40 ],
      "size" : [ 2, 1, 2 ],
@@ -7553,7 +7526,7 @@
     {
      "locked" : false,
      "name" : "Pufferfish",
-     "pos" : [ 33, 41, 49 ],
+     "pos" : [ 14, 41, 55 ],
      "size" : [ 2, 1, 2 ],
      "tags" : "Fixed",
      "type" : "spawn"
@@ -7562,8 +7535,8 @@
     {
      "locked" : false,
      "name" : "Pufferfish",
-     "pos" : [ 54, 42, 79 ],
-     "size" : [ 2, 1, 2 ],
+     "pos" : [ 33, 41, 96 ],
+     "size" : [ 1, 1, 2 ],
      "tags" : "Fixed",
      "type" : "spawn"
     },
@@ -10414,15 +10387,6 @@
     
     {
      "locked" : false,
-     "name" : "challengeloot",
-     "pos" : [ 52, 16, 25 ],
-     "size" : [ 1, 1, 1 ],
-     "tags" : "",
-     "type" : "trigger"
-    },
-    
-    {
-     "locked" : false,
      "name" : "conduitstand",
      "pos" : [ 52, 16, 15 ],
      "size" : [ 1, 1, 1 ],
@@ -10589,6 +10553,15 @@
      "pos" : [ 3, 27, 5 ],
      "size" : [ 1, 1, 13 ],
      "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 41, 2, 0 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "gate",
      "type" : "trigger"
     }
    ],

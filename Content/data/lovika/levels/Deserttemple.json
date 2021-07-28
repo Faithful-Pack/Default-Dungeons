@@ -171,6 +171,83 @@
             "visual-theme": "cave_dark",
             "mobs": {
                 "density": 0
+            },
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
             }
         },
         {
@@ -183,6 +260,83 @@
                 "not": [
                     "necromancer-group",
                     "dt-default-mix"
+                ]
+            },
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
                 ]
             }
         },
@@ -263,7 +417,84 @@
             "tile-groups": [
                 "common"
             ],
-            "length": 3
+            "length": 3,
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "trapintro",
@@ -271,27 +502,335 @@
                 "traptiles1"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "",
             "tile-groups": [
                 "inventory01"
             ],
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "objective",
             "tile-groups": [
                 "GDC_Objective001"
-            ]
+            ],
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "",
             "tile-groups": [
                 "bathtrans"
             ],
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "",
@@ -304,6 +843,83 @@
                 "only": [
                     "necromancer-group"
                 ]
+            },
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
             }
         },
         {
@@ -312,7 +928,84 @@
                 "bath"
             ],
             "length": 4,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "",
@@ -320,28 +1013,336 @@
                 "deadlytraps"
             ],
             "length": 2,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "passage2",
             "tiles": [
                 "dt_passage_002"
             ],
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "arena",
             "tile-groups": [
                 "arena"
             ],
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "",
             "tile-groups": [
                 "inventory01"
             ],
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "",
@@ -349,7 +1350,84 @@
                 "deadlytraps"
             ],
             "length": 2,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "",
@@ -357,14 +1435,106 @@
                 "common"
             ],
             "length": 2,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "pool",
             "tile-groups": [
                 "pool"
             ],
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 1,
+                "default": {
+                    "max-length": [
+                        1,
+                        1
+                    ],
+                    "dead-ends": [
+                        "dt_es_deadend"
+                    ],
+                    "tile-groups": [
+                        "dt_es_sidepath"
+                    ]
+                }
+            }
         },
         {
             "id": "end",
@@ -372,100 +1542,254 @@
                 "end"
             ],
             "audio-ambience": "audio_3",
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "exit01",
             "tile-groups": [
                 "exit01"
             ],
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
+                ]
+            }
         },
         {
             "id": "exit02",
             "tile-groups": [
                 "exit02"
             ],
-            "visual-theme": "cave_dark"
-        }
-    ],
-    "side-paths": {
-        "probability": 0.35,
-        "default": {
-            "max-length": [
-                1,
-                3
-            ],
-            "dead-ends": [
-                "dt_detour_deadend001",
-                "dt_detour_deadend002",
-                "dt_detour_deadend003",
-                "dt_detour_deadend004"
-            ],
-            "tile-groups": [
-                "commonsidepaths"
-            ]
-        },
-        "variants": [
-            {
-                "max-length": [
-                    1,
-                    3
-                ]
-            },
-            {
-                "weight": 0.1,
-                "max-length": [
-                    1,
-                    4
-                ],
-                "dead-ends": [
-                    "trial_b_deadend001",
-                    "trial_b_deadend002",
-                    "trial_b_deadend003",
-                    "trial_b_deadend004",
-                    "trial_b_deadend005"
-                ],
-                "tile-groups": [
-                    "trial_tiled_b"
-                ]
-            },
-            {
-                "weight": 0.4,
-                "max-length": [
-                    2,
-                    4
-                ],
-                "dead-ends": [
-                    "trial_b_deadend001",
-                    "trial_b_deadend002",
-                    "trial_b_deadend003",
-                    "trial_b_deadend004",
-                    "trial_b_deadend005"
-                ],
-                "tile-groups": [
-                    "trial_tiled_b"
-                ]
-            },
-            {
-                "weight": 0.1,
-                "max-length": [
-                    1,
-                    3
-                ],
-                "dead-ends": [
-                    "trial_bath_deadend001",
-                    "trial_bath_deadend002",
-                    "trial_bath_deadend003",
-                    "trial_bath_deadend004",
-                    "trial_bath_deadend005"
-                ],
-                "tile-groups": [
-                    "trial_bath"
+            "visual-theme": "cave_dark",
+            "side-paths": {
+                "probability": 0.35,
+                "default": {
+                    "max-length": [
+                        1,
+                        3
+                    ],
+                    "dead-ends": [
+                        "dt_detour_deadend001",
+                        "dt_detour_deadend002",
+                        "dt_detour_deadend003",
+                        "dt_detour_deadend004"
+                    ],
+                    "tile-groups": [
+                        "commonsidepaths"
+                    ]
+                },
+                "variants": [
+                    {
+                        "max-length": [
+                            1,
+                            3
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.4,
+                        "max-length": [
+                            2,
+                            4
+                        ],
+                        "dead-ends": [
+                            "trial_b_deadend001",
+                            "trial_b_deadend002",
+                            "trial_b_deadend003",
+                            "trial_b_deadend004",
+                            "trial_b_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_tiled_b"
+                        ]
+                    },
+                    {
+                        "weight": 0.1,
+                        "max-length": [
+                            1,
+                            3
+                        ],
+                        "dead-ends": [
+                            "trial_bath_deadend001",
+                            "trial_bath_deadend002",
+                            "trial_bath_deadend003",
+                            "trial_bath_deadend004",
+                            "trial_bath_deadend005"
+                        ],
+                        "tile-groups": [
+                            "trial_bath"
+                        ]
+                    }
                 ]
             }
-        ]
-    },
+        }
+    ],
     "mob-groups": [
         {
             "#": "============== SPIDER SKELETON TRAP ==============",
@@ -479,8 +1803,7 @@
                     "type": "skeleton",
                     "weight": 1
                 }
-            ],
-            "##loc": "DesertTemple/mobs.json"
+            ]
         },
         {
             "#": "============== ZOMBIE, HUSK ==============",
@@ -494,8 +1817,7 @@
                     "type": "skeleton",
                     "weight": 1
                 }
-            ],
-            "##loc": "DesertTemple/mobs.json"
+            ]
         },
         {
             "#": "============== SKELETON, ZOMBIES, SPIDERS ==============",
@@ -516,8 +1838,7 @@
                     "weight": 0.3,
                     "max%": 0.5
                 }
-            ],
-            "##loc": "DesertTemple/mobs.json"
+            ]
         },
         {
             "#": "============== UNDEAD ASSAULT ==============",
@@ -551,8 +1872,7 @@
             "pick-types": [
                 2,
                 3
-            ],
-            "##loc": "DesertTemple/mobs.json"
+            ]
         },
         {
             "#": "============== UNDEAD GUARD ==============",
@@ -566,8 +1886,7 @@
                     "type": "skeletonvanguard",
                     "max%": 0.5
                 }
-            ],
-            "##loc": "DesertTemple/mobs.json"
+            ]
         },
         {
             "#": "============== DESERT TEMPLE DEFAULT ==============",
@@ -601,8 +1920,7 @@
             "pick-types": [
                 2,
                 3
-            ],
-            "##loc": "DesertTemple/mobs.json"
+            ]
         },
         {
             "#": "============== NAMELESS KING SOLO ==============",
@@ -613,8 +1931,7 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "DesertTemple/mobs.json"
+            ]
         },
         {
             "#": "============== NAMELESS GUARDS ==============",
@@ -625,59 +1942,171 @@
                     "min": 5,
                     "max": 5
                 }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS ENDER BOIS ==============",
+            "id": "enderbois",
+            "types": [
+                {
+                    "type": "zombie",
+                    "weight": 0.4
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 0.4
+                },
+                {
+                    "type": "husk",
+                    "weight": 0.2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "spider",
+                    "weight": 0.3,
+                    "max%": 0.4
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 0.3,
+                    "max%": 0.4
+                }
             ],
-            "##loc": "DesertTemple/mobs.json"
+            "pick-types": [
+                3,
+                5
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS OG ENDER DUDE ==============",
+            "id": "originalenderman",
+            "types": [
+                {
+                    "type": "enderman",
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS TRAP MIX 1 ==============",
+            "id": "TTOTN TM1",
+            "types": [
+                {
+                    "type": "zombie"
+                }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS TRAP MIX 2 ==============",
+            "id": "TTOTN TM2",
+            "types": [
+                {
+                    "type": "skeleton",
+                    "max": 5
+                }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS TRAP MIX 3 ==============",
+            "id": "TTOTN TM3",
+            "types": [
+                {
+                    "type": "husk",
+                    "max": 5
+                }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS TRAP MIX 4 ==============",
+            "id": "TTOTN TM4",
+            "types": [
+                {
+                    "type": "spider",
+                    "max": 5
+                }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS TRAP MIX 5 ==============",
+            "id": "TTOTN TM5",
+            "types": [
+                {
+                    "type": "skeletonvanguard",
+                    "max": 5
+                }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS ENDERSENT BOSS ==============",
+            "id": "enderboss",
+            "types": [
+                {
+                    "type": "endersent_surgefiend",
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "#": "============== THE TRIAL OF THE NAMELESS ENDERSENT ==============",
+            "id": "recurring_endersent",
+            "types": [
+                {
+                    "type": "endersent",
+                    "min": 1,
+                    "max": 1
+                }
+            ]
         }
     ],
     "object-groups": [
         "DesertTemple/objectgroup",
         "lowertemple/objectgroup",
-        "RuneRoom/objectgroup"
+        "deserttemple_es/objectgroup",
+        "RuneRoom/objectgroup",
+        "creeperwoods_es_cave/objectgroup",
+        "pumpkinpastures_es_i/objectgroup",
+        "pumpkinpastures_es_c/objectgroup",
+        "soggyswamp_es_t/objectgroup",
+        "cacticanyon_es_u/objectgroup",
+        "highblockhalls_es_h/objectgroup",
+        "highblockhalls_es_w/objectgroup",
+        "deserttemple_es_t/objectgroup",
+        "deserttemple_es_s/objectgroup"
     ],
     "props": [],
     "tiles": [
         {
             "id": "dt_start",
-            "rotations": 0,
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 0
         },
         {
             "id": "dt_arena",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "dt_arena_new",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "dt_arena_optimized",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "dt_end",
             "entry-door": "enter",
-            "rotations": 0,
-            "##loc": "DesertTemple/tiles.json"
-        },
-        {
-            "id": "dt_pool",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 0
         },
         {
             "id": "dt_obj001",
             "entry-door": "enter",
-            "rotations": 0,
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 0
         },
         {
             "id": "dt_obj001_alt",
             "entry-door": "enter",
-            "rotations": 0,
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 0
         },
         {
             "id": "dt_obj001_alt_challenge",
@@ -685,8 +2114,7 @@
             "rotations": 0,
             "challenges": [
                 "platform_clicky"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "secret@dt_key_reworked",
@@ -714,8 +2142,7 @@
             ],
             "unlock-keys": [
                 "RuneGateDiscovered"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_key_reworked",
@@ -736,37 +2163,30 @@
             ],
             "unlock-keys": [
                 "not RuneGateDiscovered"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_exit01",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "dt_dead001",
-            "rotations": 180,
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 180
         },
         {
             "id": "dt_dead002",
-            "rotations": 180,
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 180
         },
         {
             "id": "dt_dead003",
-            "rotations": 180,
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 180
         },
         {
-            "id": "dt_inventory001",
-            "##loc": "DesertTemple/tiles.json"
+            "id": "dt_inventory001"
         },
         {
             "id": "dt_detour003",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "dt_detour_deadend003",
@@ -779,8 +2199,7 @@
                     "door": "branch_return",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_detour_deadend001",
@@ -793,13 +2212,11 @@
                     "door": "branch_return",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_trap_intro",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "trial_underground_access001",
@@ -815,8 +2232,7 @@
                         "cave001"
                     ]
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_traveltile001",
@@ -828,8 +2244,7 @@
                     "door": "branch_return",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_traveltile002",
@@ -842,8 +2257,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_traveltile003",
@@ -856,8 +2270,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "underground_entrance001",
@@ -870,13 +2283,11 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "underground_large001",
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "trial_branch_exit001",
@@ -892,8 +2303,7 @@
                         "cave001"
                     ]
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "trial_branch_exit002",
@@ -907,8 +2317,7 @@
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor",
                     "exit": "*.*.branch_return"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "trial_b_deadend006",
@@ -921,15 +2330,13 @@
                     "door": "branch_return",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "trial_start002",
             "rotations": [
                 270
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "lt_lowerentrance001",
@@ -944,8 +2351,7 @@
                         "cave001"
                     ]
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "lt_key001",
@@ -955,8 +2361,7 @@
             "challenges": [
                 "key_clicky_arena"
             ],
-            "entry-door": "enter",
-            "##loc": "DesertTemple/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "dungeons@trial_start002",
@@ -972,12 +2377,10 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
-            "id": "dt_lowerlevels_entrance001",
-            "##loc": "DesertTemple/tiles.json"
+            "id": "dt_lowerlevels_entrance001"
         },
         {
             "id": "dt_lowerlevels_entrance002",
@@ -999,8 +2402,7 @@
                         "secret_chestroom"
                     ]
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "nosecret@dt_lowerlevels_entrance002",
@@ -1015,8 +2417,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "dt_secret_chestroom01",
@@ -1029,35 +2430,77 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "ft_large01",
-            "rotations": 270,
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 270
         },
         {
             "id": "ft_doorway01",
-            "rotations": 0,
-            "teleports": [
-                {
-                    "door": "branch_return",
-                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
-                }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            "rotations": 0
         },
         {
             "id": "ft_doorway02",
+            "rotations": 0
+        },
+        {
+            "id": "dt_pool",
+            "entry-door": "enter",
+            "rotations": 0,
+            "unlock-keys": [
+                "not EndOwner"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@dt_pool",
+            "entry-door": "enter",
+            "rotations": 0,
+            "unlock-keys": [
+                "EndOwner and EnderEyeTheTrialOfTheNameless"
+            ]
+        },
+        {
+            "id": "dt_pool_alt",
+            "rotations": 0,
+            "entry-door": "enter",
+            "exit-door": "exit",
+            "unlock-keys": [
+                "EndOwner"
+            ]
+        },
+        {
+            "id": "dt_es_sidepath_01",
+            "rotations": 0,
+            "challenges": [
+                "sidepath1switch"
+            ]
+        },
+        {
+            "id": "dt_es_sidepath_02",
+            "rotations": 0,
+            "challenges": [
+                "sidepath2switch"
+            ]
+        },
+        {
+            "id": "dt_es_deadend",
             "rotations": 0,
             "teleports": [
                 {
-                    "door": "branch_return",
-                    "object": "Decor/Prefabs/DoorTravel/DesertTemple/BP_DT_SidepathDoor"
+                    "door": "trialentry_tp",
+                    "exit": "*.*.trialstart_tp",
+                    "dungeons": [
+                        "deserttemple_es_s"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                },
+                {
+                    "door": "trialexit_tp",
+                    "exit": "trialend_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "rr_entrance001",
@@ -1067,13 +2510,11 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
                 }
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         },
         {
             "id": "rr_runeroom001",
-            "rotations": 90,
-            "##loc": "RuneRoom/rr_tiles.json"
+            "rotations": 90
         },
         {
             "id": "rralt_entrance001",
@@ -1083,8 +2524,839 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
                 }
+            ]
+        },
+        {
+            "id": "cw_es_c_plunging_pothole",
+            "rotations": [
+                90
             ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            "challenges": [
+                "givemeasign",
+                "bareknuckle"
+            ],
+            "teleports": [
+                {
+                    "door": "potholeentry_tp",
+                    "exit": "*.*.cw_es_cave_travel",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cw_es_c_crazy_cavity",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "fromhere_tp",
+                    "exit": "*.*.tohere_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "tohere_tp",
+                    "exit": "*.*.fromhere_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cw_es_c_crazy_cavity_02",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "fromhere_tp",
+                    "exit": "*.*.tohere_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "tohere_tp",
+                    "exit": "*.*.fromhere_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cw_es_cave",
+            "rotations": [
+                90
+            ]
+        },
+        {
+            "id": "cw_es_cave_arena",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "cw_endersent_boss"
+            ],
+            "teleports": [
+                {
+                    "door": "cw_es_cave_exit_door",
+                    "exit": "*.cw_start_c001_alt.cw_es_cave_exit_travel",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "not EnderEyeDeepwoodBrook"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@cw_es_cave_arena",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "cw_endersent_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "cw_es_cave_exit_door",
+                    "exit": "*.cw_start_c001_alt.cw_es_cave_exit_travel",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "EnderEyeDeepwoodBrook"
+            ]
+        },
+        {
+            "id": "oldtownhall_entrance",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "pp_es_othall_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "oldtownhall_middle",
+            "rotations": 0
+        },
+        {
+            "id": "oldtownhall_chunk_01",
+            "rotations": 0,
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "oldtownhall_chunk_02",
+            "rotations": 0,
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "oldtownhall_chunk_03",
+            "rotations": 0,
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "oldtownhall_chunk_04",
+            "rotations": 0,
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "oldtownhall_chunk_05",
+            "rotations": 0,
+            "entry-door": "enter",
+            "exit-door": "exit"
+        },
+        {
+            "id": "oldtownhall_lift",
+            "challenges": [
+                "pp_enderman_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "pp_es_shelter_travel",
+                    "exit": "pp_es_shelter_door",
+                    "dungeons": [
+                        "pumpkinpastures_es_shelter"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "oldtownhall_lift_alt",
+            "challenges": [
+                "pp_enderman_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "pp_es_shelter_travel",
+                    "exit": "pp_es_shelter_door",
+                    "dungeons": [
+                        "pumpkinpastures_es_shelter"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "oldtownhall_under_lift",
+            "rotations": [
+                0,
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "pp_es_shelter_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "oldtownhall_tunnel_01",
+            "rotations": [
+                0,
+                90
+            ]
+        },
+        {
+            "id": "oldtownhall_tunnel_02",
+            "rotations": [
+                0,
+                90
+            ]
+        },
+        {
+            "id": "oldtownhall_tunnel_03",
+            "rotations": [
+                0,
+                90
+            ]
+        },
+        {
+            "id": "oldtownhall_shelter",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "pp_endersent_boss"
+            ],
+            "teleports": [
+                {
+                    "door": "pp_es_shelter_exit_door",
+                    "exit": "*.ppe_section_d001_alt.pp_es_shelter_exit_travel",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "not EnderEyeOldTownHall"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@oldtownhall_shelter",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "pp_endersent_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "pp_es_shelter_exit_door",
+                    "exit": "*.ppe_section_d001_alt.pp_es_shelter_exit_travel",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "EnderEyeOldTownHall"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@oldtownhall_shelter_alt",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "pp_endersent_arena_alt"
+            ],
+            "teleports": [
+                {
+                    "door": "pp_es_shelter_exit_door",
+                    "exit": "*.ppe_section_d001_alt.pp_es_shelter_exit_travel",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "EnderEyeOldTownHall"
+            ]
+        },
+        {
+            "id": "oldtownhall_shelter_alt",
+            "rotations": [
+                0,
+                90
+            ],
+            "challenges": [
+                "pp_endersent_boss_alt"
+            ],
+            "teleports": [
+                {
+                    "door": "pp_es_shelter_exit_door",
+                    "exit": "*.ppe_section_d001_alt.pp_es_shelter_exit_travel",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "not EnderEyeOldTownHall"
+            ]
+        },
+        {
+            "id": "ss_es_tower",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "sw_basiccavearena"
+            ],
+            "teleports": [
+                {
+                    "door": "ss_es_tower_door",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "ss_es_cave",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "ss_endersent_boss"
+            ],
+            "teleports": [
+                {
+                    "door": "ss_es_cave_exit",
+                    "exit": "*.ss_es_exit.ss_es_sidepath_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "not EnderEyeSunkenWatchtower"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@ss_es_cave",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "ss_endersent_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "ss_es_cave_exit",
+                    "exit": "*.ss_es_exit.ss_es_sidepath_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "EnderEyeSunkenWatchtower"
+            ]
+        },
+        {
+            "id": "ss_es_cave_alt",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "ss_endersent_boss_alt"
+            ],
+            "teleports": [
+                {
+                    "door": "ss_es_cave_exit",
+                    "exit": "*.ss_es_exit.ss_es_sidepath_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "not EnderEyeSunkenWatchtower"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@ss_es_cave_alt",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "ss_endersent_arena_alt"
+            ],
+            "teleports": [
+                {
+                    "door": "ss_es_cave_exit",
+                    "exit": "*.ss_es_exit.ss_es_sidepath_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "EnderEyeSunkenWatchtower"
+            ]
+        },
+        {
+            "id": "cc_es_u_hub",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "only_gold_key",
+                "silver_key_main_hub"
+            ],
+            "teleports": [
+                {
+                    "door": "cc_es_u_hub_entry",
+                    "exit": "*.cc_es_deadend.cc_es_deadend_entry",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "cc_es_u_side_1_teleport_entry",
+                    "exit": "*.cc_es_u_side_1.cc_es_u_side_1_teleport_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
+                },
+                {
+                    "door": "cc_es_u_side_2_teleport_entry",
+                    "exit": "*.cc_es_u_side_2.cc_es_u_side_2_teleport_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "cc_es_u_crypt_teleport_entry",
+                    "exit": "*.cc_es_u_crypt.cc_es_u_crypt_teleport_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cc_es_u_side_1",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "cc_side_1_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "cc_es_u_side_1_teleport_exit",
+                    "exit": "*.cc_es_u_hub.cc_es_u_side_1_teleport_entry",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cc_es_u_side_2",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "silver_key_mission",
+                "cc_es_u_grave_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "cc_es_u_side_2_teleport_exit",
+                    "exit": "*.cc_es_u_hub.cc_es_u_side_2_teleport_entry",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "cc_es_u_storage_entry",
+                    "exit": "*.cc_es_u_storage_room.cc_es_u_storage_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cc_es_u_storage_room",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "cc_es_u_storage_exit",
+                    "exit": "*.cc_es_u_side_2.cc_es_u_storage_entry",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "cc_es_u_crypt",
+            "rotations": [
+                180
+            ],
+            "challenges": [
+                "cc_endersent_boss"
+            ],
+            "teleports": [
+                {
+                    "door": "cc_es_u_crypt_teleport_exit",
+                    "exit": "*.cc_es_u_hub.cc_es_u_crypt_teleport_entry",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "cc_es_u_exit_teleport",
+                    "exit": "*.cc_es_sidepath.cc_es_sidepath_exit_teleport",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "not EnderEyeTheUndercroft"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@cc_es_u_crypt",
+            "rotations": [
+                180
+            ],
+            "challenges": [
+                "cc_endersent_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "cc_es_u_crypt_teleport_exit",
+                    "exit": "*.cc_es_u_hub.cc_es_u_crypt_teleport_entry",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "cc_es_u_exit_teleport",
+                    "exit": "*.cc_es_sidepath.cc_es_sidepath_exit_teleport",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "unlock-keys": [
+                "EnderEyeTheUndercroft"
+            ]
+        },
+        {
+            "id": "spacer_cc_es_2"
+        },
+        {
+            "id": "hh_es_h_tunnel_terminal",
+            "rotations": [
+                180
+            ],
+            "teleports": [
+                {
+                    "door": "tunnelexit_tp",
+                    "exit": "*.*.tunnelend_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "terminalexit_tp",
+                    "exit": "*.*.hideawayentrance_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "hh_es_h_highblock_hideaway",
+            "rotations": [
+                180
+            ],
+            "challenges": [
+                "accessallareas",
+                "readingisfun",
+                "sculleryscam"
+            ],
+            "teleports": [
+                {
+                    "door": "hideawayentrance_tp",
+                    "exit": "*.*.terminalexit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+                },
+                {
+                    "door": "elevator1entry_tp",
+                    "exit": "*.*.elevator1exit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "spacer1"
+        },
+        {
+            "id": "spacer1a"
+        },
+        {
+            "id": "spacer1b"
+        },
+        {
+            "id": "hh_es_w_entry_elevator",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "elevatoraction"
+            ],
+            "teleports": [
+                {
+                    "door": "elevator1exit_tp",
+                    "exit": "*.*.elevator1entry_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "grotto1exit_tp",
+                    "exit": "*.*.labentry_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "hh_es_w_wrecked_workshop",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "hh_endersent_boss"
+            ],
+            "teleports": [
+                {
+                    "door": "labentry_tp",
+                    "exit": "*.*.grotto1exit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+                },
+                {
+                    "door": "labexit_tp",
+                    "exit": "*.*.grotto2entry_tp",
+                    "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+                }
+            ],
+            "unlock-keys": [
+                "not EnderEyeHighblockHideaway"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@hh_es_w_wrecked_workshop",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "hh_endersent_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "labentry_tp",
+                    "exit": "*.*.grotto1exit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+                },
+                {
+                    "door": "labexit_tp",
+                    "exit": "*.*.grotto2entry_tp",
+                    "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
+                }
+            ],
+            "unlock-keys": [
+                "EnderEyeHighblockHideaway"
+            ]
+        },
+        {
+            "id": "hh_es_w_exit_elevator",
+            "rotations": [
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "grotto2entry_tp",
+                    "exit": "*.*.labexit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "elevator2entry_tp",
+                    "exit": "*.*.elevator2exit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "spacer2"
+        },
+        {
+            "id": "spacer3"
+        },
+        {
+            "id": "hh_es_w_terrifictunnel1",
+            "rotations": [
+                90
+            ],
+            "teleports": [
+                {
+                    "door": "tunnelstart_tp",
+                    "exit": "*.*.tunnelentry_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "tunnelend_tp",
+                    "exit": "*.*.tunnelexit_tp",
+                    "dungeons": [
+                        "highblockhalls_es_h"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "hh_es_w_terrifictunnel2",
+            "rotations": [
+                180,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "tunnelstart_tp",
+                    "exit": "*.*.tunnelentry_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "tunnelend_tp",
+                    "exit": "*.*.tunnelexit_tp",
+                    "dungeons": [
+                        "highblockhalls_es_h"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "dt_es_t_erratic_entry",
+            "rotations": [
+                0,
+                270
+            ],
+            "teleports": [
+                {
+                    "door": "trueentry_tp",
+                    "exit": "*.*.stairexit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "challenges": [
+                "areyousureyouwantoleave"
+            ]
+        },
+        {
+            "id": "dt_es_t_crushing_crescent_01",
+            "entry-door": "entry",
+            "rotations": [
+                270
+            ],
+            "challenges": [
+                "fountainfight1",
+                "crescent1key"
+            ]
+        },
+        {
+            "id": "dt_es_t_crushing_crescent_02",
+            "entry-door": "entry",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "fountainfight2",
+                "crescent2key"
+            ]
+        },
+        {
+            "id": "dt_es_t_wily_walkway_01",
+            "entry-door": "entry",
+            "rotations": [
+                180
+            ],
+            "challenges": [
+                "multipass1"
+            ]
+        },
+        {
+            "id": "dt_es_t_wily_walkway_02",
+            "entry-door": "entry",
+            "rotations": [
+                90
+            ],
+            "challenges": [
+                "multipass2",
+                "microfight1",
+                "microfight2",
+                "microfight3",
+                "microfight4",
+                "microfight5",
+                "microfight6"
+            ]
+        },
+        {
+            "id": "dt_es_t_laceration_lane_01",
+            "entry-door": "entry",
+            "rotations": [
+                0
+            ]
+        },
+        {
+            "id": "dt_es_t_laceration_lane_02",
+            "entry-door": "entry",
+            "rotations": [
+                270
+            ]
+        },
+        {
+            "id": "dt_es_t_sinister_shrine",
+            "entry-door": "entry",
+            "challenges": [
+                "dt_endersent_boss"
+            ],
+            "unlock-keys": [
+                "not EnderEyeTheTrialOfTheNameless"
+            ]
+        },
+        {
+            "id": "EndersentDefeated@dt_es_t_sinister_shrine",
+            "entry-door": "entry",
+            "challenges": [
+                "dt_endersent_arena"
+            ],
+            "unlock-keys": [
+                "EnderEyeTheTrialOfTheNameless"
+            ]
+        },
+        {
+            "id": "dt_es_t_elevated_exit",
+            "entry-door": "entry",
+            "teleports": [
+                {
+                    "door": "trialend_tp",
+                    "exit": "*.*.trialexit_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
+        },
+        {
+            "id": "dt_es_s_dark_descent_01",
+            "rotations": [
+                0
+            ],
+            "teleports": [
+                {
+                    "door": "trialstart_tp",
+                    "exit": "*.*.trialentry_tp",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                },
+                {
+                    "door": "stairexit_tp",
+                    "exit": "*.*.trueentry_tp",
+                    "dungeons": [
+                        "deserttemple_es_t"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ],
+            "challenges": [
+                "downhillracer"
+            ]
         }
     ],
     "prop-groups": [
@@ -1102,8 +3374,7 @@
                 "rr_rockprop06",
                 "rr_rockprop07",
                 "rr_rockprop08"
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         },
         {
             "id": "deadend",
@@ -1128,51 +3399,46 @@
             "id": "start",
             "tiles": [
                 "dt_start"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "traptiles1",
             "tiles": [
                 "dt_trap_intro"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "arena",
             "tiles": [
                 "dt_arena_optimized"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "end",
             "tiles": [
                 "dt_end"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "pool",
             "tiles": [
-                "dt_pool"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+                "dt_pool",
+                "EndersentDefeated@dt_pool",
+                "dt_pool_alt"
+            ]
         },
         {
             "id": "GDC_Objective001",
             "tiles": [
                 "dt_key_reworked",
                 "secret@dt_key_reworked"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "bathtrans",
             "tiles": [
                 "dt_bathtransition"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "bath",
@@ -1187,8 +3453,7 @@
                 "dt_bath_berg001",
                 "dt_dead001",
                 "dt_dead002"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "common",
@@ -1214,29 +3479,25 @@
                 "dt_dead002",
                 "dt_017",
                 "dt_018"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "exit01",
             "tiles": [
                 "dt_exit01"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "exit02",
             "tiles": [
                 "dt_exit02"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "inventory01",
             "tiles": [
                 "dt_inventory001"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "commonsidepaths",
@@ -1248,8 +3509,7 @@
                 "dt_detour005",
                 "dt_detour006",
                 "dt_detour007"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "deadlytraps",
@@ -1260,8 +3520,7 @@
                 "dt_trap004",
                 "dt_trap005",
                 "dt_trap006"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "mixed_common_traps",
@@ -1293,22 +3552,19 @@
                 "dt_trap004",
                 "dt_trap005",
                 "dt_trap006"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "traveltiles_main",
             "tiles": [
                 "dt_traveltile001"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "traveltile_dungeon",
             "tiles": [
                 "dt_traveltile002"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "trial_bath",
@@ -1322,8 +3578,7 @@
                 "trial_bath001",
                 "trial_bath_small001",
                 "trial_bath_small002"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "trial_tiled_b",
@@ -1353,15 +3608,17 @@
                     "weight": 0.4
                 },
                 "trial_b_special003"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "cross",
             "tiles": [
+                "trial_b_small_cross001",
+                "trial_b_med_cross_a002",
+                "trial_b_med_cross_b001",
+                "trial_b_med_cross_b002",
                 "trial_b_small_cross001"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "underground_small",
@@ -1369,8 +3626,7 @@
                 "underground_small_tile001",
                 "underground_small_tile002",
                 "underground_small_tile003"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "ft_corridor",
@@ -1382,8 +3638,7 @@
                 "ft_corridor_tile005",
                 "ft_corridor_tile006",
                 "ft_corridor_tile007"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "tiny_procedural",
@@ -1396,8 +3651,7 @@
                 "dt_tiny006",
                 "dt_tiny007",
                 "dt_tiny008"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
         },
         {
             "id": "ft_small",
@@ -1407,8 +3661,62 @@
                 "ft_small03",
                 "ft_small04",
                 "ft_small05"
-            ],
-            "##loc": "DesertTemple/tiles.json"
+            ]
+        },
+        {
+            "id": "dt_es_sidepath",
+            "tiles": [
+                {
+                    "id": "dt_es_sidepath_01",
+                    "weight": 0.5
+                },
+                {
+                    "id": "dt_es_sidepath_02",
+                    "weight": 0.5
+                }
+            ]
+        },
+        {
+            "id": "cw_es_sidepath",
+            "tiles": [
+                "cw_es_sidepath_01"
+            ]
+        },
+        {
+            "id": "pp_es_sidepath",
+            "tiles": [
+                "ppe_es_sidepath_01",
+                "ppe_es_sidepath_02"
+            ]
+        },
+        {
+            "id": "mainhall_sidepath",
+            "tiles": [
+                "oldtownhall_sidepath_01",
+                "oldtownhall_sidepath_03",
+                "oldtownhall_sidepath_02",
+                "oldtownhall_sidepath_04",
+                "oldtownhall_sidepath_05"
+            ]
+        },
+        {
+            "id": "ss_es_sidepathtiles01",
+            "tiles": [
+                "ss_es_exit"
+            ]
+        },
+        {
+            "id": "cc_es_sidepath_tiles",
+            "tiles": [
+                "cc_es_sidepath"
+            ]
+        },
+        {
+            "id": "hh_es_sidepath",
+            "tiles": [
+                "hh_es_sidepath_01",
+                "hh_es_sidepath_02"
+            ]
         }
     ],
     "challenges": [
@@ -1429,8 +3737,7 @@
                 "locked-doors": [
                     "objective.*.gate"
                 ]
-            },
-            "##loc": "DesertTemple/tiles.json"
+            }
         },
         {
             "id": "key_lever",
@@ -1445,8 +3752,7 @@
                 "locked-doors": [
                     "objective.*.challengegate"
                 ]
-            },
-            "##loc": "DesertTemple/tiles.json"
+            }
         },
         {
             "id": "lowerlevel_access_clicky",
@@ -1466,8 +3772,7 @@
                 "locked-doors": [
                     "*.*.ll_clicky_platform"
                 ]
-            },
-            "##loc": "DesertTemple/tiles.json"
+            }
         },
         {
             "id": "key_clicky_arena",
@@ -1493,8 +3798,1157 @@
                     ]
                 ],
                 "gate": null
+            }
+        },
+        {
+            "id": "sidepath1switch",
+            "trigger": "*.dt_es_sidepath_01.sidepath1click",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Decor/Prefabs/Door/BP_StoneDoorDown_5",
+                "count": 1,
+                "locations": [
+                    "*.dt_es_sidepath_01.sidepath1button"
+                ],
+                "locked-doors": [
+                    "*.dt_es_sidepath_01.sidepath1exit"
+                ]
+            }
+        },
+        {
+            "id": "sidepath2switch",
+            "trigger": "*.dt_es_sidepath_02.sidepath2click",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Decor/Prefabs/Door/BP_StoneDoorDown_5",
+                "count": 1,
+                "locations": [
+                    "*.dt_es_sidepath_02.sidepath2button"
+                ],
+                "locked-doors": [
+                    "*.dt_es_sidepath_02.sidepath2exit"
+                ]
+            }
+        },
+        {
+            "id": "enderman_arena",
+            "trigger": "*.cw_es_cave_entrance.enderman_arena_trigger",
+            "reward": {
+                "region": "*.cw_es_cave_entrance.enderman_arena_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
             },
-            "##loc": "DesertTemple/tiles.json"
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderman-fight"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "cw_endersent_boss",
+            "trigger": "*.*.endersent_arena_trigger",
+            "reward": {
+                "region": "*.*.endersent_arena_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "cw_endersent_arena",
+            "trigger": "*.*.endersent_arena_trigger",
+            "reward": {
+                "region": "*.*.endersent_arena_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "bareknuckle",
+            "trigger": "*.*.gostraight",
+            "reward": {
+                "region": "*.*.turkey",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "has-music": false,
+                "rest-interval": 3,
+                "start-time": 0.5,
+                "battle-max-duration": 120,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "cw-mixnoanimals"
+                    ],
+                    [
+                        7,
+                        "cw-mixnoanimals"
+                    ],
+                    [
+                        5,
+                        "cw-mixnoanimals"
+                    ],
+                    [
+                        7,
+                        "cw-mixnoanimals"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "givemeasign",
+            "trigger-object": "Decor/Prefabs/GuideBeacon/BP_SignButton",
+            "reward": {
+                "region": "*.*.everybodysgotasecret",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 0,
+                "has-music": false,
+                "rest-interval": 0,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        0,
+                        "cw-mixnoanimals"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "pp_enderling_arena",
+            "trigger": "*.*.pp_enderling_arena_trigger",
+            "reward": {
+                "region": "*.*.pp_enderling_arena_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 22,
+                "rest-interval": 0.5,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "arch-mix"
+                    ],
+                    [
+                        1,
+                        "arch-mix"
+                    ],
+                    [
+                        2,
+                        "arch-mix"
+                    ],
+                    [
+                        3,
+                        "arch-mix"
+                    ],
+                    [
+                        3,
+                        "arch-mix"
+                    ],
+                    [
+                        2,
+                        "arch-mix"
+                    ],
+                    [
+                        1,
+                        "arch-mix"
+                    ],
+                    [
+                        8,
+                        "arch-mix"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "pp_enderman_arena",
+            "trigger": "*.*.pp_enderman_arena_trigger",
+            "reward": {
+                "region": "*.*.pp_enderman_arena_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 7,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        2,
+                        "enderling-mix"
+                    ],
+                    [
+                        5,
+                        "enderling-mix"
+                    ],
+                    [
+                        3,
+                        "enderling-mix"
+                    ],
+                    [
+                        1,
+                        "enderman-mix"
+                    ],
+                    [
+                        1,
+                        "enderman-mix"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "pp_endersent_boss",
+            "trigger": "*.*.pp_endersent_arena_trigger",
+            "reward": {
+                "region": "*.*.pp_endersent_arena_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 7,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "pp_endersent_boss_alt",
+            "trigger": "*.*.pp_endersent_arena_trigger_alt",
+            "arena": {
+                "stretch": "*",
+                "interval": 7,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "pp_endersent_arena",
+            "trigger": "*.*.pp_endersent_arena_trigger",
+            "reward": {
+                "region": "*.*.pp_endersent_arena_reward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 7,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "pp_endersent_arena_alt",
+            "trigger": "*.*.pp_endersent_arena_trigger_alt",
+            "arena": {
+                "stretch": "*",
+                "interval": 7,
+                "rest-interval": 0.5,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "sw_basiccavearena",
+            "trigger": "*.ss_es_tower.cavearena_trigger",
+            "reward": {
+                "region": "*.*.basiccavearena",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 3,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        6,
+                        "swamp-mobs"
+                    ],
+                    [
+                        6,
+                        "swamp-mobs"
+                    ],
+                    [
+                        6,
+                        "swamp-mobs"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "ss_endersent_boss",
+            "trigger": "*.ss_es_cave.endersent_trigger",
+            "reward": {
+                "region": "*.*.ss_es_u_endersentreward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "ss_endersent_arena",
+            "trigger": "*.ss_es_cave.endersent_trigger",
+            "reward": {
+                "region": "*.*.ss_es_u_endersentreward",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "ss_endersent_boss_alt",
+            "trigger": "*.ss_es_cave_alt.endersent_trigger_alt",
+            "reward": {
+                "region": "*.*.ss_es_u_endersentreward_alt",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "ss_endersent_arena_alt",
+            "trigger": "*.ss_es_cave_alt.endersent_trigger_alt",
+            "reward": {
+                "region": "*.*.ss_es_u_endersentreward_alt",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "cc_side_1_arena",
+            "trigger": "*.cc_es_u_side_1.side_1_arena_trigger",
+            "reward": {
+                "region": "*.*.morguerewards",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "canyon-arena-vindicator-variant"
+                    ],
+                    [
+                        6,
+                        "canyon-arena-vindicator-variant"
+                    ],
+                    [
+                        5,
+                        "canyon-arena-vindicator-variant"
+                    ],
+                    [
+                        5,
+                        "canyon-arena-vindicator-variant"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "cc_endersent_boss",
+            "trigger": "*.cc_es_u_crypt.endersent_trigger",
+            "reward": {
+                "region": "*.*.endersentrewards",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "cc_endersent_arena",
+            "trigger": "*.cc_es_u_crypt.endersent_trigger",
+            "reward": {
+                "region": "*.*.endersentrewards",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "only_gold_key",
+            "trigger": "*.*.gold_key_trigger",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "*.*.gold_key_gate"
+                ],
+                "key-locations": [
+                    "*.*.gold_key"
+                ],
+                "key-type": "gold"
+            }
+        },
+        {
+            "id": "silver_key_mission",
+            "trigger": "*.*.silver_key_trigger",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "*.*.silver_key_gate"
+                ],
+                "key-locations": [
+                    "*.*.silver_key1"
+                ],
+                "key-type": "silver"
+            }
+        },
+        {
+            "id": "silver_key_main_hub",
+            "trigger": "*.*.silver_key_hub_trigger",
+            "consider-tiles": "all",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "*.*.silver_gate_hub"
+                ],
+                "key-locations": [
+                    "*.*.silver_key_hub"
+                ],
+                "key-type": "silver"
+            }
+        },
+        {
+            "id": "cc_es_u_grave_arena",
+            "trigger": "*.cc_es_u_side_2.side_2_grave_arena_trigger",
+            "reward": {
+                "region": "*.*.grave_rewards",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "rest-interval": 0.5,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        4,
+                        "canyon-arena-mix"
+                    ],
+                    [
+                        6,
+                        "canyon-arena-mix"
+                    ],
+                    [
+                        5,
+                        "zombie-rush"
+                    ],
+                    [
+                        5,
+                        "desert-mix-husk-variant"
+                    ],
+                    [
+                        5,
+                        "desert-mix-husk-variant"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/_Ice_DesignAssets/BP_Door_Winter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "accessallareas",
+            "trigger": "*.*.backstage",
+            "click": {
+                "object": "Decor/Prefabs/GuideBeacon/BP_DoorLever",
+                "door-path": "Decor/Prefabs/Door/BP_StoneDoorDown_5",
+                "count": 1,
+                "locations": [
+                    "*.*.cabinexitclick"
+                ],
+                "locked-doors": [
+                    "*.*.bathroomwall"
+                ]
+            }
+        },
+        {
+            "id": "readingisfun",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_BookButton",
+            "reward": {
+                "region": "*.*.libraryloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 0,
+                "has-music": false,
+                "rest-interval": 0,
+                "start-time": 0,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        0,
+                        "enderbois"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "sculleryscam",
+            "trigger-object": "Decor/Prefabs/GuideBeacon/BP_DoorLever",
+            "reward": {
+                "region": "*.*.sculleryloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "has-music": false,
+                "rest-interval": 3,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "enderbois"
+                    ],
+                    [
+                        3,
+                        "enderbois"
+                    ],
+                    [
+                        4,
+                        "enderbois"
+                    ],
+                    [
+                        5,
+                        "enderbois"
+                    ],
+                    [
+                        5,
+                        "enderbois"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "elevatoraction",
+            "trigger": "*.*.goingdown",
+            "reward": {
+                "region": "*.*.downloot",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "originalenderman"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "hh_endersent_boss",
+            "trigger": "*.*.likeaboss",
+            "reward": {
+                "region": "*.*.bossloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "hh_endersent_arena",
+            "trigger": "*.*.likeaboss",
+            "reward": {
+                "region": "*.*.bossloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "dt_endersent_boss",
+            "trigger": "*.*.likeaboss",
+            "reward": {
+                "region": "*.*.bossloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "enderboss"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "dt_endersent_arena",
+            "trigger": "*.*.likeaboss",
+            "reward": {
+                "region": "*.*.bossloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "recurring_endersent"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "crescent1key",
+            "trigger": "*.*.crescent1keytrigger",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Gold_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "*.*.crescent1gate"
+                ],
+                "key-locations": [
+                    "*.*.crescent1key"
+                ],
+                "key-type": "gold"
+            }
+        },
+        {
+            "id": "crescent2key",
+            "trigger": "*.*.crescent2keytrigger",
+            "click": {
+                "object": "Decor/Prefabs/DoorExit/BP_DoorLocked_Silver_DesertTemple",
+                "count": 1,
+                "locations": [
+                    "*.*.crescent2gate"
+                ],
+                "key-locations": [
+                    "*.*.crescent2key"
+                ],
+                "key-type": "silver"
+            }
+        },
+        {
+            "id": "fountainfight1",
+            "trigger": "*.*.slipperywhenwet1",
+            "reward": {
+                "region": "*.*.fountainloot1",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "has-music": false,
+                "rest-interval": 3,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "enderbois"
+                    ],
+                    [
+                        4,
+                        "enderbois"
+                    ],
+                    [
+                        5,
+                        "enderbois"
+                    ],
+                    [
+                        6,
+                        "enderbois"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "fountainfight2",
+            "trigger": "*.*.slipperywhenwet2",
+            "reward": {
+                "region": "*.*.fountainloot2",
+                "object": "Decor/Prefabs/RewardChest/BP_WoodenChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 4,
+                "has-music": false,
+                "rest-interval": 3,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        3,
+                        "enderbois"
+                    ],
+                    [
+                        4,
+                        "enderbois"
+                    ],
+                    [
+                        5,
+                        "enderbois"
+                    ],
+                    [
+                        6,
+                        "enderbois"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "multipass1",
+            "trigger": "*.*.viplounge1",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Decor/Prefabs/Door/BP_StoneDoorDown_5",
+                "count": 3,
+                "locations": [
+                    "*.*.multipassclick1"
+                ],
+                "locked-doors": [
+                    "*.*.walkway1gate"
+                ]
+            }
+        },
+        {
+            "id": "multipass2",
+            "trigger": "*.*.viplounge2",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Decor/Prefabs/Door/BP_StoneDoorDown_5",
+                "count": 3,
+                "locations": [
+                    "*.*.multipassclick2"
+                ],
+                "locked-doors": [
+                    "*.*.walkway2gate"
+                ]
+            }
+        },
+        {
+            "id": "areyousureyouwantoleave",
+            "trigger": "*.*.goaheadandleave",
+            "click": {
+                "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Button_Temple",
+                "door-path": "Decor/Prefabs/Door/BP_StoneDoorDown_5",
+                "count": 2,
+                "locations": [
+                    "*.*.iwouldntdothat"
+                ],
+                "locked-doors": [
+                    "*.*.getouttahere"
+                ]
+            }
+        },
+        {
+            "id": "downhillracer",
+            "trigger": "*.*.stairwayscrap",
+            "reward": {
+                "region": "*.*.scraploot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "has-music": false,
+                "rest-interval": 15,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "originalenderman"
+                    ],
+                    [
+                        1,
+                        "originalenderman"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "microfight1",
+            "trigger": "*.*.miniarena1",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "TTOTN TM1"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "microfight2",
+            "trigger": "*.*.miniarena2",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "TTOTN TM2"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "microfight3",
+            "trigger": "*.*.miniarena3",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "TTOTN TM3"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "microfight4",
+            "trigger": "*.*.miniarena4",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "TTOTN TM4"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "microfight5",
+            "trigger": "*.*.miniarena5",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "TTOTN TM5"
+                    ]
+                ],
+                "gate": null
+            }
+        },
+        {
+            "id": "microfight6",
+            "trigger": "*.*.miniarena6",
+            "arena": {
+                "stretch": "*",
+                "interval": 1,
+                "has-music": false,
+                "rest-interval": 1,
+                "start-time": 0.5,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        5,
+                        "TTOTN TM1"
+                    ]
+                ],
+                "gate": null
+            }
         }
     ],
     "dungeons": [
@@ -1532,8 +4986,7 @@
                         }
                     }
                 }
-            ],
-            "##loc": "deserttemple/deserttemple.json"
+            ]
         },
         {
             "id": "secret_chestroom",
@@ -1544,8 +4997,7 @@
                         "dt_secret_chestroom01"
                     ]
                 }
-            ],
-            "##loc": "deserttemple/deserttemple.json"
+            ]
         },
         {
             "id": "cave001",
@@ -1590,8 +5042,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "deserttemple/dungeon1.json"
+            ]
         },
         {
             "id": "trial_gauntlet001",
@@ -1807,8 +5258,7 @@
                         "trial_b_deadend005"
                     ]
                 }
-            ],
-            "##loc": "deserttemple/dungeons_gauntlet.json"
+            ]
         },
         {
             "id": "trial_gauntlet002",
@@ -2086,8 +5536,7 @@
                         "trial_b_deadend005"
                     ]
                 }
-            ],
-            "##loc": "deserttemple/dungeons_gauntlet.json"
+            ]
         },
         {
             "id": "trial_gauntlet003",
@@ -2118,8 +5567,648 @@
                         "ft_deadend01"
                     ]
                 }
-            ],
-            "##loc": "deserttemple/dungeons_gauntlet.json"
+            ]
+        },
+        {
+            "id": "creeperwoods_es_cave",
+            "ambience": "bravo",
+            "audio-ambience": "audio_10",
+            "stretches": [
+                {
+                    "tiles": [
+                        "cw_es_c_plunging_pothole"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cw-mixnoanimals"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "cw_es_c_crazy_cavity",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "cw_es_c_crazy_cavity_02",
+                            "weight": 0.5
+                        }
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cw-mixnoanimals"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "cw_es_cave"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "cw-mixnoanimals"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "cw_es_cave_arena",
+                        "EndersentDefeated@cw_es_cave_arena"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "miniarea-singles"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "pumpkinpastures_es_oldtownhall",
+            "ambience": "foxtrot",
+            "audio-ambience": "audio_9",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "oldtownhall_entrance"
+                    ],
+                    "mobs": {
+                        "density": 0.5,
+                        "only": [
+                            "enderling-mix"
+                        ]
+                    }
+                },
+                {
+                    "id": "MainHall_01",
+                    "tiles": [
+                        "oldtownhall_chunk_02",
+                        "oldtownhall_chunk_01",
+                        "oldtownhall_chunk_04",
+                        "oldtownhall_chunk_05",
+                        "oldtownhall_chunk_03"
+                    ],
+                    "length": 2,
+                    "mobs": {
+                        "density": 0.5,
+                        "only": [
+                            "enderling-mix"
+                        ]
+                    },
+                    "dead-ends": [
+                        "oldtownhall_deadend_01",
+                        "oldtownhall_deadend_02",
+                        "oldtownhall_deadend_03",
+                        "oldtownhall_deadend_04",
+                        "oldtownhall_deadend_05"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                2,
+                                2
+                            ],
+                            "dead-ends": [
+                                "oldtownhall_deadend_01",
+                                "oldtownhall_deadend_02",
+                                "oldtownhall_deadend_03",
+                                "oldtownhall_deadend_04",
+                                "oldtownhall_deadend_05"
+                            ],
+                            "tile-groups": [
+                                "mainhall_sidepath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        "oldtownhall_middle"
+                    ],
+                    "mobs": {
+                        "density": 0.6,
+                        "only": [
+                            "enderling-mix"
+                        ]
+                    }
+                },
+                {
+                    "id": "MainHall_02",
+                    "tiles": [
+                        "oldtownhall_chunk_01",
+                        "oldtownhall_chunk_02",
+                        "oldtownhall_chunk_03",
+                        "oldtownhall_chunk_04",
+                        "oldtownhall_chunk_05"
+                    ],
+                    "length": 0,
+                    "mobs": {
+                        "density": 0.5,
+                        "only": [
+                            "enderling-mix"
+                        ]
+                    },
+                    "dead-ends": [
+                        "oldtownhall_deadend_01",
+                        "oldtownhall_deadend_02",
+                        "oldtownhall_deadend_03",
+                        "oldtownhall_deadend_04",
+                        "oldtownhall_deadend_05"
+                    ],
+                    "side-paths": {
+                        "probability": 1,
+                        "default": {
+                            "max-length": [
+                                2,
+                                2
+                            ],
+                            "dead-ends": [
+                                "oldtownhall_deadend_01",
+                                "oldtownhall_deadend_02",
+                                "oldtownhall_deadend_03",
+                                "oldtownhall_deadend_04",
+                                "oldtownhall_deadend_05"
+                            ],
+                            "tile-groups": [
+                                "mainhall_sidepath"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "oldtownhall_lift_alt",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "oldtownhall_lift",
+                            "weight": 0.5
+                        }
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "zombie-rush"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "pumpkinpastures_es_shelter",
+            "ambience": "alpha",
+            "audio-ambience": "audio_10",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "oldtownhall_under_lift"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderling-mix"
+                        ]
+                    }
+                },
+                {
+                    "id": "shelter_tunnel",
+                    "tiles": [
+                        "oldtownhall_tunnel_01",
+                        "oldtownhall_tunnel_02",
+                        "oldtownhall_tunnel_03"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "tunnel-mix"
+                        ]
+                    },
+                    "length": 3,
+                    "dead-ends": [
+                        "oldtownhall_deadend_filler"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "oldtownhall_shelter_alt",
+                        "oldtownhall_shelter",
+                        "EndersentDefeated@oldtownhall_shelter",
+                        "EndersentDefeated@oldtownhall_shelter_alt"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderling-mix"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "soggyswamp_es_tower",
+            "ambience": "bravo",
+            "audio-ambience": "audio_10",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "ss_es_tower"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "snareling-swampies"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "ss_es_cave",
+                        "EndersentDefeated@ss_es_cave",
+                        "ss_es_cave_alt",
+                        "EndersentDefeated@ss_es_cave_alt"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cacticanyon_es_undercroft",
+            "ambience": "echo",
+            "audio-ambience": "audio_10",
+            "fill": "only-doors",
+            "stretches": [
+                {
+                    "tiles": [
+                        "cc_es_u_hub"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "desert-mix-husk-variant"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "spacer_cc_es_2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cc_es_u_side_1"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "zombie-rush-skeleton-variant"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "spacer_cc_es_2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cc_es_u_side_2"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "canyon-arena-vindicator-variant"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "spacer_cc_es_2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer_cc_es_2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cc_es_u_crypt",
+                        "EndersentDefeated@cc_es_u_crypt"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "zombie-rush-skeleton-variant"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "spacer_cc_es_2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "cc_es_u_storage_room"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "highblockhalls_es_h",
+            "ambience": "alpha",
+            "audio-ambience": "audio_10",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        5,
+                        5,
+                        5
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        "hh_es_h_tunnel_terminal"
+                    ],
+                    "mobs": {
+                        "density": 0.75,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "spacer1"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer1a"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer1b"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "hh_es_h_highblock_hideaway"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "highblockhalls_es_w",
+            "ambience": "foxtrot",
+            "audio-ambience": "audio_10",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        5,
+                        5,
+                        5
+                    ]
+                }
+            },
+            "stretches": [
+                {
+                    "tiles": [
+                        {
+                            "id": "hh_es_w_terrifictunnel1",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "hh_es_w_terrifictunnel2",
+                            "weight": 0.5
+                        }
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "spacer3"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer3"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "hh_es_w_entry_elevator"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer3"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "hh_es_w_wrecked_workshop",
+                        "EndersentDefeated@hh_es_w_wrecked_workshop"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "spacer3"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer2"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "spacer3"
+                    ]
+                },
+                {
+                    "tiles": [
+                        "hh_es_w_exit_elevator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "deserttemple_es_t",
+            "ambience": "alpha",
+            "audio-ambience": "audio_10",
+            "stretches": [
+                {
+                    "tiles": [
+                        "dt_es_t_erratic_entry"
+                    ],
+                    "mobs": {
+                        "density": 0.75,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "dt_es_t_crushing_crescent_01",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "dt_es_t_crushing_crescent_02",
+                            "weight": 0.5
+                        }
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "dt_es_t_wily_walkway_01",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "dt_es_t_wily_walkway_02",
+                            "weight": 0.5
+                        }
+                    ],
+                    "mobs": {
+                        "density": 0.75,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        {
+                            "id": "dt_es_t_laceration_lane_01",
+                            "weight": 0.5
+                        },
+                        {
+                            "id": "dt_es_t_laceration_lane_02",
+                            "weight": 0.5
+                        }
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "dt_es_t_sinister_shrine",
+                        "EndersentDefeated@dt_es_t_sinister_shrine"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                },
+                {
+                    "tiles": [
+                        "dt_es_t_elevated_exit"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "deserttemple_es_s",
+            "ambience": "alpha",
+            "audio-ambience": "audio_10",
+            "stretches": [
+                {
+                    "tiles": [
+                        "dt_es_s_dark_descent_01"
+                    ],
+                    "mobs": {
+                        "density": 1,
+                        "only": [
+                            "enderbois"
+                        ]
+                    }
+                }
+            ]
         },
         {
             "id": "runeroom01",
@@ -2132,8 +6221,7 @@
                     ],
                     "audio-ambience": "audio_1"
                 }
-            ],
-            "##loc": "runeroom/rr_dungeons.json"
+            ]
         },
         {
             "id": "runeroom02",
@@ -2154,8 +6242,7 @@
                         "rr_runeroom001"
                     ]
                 }
-            ],
-            "##loc": "runeroom/rr_dungeons.json"
+            ]
         }
     ]
 }

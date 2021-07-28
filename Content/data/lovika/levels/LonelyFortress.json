@@ -22,7 +22,7 @@
     "require-matching-doors": true,
     "default-mobs": {
         "only": [
-            "fortress-mix-easy"
+            "fortress-mobs"
         ],
         "density": 1
     },
@@ -41,8 +41,7 @@
                     "exit": "*.lf_foyer_alt.travel_bailey",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
                 }
-            ],
-            "##loc": "sub_bailey/sub_bailey_tiles.json"
+            ]
         },
         {
             "id": "dining_hall",
@@ -58,8 +57,7 @@
                     "exit": "*.lf_lobby_sidepath_00.travel_dining",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
                 }
-            ],
-            "##loc": "sub_dininghall/sub_dininghall_tiles.json"
+            ]
         },
         {
             "id": "dun_start_v2",
@@ -72,20 +70,17 @@
                     "exit": "*.lf_staircase_alt.travel_dungeon",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
                 }
-            ],
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            ]
         },
         {
             "id": "dun_corridor2",
-            "entry-door": "enter",
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "dun_stairs",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            ]
         },
         {
             "id": "dun_end",
@@ -94,8 +89,7 @@
                 "icedungeon_clicky_arena_2",
                 "icedungeon_clicky_arena_3",
                 "icedungeon_clicky_arena_4"
-            ],
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            ]
         },
         {
             "id": "wall_stretch",
@@ -117,8 +111,7 @@
                     "exit": "*.lf_battlements_exit.travel_battlements_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_battlements/sub_battlements_tiles.json"
+            ]
         },
         {
             "id": "staff_start",
@@ -130,22 +123,19 @@
                     "door": "staff_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_staff/sub_staff_tiles.json"
+            ]
         },
         {
             "id": "staff_end",
             "challenges": [
                 "staff_arena"
-            ],
-            "##loc": "sub_staff/sub_staff_tiles.json"
+            ]
         },
         {
             "id": "staff_end_alt",
             "challenges": [
                 "staff_arena_alt"
-            ],
-            "##loc": "sub_staff/sub_staff_tiles.json"
+            ]
         },
         {
             "id": "royal_hallway",
@@ -162,8 +152,7 @@
                     "exit": "*.royal_room.royal_rooms",
                     "object": "Decor/Prefabs/DoorTravel/GenericDoor/BP_GenericTravelDoor"
                 }
-            ],
-            "##loc": "sub_royalquarters/sub_royalquarters_tiles.json"
+            ]
         },
         {
             "id": "royal_room",
@@ -181,19 +170,16 @@
             ],
             "challenges": [
                 "royal-arena-2"
-            ],
-            "##loc": "sub_royalquarters/sub_royalquarters_tiles.json"
+            ]
         },
         {
             "id": "lf_start",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_foyer",
             "rotations": 270,
-            "entry-door": "enter_001",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_001"
         },
         {
             "id": "lf_foyer_alt",
@@ -208,8 +194,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_lobby_sidepath_00",
@@ -223,22 +208,19 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_foyer_stairs_bridge",
             "rotations": [
                 180,
                 270
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_staircase_og",
             "rotations": 270,
-            "entry-door": "enter_004",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_004"
         },
         {
             "id": "lf_staircase_alt",
@@ -253,56 +235,47 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_bridge_01",
             "rotations": 270,
-            "entry-door": "enter_006",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_006"
         },
         {
             "id": "lf_bridge_view_blocker",
             "rotations": 270,
-            "entry-door": "enter_007",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_007"
         },
         {
             "id": "lf_courtyard_02",
             "rotations": 270,
-            "entry-door": "enter_008",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_008"
         },
         {
             "id": "lf_library",
             "rotations": 270,
-            "entry-door": "enter_009",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_009"
         },
         {
             "id": "lf_library_02",
             "rotations": 270,
-            "entry-door": "enter_010",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_010"
         },
         {
             "id": "lf_courtyard_03",
             "rotations": 270,
-            "entry-door": "enter_011",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_011"
         },
         {
             "id": "lf_courtyard_04",
             "rotations": 270,
-            "entry-door": "enter_012",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_012"
         },
         {
             "id": "lf_bridge_02",
             "rotations": 270,
-            "entry-door": "enter_013",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_013"
         },
         {
             "id": "lf_battlements_enter",
@@ -316,8 +289,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_battlements_exit",
@@ -327,8 +299,7 @@
                     "door": "travel_battlements_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_gallery",
@@ -337,8 +308,7 @@
             "challenges": [
                 "gate_key",
                 "gallery_arena"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_staff_deadend",
@@ -355,8 +325,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_lavish_deadend",
@@ -373,180 +342,150 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_lobby_spacer",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_02_alt_02",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
-            "id": "lf_sidepath_deadend_room",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "id": "lf_sidepath_deadend_room"
         },
         {
-            "id": "lf_sidepath_deadend_room_right",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "id": "lf_sidepath_deadend_room_right"
         },
         {
             "id": "lf_throne_room",
-            "entry-door": "enter_018",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_018"
         },
         {
             "id": "lf_sidepath_02",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_01",
             "entry-door": "enter_101",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_02_alt_03",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_corner_l_d",
             "entry-door": "enter_102",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_corner_r_d",
             "entry-door": "enter_103",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_corner_l_a",
             "entry-door": "enter_104",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_t",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_drawing_room_r",
             "challenges": [
                 "lf_drawing_room_r_trap",
                 "lf_drawing_room_r_trap_2"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_drawing_room_l",
             "challenges": [
                 "lf_drawing_room_l_trap",
                 "lf_drawing_room_l_trap_2"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_deadend_02",
             "challenges": [
                 "chess_trap_01"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_sidepath_library_01",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_library_02",
             "rotations": 270,
             "challenges": [
                 "sidepath_library_02_trap"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_sidepath_library_l_01",
             "entry-door": "enter_200",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_library_l_02",
             "entry-door": "enter_201",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
             "id": "lf_sidepath_library_r_01",
-            "entry-door": "enter_202",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_202"
         },
         {
             "id": "lf_sidepath_library_r_02",
-            "entry-door": "enter_203",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "entry-door": "enter_203"
         },
         {
             "id": "lf_sidepath_library_deadend_l",
-            "rotations": 270,
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "rotations": 270
         },
         {
-            "id": "lf_sidepath_library_deadend_r",
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            "id": "lf_sidepath_library_deadend_r"
         },
         {
             "id": "lf_sidepath_gall_corner_01",
             "rotations": [
                 0,
                 270
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_music_room_l_01",
             "challenges": [
                 "music_trap"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_deadend_gall_01",
             "challenges": [
                 "deadend_trap_01"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_deadend_gall_02",
             "challenges": [
                 "deadend_trap_02"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_deadend_gall_03",
             "challenges": [
                 "deadend_trap_03"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_deadend_07",
             "challenges": [
                 "deadend_trap_07"
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         }
     ],
     "stretches": [
@@ -577,7 +516,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "fortress-mix-easy"
+                    "fortress-mobs"
                 ]
             },
             "dead-ends": [
@@ -699,7 +638,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "fortress-mix-med"
+                    "fortress-mobs"
                 ]
             },
             "dead-ends": [
@@ -783,8 +722,7 @@
                         "*.bailey.gate2"
                     ]
                 }
-            },
-            "##loc": "sub_bailey/sub_bailey_tiles.json"
+            }
         },
         {
             "id": "dininghall_arena",
@@ -829,8 +767,7 @@
                     "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_dininghall/sub_dininghall_tiles.json"
+            }
         },
         {
             "id": "icedungeon_clicky_arena_1",
@@ -845,16 +782,15 @@
                 "waves": [
                     [
                         8,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            }
         },
         {
             "id": "icedungeon_clicky_arena_2",
@@ -868,20 +804,19 @@
                 "waves": [
                     [
                         8,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            }
         },
         {
             "id": "icedungeon_clicky_arena_3",
@@ -895,16 +830,15 @@
                 "waves": [
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         10,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            }
         },
         {
             "id": "icedungeon_clicky_arena_4",
@@ -919,56 +853,55 @@
                 "waves": [
                     [
                         2,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         2,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         1,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         1,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         2,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         1,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         2,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         1,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         2,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_icedungeon/sub_icedungeon_tiles.json"
+            }
         },
         {
             "id": "battlements_key",
@@ -984,8 +917,7 @@
                     "*.*.key"
                 ],
                 "key-type": "silver"
-            },
-            "##loc": "sub_battlements/sub_battlements_tiles.json"
+            }
         },
         {
             "id": "battlements_arena",
@@ -1010,8 +942,7 @@
                     "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_battlements/sub_battlements_tiles.json"
+            }
         },
         {
             "id": "staff_arena",
@@ -1029,7 +960,7 @@
                 "waves": [
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
@@ -1037,7 +968,7 @@
                     ],
                     [
                         8,
-                        "staff-mix"
+                        "fortress-arena"
                     ],
                     [
                         10,
@@ -1051,8 +982,7 @@
                         "*.staff_end.gate_1"
                     ]
                 }
-            },
-            "##loc": "sub_staff/sub_staff_tiles.json"
+            }
         },
         {
             "id": "staff_arena_alt",
@@ -1066,7 +996,7 @@
                 "waves": [
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
@@ -1074,7 +1004,7 @@
                     ],
                     [
                         8,
-                        "staff-mix"
+                        "fortress-arena"
                     ],
                     [
                         10,
@@ -1090,8 +1020,7 @@
                         "*.staff_end_alt.gate_3"
                     ]
                 }
-            },
-            "##loc": "sub_staff/sub_staff_tiles.json"
+            }
         },
         {
             "id": "royal-arena-2",
@@ -1105,7 +1034,7 @@
                 "waves": [
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         2,
@@ -1113,7 +1042,7 @@
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         3,
@@ -1121,7 +1050,7 @@
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
@@ -1131,8 +1060,7 @@
                         "*.royal_room.gate"
                     ]
                 }
-            },
-            "##loc": "sub_royalquarters/sub_royalquarters_tiles.json"
+            }
         },
         {
             "id": "gallery_arena",
@@ -1148,23 +1076,22 @@
                 "waves": [
                     [
                         10,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         12,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         15,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssets/BP_DoorWinter_9",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "sidepath_library_02_trap",
@@ -1182,23 +1109,22 @@
                 "waves": [
                     [
                         5,
-                        "fortress-mix-med"
+                        "fortress-mobs"
                     ],
                     [
                         4,
-                        "fortress-mix-med"
+                        "fortress-mobs"
                     ],
                     [
                         6,
-                        "fortress-mix-med"
+                        "fortress-mobs"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssetsBP_DoorWinter_9",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "gate_key",
@@ -1213,8 +1139,7 @@
                     "*.lf_gallery.obj_silver_key"
                 ],
                 "key-type": "silver"
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "deadend_trap_01",
@@ -1232,30 +1157,29 @@
                 "waves": [
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "chess_trap_01",
@@ -1273,30 +1197,29 @@
                 "waves": [
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "music_trap",
@@ -1314,8 +1237,7 @@
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "deadend_trap_02",
@@ -1333,30 +1255,29 @@
                 "waves": [
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "deadend_trap_03",
@@ -1374,30 +1295,29 @@
                 "waves": [
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "deadend_trap_07",
@@ -1411,22 +1331,21 @@
                 "waves": [
                     [
                         5,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         4,
-                        "arena-mix"
+                        "fortress-arena"
                     ],
                     [
                         6,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "start-unlocked": true
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "lf_drawing_room_r_trap",
@@ -1439,7 +1358,7 @@
                 ],
                 "mobs": [
                     1,
-                    "arena-mix"
+                    "fortress-arena"
                 ],
                 "spawn-regions": [
                     "key_quest.lf_drawing_room_r.*"
@@ -1447,8 +1366,7 @@
                 "locked-doors": [
                     "*.lf_drawing_room_r.key_gate"
                 ]
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "lf_drawing_room_r_trap_2",
@@ -1462,14 +1380,13 @@
                 "waves": [
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "start-unlocked": false
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "lf_drawing_room_l_trap",
@@ -1482,7 +1399,7 @@
                 ],
                 "mobs": [
                     1,
-                    "arena-mix"
+                    "fortress-arena"
                 ],
                 "spawn-regions": [
                     "key_quest.lf_drawing_room_l.*"
@@ -1490,8 +1407,7 @@
                 "locked-doors": [
                     "*.lf_drawing_room_l.key_gate"
                 ]
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         },
         {
             "id": "lf_drawing_room_l_trap_2",
@@ -1505,14 +1421,13 @@
                 "waves": [
                     [
                         3,
-                        "arena-mix"
+                        "fortress-arena"
                     ]
                 ],
                 "gate": {
                     "start-unlocked": false
                 }
-            },
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            }
         }
     ],
     "objectives": [
@@ -1620,8 +1535,7 @@
             "tiles": [
                 "staff_end_alt",
                 "staff_end"
-            ],
-            "##loc": "sub_staff/sub_staff_tiles.json"
+            ]
         },
         {
             "#": "foyer_sidepath",
@@ -1643,8 +1557,7 @@
                     "id": "lf_sidepath_t",
                     "weight": 0.03
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "#": "library_sidepath",
@@ -1666,8 +1579,7 @@
                     "id": "lf_sidepath_library_r_02",
                     "weight": 0.25
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "#": "later_sidepath",
@@ -1693,8 +1605,7 @@
                     "id": "lf_sidepath_gall_03",
                     "weight": 0.2
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         }
     ],
     "prop-groups": [
@@ -1757,8 +1668,7 @@
                     "id": "wall7_battlements",
                     "weight": 1
                 }
-            ],
-            "##loc": "sub_battlements/sub_battlements_tiles.json"
+            ]
         },
         {
             "id": "wall_group2",
@@ -1811,8 +1721,7 @@
                     "id": "wall06_battlements",
                     "weight": 1
                 }
-            ],
-            "##loc": "sub_battlements/sub_battlements_tiles.json"
+            ]
         },
         {
             "id": "pillar",
@@ -1829,8 +1738,7 @@
                     "id": "pillar3",
                     "weight": 1
                 }
-            ],
-            "##loc": "LonelyFortress/LonelyFortress.json"
+            ]
         },
         {
             "id": "lf_foyer",
@@ -1961,140 +1869,132 @@
     ],
     "mob-groups": [
         {
-            "#": "============== FORTRESS MIX EASY ==============",
-            "id": "fortress-mix-easy",
+            "#": "============== FORTRESS MOBS ==============",
+            "id": "fortress-mobs",
             "types": [
                 {
-                    "type": "Vindicator",
-                    "weight": 0.1
-                },
-                {
-                    "type": "Pillager",
-                    "weight": 0.1
-                },
-                {
-                    "type": "FrozenZombie",
-                    "weight": 0.4
-                },
-                {
-                    "type": "Enchanter",
-                    "weight": 0.1,
-                    "max%": 0.1
-                },
-                {
-                    "type": "chillager",
-                    "weight": 0.1,
-                    "max%": 0.1
-                },
-                {
-                    "type": "Stray",
-                    "weight": 0.3
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
-        },
-        {
-            "#": "============== FORTRESS MIX MEDIUM ==============",
-            "id": "fortress-mix-med",
-            "types": [
-                {
-                    "type": "FrozenZombie",
-                    "weight": 0.15
-                },
-                {
-                    "type": "Vindicator",
-                    "weight": 0.1
-                },
-                {
-                    "type": "Pillager",
-                    "weight": 0.1
-                },
-                {
-                    "type": "icycreeper",
-                    "weight": 0.15,
-                    "max%": 0.4
-                },
-                {
-                    "type": "RoyalGuard",
-                    "weight": 0.1,
-                    "max%": 0.2
-                },
-                {
-                    "type": "Enchanter",
-                    "weight": 0.1,
-                    "max%": 0.05
-                },
-                {
-                    "type": "chillager",
-                    "weight": 0.1,
-                    "max%": 0.2
-                },
-                {
-                    "type": "Stray",
-                    "weight": 0.2
-                }
-            ],
-            "pick-types": [
-                5,
-                7
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
-        },
-        {
-            "#": "============== FORTRESS MIX HARD ==============",
-            "id": "fortress-mix-hard",
-            "types": [
-                {
-                    "type": "Vindicator",
-                    "weight": 0.05
-                },
-                {
-                    "type": "Pillager",
-                    "weight": 0.05
-                },
-                {
-                    "type": "FrozenZombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "icycreeper",
-                    "weight": 0.15,
-                    "max%": 0.2
-                },
-                {
-                    "type": "RoyalGuard",
-                    "weight": 0.2,
-                    "max%": 0.4
-                },
-                {
-                    "type": "Wraith",
-                    "weight": 0.15,
+                    "type": "skeletonvanguard",
+                    "weight": 2,
                     "max%": 0.3
                 },
                 {
-                    "type": "Enchanter",
-                    "weight": 0.05,
-                    "max%": 0.05
+                    "type": "Pillager",
+                    "weight": 5
                 },
                 {
-                    "type": "chillager",
-                    "weight": 0.2,
-                    "max%": 0.2
+                    "type": "RoyalGuard",
+                    "weight": 5,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Skeleton",
+                    "weight": 2
+                },
+                {
+                    "type": "Zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 5
                 },
                 {
                     "type": "Stray",
-                    "weight": 0.1
+                    "weight": 7
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 7
+                },
+                {
+                    "type": "chillager",
+                    "weight": 2,
+                    "max%": 0.1
+                },
+                {
+                    "type": "Wraith",
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 2,
+                    "max%": 0.3
                 }
             ],
             "pick-types": [
-                4,
-                8
+                3,
+                5
+            ]
+        },
+        {
+            "#": "============== FORTRESS ARENA MIX ==============",
+            "id": "fortress-arena",
+            "types": [
+                {
+                    "type": "Pillager",
+                    "weight": 5
+                },
+                {
+                    "type": "RoyalGuard",
+                    "weight": 5,
+                    "max%": 0.3
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Skeleton",
+                    "weight": 2
+                },
+                {
+                    "type": "Zombie",
+                    "weight": 2
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 5
+                },
+                {
+                    "type": "Stray",
+                    "weight": 7
+                },
+                {
+                    "type": "FrozenZombie",
+                    "weight": 7
+                },
+                {
+                    "type": "chillager",
+                    "weight": 2,
+                    "max%": 0.1
+                },
+                {
+                    "type": "Wraith",
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "Enchanter",
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 2,
+                    "max%": 0.3
+                }
             ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            "pick-types": [
+                3,
+                4
+            ]
         },
         {
             "#": "============== ARROW SURPRISE ==============",
@@ -2102,18 +2002,17 @@
             "types": [
                 {
                     "type": "skeleton",
-                    "weight": 0.3
+                    "weight": 5
                 },
                 {
                     "type": "Stray",
-                    "weight": 0.7
+                    "weight": 5
+                },
+                {
+                    "type": "Skeleton",
+                    "weight": 2
                 }
-            ],
-            "pick-types": [
-                2,
-                2
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         },
         {
             "#": "============== LIBRARY MIX ==============",
@@ -2121,70 +2020,34 @@
             "types": [
                 {
                     "type": "zombie",
-                    "weight": 1
+                    "weight": 5
                 },
                 {
                     "type": "SlimeSmall",
-                    "weight": 1
+                    "weight": 2
                 },
                 {
                     "type": "spider",
-                    "weight": 0.5,
+                    "weight": 5,
                     "max%": 0.4
                 },
                 {
                     "type": "Stray",
-                    "weight": 1
+                    "weight": 5
+                },
+                {
+                    "type": "Skeleton",
+                    "weight": 2
+                },
+                {
+                    "type": "Zombie",
+                    "weight": 2
                 }
             ],
             "pick-types": [
                 3,
                 4
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX ==============",
-            "id": "arena-mix",
-            "types": [
-                {
-                    "type": "icycreeper",
-                    "weight": 0.15,
-                    "max%": 0.4
-                },
-                {
-                    "type": "Frozenzombie",
-                    "weight": 0.25
-                },
-                {
-                    "type": "Pillager",
-                    "weight": 0.1
-                },
-                {
-                    "type": "Enchanter",
-                    "weight": 0.1,
-                    "max%": 0.05
-                },
-                {
-                    "type": "chillager",
-                    "weight": 0.2,
-                    "max%": 0.2
-                },
-                {
-                    "type": "RoyalGuard",
-                    "weight": 0.05,
-                    "max%": 0.2
-                },
-                {
-                    "type": "Stray",
-                    "weight": 0.15
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         },
         {
             "#": "============== JOE MIX 1 ==============",
@@ -2198,8 +2061,7 @@
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         },
         {
             "#": "============== JOE MIX 2 ==============",
@@ -2213,8 +2075,7 @@
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         },
         {
             "#": "============== CARA MIX ==============",
@@ -2222,14 +2083,17 @@
             "types": [
                 {
                     "type": "stray",
-                    "weight": 1
+                    "weight": 5
+                },
+                {
+                    "type": "Skeleton",
+                    "weight": 5
                 }
             ],
             "pick-types": [
-                1,
-                1
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+                2,
+                2
+            ]
         },
         {
             "#": "============== ROYAL GUARDS ==============",
@@ -2243,45 +2107,47 @@
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         },
         {
             "#": "============== SUB-STAFF MIX ==============",
             "id": "staff-mix",
             "types": [
                 {
-                    "type": "Vindicator",
-                    "weight": 0.2
+                    "type": "vindicatorchef",
+                    "weight": 7
                 },
                 {
                     "type": "Pillager",
-                    "weight": 0.2
+                    "weight": 2
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 2
                 },
                 {
                     "type": "FrozenZombie",
-                    "weight": 0.2
+                    "weight": 7
                 },
                 {
                     "type": "RoyalGuard",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.3
                 },
                 {
                     "type": "chillager",
-                    "weight": 0.2,
+                    "weight": 2,
                     "max%": 0.2
                 },
                 {
                     "type": "Stray",
-                    "weight": 0.2
+                    "weight": 7
                 }
             ],
             "pick-types": [
                 3,
-                5
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+                4
+            ]
         },
         {
             "#": "============== DININGHALL MIX ==============",
@@ -2289,23 +2155,26 @@
             "types": [
                 {
                     "type": "vindicatorchef",
-                    "weight": 0.4
+                    "weight": 5
+                },
+                {
+                    "type": "Vindicator",
+                    "weight": 5
                 },
                 {
                     "type": "Pillager",
-                    "weight": 0.3
+                    "weight": 5
                 },
                 {
                     "type": "RoyalGuard",
-                    "weight": 0.3,
+                    "weight": 5,
                     "max%": 0.3
                 }
             ],
             "pick-types": [
-                1,
+                2,
                 3
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         },
         {
             "#": "============== SUB-BAILEY MIX ==============",
@@ -2313,35 +2182,34 @@
             "types": [
                 {
                     "type": "Vindicator",
-                    "weight": 0.2
+                    "weight": 5
                 },
                 {
                     "type": "Pillager",
-                    "weight": 0.1
+                    "weight": 2
                 },
                 {
                     "type": "FrozenZombie",
-                    "weight": 0.3
+                    "weight": 5
                 },
                 {
                     "type": "RoyalGuard",
-                    "weight": 0.1
+                    "weight": 2
                 },
                 {
                     "type": "chillager",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.2
                 },
                 {
                     "type": "Stray",
-                    "weight": 0.2
+                    "weight": 5
                 }
             ],
             "pick-types": [
                 3,
                 5
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         },
         {
             "#": "============== WICKED WRAITH ==============",
@@ -2352,8 +2220,7 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "lonelyfortress/lf_mobs.json"
+            ]
         }
     ],
     "props": [],
@@ -2374,8 +2241,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_bailey/sub_bailey.json"
+            ]
         },
         {
             "id": "sub_dininghall",
@@ -2393,8 +2259,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_dininghall/sub_dininghall.json"
+            ]
         },
         {
             "id": "sub_icedungeon",
@@ -2453,8 +2318,7 @@
                         "dun_end"
                     ]
                 }
-            ],
-            "##loc": "sub_icedungeon/sub_icedungeon.json"
+            ]
         },
         {
             "id": "sub_battlements",
@@ -2474,8 +2338,7 @@
                         "wall_group2"
                     ]
                 }
-            ],
-            "##loc": "sub_battlements/sub_battlements.json"
+            ]
         },
         {
             "id": "sub_staff",
@@ -2511,8 +2374,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "sub_staff/sub_staff.json"
+            ]
         },
         {
             "id": "sub_royalquarters",
@@ -2526,7 +2388,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix"
+                            "fortress-mobs"
                         ]
                     }
                 },
@@ -2537,12 +2399,11 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix"
+                            "fortress-mobs"
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_royalquarters/sub_royalquarters.json"
+            ]
         }
     ]
 }

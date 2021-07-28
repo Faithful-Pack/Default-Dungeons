@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Characters/Enemies/Shulker/ShulkerBullet/M_ShulkerBullet.M_ShulkerBullet'
+    Materials[1] = Material3'Content_DLC6/Actors/Characters/Enemies/Shulker/ShulkerBullet/M_ShulkerBullet_A.M_ShulkerBullet_A'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Characters/Enemies/Shulker/ShulkerBullet/M_ShulkerBullet.M_ShulkerBullet'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50.0161, 132.863, 286.638, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'Content_DLC6/Actors/Characters/Enemies/Shulker/ShulkerBullet/M_ShulkerBullet_A.M_ShulkerBullet_A'
+        MaterialSlotName = Material #38
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 63.3842, 168.374, 287.018, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.72205e-06, Y=0, Z=0 }
+    BoxExtent = { X=31.6819, Y=31.6819, Z=31.6819 }
+    SphereRadius = 45.4997
+}

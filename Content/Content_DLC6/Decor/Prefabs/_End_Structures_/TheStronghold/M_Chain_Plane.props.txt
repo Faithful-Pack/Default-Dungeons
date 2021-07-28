@@ -1,0 +1,128 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/T_ChainPlane.T_ChainPlane'
+    ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
+}
+Expressions[76] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[2] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_0'
+    Expressions[6] = MaterialExpressionStaticSwitchParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionStaticSwitchParameter_16'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionStaticSwitchParameter_15'
+    Expressions[13] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionTextureSample_8'
+    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_13'
+    Expressions[22] = MaterialExpressionStaticSwitchParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionStaticSwitchParameter_25'
+    Expressions[31] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_15'
+    Expressions[33] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_4'
+    Expressions[34] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_9'
+    Expressions[36] = MaterialExpressionStaticSwitchParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[37] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_3'
+    Expressions[38] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_1'
+    Expressions[41] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_2'
+    Expressions[42] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_5'
+    Expressions[47] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_6'
+    Expressions[53] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_7'
+    Expressions[54] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_8'
+    Expressions[57] = MaterialExpressionVectorParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionVectorParameter_4'
+    Expressions[63] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_10'
+    Expressions[64] = MaterialExpressionTextureSampleParameter2D'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[66] = MaterialExpressionStaticSwitchParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[68] = MaterialExpressionVectorParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionVectorParameter_0'
+    Expressions[70] = MaterialExpressionTextureSampleParameter2D'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[72] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionScalarParameter_11'
+    Expressions[74] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionTextureSample_1'
+    Expressions[75] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/M_Chain_Plane.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Effects/Materials/Generic/T_DiagonalLine.T_DiagonalLine'
+        Name = ShineTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Decor/Prefabs/_SimpleBlocks/Materials/T_HayBlock.T_HayBlock'
+        Name = ShineMask
+        Group = Texture
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=Wind, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Tiling, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Spec, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=SpecMapMultiply, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Spec, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=OffsetX, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=OffsetY, Group=None }
+    CollectedScalarParameters[9] = { Value=64, Name=Size, Group=None }
+    CollectedScalarParameters[10] = { Value=-0.5, Name=SpeedX, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=SpeedY, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Shine, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=SpecMapMultiply, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1.93056, B=1.77854, A=1 }
+        Name = ShineColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = NaturalEmissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ChainPlane
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HayBlock
+    }
+}

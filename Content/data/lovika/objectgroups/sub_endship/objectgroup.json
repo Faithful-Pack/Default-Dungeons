@@ -1,0 +1,4396 @@
+
+{
+ "objects" : 
+ [
+  
+  {
+   "blocks" : "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",
+   "doors" : 
+   [
+    
+    {
+     "name" : "endship_door",
+     "pos" : [ 17, 6, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrt1dsOgyAMBmBoy2Hw/u+74lko4DZMvNifYIzBL7UKRjUg8R4EAIprWuuHINK1JoKIvyMKhWlNQ0JImIbXkKV1znKc2RK2s2uI1ly0n+KsMQCIsAaBiMw1BMC7KTkCQGlUnENPGOEiptIJIZFGn0MpncZ6z/3YESkoKifEdhGNKDxSzIweMin2E8RUFLJN5DWHLUqT0wGXcUScpT7i5vnVSnyvksBxuho2fGbkbyeVEWJ0TaP3nfQQ9L408i+2jXCnJSNfO3tPjutmXTtiGQWi1rdjbUjecdQEVewnC5LWfR5Vz9idrX3Dp3vskN1+yH/nOb/RL/JH7kJG5A3pkA6l",
+   "id" : "ew_sub_endship_interior",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 110, 34, -79 ],
+   "region-plane" : "eNrt0UkKACEMRFFD7n9ngxtxwAwGBKkv7tqHdogQel4Zy0E8znQwcJuilWEYFIOhK+uBgHL+wo+k3OTqz6qIZcYaYjAOg/IT7WGbcTsRiZn7loUQ+rgKZxII6Q==",
+   "region-y-plane" : "eNrt0dEKgCAMhWF2VgO79f3ftQlFidVmBRHsBy9E/RDNOYo+D2DGGuMFBNC5/+xYGhhEeorqfIKIbMhRPsNAbEUciKk0SL6hKHGx2o8s+5/dhE5zvKyJeP7YQhxG+4oPiIJk1JV5J6KllKbd6AeiKPpPMwCyqbw=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "sub_endship_ambush",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "endship_loot",
+     "pos" : [ 45, 2, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 22 ],
+     "size" : [ 24, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 21 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 0 ],
+     "size" : [ 69, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 19, 15 ],
+     "size" : [ 19, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 19, 9 ],
+     "size" : [ 25, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 11 ],
+     "size" : [ 20, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 11 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 11 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 11 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 24 ],
+     "size" : [ 69, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 20 ],
+     "size" : [ 14, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 19 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 14 ],
+     "size" : [ 12, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 12 ],
+     "size" : [ 14, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 11 ],
+     "size" : [ 17, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 9 ],
+     "size" : [ 26, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 29, 2, 12 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 6, 11 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 11 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 38, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 26, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 22, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 13, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 18, 6, 12 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 27, 2, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 24, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 15, 19, 16 ],
+     "size" : [ 8, 1, 8 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 15, 7, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 19 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 18 ],
+     "size" : [ 20, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 20 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 9 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 13 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 11 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 16 ],
+     "size" : [ 12, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 15 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 16 ],
+     "size" : [ 6, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 23 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 23 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 69, 12, 38 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt0+EKgCAMRtHht9r7v3EqWYjC5goi2AV/lSdZSBRFnwcwo8V4AQGoLGt7aWOklDelPpsgIjcyy2YoiK6IAVGVASGHkok62PnTdeR833uS7qu+yaqI5R9riMEYp/iAKAihb+nuXLWNdZHzFkdR9I8OuiIEcw==",
+   "y" : -2
+  },
+  
+  {
+   "blocks" : "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",
+   "doors" : 
+   [
+    
+    {
+     "name" : "endship_door",
+     "pos" : [ 22, 2, 18 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrt1dEOwiAMBVBoS8Hx//9rQXTICkzFxAdvQmIWOKkdsGgWJH4HAYDDM2vtjyDasyGCiJ8jBpVpQ0NDSJmG55DSOs8S7x7ZHr/OIdZK0SHHs3PSG4R7EIjInUMAgs8RRFbuCACl0XGqnthcRC6dEBLp7HMoZYiEkNrBO6IFVaVC+ARiEZW/FBtjhmSFX0FcRyEeIpdbxKLcSFmBZdSIZ5oj/ja/W0mYVbJJCkK6ERqjfTupjC3GPpKM2T6ZIRjC0Wh37BiRnaYZ7dnZe4LlvNRnRy3jgJj722HeklePnmAO90lB0rlvY/pZe7ONF7x6xy657Zd8d37nM/pG/si3kBW5AiifDzQ=",
+   "id" : "ew_sub_endship_interior_alt01",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 26, 35, -79 ],
+   "region-plane" : "eNrt08sKwCAMRNGE/P8/tyvFtDIZcSEyt3SnB/HhrtQRWW8VGBEGsjTRyNUYbocBlZKBlL8JtJJH5PE8smUlc6SwsxCpnDFCoPHdxZUbOyCeEOrttCKi/++nlLq4BymsCN4=",
+   "region-y-plane" : "eNrt090KgCAMgFE2S7Dbvf+75sI0+2GbXUSwD7wI3CEsiTzv80IO9wKOIXmyIYjES9vMTQEB8hD0aeYj15C7dIaASEpUIWBGyKxsxOH5vN+OlP3v3uQZUZysiGi+sYSIxvUUR/7YDqFyX4buTi2lxGspyw54nvefVsApqO8=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 29, 2, 12 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "sub_endship_ambush2",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "endship_loot",
+     "pos" : [ 12, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 2, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 23, 2, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 25 ],
+     "size" : [ 69, 1, 13 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 19 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 21 ],
+     "size" : [ 2, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 22 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 12, 19, 21 ],
+     "size" : [ 3, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 20 ],
+     "size" : [ 12, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 19 ],
+     "size" : [ 11, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 14 ],
+     "size" : [ 10, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 0 ],
+     "size" : [ 11, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 12, 19, 11 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 12, 19, 0 ],
+     "size" : [ 14, 1, 11 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 26, 19, 0 ],
+     "size" : [ 43, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 19, 9 ],
+     "size" : [ 19, 1, 16 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 9 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 11 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 2, 17 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 12, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 17 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 13, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 19, 6, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 27, 2, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 27, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 15, 19, 16 ],
+     "size" : [ 8, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 15, 7, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 15 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 2, 22 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 11 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 18 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 20 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 9 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 9 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 9 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 19, 0 ],
+     "size" : [ 1, 1, 13 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 16 ],
+     "size" : [ 12, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 19, 22 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 26, 19, 24 ],
+     "size" : [ 15, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 41, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 23 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 9 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 23 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 69, 12, 38 ],
+   "tags" : "",
+   "walkable-plane" : "eNrtk90KgCAMRse0fP83zq0sV8F+rgp2YBeC31GmA0iST1AGtUQFk6QvqKysxFILYg+hxJJvxCV5w+ZQJJqlmSToloDbwgpu7L6+7/dI5kT4JuLQWGdVieWNNYnqeHYx8mOFBI55Cc3OyQhyQXCKkyT5BxuheQTK",
+   "y" : -2
+  },
+  
+  {
+   "blocks" : "eNrtnE1rI8kZx0ualg1Lg0ZrX3KS4wk5BDUa1h/A9rayQ3LxSeS4kxB0WBpsRMCwl7lpDr7sNXRWzk72NN8kEMhXaUvKDgsLlarq16qurnpa3R7L4+fflO2RSj8/9fbUX6UeE4JCoVqTU6kWEDUoJgCYYgwCStl9SCt9Um+M25gnKBQKhYJquVzuCOSJqpWuWxpHIIBDBCYIAt/v9Xz2PcyKF4S+78MbFCR7d09WyIoDwQj5MSP8k6xQoJw5DBKYINBgzJAezKLIfZL9wCAHBweQWBzXdUvuaJBCE4jjMQWgSMKtIxGQ5EUVfQLsWCMEODq+CeLb5kk6Y0VHpH0izVhrANkCZBC2TPxQWjtuEEJaka9i3eiBVzGsHqpN4TaK+sS1O1NcB6kP1tRvZwHad4vtooNpVCjALSP7fcL4MfHvWfECsF1bLr9fEk/4DydcLHq9xWLhJyWEnuOISDzmSBy++S8WA+V5B2wfQ2Fr/qV/0nFh9tEzQaDBeMJhVUFYLFBI8vsGeoollsQ9vuMmJ/GNWckbxEfPs0YSJo5mu0gEhJCpMVhQnxghwNEJTRDAPElnbFjh8kBhJGuHjQ4LqLBukrUDm/PxKmYr1ndCnw1jXnoeeBXHSnPHlvnEEmNTtZFja2f7Vvad3dlGUSjUdtpxp1gzOD8zfiRwWPFF6cGNHxc/UiKeF7J9e5Fvp0vCTAfo9IPr+0D4D/GKhbonuxBXkUaS7phl9wg9NgxNlo1ZKRDGM/s+2L5uhjAKxCp51X2SUsyx+AX3OJ1OB8VSaFAL7hFiH23uEdYnxmeBo2N2j7C3GUHP5B5hM7bHp/07VwRUUr2147kimEFWlpwAXsVEvGnk8oiXl9oWtIXM9kBOEYVCoXZfLSS2kGV2fp4Usp1fKnUgwp7E7lFSHfdIvPmcm8fS1h+SGvuX9/ZttvGX/MkIeGzomy2bJkZ9p5ggwDv0bBDQaZ3nVPdJGovFPjrulXCPU26YptOivSj0i/WTa5t7BB23WdwjsE8sz0NGx3eMkcDmiWdwjyPojPWc+fyd5rfVWzviPaDqHmuu4lbySUvnjCgUCoW6J/kis/NsPxqNpFKH4oktwh2Nyk/VcI9vg4BtVDoInOMUTo0GsJeU1etZLJtNfnJHnxlibxIAQlybzXFAfWKg+OmdjqEzNds21+LJBMTsHo2RJJCeY7kl0NwnfnYTqKkWYMJZIDD3WOwTLQTAIF4QBO8qas7nUPfIVzFzivxGY6dYarhHP3WKoT/ypQIloFAoFGr3xRJ788zuh1zuqBnFFWoCWS4a71H8nstGxlFAmrrPhAGDOBYI7DNDxwwRhmBqMY/EDeyQ0OoOzZH0bm9vbXfCGt3jIoF4Zoh5KvF5YoMA3ONy4VohNoaoxTxbU/eYrGKXF1cp4HXVSj5BoVAo1I7Lz740EN9i3LCheZw3No/kpsZJZ1VTmgLa0s4EwnqVkGnsHm1VzZ4ujN2jbYirIfHnsMxu2eaJ7TwWAjEPQAiAANzjTRhy92iCQO5vmPNjwyoI1Ptlqzh0p65capw9Zl9QKBQKhTIq3ncaQkBnLGbV/Lxd25SGHjiOowVGK+6xjUAEBOgezZDEPdqqgtyjBWGyXCMYxOIeR3YI4G8FjIR7NENsDBIfPXpuJQH2JwuyVVw6e8Q/XolCoVAoFKqu/FgNIdIdmI0gDd0MQqogfHTCm5sbqdSAtDFPUCgUCvXY9N1DB4BCWTRqbEG5/DYO1HYG0k6fxLrRFBQKhUKhUKgnr1Ebdmt3ICgUCrWN+tSmyFqDaiAKWAOJiBXSSiSPHiLqRRWDFmX1Ksc1+1Fi0KivQKgCocUqWgh7kDSGACLRN8fSJx9pdB4vBLAA7at4d5qzBeTh0uP5hQ3yyz8epk9gkM2FFTL4j/TYpQbyh7/f0tnsr1/NvuHX629mlyqEMsiGjUNnEOuHwZ7aHF7vjJDPkhH7bDI5+1qB9GPIP5MqP0pVsj6RIIPDs3KfJJE8JyySH5+Tw5ySQPKJ84yVc9KZsG9flyE/mCCUTiaTPxYi+b0mElbF0hwJMnml9gnv2ImIJOnY8ujcUvq3V9ffxtfVtxVD/CZ77I1UAzpPzHq4aQ9YgPZVvDvN2QLysdPj+YUNsjm0Qv793wpcHsltFU7TnDt7c24NkF/E9ZMWckF/mmXau9RA7n51yzq5ezI44fpC6u4MEpGzDn12mjxMLlUI05EzGRZe2Ss3JyKTc6qtkkEIKUIKpq0AIR1KTzWUYnrsstworuSRvgo5pkYI+0EeFF0kdCjV0DRnfFdRo9Cxx4Ua5I12dPqr40TFCjnkw/5194qI66xYoRDJB5rOkw9ShdqTLZZ9xlZOe/vaASxA+yquFqbHh+8TwBDfWSGFeTrUQ0Tuu3x9Obuc/Xmmh5yRqNuPxOuHpKuDHPJ8QjvpC/e0EDLM8wnplSEsPUq5LzFsVE6PQ32VPD1KkMKbq2J6HEqZLaNI6XFwEF/JI7b0qELK6VETCVVqlJujpEdNn0zk9Kjp2EOeHnPGvn50umPWHHZVDPGHq+vr6/4+vzr7xQp1JhtgxgKmPbVCqvX0IJ9oemwHMrRBVp0uyS49hCeLtLp+7USzvJNXNOpqIHuvefY8Tf61ztd5BtnIua9wJpTnEzn3FRxZnh5lSG64CpmtGEmxSj+twPQ5HQzXlF9xFwxVyLEZUkqPukiUMSk3Z6NANH3iSOnxRNOx0f5V9rKK0SFsB0zSY8UQA+aJfbJVaxfXzqcBwfTYBPIln+6TL+NLDyHkKHtXTFc6SDR7TU7yh1dayJBK+aQEuRsMqF4J5IwMBkP5mbEK6ZQgRIYk5lGKJJIgZ3w76Ay1lEJzjo0Q9u9O50LLyJtDJopVKjWH7QcSRJMeiZQedR8SRddXhSlzp0+PR93fzvbEpU+PbJ7Q1UE3vnSjY9LuTfunA8H02ATy65OuBbJ5//7o1AxhY/DMCPn5L7ZIvlIzXwmyqUyfKWQz0EAi6fu5DhIpkDH9jVqrI0M+p6sjC2SofiSqpEfeHPVzVSU9vipBSunx5ysFokuP0gr4X2ETzIb4d++PukckubTp0T5PDNq9af90IJgem0DGsh/UQFaEvLBAmBE6NUKiql+SQcbVFcDNWdEWIBHdsPRY0dIUckxXap9I6XHF05TaJ6qPJTRSNhUlPY5LkFJ6jI4ViCY9yqOje3MthvjoeXJp0+NpcsywfccahZD7gmB6vF8IWztjC6Rvg6y/sEXyorpCAlkbaoDT46kVstamRwXC0uNY+5SUHpUacnpcU+lmSCElPb4oQUrpcX2sQDTpkZAipGg2pSHO3KP0Kx/jjEVIAYLpESGtQvhNMBYIST+rqYREclKqgPR3BjLM0uNYB1mfnJxYIPaONQgh9wXB9NgGZLgzkXwqkJf2wzpbZiv/r4+tIC+fWSGienrdX58g5KNDMD0i5JFC1tbMRl+2AXlMfYKQdiH29Ph/E5bcUw==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "endship_door",
+     "pos" : [ 17, 6, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrt1e0OwiAMBVBoC9Tt/d/Xwr4YKzAVE394E4xZ8KR2K5vNgMzfQQDgcs1a+yOIdq2JIOLniEFlW9PQEFK24T1kbV3wkuD2TPu3e4i1UjSnBO8cACJsQSAidw8B4JBSIgAUV8XJeiKIFJFKJ4RIOnsOSjnUQZilHweiBVXlhPguYhGVv5QhyeghSfGvIK6ikG8ijyViUdwcP3BdORI89ZGw7K9Wwr1KJkmw1YjBhXGaHV4qmeY5NI3W3ZFHvosg89Uon9g2Ip3WjHJ2jp7kc7PNjlrGBTHb3fF+il6+aoK5nCcrEue+jKln7MnW/sGrZ+yQ037Ie+d3XqNv5I98CxmRJ/AfDqY=",
+   "id" : "ew_sub_endship_interior_alt02",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -63, 35, -80 ],
+   "region-plane" : "eNrt0UkKACEMRFFD7n9nxY04YFIaEKS+uGsf2hFh7HmpLwZBoPEgfptkFWE4FIdhK/OBA2X/BY6E3OTqz5qIZ8YW4jA2g8KJ+rDFuEGkpKptl8UY+7gMX7II6A==",
+   "region-y-plane" : "eNrt090KgCAMgFG21dBu9/7vmkJ/YrWZQQT7wCv1IIoinvd5iES4RvgCgih5WBtzAyFA2gRlNoGZd+Qsm6EgusIGRFUqRB4oibiZbUeW9X0ngcsMN6siljfWEINR32IHkRHBsqa/sxVjnA5DQmg3PM/7STMt+KmV",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 29, 2, 12 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "sub_endship_ambush3",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "endship_loot",
+     "pos" : [ 45, 2, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 38, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 36, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 36, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 18, 6, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 24 ],
+     "size" : [ 69, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 21 ],
+     "size" : [ 15, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 20 ],
+     "size" : [ 14, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 19 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 14 ],
+     "size" : [ 12, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 13 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 12 ],
+     "size" : [ 14, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 9 ],
+     "size" : [ 17, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 0 ],
+     "size" : [ 69, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 9 ],
+     "size" : [ 8, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 19, 23 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 20 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 19 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 18 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 19, 9 ],
+     "size" : [ 19, 1, 15 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 10 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 6, 11 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 11 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 27, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 13, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 23, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 18, 6, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 26, 2, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 15, 19, 16 ],
+     "size" : [ 8, 1, 8 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 15, 7, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 10 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 10 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 19, 9 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 16 ],
+     "size" : [ 6, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 15 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 16 ],
+     "size" : [ 12, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 11 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 23 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 69, 12, 38 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt0+sKgCAMhuHht9r933EqnURhcwUR7AV/lU+ykCiKPg9gxhHjBQSgsqytpYWRUt6U2myCiFzIKJuhILoiBkRVOoQcSibqYMdP55H9fe9Jmq/6Jqsiln+sIQajn+IDoiD3ezN9d86OjXWR8xZHUfSPNsr+BHc=",
+   "y" : -2
+  },
+  
+  {
+   "blocks" : "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",
+   "doors" : 
+   [
+    
+    {
+     "name" : "endship_door",
+     "pos" : [ 17, 6, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrt1dsOgjAMBuD1sIPs/d/XDjBCVzbQkXjhnxAMgc/SHchuQPI9CCJW1wDgRxDrWhMhou8RR8ZtTcNC2LiNziFr62KQRC9hZjmm9cz+HAIgRac5MXgvfWB8hbDl7BHEFOdoZPl95Gx6IogU4edXISym/DtswyWdxqYk/dgiCDpkKjskdBEgMl4pK2OHMNhKuIDYEYVDE3ksEYtbSAzcRyJAs5LUq2SSLMhRT5Iy9OiUMqacV8QeHU1U86SHUEq1oWfsHjFmrGXotfPuCRlrxyyjQtxrdEKYirc9jgRX7ScrUta9jjvO2J2t/cDVPXbIbj/ku/M7n9EP8kfuQkbkCTXjDow=",
+   "id" : "ew_sub_endship_interior_02",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 26, 35, -22 ],
+   "region-plane" : "eNrtk1sKwCAMBHfJ/e9cpFQqLZgXlMIO5E/HNVFSiM8BMOqiRxIRYT0dCKfBjg6Hw/LckbA4guwt64q6pCVJvid0JPHMuNiQt0Ex9WLvF0Ph70zMbNQJLS4QQvyHA0GWCOQ=",
+   "region-y-plane" : "eNrt0+sKgDAIQGG0EtZf3/9dyxYhEuguEIEHhIL2MVYxZ9nnIaJMbcEJSL0Or92kdUEAkEWgiwlEpBEEW8xwEF8hizC0KxZ5z0fU3TgCMGEn1+NdZ8IW6Xk7p+IhAcOcaucXq5Chf+eplCKz39MOZFn2nw51G6kn",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 29, 2, 15 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "sub_endship_ambush4",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 1, 1, 11 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "endship_loot",
+     "pos" : [ 45, 2, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 18, 6, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 24 ],
+     "size" : [ 69, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 9 ],
+     "size" : [ 11, 1, 11 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 0 ],
+     "size" : [ 69, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 57, 19, 9 ],
+     "size" : [ 12, 1, 15 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 23 ],
+     "size" : [ 8, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 18 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 19 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 19, 9 ],
+     "size" : [ 7, 1, 15 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 9 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 19, 9 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 9 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 19, 13 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 19, 14 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 6, 11 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 14 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 13, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 24, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 18, 6, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 27, 2, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 15, 19, 16 ],
+     "size" : [ 8, 1, 8 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 15, 7, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 9 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 11 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 11 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 11 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 20 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 21 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 18 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 11 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 19, 9 ],
+     "size" : [ 3, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 19, 19 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 20 ],
+     "size" : [ 14, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 23 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 69, 12, 38 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt0+EKgCAMRtHxzdr7v3GZUWsErhlEsAuC/fBglkRZ9nnMXEer8AtIm7vXzrWpMIC6CDqfICIaYdh8RgfpK2IRwnPFIvf1ke1g29M4AgztRO0idCZkkcjXWZUe4jDO9tcJ/bEKGbo7RxeEgrc4y7J/tAAy+ASM",
+   "y" : -2
+  },
+  
+  {
+   "blocks" : "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",
+   "doors" : 
+   [
+    
+    {
+     "name" : "endship_door",
+     "pos" : [ 17, 6, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrt1dsOgyAMBmB64DB5//ddUdwEKriNJbvYnxgXo99KQYxmQuJ3EERsrgHAjyDatS5CRJ8jhpTbuoaGsHIbXUNy67yTeCthZjmWfGZ7DQGQosMa76yVPjBuSeeeUyKIwa8pEXpAto8kBqUIuw6FMJny78kGgi2cMmhsCNKPI4L54R2RX6pSIG6IAJEypFgZBcL7MKBU3AuIHlHYdZHbFrG4h3jHY8QDdCsJo0oWyYac9SRURj07qYwlxozos1MTzToZIRRCa9QrtkSUFasZ9bvz7Akp745aRoOYfXacW5J3PM4E0+wnGUnvfR1znrk7W/+BV/fYKbv9lO/O73xG38gf+RYyI3exRQ6h",
+   "id" : "ew_sub_endship_interior_02_alt01",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -65, 35, -23 ],
+   "region-plane" : "eNrtk4sKgCAMRe/Y//9zGlYXQfZICGJHZIh42KaKFMXnAOgTI+6RREQgrqU866CBZaxNOkhiW5aHeSebyGS278NRm1uyJZN8T2SVSeR22llL4nDMXZXUi+XC8OLv3Khqn3rGNoqi+DEHe1AI7Q==",
+   "region-y-plane" : "eNrt0+sKgCAMQGG2TLS/e/93zZWGaDBvEMEOmAT5IVZEmvZ5iMgD47wG6YF2zmwIALwIuPsaZtMiWGtzBNNiSLUZAiIrtkSoRkSlRN6TkexuHgFYsJPr8aEzoRIZeTtBkZAGozjV+ovtKyyY+XeevPc8jjiTc64f0TTtH50umqnC",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 29, 2, 15 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "sub_endship_ambush5",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 1, 1, 11 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "endship_loot",
+     "pos" : [ 33, 2, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 2, 15 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 18, 6, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 0 ],
+     "size" : [ 12, 1, 24 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 13, 19, 20 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 12, 19, 19 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 12, 19, 0 ],
+     "size" : [ 1, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 0 ],
+     "size" : [ 3, 1, 12 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 22 ],
+     "size" : [ 24, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 19, 0 ],
+     "size" : [ 52, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 19, 9 ],
+     "size" : [ 19, 1, 13 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 9 ],
+     "size" : [ 8, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 19, 10 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 11 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 11 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 6, 11 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 14 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 13, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 23, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 18, 6, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 27, 2, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 15, 19, 16 ],
+     "size" : [ 8, 1, 8 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 15, 7, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 13, 19, 0 ],
+     "size" : [ 1, 1, 13 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 19, 9 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 24 ],
+     "size" : [ 69, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 23 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 11 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 10 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 19 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 18 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 20 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 21 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 9 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 18 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 19, 18 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 19, 9 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 21 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 11 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 69, 12, 38 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt0+sKgCAMhuHxrdr933EuO5gFsxlEsBdK+uGDWRJF0ecxs168ju8gT6BJGwcGoJOg5XsamxKREuFtMtDOiInYitQIXRFTqZH7bGTZ2PzUjwBdKylW4doTqhHP10mKhTQYR+vruP7YAuk6O3snhJynOIqifzQDiUMEbw==",
+   "y" : -2
+  },
+  
+  {
+   "blocks" : "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",
+   "doors" : 
+   [
+    
+    {
+     "name" : "endship_door",
+     "pos" : [ 22, 2, 18 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrt1dsOgjAMBuD1sIPs/d/XDjBCVzbQkXjhnxAMgc/SHchuQPI9CCJW1wDgRxDrWhMhou8RR8ZtTcNC2LiNziFr62KQRC9hZjmm9cz+HAIgRac5MXgvfWB8hbDl7BHEFOdoZPl95Gx6IogU4edXISym/DtswyWdxqYk/dgiCDpkKjskdBEgMl4pK2OHMNhKuIDYEYVDE3ksEYtbSAzcRyJAs5LUq2SSLMhRT5Iy9OiUMqacV8QeHU1U86SHUEq1oWfsHjFmrGXotfPuCRlrxyyjQtxrdEKYirc9jgRX7ScrUta9jjvO2J2t/cDVPXbIbj/ku/M7n9EP8kfuQkbkCTXjDow=",
+   "id" : "ew_sub_endship_interior_02_alt02",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -159, 35, -19 ],
+   "region-plane" : "eNrtk1sKwCAMBHfJ/e9cpFQqLZgXlMIO5E/HNVFSiM8BMOqiRxIRYT0dCKfBjg6Hw/LckbA4guwt64q6pCVJvid0JPHMuNiQt0Ex9WLvF0Ph70zMbNQJLS4QQvyHA0GWCOQ=",
+   "region-y-plane" : "eNrt0+sKgDAIQGG0EtZf3/9dyxYhEuguEIEHhIL2MVYxZ9nnIaJMbcEJSL0Or92kdUEAkEWgiwlEpBEEW8xwEF8hizC0KxZ5z0fU3TgCMGEn1+NdZ8IW6Xk7p+IhAcOcaucXq5Chf+eplCKz39MOZFn2nw51G6kn",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 29, 2, 15 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "sub_endship_ambush6",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 1, 1, 11 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "endship_loot",
+     "pos" : [ 45, 2, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 35, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 2, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 23, 2, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 24 ],
+     "size" : [ 69, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 21 ],
+     "size" : [ 15, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 20 ],
+     "size" : [ 14, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 19 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 14 ],
+     "size" : [ 12, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 0, 19, 0 ],
+     "size" : [ 13, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 13, 19, 0 ],
+     "size" : [ 1, 1, 13 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 0 ],
+     "size" : [ 3, 1, 12 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 19, 0 ],
+     "size" : [ 52, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 50, 19, 9 ],
+     "size" : [ 19, 1, 15 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 18 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 23 ],
+     "size" : [ 8, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 19, 9 ],
+     "size" : [ 8, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 45, 19, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 10 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 2, 17 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 2, 14 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 13, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 32, 2, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 18, 6, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 26, 2, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 24, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 15, 19, 16 ],
+     "size" : [ 8, 1, 8 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 15, 7, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 17, 19, 9 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 23, 19, 23 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 19 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 20 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 10 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 10 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 21 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 18 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 9 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 30, 19, 11 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 25, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 69, 12, 38 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt0wEKgCAMQNGxWbv/jcuU0hFtziCCfQgS8oGaAFH0eUSUn1KiF5Dybp675pZEiJgnYZtNYOYWIZTZDAXRFZYI4Lgikft05NjYMppBnoUBpH7u2hOQiOd0dkVDDMZVXY7rj22Qqbtz1iHgvMVRFP2jDeyHBIA=",
+   "y" : -2
+  },
+  
+  {
+   "blocks" : "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",
+   "doors" : 
+   [
+    
+    {
+     "name" : "endship_door",
+     "pos" : [ 21, 2, 18 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrt1dsOgyAMBmBKy2H6/u+7FnCTia1uXnixPzEaop8FAZ27abz3mzYAuIUxatOCiD8bDgdtJwlHB91t2qilyEmBQ0R8TO1M4ZABwBXnkhRD4DEgXyPnI0wxvM+ppDfw5VgMG1xCKP1ALyS/W2hAqCGJjuTMY7E2fHt2MfjKQoQwDEBU+1OIzqClD9Aj8bgxDiMUNeNRwxRpRopkGglArSMbdUycauyNR94lCiJFTPPcjPF3UYQyPywDc1YJmae9MZinKlFf/B4PHKwXo4i2bpfvEuMk3PqwALfsH82Qhf4ZC+jy/T6m3392S75gX7/i/3KXf+U/t8gTPY0KEw==",
+   "id" : "ew_sub_endship_interior_02_alt03",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -249, 35, -20 ],
+   "region-plane" : "eNrtk1sKwCAMBHfJ/e9cLX0sgsQEof3IiAQRhyQqWRQfAaBPXHGLI+CBcC/5rmMCdak1pxCHK5me1Z1kGoPYvYmFwlYdO/JI94OzPAL30o56Dl8xNpSZd6pVIf9fHsysTztjG0VR/IYDyaIIgw==",
+   "region-y-plane" : "eNrtk90KwCAIRvlcE9qt7/+uy/0RbmArxm48YBLkQaxEguAniEiDjiwpjTs0GpmVNBEArYGyryW3wMy1g85aoNnCrsOVsHXI3eFJrOMZ11Hthh3AeB/b6Z55iHV03EuReA5fYQba904rx8h/ucg5ayxHfl0fBMFnrN2dofY=",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "gate",
+     "pos" : [ 28, 2, 15 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "sub_endship_ambush7",
+     "pos" : [ 30, 2, 11 ],
+     "size" : [ 1, 1, 11 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "endship_loot",
+     "pos" : [ 32, 2, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 2, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 39, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 37, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 2, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 42, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 22, 2, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ -1, 19, 21 ],
+     "size" : [ 15, 1, 17 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 24 ],
+     "size" : [ 54, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ -1, 19, 20 ],
+     "size" : [ 14, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ -1, 19, 19 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ -1, 19, 0 ],
+     "size" : [ 12, 1, 19 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 11, 19, 0 ],
+     "size" : [ 1, 1, 14 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 12, 19, 0 ],
+     "size" : [ 1, 1, 13 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 13, 19, 0 ],
+     "size" : [ 3, 1, 12 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 16, 19, 0 ],
+     "size" : [ 52, 1, 9 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 41, 19, 23 ],
+     "size" : [ 27, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 19 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 49, 19, 9 ],
+     "size" : [ 19, 1, 15 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 43, 19, 9 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 9 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 22, 2, 17 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 2, 14 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 12, 7, 16 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 33, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 34, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 31, 2, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 17, 6, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 25, 2, 13 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 23, 2, 19 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 14, 19, 16 ],
+     "size" : [ 8, 1, 8 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "boundarybreaker",
+     "pos" : [ 14, 7, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 22, 19, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 24, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 22, 19, 23 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 16, 19, 9 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 19, 9 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 19, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 47, 19, 9 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 19, 9 ],
+     "size" : [ 1, 1, 4 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 48, 19, 18 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 46, 19, 20 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 44, 19, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 40, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 28, 19, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 28, 19, 9 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 28, 19, 18 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 28, 19, 14 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 21 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 29, 19, 11 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 36, 19, 18 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "",
+     "pos" : [ 36, 19, 9 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "boundary-force",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 68, 12, 37 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt09EOQDAMQNGmRf//j602zIhWR7z0JiwSO8nGAKLop4hILirjK8YDZ5LGgRBR5qCU72m0xMy1QetcRLPCqqEi3BpwNjSkNa5TjWVP81OHcQ/YjfK2Zz+gNRzfJSGaoRN7ZS2e/7Qyes7L1sEA37mNouiTZrmoBGM=",
+   "y" : -2
+  }
+ ]
+}

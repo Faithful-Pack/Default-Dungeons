@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_CitadelObjects/MI_EndFabric_hanging.MI_EndFabric_hanging'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_CitadelObjects/MI_EndFabric_hanging.MI_EndFabric_hanging'
+        MaterialSlotName = 23 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.489, 312.152, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.05176e-05, Z=-74.9455 }
+    BoxExtent = { X=12.5, Y=87.5, Z=75 }
+    SphereRadius = 115.76
+}

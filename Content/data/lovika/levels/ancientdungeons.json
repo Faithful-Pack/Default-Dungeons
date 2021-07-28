@@ -21,7 +21,10 @@
         "PumpkinPastures",
         "CactiCanyon",
         "HighblockHalls",
-        "DesertTemple"
+        "DesertTemple",
+        "AbyssalMonument",
+        "EnderWilds",
+        "TheStronghold"
     ],
     "objectives": [],
     "stretches": [],
@@ -279,6 +282,66 @@
             ]
         },
         {
+            "#": "============== VENGEFUL MARINER ==============",
+            "id": "vengefulmariner",
+            "types": [
+                {
+                    "type": "guardianancient",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "#": "============== ABYSSAL EYE ==============",
+            "id": "abyssaleye",
+            "types": [
+                {
+                    "type": "drownedancient",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "#": "============== WATCHER OF THE END ==============",
+            "id": "watcheroftheend",
+            "types": [
+                {
+                    "type": "endlingancient",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "#": "============== THE SWARM ==============",
+            "id": "theswarm",
+            "types": [
+                {
+                    "type": "snarelingancient",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "#": "============== SCUTTLING TORMENT ==============",
+            "id": "scuttlingtorment",
+            "types": [
+                {
+                    "type": "silverfishancient",
+                    "weight": 1,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
             "#": "============== GOLD ==============",
             "id": "gold",
             "types": [
@@ -393,7 +456,10 @@
         "st_windbeard/objectgroup",
         "st_gleeglin/objectgroup",
         "st_pump/objectgroup",
-        "st_gold/objectgroup"
+        "st_gold/objectgroup",
+        "st_end/objectgroup",
+        "st_ocean/objectgroup",
+        "st_scuttlingtorment/objectgroup"
     ],
     "props": [
         {
@@ -530,6 +596,81 @@
         }
     ],
     "tiles": [
+        {
+            "id": "st_end_01",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "end_arena1"
+            ],
+            "teleports": [
+                {
+                    "door": "door_travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor"
+                }
+            ]
+        },
+        {
+            "id": "st_end_02",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "end_arena2"
+            ],
+            "teleports": [
+                {
+                    "door": "door_travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor"
+                }
+            ]
+        },
+        {
+            "id": "st_ocean1",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "ocean_arena1"
+            ],
+            "teleports": [
+                {
+                    "door": "door_travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor"
+                }
+            ]
+        },
+        {
+            "id": "st_ocean2",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "ocean_arena2"
+            ],
+            "teleports": [
+                {
+                    "door": "door_travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor"
+                }
+            ]
+        },
+        {
+            "id": "st_scuttlingtorment",
+            "rotations": [
+                0
+            ],
+            "challenges": [
+                "scuttlingtorment_arena"
+            ],
+            "teleports": [
+                {
+                    "door": "door_travel",
+                    "object": "Content_DLC4/Decor/Prefab/Functional/TravelDoors/BP_HyperDungeonDoor"
+                }
+            ]
+        },
         {
             "id": "st_flesheater",
             "rotations": [
@@ -1501,6 +1642,101 @@
                 "gate": null,
                 "has-music": false
             }
+        },
+        {
+            "id": "scuttlingtorment_arena",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "scuttlingtorment"
+                    ]
+                ],
+                "gate": null,
+                "has-music": false
+            }
+        },
+        {
+            "id": "end_arena1",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "watcheroftheend"
+                    ]
+                ],
+                "gate": null,
+                "has-music": false
+            }
+        },
+        {
+            "id": "end_arena2",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "theswarm"
+                    ]
+                ],
+                "gate": null,
+                "has-music": false
+            }
+        },
+        {
+            "id": "ocean_arena1",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "vengefulmariner"
+                    ]
+                ],
+                "gate": null,
+                "has-music": false
+            }
+        },
+        {
+            "id": "ocean_arena2",
+            "trigger-object": "Decor/Prefabs/RedstonePuzzle/BP_Button_Straight",
+            "arena": {
+                "stretch": "*",
+                "interval": 1.5,
+                "rest-interval": 0,
+                "start-time": 1,
+                "prespawn-mob": "",
+                "waves": [
+                    [
+                        1,
+                        "abyssaleye"
+                    ]
+                ],
+                "gate": null,
+                "has-music": false
+            }
         }
     ],
     "dungeons": [
@@ -2368,6 +2604,119 @@
                         "gold_l_reward"
                     ],
                     "prop-density": 2
+                }
+            ]
+        },
+        {
+            "id": "scuttlingtorment_dungeon",
+            "ambience": "default",
+            "ambience-level-id": "thestronghold",
+            "audio-ambience": "audio_9",
+            "fill": "only-doors",
+            "resource-packs": [
+                "TheStronghold"
+            ],
+            "stretches": [
+                {
+                    "tiles": [
+                        "st_scuttlingtorment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "end_1",
+            "ambience": "default",
+            "ambience-level-id": "EnderWilds",
+            "audio-ambience": "audio_9",
+            "fill": "only-doors",
+            "resource-packs": [
+                "EnderWilds"
+            ],
+            "stretches": [
+                {
+                    "tiles": [
+                        "st_end_01"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "end_2",
+            "ambience": "default",
+            "ambience-level-id": "EnderWilds",
+            "audio-ambience": "audio_9",
+            "fill": "only-doors",
+            "resource-packs": [
+                "EnderWilds"
+            ],
+            "stretches": [
+                {
+                    "tiles": [
+                        "st_end_02"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ocean_1",
+            "ambience": "default",
+            "ambience-level-id": "AbyssalMonument",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        2,
+                        1,
+                        1,
+                        4,
+                        1,
+                        1,
+                        2,
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "resource-packs": [
+                "AbyssalMonument"
+            ],
+            "stretches": [
+                {
+                    "tiles": [
+                        "st_ocean1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ocean_2",
+            "ambience": "echo",
+            "ambience-level-id": "AbyssalMonument",
+            "fill": {
+                "world": {
+                    "gradient": [
+                        2,
+                        1,
+                        1,
+                        4,
+                        1,
+                        1,
+                        2,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "resource-packs": [
+                "AbyssalMonument"
+            ],
+            "stretches": [
+                {
+                    "tiles": [
+                        "st_ocean2"
+                    ]
                 }
             ]
         }

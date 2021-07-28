@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_EnderInteriorProps.MI_EnderInteriorProps'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_EnderInteriorProps.MI_EnderInteriorProps'
+        MaterialSlotName = Material #104
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800, 134.065, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=31.25, Z=157.813 }
+    BoxExtent = { X=150, Y=31.25, Z=32.8125 }
+    SphereRadius = 156.695
+}

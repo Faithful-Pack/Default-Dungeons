@@ -1,0 +1,59 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC6/Decor/Prefabs/_End_Structures_/SWT_Staircase/T_SunkenWatchtowerButtonGroundPaint_Mask.T_SunkenWatchtowerButtonGroundPaint_Mask'
+}
+Expressions[2] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/SWT_Staircase/M_SunkenWatchtowerButtonGroundPaint.MaterialExpressionVectorParameter_0'
+    Expressions[1] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/SWT_Staircase/M_SunkenWatchtowerButtonGroundPaint.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.755208, G=0.755208, B=0.755208, A=1 }
+        Name = Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SunkenWatchtowerButtonGroundPaint_Mask
+    }
+}

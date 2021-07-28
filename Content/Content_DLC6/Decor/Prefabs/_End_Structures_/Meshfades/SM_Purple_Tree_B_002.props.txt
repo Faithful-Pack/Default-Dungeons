@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/Meshfades/MI_End_MeshFades_001_NF.MI_End_MeshFades_001_NF'
+    Materials[1] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/Meshfades/MI_End_MeshFades_001_Leaf_NF.MI_End_MeshFades_001_Leaf_NF'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/Meshfades/MI_End_MeshFades_001_NF.MI_End_MeshFades_001_NF'
+        MaterialSlotName = Material #6
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/Meshfades/MI_End_MeshFades_001_Leaf_NF.MI_End_MeshFades_001_Leaf_NF'
+        MaterialSlotName = Material #3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00146484, Y=-49.9999, Z=100 }
+    BoxExtent = { X=299.999, Y=250, Z=100 }
+    SphereRadius = 349.999
+}

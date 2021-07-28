@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/Armor/ShulkerArmor/MI_ShulkerArmor.MI_ShulkerArmor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/Armor/ShulkerArmor/MI_ShulkerArmor.MI_ShulkerArmor'
+        MaterialSlotName = Material #101
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.318, 130.901, 120.534, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00320053, Y=-40.4265, Z=-0.12354 }
+    BoxExtent = { X=15.625, Y=40.6954, Z=15.625 }
+    SphereRadius = 46.3077
+}

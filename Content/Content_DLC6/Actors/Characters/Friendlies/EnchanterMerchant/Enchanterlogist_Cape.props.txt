@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Characters/Friendlies/EnchanterMerchant/MI_Villager_EnchanterMerchantProps.MI_Villager_EnchanterMerchantProps'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Characters/Friendlies/EnchanterMerchant/MI_Villager_EnchanterMerchantProps.MI_Villager_EnchanterMerchantProps'
+        MaterialSlotName = lambert4SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.165, 78.2783, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-60.541 }
+    BoxExtent = { X=25, Y=0, Z=59.375 }
+    SphereRadius = 64.4235
+}

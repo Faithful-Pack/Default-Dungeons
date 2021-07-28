@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/Meshfades/MI_End_MeshFades_NF.MI_End_MeshFades_NF'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/Meshfades/MI_End_MeshFades_NF.MI_End_MeshFades_NF'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.236, 2127.56, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-350, Y=-250.077, Z=400 }
+    BoxExtent = { X=350, Y=350.077, Z=400 }
+    SphereRadius = 636.439
+}

@@ -105,7 +105,7 @@ StaticParameters =
     {
         StaticSwitchParameters[0] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=MaskAlpha }
             bOverride = true
         }
@@ -114,6 +114,8 @@ StaticParameters =
     TerrainLayerWeightParameters[0] = {}
     MaterialLayersParameters[0] = {}
 }
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

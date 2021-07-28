@@ -132,7 +132,7 @@
             "entry-door": "enter"
         },
         {
-            "id": "cr_sub_twicav_arena",
+            "id": "cr_sub_twicav_matt",
             "entry-door": "enter",
             "challenges": [
                 "Slime_Arena"
@@ -147,7 +147,7 @@
             "entry-door": "enter"
         },
         {
-            "id": "cr_sub_twicav_arena_alt",
+            "id": "cr_sub_twicav_tom",
             "entry-door": "enter",
             "challenges": [
                 "Slime_Arena"
@@ -1002,10 +1002,10 @@
             "displayMode": "MainObjective",
             "arena": {
                 "stretch": "ship_battle",
-                "start-time": 5,
+                "start-time": 2,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "interval": 10,
-                "rest-interval": 1.5,
+                "rest-interval": 2,
                 "waves": [
                     [
                         7,
@@ -1067,8 +1067,8 @@
             "arena": {
                 "stretch": "*",
                 "interval": 5,
-                "rest-interval": 0.5,
-                "start-time": 0.5,
+                "rest-interval": 2,
+                "start-time": 2,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "waves": [
                     [
@@ -1101,7 +1101,7 @@
                     ]
                 ],
                 "gate": {
-                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/CoralGate/BP_CoralGate_7",
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/BubbleColumn/BP_BubbleColumn_Switch",
                     "start-unlocked": true
                 }
             }
@@ -1112,7 +1112,7 @@
             "arena": {
                 "stretch": "*",
                 "interval": 2,
-                "rest-interval": 0.5,
+                "rest-interval": 2,
                 "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
@@ -1153,7 +1153,7 @@
             "arena": {
                 "stretch": "*",
                 "interval": 2,
-                "rest-interval": 0.5,
+                "rest-interval": 2,
                 "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
@@ -1181,22 +1181,26 @@
             "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/BP_Button_AM",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
+                "interval": 4,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
+                    [
+                        4,
+                        "ocean-arena"
+                    ],
+                    [
+                        6,
+                        "ocean-arena"
+                    ],
                     [
                         1,
                         "DrownedNecromancer"
                     ],
                     [
-                        1.5,
-                        "DrownedNecromancer"
-                    ],
-                    [
-                        2,
-                        "DrownedNecromancer"
+                        8,
+                        "ocean-arena"
                     ]
                 ],
                 "gate": {
@@ -1210,9 +1214,9 @@
             "trigger-object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/Buttons/BP_Button_AM",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
+                "interval": 4,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1245,7 +1249,7 @@
                 "stretch": "",
                 "interval": 2,
                 "rest-interval": 2,
-                "start-time": 0.5,
+                "start-time": 2,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "waves": [
                     [
@@ -1273,7 +1277,7 @@
                 "stretch": "",
                 "interval": 7,
                 "rest-interval": 1.5,
-                "start-time": 0.5,
+                "start-time": 2,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "waves": [
                     [
@@ -1479,9 +1483,9 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 4,
+                "interval": 5,
                 "rest-interval": 0,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "waves": [
                     [
@@ -1520,8 +1524,8 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 3,
-                "rest-interval": 2,
+                "interval": 5,
+                "rest-interval": 0,
                 "start-time": 2,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "waves": [
@@ -1592,10 +1596,6 @@
                         "ocean-arena"
                     ],
                     [
-                        6,
-                        "Guardian"
-                    ],
-                    [
                         1,
                         "DrownedNecromancer"
                     ],
@@ -1653,9 +1653,9 @@
             "arena": {
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "stretch": "conduit_clicky_tile",
-                "interval": 7.5,
-                "rest-interval": 0,
-                "start-time": 0,
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
                 "waves": [
                     [
                         3,
@@ -1698,8 +1698,8 @@
             "arena": {
                 "stretch": "*",
                 "interval": 10,
-                "rest-interval": 1.5,
-                "start-time": 10,
+                "rest-interval": 2,
+                "start-time": 5,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "waves": [
                     [
@@ -1726,18 +1726,18 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 2.5,
+                "interval": 5,
                 "rest-interval": 0,
                 "start-time": 2,
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
                 "waves": [
                     [
-                        1,
-                        "ElderGuardian"
-                    ],
-                    [
                         6,
                         "Guardian"
+                    ],
+                    [
+                        1,
+                        "ElderGuardian"
                     ]
                 ],
                 "gate": {
@@ -2101,11 +2101,11 @@
                 {
                     "tiles": [
                         {
-                            "id": "cr_sub_twicav_arena",
+                            "id": "cr_sub_twicav_tom",
                             "weight": 0.5
                         },
                         {
-                            "id": "cr_sub_twicav_arena_alt",
+                            "id": "cr_sub_twicav_matt",
                             "weight": 0.5
                         }
                     ]

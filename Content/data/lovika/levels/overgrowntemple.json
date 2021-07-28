@@ -22,7 +22,7 @@
     "require-matching-doors": true,
     "default-mobs": {
         "only": [
-            "temple-mix-easy"
+            "jungle-mix"
         ],
         "density": 1
     },
@@ -41,8 +41,7 @@
                     "exit": "*.ot_temple_arena.travel_steam",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_steamchamber/sub_steamchamber_tiles.json"
+            ]
         },
         {
             "id": "nest_1",
@@ -55,15 +54,13 @@
                     "exit": "*.ot_temple_sidepath_spider.travel_spider",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_spidernest/sub_spidernest_tiles.json"
+            ]
         },
         {
             "id": "nest_3",
             "challenges": [
                 "miniarena"
-            ],
-            "##loc": "sub_spidernest/sub_spidernest_tiles.json"
+            ]
         },
         {
             "id": "trap_1",
@@ -82,28 +79,23 @@
                     "exit": "*.trap_6.end_door1",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            ]
         },
         {
             "id": "trap_2",
-            "entry-door": "enter",
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "trap_3",
-            "entry-door": "enter1",
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            "entry-door": "enter1"
         },
         {
             "id": "trap_4",
-            "entry-door": "enter2",
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            "entry-door": "enter2"
         },
         {
             "id": "trap_5",
-            "entry-door": "enter3",
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            "entry-door": "enter3"
         },
         {
             "id": "trap_6",
@@ -116,8 +108,7 @@
                     "exit": "*.trap_1.end_door2",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            ]
         },
         {
             "id": "troom_stretch",
@@ -132,23 +123,20 @@
                     "exit": "*.troom_end.troom_exit_2",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
                 }
-            ],
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            ]
         },
         {
             "id": "troom_middle",
             "challenges": [
                 "troom_mid_arena1"
-            ],
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            ]
         },
         {
             "id": "troom_middle_1",
             "challenges": [
                 "troom_clicky",
                 "troom_mid_arena"
-            ],
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            ]
         },
         {
             "id": "troom_end",
@@ -161,8 +149,7 @@
                     "exit": "*.troom_stretch.troom_end_1",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_cave"
                 }
-            ],
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            ]
         },
         {
             "id": "treasure_stairs",
@@ -178,8 +165,7 @@
                     "exit": "*.ot_temple_sidepath_flooded.travel_flooded",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_floodtemp/sub_floodtemp_tiles.json"
+            ]
         },
         {
             "id": "treasure_path",
@@ -189,8 +175,7 @@
             "entry-door": "enter",
             "challenges": [
                 "treasure_backtrack"
-            ],
-            "##loc": "sub_floodtemp/sub_floodtemp_tiles.json"
+            ]
         },
         {
             "id": "treasure_room",
@@ -199,8 +184,7 @@
             ],
             "challenges": [
                 "treasure_arena1"
-            ],
-            "##loc": "sub_floodtemp/sub_floodtemp_tiles.json"
+            ]
         },
         {
             "id": "tun_start",
@@ -210,64 +194,55 @@
             "teleports": [
                 {
                     "door": "tunnel_door",
-                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                    "object": "DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            ]
         },
         {
             "id": "tun_mid_2",
             "rotations": [
                 180,
                 270
-            ],
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            ]
         },
         {
             "id": "tun_mid_3",
             "challenges": [
                 "tunnel_clicky_arena"
-            ],
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            ]
         },
         {
             "id": "tun_hall",
             "challenges": [
                 "tunnel_arena_hall"
-            ],
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            ]
         },
         {
             "id": "tun_mid_1",
             "entry-door": "enter",
-            "exit-door": "exit",
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            "exit-door": "exit"
         },
         {
             "id": "tun_mid_4",
-            "entry-door": "enter",
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "tun_mid_5",
             "challenges": [
                 "skeleton_arena"
             ],
-            "entry-door": "enter",
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "tun_mid_6",
-            "entry-door": "enter",
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "tun_right_1",
             "rotations": [
                 90
             ],
-            "entry-door": "enter",
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "tun_right_2",
@@ -277,8 +252,7 @@
             "entry-door": "enter",
             "challenges": [
                 "tunnel_clicky_arena1"
-            ],
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            ]
         },
         {
             "id": "tun_end",
@@ -291,48 +265,40 @@
                     "exit": "*.ot_temple_09.travel_tunnel_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            ]
         },
         {
             "id": "ot_start_new",
-            "rotations": 0,
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "rotations": 0
         },
         {
             "id": "ot_jungle_edge_01",
-            "entry-door": "enter",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "entry-door": "enter"
         },
         {
-            "id": "ot_jungle_edge_02",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "id": "ot_jungle_edge_02"
         },
         {
             "id": "ot_temple_entrance",
             "rotations": 270,
-            "entry-door": "enter_001",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "entry-door": "enter_001"
         },
         {
             "id": "ot_entrance_hall",
             "entry-door": "entrance_hall_01",
-            "exit-door": "entrance_hall_02",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "exit-door": "entrance_hall_02"
         },
         {
             "id": "ot_entrance_hall_alt",
             "entry-door": "entrance_hall_01",
-            "exit-door": "entrance_hall_02",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "exit-door": "entrance_hall_02"
         },
         {
             "id": "ot_temple_01",
             "rotations": [
                 90,
                 180
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_arena",
@@ -347,30 +313,25 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_arena_alt",
             "entry-door": "enter_002_alt",
-            "rotations": 90,
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "rotations": 90
         },
         {
             "id": "ot_temple_jungle_01",
             "entry-door": "enter_003",
-            "rotations": 0,
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "rotations": 0
         },
         {
             "id": "ot_temple_jungle_02",
-            "entry-door": "enter_004",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "entry-door": "enter_004"
         },
         {
             "id": "ot_temple_jungle_03",
-            "entry-door": "enter_005",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "entry-door": "enter_005"
         },
         {
             "id": "ot_temple_jungle_04",
@@ -384,13 +345,11 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_jungle_04_alt",
-            "entry-door": "enter_006_alt",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "entry-door": "enter_006_alt"
         },
         {
             "id": "ot_temple_boss_gate",
@@ -406,34 +365,29 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Temple"
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_boss_stairs_01",
             "entry-door": "enter_008",
             "challenges": [
                 "ot_stairs_arena_01"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_boss_stairs_02_new",
             "entry-door": "enter_009_2",
             "challenges": [
                 "ot_stairs_arena_02"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_boss_arena_new",
-            "entry-door": "enter_010_2",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "entry-door": "enter_010_2"
         },
         {
             "id": "ot_temple_exit_01",
-            "entry-door": "enter_011",
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            "entry-door": "enter_011"
         },
         {
             "id": "ot_temple_sidepath_spider",
@@ -447,8 +401,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_sidepath_flooded",
@@ -465,16 +418,14 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_sidepath_flooded_alt",
             "rotations": [
                 180,
                 270
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_sidepath_tunnel",
@@ -491,8 +442,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_09",
@@ -503,43 +453,37 @@
                     "door": "travel_tunnel_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_jungle_deadend_02",
             "challenges": [
                 "jungle_deadend_trap"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_deadend_02",
             "challenges": [
                 "temple_deadend_trap_02"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_deadend_05",
             "challenges": [
                 "temple_deadend_trap_05"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_deadend_06",
             "challenges": [
                 "temple_deadend_trap_06"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_deadend_loot",
             "challenges": [
                 "temple_deadend_trap_loot"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_deadend_goldkey_01",
@@ -548,8 +492,7 @@
             ],
             "rotations": [
                 90
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "id": "ot_temple_deadend_goldkey_02",
@@ -558,8 +501,7 @@
             ],
             "rotations": [
                 90
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         }
     ],
     "stretches": [
@@ -582,7 +524,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -629,7 +571,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-easy"
+                    "jungle-mix"
                 ]
             }
         },
@@ -642,7 +584,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "length": 1,
@@ -709,7 +651,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-easy"
+                    "jungle-mix"
                 ]
             }
         },
@@ -724,7 +666,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -785,7 +727,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-easy"
+                    "jungle-mix"
                 ]
             }
         },
@@ -800,7 +742,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -853,7 +795,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-med"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -890,7 +832,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-med-whisperers"
+                    "jungle-mix"
                 ]
             }
         },
@@ -905,7 +847,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-med"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -966,7 +908,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -977,7 +919,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-hard-whisperers"
+                    "jungle-mix"
                 ]
             }
         },
@@ -988,7 +930,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -1006,7 +948,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -1021,7 +963,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-med"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -1052,7 +994,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-hard-whisperers"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -1097,7 +1039,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -1108,7 +1050,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -1125,7 +1067,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "temple-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -1136,7 +1078,7 @@
             "mobs": {
                 "density": 1.5,
                 "only": [
-                    "temple-mix-hard-whisperers"
+                    "jungle-mix"
                 ]
             }
         }
@@ -1148,8 +1090,7 @@
             "tiles": [
                 "ot_jungle_sidepath_01",
                 "ot_jungle_sidepath_02"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "#": "templeentrance_sidepath_01",
@@ -1158,8 +1099,7 @@
                 "ot_temple_sidepath_02",
                 "ot_temple_sidepath_03",
                 "ot_temple_sidepath_05"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "#": "templeentrance_sidepath_02",
@@ -1168,8 +1108,7 @@
                 "ot_temple_sidepath_01",
                 "ot_temple_sidepath_04",
                 "ot_temple_sidepath_06"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "#": "templegeneric_sidepath",
@@ -1199,8 +1138,7 @@
                     "id": "ot_temple_sidepath_06",
                     "weight": 0.2
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "#": "templespider_sidepath",
@@ -1226,16 +1164,14 @@
                     "id": "ot_temple_sidepath_06",
                     "weight": 0.1
                 }
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         },
         {
             "#": "templebossgate_sidepath",
             "id": "templebossgate_sidepath",
             "tiles": [
                 "ot_temple_deadend_goldkey_01"
-            ],
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            ]
         }
     ],
     "objectives": [
@@ -1292,11 +1228,11 @@
                 "waves": [
                     [
                         6,
-                        "main-arena-easy"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "main-arena-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
@@ -1304,11 +1240,11 @@
                     ],
                     [
                         10,
-                        "main-arena-hard"
+                        "arena-mix"
                     ],
                     [
                         10,
-                        "main-arena-hard"
+                        "arena-mix"
                     ],
                     [
                         3,
@@ -1316,7 +1252,7 @@
                     ],
                     [
                         6,
-                        "main-arena-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
@@ -1350,7 +1286,7 @@
                 "key-type": "gold",
                 "mobs": [
                     25,
-                    "arena-mix-hard"
+                    "arena-mix"
                 ],
                 "spawn-regions": [
                     "*.*.bad_boys"
@@ -1438,8 +1374,7 @@
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_steamchamber/sub_steamchamber_tiles.json"
+            }
         },
         {
             "id": "miniarena",
@@ -1484,8 +1419,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_gate_bb_bamboo_x5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_spidernest/sub_spidernest_tiles.json"
+            }
         },
         {
             "id": "booby_endend_arena",
@@ -1503,12 +1437,11 @@
                 "waves": [
                     [
                         15,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            }
         },
         {
             "id": "booby_end_arena",
@@ -1526,23 +1459,22 @@
                 "waves": [
                     [
                         10,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         12,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            }
         },
         {
             "id": "troom_clicky",
@@ -1557,8 +1489,7 @@
                 "locked-doors": [
                     "*.troom_middle_1.gate1"
                 ]
-            },
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            }
         },
         {
             "id": "troom_mid_arena1",
@@ -1576,16 +1507,15 @@
                 "waves": [
                     [
                         5,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         10,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            }
         },
         {
             "id": "troom_mid_arena",
@@ -1603,15 +1533,14 @@
                 "waves": [
                     [
                         20,
-                        "arena-mix-med"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_gate_bb_bamboo_x5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            }
         },
         {
             "id": "troom_end_arena",
@@ -1623,17 +1552,21 @@
             "arena": {
                 "stretch": "",
                 "interval": 20,
-                "rest-interval": 0.5,
+                "rest-interval": 2,
                 "start-time": 0.5,
                 "prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
                 "waves": [
                     [
                         5,
-                        "main-arena-hard"
+                        "arena-mix"
+                    ],
+                    [
+                        3,
+                        "arena-leaper"
                     ],
                     [
                         10,
-                        "main-arena-hard"
+                        "arena-mix"
                     ],
                     [
                         3,
@@ -1641,15 +1574,14 @@
                     ],
                     [
                         8,
-                        "main-arena-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_TempleDoorDown_5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_troom/sub_troom_tiles.json"
+            }
         },
         {
             "id": "treasure_arena1",
@@ -1683,8 +1615,7 @@
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_floodtemp/sub_floodtemp_tiles.json"
+            }
         },
         {
             "id": "treasure_backtrack",
@@ -1697,13 +1628,12 @@
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        20,
-                        "arena-mix-hard"
+                        10,
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_floodtemp/sub_floodtemp_tiles.json"
+            }
         },
         {
             "id": "treasure_backtrack_2",
@@ -1716,13 +1646,12 @@
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        15,
-                        "arena-mix-hard"
+                        10,
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_floodtemp/sub_floodtemp_tiles.json"
+            }
         },
         {
             "id": "tunnel_clicky_arena",
@@ -1740,19 +1669,18 @@
                 "waves": [
                     [
                         16,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         22,
-                        "arena-mix-med"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            }
         },
         {
             "id": "tunnel_arena_hall",
@@ -1770,16 +1698,15 @@
                 "waves": [
                     [
                         15,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         10,
-                        "arena-mix-med"
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            }
         },
         {
             "id": "skeleton_arena",
@@ -1813,8 +1740,7 @@
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            }
         },
         {
             "id": "tunnel_clicky_arena1",
@@ -1832,20 +1758,19 @@
                 "waves": [
                     [
                         22,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         6,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            }
         },
         {
             "id": "tunnel_end_arena",
@@ -1863,15 +1788,14 @@
                 "waves": [
                     [
                         20,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_templetunnel/sub_templetunnel_tiles.json"
+            }
         },
         {
             "id": "ot_stairs_arena_01",
@@ -1912,8 +1836,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_5x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "ot_stairs_arena_02",
@@ -1954,8 +1877,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_9x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "temple_deadend_trap_02",
@@ -1973,59 +1895,58 @@
                 "waves": [
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         4,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_5x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "temple_deadend_trap_05",
@@ -2043,59 +1964,58 @@
                 "waves": [
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         4,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_5x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "temple_deadend_trap_06",
@@ -2113,27 +2033,26 @@
                 "waves": [
                     [
                         6,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         4,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         4,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_5x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "temple_deadend_trap_loot",
@@ -2190,8 +2109,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_5x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "jungle_deadend_trap",
@@ -2209,24 +2127,23 @@
                 "waves": [
                     [
                         3,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         4,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         3,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "goldkey_battle_left",
@@ -2244,35 +2161,34 @@
                 "waves": [
                     [
                         4,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         4,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         5,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_5x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         },
         {
             "id": "goldkey_battle_right",
@@ -2290,47 +2206,46 @@
                 "waves": [
                     [
                         1,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         2,
-                        "arena-mix-med"
+                        "arena-mix"
                     ],
                     [
                         1,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         3,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ],
                     [
                         6,
-                        "arena-mix-hard"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/Overgrown_Temple/BP_OT_Door_5x",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "overgrowntemple/overgrowntemple.json"
+            }
         }
     ],
     "mob-groups": [
@@ -2346,527 +2261,122 @@
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         },
         {
-            "#": "============== JUNGLE MIX EASY ==============",
-            "id": "jungle-mix-easy",
+            "#": "============== JUNGLE MIX ==============",
+            "id": "jungle-mix",
             "types": [
                 {
-                    "type": "ocelot",
-                    "weight": 0.1,
-                    "max%": 0.1
-                },
-                {
-                    "type": "zombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.3
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                3,
-                6
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== JUNGLE MIX HARD ==============",
-            "id": "jungle-mix-hard",
-            "types": [
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.05
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
+                    "type": "JungleAnimal",
+                    "weight": 1,
                     "max%": 0.05
                 },
                 {
-                    "type": "Whisperer",
-                    "weight": 0.2,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                5,
-                7
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== JUNGLE MIX HARD WHISPERERS==============",
-            "id": "jungle-mix-hard-whisperers",
-            "types": [
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
                     "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
+                    "weight": 2,
+                    "max%": 0.1
                 },
                 {
                     "type": "Whisperer",
-                    "weight": 0.4,
-                    "min": 2,
-                    "max": 4
-                }
-            ],
-            "pick-types": [
-                4,
-                5
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== TEMPLE MIX EASY ==============",
-            "id": "temple-mix-easy",
-            "types": [
-                {
-                    "type": "ocelot",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.1
                 },
                 {
                     "type": "zombie",
-                    "weight": 0.2
+                    "weight": 3
                 },
                 {
                     "type": "junglezombie",
-                    "weight": 0.1
+                    "weight": 7
                 },
                 {
                     "type": "skeleton",
-                    "weight": 0.3
+                    "weight": 3
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.1
+                    "weight": 7
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
                 },
                 {
                     "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.2,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                3,
-                6
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== TEMPLE MIX MEDIUM ==============",
-            "id": "temple-mix-med",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.05
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.05
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
+                    "weight": 2,
+                    "max%": 0.2
                 },
                 {
                     "type": "creeper",
-                    "weight": 0.2,
+                    "weight": 2,
                     "max%": 0.3
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.2,
-                    "max%": 0.1
                 }
             ],
             "pick-types": [
                 3,
                 5
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== TEMPLE MIX MEDIUM WHISPERERS==============",
-            "id": "temple-mix-med-whisperers",
-            "types": [
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.4,
-                    "min": 3,
-                    "max": 5
-                }
-            ],
-            "pick-types": [
-                3,
-                4
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== TEMPLE MIX HARD ==============",
-            "id": "temple-mix-hard",
-            "types": [
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.05
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.2,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                5,
-                7
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== TEMPLE MIX HARD WHISPERERS==============",
-            "id": "temple-mix-hard-whisperers",
-            "types": [
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.4,
-                    "min": 4,
-                    "max": 7
-                }
-            ],
-            "pick-types": [
-                5,
-                5
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         },
         {
             "#": "============== ARENA MIX==============",
             "id": "arena-mix",
             "types": [
                 {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.05,
-                    "max%": 0.3
-                },
-                {
                     "type": "Leaper",
-                    "weight": 0.05,
-                    "max%": 0.05
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX EASY ==============",
-            "id": "arena-mix-easy",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.3
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX MEDIUM ==============",
-            "id": "arena-mix-med",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.3,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX HARD==============",
-            "id": "arena-mix-hard",
-            "types": [
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.05,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.05,
-                    "max%": 0.05
                 },
                 {
                     "type": "Whisperer",
-                    "weight": 0.3
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== MAIN ARENA MIX EASY==============",
-            "id": "main-arena-easy",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.3
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.4
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.2,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                2,
-                3
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
-        },
-        {
-            "#": "============== MAIN ARENA MIX HARD==============",
-            "id": "main-arena-hard",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.3
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.2,
+                    "weight": 2,
                     "max%": 0.1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 3
+                },
+                {
+                    "type": "junglezombie",
+                    "weight": 7
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 3
+                },
+                {
+                    "type": "mossyskeleton",
+                    "weight": 7
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
+                },
+                {
+                    "type": "spider",
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "creeper",
+                    "weight": 2,
+                    "max%": 0.3
                 }
             ],
             "pick-types": [
                 3,
-                5
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+                4
+            ]
         },
         {
             "#": "============== ARENA LEAPERS ==============",
@@ -2874,14 +2384,13 @@
             "types": [
                 {
                     "type": "Leaper",
-                    "weight": 1
+                    "weight": 10
                 }
             ],
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         },
         {
             "#": "============== ENDERMAN ==============",
@@ -2889,14 +2398,13 @@
             "types": [
                 {
                     "type": "Enderman",
-                    "weight": 2
+                    "weight": 10
                 }
             ],
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         },
         {
             "#": "============== CREEPER CHALLENGE MIX ==============",
@@ -2904,15 +2412,14 @@
             "types": [
                 {
                     "type": "creeper",
-                    "weight": 1,
+                    "weight": 10,
                     "max%": 1
                 }
             ],
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         },
         {
             "#": "============== SKELETON MIX EASY ==============",
@@ -2920,18 +2427,22 @@
             "types": [
                 {
                     "type": "skeleton",
-                    "weight": 0.75
+                    "weight": 8
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.25
+                    "weight": 4
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
                 }
             ],
             "pick-types": [
-                3,
-                4
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+                2,
+                3
+            ]
         },
         {
             "#": "============== SPIDERNEST SPECIAL ==============",
@@ -2939,11 +2450,10 @@
             "types": [
                 {
                     "type": "cavespider",
-                    "weight": 1,
+                    "weight": 10,
                     "min": 5
                 }
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         },
         {
             "#": "============== SPIDERNEST ==============",
@@ -2951,14 +2461,13 @@
             "types": [
                 {
                     "type": "spider",
-                    "weight": 0.2
+                    "weight": 2
                 },
                 {
                     "type": "cavespider",
-                    "weight": 0.8
+                    "weight": 8
                 }
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         },
         {
             "#": "============== JUNGLE ABOMINATION ==============",
@@ -2969,8 +2478,7 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "overgrowntemple/ot_mobs.json"
+            ]
         }
     ],
     "props": [],
@@ -2994,8 +2502,7 @@
                     "id": "pillar2",
                     "weight": 1
                 }
-            ],
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            ]
         },
         {
             "id": "pole",
@@ -3016,8 +2523,7 @@
                     "id": "pole1",
                     "weight": 1
                 }
-            ],
-            "##loc": "sub_boobytrap/sub_boobytrap_tiles.json"
+            ]
         }
     ],
     "dungeons": [
@@ -3031,8 +2537,7 @@
                         "steam_room"
                     ]
                 }
-            ],
-            "##loc": "sub_steamchamber/sub_steamchamber.json"
+            ]
         },
         {
             "id": "sub_spidernest",
@@ -3072,8 +2577,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_spidernest/sub_spidernest.json"
+            ]
         },
         {
             "id": "sub_boobytrap",
@@ -3087,7 +2591,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "temple-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3098,7 +2602,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "temple-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3109,7 +2613,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "temple-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3120,7 +2624,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "temple-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3134,7 +2638,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "temple-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3148,12 +2652,11 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "temple-mix-med"
+                            "arena-mix"
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_boobytrap/sub_boobytrap.json"
+            ]
         },
         {
             "id": "sub_troom",
@@ -3167,7 +2670,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3178,7 +2681,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3189,7 +2692,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-med"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3200,12 +2703,11 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-med"
+                            "arena-mix"
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_troom/sub_troom.json"
+            ]
         },
         {
             "id": "sub_floodtemp",
@@ -3219,7 +2721,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-med"
+                            "jungle-mix"
                         ]
                     }
                 },
@@ -3230,7 +2732,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-med"
+                            "jungle-mix"
                         ]
                     }
                 },
@@ -3241,12 +2743,11 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-med"
+                            "jungle-mix"
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_floodtemp/sub_floodtemp.json"
+            ]
         },
         {
             "id": "sub_templetunnel",
@@ -3260,7 +2761,7 @@
                     "mobs": {
                         "density": 2,
                         "only": [
-                            "arena-mix-hard"
+                            "arena-mix"
                         ]
                     }
                 },
@@ -3277,7 +2778,7 @@
                     "mobs": {
                         "density": 2,
                         "only": [
-                            "arena-mix-hard"
+                            "arena-mix"
                         ]
                     },
                     "length": 1
@@ -3301,7 +2802,7 @@
                     "mobs": {
                         "density": 2,
                         "only": [
-                            "arena-mix-hard"
+                            "arena-mix"
                         ]
                     },
                     "dead-ends": [
@@ -3322,7 +2823,7 @@
                     "mobs": {
                         "density": 2,
                         "only": [
-                            "arena-mix-hard"
+                            "arena-mix"
                         ]
                     },
                     "length": 1
@@ -3333,8 +2834,7 @@
                     ],
                     "length": 1
                 }
-            ],
-            "##loc": "sub_templetunnel/sub_templetunnel.json"
+            ]
         }
     ]
 }

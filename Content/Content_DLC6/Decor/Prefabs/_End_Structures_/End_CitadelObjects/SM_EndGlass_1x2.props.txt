@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_DLC6/Decor/Prefabs/_End_Structures_/End_CitadelObjects/M_EndGlass.M_EndGlass'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC6/Decor/Prefabs/_End_Structures_/End_CitadelObjects/M_EndGlass.M_EndGlass'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 143.666, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.95911e-05, Y=0, Z=7.62939e-06 }
+    BoxExtent = { X=0, Y=50, Z=100 }
+    SphereRadius = 111.803
+}

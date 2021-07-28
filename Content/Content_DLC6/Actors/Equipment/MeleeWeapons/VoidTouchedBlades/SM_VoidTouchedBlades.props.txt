@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/MeleeWeapons/VoidTouchedBlades/MI_VoidTouchedBlades.MI_VoidTouchedBlades'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/MeleeWeapons/VoidTouchedBlades/MI_VoidTouchedBlades.MI_VoidTouchedBlades'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 131.826, 133.043, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.38419e-05, Y=3.8147e-06, Z=-35.3553 }
+    BoxExtent = { X=3.12503, Y=22.0971, Z=61.8718 }
+    SphereRadius = 61.9507
+}

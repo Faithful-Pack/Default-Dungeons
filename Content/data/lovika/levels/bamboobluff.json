@@ -23,7 +23,7 @@
     "require-matching-doors": true,
     "default-mobs": {
         "only": [
-            "bamboo-mix-easy"
+            "jungle-mix"
         ],
         "density": 0.8
     },
@@ -39,19 +39,16 @@
                     "exit": "bamboo",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "bbc_cave_hub",
             "entry-door": "enter",
-            "exit-door": "exit_001",
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            "exit-door": "exit_001"
         },
         {
             "id": "bbc_cave_hub_transition",
-            "entry-door": "enter_001",
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            "entry-door": "enter_001"
         },
         {
             "id": "bbc_cave_exit",
@@ -64,8 +61,7 @@
                     "exit": "*.bb_cave_exit.bamboo_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "bbc_deadend_dark",
@@ -82,8 +78,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "bbc_deadend_dark_alt",
@@ -100,8 +95,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "bbc_deadend_creeper",
@@ -118,8 +112,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "bbc_deadend_creeper_alt",
@@ -136,8 +129,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "rock_pool",
@@ -149,15 +141,13 @@
                     "door": "pool_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_rockpool/sub_rockpool_tiles.json"
+            ]
         },
         {
             "id": "rock_pool2",
             "challenges": [
                 "rp-arena"
-            ],
-            "##loc": "sub_rockpool/sub_rockpool_tiles.json"
+            ]
         },
         {
             "id": "hut_1",
@@ -169,8 +159,7 @@
                     "door": "bamboohut_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_bamboo_cab/sub_bamboo_cab_tiles.json"
+            ]
         },
         {
             "id": "panda_1",
@@ -190,8 +179,7 @@
                     "exit": "*.panda_2.inner_gate_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_panda_temp/sub_panda_temp_tiles.json"
+            ]
         },
         {
             "id": "panda_2",
@@ -201,8 +189,7 @@
                     "exit": "*.panda_1.inner_gate_entrance",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_panda_temp/sub_panda_temp_tiles.json"
+            ]
         },
         {
             "id": "nest_1",
@@ -214,8 +201,7 @@
                     "door": "panda_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_pandanest/sub_pandanest_tiles.json"
+            ]
         },
         {
             "id": "dc_1",
@@ -232,8 +218,7 @@
                     "exit": "*.dc_8.end_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "sub_dankcave/sub_dankcave_tiles.json"
+            ]
         },
         {
             "id": "dc_8",
@@ -249,8 +234,7 @@
                     "exit": "*.dc_1.start_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_dankcave/sub_dankcave_tiles.json"
+            ]
         },
         {
             "id": "creep_enter",
@@ -267,8 +251,7 @@
                     "exit": "*.creep_hole.hole_door_1",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "creep_hole",
@@ -281,18 +264,15 @@
                     "exit": "*.creep_enter.hole_door_2",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "bb_new_start",
-            "rotations": 0,
-            "##loc": "bamboobluff/bamboobluff.json"
+            "rotations": 0
         },
         {
             "id": "bb_start",
-            "rotations": 0,
-            "##loc": "bamboobluff/bamboobluff.json"
+            "rotations": 0
         },
         {
             "id": "bb_jungle_edge_01",
@@ -300,29 +280,24 @@
             "exit-door": "exit",
             "challenges": [
                 "bamboo_cog_fight"
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "id": "bb_jungle_edge_02",
-            "entry-door": "enter_001",
-            "##loc": "bamboobluff/bamboobluff.json"
+            "entry-door": "enter_001"
         },
         {
             "id": "bb_jungle_01",
-            "rotations": 0,
-            "##loc": "bamboobluff/bamboobluff.json"
+            "rotations": 0
         },
         {
             "id": "bb_jungle_02",
             "rotations": 0,
-            "entry-door": "enter_002",
-            "##loc": "bamboobluff/bamboobluff.json"
+            "entry-door": "enter_002"
         },
         {
             "id": "bb_jungle_clearing",
-            "rotations": 0,
-            "##loc": "bamboobluff/bamboobluff.json"
+            "rotations": 0
         },
         {
             "id": "bb_cave_entrance",
@@ -335,8 +310,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "id": "bb_cave_exit",
@@ -347,8 +321,7 @@
                     "door": "bamboo_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "id": "bb_panda_party",
@@ -363,19 +336,16 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "id": "bb_panda_party_alt",
             "entry-door": "enter_003_2",
-            "rotations": 90,
-            "##loc": "bamboobluff/bamboobluff.json"
+            "rotations": 90
         },
         {
             "id": "bb_treetop_wonderland",
-            "rotations": 90,
-            "##loc": "bamboobluff/bamboobluff.json"
+            "rotations": 90
         },
         {
             "id": "bb_sidepath_rockpool",
@@ -389,8 +359,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "id": "bb_deadend_bamboohut",
@@ -407,8 +376,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "id": "bb_deadend_bamboohut_alt",
@@ -425,8 +393,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "id": "bb_deadend_nest",
@@ -443,8 +410,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         }
     ],
     "stretches": [
@@ -477,7 +443,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -568,7 +534,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -651,7 +617,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-easy"
+                    "jungle-mix"
                 ]
             }
         },
@@ -662,7 +628,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-med-whisperer"
+                    "jungle-mix"
                 ]
             }
         },
@@ -673,7 +639,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-med"
+                    "jungle-mix"
                 ]
             }
         },
@@ -705,7 +671,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -718,7 +684,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -734,7 +700,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-hard"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -825,7 +791,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -840,7 +806,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "bamboo-mix-hard"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -963,16 +929,14 @@
                 "bbc_deadend_02",
                 "bbc_deadend_03",
                 "bbc_deadend_04"
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "cave_deadend_caps",
             "tiles": [
                 "bbc_deadend_cap_01",
                 "bbc_deadend_cap_02"
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "cave_sidepaths",
@@ -985,8 +949,7 @@
                 "bbc_cave_07",
                 "bbc_cave_09",
                 "bbc_cave_10"
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "cave_sidepaths_straight",
@@ -996,8 +959,7 @@
                 "bbc_cave_03",
                 "bbc_cave_07",
                 "bbc_cave_08"
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "id": "cave_sidepaths_subdungeon",
@@ -1009,8 +971,7 @@
                 "bbc_cave_05",
                 "bbc_cave_07",
                 "bbc_cave_10"
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave_tiles.json"
+            ]
         },
         {
             "#": "bamboo_sidepath",
@@ -1035,8 +996,7 @@
                     "id": "bb_jungle_06",
                     "weight": 0.2
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "#": "bamboo_sidepath_straighter",
@@ -1061,8 +1021,7 @@
                     "id": "bb_jungle_06",
                     "weight": 0.1
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         },
         {
             "#": "rockpool_sidepath",
@@ -1076,8 +1035,7 @@
                     "id": "bb_deadend_rockpool",
                     "weight": 0.6
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff.json"
+            ]
         }
     ],
     "objectives": [
@@ -1216,15 +1174,15 @@
                 "waves": [
                     [
                         8,
-                        "main-arena-hard"
+                        "arena-mix"
                     ],
                     [
                         12,
-                        "main-arena-hard"
+                        "arena-mix"
                     ],
                     [
                         10,
-                        "main-arena-hard"
+                        "arena-mix"
                     ],
                     [
                         3,
@@ -1235,8 +1193,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_gate_bb_bamboo_x5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_rockpool/sub_rockpool_tiles.json"
+            }
         },
         {
             "id": "panda_clicky",
@@ -1251,8 +1208,7 @@
                 "locked-doors": [
                     "*.panda_1.gate"
                 ]
-            },
-            "##loc": "sub_panda_temp/sub_panda_temp_tiles.json"
+            }
         },
         {
             "id": "dc-arena",
@@ -1297,8 +1253,7 @@
                         "*.dc_8.gate_2"
                     ]
                 }
-            },
-            "##loc": "sub_dankcave/sub_dankcave_tiles.json"
+            }
         },
         {
             "id": "cp_creeper_arena",
@@ -1355,8 +1310,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            }
         },
         {
             "id": "bamboo_cog_fight",
@@ -1393,8 +1347,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "bamboobluff/bamboobluff.json"
+            }
         }
     ],
     "mob-groups": [
@@ -1404,446 +1357,186 @@
             "types": [
                 {
                     "type": "ocelot",
-                    "weight": 0.1
+                    "weight": 1
                 },
                 {
                     "type": "playfulpanda",
-                    "weight": 0.4
+                    "weight": 4
                 },
                 {
                     "type": "lazypanda",
-                    "weight": 0.3
+                    "weight": 3
                 },
                 {
                     "type": "brownpanda",
-                    "weight": 0.1
+                    "weight": 1
                 },
                 {
                     "type": "babypanda",
-                    "weight": 0.1
+                    "weight": 1
                 }
             ],
             "pick-types": [
                 2,
                 3
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+            ]
         },
         {
-            "#": "============== BAMBOO MIX EASY ==============",
-            "id": "bamboo-mix-easy",
+            "#": "============== JUNGLE MIX ==============",
+            "id": "jungle-mix",
             "types": [
                 {
-                    "type": "ocelot",
-                    "weight": 0.1,
+                    "type": "BluffAnimal",
+                    "weight": 1,
+                    "max%": 0.05
+                },
+                {
+                    "type": "Leaper",
+                    "weight": 2,
                     "max%": 0.1
-                },
-                {
-                    "type": "zombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                3,
-                6
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== BAMBOO MIX MEDIUM ==============",
-            "id": "bamboo-mix-med",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
-                }
-            ],
-            "pick-types": [
-                3,
-                5
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== BAMBOO MIX MEDIUM WHISPERER==============",
-            "id": "bamboo-mix-med-whisperer",
-            "types": [
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
                 },
                 {
                     "type": "Whisperer",
-                    "weight": 0.4,
-                    "min": 4,
-                    "max": 9
-                }
-            ],
-            "pick-types": [
-                5,
-                5
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== BAMBOO MIX HARD ==============",
-            "id": "bamboo-mix-hard",
-            "types": [
-                {
-                    "type": "ocelot",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.1
                 },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.02,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.1,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                5,
-                7
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== CAVE MIX EASY ==============",
-            "id": "cave-mix-easy",
-            "types": [
                 {
                     "type": "zombie",
-                    "weight": 0.1
+                    "weight": 3
                 },
                 {
                     "type": "junglezombie",
-                    "weight": 0.3
+                    "weight": 7
                 },
                 {
                     "type": "skeleton",
-                    "weight": 0.1
+                    "weight": 3
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.2
+                    "weight": 7
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
                 },
                 {
                     "type": "spider",
-                    "weight": 0.3,
-                    "max%": 0.4
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "creeper",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Witch",
+                    "weight": 2,
+                    "max%": 0.2
                 }
             ],
             "pick-types": [
                 3,
                 5
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+            ]
         },
         {
-            "#": "============== CAVE MIX HARD ==============",
-            "id": "cave-mix-hard",
+            "#": "============== CAVE MIX ==============",
+            "id": "cave-mix",
             "types": [
                 {
                     "type": "junglezombie",
-                    "weight": 0.25
+                    "weight": 7
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.25
+                    "weight": 7
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
                 },
                 {
                     "type": "spider",
-                    "weight": 0.3,
-                    "max%": 0.4
+                    "weight": 2,
+                    "max%": 0.2
                 },
                 {
                     "type": "creeper",
-                    "weight": 0.2,
+                    "weight": 2,
                     "max%": 0.3
                 }
             ],
             "pick-types": [
                 2,
                 4
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+            ]
         },
         {
-            "#": "============== ARENA MIX ==============",
+            "#": "============== ARENA MIX==============",
             "id": "arena-mix",
             "types": [
                 {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.05,
-                    "max%": 0.3
-                },
-                {
                     "type": "Leaper",
-                    "weight": 0.05,
-                    "max%": 0.05
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.1,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX EASY ==============",
-            "id": "arena-mix-easy",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.3
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX MEDIUM ==============",
-            "id": "arena-mix-med",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.3,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX HARD==============",
-            "id": "arena-mix-hard",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.05,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.05,
-                    "max%": 0.05
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.1,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
-        },
-        {
-            "#": "============== MAIN ARENA MIX HARD==============",
-            "id": "main-arena-hard",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.1
                 },
                 {
                     "type": "Whisperer",
-                    "weight": 0.2,
+                    "weight": 2,
                     "max%": 0.1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 3
+                },
+                {
+                    "type": "junglezombie",
+                    "weight": 7
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 3
+                },
+                {
+                    "type": "mossyskeleton",
+                    "weight": 7
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
+                },
+                {
+                    "type": "spider",
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "creeper",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "Witch",
+                    "weight": 2,
+                    "max%": 0.2
                 }
             ],
             "pick-types": [
                 3,
-                5
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+                4
+            ]
         },
         {
             "#": "============== ARENA LEAPERS ==============",
@@ -1851,14 +1544,13 @@
             "types": [
                 {
                     "type": "Leaper",
-                    "weight": 1
+                    "weight": 10
                 }
             ],
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+            ]
         },
         {
             "#": "============== CREEPER MIX ==============",
@@ -1866,15 +1558,19 @@
             "types": [
                 {
                     "type": "creeper",
-                    "weight": 0.5,
-                    "max%": 1
+                    "weight": 7,
+                    "max%": 0.1
+                },
+                {
+                    "type": "icycreeper",
+                    "weight": 3,
+                    "max%": 0.1
                 }
             ],
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+            ]
         },
         {
             "#": "============== SLIME MIX ==============",
@@ -1882,20 +1578,17 @@
             "types": [
                 {
                     "type": "SlimeLarge",
-                    "weight": 0.5,
-                    "max%": 0.3
+                    "weight": 7
                 },
                 {
                     "type": "SlimeMedium",
-                    "weight": 0.5,
-                    "max%": 0.7
+                    "weight": 5
                 }
             ],
             "pick-types": [
                 2,
                 2
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+            ]
         },
         {
             "#": "============== PANDA MIX ==============",
@@ -1921,8 +1614,7 @@
             "pick-types": [
                 2,
                 4
-            ],
-            "##loc": "bamboobluff/bb_mobs.json"
+            ]
         }
     ],
     "props": [
@@ -1930,99 +1622,85 @@
             "id": "panda1",
             "rotations": [
                 180
-            ],
-            "##loc": "sub_panda_temp/sub_panda_temp_tiles.json"
+            ]
         },
         {
             "id": "panda2",
             "rotations": [
                 180
-            ],
-            "##loc": "sub_panda_temp/sub_panda_temp_tiles.json"
+            ]
         },
         {
             "id": "panda3",
             "rotations": [
                 180
-            ],
-            "##loc": "sub_panda_temp/sub_panda_temp_tiles.json"
+            ]
         },
         {
             "id": "prop_nest_2",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_pandanest/sub_pandanest_tiles.json"
+            ]
         },
         {
             "id": "prop_nest_3",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_pandanest/sub_pandanest_tiles.json"
+            ]
         },
         {
             "id": "prop_nest_4",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_pandanest/sub_pandanest_tiles.json"
+            ]
         },
         {
             "id": "prop-1",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop-2",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop-3",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop-4",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop-5",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop-6",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop-7",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop-8",
             "rotations": [
                 0
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         }
     ],
     "prop-groups": [
@@ -2053,8 +1731,7 @@
                     "id": "panda3",
                     "weight": 1
                 }
-            ],
-            "##loc": "sub_panda_temp/sub_panda_temp_tiles.json"
+            ]
         },
         {
             "id": "panda_prop",
@@ -2071,8 +1748,7 @@
                     "id": "prop_nest_4",
                     "weight": 0.3
                 }
-            ],
-            "##loc": "sub_pandanest/sub_pandanest_tiles.json"
+            ]
         },
         {
             "id": "creeper",
@@ -2109,8 +1785,7 @@
                     "id": "prop-8",
                     "weight": 0.125
                 }
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit_tiles.json"
+            ]
         },
         {
             "id": "prop_nest_3",
@@ -2168,7 +1843,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "cave-mix-easy"
+                            "cave-mix"
                         ]
                     },
                     "dead-ends": [
@@ -2217,7 +1892,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "cave-mix-easy"
+                            "cave-mix"
                         ]
                     },
                     "dead-ends": [
@@ -2285,7 +1960,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "cave-mix-hard"
+                            "cave-mix"
                         ]
                     },
                     "dead-ends": [
@@ -2326,7 +2001,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "cave-mix-hard"
+                            "cave-mix"
                         ]
                     }
                 },
@@ -2337,12 +2012,11 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "cave-mix-hard"
+                            "cave-mix"
                         ]
                     }
                 }
-            ],
-            "##loc": "bamboobluff/bamboobluff_cave.json"
+            ]
         },
         {
             "id": "sub_rockpool",
@@ -2365,8 +2039,7 @@
                         "rock_pool2"
                     ]
                 }
-            ],
-            "##loc": "sub_rockpool/sub_rockpool.json"
+            ]
         },
         {
             "id": "sub_bamboo_cab",
@@ -2384,8 +2057,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_bamboo_cab/sub_bamboo_cab.json"
+            ]
         },
         {
             "id": "sub_panda_temp",
@@ -2417,8 +2089,7 @@
                         "panda"
                     ]
                 }
-            ],
-            "##loc": "sub_panda_temp/sub_panda_temp.json"
+            ]
         },
         {
             "id": "sub_pandanest",
@@ -2439,8 +2110,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_pandanest/sub_pandanest.json"
+            ]
         },
         {
             "id": "sub_dankcave",
@@ -2454,7 +2124,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "cave-mix-easy"
+                            "cave-mix"
                         ]
                     }
                 },
@@ -2490,7 +2160,7 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "cave-mix-easy"
+                            "cave-mix"
                         ]
                     }
                 },
@@ -2501,12 +2171,11 @@
                     "mobs": {
                         "density": 1,
                         "only": [
-                            "arena-mix-easy"
+                            "arena-mix"
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_dankcave/sub_dankcave.json"
+            ]
         },
         {
             "id": "sub_creeperpit",
@@ -2541,8 +2210,7 @@
                         "creeper"
                     ]
                 }
-            ],
-            "##loc": "sub_creeperpit/sub_creeperpit.json"
+            ]
         }
     ]
 }

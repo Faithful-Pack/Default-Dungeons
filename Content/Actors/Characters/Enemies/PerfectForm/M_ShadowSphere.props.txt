@@ -1,0 +1,85 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_16.T_Clouds_16'
+}
+Expressions[39] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionVectorParameter_0'
+    Expressions[3] = MaterialExpressionTextureSample'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_2'
+    Expressions[16] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_3'
+    Expressions[20] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_4'
+    Expressions[23] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_5'
+    Expressions[24] = MaterialExpressionVectorParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionVectorParameter_1'
+    Expressions[29] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_6'
+    Expressions[38] = MaterialExpressionScalarParameter'Actors/Characters/Enemies/PerfectForm/M_ShadowSphere.MaterialExpressionScalarParameter_7'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=X, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Y, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Clamp, Group=None }
+    CollectedScalarParameters[4] = { Value=2.92638, Name=Tiling, Group=None }
+    CollectedScalarParameters[5] = { Value=-0.011, Name=Glow, Group=None }
+    CollectedScalarParameters[6] = { Value=-3.22278, Name=Rotate, Group=None }
+    CollectedScalarParameters[7] = { Value=0.571429, Name=B, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Colour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=19.3988, G=0, B=25, A=1 }
+        Name = GlowColour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 6.4375
+        UVChannelIndex = 0
+        TextureName = T_Clouds_16
+    }
+}

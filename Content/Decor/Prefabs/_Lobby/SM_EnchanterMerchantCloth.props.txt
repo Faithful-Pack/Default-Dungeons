@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Lobby/MI_EnchanterMerchantCloth.MI_EnchanterMerchantCloth'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Lobby/MI_EnchanterMerchantCloth.MI_EnchanterMerchantCloth'
+        MaterialSlotName = Carpet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 405.75, 281.324, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50, Y=25, Z=200 }
+    BoxExtent = { X=50, Y=125, Z=200 }
+    SphereRadius = 241.091
+}

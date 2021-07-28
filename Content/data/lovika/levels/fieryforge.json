@@ -27,25 +27,29 @@
                 "outdoor_start_snow"
             ],
             "push-ambience": "alpha",
-            "audio-ambience": "audio_2"
+            "audio-ambience": "audio_2",
+            "raid-captains": false
         },
         {
             "tiles": [
                 "outdoor_start"
             ],
-            "audio-ambience": "audio_2"
+            "audio-ambience": "audio_2",
+            "raid-captains": false
         },
         {
             "tile-groups": [
                 "outdoor_stretch"
             ],
-            "audio-ambience": "audio_2"
+            "audio-ambience": "audio_2",
+            "raid-captains": false
         },
         {
             "tiles": [
                 "outdoor_entrance"
             ],
-            "audio-ambience": "audio_2"
+            "audio-ambience": "audio_2",
+            "raid-captains": false
         },
         {
             "id": "start",
@@ -54,12 +58,14 @@
                 "secret@ff_start"
             ],
             "push-ambience": "default",
-            "audio-ambience": "audio_9"
+            "audio-ambience": "audio_9",
+            "raid-captains": false
         },
         {
             "tiles": [
                 "ff_second"
-            ]
+            ],
+            "raid-captains": false
         },
         {
             "tiles": [
@@ -69,6 +75,7 @@
                 "ff_transition004"
             ],
             "visual-theme": "cave_dark",
+            "raid-captains": false,
             "side-paths": {
                 "probability": 0.8,
                 "default": {
@@ -140,7 +147,8 @@
                 "ff_transitionback001",
                 "ff_transitionback002",
                 "ff_transitionback003"
-            ]
+            ],
+            "raid-captains": false
         },
         {
             "tile-groups": [
@@ -154,7 +162,8 @@
                 "only": [
                     "ff-illager-group"
                 ]
-            }
+            },
+            "raid-captains": false
         },
         {
             "tiles": [
@@ -163,6 +172,7 @@
                 "ff_transition003",
                 "ff_transition004"
             ],
+            "raid-captains": false,
             "side-paths": {
                 "probability": 0.6,
                 "default": {
@@ -193,6 +203,7 @@
             "tiles": [
                 "forge_small_start001"
             ],
+            "raid-captains": false,
             "dead-ends": [
                 "forge_mini_deadend001",
                 "forge_mini_deadend002",
@@ -210,6 +221,7 @@
             ],
             "length": 15,
             "visual-theme": "cave_dark",
+            "raid-captains": false,
             "side-paths": {
                 "probability": 1,
                 "default": {
@@ -245,14 +257,16 @@
             "id": "forge_end",
             "tiles": [
                 "forge_endtile001"
-            ]
+            ],
+            "raid-captains": false
         },
         {
             "tiles": [
                 "ff_transitionback001",
                 "ff_transitionback002",
                 "ff_transitionback003"
-            ]
+            ],
+            "raid-captains": false
         },
         {
             "tile-groups": [
@@ -266,7 +280,8 @@
                 "only": [
                     "ff-illager-group"
                 ]
-            }
+            },
+            "raid-captains": false
         },
         {
             "tiles": [
@@ -275,6 +290,7 @@
                 "ff_transition003",
                 "ff_transition004"
             ],
+            "raid-captains": false,
             "side-paths": {
                 "probability": 0.9,
                 "default": {
@@ -346,14 +362,16 @@
                 "ff_transitionback001",
                 "ff_transitionback002",
                 "ff_transitionback003"
-            ]
+            ],
+            "raid-captains": false
         },
         {
             "id": "redstone-monstrosity",
             "audio-ambience": "audio_6",
             "tile-groups": [
                 "redstone-monstrosity"
-            ]
+            ],
+            "raid-captains": false
         },
         {
             "id": "special",
@@ -366,7 +384,8 @@
                 "only": [
                     "ff-illager-group"
                 ]
-            }
+            },
+            "raid-captains": false
         },
         {
             "id": "end",
@@ -377,7 +396,8 @@
                 "only": [
                     "ff-illager-group"
                 ]
-            }
+            },
+            "raid-captains": false
         }
     ],
     "objectives": [
@@ -506,8 +526,7 @@
             "pick-types": [
                 2,
                 3
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         },
         {
             "#": "============== FORGE CAVE GROUP ==============",
@@ -540,8 +559,7 @@
             "pick-types": [
                 2,
                 3
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         },
         {
             "#": "============== GOLEM BOSS ==============",
@@ -552,8 +570,7 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         },
         {
             "#": "============== REDSTONEMONSTROSITY GROUP ==============",
@@ -564,8 +581,7 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         },
         {
             "#": "============== VINDICATOR GROUP ==============",
@@ -575,8 +591,7 @@
                     "type": "vindicator",
                     "min": 1
                 }
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         },
         {
             "#": "============== FORGE ARENA GROUP ==============",
@@ -605,8 +620,7 @@
             "pick-types": [
                 3,
                 3
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         },
         {
             "#": "============== MINIARENA SINGLES ==============",
@@ -631,8 +645,7 @@
             "pick-types": [
                 1,
                 3
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         },
         {
             "#": "============== MINIARENA ZOMBIES ==============",
@@ -667,8 +680,7 @@
             "pick-types": [
                 1,
                 3
-            ],
-            "##loc": "FieryForge/ff_mobs.json"
+            ]
         }
     ],
     "object-groups": [
@@ -685,13 +697,11 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
                 }
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         },
         {
             "id": "rr_runeroom001",
-            "rotations": 90,
-            "##loc": "RuneRoom/rr_tiles.json"
+            "rotations": 90
         },
         {
             "id": "rralt_entrance001",
@@ -701,8 +711,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/BP_Door7x4"
                 }
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         },
         {
             "id": "secret@ff_start",
@@ -722,8 +731,7 @@
             ],
             "unlock-keys": [
                 "RuneGateDiscovered"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "ff_start",
@@ -736,28 +744,23 @@
             ],
             "unlock-keys": [
                 "not RuneGateDiscovered"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "outdoor_start",
-            "rotations": 0,
-            "##loc": "FieryForge/ff_tiles.json"
+            "rotations": 0
         },
         {
             "id": "outdoor_start_snow",
-            "rotations": 0,
-            "##loc": "FieryForge/ff_tiles.json"
+            "rotations": 0
         },
         {
             "id": "forge_small_start001",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "forge_endtile001",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "forge_cross003",
@@ -777,8 +780,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "ff_small_sidepath_entrance001",
@@ -798,8 +800,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "forge_cellar001",
@@ -815,8 +816,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "forge_cellar002",
@@ -832,8 +832,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "cave_arena001",
@@ -852,16 +851,14 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance_NoShaft"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "cave_pit001",
             "rotations": [
                 180,
                 270
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "cave_start001",
@@ -874,8 +871,7 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "cave_chest_room001",
@@ -888,15 +884,13 @@
                     "door": "travel",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "forge_mini_arena001",
             "challenges": [
                 "miniarena_forge"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "forge_up001",
@@ -912,15 +906,13 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "forge_cross007",
             "challenges": [
                 "miniarena_forge"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "outdoor_entrance",
@@ -930,67 +922,54 @@
                     "exit": "start.*.travel",
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_OutdoorEntrance_New"
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "id": "ff_020",
-            "rotations": 270,
-            "##loc": "FieryForge/ff_tiles.json"
+            "rotations": 270
         },
         {
             "id": "ff_monstrosity",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_transition001",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_transition002",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_transition003",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_transition004",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_transitionback001",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_transitionback002",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_transitionback003",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
-            "id": "ff_inventory001",
-            "##loc": "FieryForge/ff_tiles.json"
+            "id": "ff_inventory001"
         },
         {
             "id": "ff_special",
-            "entry-door": "enter",
-            "##loc": "FieryForge/ff_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "ff_notarena002",
-            "rotations": 0,
-            "##loc": "FieryForge/ff_tiles.json"
+            "rotations": 0
         }
     ],
     "prop-groups": [
@@ -1008,8 +987,7 @@
                 "rr_rockprop06",
                 "rr_rockprop07",
                 "rr_rockprop08"
-            ],
-            "##loc": "RuneRoom/rr_tiles.json"
+            ]
         },
         {
             "id": "deadend",
@@ -1076,8 +1054,7 @@
             "id": "outdoor_stretch",
             "tiles": [
                 "outdoor_tile001"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Forge Tiles",
@@ -1096,8 +1073,7 @@
                 "ff_020",
                 "ff_021",
                 "ff_notarena002"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Mini Tiles",
@@ -1157,8 +1133,7 @@
                     "id": "forge_up001",
                     "weight": 0.8
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Cave Tiles",
@@ -1190,8 +1165,7 @@
                     "id": "cave_double002",
                     "weight": 0.5
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Cellar Tiles",
@@ -1199,16 +1173,14 @@
             "tiles": [
                 "forge_cellar001",
                 "forge_cellar002"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Special Tiles",
             "id": "cave_chest_room",
             "tiles": [
                 "cave_chest_room001"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Small Sidepath",
@@ -1222,32 +1194,28 @@
                     "id": "ff_small_sidepath_entrance001",
                     "weight": 0.9
                 }
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "End tile",
             "id": "end",
             "tiles": [
                 "ff_end2"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Inventory Tile",
             "id": "inventory01",
             "tiles": [
                 "ff_inventory001"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         },
         {
             "#": "Redstone Monstrosity Arena",
             "id": "redstone-monstrosity",
             "tiles": [
                 "ff_monstrosity"
-            ],
-            "##loc": "FieryForge/ff_tiles.json"
+            ]
         }
     ],
     "challenges": [
@@ -1302,8 +1270,7 @@
                     "object": "Decor/Prefabs/ArenaEye/BP_ArenaEye",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "FieryForge/ff_tiles.json"
+            }
         },
         {
             "id": "miniarena_cellar",
@@ -1356,8 +1323,7 @@
                     "object": "Decor/Prefabs/ArenaEye/BP_ArenaEye",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "FieryForge/ff_tiles.json"
+            }
         },
         {
             "id": "clicky_arena",
@@ -1411,11 +1377,10 @@
                     ]
                 ],
                 "gate": {
-                    "object": "Decor/Prefabs/_Forge/Head/BP_Head_Door",
+                    "object": "Decor/Prefabs/_Forge/HeadBP_Head_Door",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "FieryForge/ff_tiles.json"
+            }
         }
     ],
     "dungeons": [
@@ -1430,8 +1395,7 @@
                     ],
                     "audio-ambience": "audio_1"
                 }
-            ],
-            "##loc": "runeroom/rr_dungeons.json"
+            ]
         },
         {
             "id": "runeroom02",
@@ -1452,8 +1416,7 @@
                         "rr_runeroom001"
                     ]
                 }
-            ],
-            "##loc": "runeroom/rr_dungeons.json"
+            ]
         },
         {
             "id": "cave",
@@ -1525,8 +1488,7 @@
                         "cave_deadend002"
                     ]
                 }
-            ],
-            "##loc": "fieryforge/fieryforge.json"
+            ]
         },
         {
             "id": "cave-arena",
@@ -1621,8 +1583,7 @@
                         "cave_deadend002"
                     ]
                 }
-            ],
-            "##loc": "fieryforge/fieryforge.json"
+            ]
         },
         {
             "id": "cellar",
@@ -1634,8 +1595,7 @@
                         "forge_cellar"
                     ]
                 }
-            ],
-            "##loc": "fieryforge/fieryforge.json"
+            ]
         },
         {
             "id": "cave_room",
@@ -1647,8 +1607,7 @@
                         "cave_chest_room"
                     ]
                 }
-            ],
-            "##loc": "fieryforge/fieryforge.json"
+            ]
         }
     ]
 }

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/EndGateway/EndGateway_BC_Meshes/MI_Exit_Portal.MI_Exit_Portal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/EndGateway/EndGateway_BC_Meshes/MI_Exit_Portal.MI_Exit_Portal'
+        MaterialSlotName = Material #199
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.147, 8.46474, 1599.88, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=6.10352e-05, Z=300 }
+    BoxExtent = { X=350, Y=350, Z=300 }
+    SphereRadius = 484.768
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Lab/Glassware/MI_Glassware.MI_Glassware'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Lab/Glassware/MI_Glassware.MI_Glassware'
+        MaterialSlotName = ConicalFlaskMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 204.996, 53.1764, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.53674e-07, Y=-12.5, Z=0 }
+    BoxExtent = { X=9.375, Y=12.5, Z=9.375 }
+    SphereRadius = 18.2217
+}

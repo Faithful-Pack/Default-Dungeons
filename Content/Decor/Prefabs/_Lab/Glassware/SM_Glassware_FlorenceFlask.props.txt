@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Lab/Glassware/MI_Glassware.MI_Glassware'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Lab/Glassware/MI_Glassware.MI_Glassware'
+        MaterialSlotName = FlorenceFlaskMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 197.682, 91.9575, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.25, Y=-18.75, Z=-9.53674e-07 }
+    BoxExtent = { X=18.75, Y=18.75, Z=12.5 }
+    SphereRadius = 29.3151
+}

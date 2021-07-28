@@ -23,7 +23,7 @@
     "default-mobs": {
         "only": [
             {
-                "id": "jungle-mix-easy",
+                "id": "jungle-mix",
                 "weight": 1
             }
         ],
@@ -40,8 +40,7 @@
                     "door": "treasurecave_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            ]
         },
         {
             "id": "treasure_corridor",
@@ -49,31 +48,27 @@
                 "treasure_goldgate",
                 "treasure_arena"
             ],
-            "entry-door": "enter",
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "treasure_corridor_02",
             "challenges": [
                 "treasure_arena2"
             ],
-            "entry-door": "enter2",
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            "entry-door": "enter2"
         },
         {
             "id": "treasure_corridor_03",
             "challenges": [
                 "treasure_arena3"
             ],
-            "entry-door": "enter3",
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            "entry-door": "enter3"
         },
         {
             "id": "treasure_arena",
             "challenges": [
                 "treasure_clicky_arena"
-            ],
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            ]
         },
         {
             "id": "tree_1",
@@ -88,8 +83,7 @@
                     "door": "tree_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_tree/sub_tree_tiles.json"
+            ]
         },
         {
             "id": "jungle_hut",
@@ -101,8 +95,7 @@
                     "door": "hut_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "sub_junglehut/sub_junglehut_tiles.json"
+            ]
         },
         {
             "id": "river_1",
@@ -117,8 +110,7 @@
                     "door": "river_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_river_under/sub_river_under_tiles.json"
+            ]
         },
         {
             "id": "lava_main",
@@ -130,44 +122,37 @@
                     "door": "lava_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            ]
         },
         {
             "id": "lava_down",
-            "entry-door": "enter_down",
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            "entry-door": "enter_down"
         },
         {
             "id": "lava_1",
             "challenges": [
                 "lava_arena1"
             ],
-            "entry-door": "enter_1",
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            "entry-door": "enter_1"
         },
         {
             "id": "lava_2",
-            "entry-door": "enter_2",
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            "entry-door": "enter_2"
         },
         {
             "id": "lava_up",
-            "entry-door": "enter_up",
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            "entry-door": "enter_up"
         },
         {
             "id": "lava_3",
             "challenges": [
                 "lava_arena2"
             ],
-            "entry-door": "enter_3",
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            "entry-door": "enter_3"
         },
         {
             "id": "lava_4",
-            "entry-door": "enter_4",
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            "entry-door": "enter_4"
         },
         {
             "id": "lava_exit",
@@ -179,8 +164,7 @@
                     "door": "lava_door_exit",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
                 }
-            ],
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            ]
         },
         {
             "id": "fossil_1",
@@ -193,8 +177,7 @@
                     "door": "fossil_door",
                     "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Bamboo"
                 }
-            ],
-            "##loc": "sub_fossil/sub_fossil_tiles.json"
+            ]
         },
         {
             "id": "dj_new_start",
@@ -489,7 +472,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-easy"
+                    "jungle-mix"
                 ]
             }
         },
@@ -502,7 +485,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -564,7 +547,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-easy"
+                    "jungle-mix"
                 ]
             }
         },
@@ -575,7 +558,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -633,7 +616,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-easy"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -700,7 +683,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med"
+                    "jungle-mix"
                 ]
             }
         },
@@ -718,7 +701,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -775,7 +758,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med"
+                    "jungle-mix"
                 ]
             }
         },
@@ -786,7 +769,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med"
+                    "jungle-mix"
                 ]
             }
         },
@@ -802,7 +785,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med"
+                    "jungle-mix"
                 ]
             }
         },
@@ -813,7 +796,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -835,7 +818,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med"
+                    "jungle-mix"
                 ]
             }
         },
@@ -846,7 +829,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med-plus"
+                    "jungle-mix"
                 ]
             }
         },
@@ -885,7 +868,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med-plus"
+                    "jungle-mix"
                 ]
             }
         },
@@ -896,7 +879,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med-plus"
+                    "jungle-mix"
                 ]
             }
         },
@@ -907,7 +890,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med-plus"
+                    "jungle-mix"
                 ]
             }
         },
@@ -918,7 +901,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med-plus"
+                    "jungle-mix"
                 ]
             },
             "dead-ends": [
@@ -946,7 +929,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-med-plus"
+                    "jungle-mix"
                 ]
             }
         },
@@ -957,7 +940,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-hard"
+                    "jungle-mix"
                 ]
             }
         },
@@ -969,7 +952,7 @@
             "mobs": {
                 "density": 1,
                 "only": [
-                    "jungle-mix-hard-whisperers"
+                    "jungle-mix"
                 ]
             },
             "prop-groups": [
@@ -1014,57 +997,49 @@
             "id": "left_statue_001",
             "rotations": [
                 0
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "left_statue_002",
             "rotations": [
                 0
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "left_statue_003",
             "rotations": [
                 0
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "left_statue_004",
             "rotations": [
                 0
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "right_statue_001",
             "rotations": [
                 270
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "right_statue_002",
             "rotations": [
                 270
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "right_statue_003",
             "rotations": [
                 270
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "right_statue_004",
             "rotations": [
                 270
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         }
     ],
     "prop-groups": [
@@ -1107,8 +1082,7 @@
                     "id": "riverpillar2",
                     "weight": 1
                 }
-            ],
-            "##loc": "sub_river_under/sub_river_under_tiles.json"
+            ]
         },
         {
             "id": "left_statue",
@@ -1148,8 +1122,7 @@
                     "id": "left_statue_004",
                     "weight": 1
                 }
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "right_statue",
@@ -1189,8 +1162,7 @@
                     "id": "right_statue_004",
                     "weight": 1
                 }
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "id": "tree",
@@ -1223,8 +1195,7 @@
                 "dj_jungle_sidepath_06",
                 "dj_jungle_sidepath_07",
                 "dj_jungle_sidepath_08"
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "#": "lake_sidepath",
@@ -1235,8 +1206,7 @@
                 "dj_jungle_sidepath_05",
                 "dj_jungle_sidepath_06",
                 "dj_jungle_sidepath_07"
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         },
         {
             "#": "vine_reg-alt_path",
@@ -1244,8 +1214,7 @@
             "tiles": [
                 "dj_vine_maze",
                 "dj_vine_maze_alt"
-            ],
-            "##loc": "dingyjungle/dingyjungle.json"
+            ]
         }
     ],
     "objectives": [
@@ -1304,11 +1273,11 @@
                 "waves": [
                     [
                         4,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         5,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         1,
@@ -1316,11 +1285,11 @@
                     ],
                     [
                         5,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         6,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         1,
@@ -1328,7 +1297,7 @@
                     ],
                     [
                         8,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         2,
@@ -1398,11 +1367,11 @@
                 "waves": [
                     [
                         6,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ],
                     [
                         1,
@@ -1410,11 +1379,11 @@
                     ],
                     [
                         10,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         4,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         2,
@@ -1422,11 +1391,11 @@
                     ],
                     [
                         8,
-                        "arena-mix-hard-final"
+                        "arena-mix"
                     ],
                     [
                         10,
-                        "arena-mix-hard-final"
+                        "arena-mix"
                     ],
                     [
                         3,
@@ -1466,8 +1435,7 @@
                     "*.treasure_corridor.pickupkey"
                 ],
                 "key-type": "gold"
-            },
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            }
         },
         {
             "id": "treasure_arena",
@@ -1500,8 +1468,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_JungleDoorDown_5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            }
         },
         {
             "id": "treasure_arena2",
@@ -1534,8 +1501,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_JungleDoorDown_5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            }
         },
         {
             "id": "treasure_arena3",
@@ -1560,8 +1526,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_JungleDoorDown_5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            }
         },
         {
             "id": "treasure_clicky_arena",
@@ -1598,8 +1563,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
                     "start-unlocked": true
                 }
-            },
-            "##loc": "sub_treasurecave/sub_treasurecave_tiles.json"
+            }
         },
         {
             "id": "tree_clicky_arena",
@@ -1616,7 +1580,7 @@
                 "prespawn-mob": "/Game/Actors/Jungle/BP_Jungle_ArenaBattle",
                 "waves": [
                     [
-                        2,
+                        4,
                         "tree-mix"
                     ],
                     [
@@ -1640,8 +1604,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_tree/sub_tree_tiles.json"
+            }
         },
         {
             "id": "river_clicky_arena",
@@ -1686,8 +1649,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_Gate_BB_Bamboo_x5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_river_under/sub_river_under_tiles.json"
+            }
         },
         {
             "id": "lava_arena1",
@@ -1713,8 +1675,7 @@
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            }
         },
         {
             "id": "lava_arena2",
@@ -1751,8 +1712,7 @@
                     "object": "Decor/Prefabs/DingyJungle/Jungle_DesignAssets/BP_JungleDoorDown_5",
                     "start-unlocked": false
                 }
-            },
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            }
         },
         {
             "id": "lava_arena3",
@@ -1794,8 +1754,7 @@
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_lava/sub_lava_tiles.json"
+            }
         },
         {
             "id": "fossil_clicky_arena",
@@ -1833,8 +1792,7 @@
                     ]
                 ],
                 "gate": null
-            },
-            "##loc": "sub_fossil/sub_fossil_tiles.json"
+            }
         },
         {
             "id": "dj_creeper_arena",
@@ -1907,15 +1865,15 @@
                 "waves": [
                     [
                         6,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         5,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ],
                     [
                         8,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
@@ -1941,7 +1899,7 @@
                 "waves": [
                     [
                         8,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ]
                 ],
                 "gate": {
@@ -1967,7 +1925,7 @@
                 "waves": [
                     [
                         12,
-                        "arena-mix-easy"
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
@@ -1990,7 +1948,7 @@
                 "waves": [
                     [
                         12,
-                        "arena-mix-med-final"
+                        "arena-mix"
                     ]
                 ],
                 "gate": null
@@ -2011,429 +1969,122 @@
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== JUNGLE MIX EASY ==============",
-            "id": "jungle-mix-easy",
-            "types": [
-                {
-                    "type": "ocelot",
-                    "weight": 0.1,
-                    "max%": 0.1
-                },
-                {
-                    "type": "zombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.3
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                3,
-                6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== JUNGLE MIX MEDIUM ==============",
-            "id": "jungle-mix-med",
-            "types": [
-                {
-                    "type": "ocelot",
-                    "weight": 0.1,
-                    "max%": 0.1
-                },
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.2,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                3,
-                5
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== JUNGLE MIX MEDIUM + LEAPERS ==============",
-            "id": "jungle-mix-med-plus",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
-                }
-            ],
-            "pick-types": [
-                3,
-                5
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+            ]
         },
         {
             "#": "============== JUNGLE MIX HARD ==============",
-            "id": "jungle-mix-hard",
+            "id": "jungle-mix",
             "types": [
                 {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.05
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.1,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.1,
+                    "type": "JungleAnimal",
+                    "weight": 1,
                     "max%": 0.05
                 },
                 {
-                    "type": "Whisperer",
-                    "weight": 0.2,
+                    "type": "Leaper",
+                    "weight": 2,
                     "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                5,
-                7
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== JUNGLE MIX HARD WHISPERERS ==============",
-            "id": "jungle-mix-hard-whisperers",
-            "types": [
+                },
+                {
+                    "type": "Whisperer",
+                    "weight": 2,
+                    "max%": 0.1
+                },
+                {
+                    "type": "zombie",
+                    "weight": 3
+                },
                 {
                     "type": "junglezombie",
-                    "weight": 0.3
+                    "weight": 7
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 3
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.2
+                    "weight": 7
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
+                },
+                {
+                    "type": "spider",
+                    "weight": 2,
+                    "max%": 0.2
                 },
                 {
                     "type": "creeper",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.3
                 },
                 {
-                    "type": "Whisperer",
-                    "weight": 0.4,
-                    "min": 4,
-                    "max": 7
+                    "type": "Witch",
+                    "weight": 2,
+                    "max%": 0.2
                 }
             ],
             "pick-types": [
-                4,
-                4
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+                3,
+                5
+            ]
         },
         {
-            "#": "============== ARENA MIX ==============",
+            "#": "============== ARENA MIX==============",
             "id": "arena-mix",
             "types": [
                 {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.05,
-                    "max%": 0.3
-                },
-                {
                     "type": "Leaper",
-                    "weight": 0.05,
-                    "max%": 0.05
+                    "weight": 2,
+                    "max%": 0.1
                 },
                 {
                     "type": "Whisperer",
-                    "weight": 0.1,
+                    "weight": 2,
                     "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX EASY ==============",
-            "id": "arena-mix-easy",
-            "types": [
+                },
                 {
                     "type": "zombie",
-                    "weight": 0.2
+                    "weight": 3
                 },
                 {
                     "type": "junglezombie",
-                    "weight": 0.2
+                    "weight": 7
                 },
                 {
                     "type": "skeleton",
-                    "weight": 0.3
+                    "weight": 3
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.2
+                    "weight": 7
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
                 },
                 {
                     "type": "spider",
-                    "weight": 0.1,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX MEDIUM ==============",
-            "id": "arena-mix-med",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
+                    "weight": 2,
+                    "max%": 0.2
                 },
                 {
                     "type": "creeper",
-                    "weight": 0.3,
+                    "weight": 2,
                     "max%": 0.3
                 },
                 {
-                    "type": "Leaper",
-                    "weight": 0.1,
-                    "max%": 0.05
+                    "type": "Witch",
+                    "weight": 2,
+                    "max%": 0.2
                 }
             ],
             "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX MEDIUM FINAL ==============",
-            "id": "arena-mix-med-final",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.3
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.3,
-                    "max%": 0.3
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX HARD ==============",
-            "id": "arena-mix-hard",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.05,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Leaper",
-                    "weight": 0.05,
-                    "max%": 0.05
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.1,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
-        },
-        {
-            "#": "============== ARENA MIX HARD FINAL ==============",
-            "id": "arena-mix-hard-final",
-            "types": [
-                {
-                    "type": "zombie",
-                    "weight": 0.1
-                },
-                {
-                    "type": "junglezombie",
-                    "weight": 0.2
-                },
-                {
-                    "type": "skeleton",
-                    "weight": 0.1
-                },
-                {
-                    "type": "mossyskeleton",
-                    "weight": 0.2
-                },
-                {
-                    "type": "spider",
-                    "weight": 0.2,
-                    "max%": 0.3
-                },
-                {
-                    "type": "creeper",
-                    "weight": 0.05,
-                    "max%": 0.3
-                },
-                {
-                    "type": "Whisperer",
-                    "weight": 0.15,
-                    "max%": 0.1
-                }
-            ],
-            "pick-types": [
-                4,
-                6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+                3,
+                4
+            ]
         },
         {
             "#": "============== ARENA LEAPERS ==============",
@@ -2441,14 +2092,13 @@
             "types": [
                 {
                     "type": "Leaper",
-                    "weight": 1
+                    "weight": 10
                 }
             ],
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+            ]
         },
         {
             "#": "============== CREEPER CHALLENGE MIX ==============",
@@ -2456,14 +2106,13 @@
             "types": [
                 {
                     "type": "creeper",
-                    "weight": 1
+                    "weight": 10
                 }
             ],
             "pick-types": [
                 1,
                 1
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+            ]
         },
         {
             "#": "============== CREEPER - ZOMBIE CHALLENGE MIX ==============",
@@ -2471,18 +2120,21 @@
             "types": [
                 {
                     "type": "creeper",
-                    "weight": 0.8
+                    "weight": 7
                 },
                 {
                     "type": "junglezombie",
-                    "weight": 0.2
+                    "weight": 3
+                },
+                {
+                    "type": "zombie",
+                    "weight": 3
                 }
             ],
             "pick-types": [
                 2,
                 2
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+            ]
         },
         {
             "#": "============== JOE'S HARD ONES MIX ==============",
@@ -2490,36 +2142,44 @@
             "types": [
                 {
                     "type": "zombie",
-                    "weight": 0.1
+                    "weight": 2
                 },
                 {
                     "type": "junglezombie",
-                    "weight": 0.2
+                    "weight": 8
                 },
                 {
                     "type": "skeleton",
-                    "weight": 0.1
+                    "weight": 2
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.2
+                    "weight": 8
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
                 },
                 {
                     "type": "creeper",
-                    "weight": 0.05,
+                    "weight": 2,
                     "max%": 0.3
                 },
                 {
                     "type": "spider",
-                    "weight": 0.35,
-                    "max%": 0.5
+                    "weight": 2,
+                    "max%": 0.2
                 }
             ],
             "pick-types": [
                 4,
                 6
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+            ]
         },
         {
             "#": "============== ANCIENT TREE MIX ==============",
@@ -2527,23 +2187,36 @@
             "types": [
                 {
                     "type": "creeper",
-                    "weight": 0.2,
-                    "max%": 0.4
+                    "weight": 2,
+                    "max%": 0.3
                 },
                 {
                     "type": "junglezombie",
-                    "weight": 0.4
+                    "weight": 8
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.4
+                    "weight": 8
+                },
+                {
+                    "type": "spider",
+                    "weight": 2,
+                    "max%": 0.2
+                },
+                {
+                    "type": "Whisperer",
+                    "weight": 2,
+                    "max%": 0.1
+                },
+                {
+                    "type": "SlimeLarge",
+                    "weight": 5
                 }
             ],
             "pick-types": [
                 2,
                 3
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+            ]
         },
         {
             "#": "============== JOE SKELETON HORSEMAN ==============",
@@ -2556,29 +2229,45 @@
                 },
                 {
                     "type": "mossyskeleton",
-                    "weight": 0.8
+                    "weight": 7
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
+                },
+                {
+                    "type": "skeleton",
+                    "weight": 2
                 }
             ],
             "pick-types": [
-                2,
-                2
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+                4,
+                4
+            ]
         },
         {
             "#": "============== JOE SKELETON ==============",
             "id": "joe-skel",
             "types": [
                 {
+                    "type": "skeleton",
+                    "weight": 2
+                },
+                {
                     "type": "mossyskeleton",
-                    "weight": 0.4
+                    "weight": 7
+                },
+                {
+                    "type": "skeletonvanguard",
+                    "weight": 2,
+                    "max%": 0.3
                 }
             ],
             "pick-types": [
-                2,
-                2
-            ],
-            "##loc": "dingyjungle/dj_mobs.json"
+                3,
+                3
+            ]
         }
     ],
     "dungeons": [
@@ -2653,8 +2342,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_treasurecave/sub_treasurecave.json"
+            ]
         },
         {
             "id": "sub_tree",
@@ -2668,12 +2356,11 @@
                     "mobs": {
                         "density": 1.5,
                         "only": [
-                            "arena-mix-med"
+                            "arena-mix"
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_tree/sub_tree.json"
+            ]
         },
         {
             "id": "sub_junglehut",
@@ -2685,8 +2372,7 @@
                         "jungle_hut"
                     ]
                 }
-            ],
-            "##loc": "sub_junglehut/sub_junglehut.json"
+            ]
         },
         {
             "id": "sub_river_under",
@@ -2704,12 +2390,11 @@
                     "mobs": {
                         "density": 1.5,
                         "only": [
-                            "jungle-mix-med"
+                            "jungle-mix"
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_river_under/sub_river_under.json"
+            ]
         },
         {
             "id": "sub_lava",
@@ -2838,8 +2523,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_lava/sub_lava.json"
+            ]
         },
         {
             "id": "sub_fossil",
@@ -2857,8 +2541,7 @@
                         ]
                     }
                 }
-            ],
-            "##loc": "sub_fossil/sub_fossil.json"
+            ]
         }
     ]
 }

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_Plants/End_ChorusPlants/MI_ChorusPlant.MI_ChorusPlant'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_Plants/End_ChorusPlants/MI_ChorusPlant.MI_ChorusPlant'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 246.13, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.14441e-05, Y=-21.875, Z=-3.12499 }
+    BoxExtent = { X=37.5, Y=53.125, Z=53.125 }
+    SphereRadius = 79.1804
+}

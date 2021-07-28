@@ -1,0 +1,64 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/T_GlassContainer.T_GlassContainer'
+    ReferencedTextures[1] = Texture2D'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/T_VoidBarrel_Emis.T_VoidBarrel_Emis'
+}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/M_VoidBarrel.MaterialExpressionTextureSample_2'
+    Expressions[4] = MaterialExpressionTextureSample'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/M_VoidBarrel.MaterialExpressionTextureSample_0'
+    Expressions[9] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/M_VoidBarrel.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/M_VoidBarrel.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=GlowSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=50, Name=Glow Intensity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GlassContainer
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_VoidBarrel_Emis
+    }
+}

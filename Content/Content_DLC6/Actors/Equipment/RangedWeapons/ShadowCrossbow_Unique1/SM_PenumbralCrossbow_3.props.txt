@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/RangedWeapons/ShadowCrossbow_Unique1/MI_PenumbralCrossbow.MI_PenumbralCrossbow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Actors/Equipment/RangedWeapons/ShadowCrossbow_Unique1/MI_PenumbralCrossbow.MI_PenumbralCrossbow'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 132.725, 159.993, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.33786e-05, Y=-1.14441e-05, Z=-41.9845 }
+    BoxExtent = { X=3.12503, Y=57.4523, Z=46.4039 }
+    SphereRadius = 57.5797
+}

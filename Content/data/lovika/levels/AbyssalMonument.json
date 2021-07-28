@@ -1703,9 +1703,9 @@
             "arena": {
                 "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
                 "stretch": "conduit_clicky_tile",
-                "start-time": 1,
+                "start-time": 2,
                 "interval": 10,
-                "rest-interval": 0.5,
+                "rest-interval": 2,
                 "waves": [
                     [
                         8,
@@ -1716,12 +1716,8 @@
                         "ocean-arena"
                     ],
                     [
-                        10,
-                        "ocean-arena"
-                    ],
-                    [
                         1,
-                        "DrownedNecromancer"
+                        "ocean-event"
                     ]
                 ]
             }
@@ -1807,9 +1803,9 @@
             "trigger": "*.am_pyramid_point_lower_1.lower_1_trigger",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
-                "rest-interval": 0.25,
-                "start-time": 1,
+                "interval": 2,
+                "rest-interval": 2,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1828,9 +1824,9 @@
             "trigger": "*.am_pyramid_point_lower_2.lower_2_trigger",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
-                "rest-interval": 0.25,
-                "start-time": 1,
+                "interval": 2,
+                "rest-interval": 2,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1849,9 +1845,9 @@
             "trigger": "*.am_pyramid_point_lower_3.lower_3_trigger",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
-                "rest-interval": 0.25,
-                "start-time": 1,
+                "interval": 2,
+                "rest-interval": 2,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1870,9 +1866,9 @@
             "trigger": "*.am_pyramid_point_lower_4.lower_4_trigger",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
-                "rest-interval": 0.25,
-                "start-time": 1,
+                "interval": 2,
+                "rest-interval": 2,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1891,9 +1887,9 @@
             "trigger": "*.am_pyramid_point_lower_5.lower_5_trigger",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
-                "rest-interval": 0.25,
-                "start-time": 1,
+                "interval": 2,
+                "rest-interval": 2,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1912,9 +1908,9 @@
             "trigger": "*.am_pyramid_point_lower_6.lower_6_trigger",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
-                "rest-interval": 0.25,
-                "start-time": 1,
+                "interval": 2,
+                "rest-interval": 2,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -1976,7 +1972,7 @@
                 "stretch": "*",
                 "interval": 5,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -2011,9 +2007,9 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 1,
+                "interval": 4,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -2123,26 +2119,26 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 1,
+                "interval": 4,
                 "rest-interval": 2,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        1,
-                        "spacemix1"
+                        5,
+                        "chambertrapmix"
                     ],
                     [
                         1,
                         "spacemix1"
                     ],
                     [
-                        1,
-                        "spacemix1"
+                        5,
+                        "chambertrapmix"
                     ]
                 ],
                 "gate": {
-                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/coralgate/BP_coralgate_5",
                     "start-unlocked": true
                 }
             }
@@ -2156,18 +2152,22 @@
             },
             "arena": {
                 "stretch": "*",
-                "interval": 1,
+                "interval": 4,
                 "rest-interval": 2,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
+                    [
+                        5,
+                        "chambertrapmix"
+                    ],
                     [
                         1,
                         "spacemix2"
                     ]
                 ],
                 "gate": {
-                    "object": "Decor/Prefabs/_CreepingWinter_Structures/Ice_DesignAssets/BP_DoorWinter_5",
+                    "object": "Content_DLC5/Decor/Prefabs/_HiddenDepths/coralgate/BP_coralgate_5",
                     "start-unlocked": true
                 }
             }
@@ -2177,9 +2177,9 @@
             "trigger": "*.dead_end_02.deadend2fight",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
+                "interval": 4,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -2210,9 +2210,9 @@
             "trigger": "*.dead_end_03.deadend3fight",
             "arena": {
                 "stretch": "*",
-                "interval": 1,
+                "interval": 4,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -2249,7 +2249,7 @@
                 "stretch": "*",
                 "interval": 10,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -2282,7 +2282,7 @@
                 "stretch": "*",
                 "interval": 10,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -2315,7 +2315,7 @@
                 "stretch": "*",
                 "interval": 10,
                 "rest-interval": 4,
-                "start-time": 1,
+                "start-time": 2,
                 "prespawn-mob": "",
                 "waves": [
                     [
@@ -2349,7 +2349,7 @@
                 "interval": 10,
                 "rest-interval": 2,
                 "start-time": 2,
-                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
                 "waves": [
                     [
                         10,
@@ -2382,7 +2382,7 @@
                 "interval": 10,
                 "rest-interval": 2,
                 "start-time": 2,
-                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
                 "waves": [
                     [
                         10,
@@ -2415,7 +2415,7 @@
                 "interval": 10,
                 "rest-interval": 2,
                 "start-time": 2,
-                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
                 "waves": [
                     [
                         10,
@@ -2448,7 +2448,7 @@
                 "interval": 10,
                 "rest-interval": 2,
                 "start-time": 2,
-                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
                 "waves": [
                     [
                         5,
@@ -2607,7 +2607,7 @@
                 "interval": 10,
                 "rest-interval": 2,
                 "start-time": 2,
-                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
                 "waves": [
                     [
                         5,
@@ -2669,7 +2669,7 @@
                 "interval": 10,
                 "rest-interval": 2,
                 "start-time": 2,
-                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_OutofWater",
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
                 "waves": [
                     [
                         5,
@@ -2758,8 +2758,8 @@
                 },
                 {
                     "type": "Guardian",
-                    "weight": 0.4,
-                    "max%": 0.4
+                    "weight": 0.3,
+                    "max%": 0.3
                 },
                 {
                     "type": "Drowned",
@@ -2780,7 +2780,7 @@
                 },
                 {
                     "type": "SunkenSkeleton",
-                    "weight": 5
+                    "weight": 4
                 },
                 {
                     "type": "WaveWhisperer",
@@ -2799,8 +2799,8 @@
             "types": [
                 {
                     "type": "Guardian",
-                    "weight": 0.4,
-                    "max%": 0.4
+                    "weight": 0.3,
+                    "max%": 0.3
                 },
                 {
                     "type": "Drowned",
@@ -2821,7 +2821,7 @@
                 },
                 {
                     "type": "SunkenSkeleton",
-                    "weight": 5
+                    "weight": 4
                 },
                 {
                     "type": "WaveWhisperer",

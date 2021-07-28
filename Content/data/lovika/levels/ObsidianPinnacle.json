@@ -161,8 +161,7 @@
                         "light-group"
                     ]
                 ]
-            },
-            "##loc": "obsidianpinnacle/obsidianpinnacle.json"
+            }
         }
     ],
     "stretches": [
@@ -175,7 +174,8 @@
             "visual-theme": "cave_dark",
             "mobs": {
                 "density": 0.07
-            }
+            },
+            "raid-captains": false
         },
         {
             "id": "",
@@ -190,7 +190,8 @@
             "visual-theme": "cave_dark",
             "mobs": {
                 "density": 1
-            }
+            },
+            "raid-captains": false
         },
         {
             "id": "",
@@ -198,7 +199,8 @@
                 "jump_tiles"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -210,7 +212,8 @@
                 "wide"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -218,7 +221,8 @@
                 "jump_tiles"
             ],
             "length": 3,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -231,7 +235,8 @@
                 "long"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -244,7 +249,8 @@
                 "long"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "beacon",
@@ -252,7 +258,8 @@
                 "beacon"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -264,7 +271,8 @@
                 "wide"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -277,7 +285,8 @@
                 "long"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -296,7 +305,8 @@
                 "only": [
                     "redstonegolem-solo"
                 ]
-            }
+            },
+            "raid-captains": false
         },
         {
             "id": "",
@@ -304,7 +314,8 @@
                 "dungeondoors"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -317,7 +328,8 @@
                 "long"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -329,7 +341,8 @@
                 "wide"
             ],
             "length": 2,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "dungeonexit",
@@ -337,7 +350,8 @@
                 "dungeonexits"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -349,7 +363,8 @@
                 "wide"
             ],
             "length": 1,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -368,7 +383,8 @@
                 "only": [
                     "redstonegolem-solo"
                 ]
-            }
+            },
+            "raid-captains": false
         },
         {
             "id": "",
@@ -380,7 +396,8 @@
                 "wide"
             ],
             "length": 2,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "",
@@ -393,7 +410,8 @@
                 "cracks"
             ],
             "length": 2,
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "end",
@@ -401,7 +419,8 @@
                 "end"
             ],
             "sound-theme": "silent",
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "boss",
@@ -410,7 +429,8 @@
             ],
             "audio-ambience": "audio_8",
             "sound-theme": "silent",
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         },
         {
             "id": "oldboss",
@@ -419,7 +439,8 @@
             ],
             "audio-ambience": "audio_5",
             "sound-theme": "silent",
-            "visual-theme": "cave_dark"
+            "visual-theme": "cave_dark",
+            "raid-captains": false
         }
     ],
     "side-paths": {
@@ -469,8 +490,7 @@
             "pick-types": [
                 2,
                 3
-            ],
-            "##loc": "ObsidianPinnacle/mobs.json"
+            ]
         },
         {
             "#": "============== SINGLE REDSTONEGOLEM ==============",
@@ -481,8 +501,7 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "ObsidianPinnacle/mobs.json"
+            ]
         },
         {
             "#": "============== ARCH-ILLAGER ==============",
@@ -493,8 +512,7 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "ObsidianPinnacle/mobs.json"
+            ]
         },
         {
             "#": "============== ARCH-VESSEL ==============",
@@ -505,82 +523,68 @@
                     "min": 1,
                     "max": 1
                 }
-            ],
-            "##loc": "ObsidianPinnacle/mobs.json"
+            ]
         }
     ],
     "props": [],
     "tiles": [
         {
             "id": "opstart",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op_special001",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "deadend005",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op_beacon",
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "op005",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op020",
-            "rotations": 180,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 180
         },
         {
             "id": "opend",
             "rotations": 0,
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "opboss",
             "rotations": 0,
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "opboss_alt",
             "rotations": 0,
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "opboss_alt2",
             "rotations": 0,
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "opboss_alt3",
             "rotations": 0,
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "opboss_alt4",
             "rotations": 0,
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "opboss_old",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op_dungeondoor003",
@@ -595,8 +599,7 @@
                     ],
                     "object": "Decor/Prefabs/DoorTravel/FieryForge/BP_FF_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "id": "op_dungeondoor004",
@@ -607,13 +610,11 @@
                     "door": "return",
                     "object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "id": "op_indoor_enter",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op_indoor_leave002",
@@ -624,8 +625,7 @@
                     "exit": "dungeonexit.*.return",
                     "object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "id": "op_indoor_enter002",
@@ -635,64 +635,53 @@
                     "door": "enter_indoor",
                     "object": "Decor/Prefabs/DoorTravel/ObsidianPinnacle/BP_OP_Indoor_Sidepath_Entrance3x3"
                 }
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "id": "op_indoor_l001",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op_indoor_m001",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op_indoor_straight001",
-            "rotations": 0,
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "rotations": 0
         },
         {
             "id": "op_jumpcombo1",
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "op_jumpcombo2",
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "op_jumpcombo3",
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "op_jumpcombo6",
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "op_jumpcombo7",
-            "entry-door": "enter",
-            "##loc": "ObsidianPinnacle/tiles.json"
+            "entry-door": "enter"
         },
         {
             "id": "op_jumparena",
             "entry-door": "enter",
             "challenges": [
                 "jump_arena"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "id": "op_jumparena2",
             "entry-door": "enter",
             "challenges": [
                 "jump_arena"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         }
     ],
     "prop-groups": [
@@ -783,8 +772,7 @@
             "id": "start",
             "tiles": [
                 "opstart"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Second tile",
@@ -792,64 +780,56 @@
             "tiles": [
                 "opsecond",
                 "op007"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "End tile",
             "id": "end",
             "tiles": [
                 "opend"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Boss tile",
             "id": "boss",
             "tiles": [
                 "opboss"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Boss Alt",
             "id": "boss_alt",
             "tiles": [
                 "opboss_alt4"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Boss Alt 2",
             "id": "boss_alt2",
             "tiles": [
                 "opboss_alt2"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Boss Alt 3",
             "id": "boss_alt3",
             "tiles": [
                 "opboss_alt3"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Old Boss",
             "id": "boss_old",
             "tiles": [
                 "opboss_old"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Beacon tile",
             "id": "beacon",
             "tiles": [
                 "op_beacon"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Obsidian tiles",
@@ -857,8 +837,7 @@
             "tiles": [
                 "op_special001",
                 "op_special002"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Uncommon tiles",
@@ -869,24 +848,21 @@
                 "op020",
                 "op021",
                 "op_straight_broken"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Dungeon Doors",
             "id": "dungeondoors",
             "tiles": [
                 "op_dungeondoor003"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Dungeon Exits",
             "id": "dungeonexits",
             "tiles": [
                 "op_dungeondoor004"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Common tiles",
@@ -898,8 +874,7 @@
                 "op009",
                 "op010",
                 "op011"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Indoor Small Tiles",
@@ -913,8 +888,7 @@
                 "op_indoor_m006",
                 "op_indoor_m007",
                 "op_indoor_m008"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Indoor Medium Tiles",
@@ -924,15 +898,13 @@
                 "op_indoor_m002",
                 "op_indoor_m003",
                 "op_indoor_m004"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "id": "indoor_library",
             "tiles": [
                 "op_indoor_l001"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Indoor Side Tiles",
@@ -942,8 +914,7 @@
                 "op_indoor_s002",
                 "op_indoor_s003",
                 "op_indoor_s004"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Jump Tiles",
@@ -956,8 +927,7 @@
                 "op_jumpcombo5",
                 "op_jumpcombo6",
                 "op_jumpcombo7"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         },
         {
             "#": "Jump Arenas",
@@ -965,8 +935,7 @@
             "tiles": [
                 "op_jumparena",
                 "op_jumparena2"
-            ],
-            "##loc": "ObsidianPinnacle/tiles.json"
+            ]
         }
     ],
     "dungeons": [
@@ -1233,8 +1202,7 @@
                         "density": 0.5
                     }
                 }
-            ],
-            "##loc": "ObsidianPinnacle/indoor.json"
+            ]
         }
     ]
 }

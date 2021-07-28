@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/M_VoidBarrel.M_VoidBarrel'
+    Materials[1] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_GlassContainerAlpha.MI_GlassContainerAlpha'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/VoidBarrel/M_VoidBarrel.M_VoidBarrel'
+        MaterialSlotName = Material #111
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.12, 381.522, 358.118, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/End_InteriorProps/MI_GlassContainerAlpha.MI_GlassContainerAlpha'
+        MaterialSlotName = Material #136
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 380.703, 358.101, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.14441e-05, Y=3.8147e-06, Z=84.375 }
+    BoxExtent = { X=53.125, Y=53.125, Z=84.375 }
+    SphereRadius = 112.976
+}

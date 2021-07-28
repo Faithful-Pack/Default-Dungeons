@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Effects/ParticleSystems/Environmental/EndPortal/Material.Material'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Effects/ParticleSystems/Environmental/EndPortal/Material.Material'
+        MaterialSlotName = Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 412.903, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62939e-06, Y=0, Z=100 }
+    BoxExtent = { X=70.7107, Y=70.7107, Z=100 }
+    SphereRadius = 141.421
+}
