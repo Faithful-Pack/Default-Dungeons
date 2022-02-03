@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Cactus/MI_Cactus01.MI_Cactus01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Cactus/MI_Cactus01.MI_Cactus01'
+        MaterialSlotName = CactusMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 299.786, 311.087, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.15462, Y=-137.505, Z=-5.44268 }
+    BoxExtent = { X=38.824, Y=137.495, Z=42.9427 }
+    SphereRadius = 142.898
+}

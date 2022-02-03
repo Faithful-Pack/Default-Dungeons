@@ -1,0 +1,120 @@
+Parent = Material3'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.PP_TowerWindow_v2'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Cloud Brightness }
+        ParameterValue = 1.32969
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=CloudRing Offset Vertical }
+        ParameterValue = -0.003515
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Sky Brightness }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Cloud Panner speed and direction }
+        ParameterValue = { R=0.015, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Cloud Tint }
+        ParameterValue = { R=0.765915, G=0.874079, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Cloud_Undershadow }
+        ParameterValue = { R=0.123644, G=0.172129, B=0.223958, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_CloudBand
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_CloudBand_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_CloudBand_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_S_BG_HIGH_Fog_v2
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_S_BG_LOW_Fog_v2
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_S_BG_MED_fog_v2
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TT_flowmap
+    }
+}

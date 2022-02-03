@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/JunglePlant/MI_JunglePlant.MI_JunglePlant'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/JunglePlant/MI_JunglePlant.MI_JunglePlant'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.025, 875.019, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.40488, Y=-1.7352, Z=147.721 }
+    BoxExtent = { X=273.456, Y=288.043, Z=147.721 }
+    SphereRadius = 330.732
+}

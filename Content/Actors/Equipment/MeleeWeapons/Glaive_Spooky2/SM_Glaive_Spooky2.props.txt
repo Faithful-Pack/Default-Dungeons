@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Glaive_Spooky2/MI_Glaive_Spooky2.MI_Glaive_Spooky2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/MeleeWeapons/Glaive_Spooky2/MI_Glaive_Spooky2.MI_Glaive_Spooky2'
+        MaterialSlotName = Broom
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 206.384, 244.652, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.33471, Y=10.1332, Z=0 }
+    BoxExtent = { X=37.565, Y=132.583, Z=3.125 }
+    SphereRadius = 132.785
+}

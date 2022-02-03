@@ -1,0 +1,477 @@
+
+{
+ "objects" : 
+ [
+  
+  {
+   "blocks" : "eNrt2bENgDAMRUEWylLsPwRpqI0cmYB8r6A7CZnqi/Pc08iEoiiKoiiKomgn2qfUke5bZS88n0emgaIoiqIoiqJoH7qwOBYW0pZx9X6GGYqiKIqiKIqiT2ijYZY60jzTAp0vjKIoiqIoiqIoGtCVX0GG2Xe/K4qiKIqiKIqiP6KGWXwmwwxFURRFURRF0VJqmMVnMsxQFEVRFEVRFC2lhll8JsMMRVEURVEURdFSapjFZzLMUBRFURRFURQtpYZZfCbDDEVRFEVRFEXRUmqYxWcyzFAURVEURVEULaWGWXwmFEVRFEVRFEXRUtqp5JkkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZJ+3gWC94AB",
+   "height-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "id" : "twr_cf_template",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 167, 31, 18 ],
+   "region-plane" : "eNrtwTENAAAAw6DUv+nJ2AMUAAAAVwOMgg2a",
+   "region-y-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "size" : [ 59, 12, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNrtwTEBAAAAwqD1T20MH6AAAAC4Gg2ZAAE=",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt2Q1qgzAYgOHuBDvJLuUhd67doI11K/60gZGY9NMnGZtUXp8hQpHvcjnZ+mq2qVQqlUqlUqlUKpVKpVKpVCqVSqUeU53b2+PSlb/WmdSWq92TtNxDU2t4eC3vLJVKpVKpVCqVSqVSqVQqlUqlUqnU46n33x/f08fp7+K4dK+uNczUtGdnF8el++m1+qn2PtvEjEqlUqlUKpVKpVKpVCqVSqVSqVRqLdXEbG+1x267eqnTHaZSqVQqlUqlUqlUKpVKpVKpVCqVSi1Tn0y2TMxMzP79NJmYUalUKpVKpVKpVCqVSqVSqVQqlUqNqz4mW397eVw+MVtcazW7GqdM93Ob4/Lp1eZa/VQTs32fYSqVSqVSqVQqlUqlUqlUKpVKpVKp1DK17d7MrhrufqqJ2b7PMJVKpVKpVCqVSqVSqVQqlUqlUqlUaplqYmZiVuNpMjGjUqlUKpVKpVKpVCqVSqVSqVQqlRpXNTEzMavxNJmYUalUKpVKpVKpVCqVSqVSqVQqlUqNq5qYmZjVeJpMzKhUKpVKpVKpVCqVSqVSqVQqlUqlxlVNzEzMajxNJmZUKpVKpVKpVCqVSqVSqVQqlUqlUuOqJmYmZjWeJiqVSqVSqVQqlUqlUqlUKpVKpVKp1LiqfcxtWZZlWSden9eXK519ffJHKpVKpYdN0+nxZ/uVMf1NFxivsVq/H+XTnVa4OyyVSqXSvdOir6tsmlmZ//ea+3/TlaVSqVQqXad9XszC3SapVCqVvnHaZ4W7TVKpVCp957TPCnebpFKpVPrGqRczqVQqlYZPvZhJpVKpNHrqxUwqlUql4VMvZlKpVCqNnnoxk0qlUmn4tM+6AeiJnW4=",
+   "boundaries" : "eNot0TVywwAAAEHZklkyM8nMTPn/z+Jkttq5+oJMEAbZIAn+DBkxxzwLLLLEMiuMmbDKGutssMkW2+ywyx77HHDIEceccMqUM8654JIrrrnhljvueeCRJ5554ZU33vngky+++fma/Zr5Nw5+vodCHepIRzqnczqv87qgC7qoi7qkS7qsy7qiKzrWsU50oqu6qmu6puu6rhu6oZu6qVu6pdu6rTu6o7u6q3u6p/u6rwd6oId6qEd6pMd6rCd6oqd6qlOd6pme6bme64Ve6KVe6pVe6bVe643e6K3e6p3e6b3e64M+6KM+6pM+6bM+64u+6Ku+6pu+6bu+64d+6Kd+6pd+6bd+64/+6J+vWYaMmGOeBRZZYpkVxkxYZY11Nthki2122GWPfQ445IhjTjhlyhnnXHDJFdfccMsd9zzwyBPPvPDKG+988MkX3/wE0S+pGDuh",
+   "doors" : 
+   [
+    
+    {
+     "name" : "cf_travel_enter_01",
+     "pos" : [ 49, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_exit_01",
+     "pos" : [ 5, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_balcony_01",
+     "pos" : [ 11, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 58, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "exit",
+     "pos" : [ 0, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "id" : "twr_cf_floor_01",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 58, 31, 18 ],
+   "region-plane" : "eNrtyyEOACAMBEGa/v/PoBCYJjUVzIpTNxEzrU4oiqIoiqIoiv5ET5l5t+p5zdBeG3bMAtc=",
+   "region-y-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "size" : [ 59, 12, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYBgYwEgOGNU6qnVU66jWUa2jWke1jmod1TqqdVTrSNIK0Q0niehlYHLprZU8AABUJAsV",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt2QFOg0AQQFF6gp7ES3FIz+UNkNqqhQJJw7DLwJtNNLF+niEkhkzTnGw+ih0qlUqlUqlUKpVKpVKpVCqVSqVSqcdU/+X4Wb7umdSyU+5JGp62qNX+eSXvLJVKpVKpVCqVSqVSqVQqlUqlUqnU46n918vn/Yf999Cdxst12ye1ffq0jTwz162nOtscGzMqlUqlUqlUKpVKpVKpVCqVSqVSqVGqjdkRN2Zlp5Z6v8NUKpVKpVKpVCqVSqVSqVQqlUqlUqnr1OnNlo2Zjdl7T5ONGZVKpVKpVCqVSqVSqVQqlUqlUqnUvOpjs/V7ojdmo+sOdle3LdPPZ6Gbq9nr1lNtzLZ9hqlUKpVKpVKpVCqVSqVSqVQqlUqlUtepZc9od1X01FNtzLZ9hqlUKpVKpVKpVCqVSqVSqVQqlUqlUtepNmY2ZhFPk40ZlUqlUqlUKpVKpVKpVCqVSqVSqdS8qo2ZjVnE02RjRqVSqVQqlUqlUqlUKpVKpVKpVCo1r2pjZmMW8TTZmFGpVCqVSqVSqVQqlUqlUqlUKpVKzavamNmYRTxNNmZUKpVKpVKpVCqVSqVSqVQqlUqlUvOqNmY2ZhFPE5VKpVKpVCqVSqVSqVQqlUqlUqlUal7VOeYxxhhjTjzXbnb6T+c//JJKpVLpYdPm9iuv8/jptZv+fzL4pel0q0l3h6VSqVS6dbrm39VyujALf2+39Pf2rlQqlUql47TOi1m62ySVSqXSHad1Jt1tkkqlUume0zqT7jZJpVKpdMepFzOpVCqVpk+9mEmlUqk0e+rFTCqVSqXpUy9mUqlUKs2eejGTSqVSafq0znwD6RSNKg==",
+   "boundaries" : "eNot0TVywwAAAEHZklkyM8nMTPn/z+Jkttq5+oJMEAbZIAn+DBkxxzwLLLLEMiuMmbDKGutssMkW2+ywyx77HHDIEceccMqUM8654JIrrrnhljvueeCRJ5554ZU33vngky+++fma/Zr5Nw5+vodCHepIRzqnczqv87qgC7qoi7qkS7qsy7qiKzrWsU50oqu6qmu6puu6rhu6oZu6qVu6pdu6rTu6o7u6q3u6p/u6rwd6oId6qEd6pMd6rCd6oqd6qlOd6pme6bme64Ve6KVe6pVe6bVe643e6K3e6p3e6b3e64M+6KM+6pM+6bM+64u+6Ku+6pu+6bu+64d+6Kd+6pd+6bd+64/+6J+vWYaMmGOeBRZZYpkVxkxYZY11Nthki2122GWPfQ445IhjTjhlyhnnXHDJFdfccMsd9zzwyBPPvPDKG+988MkX3/wE0S+pGDuh",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter",
+     "pos" : [ 58, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "exit",
+     "pos" : [ 0, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_enter_02",
+     "pos" : [ 48, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_exit_02",
+     "pos" : [ 4, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "id" : "twr_cf_floor_02",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -26, 31, 18 ],
+   "region-plane" : "eNrt16ERADAMA7H6sv/O5UW9kIDosTWAk5lOJxRFURRFURRFN9Gkqr5PxrOdoc0ua1YCxQ==",
+   "region-y-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "size" : [ 59, 12, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYBgYwEgOGNU6qnVU66jWUa2jWke1jmod1TqqdVTrSNIK1kxKJwMPl05ayQQATmkLDA==",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt2Q1qgzAYgOHuBDvJLuUhd67doI11K/60gZGY9NMnGZtUXp8hQpHvcjnZ+mq2qVQqlUqlUqlUKpVKpVKpVCqVSqUeU53b2+PSlb/WmdSWq92TtNxDU2t4eC3vLJVKpVKpVCqVSqVSqVQqlUqlUqnU46n33x/f08fp7+K4dK+uNczUtGdnF8el++m1+qn2PtvEjEqlUqlUKpVKpVKpVCqVSqVSqVRqLdXEbG+1x267eqnTHaZSqVQqlUqlUqlUKpVKpVKpVCqVSi1Tn0y2TMxMzP79NJmYUalUKpVKpVKpVCqVSqVSqVQqlUqNqz4mW397eVw+MVtcazW7GqdM93Ob4/Lp1eZa/VQTs32fYSqVSqVSqVQqlUqlUqlUKpVKpVKp1DK17d7MrhrufqqJ2b7PMJVKpVKpVCqVSqVSqVQqlUqlUqlUaplqYmZiVuNpMjGjUqlUKpVKpVKpVCqVSqVSqVQqlRpXNTEzMavxNJmYUalUKpVKpVKpVCqVSqVSqVQqlUqNq5qYmZjVeJpMzKhUKpVKpVKpVCqVSqVSqVQqlUqlxlVNzEzMajxNJmZUKpVKpVKpVCqVSqVSqVQqlUqlUuOqJmYmZjWeJiqVSqVSqVQqlUqlUqlUKpVKpVKp1LiqfcxtWZZlWSden9eXK519ffJHKpVKpYdN0+nxZ/uVMf1NFxivsVq/H+XTnVa4OyyVSqXSvdOir6tsmlmZ//ea+3/TlaVSqVQqXad9XszC3SapVCqVvnHaZ4W7TVKpVCp957TPCnebpFKpVPrGqRczqVQqlYZPvZhJpVKpNHrqxUwqlUql4VMvZlKpVCqNnnoxk0qlUmn4tM+6AeiJnW4=",
+   "boundaries" : "eNot0TVywwAAAEHZklkyM8nMTPn/z+Jkttq5+oJMEAbZIAn+DBkxxzwLLLLEMiuMmbDKGutssMkW2+ywyx77HHDIEceccMqUM8654JIrrrnhljvueeCRJ5554ZU33vngky+++fma/Zr5Nw5+vodCHepIRzqnczqv87qgC7qoi7qkS7qsy7qiKzrWsU50oqu6qmu6puu6rhu6oZu6qVu6pdu6rTu6o7u6q3u6p/u6rwd6oId6qEd6pMd6rCd6oqd6qlOd6pme6bme64Ve6KVe6pVe6bVe643e6K3e6p3e6b3e64M+6KM+6pM+6bM+64u+6Ku+6pu+6bu+64d+6Kd+6pd+6bd+64/+6J+vWYaMmGOeBRZZYpkVxkxYZY11Nthki2122GWPfQ445IhjTjhlyhnnXHDJFdfccMsd9zzwyBPPvPDKG+988MkX3/wE0S+pGDuh",
+   "doors" : 
+   [
+    
+    {
+     "name" : "enter",
+     "pos" : [ 58, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "exit",
+     "pos" : [ 0, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_enter_03",
+     "pos" : [ 49, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_exit_03",
+     "pos" : [ 5, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_balcony_03",
+     "pos" : [ 11, 1, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "id" : "twr_cf_floor_03",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -110, 31, 18 ],
+   "region-plane" : "eNrtyyEOACAMBEGa/v/PoBCYJjUVzIpTNxEzrU4oiqIoiqIoiv5ET5l5t+p5zdBeG3bMAtc=",
+   "region-y-plane" : "eNrty6ERADAIBLAetvvvC4IJ3pL4VEX+yObWl1BVVVVVVVVV9U69pAHPCBVJ",
+   "size" : [ 59, 12, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYBgYwEgOGNU6qnVU66jWUa2jWke1jmod1TqqdVTrSNIK0Q0niehlYHLprZU8AABUJAsV",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt2F1OwlAQgNG6AlbCprpIt1cKyM8tVSGXmZTJmfug8Ut6Itb7MMN+iDuXYTAYDAaDwWAwGAwGg8Fg5BvDQuufv55TxYibyL95zhnnE/vZMRgMBoPBYDAYDAaDwWB8qjGfr+/zj+evXVuY5jnj1Th9d9fGnrPynCzD+f/U+/9gMBgMBoPBYDAYDAaDwXiXsbeH28weLnJyjPNnxWAwGAwGg8FgMBgMBoPBaA17OHu4iPeKwWAwGAwGg8FgMBgMBoPRGtf92eX07uHunrPYkR23W6fStSFbfU6WYQ/37HvFYDAYDAaDwWAwGAwGg8FojcjzsCMLO1mGPdyz7xWDwWAwGAwGg8FgMBgMBqM17OHs4SLeKwaDwWAwGAwGg8FgMBgMRmvYw9nDRbxXDAaDwWAwGAwGg8FgMBiM1rCHs4eLeK8YDAaDwWAwGAwGg8FgMBitYQ9nDxfxXjEYDAaDwWAwGAwGg8FgMFrDHs4ejsFgMBgMBoPBYDAYDAaDEW842zrGGGNuM62OIAjCa2HYTcvr5ecnrwc3nCAI2woJN9z0Gy4IghAa3HCCINQNGbPN31wQhPrBDScIQt3ghhMEoW5wwwmCUDe44QRBqBvccIIg1A1uOEEQ6oaMOQCuStY3",
+   "boundaries" : "eNot0ElyggAAAEEiuIMLKoq4CygK/v95Mak+dc11gp8gDHpBEvwZMmKfAw454pgTThkz4YxzLrhkyhXX3DDjljvm3LPggUeeeOaFV954Z8mKNR98suGLb7bsvva+/vwbB5/v2VCHOtKR7uu+HuiBHuqhHumRHuuxnuiJnuqpjnWsE53omZ7puZ7rhV7opV7qVKd6pVd6rdd6ozc605ne6q3e6Z3Oda73eq8LXeiDPuijPuqTPumzPuuLvuirvuqbvum7vutSl7rSla51rR/6oZ/6qRvd6Jd+6bd+61a3utOd/nztMWTEPgcccsQxJ5wyZsIZ51xwyZQrrrlhxi13zLlnwQOPPPHMC6+88c6SFWs++GTDF99s2QXRL/YfK1E=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 0, 1, 21 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 49, 1, 21 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_enter_06",
+     "pos" : [ 41, 1, 46 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_exit_06",
+     "pos" : [ 5, 1, 46 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjYiIFcAMBSRqgOhhIAKM6RnWM6hjVMapjVMeojlEdtNMxXAAA3XoR6Q==",
+   "id" : "twr_cf_floor_06",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -101, 31, 111 ],
+   "region-plane" : "eNpjZKQHYCABjOoY1TGqY1THqI5RHaM6RnXQUgcQMDMzE2y+oKqhhw6SAABdVQJZ",
+   "region-y-plane" : "eNpjYiIFcAMBSRqgOhhIAKM6RnWM6hjVMapjVMeojlEdtNMxXAAA3XoR6Q==",
+   "size" : [ 50, 12, 50 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYKAHYCQBjOoY1TGqY1THqI5RHaM6RnXQUgdEEzHNF5w82uggCQAAh3IHow==",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt2O1NwzAQgGF3AibpUh2SudggpK3ackm/jDgrnB4biYhX0SOK8Y9r+5a3L4vBYDAYDAaDwWAwGAwGgzHeaAtt/dy3nr9ZxchbmX/zMfsw79xPj8FgMBgMBoPBYDAYDAbjvxrz3n2efzx/D899e/Hm4Wqcnn7U8Ny37745yrBf73r/HwwGg8FgMBgMBoPBYDAYf2XszeE2M4fLXGOM82fFYDAYDAaDwWAwGAwGg8GIhjmcOVzGuWIwGAwGg8FgMBgMBoPBYETjOkG77PjcO4cLby5mZMf51qmtnnunZKs3RxnmcO+eKwaDwWAwGAwGg8FgMBgMRjQy92pGlrZHGeZw754rBoPBYDAYDAaDwWAwGAxGNMzhzOEyzhWDwWAwGAwGg8FgMBgMBiMa5nDmcBnnisFgMBgMBoPBYDAYDAaDEQ1zOHO4jHPFYDAYDAaDwWAwGAwGg8GIhjmcOVzGuWIwGAwGg8FgMBgMBoPBYETDHM4cjsFgMBgMBoPBYDAYDAaDkW/Y29qWZVnWbU13lyAIQl9oH9PxK1wvX+13wQ0nCMK2woAbbnqEC4IgpAY3nCAIdcOItc3fXBCE+sENJwhC3eCGEwShbnDDCYJQN7jhBEGoG9xwgiDUDW44QRDqhhHrG6W97KI=",
+   "boundaries" : "eNot0ElyggAAAEEiuIMLKoq4CygK/v95Mak+dc11gp8gDHpBEvwZMmKfAw454pgTThkz4YxzLrhkyhXX3DDjljvm3LPggUeeeOaFV954Z8mKNR98suGLb7bsvva+/vwbB5/v2VCHOtKR7uu+HuiBHuqhHumRHuuxnuiJnuqpjnWsE53omZ7puZ7rhV7opV7qVKd6pVd6rdd6ozc605ne6q3e6Z3Oda73eq8LXeiDPuijPuqTPumzPuuLvuirvuqbvum7vutSl7rSla51rR/6oZ/6qRvd6Jd+6bd+61a3utOd/nztMWTEPgcccsQxJ5wyZsIZ51xwyZQrrrlhxi13zLlnwQOPPPHMC6+88c6SFWs++GTDF99s2QXRL/YfK1E=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 0, 1, 21 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 49, 1, 20 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_enter_05",
+     "pos" : [ 40, 1, 46 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_exit_05",
+     "pos" : [ 5, 1, 46 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_balcony_05",
+     "pos" : [ 11, 1, 46 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjYiIFcAMBSRqgOhhIAKM6RnWM6hjVMapjVMeojlEdtNMxXAAA3XoR6Q==",
+   "id" : "twr_cf_floor_05",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -17, 31, 111 ],
+   "region-plane" : "eNpjZKQHYCABjOoY1TGqY1THqI5RHaM6RnXQUgcQMDMzw0kcAE2SHjpIAgBnGwJr",
+   "region-y-plane" : "eNpjYiIFcAMBSRqgOhhIAKM6RnWM6hjVMapjVMeojlEdtNMxXAAA3XoR6Q==",
+   "size" : [ 50, 12, 50 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYKAHYCQBjOoY1TGqY1THqI5RHaM6RnXQUgdEE5zE3XrB5NJWB0kAAIxVB6w=",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt2FFOg1AQQNG6AlfSTbFI1+UOkJZgeRZSIJ0JTs6bD02u4cSK72Mu10vcTIfBYDAYDAaDwWAwGAwGg5FvzM962XpeP6GKEXUi/+Y50w0T+/kxGAwGg8FgMBgMBoPBYPxX4z4fX2MYvh7cwDw9ofs1xu+62U90x2blCVmGeT31/j8YDAaDwWAwGAwGg8FgMN5lLG/Rdo893Bsm8uQY42fFYDAYDAaDwWAwGAwGg8FoDXs4e7iI94rBYDAYDAaDwWAwGAwGg9Easy3aNMf3cH+e8LQju+247v3ghmz1CVmGPdzW94rBYDAYDAaDwWAwGAwGg9EakbOwIwuaLMMebut7xWAwGAwGg8FgMBgMBoPBaA17OHu4iPeKwWAwGAwGg8FgMBgMBoPRGvZw9nAR7xWDwWAwGAwGg8FgMBgMBqM17OHs4SLeKwaDwWAwGAwGg8FgMBgMRmvYw9nDRbxXDAaDwWAwGAwGg8FgMBiM1rCHs4djMBgMBoPBYDAYDAaDwWDEG+Zc4ziO4zxOv3gEQRD2hSF9t7fLZz9dM7uDG04QhFOFhBuuX8MFQRBCgxtOEIS6IeOc8zcXBKF+cMMJglA3uOEEQagb3HCCINQNbjhBEOoGN5wgCHWDG04QhLoh4/wApCXeIA==",
+   "boundaries" : "eNot0ElyggAAAEEiuIMLKoq4CygK/v95Mak+dc11gp8gDHpBEvwZMmKfAw454pgTThkz4YxzLrhkyhXX3DDjljvm3LPggUeeeOaFV954Z8mKNR98suGLb7bsvva+/vwbB5/v2VCHOtKR7uu+HuiBHuqhHumRHuuxnuiJnuqpjnWsE53omZ7puZ7rhV7opV7qVKd6pVd6rdd6ozc605ne6q3e6Z3Oda73eq8LXeiDPuijPuqTPumzPuuLvuirvuqbvum7vutSl7rSla51rR/6oZ/6qRvd6Jd+6bd+61a3utOd/nztMWTEPgcccsQxJ5wyZsIZ51xwyZQrrrlhxi13zLlnwQOPPPHMC6+88c6SFWs++GTDF99s2QXRL/YfK1E=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "exit",
+     "pos" : [ 0, 1, 21 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 49, 1, 20 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_enter_04",
+     "pos" : [ 39, 1, 46 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "cf_travel_exit_04",
+     "pos" : [ 6, 1, 46 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjYiIFcAMBSRqgOhhIAKM6RnWM6hjVMapjVMeojlEdtNMxXAAA3XoR6Q==",
+   "id" : "twr_cf_floor_04",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 67, 31, 111 ],
+   "region-plane" : "eNpjZKQHYCABjOoY1TGqY1THqI5RHaM6RnXQUgcIMDMz42+8YCighw5SAABdZwJZ",
+   "region-y-plane" : "eNpjYiIFcAMBSRqgOhhIAKM6RnWM6hjVMapjVMeojlEdtNMxXAAA3XoR6Q==",
+   "size" : [ 50, 12, 50 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYKAHYCQBjOoY1TGqY1THqI5RHaM6RnXQUgdUF8HGCwEBGuggBQAAh3sHow==",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt10FOwzAUBNByAk7C9TlXbxBSsSChqDSuiz3851lZo1cr/a2snN5OIiIiIiIikp1jiyRJkiRJkiTvkC/vlzSd2bKGyQeec9w85XnJ+iWQJEmSJEmSEdLb1a9njptnlbT+GkiSJEmSJElyKtn01vF5ZusaIh94znHzrJKsqZAkSZIkSZLkDdn21tH+vjJCtj/nwHlWSdZUSJIkSZIkSZLMk1WSNRWSJEmSJEmSJPNklWRNhSRJkiRJkiTJPFklWVMhSZIkSZIkSTJPVknWVEiSJEmSJEmSzJNVkjUVkiRJkiRJkiTzZJVkTYUkSZIkSZIkyTxZJVlTIUmSJEmSJEkyT/73WJb1x+t1+VrrdrM7K5XTlNvNWm53V+WhM5+0Jvv6lMofy2W7bv/LDp3Z50Zadh+7fq5SmVDuNst5t/teHjqzy400wzekVM5Tuq6Uyv6l60qp7F66rpTK/qXrSqnsXrqulMr+petKqexeuq6Uyv6l60qp7F42rw/hw8Cw",
+   "boundaries" : "eNot0UVywwAQRUHFKIMky8zMzLn/zWKnejNdb/snyAZRkAlywdcsc8yzwCJDllhmhVVGjJmwxpR1Nthki2122GWPfQ445IhjTjjljHMuuOSKa2645Y57HnjkiWdeeOWNdz745ItvH/n5XzIKfj83r/O6oAu6qIs61KEu6ZIu67Ku6Iqu6qqOdKRjHetEJ7qmazrVqa7rum7ohm7qpm7plm7rtu7oju7qru7pnu7rvh58OvPpr1nmmGeBRYYsscwKq4wYM2GNKetssMkW2+ywyx77HHDIEceccMoZ51xwyRXX3HDLHfc88MgTz7zwyhvvfPDJF99B/AdbLyOh",
+   "doors" : 
+   [
+    
+    {
+     "name" : "cf_balcony_door_01",
+     "pos" : [ 3, 1, 49 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 0, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "exit",
+     "pos" : [ 28, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrj4eHhYcIFeAhJMmAHo5KjkqOSo5KjksNdkt4AAPv8EPk=",
+   "id" : "twr_cf_balcony_01",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 167, 31, 127 ],
+   "region-plane" : "eNpjZKQEMGAHo5KjkqOSo5KjkiRKMjMz00KSdl6hNwAAAQsB/w==",
+   "region-y-plane" : "eNrj4eHhYcIFeAhJMmAHo5KjkqOSo5KjksNdkt4AAPv8EPk=",
+   "size" : [ 29, 13, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYKAEMGIHo5KjkqOSo5KjkiRKMuIEFEnSziv0BgCCFgTN",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt10FOwzAUBNByAk7C9TlXbxBSsSChqDSuiz3851lZo1cr/a2snN5OIiIiIiIikp1jiyRJkiRJkiTvkC/vlzSd2bKGyQeec9w85XnJ+iWQJEmSJEmSEdLb1a9njptnlbT+GkiSJEmSJElyKtn01vF5ZusaIh94znHzrJKsqZAkSZIkSZLkDdn21tH+vjJCtj/nwHlWSdZUSJIkSZIkSZLMk1WSNRWSJEmSJEmSJPNklWRNhSRJkiRJkiTJPFklWVMhSZIkSZIkSTJPVknWVEiSJEmSJEmSzJNVkjUVkiRJkiRJkiTzZJVkTYUkSZIkSZIkyTxZJVlTIUmSJEmSJEkyT/73WJb1x+t1+VrrdrM7K5XTlNvNWm53V+WhM5+0Jvv6lMofy2W7bv/LDp3Z50Zadh+7fq5SmVDuNst5t/teHjqzy400wzekVM5Tuq6Uyv6l60qp7F66rpTK/qXrSqnsXrqulMr+petKqexeuq6Uyv6l60qp7F42rw/hw8Cw",
+   "boundaries" : "eNot0UVywwAQRUHFKIMky8zMzLn/zWKnejNdb/snyAZRkAlywdcsc8yzwCJDllhmhVVGjJmwxpR1Nthki2122GWPfQ445IhjTjjljHMuuOSKa2645Y57HnjkiWdeeOWNdz745ItvH/n5XzIKfj83r/O6oAu6qIs61KEu6ZIu67Ku6Iqu6qqOdKRjHetEJ7qmazrVqa7rum7ohm7qpm7plm7rtu7oju7qru7pnu7rvh58OvPpr1nmmGeBRYYsscwKq4wYM2GNKetssMkW2+ywyx77HHDIEceccMoZ51xwyRXX3HDLHfc88MgTz7zwyhvvfPDJF99B/AdbLyOh",
+   "doors" : 
+   [
+    
+    {
+     "name" : "cf_balcony_door_02",
+     "pos" : [ 3, 1, 49 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 0, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "exit",
+     "pos" : [ 28, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrj4eHhYcIFeAhJMmAHo5KjkqOSo5KjksNdkt4AAPv8EPk=",
+   "id" : "twr_cf_balcony_02",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 221, 31, 127 ],
+   "region-plane" : "eNpjZKQEMGAHo5KjkqOSo5KjkiRKMjMz00KSdl6hNwAAAQsB/w==",
+   "region-y-plane" : "eNrj4eHhYcIFeAhJMmAHo5KjkqOSo5KjksNdkt4AAPv8EPk=",
+   "size" : [ 29, 13, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYKAEMGIHo5KjkqOSo5KjkiRKMuIEFEnSziv0BgCCFgTN",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt10FOwzAUBNByAk7C9TlXbxBSsSChqDSuiz3851lZo1cr/a2snN5OIiIiIiIikp1jiyRJkiRJkiTvkC/vlzSd2bKGyQeec9w85XnJ+iWQJEmSJEmSEdLb1a9njptnlbT+GkiSJEmSJElyKtn01vF5ZusaIh94znHzrJKsqZAkSZIkSZLkDdn21tH+vjJCtj/nwHlWSdZUSJIkSZIkSZLMk1WSNRWSJEmSJEmSJPNklWRNhSRJkiRJkiTJPFklWVMhSZIkSZIkSTJPVknWVEiSJEmSJEmSzJNVkjUVkiRJkiRJkiTzZJVkTYUkSZIkSZIkyTxZJVlTIUmSJEmSJEkyT/73WJb1x+t1+VrrdrM7K5XTlNvNWm53V+WhM5+0Jvv6lMofy2W7bv/LDp3Z50Zadh+7fq5SmVDuNst5t/teHjqzy400wzekVM5Tuq6Uyv6l60qp7F66rpTK/qXrSqnsXrqulMr+petKqexeuq6Uyv6l60qp7F42rw/hw8Cw",
+   "boundaries" : "eNot0UVywwAQRUHFKIMky8zMzLn/zWKnejNdb/snyAZRkAlywdcsc8yzwCJDllhmhVVGjJmwxpR1Nthki2122GWPfQ445IhjTjjljHMuuOSKa2645Y57HnjkiWdeeOWNdz745ItvH/n5XzIKfj83r/O6oAu6qIs61KEu6ZIu67Ku6Iqu6qqOdKRjHetEJ7qmazrVqa7rum7ohm7qpm7plm7rtu7oju7qru7pnu7rvh58OvPpr1nmmGeBRYYsscwKq4wYM2GNKetssMkW2+ywyx77HHDIEceccMoZ51xwyRXX3HDLHfc88MgTz7zwyhvvfPDJF99B/AdbLyOh",
+   "doors" : 
+   [
+    
+    {
+     "name" : "cf_balcony_door_03",
+     "pos" : [ 3, 1, 49 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "exit",
+     "pos" : [ 28, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "enter",
+     "pos" : [ 0, 1, 25 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrj4eHhYcIFeAhJMmAHo5KjkqOSo5KjksNdkt4AAPv8EPk=",
+   "id" : "twr_cf_balcony_03",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 167, 31, 211 ],
+   "region-plane" : "eNpjZKQEMGAHo5KjkqOSo5KjkiRKMjMz00KSdl6hNwAAAQsB/w==",
+   "region-y-plane" : "eNrj4eHhYcIFeAhJMmAHo5KjkqOSo5KjksNdkt4AAPv8EPk=",
+   "size" : [ 29, 13, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYKAEMGIHo5KjkqOSo5KjkiRKMuIEFEnSziv0BgCCFgTN",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNpjYBgFo2AUjIJRMAr4/5MIPozqGNVBCx2kp10A2nF6og==",
+   "boundaries" : "eNot1VNyRFEAQMGXsWPbtm3b5t3/HjKp9NepXsGJoigWVUTx6K8xjWtCk5rStGY0qznNa0GL5VaUG2mp3BjHOM5xTnCCk5zkFKc4zWnOcIaznOUc5zjPeS5wgYtc5BKXuJIruYqruJqruYZruJZruY7ruJ7ruYEbuJEbuYmbuJmbuYVbuJVbuY3buJ3buYM7uJM7uYu7uJu7uYd7uJd7uY/7uJ/7eYAHeJAHeYiHeJiHeYRHeJRHeYzHeJzHeYIneJIneYqneJqneYZneJZneY7neJ7neYEXeJEXeYmXeJmXeYVXeJVXeY3XeJ3XeYM3eJM3eYu3eJu3eYd3eJd3eY/3eJ/3+YAP+JAP+YiP+JiP+YRP+JRP+YzP+JzP+YIv+JIv+Yqv+Jqv+YZv+JZv+Y7v+J7v+YEf+JEf+Ymf+Jmf+YVf+JVf+Y3f+J3f+YM/+JM/+Yu/+Ju/+Yd/OPhQ8KHgQ8GHgg8FHwo+FHwo+FDwoeBDwYfC/4d+AatNNVY=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 0, 3 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 99, 0, 3 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMNwAAAXcAAE=",
+   "id" : "cf_spacer",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 17, 32, -11 ],
+   "region-plane" : "eNpjZKQDYKA5GLVj1I5RO0btGDp20AEAAJyHAOM=",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMNwAAAXcAAE=",
+   "size" : [ 100, 1, 15 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYBgFo2AUjIJRMNwAAAXcAAE=",
+   "y" : 0
+  }
+ ]
+}

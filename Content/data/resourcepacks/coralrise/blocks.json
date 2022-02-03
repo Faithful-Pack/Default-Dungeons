@@ -669,8 +669,9 @@
 		"isotropic" : true,
 		"textures" : "hardened_clay"
 	},
-	"coal_block" : { 
-		"textures" : "coal_block"
+	"coal_block" : {
+    "textures": "coal_block",
+    "material": "stone"
 	},
 	"packed_ice" : { 
 		"textures" : "ice_packed"

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/Campfire/MI_Campfire.MI_Campfire'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/Campfire/MI_Campfire.MI_Campfire'
+        MaterialSlotName = SM_Campfire:SM_Campfire:pCube6Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.699, 241.432, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-19.8874, Z=0 }
+    BoxExtent = { X=62.5, Y=19.8874, Z=62.5 }
+    SphereRadius = 90.3037
+}

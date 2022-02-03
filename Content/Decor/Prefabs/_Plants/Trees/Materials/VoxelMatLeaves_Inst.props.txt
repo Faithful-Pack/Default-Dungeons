@@ -1,5 +1,5 @@
-Parent = Material3'Materials/VoxelMatLeaves.VoxelMatLeaves'
-ScalarParameterValues[7] =
+Parent = Material3'Materials/VoxelMatLeavesTransparent.VoxelMatLeavesTransparent'
+ScalarParameterValues[6] =
 {
     ScalarParameterValues[0] =
     {
@@ -27,17 +27,11 @@ ScalarParameterValues[7] =
     }
     ScalarParameterValues[4] =
     {
-        ParameterInfo = { Name=deformDistance }
-        ParameterValue = 140
-        ParameterName = None
-    }
-    ScalarParameterValues[5] =
-    {
         ParameterInfo = { Name=Wind }
         ParameterValue = 5
         ParameterName = None
     }
-    ScalarParameterValues[6] =
+    ScalarParameterValues[5] =
     {
         ParameterInfo = { Name=RefractionDepthBias }
         ParameterValue = 0
@@ -51,7 +45,7 @@ BasePropertyOverrides =
     bOverride_BlendMode = false
     BlendMode = BLEND_Masked (1)
     bOverride_TwoSided = false
-    TwoSided = true
+    TwoSided = false
     bOverride_OpacityMaskClipValue = false
     OpacityMaskClipValue = 0.3333
 }
@@ -79,12 +73,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[1] =
-{
-    TextureStreamingData[0] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_Clouds_512
-    }
-}
+TextureStreamingData[0] = {}

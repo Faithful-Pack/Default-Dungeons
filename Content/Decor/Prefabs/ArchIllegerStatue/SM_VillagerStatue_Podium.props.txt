@@ -1,38 +1,26 @@
-Materials[2] =
+Materials[1] =
 {
-    Materials[0] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
-    Materials[1] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+    Materials[0] = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
 }
 SourceModels[0] = {}
-StaticMaterials[2] =
+StaticMaterials[1] =
 {
     StaticMaterials[0] =
     {
-        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
-        MaterialSlotName = pCube1Mat
+        MaterialInterface = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = WorldGridMaterial
         UVChannelData =
         {
             bInitialized = true
             bOverrideDensities = false
-            LocalUVDensities[4] = { 800, 857.665, 0, 0 }
-        }
-    }
-    StaticMaterials[1] =
-    {
-        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
-        MaterialSlotName = SM_VillagerStatue:SM_VillagerStatue:polySurface1Mat
-        UVChannelData =
-        {
-            bInitialized = true
-            bOverrideDensities = false
-            LocalUVDensities[4] = { 797.415, 857.186, 0, 0 }
+            LocalUVDensities[4] = { 797.874, 857.38, 0, 0 }
         }
     }
 }
 Sockets[0] = {}
 ExtendedBounds =
 {
-    Origin = { X=-0.135292, Y=-162.41, Z=0 }
+    Origin = { X=-0.135292, Y=-162.41, Z=7.62939e-06 }
     BoxExtent = { X=100.391, Y=262.41, Z=100 }
     SphereRadius = 298.138
 }

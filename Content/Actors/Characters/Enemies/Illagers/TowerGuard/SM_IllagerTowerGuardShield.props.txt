@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_TowerGuardShield.MI_TowerGuardShield'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_TowerGuardShield.MI_TowerGuardShield'
+        MaterialSlotName = Material #27
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200, 196.617, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.375, Y=0, Z=3.125 }
+    BoxExtent = { X=78.125, Y=43.75, Z=3.12502 }
+    SphereRadius = 89.5954
+}

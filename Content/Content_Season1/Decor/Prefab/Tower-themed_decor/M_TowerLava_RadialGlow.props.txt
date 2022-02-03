@@ -1,0 +1,59 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/_Creepingwinter_Structures/_LostSettlement_Structures/LS_Lanterns/T_CubelampBlank.T_CubelampBlank'
+}
+Expressions[13] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'Content_Season1/Decor/Prefab/Tower-themed_decor/M_TowerLava_RadialGlow.MaterialExpressionVectorParameter_0'
+    Expressions[7] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/Tower-themed_decor/M_TowerLava_RadialGlow.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.066667, B=0, A=1 }
+        Name = Color Alpha
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_CubelampBlank
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower-themed_decor/Tower_UVpaint/MI_S2_UV_Green.MI_S2_UV_Green'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower-themed_decor/Tower_UVpaint/MI_S2_UV_Green.MI_S2_UV_Green'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 152.381, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0.905257 }
+    BoxExtent = { X=75, Y=75, Z=0 }
+    SphereRadius = 106.066
+}

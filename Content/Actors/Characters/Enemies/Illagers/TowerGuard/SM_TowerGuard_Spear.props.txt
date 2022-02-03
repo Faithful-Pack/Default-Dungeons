@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_TowerGuard_Spear.MI_TowerGuard_Spear'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_TowerGuard_Spear.MI_TowerGuard_Spear'
+        MaterialSlotName = Material #30
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 156.194, 163.945, 147.112, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.66893e-06, Y=0, Z=-19.8873 }
+    BoxExtent = { X=3.125, Y=17.6777, Z=103.856 }
+    SphereRadius = 103.997
+}

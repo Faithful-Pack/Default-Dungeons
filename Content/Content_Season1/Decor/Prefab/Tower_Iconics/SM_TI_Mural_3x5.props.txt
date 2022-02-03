@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower_Iconics/Mi_tower_Iconics.Mi_tower_Iconics'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower_Iconics/Mi_tower_Iconics.Mi_tower_Iconics'
+        MaterialSlotName = Mi_GS_Banners
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1600, 402.483, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=150, Y=-250.446, Z=11.9047 }
+    BoxExtent = { X=150, Y=250.446, Z=12.5 }
+    SphereRadius = 292.198
+}

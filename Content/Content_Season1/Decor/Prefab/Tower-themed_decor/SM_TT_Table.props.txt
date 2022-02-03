@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower-themed_decor/Mi_BaseTowerProps.Mi_BaseTowerProps'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower-themed_decor/Mi_BaseTowerProps.Mi_BaseTowerProps'
+        MaterialSlotName = MI_Table
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1679.89, 584.862, 604.374, 476.148 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.05176e-05, Z=65.625 }
+    BoxExtent = { X=100, Y=203.125, Z=65.625 }
+    SphereRadius = 233.038
+}

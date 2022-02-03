@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = Fbx Default Material_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 378.637, 384.555, 377.464, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.52588e-05, Z=100 }
+    BoxExtent = { X=88.8889, Y=88.8889, Z=100 }
+    SphereRadius = 151.001
+}

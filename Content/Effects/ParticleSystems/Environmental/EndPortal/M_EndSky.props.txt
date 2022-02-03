@@ -3,31 +3,31 @@ ScalarParameterValues[16] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterInfo = { Name=AnimSpeed }
-        ParameterValue = 0.1
-        ParameterName = None
-    }
-    ScalarParameterValues[1] =
-    {
-        ParameterInfo = { Name=MainSpecOffset }
+        ParameterInfo = { Name=MainSpeckOffset }
         ParameterValue = -0.057143
         ParameterName = None
     }
-    ScalarParameterValues[2] =
+    ScalarParameterValues[1] =
     {
         ParameterInfo = { Name=NebulaColourOffset }
         ParameterValue = -0.085714
         ParameterName = None
     }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=SubSpeckColourOffset }
+        ParameterValue = -0.019048
+        ParameterName = None
+    }
     ScalarParameterValues[3] =
     {
-        ParameterInfo = { Name=SubSpecColourOffset }
-        ParameterValue = -0.019048
+        ParameterInfo = { Name=VoidBrightness }
+        ParameterValue = 0
         ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterInfo = { Name=MainSpecPower }
+        ParameterInfo = { Name=MainSpeckPower }
         ParameterValue = 2
         ParameterName = None
     }
@@ -39,19 +39,19 @@ ScalarParameterValues[16] =
     }
     ScalarParameterValues[6] =
     {
-        ParameterInfo = { Name=SubSpecPower }
+        ParameterInfo = { Name=SubSpeckPower }
         ParameterValue = 1
         ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterInfo = { Name=VoidBrightness }
-        ParameterValue = 0
+        ParameterInfo = { Name=SpeedMod[ALL] }
+        ParameterValue = 0.1
         ParameterName = None
     }
     ScalarParameterValues[8] =
     {
-        ParameterInfo = { Name=MainSpecDistance }
+        ParameterInfo = { Name=MainSpeckDistance }
         ParameterValue = 0
         ParameterName = None
     }
@@ -69,7 +69,7 @@ ScalarParameterValues[16] =
     }
     ScalarParameterValues[11] =
     {
-        ParameterInfo = { Name=SubSpecDistance }
+        ParameterInfo = { Name=SubSpeckDistance }
         ParameterValue = 0
         ParameterName = None
     }
@@ -111,7 +111,7 @@ VectorParameterValues[1] =
 {
     VectorParameterValues[0] =
     {
-        ParameterInfo = { Name=MainSpecColour }
+        ParameterInfo = { Name=MasterColour }
         ParameterValue = { R=0.535352, G=0, B=1, A=1 }
         ParameterName = None
     }
@@ -138,7 +138,7 @@ StaticParameters =
         StaticSwitchParameters[1] =
         {
             Value = false
-            ParameterInfo = { Name=Use Edge Glow (Requires Translucency) }
+            ParameterInfo = { Name=Use Depth Glow (Requires Translucency) }
             bOverride = true
         }
     }

@@ -1,7 +1,7 @@
 Materials[3] =
 {
     Materials[0] = MaterialInstanceConstant'Decor/Prefabs/China/MI_China_PlateServing.MI_China_PlateServing'
-    Materials[1] = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+    Materials[1] = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
     Materials[2] = MaterialInstanceConstant'Decor/Prefabs/_Fruit_Food/MI_Turkey.MI_Turkey'
 }
 SourceModels[0] = {}
@@ -20,7 +20,7 @@ StaticMaterials[3] =
     }
     StaticMaterials[1] =
     {
-        MaterialInterface = Material3'Content_DLC5/Decor/Prefabs/_HiddenDepths/Fish/WorldGridMaterial.WorldGridMaterial'
+        MaterialInterface = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
         MaterialSlotName = SM_Turkey1:pCube1Mat
         UVChannelData =
         {

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Cactus/MI_Cactus04.MI_Cactus04'
+    Materials[1] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Cactus/MI_Cactus04.MI_Cactus04'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Cactus/MI_Cactus04.MI_Cactus04'
+        MaterialSlotName = Lilypad2Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.025, 499.323, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Cactus/MI_Cactus04.MI_Cactus04'
+        MaterialSlotName = pPlane13Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 302.336, 505.392, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=15.625, Y=-54.1357, Z=18.75 }
+    BoxExtent = { X=121.875, Y=54.1357, Z=112.5 }
+    SphereRadius = 157.101
+}

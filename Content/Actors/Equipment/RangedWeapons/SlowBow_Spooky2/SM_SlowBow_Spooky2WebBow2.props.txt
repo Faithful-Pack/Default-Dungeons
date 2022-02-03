@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SlowBow_Spooky2/MI_SlowBow_Spooky2_WebBow.MI_SlowBow_Spooky2_WebBow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/SlowBow_Spooky2/MI_SlowBow_Spooky2_WebBow.MI_SlowBow_Spooky2_WebBow'
+        MaterialSlotName = WebBow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.576, 198.595, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62939e-06, Y=8.83885, Z=0 }
+    BoxExtent = { X=70.7107, Y=39.7748, Z=3.125 }
+    SphereRadius = 75.5837
+}

@@ -745,7 +745,7 @@
                 "stretch": "",
                 "interval": 4,
                 "has-music": false,
-                "rest-interval": 0.5,
+                "rest-interval": 0.1,
                 "start-time": 0.1,
                 "prespawn-mob": "",
                 "waves": [
@@ -758,11 +758,15 @@
                         "endermite"
                     ],
                     [
-                        6,
+                        7,
                         "endermite"
                     ],
                     [
-                        10,
+                        8,
+                        "endermite"
+                    ],
+                    [
+                        11,
                         "endermite"
                     ]
                 ],
@@ -869,19 +873,11 @@
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        5,
+                        6,
                         "silverfishsmart"
                     ],
                     [
-                        7,
-                        "silverfisharena"
-                    ],
-                    [
-                        5,
-                        "silverfishsmart"
-                    ],
-                    [
-                        7,
+                        9,
                         "silverfisharena"
                     ],
                     [
@@ -891,6 +887,10 @@
                     [
                         9,
                         "silverfisharena"
+                    ],
+                    [
+                        9,
+                        "silverfishsmart"
                     ]
                 ],
                 "gate": null
@@ -901,9 +901,9 @@
             "trigger": "*.sh_storeroom_deadend_01.arena_trigger_halls_01",
             "arena": {
                 "stretch": "",
-                "start-time": 3,
+                "start-time": 0.1,
                 "prespawn-mob": "",
-                "interval": 5,
+                "interval": 4,
                 "rest-interval": 0.1,
                 "waves": [
                     [
@@ -915,23 +915,15 @@
                         "endermite"
                     ],
                     [
-                        4,
-                        "endermite"
-                    ],
-                    [
-                        6,
-                        "endermite"
-                    ],
-                    [
                         7,
                         "endermite"
                     ],
                     [
-                        9,
+                        13,
                         "endermite"
                     ],
                     [
-                        11,
+                        17,
                         "endermite"
                     ]
                 ],
@@ -946,29 +938,25 @@
             "trigger": "*.sh_storeroom_sidepath_02.arena_storeroom_01",
             "arena": {
                 "stretch": "",
-                "interval": 5,
-                "rest-interval": 0.5,
+                "interval": 3,
+                "rest-interval": 0.1,
                 "start-time": 0.1,
                 "prespawn-mob": "",
                 "waves": [
                     [
-                        6,
+                        9,
                         "silverfisharena"
                     ],
                     [
-                        8,
-                        "silverfisharena"
-                    ],
-                    [
-                        6,
-                        "silverfisharena"
-                    ],
-                    [
-                        8,
+                        7,
                         "silverfisharena"
                     ],
                     [
                         9,
+                        "silverfisharena"
+                    ],
+                    [
+                        15,
                         "silverfisharena"
                     ]
                 ],
@@ -1139,8 +1127,8 @@
             "trigger": "*.*.lava_arena_trigger_01",
             "arena": {
                 "stretch": "*",
-                "interval": 6,
-                "rest-interval": 2.5,
+                "interval": 4,
+                "rest-interval": 1.5,
                 "start-time": 4,
                 "prespawn-mob": "",
                 "waves": [
@@ -1194,9 +1182,9 @@
                 "stretch": "arena_01",
                 "start-time": 0.1,
                 "prespawn-mob": "",
-                "interval": 5,
+                "interval": 4,
                 "has-music": false,
-                "rest-interval": 0.5,
+                "rest-interval": 0.1,
                 "waves": [
                     [
                         1,
@@ -1207,23 +1195,15 @@
                         "silverfisharena"
                     ],
                     [
-                        4,
-                        "silverfisharena"
-                    ],
-                    [
-                        5,
-                        "silverfisharena"
-                    ],
-                    [
-                        7,
-                        "silverfisharena"
-                    ],
-                    [
-                        10,
+                        8,
                         "silverfisharena"
                     ],
                     [
                         11,
+                        "silverfisharena"
+                    ],
+                    [
+                        18,
                         "silverfisharena"
                     ]
                 ],
@@ -1409,7 +1389,7 @@
             "trigger": "*.sh_cells_deadend_02.cells_arena_trigger_01",
             "arena": {
                 "stretch": "",
-                "interval": 12,
+                "interval": 10,
                 "rest-interval": 2.5,
                 "start-time": 2,
                 "prespawn-mob": "",

@@ -21,7 +21,7 @@ ScalarParameterValues[7] =
     }
     ScalarParameterValues[3] =
     {
-        ParameterInfo = { Name=Texture to Parallax Colour discrapancy }
+        ParameterInfo = { Name=ColourDiscrepancyVariation }
         ParameterValue = 0.1
         ParameterName = None
     }
@@ -88,7 +88,7 @@ StaticParameters =
         StaticSwitchParameters[3] =
         {
             Value = false
-            ParameterInfo = { Name=Use Edge Glow (Requires Translucency) }
+            ParameterInfo = { Name=Use Depth Glow (Requires Translucency) }
             bOverride = true
         }
     }

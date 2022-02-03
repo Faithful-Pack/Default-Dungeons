@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower-themed_decor/MI_TowerInhabitantBanner_blacksmith.MI_TowerInhabitantBanner_blacksmith'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower-themed_decor/MI_TowerInhabitantBanner_blacksmith.MI_TowerInhabitantBanner_blacksmith'
+        MaterialSlotName = Material #104
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 182.235, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.90735e-06, Y=62.5, Z=-87.5 }
+    BoxExtent = { X=15.625, Y=62.5, Z=87.5 }
+    SphereRadius = 108.658
+}

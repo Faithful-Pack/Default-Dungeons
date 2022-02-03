@@ -1,0 +1,61 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Decor/Prefabs/TorchWall/T_Torch_Wall.T_Torch_Wall'
+    ReferencedTextures[1] = Texture2D'Decor/Prefabs/TorchWall/T_Torch_Wall_SPEC.T_Torch_Wall_SPEC'
+}
+Expressions[6] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/Misc/M_TorchWall_Balcony.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionVectorParameter'Content_Season1/Decor/Prefab/Misc/M_TorchWall_Balcony.MaterialExpressionVectorParameter_0'
+    Expressions[5] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/Misc/M_TorchWall_Balcony.MaterialExpressionTextureSample_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ColorTuning
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Torch_Wall
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/TowerKeepers/MI_TowerKeeper_Room.MI_TowerKeeper_Room'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/TowerKeepers/MI_TowerKeeper_Room.MI_TowerKeeper_Room'
+        MaterialSlotName = Material #4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.034, 208143, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-100, Y=0.00012207, Z=800 }
+    BoxExtent = { X=1300, Y=1700, Z=900 }
+    SphereRadius = 2167.95
+}

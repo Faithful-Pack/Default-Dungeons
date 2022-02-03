@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/rough_models/MI_jungle_plant_fernrough.MI_jungle_plant_fernrough'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/DingyJungle/JunglePlant/rough_models/MI_jungle_plant_fernrough.MI_jungle_plant_fernrough'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 314.845, 760.81, 1419.63, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-49.3745, Y=-8.55099, Z=212.808 }
+    BoxExtent = { X=418.763, Y=403.081, Z=218.08 }
+    SphereRadius = 496.655
+}

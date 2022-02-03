@@ -6,7 +6,7 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_64.T_Clouds_64'
     ReferencedTextures[1] = Texture2D'Effects/Materials/Noise/T_SmoothClouds_512.T_SmoothClouds_512'
 }
-Expressions[105] =
+Expressions[106] =
 {
     Expressions[6] = MaterialExpressionTextureSampleParameter2D'Actors/Equipment/M_MasterEquipment.MaterialExpressionTextureSampleParameter2D_0'
     Expressions[9] = MaterialExpressionStaticSwitchParameter'Actors/Equipment/M_MasterEquipment.MaterialExpressionStaticSwitchParameter_1'
@@ -135,4 +135,36 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.453125
+        UVChannelIndex = 0
+        TextureName = T_Clouds_64
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_SmoothClouds_512
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Sword
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Sword_S
+    }
+}

@@ -1,151 +1,157 @@
 Parent = Material3'Effects/ParticleSystems/Environmental/EndPortal/M_EndVoid.M_EndVoid'
-ScalarParameterValues[25] =
+ScalarParameterValues[26] =
 {
     ScalarParameterValues[0] =
-    {
-        ParameterInfo = { Name=AnimSpeed }
-        ParameterValue = 0.5
-        ParameterName = None
-    }
-    ScalarParameterValues[1] =
-    {
-        ParameterInfo = { Name=ColourDiscrepancy }
-        ParameterValue = 0.03295
-        ParameterName = None
-    }
-    ScalarParameterValues[2] =
-    {
-        ParameterInfo = { Name=MainSpecOffset }
-        ParameterValue = -0.085714
-        ParameterName = None
-    }
-    ScalarParameterValues[3] =
     {
         ParameterInfo = { Name=MasterHueShift }
         ParameterValue = 0
         ParameterName = None
     }
-    ScalarParameterValues[4] =
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MainSpeckOffset }
+        ParameterValue = -0.085714
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
     {
         ParameterInfo = { Name=NebulaColourOffset }
         ParameterValue = -0.101429
         ParameterName = None
     }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ColourDiscrepancyAmount }
+        ParameterValue = 0.03295
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Depth Glow Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
     ScalarParameterValues[5] =
     {
-        ParameterInfo = { Name=Edge Glow Opacity }
-        ParameterValue = 1
+        ParameterInfo = { Name=Depth Glow Power }
+        ParameterValue = 2.71534
         ParameterName = None
     }
     ScalarParameterValues[6] =
     {
-        ParameterInfo = { Name=Edge Glow Power }
-        ParameterValue = 2.71534
+        ParameterInfo = { Name=Depth Glow Width }
+        ParameterValue = 230.794
         ParameterName = None
     }
     ScalarParameterValues[7] =
     {
-        ParameterInfo = { Name=Edge Glow Width }
-        ParameterValue = 230.794
+        ParameterInfo = { Name=Min Edge Gradient Opacity }
+        ParameterValue = 0
         ParameterName = None
     }
     ScalarParameterValues[8] =
-    {
-        ParameterInfo = { Name=NebulaPower }
-        ParameterValue = 0.06
-        ParameterName = None
-    }
-    ScalarParameterValues[9] =
-    {
-        ParameterInfo = { Name=SubSpecPower }
-        ParameterValue = 0.280953
-        ParameterName = None
-    }
-    ScalarParameterValues[10] =
     {
         ParameterInfo = { Name=VoidBrightness }
         ParameterValue = 0.02
         ParameterName = None
     }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=NebulaPower }
+        ParameterValue = 0.06
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=SubSpeckPower }
+        ParameterValue = 0.280953
+        ParameterName = None
+    }
     ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=SpeedMod[ALL] }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
     {
         ParameterInfo = { Name=NebulaSpeedMod }
         ParameterValue = 100
         ParameterName = None
     }
-    ScalarParameterValues[12] =
+    ScalarParameterValues[13] =
     {
-        ParameterInfo = { Name=MainSpecDistance }
+        ParameterInfo = { Name=MainSpeckDistance }
         ParameterValue = -8
         ParameterName = None
     }
-    ScalarParameterValues[13] =
+    ScalarParameterValues[14] =
     {
         ParameterInfo = { Name=NebulaDistance }
         ParameterValue = -20
         ParameterName = None
     }
-    ScalarParameterValues[14] =
+    ScalarParameterValues[15] =
     {
-        ParameterInfo = { Name=SubSpecDistance }
+        ParameterInfo = { Name=SubSpeckDistance }
         ParameterValue = -10
         ParameterName = None
     }
-    ScalarParameterValues[15] =
-    {
-        ParameterInfo = { Name=EdgeLightOpacity }
-        ParameterValue = 1
-        ParameterName = None
-    }
     ScalarParameterValues[16] =
-    {
-        ParameterInfo = { Name=FlipbookSpeed }
-        ParameterValue = 0.5
-        ParameterName = None
-    }
-    ScalarParameterValues[17] =
-    {
-        ParameterInfo = { Name=Texture Power }
-        ParameterValue = 25
-        ParameterName = None
-    }
-    ScalarParameterValues[18] =
-    {
-        ParameterInfo = { Name=TextureEdgeExponent }
-        ParameterValue = 6.5
-        ParameterName = None
-    }
-    ScalarParameterValues[19] =
-    {
-        ParameterInfo = { Name=TextureFlowSpeed }
-        ParameterValue = 5
-        ParameterName = None
-    }
-    ScalarParameterValues[20] =
     {
         ParameterInfo = { Name=Refraction Tiling }
         ParameterValue = 0.223818
         ParameterName = None
     }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=EdgeLightOpacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=FlipbookSpeed }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=Texture Power }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=TextureEdgeExponent }
+        ParameterValue = 6.5
+        ParameterName = None
+    }
     ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=TextureFlowSpeed }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
     {
         ParameterInfo = { Name=TopFacingTextureTiling }
         ParameterValue = 1
         ParameterName = None
     }
-    ScalarParameterValues[22] =
+    ScalarParameterValues[23] =
     {
         ParameterInfo = { Name=Tiling [ALL] }
         ParameterValue = 0.114762
         ParameterName = None
     }
-    ScalarParameterValues[23] =
+    ScalarParameterValues[24] =
     {
         ParameterInfo = { Name=Nebula Tiling }
         ParameterValue = 3
         ParameterName = None
     }
-    ScalarParameterValues[24] =
+    ScalarParameterValues[25] =
     {
         ParameterInfo = { Name=RefractionDepthBias }
         ParameterValue = 0
@@ -157,13 +163,13 @@ VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterInfo = { Name=MainSpecColour }
+        ParameterInfo = { Name=MasterColour }
         ParameterValue = { R=0.733938, G=0, B=1, A=1 }
         ParameterName = None
     }
     VectorParameterValues[1] =
     {
-        ParameterInfo = { Name=X-Y Spec Planning Mod }
+        ParameterInfo = { Name=X-Y Speck Planning Mod }
         ParameterValue = { R=1e-06, G=-1, B=0.5, A=1 }
         ParameterName = None
     }
@@ -183,8 +189,8 @@ StaticParameters =
     {
         StaticSwitchParameters[0] =
         {
-            Value = true
-            ParameterInfo = { Name=Static Top Facing Particles }
+            Value = false
+            ParameterInfo = { Name=Use Depth Glow (Requires Translucency) }
             bOverride = true
         }
         StaticSwitchParameters[1] =
@@ -195,13 +201,13 @@ StaticParameters =
         }
         StaticSwitchParameters[2] =
         {
-            Value = false
-            ParameterInfo = { Name=Use Edge Glow (Requires Translucency) }
+            Value = true
+            ParameterInfo = { Name=Static Top Facing Particles }
             bOverride = true
         }
         StaticSwitchParameters[3] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=UseNoisePulse }
             bOverride = true
         }

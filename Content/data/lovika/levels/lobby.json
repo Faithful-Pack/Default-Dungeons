@@ -35,7 +35,8 @@
                 "lootchest8",
                 "op_jumppads",
                 "nethercave",
-                "nethersign"
+                "nethersign",
+                "pettablewolf"
             ]
         },
         {
@@ -158,6 +159,18 @@
                     "prop-density": 2,
                     "prop-groups": [
                         "piglinmerchant"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tower_secret",
+            "ambience": "foxtrot",
+            "audio-ambience": "audio_8",
+            "stretches": [
+                {
+                    "tiles": [
+                        "twr_secret"
                     ]
                 }
             ]
@@ -690,6 +703,24 @@
             "unlock-keys": [
                 "not obsidianpinnacle"
             ]
+        },
+        {
+            "id": "pettablewolf_0",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "not obsidianpinnacle"
+            ]
+        },
+        {
+            "id": "pettablewolf_1",
+            "rotations": [
+                0
+            ],
+            "unlock-keys": [
+                "obsidianpinnacle"
+            ]
         }
     ],
     "tiles": [
@@ -704,6 +735,18 @@
                         "home"
                     ],
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
+                },
+                {
+                    "door": "secret_entrance",
+                    "exit": "*.twr_secret.secret_entrance",
+                    "dungeons": [
+                        "tower_secret"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
+                },
+                {
+                    "door": "secret_exit",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
                 },
                 {
                     "door": "greathall_entrance",
@@ -738,6 +781,18 @@
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
                 },
                 {
+                    "door": "secret_entrance",
+                    "exit": "*.twr_secret.secret_entrance",
+                    "dungeons": [
+                        "tower_secret"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
+                },
+                {
+                    "door": "secret_exit",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
+                },
+                {
                     "door": "greathall_entrance",
                     "dungeons": [
                         "greathall"
@@ -770,6 +825,18 @@
                     "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
                 },
                 {
+                    "door": "secret_entrance",
+                    "exit": "*.twr_secret.secret_entrance",
+                    "dungeons": [
+                        "tower_secret"
+                    ],
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
+                },
+                {
+                    "door": "secret_exit",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3_Flipped"
+                },
+                {
                     "door": "greathall_entrance",
                     "dungeons": [
                         "greathall"
@@ -785,6 +852,21 @@
         {
             "id": "lobby_extended01",
             "rotations": 0
+        },
+        {
+            "id": "twr_secret",
+            "rotations": 0,
+            "teleports": [
+                {
+                    "door": "secret_entrance",
+                    "object": "Decor/Prefabs/DoorTravel/Lobby/BP_Door_Lobby3x3"
+                },
+                {
+                    "door": "secret_exit",
+                    "exit": "*.*.secret_exit",
+                    "object": "Decor/Prefabs/DoorTravel/BambooBluff/BP_TravelDoor_Cave"
+                }
+            ]
         },
         {
             "id": "lobby_home",
@@ -1061,6 +1143,16 @@
             "props": [
                 "jumppads",
                 "jumppads_empty"
+            ]
+        },
+        {
+            "id": "pettablewolf",
+            "on-regions": [
+                "*.*.prop_pettablewolf"
+            ],
+            "props": [
+                "pettablewolf_0",
+                "pettablewolf_1"
             ]
         },
         {

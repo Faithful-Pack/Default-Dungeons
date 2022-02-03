@@ -1,0 +1,178 @@
+{
+  "allow-duplicates": false,
+  "seed": 32,
+  "floors": [
+    {
+      "tile": "twr_floor_bottom",
+      "rewards": [ "any", "melee", "ranged" ]
+    },
+    {
+      "tile": "twr_floor_sec1_01",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_floor_sec1_02",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_pp_floor_02",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_live_challenge_easy"]
+    },
+    {
+      "tile": "twr_pp_floor_05",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_live_challenge_easy"]
+    },
+    {
+      "tile": "twr_dt_floor_02",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_live_challenge_hard"]
+    },
+    {
+      "tile": "twr_dt_floor_04",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_live_challenge_hard"]
+    },
+    //{
+    //  "tile": "twr_boss_01",
+    //  "rewards": [ "any", "melee", "ranged" ]
+    //},
+    {
+      "tile": "twr_inhabitant_01",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_floor_sec2_01",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_floor_sec2_02",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_hh_floor_03",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["tower_live_challenge_hard_hh"]
+    },
+    {
+      "tile": "twr_hh_floor_05",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["tower_live_challenge_hard_hh"]
+    },
+    {
+      "tile": "twr_crc_floor_01",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_crc_floor_01_arena"]
+    },
+    {
+      "tile": "twr_crc_floor_03",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_crc_floor_03_arena"]
+    },
+    {
+      "tile": "twr_ot_floor_02",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_ot_floor_02_arena"]
+    },
+    {
+      "tile": "twr_ot_floor_06",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_ot_floor_06_arena"]
+    },
+    {
+      "tile": "twr_boss_02",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_inhabitant_03",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_floor_sec4_01",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    //{
+    //  "tile": "twr_floor_sec4_02",
+    //  "rewards": [ "any", "melee", "ranged" ],
+    //  "challenges": ["tower_base_challenge"]
+    //},
+    {
+      "tile": "twr_ls_floor_02",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_ls_arena_compact"]
+    },
+    {
+      "tile": "twr_ls_floor_05",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_ls_arena_scattered"]
+    },
+    {
+      "tile": "twr_bd_floor_02",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_bd_arena_scattered"]
+    },
+    {
+      "tile": "twr_bd_floor_06",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_bd_arena_compact"]
+    },
+    {
+      "tile": "twr_boss_03",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    /*{
+      "tile": "twr_inhabitant_03",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },*/
+    {
+      "tile": "twr_floor_sec3_01",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_floor_sec3_02",
+      "rewards": [ "any", "melee", "ranged" ],
+      "challenges": ["tower_base_challenge"]
+    },
+    {
+      "tile": "twr_gs_floor_04",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_gs_arena_scattered"]
+    },
+    {
+      "tile": "twr_gs_floor_05",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_gs_arena_scattered"]
+    },
+    {
+      "tile": "twr_ew_floor_02",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_ew_floor_02_arena"]
+    },
+    {
+      "tile": "twr_ew_floor_03",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["twr_ew_floor_03_arena"]
+    },
+    //{
+    //  "tile": "twr_boss_04",
+    //  "rewards": [ "artefact", "melee", "ranged" ]
+    //}
+    {
+      "tile": "twr_floor_top",
+      "rewards": [ "artefact", "melee", "ranged" ],
+      "challenges": ["tower_top_challenge"]
+    }
+  ]
+}

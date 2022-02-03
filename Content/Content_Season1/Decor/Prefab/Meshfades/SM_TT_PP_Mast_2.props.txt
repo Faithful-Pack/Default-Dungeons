@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = MI_End_MeshFades_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 1064.39, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000244141, Y=49.9998, Z=700 }
+    BoxExtent = { X=450, Y=100, Z=700 }
+    SphereRadius = 708.872
+}

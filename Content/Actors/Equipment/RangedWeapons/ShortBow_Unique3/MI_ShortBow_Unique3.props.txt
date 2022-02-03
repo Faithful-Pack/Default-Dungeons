@@ -1,5 +1,5 @@
 Parent = Material3'Actors/Equipment/M_MasterEquipment.M_MasterEquipment'
-ScalarParameterValues[2] =
+ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
     {
@@ -8,6 +8,12 @@ ScalarParameterValues[2] =
         ParameterName = None
     }
     ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Power }
+        ParameterValue = 6.42857
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
     {
         ParameterInfo = { Name=RefractionDepthBias }
         ParameterValue = 0
@@ -25,7 +31,7 @@ TextureParameterValues[2] =
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=Specular }
-        ParameterValue = Texture2D'Actors/Equipment/RangedWeapons/ShortBow_Unique3/T_ShortBow_Unique2MechanicalShortBow_S.T_ShortBow_Unique2MechanicalShortBow_S'
+        ParameterValue = Texture2D'Decor/Prefabs/Traps/FallingBlocks/1pxBlackPixel.1pxBlackPixel'
         ParameterName = None
     }
 }
@@ -34,7 +40,7 @@ VectorParameterValues[1] =
     VectorParameterValues[0] =
     {
         ParameterInfo = { Name=EnchantmentColor }
-        ParameterValue = { R=0.456538, G=1, B=0.21349, A=1 }
+        ParameterValue = { R=0.788235, G=0, B=0.8, A=1 }
         ParameterName = None
     }
 }
@@ -53,7 +59,7 @@ StaticParameters =
     {
         StaticSwitchParameters[0] =
         {
-            Value = true
+            Value = false
             ParameterInfo = { Name=EnchantmentMask }
             bOverride = true
         }
@@ -83,25 +89,25 @@ TextureStreamingData[5] =
     {
         SamplingScale = 1
         UVChannelIndex = 0
-        TextureName = Good64x64TilingNoiseHighFreq
+        TextureName = 1pxBlackPixel
     }
     TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[2] =
     {
         SamplingScale = 0.453125
         UVChannelIndex = 0
         TextureName = T_Clouds_64
     }
-    TextureStreamingData[2] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_ShortBow_Unique2MechanicalShortBow
-    }
     TextureStreamingData[3] =
     {
         SamplingScale = 1
         UVChannelIndex = 0
-        TextureName = T_ShortBow_Unique2MechanicalShortBow_S
+        TextureName = T_ShortBow_Unique2MechanicalShortBow
     }
     TextureStreamingData[4] =
     {

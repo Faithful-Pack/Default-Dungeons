@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/TowerKeeper_Clothesline/MI_Clothesline.MI_Clothesline'
+    Materials[1] = MaterialInstanceConstant'Actors/Characters/Enemies/TowerKeepers/MI_TowerKeeper.MI_TowerKeeper'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/TowerKeeper_Clothesline/MI_Clothesline.MI_Clothesline'
+        MaterialSlotName = Material #3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400, 438.638, 1.11379, 573.648 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/TowerKeepers/MI_TowerKeeper.MI_TowerKeeper'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.423, 5.25094, 5.25094, 574.381 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.28882e-05, Y=0, Z=119.887 }
+    BoxExtent = { X=39.7748, Y=312.5, Z=119.887 }
+    SphereRadius = 334.941
+}

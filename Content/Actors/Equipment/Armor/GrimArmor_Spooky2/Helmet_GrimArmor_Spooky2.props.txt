@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/Armor/GrimArmor_Spooky2/MI_GrimArmor_Spooky2.MI_GrimArmor_Spooky2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/Armor/GrimArmor_Spooky2/MI_GrimArmor_Spooky2.MI_GrimArmor_Spooky2'
+        MaterialSlotName = MI_Spooky2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 413.424, 225.395, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=40.3287 }
+    BoxExtent = { X=31.25, Y=31.25, Z=43.75 }
+    SphereRadius = 62.1867
+}

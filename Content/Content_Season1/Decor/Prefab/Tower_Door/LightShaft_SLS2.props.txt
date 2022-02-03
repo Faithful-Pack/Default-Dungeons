@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower_Door/Lightshaft_OP_Inst.Lightshaft_OP_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Tower_Door/Lightshaft_OP_Inst.Lightshaft_OP_Inst'
+        MaterialSlotName = Lightshaft_OP_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14017.2, 20652.2, 11208.1, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=317.398, Y=1.52588e-05, Z=30.0002 }
+    BoxExtent = { X=317.398, Y=165.802, Z=252.976 }
+    SphereRadius = 437.224
+}

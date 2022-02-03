@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Bunting/MI_Bunting.MI_Bunting'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Bunting/MI_Bunting.MI_Bunting'
+        MaterialSlotName = Material #25
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 568.586, 204.177, 658.979, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=946.436, Y=3.01323e-14, Z=-6.22638 }
+    BoxExtent = { X=946.436, Y=5.73871e-14, Z=143.774 }
+    SphereRadius = 957.294
+}

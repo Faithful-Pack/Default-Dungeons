@@ -6,19 +6,20 @@ ReferencedTextures[2] =
     ReferencedTextures[0] = Texture2D'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/T_Chainsword.T_Chainsword'
     ReferencedTextures[1] = Texture2D'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/T_Chainsword_S.T_Chainsword_S'
 }
-Expressions[24] =
+Expressions[27] =
 {
     Expressions[0] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[6] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionStaticSwitchParameter_4'
-    Expressions[7] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_0'
-    Expressions[8] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionStaticSwitchParameter_14'
-    Expressions[9] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionTextureSampleParameter2D_1'
-    Expressions[10] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_26'
-    Expressions[11] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_1'
-    Expressions[12] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_2'
-    Expressions[18] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_3'
-    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_5'
-    Expressions[22] = MaterialExpressionVectorParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[9] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[12] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_26'
+    Expressions[13] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_1'
+    Expressions[14] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_2'
+    Expressions[20] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_3'
+    Expressions[22] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_5'
+    Expressions[24] = MaterialExpressionVectorParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionVectorParameter_0'
+    Expressions[25] = MaterialExpressionScalarParameter'Content_DLC4/Actors/Equipment/MeleeWeapons/Chainsword/M_ChainswordBlade.MaterialExpressionScalarParameter_4'
 }
 CachedExpressionData =
 {
@@ -55,7 +56,7 @@ CollectedTextureParameters[2] =
         Group = None
     }
 }
-CollectedScalarParameters[6] =
+CollectedScalarParameters[7] =
 {
     CollectedScalarParameters[0] = { Value=0, Name=SpecularScalar, Group=None }
     CollectedScalarParameters[1] = { Value=0, Name=ConstantSpecular, Group=None }
@@ -63,6 +64,7 @@ CollectedScalarParameters[6] =
     CollectedScalarParameters[3] = { Value=0, Name=SpeedY, Group=None }
     CollectedScalarParameters[4] = { Value=16, Name=CeilX, Group=None }
     CollectedScalarParameters[5] = { Value=0.6, Name=NaturalEmissive, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=AlphaOverride, Group=None }
 }
 CollectedVectorParameters[1] =
 {
@@ -80,18 +82,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[2] =
-{
-    TextureStreamingData[0] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_Chainsword
-    }
-    TextureStreamingData[1] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_Chainsword_S
-    }
-}
+TextureStreamingData[0] = {}

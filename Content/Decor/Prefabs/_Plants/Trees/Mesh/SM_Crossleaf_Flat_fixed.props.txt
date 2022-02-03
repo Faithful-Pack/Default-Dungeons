@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/_Plants/Trees/Materials/VoxelMatLeaves_Inst.VoxelMatLeaves_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/_Plants/Trees/Materials/VoxelMatLeaves_Inst.VoxelMatLeaves_Inst'
+        MaterialSlotName = VoxelMatLeaves_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 208.951, 427.932, 106.134, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=75, Y=0, Z=10.9375 }
+    BoxExtent = { X=25, Y=100, Z=10.9375 }
+    SphereRadius = 103.656
+}

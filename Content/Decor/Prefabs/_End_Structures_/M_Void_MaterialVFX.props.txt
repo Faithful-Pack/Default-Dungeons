@@ -1,0 +1,95 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Content_DLC6/Decor/Prefabs/_End_Structures_/T_Void_Particle_Noise.T_Void_Particle_Noise'
+}
+Expressions[74] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionTextureSample_0'
+    Expressions[6] = MaterialExpressionTextureSample'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionTextureSample_1'
+    Expressions[7] = MaterialExpressionTextureSample'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionTextureSample_2'
+    Expressions[16] = MaterialExpressionVectorParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionVectorParameter_1'
+    Expressions[30] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_0'
+    Expressions[31] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_1'
+    Expressions[36] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_2'
+    Expressions[37] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_3'
+    Expressions[42] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_4'
+    Expressions[43] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_5'
+    Expressions[46] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_7'
+    Expressions[51] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_8'
+    Expressions[54] = MaterialExpressionVectorParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionVectorParameter_0'
+    Expressions[72] = MaterialExpressionScalarParameter'Decor/Prefabs/_End_Structures_/M_Void_MaterialVFX.MaterialExpressionScalarParameter_6'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1
+        Name = Inside Param Bottom Layer
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=3, Name=Inside Offset Bottom, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Inside Param Top Layer, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Inside Offset Top, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Inside Param Middle Layer
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=Inside Offset Middle, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 2
+        Name = Middle Layer Emissive Brightness
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0.2, Name=Flicker Param, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.191135, G=0.705729, B=0.645693, A=1 }
+        Name = Color Speckle
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.150382, G=0.471354, B=0.136451, A=1 }
+        Name = Plasma Speckle
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

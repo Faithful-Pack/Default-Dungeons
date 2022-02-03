@@ -1,0 +1,188 @@
+Parent = Material3'Effects/ParticleSystems/Environmental/EndPortal/VoidPlanes/M_EndVoidR.M_EndVoidR'
+ScalarParameterValues[20] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=AnimSpeed }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MainSpecOffset }
+        ParameterValue = -0.057143
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=NebulaColourOffset }
+        ParameterValue = -0.085714
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=SubSpecColourOffset }
+        ParameterValue = -0.019048
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MainSpecPower }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=NebulaPower }
+        ParameterValue = 0.038572
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=SubSpecPower }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=VoidBrightness }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ExtraGlow Radius }
+        ParameterValue = 0.357291
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=ExtraGlowDensity }
+        ParameterValue = 0.88383
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=GlowIntensity }
+        ParameterValue = 0.47619
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=MainSpecDistance }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=NebulaDistance }
+        ParameterValue = -150
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Refraction Opacity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=SubSpecDistance }
+        ParameterValue = -200
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Resolution (S) }
+        ParameterValue = 64
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Depth Fade Distance }
+        ParameterValue = 1257.17
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Refraction Tiling }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Tiling [ALL] }
+        ParameterValue = 18.4314
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'Effects/ParticleSystems/Environmental/EndPortal/T_EndVoid_Sky.T_EndVoid_Sky'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainSpecColour }
+        ParameterValue = { R=0.535352, G=0, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=ExtraGlowColor }
+        ParameterValue = { R=0.431907, G=0, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=SimulateDepth }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Edge Glow (Requires Translucency) }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

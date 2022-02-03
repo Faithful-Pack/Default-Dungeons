@@ -1,0 +1,5407 @@
+
+{
+ "objects" : 
+ [
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNo9lol24kYQRcViFgMGBIjVIGNsD5sEYjOgJP//V3ldfZMzZ3zdVe9VNb2ZoBb0gyB4DxwLsAhLsAxfYAVWYQ3W4StswCZswTfYhh3YhSHswT4cwAgO4QiO4QLG8AMu4SdcwS/4bRwGP8FEHAV/VNFxDTdwC3dwDxOYwgM8wgye4Ble4FU/a6p21Yo73uAvvMOHWGff6uav699eLGvtffyV+CvxBvEG/Rr0a9CvSb5J3xbjlnYhDObGHuzDAYzg0Oj9b/jfFG8p7vgG27ADuzCEQziCYziBUzgz+n5t+rUVbyrepm8bXRtdB11H8YbiHfQddB10XXRdxV8V76LvouuiC9GFitcVD9GH6EI7xXPTrUznz1uIv4ffrW5Nuh51euh67FeP/eqxX3187pZUpe/j7+Prs/999n+AfiBdRboBvgH6AfoB+gh9JN2LdBG+CH3EfXH8gX/gGm6Mfv4R84+Yf6RON/Ub0meo+mXVH9JviN9xa/TrNUI/kq4k3QjfCJ3jzuj1Y/RuBYvSjfGN0Y1thRy9fqJ8QfkJ+gn5Cfkp9abEp8RnWs2CZjwjPiP+TvyduNvRRHUdU3iAR5jBEzzDC7yKc+rO7US4se/n4nd7A31+QX5BfkE+VjxQPCYfM6+YecXMK2ZeMfOKmVfMvGLmFTOvD+p+2AlfGBN4gEeYwZN23PEML/AKb+KSukvd0FTRJe/oJ/FP4o4Ho8+vyK+Ir4h/qW6g/l/Ev/6PtzSPms62z3+T/9YJyHQKv8n/kP8h73iEmdbY8WR0+qLuhte7vymZ/W3xddbE13qhEn0qx9To12vN+q9t/cuin8fa9sGNW7ZuG/UrqL9jEZaMoe36hvobPueG/lv6b9Ft0W3R7cjvyO/I78jvye/J78nvySfkE/IJ9zrhvibcw8TOS8HGexu39L9k44R8Sj7Fd4BHmMGT+f7rP7D1TzhXCecq4VylrFvKuqWsW8p8U96z1OZTFl29mXr7z3Xg3TuQPzCfA/M52HwKYiROzXe2sZtPwfIX8hfL9zU/P76iv6G7Eb8pfqT/kff3SP8j/Y/0c+Ozjf33iAxfxvud4cvwZejdd5Ur31lutpbed+L9P+E74TvhO9k83/W715/Rn9GdWZezrYvnGV7gVbzgv+C/WN0X0b9jV/JX/SVe6PVxjOGH0fuu5quI3nfDd9M+u9fFsQKrxlA/F8alsae3ZG5cGX3dG/V+qfdLvV/q/JK/k7+Tv5O/q557vR23cGf0vge+B74Hvod0a+ke2t+N9vfB/Xlwbx74n/if+J/4n/if+J/4nvhyfDm+HF/O5845NznnLuf851a3KPq6OXVz7m/Ovc25t7mdh4q4F8vGDJ7gGV6g+97wl/a3oO8Nf9lr4cdFfTNz46KN97q/nmWj+xxNY9W416vn83X4ChuwCVvwDbZhB3ZhCHuwDwcwgkM4gmM4gVM4g+9wDhcwhh9wCT/hyuj2qyaG2peS6Palavktuh26va2n249S8LetZ8X4orhj1ejqvYgD+QvGnfiPWDJ29blKxrH8jpOg9C/rvsvd",
+   "doors" : 
+   [
+    
+    {
+     "name" : "travel_enter",
+     "pos" : [ 56, 19, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "travel_exit",
+     "pos" : [ 14, 23, 54 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNqt18ly4yAQAFABKcc+WGjDy32O+f/vG3qDBglJzkyXnZIt/IqlGxHvKeatmDjGRvxAjF6I1f3JXWJ8fTnnewhvY9ClxAExTdY65+If/0timozFEOFjIgoxtNDTjdNEHIUhIwk9tSs+7BAwD0RkoSJgqi9tAgQIY5TwUS9E0KP4bC4aQu9hZKdWRATnSuE8wTOpV5OFHojeHxKyFrUQW9zh+7ua0m2CMopSqhR4lUt8kxABCd/TGwXqHJRNNlpER8XhqSA8ZqgtiGQ0iK6jfghBl5YnmQx7RHTdFiEjtKpgN4iJCTA8JYGHQiHgBrEm7iVhhIi/Nx0TBpPK3K5XeB0SXVcTHRPx51d8qyQ9IqrUFgKNEwQaXhHf3zcKaDtgNAgsMcNG6siqFztzMU6yfKYmrJ6L04Q09EhYXhG44zaJIRNc7JKDKEBW4VxgoZ0jpBA8CZSYV3vhvWSHgLCqlXcu3hk4tYmgYmsRkqKagO9sQSDTJobB692eCbX7iNFaESL0dmVxIFKhhlbEDO1F3SLg6S6PJolPCHps4QSzgNaAm8RJIiW4JqxFonHKSdOpn8e4i2jBTlhprQfizO28EphIGx8RzbMWHtSyIUKXBGyALZH4s31Emfmx7Dm/aRNhIbcqiUdOcByMWscu7UPWaaEmnhVhEpEFE1NE97Ym8nGViJQKiYDqKk4y0y7B3dCEqYQQwh4x0ppQKqQNuSRi5ldEKAgyjDJwaJqY10Q0lmURYpRz/JjHYkwxmfO8JhaI4vxpDBKgYJ5V2bMiQtgkePPsq4E0CIiCiMUwGsrREdboHBFWBJ15JiJSgYz8H00us0yEigDh/Xq9mXB5adtEKIgnxBtfMcYQfkP8pHg+l7AzkNiABbhsEWNoDwQ+hPB4PCjzUxKvidcecRhEzOWXnxGb8T+IgeMfiL9ebP3j",
+   "id" : "twr_floor_sec1_02",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ -92, 14, 7 ],
+   "region-plane" : "eNrF1tEWgyAIBmAP8f7PvEotUOCn3M64amt+IbiNUmrw+yidKGMwHfdpj/56D/0xQNTVt/CcmASL2LaAmIXhkZAwhPERoJxQgAQWEOEID2rh5pDuiL+L7LkI6nASDImokpWQ9bCIW7AK0UIssghyCCLLsMopiaacGpFpPCBojO8RPBO8noUQclnwzwmvpXmCbEJ9xy1CGQSzAE39C1ECgt4Sfg4x0f8DL6FeGMrc1CmTFUKH+9vjHC2XyJ9Ok7AiOBdZp61bIejnRD9eYT0AoUcsox19XTiuscjD6UaOiPq5QOhR5g0x54DHNSzgodElem8So6ubBSLuREExwQE/HyQPlDVqJYiGuFN8Jou6nSWi5tAIuegR0bfDtZftdv2ipmoh5+2zl0uESn0k9BZ9IthImuCIYN7au8fFdT0S1/2xI5qAIT75deJVfADhExc8",
+   "region-y-plane" : "eNqt18ly4yAQAFABKcc+WGjDy32O+f/vG3qDBglJzkyXnZIt/IqlGxHvKeatmDjGRvxAjF6I1f3JXWJ8fTnnewhvY9ClxAExTdY65+If/0timozFEOFjIgoxtNDTjdNEHIUhIwk9tSs+7BAwD0RkoSJgqi9tAgQIY5TwUS9E0KP4bC4aQu9hZKdWRATnSuE8wTOpV5OFHojeHxKyFrUQW9zh+7ua0m2CMopSqhR4lUt8kxABCd/TGwXqHJRNNlpER8XhqSA8ZqgtiGQ0iK6jfghBl5YnmQx7RHTdFiEjtKpgN4iJCTA8JYGHQiHgBrEm7iVhhIi/Nx0TBpPK3K5XeB0SXVcTHRPx51d8qyQ9IqrUFgKNEwQaXhHf3zcKaDtgNAgsMcNG6siqFztzMU6yfKYmrJ6L04Q09EhYXhG44zaJIRNc7JKDKEBW4VxgoZ0jpBA8CZSYV3vhvWSHgLCqlXcu3hk4tYmgYmsRkqKagO9sQSDTJobB692eCbX7iNFaESL0dmVxIFKhhlbEDO1F3SLg6S6PJolPCHps4QSzgNaAm8RJIiW4JqxFonHKSdOpn8e4i2jBTlhprQfizO28EphIGx8RzbMWHtSyIUKXBGyALZH4s31Emfmx7Dm/aRNhIbcqiUdOcByMWscu7UPWaaEmnhVhEpEFE1NE97Ym8nGViJQKiYDqKk4y0y7B3dCEqYQQwh4x0ppQKqQNuSRi5ldEKAgyjDJwaJqY10Q0lmURYpRz/JjHYkwxmfO8JhaI4vxpDBKgYJ5V2bMiQtgkePPsq4E0CIiCiMUwGsrREdboHBFWBJ15JiJSgYz8H00us0yEigDh/Xq9mXB5adtEKIgnxBtfMcYQfkP8pHg+l7AzkNiABbhsEWNoDwQ+hPB4PCjzUxKvidcecRhEzOWXnxGb8T+IgeMfiL9ebP3j",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "victory",
+     "pos" : [ 9, 22, 49 ],
+     "size" : [ 10, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "victory",
+     "pos" : [ 19, 22, 50 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 18, 31 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 15, 36 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 9, 18, 33 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 15, 32 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 15, 24 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 9, 18, 10 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 9, 18, 15 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 15, 10 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 20, 47 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 18, 26 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 18, 22 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 20, 42 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 18, 28 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 18, 3 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 20, 44 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 18, 52 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 18, 50 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 33, 15, 6 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 18, 50 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 15, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 38, 15, 2 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 15, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 38, 15, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 15, 5 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 49, 15, 6 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 38, 15, 9 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 18, 48 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 36, 15, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 50, 15, 9 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 50, 15, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 55, 15, 2 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 53, 15, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 53, 15, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 60, 15, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 55, 15, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 55, 15, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 58, 15, 26 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 55, 15, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 55, 15, 15 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 57, 15, 15 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 57, 15, 12 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 56, 15, 9 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 59, 15, 2 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 52, 15, 3 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 15, 34 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 20, 43 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 15, 22 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 15, 28 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 32, 15, 23 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 15, 35 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 15, 28 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 15, 31 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 15, 33 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 54, 15, 31 ],
+     "size" : [ 10, 1, 1 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "challenge_start",
+     "pos" : [ 51, 18, 37 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 56, 18, 50 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 26, 15, 21 ],
+     "size" : [ 10, 1, 1 ],
+     "tags" : "checkpoint",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "podium",
+     "pos" : [ 10, 22, 51 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "death",
+     "pos" : [ 8, 10, 0 ],
+     "size" : [ 59, 1, 59 ],
+     "tags" : "death",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 67, 45, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNqdl2mboyAMgDnituOHlTpb+///6ZIDSBCPmTw9UPQlN5oSi/u9pIJYQ5OIAoDz0wRZliwOT7pFyyEisgSkAP38ElH+4QTBkBMEjQASwLQsITAify8RUa6UA1KCEAmnkiBO3Rlj0yKwJZmwqLnbCKbgqvGHCLHX+qMgAp278kWMVg2LILmNwJSIJSoHiLEhrtxIaSU3EYIo7gaiqA8aEZYUwl9GROcuEIWDGdUQKdVxhMY4RmhX8FGqvkXtOj32CB9MRIIND1jGEOG9KRPDK2Un1Ya+2SEcIrwPh0qIuGr0WAth8FhuxJkZRZt4jqgjXy+en0/8WMIA4X2P8I3wpK8N/hkitXHSiMZgr2gEKejt0nX4ZE/Ms5vnAqD83SFi5YRetBatqcIBohOqr6h9cRthYDFKRKhyYYR4NUQp9rITFN+RL1oVszMMIotCSLH3SSqOdMywESHEyhsAXZXKSnnm1fd1VmM5QLSLxGCl3ldUvmHkGJHYELIiCWLhRYNxMB6biKB089S+0JBqx5dUxrhGDCKoTRWMI24jVCDyxqyCy/rdQKhFG8z68RSRAu/h2qJaNX0O7xAyuS8Xr1qqyZBLRGwEX0873Ut3CEqoem0qWSJtJPZanCCs13ztQxF6whgBoBiGEGqKiGu7fvEPhREtJ4wSNc1q5K8QvR24qANdaDBCZPn+pgRR+taG3DxVOopFbAax9iH1WrEjRGa832+FcLFUVNsZrCP2iDfKulYtdHeoiHiG2DaDGFS2rT7o2i8hUJoWodsHhs8JI8SmDOHWoHYG8yx5jNgkT8udsUPkmbUxxoitprop2+ZCvbdcIUAWKv1eHtZ0sDQiixBwuE4TvpUNEdXEIeLz+SjEpLq3mARUJ+shgvTgwQnCFvwxwj0ejz+ImA5eTrO7dq80HeJKFOIl8vOX5Cr/ATQZWyY=",
+   "y" : 17
+  },
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNo9lOm2ojAQBjOogHjdBTfAfd8Xwp33f7H5jHXm+KNOdXeSzoLmj4nNy3TMh2/HxBSmbTx5Rf5hFdagDwMYwjqMYAP+wCZswTbswC7swT4cwBgmjokZ0ueI+NhxYCaa6eNT4inxjHhOfMY8c+ZZEF8SX7l4YtbkN+S35Hfk9/BA3ZG6EzzDC7zCG7zDJ7RiRfTgAz4dM+VD3ck3X9VurG6ihte0K6sb8nEfD/AAD9Wvp35DvK7T9HQzdTwiH+ENxjfwH/yH9Zt4U/lS+Rbekv/K23gb7+AdvIt38R7ew/t4Hx/Q7wCP6TfGE+oTfIgP6W+Ej/AxPsYnmtlTNxN8qpU9dTPFU/KpxhUal2olq/VTzVi6W/rmM72uUreSM38ut+6Wvj7D5/gcX7CfhX5Wt7xkv0t5KV9Rv2L+Nb7GN/gG39LPFt/hu/8e65wqesvf+F5eavwBP7DPg/qw6uPI/Ef2fcJP8k9/J+201Ls4M/6MX/AL53jFr/iNfd/wO/Pe8Qf+wJ/4E38x/oW/8Tffz5t4wbiC769Q3UN1hfb31P4K6ix1lu/VKv/S/qzO7aVzs9SVri4QZzpF37EKa9CHAQxhHUawAZuwBduwA7uwB/swcczVaeA4gmM4gSnMYE7/M+ZZwCVcwTXcwC3cse7ezTPVW4nETHcfuvjFxRPddc3VX139XHfy9YLxn/+TX3eeVXGm/xjfsQ9jx1wrBM7nzjO9xVCc6u1F5q/iA+P/AyURUbI=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "travel_enter",
+     "pos" : [ 48, 19, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "travel_exit",
+     "pos" : [ 7, 19, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 26, 18, 0 ],
+     "size" : [ 7, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 58, 18, 26 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 26, 18, 58 ],
+     "size" : [ 7, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNqdl+uahCAIhrsGRHef2dTu/yoXPFQmUA0/mkhfQfy0JoTgfaiG6H1z6Ld4dPvDDnlYm6uFlHLp5RuJHW5dyQ2eUOzWBqQLo37vs3eotw6cKw187/ieLr7xSCj9LF8YkdsFBYBnaL6iUO09CpPZqEcVNOABBXjDUpV2FO7QcZAn6Hk2SplMck6e0C6JR+SFNdG5gIeaUsJbFDTUiiqt2oFaCctSOaFlcewFFdGsotOWGFsM9KwcGRUTvupVHlUq0/IIpYTDRYgjo06WDxg6/I6xp2Bq1Jg2Qvt+FZPURMGocCJO/UQ0b3S6mlVRVBxpsjhFfYQyOyUMN2hLuKDOACUUesLHYSrvAhXNAwrPUNjl7y1Si7qMUVVUqFNK2+2LY2ZbUEa9SSoH6oDevnQE1J7rzB6o9GqW0fObZ0y4N4tludplXQUtL5qRhnXUtk/8+uNnWWP6Fv3ESOizL6UpKCcM8qltorzpsKDcURCOjHND+dDzOK+hsaz1IbIkgoCqguou0vdLESLCW/Oeo+IXKIacC/o6JoDjfLdhqqBMdY6bS5l0dBj15Li6OL8BSRnV4lhI5x3PqXlHDPoXACyJ9W+NHU1pR6tbqrFlNvwJp36JN11c19YpDZbrk8JWvJC5GrGN2B/k0QY2xWuzbdtu88j/mwmynQ==",
+   "id" : "twr_floor_sec1_03",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -168, 14, 7 ],
+   "region-plane" : "eNrV1+EOgyAMBGAvvP87b27iaHstJ2ZZxq8JfkJrWRD4TWuLbafbQiP0eb1Ijxiu05gHkfIkKjR7AXOKGbUPUegYzTVqg6FUktbWNCZQnjWGolL21jTKS8XT+oVepGFL2JGCjpXDKRj19ZqnwKdpk+g5K6u1s+JZMO9fw6YLk6WzWkoXmRVFGymPLaWN0SwwVxLLdGMUE5oumJYV6QppAlQKR6FRxFkhUpKmlJI82TQBmo0ZBirr/1BtrDWlZV3HGi2jZaY+wwntm4/LMEdyDMnZlNbtBt3uUu2gROX/UCzTSb18h67PeStLfasXz04vDorWj/8IdO8910joi7tT9fFhYD4SXjf17kDNncNYX1+DG/MURZsMi+0BLU4I8Q==",
+   "region-y-plane" : "eNqdl+uahCAIhrsGRHef2dTu/yoXPFQmUA0/mkhfQfy0JoTgfaiG6H1z6Ld4dPvDDnlYm6uFlHLp5RuJHW5dyQ2eUOzWBqQLo37vs3eotw6cKw187/ieLr7xSCj9LF8YkdsFBYBnaL6iUO09CpPZqEcVNOABBXjDUpV2FO7QcZAn6Hk2SplMck6e0C6JR+SFNdG5gIeaUsJbFDTUiiqt2oFaCctSOaFlcewFFdGsotOWGFsM9KwcGRUTvupVHlUq0/IIpYTDRYgjo06WDxg6/I6xp2Bq1Jg2Qvt+FZPURMGocCJO/UQ0b3S6mlVRVBxpsjhFfYQyOyUMN2hLuKDOACUUesLHYSrvAhXNAwrPUNjl7y1Si7qMUVVUqFNK2+2LY2ZbUEa9SSoH6oDevnQE1J7rzB6o9GqW0fObZ0y4N4tludplXQUtL5qRhnXUtk/8+uNnWWP6Fv3ESOizL6UpKCcM8qltorzpsKDcURCOjHND+dDzOK+hsaz1IbIkgoCqguou0vdLESLCW/Oeo+IXKIacC/o6JoDjfLdhqqBMdY6bS5l0dBj15Li6OL8BSRnV4lhI5x3PqXlHDPoXACyJ9W+NHU1pR6tbqrFlNvwJp36JN11c19YpDZbrk8JWvJC5GrGN2B/k0QY2xWuzbdtu88j/mwmynQ==",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "victory",
+     "pos" : [ 11, 19, 46 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "podium",
+     "pos" : [ 5, 19, 52 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 45, 19, 18 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 45, 19, 22 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 46, 19, 28 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 47, 19, 30 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 48, 19, 32 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 47, 19, 34 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 46, 19, 36 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 19, 35 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 19, 33 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 19, 33 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 38, 19, 32 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 19, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 45, 19, 31 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 19, 29 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 42, 19, 31 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 19, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 42, 19, 28 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 19, 26 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 19, 27 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 19, 26 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 19, 16 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 19, 14 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 19, 12 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 19, 11 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 19, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 19, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 45, 19, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 19, 17 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 42, 19, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 19, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 19, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 19, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 19, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 42, 19, 19 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 19, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 36, 19, 19 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 19, 22 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 19, 21 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 19, 25 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 19, 24 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 19, 22 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 46, 19, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 19, 8 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 19, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 19, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 19, 9 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 19, 12 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 19, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 19, 7 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 19, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 19, 9 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 19, 6 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 19, 5 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 19, 7 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 19, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 9, 19, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 8, 19, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 8, 19, 15 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 7, 19, 17 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 8, 19, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 19, 20 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 19, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 9, 19, 18 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 19, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 13, 19, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 19, 19 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 19, 15 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 19, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 19, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 19, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 19, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 19, 14 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 19, 15 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 19, 13 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 20, 19, 11 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 19, 9 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 19, 12 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 19, 15 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 19, 16 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 19, 13 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 19, 26 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 19, 29 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 19, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 13, 19, 31 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 19, 33 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 19, 35 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 19, 35 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 19, 36 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 19, 35 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 19, 38 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 19, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 19, 37 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 19, 35 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 19, 33 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 19, 29 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 19, 26 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 19, 24 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 19, 25 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 19, 27 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 19, 27 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 19, 29 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 19, 34 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 19, 31 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 20, 19, 30 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 19, 34 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 19, 31 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 20, 19, 34 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 19, 37 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 19, 33 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 19, 32 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 45, 19, 37 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 43, 19, 36 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 40, 19, 34 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 42, 19, 35 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 38, 19, 33 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 37, 19, 31 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 37, 19, 23 ],
+     "size" : [ 1, 1, 8 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 33, 19, 37 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 35, 19, 14 ],
+     "size" : [ 1, 1, 5 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 36, 19, 13 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 37, 19, 12 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 39, 19, 11 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 41, 19, 10 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 32, 19, 35 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 31, 19, 34 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 30, 19, 26 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 30, 19, 8 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 28, 19, 23 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 26, 19, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 23, 19, 25 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 19, 19, 26 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 19, 19, 27 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 18, 19, 28 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 17, 19, 29 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 15, 19, 30 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 13, 19, 31 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 12, 19, 32 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 12, 19, 33 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 11, 19, 34 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 10, 19, 35 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 11, 19, 36 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 14, 19, 37 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 17, 19, 37 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 18, 19, 37 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 22, 19, 38 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 25, 19, 39 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 29, 19, 38 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 30, 19, 38 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 29, 19, 10 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 28, 19, 7 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 18, 19, 18 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 17, 19, 19 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 10, 19, 22 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 15, 19, 20 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 12, 19, 21 ],
+     "size" : [ 4, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 28, 19, 11 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 9, 19, 22 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 27, 19, 12 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 26, 19, 13 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 26, 19, 14 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 25, 19, 15 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 23, 19, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 22, 19, 17 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "challenge_start",
+     "pos" : [ 41, 19, 51 ],
+     "size" : [ 12, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 48, 19, 53 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 59, 33, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNrtkjsOwDAIQ7mD8f2v2qFNlAL5qF39RsfGCsJMCCGEEEKIBH5EgUI6GojbOLjRmPqjsVJQ9eSOJiERnHHSKlpPyrXnySRuo/DvUZCb6PtpKO29XQ1fcPPX1J4kw6bi2pxx90+3GZ3zaH09Lbq74+nVnhmXXPxJHwo=",
+   "y" : 18
+  },
+  
+  {
+   "blocks" : "eNrt1rEOgjAQxvEOOPtKDj5g1068IqsT1hilBK5RrHJ3/r8J8qOWa8gXu44QQsgf5bAMAAA/gbs1AZ0D+gKdCcsAANAS+r5fh/uiJiDuofNITILO6DwrAHAEVLgP+H5CEDYHAGA/uNVrENIKxD10HolBoMIB4E9B/A8u9u4GUDm5J6DCAQAAzAIVDgAAYBaocAAAALNAhQMAAJgFKhwAAMAsUOEAAABmYbcKJ8R/uvMj+eZ5fQJsQL6bID+2Dmpe92VomPGRIYTj8wbQC5dUQH5suh4FmK1QM0cNGkbngEAFUnzho55BuULPHDXYXtT5p4oTAQzCJRUwDsX1KMBshZo5KvBJUWuaA9gEUfraUxQgqpyjAlQ44BqocMA3UOGAa6DCAd9AhQOugQoHfMP7uQKPPf0h",
+   "boundaries" : "eNot0UWWwgAARMEAwQMkuA7urnP/mw0Dtar3t91BKgiDdBAF/2YYMssc8yywyBLLjFhhlTXGTFhng0222GaHXfbY54BDjvjDMSeccsY5F1xyxTU33HLHPQ888sQzL7zyxjsffPL1Nv029TEKfj9ffTujQx3qrM7qnM7pvM7rgi7ooi7qki7psi7rSEe6oiu6qqu6pms61rFOdKLruq4buqGbuqlbNmt9NvoaMssc8yywyBLLjFhhlTXGTFhng0222GaHXfbY54BDjvjDMSeccsY5F1xyxTU33HLHPQ888sQzL7zyxjsffPIVhH9cPB7x",
+   "doors" : 
+   [
+    
+    {
+     "name" : "balcony_door",
+     "pos" : [ 21, 2, 37 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjZsYCuIGAGbcEIyYYlRiVGJUYlRiVQJWgBwAA4Y4TbA==",
+   "id" : "twr_balcony_01",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 252, 31, 7 ],
+   "region-plane" : "eNpjZCQdMGCCUYlRiVEJukgwMzNTS2JwenB4SdAeAAAITgHn",
+   "region-y-plane" : "eNpjZsYCuIGAGbcEIyYYlRiVGJUYlRiVQJWgBwAA4Y4TbA==",
+   "size" : [ 25, 12, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYCAdMGGCUYlRiVEJukhA5KgiMTg9OLwkaA8ApQIH8Q==",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt1jEOgzAQRFEKUudKKXJAt1RckZbKcYIAI1jJMY6yXv5UoIcxi9CItv0+t30AACgJkxUBnQNeBHSm2QcAgAzo+/4YpkVFQNxD5yuxBTqj810BQH1AhRuH36dphM0BAPg5vOu1EVIKxD10vhJLQIUDgG0Q/8HF3s0AlZNfAqhwAACAaoEKBwAAqBaocAAAgGqBCgcAAKgWqHAAAIBqgQoHAACoFv5W4Z885zzC0ywngF4IZyuEy45BzeNmQcHc/ZxwshwPgCoYuwjCZeuxF2CzQs0cyVAwOgcEttC5hI96A/EKPXOkwomi9tGdwq2AKmDsIvBDdOwF2KxQM0cqnChqVXMAqeCkr71zAjiVcyQCFQ7YBiocMA1UOGAbqHDANFDhgG2gwgHTkJEXNfPmUQ==",
+   "boundaries" : "eNot0UWSwgAAAMFAgiYQ3N3dYf//s2W3+tQ15wkyQRhkgyT4M2TEHPMssMgSy4yZsMIqU9ZYZ4NNtthmh1322OeAQ4445oRTzjjngkuuuOaGW+6454FHnnjmhVfeeOeDT7745udr9mvm3zj4+R4KdagjHemczum8zuuCLuiiLuqSLumyLutYxzrRia7oiq7qqk51qmu6puu6rhu6oZu6qVu6pdtfswwZMcc8CyyyxDJjJqywypQ11tlgky222WGXPfY54JAjjjnhlDPOueCSK6654ZY77nngkSeeeeGVN9754JMvvvkJol8XnR5h",
+   "doors" : 
+   [
+    
+    {
+     "name" : "balcony_door",
+     "pos" : [ 21, 1, 36 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjYsICuICACbcEAyYYlRiVGJUYlRiVQJWgBwAARHgNqQ==",
+   "id" : "twr_balcony_02",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 302, 32, 7 ],
+   "region-plane" : "eNpjZCQdMGCCUYlRiVEJakowMzNTS2JwenCESNAeAAAKEAHn",
+   "region-y-plane" : "eNpjYsICuICACbcEAyYYlRiVGJUYlRiVQJWgBwAARHgNqQ==",
+   "size" : [ 25, 11, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYCAdMGKCUYlRiVEJakpA5KgiMTg9OEIkaA8A1jwD+Q==",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNo9l4lWIksQRFtwUAREGmRXZEd2EGgWQWf+/6NeZNY973j0TlVGRmXX1j1RFL1Ej9F7FEVx9Bq1nVVYg3XYgE3Ycpb09835Bt9hB37ALuzBPhzAIRzBMZzATziFM2cczaln4SxHS1VmXMEN3MIvuIN7eIAJPMITPMML/IZXeIM/8Bf+Fe+Y5zvVXVHd1l57exr9i+6jFPEU8RTxFPE08TTxNPE08XvixgpcO0P8D3HjMyzCF1iCMSzDClw7g18Gv4xcClrpDPGMsv+pqgy6B3QP0mWlMz7BHMzDgjP4PLhPRgw+j/gY53ABl86S1vvNuXaGOh7Jz5KfJZ6l/4n+J/Vf1f9Ef47+nHyu2lfGmzOsb471zbG+efR5nZabTlCBdoH2M+1njVzQTn+mv0h/kf6iTtlNJ/GF/hf6X+gv0V+iv8TzGA/OWPu3LQZ9jD7W35xOVqy8vPJitZ51Aq1d9LbN5Mj1c9eH+Y2Z35j5jRnP+jfEt/AL7uAeHpyhrpjnLlNXWePnNH7ZV8gYdGV0FXQVqXKqt+IrYwy6CrpXdK/yycrH+OQM+lf0xiM8wTO8wG94hTft+ir+VeqtUm+VeaoyT8YVXMMN3Drz8u3pbg1+NdalxrrUWJca61JjXWrk15jnGj51fOo6KQXdmHXiddbB+i/e/6DnGmtXBH0DfQNdg/VqoG/g30TfRN9E12RdmzqjZ93QTdV7Ub3N//PymrfAXzm0tG8etW9a+LTINybOkG8n6kfP39LT/9W8t31ntvUTdMaj80n6gfMbXp05jdt3/uh2bcvnVz5v+LyRbzw5w3jvxN9Zz3fixrMz6DroOug6rHsHnfHitHE7evcF/Qe6D/bHBzrjt9Oet6N3ZNB30XXZR110Xe2Ov1L30PWI99hnPXQ9/Pro+sT77KM+uj66AboB8QHxAfEh8SHxIfEh9YyIj4iPiI/IHxMfEx8THxOfEJ8QnxCf6ATetBsnOjk/2sXGX/ET/Sf6T/TGK7z52y/oplq/Tz2tcQpncA4XcAlXzuA/pY4ZfjP8Zuhm6Gaq76b65sTnxOfE58QXxBfEF8QXxJdqN9Vean4Hml/jEI7gGE6c5pdymt8SvyV1r/Bb4bdCv0K/Qr9iHlfM44p5XJNvbME2fHMW5dsRg98avzV+a+rYMH8b8jbkbcjbkLfRzX7RiBvlXZW3JW9L3pa8Leu2Zd22+Gzx2eLzJT46Q/4X+ca5M+i/0O807qPG3amd9XZFN0xgDuZhAT7DotPe1Clvv9Bfoj9WBTvq2CnbTvXOv34CP5yhvh317ahvR3176tszzh7fPb57fPa6b3vaKXv89vjt8dvjd/A3TU0MPgd8Dvgc8Dmwfw6698fqs/bc28HvgF+CX4Jfgl+CX4KfsQ8H8jQOdV8n+vfI2zaOMYyTaBVWUiaMl2gOzpqLxMdN624P4x41blkjHvleNr7CFmzDd2eo68jzHRnvyHim26D/gjt4Vn1Hndmzzq61L1qPk9eRFqfivVjyFbN21dtTKQLrsAGb6FuuL/lXvvV3vN/qDD5d9D3Yd1rdWbHud8nJ7xKjvU/Mp6Kz2HTfHT578g8wgUd4oh57zpM/551+i/q/Tcd5B1PwHv6BGfjgLOm50866fzvYl2poH2BC/zFK/wfYIdCI",
+   "doors" : 
+   [
+    
+    {
+     "name" : "travel_exit",
+     "pos" : [ 15, 18, 62 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "travel_enter",
+     "pos" : [ 43, 15, 62 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrd1ttyozAMBuDa7IYzGIdTk9295/1fsJIsGRsIZKY3nf2nkwbCZ2GDDUnyVuo4uKt5T/4c+m5+zAl/h7avY7pNGkzX3ft+HMdlaRuXsqy0VkprDQ1mioIbNTfeBAE7DECNMULd0VoofT2j1grlw9OsKLKUm9EntLMmpHA8SLB8ysUFxR+Ags0gRZHnRXGDoGXaHFJr27bEuLLKUcURGjYg1GDVkIYnDLR2CL8LPqBVMEw4RErlec2VcoqzewqWripoN7quqgt+h2F/RcHSXaeYaqJVRNEazIaCRa2rfZgqGaodZV1tNj2F3ga0PM9at4YRWy/QGzRoo67D++J/pC+GCan8Eo1mSGXaw00GN0kwwoavdeWPgqycr6izx1RH1PndHqKy5hFNU5gTdGAeJKU9aRSuj7PE/OOqOqED9XpyWqp+fHz4qp7CHFk2VHsZUsK49rjKbnYAPRxhv4cpLBq/qeovDlWtTi+q+5cxTRIHYcm7ptgFVxX7lfiqN/UWxY66cUrkXoRl4z0KyzoPvafw8LqmFBzeLKbDBa2FalmVI8rzYp0hOElqniyvaNOMi9G6xA4FFPomWzWuykzxoeCptUyhvcY/7PEZwYtvRU/+QzpMRNWOylYjVO2qTkvHdH0MtkS5S4mzO4rXteNZEVPZalumULmQuNkxLXZPg7XA2Q2lueWp1sZTE1K02FfwEc3zZbGyYIg1MQXraCKPTVdU3RfbbNPGlKxQ7Sk8JY8oP0ZXe/QqtxxRbHfzzrLPMaU3tit7Qi/tATVEr21Mqf/0+kr63EZULrAxnbq2W2pcOr54Z3ZDTUBx4Q2tTEOXeXpNb7csy0Mr9E6Z7ycUauYK+ysh2bYBdc3Cp+mMp7QcEnW3LUx1pqqnzL1UbQ3YbpqmeZ7hsyvhLblUhX/LzFAMw9Bzxnnsibb019hZYkvb20pWBFq+wQ0jfYzwB3SgE+ahiCkEd7qyAX08n88HYKT930+mnxK7SGi1phVb8nj+eT6wjeUb+QLLwrJx",
+   "id" : "twr_floor_sec1_01",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ 0, 16, -1 ],
+   "region-plane" : "eNrl1dsOwyAIANBG+P9v3qa1gHKzzdZs46kRT7SKum1nA07Lm+iF+Lp/BVyIKqbW1+jlCKRPdTw4T61RW8MHKEBd6c56pGhr8kalJV6me2ZaYWB5h75y49aC7MBjyNh0CymatHVSVrXwYRlPHAKNxooF9V+msi5+m7K1yVBZInyFedWoh3SNGi10OMQRydJ+dV2g5STl93JyeQef2U6FxdQcc5kqb9Cf0OfeHwVwdNfo9CbfS+mfcYGWmdKBVigVo0e5XaXMCqpuMEoq5hwduoEaFk0qrREqLeEVYNPQOjS0ysNB24XrtG+2b43nKjNnn7rWo+hZsC4Y3ItUs9DCo4VeNFY7ejWJzzqmKN6dFrUQEYDNZqCILDNTrHntDqkTH3MBnQ96nr4nHrUTFVs=",
+   "region-y-plane" : "eNrd1ttyozAMBuDa7IYzGIdTk9295/1fsJIsGRsIZKY3nf2nkwbCZ2GDDUnyVuo4uKt5T/4c+m5+zAl/h7avY7pNGkzX3ft+HMdlaRuXsqy0VkprDQ1mioIbNTfeBAE7DECNMULd0VoofT2j1grlw9OsKLKUm9EntLMmpHA8SLB8ysUFxR+Ags0gRZHnRXGDoGXaHFJr27bEuLLKUcURGjYg1GDVkIYnDLR2CL8LPqBVMEw4RErlec2VcoqzewqWripoN7quqgt+h2F/RcHSXaeYaqJVRNEazIaCRa2rfZgqGaodZV1tNj2F3ga0PM9at4YRWy/QGzRoo67D++J/pC+GCan8Eo1mSGXaw00GN0kwwoavdeWPgqycr6izx1RH1PndHqKy5hFNU5gTdGAeJKU9aRSuj7PE/OOqOqED9XpyWqp+fHz4qp7CHFk2VHsZUsK49rjKbnYAPRxhv4cpLBq/qeovDlWtTi+q+5cxTRIHYcm7ptgFVxX7lfiqN/UWxY66cUrkXoRl4z0KyzoPvafw8LqmFBzeLKbDBa2FalmVI8rzYp0hOElqniyvaNOMi9G6xA4FFPomWzWuykzxoeCptUyhvcY/7PEZwYtvRU/+QzpMRNWOylYjVO2qTkvHdH0MtkS5S4mzO4rXteNZEVPZalumULmQuNkxLXZPg7XA2Q2lueWp1sZTE1K02FfwEc3zZbGyYIg1MQXraCKPTVdU3RfbbNPGlKxQ7Sk8JY8oP0ZXe/QqtxxRbHfzzrLPMaU3tit7Qi/tATVEr21Mqf/0+kr63EZULrAxnbq2W2pcOr54Z3ZDTUBx4Q2tTEOXeXpNb7csy0Mr9E6Z7ycUauYK+ysh2bYBdc3Cp+mMp7QcEnW3LUx1pqqnzL1UbQ3YbpqmeZ7hsyvhLblUhX/LzFAMw9Bzxnnsibb019hZYkvb20pWBFq+wQ0jfYzwB3SgE+ahiCkEd7qyAX08n88HYKT930+mnxK7SGi1phVb8nj+eT6wjeUb+QLLwrJx",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "victory",
+     "pos" : [ 1, 15, 55 ],
+     "size" : [ 16, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "challenge_start",
+     "pos" : [ 23, 15, 50 ],
+     "size" : [ 35, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "podium",
+     "pos" : [ 9, 15, 58 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 46, 15, 23 ],
+     "size" : [ 4, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 50, 15, 20 ],
+     "size" : [ 7, 1, 8 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 33, 13, 19 ],
+     "size" : [ 1, 1, 10 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 22, 13, 41 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 8, 13, 41 ],
+     "size" : [ 11, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 21, 12, 21 ],
+     "size" : [ 1, 1, 6 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 26, 12, 28 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 8, 12, 33 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 48, 15, 21 ],
+     "size" : [ 1, 1, 9 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 43, 15, 57 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 50, 15, 10 ],
+     "size" : [ 2, 1, 10 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 14, 23 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 42, 13, 23 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 2, 12, 23 ],
+     "size" : [ 39, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 12, 25 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 2, 12, 25 ],
+     "size" : [ 18, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 2, 12, 22 ],
+     "size" : [ 29, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 12, 21 ],
+     "size" : [ 8, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 6, 12, 20 ],
+     "size" : [ 8, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 6, 12, 18 ],
+     "size" : [ 6, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 6, 12, 16 ],
+     "size" : [ 5, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 3, 12, 35 ],
+     "size" : [ 26, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 12, 29 ],
+     "size" : [ 2, 1, 6 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 9, 12, 27 ],
+     "size" : [ 3, 1, 8 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 15, 46 ],
+     "size" : [ 6, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 48, 15, 10 ],
+     "size" : [ 2, 1, 7 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 46, 15, 10 ],
+     "size" : [ 2, 1, 5 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 15, 10 ],
+     "size" : [ 6, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 16, 10 ],
+     "size" : [ 3, 1, 5 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 13, 19 ],
+     "size" : [ 5, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "death",
+     "pos" : [ -1, 11, 8 ],
+     "size" : [ 60, 1, 59 ],
+     "tags" : "death",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 59, 42, 67 ],
+   "tags" : "",
+   "walkable-plane" : "eNrtltmW2jAMQI2U9sAMTgL//7G1VkuOIbSPPaMHILGvtcssy4/8j1L+QjaS8KxHIAlA+6DzgEUedl7ekhxQ2d22YyB1dUJ21LbLaz2Gafo6RyGg9PSNKu9Q3kqEo13zOxRNaURd0Nw4ohrdF+hOH5uuJNYsghwmefUFWYS1vLo3khuNWDYksHMULZEeHvc1q32D4jV5kfRHb3mHbdTyqfx4Z6RC0P81osG1UND+DrEiHXGIsa/LV6hn6BabubkuxlAkdSnI/DhBc+1M0qIHztDp/gy+QPEdWjlUUmkBrbraFirHsWo04a5Y0IopOdmVU4uP6AnYnYpjDuAqZX+OBv08S8EqIXVet+FyuRzRJaOxiDLK8E0e1URGq6BVqp4CipwJDa2gNzvolwqj3jk2oTBrNbW/gZpDQB5LfTZFR+NsFVaMXVwrN9EyzDWf2pOULTJhbeaOs9RHRY90tyieYwMmBX9od91wG6yYojM2VpRZTHV/RVgdXduLda0k66rgLaJ6jmod60XIxg7hj/ViY36QtSlsQmiPv1xf7qGPtSzbKrJN4u/t19C7pUojxyg3paA9yYYWQcemENwaOsc6ReqIplmwlYAWBPe4oxiuj4QS670RirUYih44+RXQrdhUSBZDR3P1RJTZ3COO2ql6rL5Plwt6Z5Mqu/iLgSl/bTXeTLSFPmn4036/6RZu/tje9K4kMtjqMWGUp01aXCJ7jqbcRlbyNpBYok87SfiDYWuTCh5QJvdHkwKJ/Qh9iPRi+xh9BFRnX0LhQxS8h2YdcoryjvHid3Tv9fZwNP4RP04lOGgl9Pl8jmjOd3CF0L3f8c7pH3GepGF0htEQDJ6hXe0U3V+hgxzRf5c/uahCFQ==",
+   "y" : 15
+  },
+  
+  {
+   "blocks" : "eNrtwQEBAAAAgiD/r25IQAEA/BgI/AAB",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 72, 1, 7 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 1, 7 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjYBgFo2AUjIJRMOIAAAX9AAE=",
+   "id" : "twr_spacer",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 253, 32, -31 ],
+   "region-plane" : "eNpjZKQWYKAOGDWIngZRyZxRMDTB4EuQowYRYRC1AAADcQCr",
+   "region-y-plane" : "eNpjYBgFo2AUjIJRMOIAAAX9AAE=",
+   "size" : [ 73, 1, 21 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYKAWYKQOGDWIngZRyZxRMDTB4EuQowYRYRC1AAD6iwVU",
+   "y" : 0
+  },
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNo914dyo0oQBVA9WwmwlYVsOSminOVl///L3oBObW3V3pobmh56ELjyX6VZea6MKgVWYQ3WYQM2YQRj2IJt2IFd2IN9OIBDmMIRfIOf8At+wx84gVM4g3O4gEuYwRVcww3cwh3cwwu8whu8w1/4J9zBp3B3nsKOCkxKjCsvYafF+hX/jh/jP6wP5TqunEtshXpP4V8PpgGjMKtmuNYoYBT8acC4cgz+Ak8lRiFf8I/8s/yzfFW+Sq/Sq/QavUav0Wv0Or1Or9Pr9Aa9QW/QG/QmvUlv0pv0iB7ZX2R/kf1F9hfJR/KRfCwfu5+x+xnzx/wxf8Kf8CfmnZh3Yt6JeSfmnZh3om6ibqLui3PwYh8v9vGi/2KdB8dLyD+wB9OAxVmJw2oYsBn2PSrXhf7K/8r/yt9yvRZ/K/j/lKeoBXvw0V/bvtv8bf42f5u/zd/h7/B3+Dv8Hf4Of1c/Xf4uf5e/y9/953/sr2t/Xfvr2l9PvZ56veD/Wz4dLdiDKRwHrIXfnEfffbm+XF+uL9eX68sNXG8QcseQK/Bc4iM/kB/ID+QH8kP5Ao/wXOIjP5Qfyg/lh/KpvlPXL078Kfyf6iNVJ1UnVSdVJ1VnpI8R/4h/xD/iH/G/8b+V8xqWmAd81887fmw9tv6Q+7D+dH4/rb/oX9bf8t/WP9Y//9aP607kJvqf6H+i/4n+J/qf8k/d96nfjan7P1Vnqs5Unak6U3Vm+pl5bmd+R2byM/mZ/Ex+Jj+Xn+tj7vpz+bn8XH4uP5df2MfCuV3ILeQWcgu5hdxSbim3lFvKLeWWcku5TL+ZXOZ5zTyvmec187xmntfM85p5XjPP60q9lXor9VbqrdRbqbfW95p/zb/mX/Ov+TfO14Z/w7/h3/Bv+Lfqb81ja57F+mJd9L+1n639bO1nZz8752Hn/bDzfth5P+y8H3bl+2EUviEeub1cgZcSH33u9bnX514fB/0e9Htwjg/6Puj7oM5BnYM6R/kj/Ug/0k/6OtFP9BP9TD/Tz/Qz/aL+hX6hX+hX+pV+pV/pN/Vv9Bv9Rr/T7/Q7/U7/Vf+X/kv/pf8pz8dTwFb49imwB9PyG6ngq/gqvoqv4Wv4Gr6Or+Pr+Aa+gW/gm/gmvomP8BE+wsf4GB/jE3yCT/BdfBffxffwPXwP38f38X38AD/AD/Bj/Bg/xn/gP/Af+E/8J/4T/4X/wn/h5/g5fo5f4Bf4BX6JX+KX+Ayf4TP8Hr/H7/EH/AF/wB/xR/wRf8Kf8Cf8GX/Gn/EX/AV/wV/xV/wVf8Pf8Df8HX/H3/G/+F988SzkzknunOTOSe6c5M5J7pzk5p6be27uubnn5p6be26OuTnm5pibY26OuTnm5pKbS24uubnk5pKby9/ym/k14DhgLWAjrN5KbMF2icW36MPXKX1R+ZX8t/xr6pFL+UfwTe6d713u2/pb7od/AqdyM76Z3Mp6Jbfm38Ct3I5vV6n9D6zwtz8=",
+   "doors" : 
+   [
+    
+    {
+     "name" : "",
+     "pos" : [ 58, 6, 24 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "travel_enter",
+     "pos" : [ 49, 6, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "travel_exit",
+     "pos" : [ 5, 6, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 6, 23 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrllguSgyAMQN1uKeEAzFTuf9DlF4gQRKG2O9MMClGexBACoECigGsDxJJURtHGilIqob6dUVQZxaP2awLFtwFiSSqjeFRKMSBfhep1Xd+PFgbf+7JBSUicQZ3BNsAGUCEsOjaqEI/ns/jX37Zcit54KdHtvJ5Ay5BA9KeWCmVCYhpdFtd/wYpBmwZ30Zab0MqIcga3JucNaBHDh9F65aCbNtLwMDtqH+2ExI7BM6iemNcLQuJAIF6Adhdd71/31qseTzCNeb0YZQ0+mIcn0Jdm/4nt6swmObirhywR04RrHEfj8TIkJ5WzlARyNkkZKA3Coni4hXzkFOkx+TZj8O6oFUrcVJygth5lDN5BfSFC3v9PtPjXCtVEnOfcHf2ZfeqfS9LVo4iHyt4j6qbcXmmU3CeAxqzuchKqqPiWMVSjbz+J/gHJ/mAM",
+   "id" : "twr_floor_sec1_04",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ -252, 26, 7 ],
+   "region-plane" : "eNrtlosOgCAIRXX3//8504FiuHxsOsu7WqEcRKWHtYtkSP7eneFgUzUk2SD8CcUSdHiuPSwGhjWjaBe5G7q0JCYnvN3mjNfw5IfulMQ30fOWOGgmiM96UxQiH6gIwkYa+4kqv5xGbS4mXDFqVk0vU1USrkXT/l1RkOy9cgCtYVC0TPTkvfE0XyDjsuX6kPhmqPWoiButpEVDa9TiW9QF7VwENA==",
+   "region-y-plane" : "eNrllguSgyAMQN1uKeEAzFTuf9DlF4gQRKG2O9MMClGexBACoECigGsDxJJURtHGilIqob6dUVQZxaP2awLFtwFiSSqjeFRKMSBfhep1Xd+PFgbf+7JBSUicQZ3BNsAGUCEsOjaqEI/ns/jX37Zcit54KdHtvJ5Ay5BA9KeWCmVCYhpdFtd/wYpBmwZ30Zab0MqIcga3JucNaBHDh9F65aCbNtLwMDtqH+2ExI7BM6iemNcLQuJAIF6Adhdd71/31qseTzCNeb0YZQ0+mIcn0Jdm/4nt6swmObirhywR04RrHEfj8TIkJ5WzlARyNkkZKA3Coni4hXzkFOkx+TZj8O6oFUrcVJygth5lDN5BfSFC3v9PtPjXCtVEnOfcHf2ZfeqfS9LVo4iHyt4j6qbcXmmU3CeAxqzuchKqqPiWMVSjbz+J/gHJ/mAM",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "victory",
+     "pos" : [ 4, 6, 47 ],
+     "size" : [ 5, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "podium",
+     "pos" : [ 4, 6, 53 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 1, 30 ],
+     "size" : [ 3, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 1, 20 ],
+     "size" : [ 3, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 1, 25 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 1, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 1, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 1, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 1, 28 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 1, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 32, 1, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 1, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 1, 32 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 1, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 1, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 1, 32 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 2, 29 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 2, 29 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 2, 23 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 2, 23 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 2, 23 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 2, 23 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 2, 29 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 2, 29 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 2, 32 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 2, 32 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 3, 37 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 33, 3, 37 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 3, 37 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 3, 37 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 3, 37 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 3, 37 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 3, 37 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 4, 40 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 4, 40 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 4, 40 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 4, 40 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 4, 40 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 4, 40 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 4, 40 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 40 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 2, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 2, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 2, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 5, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 5, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 5, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 5, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 5, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 5, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 5, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 5, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 32, 5, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 5, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 5, 11 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 5, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 5, 10 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 13 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 5, 10 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 5, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 5, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 5, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 28 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 5, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 32 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 5, 34 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 36 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 5, 38 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 5, 43 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 5, 44 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 5, 43 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 5, 44 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 5, 43 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 5, 44 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 32, 5, 43 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 5, 43 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 5, 44 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 5, 43 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 5, 43 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 11 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 14 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 5, 16 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 5, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 5, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 5, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 28 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 30 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 12, 5, 33 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 35 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 5, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 2, 32 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 2, 35 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 2, 35 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 2, 35 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 2, 35 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 2, 35 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 2, 32 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 2, 26 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 2, 20 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 20, 2, 18 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 2, 18 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 2, 18 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 2, 19 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 2, 25 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 3, 16 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 3, 21 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 3, 25 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 3, 29 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 4, 14 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 4, 18 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 4, 23 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 4, 27 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 4, 31 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 4, 35 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 39, 3, 33 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 3, 34 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 3, 31 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 3, 26 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 3, 22 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 3, 18 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 3, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 3, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 3, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 3, 16 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 32, 3, 16 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 35, 3, 16 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 4, 14 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 32, 4, 14 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 4, 14 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 4, 14 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 4, 14 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 4, 14 ],
+     "size" : [ 2, 1, 1 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 14 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 18 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 22 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 26 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 30 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 34 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 4, 38 ],
+     "size" : [ 1, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 45, 5, 34 ],
+     "size" : [ 1, 1, 8 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 46, 6, 46 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 45, 5, 26 ],
+     "size" : [ 1, 1, 8 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 45, 5, 18 ],
+     "size" : [ 1, 1, 8 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 11, 5, 10 ],
+     "size" : [ 1, 1, 8 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 11, 5, 18 ],
+     "size" : [ 1, 1, 8 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 11, 5, 26 ],
+     "size" : [ 1, 1, 8 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 11, 5, 34 ],
+     "size" : [ 1, 1, 11 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 12, 5, 10 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 25, 5, 10 ],
+     "size" : [ 13, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 37, 5, 10 ],
+     "size" : [ 9, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 45, 5, 11 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 27, 1, 24 ],
+     "size" : [ 3, 1, 6 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "challenge_start",
+     "pos" : [ 46, 6, 47 ],
+     "size" : [ 9, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 49, 6, 51 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 59, 27, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNrl1wkOhCAMBdDPLL3/kWcEt5aCgDAlmR+NS3gIrggYhbb49e8cpn1T3eCyJv9EyYSKBr+vIyhaKBlS1tdXOkPpU89w+ogTUQygzi3l3bZQKA2gIStVG2xJ0ZU6nr4U7X29QSe7rpb3cO6h609LXjAwoRO9wpvpjc/Vz+iKl5VyCkmP/ax6kgUUqgw5Kb+74ajiNIkRFD8taoOT1E9nK+qZjoq+VtAoMQ16X+j1+p8FOpUVFBcUGVqSmrLJfADPYDWu",
+   "y" : 6
+  },
+  
+  {
+   "blocks" : "eNrt1DFywjAQBdAUpM6VUnBAWle+Ii1VosCARUCTQGRnJb9f2fOsYbXD/M3m8bzeBgCwYjhZFYh5wWchZl5uAwDoH8ZxvA+nQ1Wg+BsxV/IDxEzMXQEAVHgwiJmYuwIAqPBgMH9KqwUAgG8pFvhX79aCkDd/DlQ4AAA0CyocAACaBRUOAADNggoHAIBmQYUDAECzoMIBAKBZUOEAANAs/FuFH7M95z1Nc3kB64P0Nj1vC7DQVBXz9nFOerk878EqYNhNkD6bIH12H/ITM45bMQHXDpaCw/CbP3UOVyfmG1eFgyrQT4Xnk2fXAOuGQw7DLoOhBIuM+5eijrNdAEqgwkHXoMJB36DCQdegwkHfoMJB16DCQd/weD4B9IniuQ==",
+   "boundaries" : "eNot0UWWwgAARMEAwQMkuA7urnP/mw0Dtar3t91BKgiDdBAF/2YYMssc8yywyBLLjFhhlTXGTFhng0222GaHXfbY54BDjvjDMSeccsY5F1xyxTU33HLHPQ888sQzL7zyxjsffPL1Nv029TEKfj9ffTujQx3qrM7qnM7pvM7rgi7ooi7qki7psi7rSEe6oiu6qqu6pms61rFOdKLruq4buqGbuqlbNmt9NvoaMssc8yywyBLLjFhhlTXGTFhng0222GaHXfbY54BDjvjDMSeccsY5F1xyxTU33HLHPQ888sQzL7zyxjsffPIVhH9cPB7x",
+   "doors" : 
+   [
+    
+    {
+     "name" : "balcony_door",
+     "pos" : [ 21, 1, 43 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjZsYCuIGAGbcEAyYYlRiVGJUYlRiVQJWgBwAAI6UPfQ==",
+   "id" : "twr_balcony_03",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 252, 31, 91 ],
+   "region-plane" : "eNpjZCQdMGCCUYlRiVGJESzBzMxMLYnB6UFyJWgPAP2zAec=",
+   "region-y-plane" : "eNpjZsYCuIGAGbcEAyYYlRiVGJUYlRiVQJWgBwAAI6UPfQ==",
+   "size" : [ 25, 12, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYCAdMGKCUYlRiVGJESwBkaOKxOD0ILkStAcA0BUD+Q==",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "eNrt1LFuwjAUBdAOdO4vMfQDs2bKL3Zlom4rghExBeGIZ+fcKdaJxcsTurvd43m/DgAALKYWxPzAfyBm3q4DANgwTNO0DH+XqkDxN2Ku5OmeXTExdwUAUOHBIGZi7goAoMKDwfopbRAAAO6FYoH/9G4tCPnlN0GFAwBAs6DCAQCgWVDhAADQLKhwAABoFlQ4AAA0CyocAACaBRUOAADNwssq/Defp+zTNPMBbBvS6QzptWVYb6qK+Tiekg7z8xfYHBzGDNJr5+djAS5u1J2qYmJsF7wexuGOP/UF5DfqTqXCQXVou8LzAbNpAZiTN/hhzGAcCjCsNdUzRR10uwBkoMJB16DCQd+gwkHXoMJB36DCQdegwkHf8Hi+Ad5r4tc=",
+   "boundaries" : "eNot0UWWwgAARMEAwQMkuA7urnP/mw0Dtar3t91BKgiDdBAF/2YYMssc8yywyBLLjFhhlTXGTFhng0222GaHXfbY54BDjvjDMSeccsY5F1xyxTU33HLHPQ888sQzL7zyxjsffPL1Nv029TEKfj9ffTujQx3qrM7qnM7pvM7rgi7ooi7qki7psi7rSEe6oiu6qqu6pms61rFOdKLruq4buqGbuqlbNmt9NvoaMssc8yywyBLLjFhhlTXGTFhng0222GaHXfbY54BDjvjDMSeccsY5F1xyxTU33HLHPQ888sQzL7zyxjsffPIVhH9cPB7x",
+   "doors" : 
+   [
+    
+    {
+     "name" : "balcony_door",
+     "pos" : [ 21, 1, 44 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNpjZsYCuIGAGbcEAyYYlRiVGJUYlRiVQJWgBwAAI6UPfQ==",
+   "id" : "twr_balcony_04",
+   "is-leaky" : false,
+   "locked" : false,
+   "pos" : [ 302, 31, 91 ],
+   "region-plane" : "eNpjZCQdMGCCUYlRiVGJUQlMwMzMTC2JwelBAhK0BwD78QHn",
+   "region-y-plane" : "eNpjZsYCuIGAGbcEAyYYlRiVGJUYlRiVQJWgBwAAI6UPfQ==",
+   "size" : [ 25, 12, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNpjYCAdMGKCUYlRiVGJUQmsgFoSg9ODBCRoDwDPNAP5",
+   "y" : 1
+  },
+  
+  {
+   "blocks" : "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",
+   "boundaries" : "eNpN0teSgkAQQNE2sOasgIARswhiwP3/L9ue4daWT6cujEDPKCK5vMWRypeFWpVMPtKQGtbRwR9sYBNb2MYOdnl+l+f36D4O/o31fkuG9NB2W0b0iB7TY3pCT2x3ZEpP6Rk9o13apT3ao33ap+f0nA7ogPeHdEhHdMQ8C3qJqy/NfqzZpw1uMcYd7vGARzzhGS94xQRvmPL+lPdndEbfWZfjA5/4wreurOq/wVizJvb0TXe43rXmejaOdYozdNFDH+cYYIgRLnCJK1zjBrcY4w73eMAbpvhGsx8FcxY6X13nMzrWVK82rU1roqdd3m9by/kL5i/0K1xdYfTQt+tinbc00J0zhhjhApe4wjW/2+CW58bWcr6C+QrmK5jvo1XR7/7oefb05Ix9HOAQRzjGI57wjBe8YoIZ3jHHBz7xpf6qIo0/M6ZMxA==",
+   "doors" : 
+   [
+    
+    {
+     "name" : "travel_exit",
+     "pos" : [ 49, 41, 55 ],
+     "size" : [ 3, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "travel_enter",
+     "pos" : [ 55, 31, 6 ],
+     "size" : [ 1, 1, 3 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 26, 31, 58 ],
+     "size" : [ 7, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 26, 31, 0 ],
+     "size" : [ 7, 1, 1 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 58, 31, 26 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : ""
+    },
+    
+    {
+     "name" : "",
+     "pos" : [ 0, 31, 26 ],
+     "size" : [ 1, 1, 7 ],
+     "tags" : ""
+    }
+   ],
+   "height-plane" : "eNrtldsOgyAMQL+irxO8EyLi///cBnQqyCaULNsSzwsxcmgpaAFoKKWI5kRVZwtUeRSoN0MllUkYn/KQE1mdyFFlcVQgmLjXnZpQW5wo/ahwck7HKwG4XJV/myCyasLttypzJqOoCABPJlAZK1BTKVAZ7pXz/KjaQlMXA0Vll3qpl/o3asGnXvCDKfitbepGLLkjBerWc1ZeqG/a1cfUaO/Ew8lThSVN5byum6Ztu67vh2EUSFLCgesI1Xi7/GX1vE5iFEZ0ZdrXWEfwg2pt1efLnboc0H62gapWYqrywNmPwSY8r8TU2QNnu+E76h1TI74o",
+   "id" : "twr_floor_sec1_05",
+   "is-leaky" : true,
+   "locked" : false,
+   "pos" : [ -84, 1, 175 ],
+   "region-plane" : "eNrt1MEKwCAMA9CG/P8/T9jwoBeJQtUlFy99FG0xQgsAXWoUyKDBHFqiUep0omvOMyWthL7D72X/Qg+bK01NTY+h/v23pp7rnbR9Y4Bdmmb8jmla6zGU4cKldEkeDPwDBg==",
+   "region-y-plane" : "eNrtldsOgyAMQL+irxO8EyLi///cBnQqyCaULNsSzwsxcmgpaAFoKKWI5kRVZwtUeRSoN0MllUkYn/KQE1mdyFFlcVQgmLjXnZpQW5wo/ahwck7HKwG4XJV/myCyasLttypzJqOoCABPJlAZK1BTKVAZ7pXz/KjaQlMXA0Vll3qpl/o3asGnXvCDKfitbepGLLkjBerWc1ZeqG/a1cfUaO/Ew8lThSVN5byum6Ztu67vh2EUSFLCgesI1Xi7/GX1vE5iFEZ0ZdrXWEfwg2pt1efLnboc0H62gapWYqrywNmPwSY8r8TU2QNnu+E76h1TI74o",
+   "regions" : 
+   [
+    
+    {
+     "locked" : false,
+     "name" : "victory",
+     "pos" : [ 36, 35, 47 ],
+     "size" : [ 1, 1, 12 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "challenge_start",
+     "pos" : [ 2, 33, 15 ],
+     "size" : [ 8, 1, 2 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "podium",
+     "pos" : [ 47, 42, 52 ],
+     "size" : [ 1, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 2, 33, 17 ],
+     "size" : [ 10, 1, 1 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 33, 18 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 33, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 13, 33, 20 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 9, 33, 22 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 7, 33, 19 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 5, 33, 22 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 6, 33, 24 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 4, 33, 19 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 4, 33, 24 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 4, 33, 27 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 4, 33, 31 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 6, 33, 34 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 4, 33, 36 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 6, 33, 38 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 4, 33, 34 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 7, 33, 31 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 8, 33, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 33, 25 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 13, 33, 22 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 33, 43 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 33, 29 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 8, 33, 29 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 8, 33, 35 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 10, 33, 34 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 33, 32 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 13, 33, 37 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 11, 33, 38 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 13, 33, 33 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 13, 33, 29 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 33, 26 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 33, 18 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 33, 31 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 33, 35 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 15, 33, 39 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 33, 42 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 33, 46 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 14, 33, 49 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 17, 33, 50 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 33, 43 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 33, 46 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 33, 47 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 33, 48 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 33, 44 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 33, 43 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 33, 47 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 33, 49 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 33, 50 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 33, 47 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 33, 33 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 33, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 33, 40 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 33, 35 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 33, 38 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 33, 41 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 33, 40 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 33, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 33, 21 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 33, 24 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 16, 33, 28 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 33, 30 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 20, 33, 27 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 33, 32 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 33, 35 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 33, 38 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 33, 40 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 33, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 33, 38 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 33, 37 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 18, 33, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 19, 33, 21 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 20, 33, 23 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 33, 25 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 33, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 33, 33 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 33, 35 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 48, 33, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 33, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 33, 37 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 47, 33, 33 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 47, 33, 28 ],
+     "size" : [ 5, 1, 5 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 42, 33, 32 ],
+     "size" : [ 5, 1, 5 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 33, 34 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 36, 33, 31 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 33, 34 ],
+     "size" : [ 5, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 29, 33, 31 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 33, 31 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 33, 33 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 33, 29 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 23, 33, 27 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 33, 33, 32 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 33, 31 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 33, 26 ],
+     "size" : [ 5, 1, 5 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 33, 23 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 26, 33, 27 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 22, 33, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 21, 33, 18 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 24, 33, 20 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 25, 33, 18 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 27, 33, 21 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 33, 19 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 33, 18 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 28, 33, 23 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 30, 33, 20 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 31, 33, 23 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 33, 33, 26 ],
+     "size" : [ 5, 1, 5 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 34, 33, 23 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 33, 33, 20 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 33, 33, 18 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 36, 33, 18 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 33, 24 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 38, 33, 29 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 38, 33, 26 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 33, 29 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 33, 30 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 33, 27 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 49, 33, 25 ],
+     "size" : [ 3, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 44, 33, 27 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 46, 33, 26 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 47, 33, 24 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 50, 33, 23 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 48, 33, 22 ],
+     "size" : [ 2, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 49, 33, 19 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 45, 33, 18 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 33, 22 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 37, 33, 22 ],
+     "size" : [ 4, 1, 4 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 41, 33, 20 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 43, 33, 18 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "arena",
+     "pos" : [ 40, 33, 18 ],
+     "size" : [ 3, 1, 2 ],
+     "tags" : "arena",
+     "type" : "spawn"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 19, 33, 18 ],
+     "size" : [ 2, 1, 34 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 36, 33, 15 ],
+     "size" : [ 2, 1, 28 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "checkpoint",
+     "pos" : [ 29, 33, 48 ],
+     "size" : [ 4, 1, 5 ],
+     "tags" : "",
+     "type" : "trigger"
+    },
+    
+    {
+     "locked" : false,
+     "name" : "playerstart",
+     "pos" : [ 53, 31, 6 ],
+     "size" : [ 2, 1, 3 ],
+     "tags" : "",
+     "type" : "trigger"
+    }
+   ],
+   "size" : [ 59, 50, 59 ],
+   "tags" : "",
+   "walkable-plane" : "eNrt1DEKACAIBdB/ihqFNrv/AVuamkyFEv2zL0LF1nQBoJc6Cryghg+bKBHFoi/aFHAleiIabK6jaNGiYWhd/69pprnORPTs8cVDZoq+A1GYWVboSl2yAMiqBTk=",
+   "y" : 31
+  }
+ ]
+}

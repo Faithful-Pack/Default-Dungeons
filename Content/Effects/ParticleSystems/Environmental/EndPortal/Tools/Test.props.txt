@@ -1,0 +1,67 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Effects/ParticleSystems/Environmental/EndPortal/Tools/ChechureTekkerChecker.ChechureTekkerChecker'
+    ReferencedTextures[1] = Texture2D'Effects/ParticleSystems/Environmental/EndPortal/Tools/T_PerlinNormal.T_PerlinNormal'
+}
+Expressions[19] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Effects/ParticleSystems/Environmental/EndPortal/Tools/Test.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionScalarParameter'Effects/ParticleSystems/Environmental/EndPortal/Tools/Test.MaterialExpressionScalarParameter_3'
+    Expressions[7] = MaterialExpressionScalarParameter'Effects/ParticleSystems/Environmental/EndPortal/Tools/Test.MaterialExpressionScalarParameter_5'
+    Expressions[10] = MaterialExpressionTextureSample'Effects/ParticleSystems/Environmental/EndPortal/Tools/Test.MaterialExpressionTextureSample_1'
+    Expressions[13] = MaterialExpressionScalarParameter'Effects/ParticleSystems/Environmental/EndPortal/Tools/Test.MaterialExpressionScalarParameter_6'
+    Expressions[17] = MaterialExpressionScalarParameter'Effects/ParticleSystems/Environmental/EndPortal/Tools/Test.MaterialExpressionScalarParameter_7'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Tiling, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=Speed, Group=None }
+    CollectedScalarParameters[2] = { Value=0.095238, Name=DistortionPower, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 36.9948
+        Name = Displacement Strength
+        Group = None
+    }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_PerlinNormal
+    }
+}

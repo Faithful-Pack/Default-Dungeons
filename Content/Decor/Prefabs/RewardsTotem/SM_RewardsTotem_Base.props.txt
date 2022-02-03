@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Decor/Prefabs/RewardsTotem/MI_RewardsTotem.MI_RewardsTotem'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Decor/Prefabs/RewardsTotem/MI_RewardsTotem.MI_RewardsTotem'
+        MaterialSlotName = MI_RewardsTotem
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 32.0133, 63.8024, 35.5869, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0673499, Y=-1.43051e-06, Z=9 }
+    BoxExtent = { X=5.15252, Y=6.5, Z=9 }
+    SphereRadius = 12.2392
+}

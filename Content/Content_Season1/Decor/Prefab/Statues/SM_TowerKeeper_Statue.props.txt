@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Statues/MI_TowerKeeper_Statue.MI_TowerKeeper_Statue'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Statues/MI_TowerKeeper_Statue.MI_TowerKeeper_Statue'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 799.963, 858.189, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=18.9721, Y=-1.52588e-05, Z=212.406 }
+    BoxExtent = { X=75.2221, Y=93.75, Z=212.406 }
+    SphereRadius = 230.299
+}

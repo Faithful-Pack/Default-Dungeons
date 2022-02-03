@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Exterior_Sets/Mi_TT_Tiled_Ext_40x_var1.Mi_TT_Tiled_Ext_40x_var1'
+    Materials[1] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Exterior_Sets/Mi_TT_Atlas_Ext_40x_var1.Mi_TT_Atlas_Ext_40x_var1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Exterior_Sets/Mi_TT_Tiled_Ext_40x_var1.Mi_TT_Tiled_Ext_40x_var1'
+        MaterialSlotName = Exteroir512_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3200.56, 20148.2, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Exterior_Sets/Mi_TT_Atlas_Ext_40x_var1.Mi_TT_Atlas_Ext_40x_var1'
+        MaterialSlotName = BaseTower_Atlas_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.001, 20141.5, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-600, Y=-1050, Z=-4000 }
+    BoxExtent = { X=3400, Y=3550, Z=4000 }
+    SphereRadius = 5803.02
+}

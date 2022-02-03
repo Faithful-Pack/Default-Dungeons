@@ -1,5 +1,5 @@
 Parent = Material3'Content_DLC4/Actors/Characters/Friendlies/BabyGhast/M_BabyGhastOuter.M_BabyGhastOuter'
-ScalarParameterValues[8] =
+ScalarParameterValues[7] =
 {
     ScalarParameterValues[0] =
     {
@@ -21,29 +21,23 @@ ScalarParameterValues[8] =
     }
     ScalarParameterValues[3] =
     {
-        ParameterInfo = { Name=Fresnel }
-        ParameterValue = 25
-        ParameterName = None
-    }
-    ScalarParameterValues[4] =
-    {
         ParameterInfo = { Name=Shy }
         ParameterValue = 1
         ParameterName = None
     }
-    ScalarParameterValues[5] =
+    ScalarParameterValues[4] =
     {
         ParameterInfo = { Name=TimeMultiplier }
         ParameterValue = 0.2
         ParameterName = None
     }
-    ScalarParameterValues[6] =
+    ScalarParameterValues[5] =
     {
         ParameterInfo = { Name=ValueMultiplier }
         ParameterValue = 0.2
         ParameterName = None
     }
-    ScalarParameterValues[7] =
+    ScalarParameterValues[6] =
     {
         ParameterInfo = { Name=RefractionDepthBias }
         ParameterValue = 0
@@ -51,29 +45,15 @@ ScalarParameterValues[8] =
     }
 }
 TextureParameterValues[0] = {}
-VectorParameterValues[2] =
-{
-    VectorParameterValues[0] =
-    {
-        ParameterInfo = { Name=BaseReflectFractionIn }
-        ParameterValue = { R=0.427083, G=0.427083, B=0.427083, A=1 }
-        ParameterName = None
-    }
-    VectorParameterValues[1] =
-    {
-        ParameterInfo = { Name=Normal }
-        ParameterValue = { R=1, G=1, B=1, A=1 }
-        ParameterName = None
-    }
-}
+VectorParameterValues[0] = {}
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false
     BlendMode = BLEND_Translucent (2)
     bOverride_TwoSided = false
     TwoSided = false
-    bOverride_OpacityMaskClipValue = false
-    OpacityMaskClipValue = 0.3333
+    bOverride_OpacityMaskClipValue = true
+    OpacityMaskClipValue = 0
 }
 StaticParameters =
 {

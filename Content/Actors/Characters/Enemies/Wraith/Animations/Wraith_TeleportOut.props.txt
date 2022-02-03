@@ -155,6 +155,28 @@ Notifies[3] =
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
         TriggerWeightThreshold = 1e-05
+        NotifyName = teleportOutSFX
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 1
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1
+    }
+    Notifies[1] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_Wraith_TeleportOut
         Duration = 0
         EndLink =
@@ -172,7 +194,7 @@ Notifies[3] =
         SegmentBeginTime = 0
         SegmentLength = 1
     }
-    Notifies[1] =
+    Notifies[2] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
@@ -189,28 +211,6 @@ Notifies[3] =
         bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
-        SlotIndex = 0
-        SegmentIndex = 0
-        SegmentBeginTime = 0
-        SegmentLength = 1
-    }
-    Notifies[2] =
-    {
-        TriggerTimeOffset = 0
-        EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-05
-        NotifyName = wraith_teleport_Cue
-        Duration = 0
-        EndLink =
-        {
-            SlotIndex = 0
-            SegmentIndex = -1
-            SegmentBeginTime = 7.41287e-43
-            SegmentLength = 0
-        }
-        bConvertedFromBranchingPoint = false
-        NotifyTriggerChance = 1
-        TrackIndex = 1
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
@@ -380,6 +380,28 @@ Notifies[3] =
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
         TriggerWeightThreshold = 1e-05
+        NotifyName = teleportOutSFX
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 1
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 1
+    }
+    Notifies[1] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
         NotifyName = PS_Wraith_TeleportOut
         Duration = 0
         EndLink =
@@ -397,7 +419,7 @@ Notifies[3] =
         SegmentBeginTime = 0
         SegmentLength = 1
     }
-    Notifies[1] =
+    Notifies[2] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
@@ -414,28 +436,6 @@ Notifies[3] =
         bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
         TrackIndex = 0
-        SlotIndex = 0
-        SegmentIndex = 0
-        SegmentBeginTime = 0
-        SegmentLength = 1
-    }
-    Notifies[2] =
-    {
-        TriggerTimeOffset = 0
-        EndTriggerTimeOffset = 0
-        TriggerWeightThreshold = 1e-05
-        NotifyName = wraith_teleport_Cue
-        Duration = 0
-        EndLink =
-        {
-            SlotIndex = 0
-            SegmentIndex = -1
-            SegmentBeginTime = 7.41287e-43
-            SegmentLength = 0
-        }
-        bConvertedFromBranchingPoint = false
-        NotifyTriggerChance = 1
-        TrackIndex = 1
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0

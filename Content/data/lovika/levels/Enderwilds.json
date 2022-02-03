@@ -265,6 +265,7 @@
             ]
         },
         {
+            "id": "EndCityRoof",
             "tiles": [
                 "ew_endcity_roof",
                 "ew_endcity_roof_alt"
@@ -286,11 +287,11 @@
             "tiles": [
                 {
                     "id": "ew_enddock_01",
-                    "weight": 0.6
+                    "weight": 0.5
                 },
                 {
                     "id": "ew_enddock_02",
-                    "weight": 0.6
+                    "weight": 0.5
                 }
             ],
             "prop-groups": [
@@ -358,23 +359,19 @@
             "dead-ends": [
                 {
                     "id": "ew_portal_deadend_01",
-                    "weight": 0.6
-                },
-                {
-                    "id": "ew_portal_et_deadend",
-                    "weight": 0.4
+                    "weight": 0.97
                 },
                 {
                     "id": "ew_portal_cap_01",
-                    "weight": 0.2
+                    "weight": 0.02
                 },
                 {
                     "id": "ew_portal_cap_02",
-                    "weight": 0.1
+                    "weight": 0.01
                 }
             ],
             "side-paths": {
-                "probability": 2,
+                "probability": 1,
                 "default": {
                     "max-length": [
                         1,
@@ -382,20 +379,16 @@
                     ],
                     "dead-ends": [
                         {
-                            "id": "ew_portal_deadend_01",
-                            "weight": 0.6
-                        },
-                        {
                             "id": "ew_portal_et_deadend",
-                            "weight": 0.4
+                            "weight": 0.97
                         },
                         {
                             "id": "ew_portal_cap_01",
-                            "weight": 0.2
+                            "weight": 0.02
                         },
                         {
                             "id": "ew_portal_cap_02",
-                            "weight": 0.1
+                            "weight": 0.01
                         }
                     ],
                     "tile-groups": [
@@ -450,7 +443,6 @@
         {
             "id": "ew_sub_endcit_corridor",
             "rotations": [
-                90,
                 270
             ]
         },
@@ -1080,11 +1072,11 @@
             "description": "description_ew_g_07",
             "displayMode": "MainObjective",
             "gauntlet": {
-                "end-region": "*.ew_endcity_roof.ew_fly_gauntlet"
+                "end-region": "EndCityRoof.*.ew_fly_gauntlet"
             }
         },
         {
-            "name": "name_ew_02",
+            "name": "name_ew_01",
             "description": "description_ew_g_08",
             "displayMode": "MainObjective",
             "gauntlet": {
@@ -1114,14 +1106,6 @@
                     "*.ew_enddock_02.dock_click_gate"
                 ],
                 "door-path": "Content_DLC6/Decor/Prefabs/_End_Structures_/End_DesignObjects/EndArenaGates/BP_End_ArenaGate_7"
-            }
-        },
-        {
-            "name": "name_ew_04",
-            "description": "description_ew_g_10",
-            "displayMode": "MainObjective",
-            "gauntlet": {
-                "end-region": "*.*.ew_gauntlet_islands"
             }
         },
         {

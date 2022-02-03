@@ -3,7 +3,8 @@
 	"blockshape": "invisible"
 	},
 	"stone" : {
-		"textures" : "stone"
+		"textures" : "stone",
+		"material": "wood"
 	},
 	"grass" : {
 		"isotropic" : {"up" : true, "down" : true},
@@ -12,10 +13,12 @@
 	},
 	"dirt" : { 
 		"isotropic" : true,
-		"textures" : "dirt"
+		"textures" : "dirt",
+		"material" : "ice"
 	},
 	"cobblestone" : {
-		"textures" : "cobblestone"
+		"textures" : "cobblestone",
+		"material": "snow"
 	},
 	"planks" : { 
 		"textures" : "planks"
@@ -46,7 +49,8 @@
 	},
 	"sand" : { 
 		"isotropic" : true,
-		"textures" : "sand"
+		"textures" : "sand",
+		"material" : "ice"
 	},
 	"gravel" : { 
 		"textures" : "gravel"
@@ -727,7 +731,8 @@
 		"textures" : { "up" : "door_lower", "down" : "door_lower", "side" : "door_upper"}
 	},
 	"grass_path" : { 
-		"textures" : { "up" : "grass_path_top", "down" : "grass_path_side", "side" : "grass_path_side"}
+		"textures" : { "up" : "grass_path_top", "down" : "grass_path_side", "side" : "grass_path_side"},
+		"material" : "stone"
 	},
 	"frame" : { 
 		"blockshape" : "invisible", 

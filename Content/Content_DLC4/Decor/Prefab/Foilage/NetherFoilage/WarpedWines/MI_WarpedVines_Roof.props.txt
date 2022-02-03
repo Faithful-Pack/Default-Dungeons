@@ -79,7 +79,7 @@ BasePropertyOverrides =
 }
 StaticParameters =
 {
-    StaticSwitchParameters[3] =
+    StaticSwitchParameters[5] =
     {
         StaticSwitchParameters[0] =
         {
@@ -94,6 +94,18 @@ StaticParameters =
             bOverride = true
         }
         StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=MeshFade }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=TraceFade }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
         {
             Value = true
             ParameterInfo = { Name=DarkenForeground }
@@ -113,9 +125,15 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[1] =
+TextureStreamingData[2] =
 {
     TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = Good64x64TilingNoiseHighFreq
+    }
+    TextureStreamingData[1] =
     {
         SamplingScale = 0.25
         UVChannelIndex = 0

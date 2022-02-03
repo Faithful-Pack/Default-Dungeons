@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Towerkeeper_BunkBed/MI_Towerkeeper_Bunkbed.MI_Towerkeeper_Bunkbed'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Towerkeeper_BunkBed/MI_Towerkeeper_Bunkbed.MI_Towerkeeper_Bunkbed'
+        MaterialSlotName = Material #6
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.117, 918.205, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.28882e-05, Y=0, Z=225 }
+    BoxExtent = { X=50.7859, Y=168.25, Z=225 }
+    SphereRadius = 285.455
+}

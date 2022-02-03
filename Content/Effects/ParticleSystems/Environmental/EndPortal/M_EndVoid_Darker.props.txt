@@ -1,61 +1,79 @@
 Parent = Material3'Effects/ParticleSystems/Environmental/EndPortal/M_EndVoid.M_EndVoid'
-ScalarParameterValues[10] =
+ScalarParameterValues[13] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterInfo = { Name=MainSpecPower }
-        ParameterValue = 1
+        ParameterInfo = { Name=MasterHueShift }
+        ParameterValue = 0
         ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterInfo = { Name=NebulaPower }
-        ParameterValue = 0.005
+        ParameterInfo = { Name=Dissolve Resolution }
+        ParameterValue = 32
         ParameterName = None
     }
     ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Dissolve Thickness }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
     {
         ParameterInfo = { Name=VoidBrightness }
         ParameterValue = 0.02
         ParameterName = None
     }
-    ScalarParameterValues[3] =
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MainSpeckPower }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=NebulaPower }
+        ParameterValue = 0.005
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
     {
         ParameterInfo = { Name=EdgeLightOpacity }
         ParameterValue = 0.075919
         ParameterName = None
     }
-    ScalarParameterValues[4] =
+    ScalarParameterValues[7] =
     {
         ParameterInfo = { Name=Texture Power }
         ParameterValue = 0
         ParameterName = None
     }
-    ScalarParameterValues[5] =
+    ScalarParameterValues[8] =
     {
         ParameterInfo = { Name=TextureEdgeExponent }
         ParameterValue = 16.6821
         ParameterName = None
     }
-    ScalarParameterValues[6] =
+    ScalarParameterValues[9] =
     {
         ParameterInfo = { Name=TextureFlowSpeed }
         ParameterValue = 4
         ParameterName = None
     }
-    ScalarParameterValues[7] =
+    ScalarParameterValues[10] =
     {
         ParameterInfo = { Name=Tiling [ALL] }
         ParameterValue = 0.67619
         ParameterName = None
     }
-    ScalarParameterValues[8] =
+    ScalarParameterValues[11] =
     {
         ParameterInfo = { Name=Nebula Tiling }
         ParameterValue = -2.5019
         ParameterName = None
     }
-    ScalarParameterValues[9] =
+    ScalarParameterValues[12] =
     {
         ParameterInfo = { Name=RefractionDepthBias }
         ParameterValue = 0
@@ -63,9 +81,15 @@ ScalarParameterValues[10] =
     }
 }
 TextureParameterValues[0] = {}
-VectorParameterValues[1] =
+VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MasterColour }
+        ParameterValue = { R=0, G=0.570066, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
     {
         ParameterInfo = { Name=TextureColour }
         ParameterValue = { R=0, G=0.976794, B=1, A=1 }
@@ -83,9 +107,21 @@ BasePropertyOverrides =
 }
 StaticParameters =
 {
-    StaticSwitchParameters[1] =
+    StaticSwitchParameters[3] =
     {
         StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Animated Alpha }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=ParticleRelativeTime }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
         {
             Value = true
             ParameterInfo = { Name=UseTexture }

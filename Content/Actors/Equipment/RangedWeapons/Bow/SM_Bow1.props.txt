@@ -1,23 +1,11 @@
-Materials[2] =
+Materials[1] =
 {
     Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Bow/MI_Bow.MI_Bow'
-    Materials[1] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Bow/MI_Bow.MI_Bow'
 }
 SourceModels[0] = {}
-StaticMaterials[2] =
+StaticMaterials[1] =
 {
     StaticMaterials[0] =
-    {
-        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Bow/MI_Bow.MI_Bow'
-        MaterialSlotName = M_Bow
-        UVChannelData =
-        {
-            bInitialized = true
-            bOverrideDensities = false
-            LocalUVDensities[4] = { 0, 0, 0, 0 }
-        }
-    }
-    StaticMaterials[1] =
     {
         MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/Bow/MI_Bow.MI_Bow'
         MaterialSlotName = lambert10SG

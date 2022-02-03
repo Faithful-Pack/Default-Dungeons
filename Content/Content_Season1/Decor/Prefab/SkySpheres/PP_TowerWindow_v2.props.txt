@@ -1,0 +1,139 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/T_S_BG_LOW_Fog_v2.T_S_BG_LOW_Fog_v2'
+    ReferencedTextures[1] = Texture2D'Content_Season1/Decor/Prefab/SkySpheres/TowerClouds/T_CloudBand.T_CloudBand'
+    ReferencedTextures[2] = Texture2D'Content_Season1/Decor/Prefab/SkySpheres/T_TT_flowmap.T_TT_flowmap'
+    ReferencedTextures[3] = Texture2D'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/T_S_BG_MED_fog_v2.T_S_BG_MED_fog_v2'
+    ReferencedTextures[4] = Texture2D'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/T_S_BG_HIGH_Fog_v2.T_S_BG_HIGH_Fog_v2'
+    ReferencedTextures[5] = Texture2D'Content_Season1/Decor/Prefab/SkySpheres/Backgrounds/T_BG_Bottom.T_BG_Bottom'
+}
+Expressions[63] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[3] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionTextureSample_1'
+    Expressions[14] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionTextureSample_5'
+    Expressions[17] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionTextureSample_4'
+    Expressions[28] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionTextureSample_2'
+    Expressions[29] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionTextureSample_3'
+    Expressions[34] = MaterialExpressionScalarParameter'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionScalarParameter_0'
+    Expressions[39] = MaterialExpressionScalarParameter'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionScalarParameter_1'
+    Expressions[41] = MaterialExpressionScalarParameter'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionScalarParameter_2'
+    Expressions[43] = MaterialExpressionVectorParameter'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionVectorParameter_0'
+    Expressions[44] = MaterialExpressionVectorParameter'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionVectorParameter_1'
+    Expressions[52] = MaterialExpressionVectorParameter'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionVectorParameter_2'
+    Expressions[59] = MaterialExpressionTextureSample'Content_Season1/Decor/Prefab/SkySpheres/PP_TowerWindow_v2.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Sky Brightness, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = CloudRing Offset Vertical
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1.5, Name=Cloud Brightness, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Cloud Tint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.015, G=0.015, B=0, A=1 }
+        Name = Cloud Panner speed and direction
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.12203, G=0.2712, B=0.555208, A=1 }
+        Name = Cloud_Undershadow
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[8] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BG_Bottom
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_CloudBand
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_CloudBand_M
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_CloudBand_N
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_S_BG_HIGH_Fog_v2
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_S_BG_LOW_Fog_v2
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_S_BG_MED_fog_v2
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TT_flowmap
+    }
+}

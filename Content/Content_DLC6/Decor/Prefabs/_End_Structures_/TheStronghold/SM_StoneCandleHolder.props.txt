@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_StrongholdObjects_GroupE.MI_StrongholdObjects_GroupE'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_DLC6/Decor/Prefabs/_End_Structures_/TheStronghold/MI_StrongholdObjects_GroupE.MI_StrongholdObjects_GroupE'
+        MaterialSlotName = Material #104
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.999, 100.251, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.62939e-06, Z=34.3747 }
+    BoxExtent = { X=12.5, Y=12.5, Z=34.3747 }
+    SphereRadius = 38.6539
+}

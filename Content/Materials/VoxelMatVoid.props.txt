@@ -3,13 +3,13 @@ ScalarParameterValues[22] =
 {
     ScalarParameterValues[0] =
     {
-        ParameterInfo = { Name=AnimSpeed }
+        ParameterInfo = { Name=SpeedMod[ALL] }
         ParameterValue = 0.5
         ParameterName = None
     }
     ScalarParameterValues[1] =
     {
-        ParameterInfo = { Name=MainSpecOffset }
+        ParameterInfo = { Name=MainSpeckOffset }
         ParameterValue = -0.085714
         ParameterName = None
     }
@@ -21,19 +21,19 @@ ScalarParameterValues[22] =
     }
     ScalarParameterValues[3] =
     {
-        ParameterInfo = { Name=Edge Glow Opacity }
+        ParameterInfo = { Name=Depth Glow Opacity }
         ParameterValue = 7.51747
         ParameterName = None
     }
     ScalarParameterValues[4] =
     {
-        ParameterInfo = { Name=Edge Glow Power }
+        ParameterInfo = { Name=Depth Glow Power }
         ParameterValue = 1.82093
         ParameterName = None
     }
     ScalarParameterValues[5] =
     {
-        ParameterInfo = { Name=Edge Glow Width }
+        ParameterInfo = { Name=Depth Glow Width }
         ParameterValue = 868.455
         ParameterName = None
     }
@@ -51,7 +51,7 @@ ScalarParameterValues[22] =
     }
     ScalarParameterValues[8] =
     {
-        ParameterInfo = { Name=SubSpecPower }
+        ParameterInfo = { Name=SubSpeckPower }
         ParameterValue = 0.280953
         ParameterName = None
     }
@@ -63,7 +63,7 @@ ScalarParameterValues[22] =
     }
     ScalarParameterValues[10] =
     {
-        ParameterInfo = { Name=MainSpecDistance }
+        ParameterInfo = { Name=MainSpeckDistance }
         ParameterValue = -7
         ParameterName = None
     }
@@ -81,7 +81,7 @@ ScalarParameterValues[22] =
     }
     ScalarParameterValues[13] =
     {
-        ParameterInfo = { Name=SubSpecDistance }
+        ParameterInfo = { Name=SubSpeckDistance }
         ParameterValue = -14
         ParameterName = None
     }
@@ -139,7 +139,7 @@ VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
     {
-        ParameterInfo = { Name=MainSpecColour }
+        ParameterInfo = { Name=MasterColour }
         ParameterValue = { R=0.87499, G=0, B=1, A=1 }
         ParameterName = None
     }
@@ -184,7 +184,7 @@ StaticParameters =
         StaticSwitchParameters[3] =
         {
             Value = false
-            ParameterInfo = { Name=Use Edge Glow (Requires Translucency) }
+            ParameterInfo = { Name=Use Depth Glow (Requires Translucency) }
             bOverride = true
         }
     }

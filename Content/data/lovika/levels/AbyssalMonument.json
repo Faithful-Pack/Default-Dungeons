@@ -750,7 +750,10 @@
         {
             "id": "am_gate_room_ne",
             "entry-door": "enter",
-            "exit-door": "exit"
+            "exit-door": "exit",
+            "challenges": [
+                "am_conduit_arena_ne"
+            ]
         },
         {
             "id": "am_gate_room_se_02",
@@ -774,7 +777,10 @@
         {
             "id": "am_gate_room_ne_02",
             "entry-door": "enter",
-            "exit-door": "exit"
+            "exit-door": "exit",
+            "challenges": [
+                "am_conduit_arena_ne_02"
+            ]
         },
         {
             "id": "am_gate_sidepath_angle_01",
@@ -1697,32 +1703,6 @@
             }
         },
         {
-            "name": "name_am_02",
-            "description": "description_am_g_02",
-            "displayMode": "MainObjective",
-            "arena": {
-                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
-                "stretch": "conduit_clicky_tile",
-                "start-time": 2,
-                "interval": 10,
-                "rest-interval": 2,
-                "waves": [
-                    [
-                        8,
-                        "ocean-arena"
-                    ],
-                    [
-                        8,
-                        "ocean-arena"
-                    ],
-                    [
-                        1,
-                        "ocean-event"
-                    ]
-                ]
-            }
-        },
-        {
             "name": "name_am_03",
             "description": "description_am_c_03",
             "displayMode": "MainObjective",
@@ -2452,6 +2432,72 @@
                 "waves": [
                     [
                         5,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "ocean-event"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssetsBP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "am_conduit_arena_ne",
+            "trigger": "*.am_gate_room_ne.conduit_arena",
+            "reward": {
+                "region": "*.am_gate_room_ne.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
+                "waves": [
+                    [
+                        10,
+                        "ocean-arena"
+                    ],
+                    [
+                        12,
+                        "ocean-arena"
+                    ],
+                    [
+                        1,
+                        "ocean-event"
+                    ]
+                ],
+                "gate": {
+                    "object": "Decor/Prefabs/_Creepingwinter_Structures/Ice_DesignAssetsBP_DoorWinter_5",
+                    "start-unlocked": true
+                }
+            }
+        },
+        {
+            "id": "am_conduit_arena_ne_02",
+            "trigger": "*.am_gate_room_ne_02.conduit_arena",
+            "reward": {
+                "region": "*.am_gate_room_ne_02.challengeloot",
+                "object": "Decor/Prefabs/RewardChest/BP_FancyChest_Reward"
+            },
+            "arena": {
+                "stretch": "*",
+                "interval": 10,
+                "rest-interval": 2,
+                "start-time": 2,
+                "prespawn-mob": "/Game/Actors/Oceans/BP_Ocean_ArenaBattle_GuardianShadow",
+                "waves": [
+                    [
+                        10,
+                        "ocean-arena"
+                    ],
+                    [
+                        12,
                         "ocean-arena"
                     ],
                     [

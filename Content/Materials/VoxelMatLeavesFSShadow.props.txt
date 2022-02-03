@@ -1,17 +1,15 @@
-TwoSided = true
+TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
     ReferencedTextures[0] = Texture2D'Effects/Materials/Noise/T_Clouds_512.T_Clouds_512'
 }
-Expressions[38] =
+Expressions[20] =
 {
     Expressions[2] = MaterialExpressionTextureSampleParameter2D'Materials/VoxelMatLeavesFSShadow.MaterialExpressionTextureSampleParameter2D_0'
-    Expressions[12] = MaterialExpressionTextureSample'Materials/VoxelMatLeavesFSShadow.MaterialExpressionTextureSample_1'
-    Expressions[19] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesFSShadow.MaterialExpressionScalarParameter_0'
-    Expressions[24] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesFSShadow.MaterialExpressionScalarParameter_1'
-    Expressions[29] = MaterialExpressionVectorParameter'Materials/VoxelMatLeavesFSShadow.MaterialExpressionVectorParameter_0'
+    Expressions[11] = MaterialExpressionTextureSample'Materials/VoxelMatLeavesFSShadow.MaterialExpressionTextureSample_1'
+    Expressions[15] = MaterialExpressionScalarParameter'Materials/VoxelMatLeavesFSShadow.MaterialExpressionScalarParameter_0'
 }
 CachedExpressionData =
 {
@@ -42,20 +40,11 @@ CollectedTextureParameters[1] =
         Group = None
     }
 }
-CollectedScalarParameters[2] =
+CollectedScalarParameters[1] =
 {
     CollectedScalarParameters[0] = { Value=5, Name=Wind, Group=None }
-    CollectedScalarParameters[1] = { Value=140, Name=deformDistance, Group=None }
 }
-CollectedVectorParameters[1] =
-{
-    CollectedVectorParameters[0] =
-    {
-        Value = { R=40, G=40, B=15, A=1 }
-        Name = deformStrength
-        Group = None
-    }
-}
+CollectedVectorParameters[0] = {}
 FlattenedTexture = None
 MobileBaseTexture = None
 MobileNormalTexture = None

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Spooky2/MI_PowerBow_Spooky2_Storable.MI_PowerBow_Spooky2_Storable'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/PowerBow_Spooky2/MI_PowerBow_Spooky2_Storable.MI_PowerBow_Spooky2_Storable'
+        MaterialSlotName = PhantomBow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.949, 184.309, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=26.5165, Z=0 }
+    BoxExtent = { X=75.1301, Y=44.1942, Z=3.125 }
+    SphereRadius = 78.3746
+}

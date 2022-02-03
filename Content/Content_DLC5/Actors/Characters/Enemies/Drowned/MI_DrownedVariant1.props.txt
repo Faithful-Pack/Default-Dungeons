@@ -8,9 +8,15 @@ ScalarParameterValues[1] =
         ParameterName = None
     }
 }
-TextureParameterValues[1] =
+TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Specular }
+        ParameterValue = Texture2D'Content_DLC5/Actors/Characters/Enemies/Drowned/T_Drowned_S.T_Drowned_S'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
     {
         ParameterInfo = { Name=Texture }
         ParameterValue = Texture2D'Content_DLC5/Actors/Characters/Enemies/Drowned/T_Drowned_Variant1.T_Drowned_Variant1'
@@ -69,18 +75,18 @@ TextureStreamingData[5] =
     {
         SamplingScale = 1
         UVChannelIndex = 0
-        TextureName = T_Drowned_Variant1
+        TextureName = T_Drowned_S
     }
     TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Drowned_Variant1
+    }
+    TextureStreamingData[4] =
     {
         SamplingScale = 2
         UVChannelIndex = 0
         TextureName = T_SmoothClouds_512
-    }
-    TextureStreamingData[4] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_Valorie_S
     }
 }

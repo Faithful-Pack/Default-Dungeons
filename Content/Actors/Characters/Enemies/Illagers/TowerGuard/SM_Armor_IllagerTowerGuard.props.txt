@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_IllagerTowerGuard.MI_IllagerTowerGuard'
+    Materials[1] = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_IllagerTowerGuard.MI_IllagerTowerGuard'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_IllagerTowerGuard.MI_IllagerTowerGuard'
+        MaterialSlotName = Material #5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Actors/Characters/Enemies/Illagers/TowerGuard/MI_IllagerTowerGuard.MI_IllagerTowerGuard'
+        MaterialSlotName = Material #21
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.763, 250.572, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-52.9767, Y=0, Z=-10.3747 }
+    BoxExtent = { X=61.1792, Y=37.5, Z=46.9384 }
+    SphereRadius = 84.5993
+}

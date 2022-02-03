@@ -1,23 +1,11 @@
-Materials[2] =
+Materials[1] =
 {
     Materials[0] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ShortBow_Unique1/M_ShortBow_Unique1.M_ShortBow_Unique1'
-    Materials[1] = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ShortBow_Unique1/M_ShortBow_Unique1.M_ShortBow_Unique1'
 }
 SourceModels[0] = {}
-StaticMaterials[2] =
+StaticMaterials[1] =
 {
     StaticMaterials[0] =
-    {
-        MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ShortBow_Unique1/M_ShortBow_Unique1.M_ShortBow_Unique1'
-        MaterialSlotName = M_ShortBow
-        UVChannelData =
-        {
-            bInitialized = true
-            bOverrideDensities = false
-            LocalUVDensities[4] = { 0, 0, 0, 0 }
-        }
-    }
-    StaticMaterials[1] =
     {
         MaterialInterface = MaterialInstanceConstant'Actors/Equipment/RangedWeapons/ShortBow_Unique1/M_ShortBow_Unique1.M_ShortBow_Unique1'
         MaterialSlotName = pPlane13SG
@@ -25,7 +13,7 @@ StaticMaterials[2] =
         {
             bInitialized = true
             bOverrideDensities = false
-            LocalUVDensities[4] = { 200.017, 133.078, 0, 0 }
+            LocalUVDensities[4] = { 200.017, 133.105, 0, 0 }
         }
     }
 }

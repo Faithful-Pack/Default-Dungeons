@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Exterior_Sets/Mi_TT_BalconysSun.Mi_TT_BalconysSun'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'Content_Season1/Decor/Prefab/Exterior_Sets/Mi_TT_BalconysSun.Mi_TT_BalconysSun'
+        MaterialSlotName = Material #5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.859, 6243.56, 3759, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1800, Y=-1800, Z=-150 }
+    BoxExtent = { X=2000, Y=2000, Z=150 }
+    SphereRadius = 2832.4
+}

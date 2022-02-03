@@ -38,14 +38,14 @@ RetargetSourceAssetReferencePose[0] = {}
 bEnableRootMotion = false
 AuthoredSyncMarkers[0] = {}
 BakedPerBoneCustomAttributeData[0] = {}
-Notifies[4] =
+Notifies[7] =
 {
     Notifies[0] =
     {
-        TriggerTimeOffset = 0
+        TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
         TriggerWeightThreshold = 1e-05
-        NotifyName = PlayParticleEffect
+        NotifyName = PlaySound
         Duration = 0
         EndLink =
         {
@@ -56,7 +56,7 @@ Notifies[4] =
         }
         bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 1
+        TrackIndex = 3
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
@@ -64,10 +64,10 @@ Notifies[4] =
     }
     Notifies[1] =
     {
-        TriggerTimeOffset = 0
+        TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
         TriggerWeightThreshold = 1e-05
-        NotifyName = PlayParticleEffect
+        NotifyName = PlaySound
         Duration = 0
         EndLink =
         {
@@ -100,13 +100,79 @@ Notifies[4] =
         }
         bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 3
+        TrackIndex = 1
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
         SegmentLength = 4.76
     }
     Notifies[3] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 4.76
+    }
+    Notifies[4] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PlayParticleEffect
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 4.76
+    }
+    Notifies[5] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PlayParticleEffect
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 4.76
+    }
+    Notifies[6] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
@@ -175,14 +241,14 @@ RetargetSourceAssetReferencePose[0] = {}
 bEnableRootMotion = false
 AuthoredSyncMarkers[0] = {}
 BakedPerBoneCustomAttributeData[0] = {}
-Notifies[4] =
+Notifies[7] =
 {
     Notifies[0] =
     {
-        TriggerTimeOffset = 0
+        TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
         TriggerWeightThreshold = 1e-05
-        NotifyName = PlayParticleEffect
+        NotifyName = PlaySound
         Duration = 0
         EndLink =
         {
@@ -193,7 +259,7 @@ Notifies[4] =
         }
         bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 1
+        TrackIndex = 3
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
@@ -201,10 +267,10 @@ Notifies[4] =
     }
     Notifies[1] =
     {
-        TriggerTimeOffset = 0
+        TriggerTimeOffset = 0.0001
         EndTriggerTimeOffset = 0
         TriggerWeightThreshold = 1e-05
-        NotifyName = PlayParticleEffect
+        NotifyName = PlaySound
         Duration = 0
         EndLink =
         {
@@ -237,13 +303,79 @@ Notifies[4] =
         }
         bConvertedFromBranchingPoint = false
         NotifyTriggerChance = 1
-        TrackIndex = 3
+        TrackIndex = 1
         SlotIndex = 0
         SegmentIndex = 0
         SegmentBeginTime = 0
         SegmentLength = 4.76
     }
     Notifies[3] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PlaySound
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 2
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 4.76
+    }
+    Notifies[4] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PlayParticleEffect
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 4
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 4.76
+    }
+    Notifies[5] =
+    {
+        TriggerTimeOffset = 0
+        EndTriggerTimeOffset = 0
+        TriggerWeightThreshold = 1e-05
+        NotifyName = PlayParticleEffect
+        Duration = 0
+        EndLink =
+        {
+            SlotIndex = 0
+            SegmentIndex = -1
+            SegmentBeginTime = 0
+            SegmentLength = 0
+        }
+        bConvertedFromBranchingPoint = false
+        NotifyTriggerChance = 1
+        TrackIndex = 3
+        SlotIndex = 0
+        SegmentIndex = 0
+        SegmentBeginTime = 0
+        SegmentLength = 4.76
+    }
+    Notifies[6] =
     {
         TriggerTimeOffset = 0
         EndTriggerTimeOffset = 0
